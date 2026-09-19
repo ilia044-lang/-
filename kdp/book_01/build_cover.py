@@ -55,6 +55,14 @@ FRONT_X0 = SPINE_X0 + SPINE
 
 BARCODE_W, BARCODE_H = 2.0 * inch, 1.2 * inch
 
+# cover palette. The interior stays pure B&W - the cover is full colour at no
+# extra print cost, so it uses it. Yellow + navy survives CMYK and stays
+# readable at 200px thumbnail width.
+BG        = (1.00, 0.85, 0.24)   # sunny yellow
+INK       = (0.106, 0.227, 0.361)  # deep navy
+PANEL     = (1, 1, 1)
+BADGE     = [(1.00, 0.42, 0.42), (0.31, 0.80, 0.77), (0.65, 0.55, 0.98)]
+
 TITLE = "COLOR, CUT & GLUE"
 SUBTITLE = "ANIMAL HOMES"
 STRAP = "Scissor Skills & Coloring Activity Book  ·  Ages 3-6"
@@ -102,36 +110,66 @@ def place(c, path, x, y, w, h, label):
     c.restoreState()
 
 
+def draw_steps(c, x0, y, w, r=0.34 * inch, label_size=12, num_size=22):
+    """Three numbered circles: COLOR -> CUT -> GLUE. Pure vector, needs no art."""
+    slot = w / 3
+    for i, word in enumerate(["COLOR", "CUT", "GLUE"]):
+        cx = x0 + slot * i + slot / 2
+        c.setFillColorRGB(*BADGE[i])
+        c.circle(cx, y, r, stroke=0, fill=1)
+        c.setFillColorRGB(1, 1, 1); c.setFont(DISPLAY, num_size)
+        c.drawCentredString(cx, y - num_size * 0.36, str(i + 1))
+        c.setFillColorRGB(*INK); c.setFont(DISPLAY, label_size)
+        c.drawCentredString(cx, y - r - 0.24 * inch, word)
+        if i < 2:                                   # arrow to the next step
+            ax, k = cx + slot / 2, r * 0.26
+            c.setStrokeColorRGB(*INK); c.setLineWidth(1.6)
+            c.line(ax - k * 2, y, ax + k * 2, y)
+            c.line(ax + k * 2, y, ax + k * 0.7, y + k * 1.1)
+            c.line(ax + k * 2, y, ax + k * 0.7, y - k * 1.1)
+    c.setLineWidth(1)
+
+
 def draw_front(c, art):
     x0, y0 = FRONT_X0 + SAFE, BLEED + SAFE
     w, h = TRIM_W - 2 * SAFE, TRIM_H - 2 * SAFE
 
-    c.setFillColorRGB(0, 0, 0)
+    c.setFillColorRGB(*INK)
     c.setFont(DISPLAY, 40)
     c.drawCentredString(x0 + w / 2, y0 + h - 0.85 * inch, TITLE)
     c.setFont(DISPLAY, 60)
     c.drawCentredString(x0 + w / 2, y0 + h - 1.75 * inch, SUBTITLE)
-
     c.setFont(BODY, 14)
     c.drawCentredString(x0 + w / 2, y0 + h - 2.2 * inch, STRAP)
 
+    # white panel so the coloured animals never sit on the yellow
+    ph = h - 4.0 * inch
+    c.setFillColorRGB(*PANEL)
+    c.roundRect(x0 - 0.1 * inch, y0 + 1.45 * inch,
+                w + 0.2 * inch, ph + 0.1 * inch, 14, stroke=0, fill=1)
     place(c, os.path.join(art, "cover_hero.png") if art else None,
-          x0, y0 + 1.5 * inch, w, h - 4.0 * inch, "cover_hero.png")
+          x0, y0 + 1.5 * inch, w, ph, "cover_hero.png")
 
-    # the three-promise badge row - this is what sells at thumbnail size
+    # the hero art leaves a large empty oval at its centre - fill it with the
+    # book's actual mechanism rather than leaving a white hole
+    draw_steps(c, x0 + w * 0.22, y0 + 1.5 * inch + ph / 2 + 0.12 * inch,
+               w * 0.56, r=0.26 * inch, label_size=9, num_size=16)
+
+    # three coloured badges - what the eye catches in a search result
     bw = w / 3
-    for i, (big, small) in enumerate([("40", "COLORING\nPAGES"),
-                                      ("24", "CUT-OUT\nANIMALS"),
-                                      ("5", "HABITAT\nSCENES")]):
+    for i, (big, small) in enumerate([("40", "COLORING PAGES"),
+                                      ("24", "CUT-OUT ANIMALS"),
+                                      ("5", "HABITAT SCENES")]):
         cx = x0 + bw * i + bw / 2
-        c.setFont(DISPLAY, 42)
-        c.drawCentredString(cx, y0 + 0.95 * inch, big)
-        c.setFont(BODY, 11)
-        for j, line in enumerate(small.split("\n")):
-            c.drawCentredString(cx, y0 + 0.62 * inch - j * 13, line)
+        c.setFillColorRGB(*BADGE[i])
+        c.circle(cx, y0 + 1.00 * inch, 0.40 * inch, stroke=0, fill=1)
+        c.setFillColorRGB(1, 1, 1); c.setFont(DISPLAY, 32)
+        c.drawCentredString(cx, y0 + 0.87 * inch, big)
+        c.setFillColorRGB(*INK); c.setFont(DISPLAY, 11)
+        c.drawCentredString(cx, y0 + 0.42 * inch, small)
 
-    c.setFont(DISPLAY, 15)
-    c.drawCentredString(x0 + w / 2, y0 + 0.1 * inch, AUTHOR)
+    c.setFillColorRGB(*INK); c.setFont(DISPLAY, 14)
+    c.drawCentredString(x0 + w / 2, y0 + 0.08 * inch, AUTHOR)
 
 
 def draw_spine(c):
@@ -140,52 +178,38 @@ def draw_spine(c):
     c.saveState()
     c.translate(SPINE_X0 + SPINE / 2, BLEED + TRIM_H / 2)
     c.rotate(90)
-    c.setFillColorRGB(0, 0, 0); c.setFont(DISPLAY, 12)
+    c.setFillColorRGB(*INK); c.setFont(DISPLAY, 12)
     c.drawCentredString(0, -4.2, f"{SUBTITLE}   ·   {AUTHOR}")
     c.restoreState()
-
-
-def draw_steps(c, x0, y, w):
-    """Three numbered circles: COLOR -> CUT -> GLUE. Pure vector, needs no art."""
-    r = 0.34 * inch
-    slot = w / 3
-    for i, word in enumerate(["COLOR", "CUT", "GLUE"]):
-        cx = x0 + slot * i + slot / 2
-        c.setLineWidth(2.2); c.setStrokeColorRGB(0, 0, 0)
-        c.circle(cx, y, r, stroke=1, fill=0)
-        c.setFillColorRGB(0, 0, 0); c.setFont(DISPLAY, 22)
-        c.drawCentredString(cx, y - 8, str(i + 1))
-        c.setFont(DISPLAY, 12)
-        c.drawCentredString(cx, y - r - 0.24 * inch, word)
-        if i < 2:                                   # arrow to the next step
-            ax = cx + slot / 2
-            c.setLineWidth(1.6)
-            c.line(ax - 9, y, ax + 9, y)
-            c.line(ax + 9, y, ax + 3, y + 5)
-            c.line(ax + 9, y, ax + 3, y - 5)
-    c.setLineWidth(1)
 
 
 def draw_back(c, art):
     x0, y0 = BACK_X0 + SAFE, BLEED + SAFE
     w, h = TRIM_W - 2 * SAFE, TRIM_H - 2 * SAFE
-    y = y0 + h - 0.45 * inch
 
-    c.setFillColorRGB(0, 0, 0)
+    # white panel keeps the body copy readable over the yellow
+    c.setFillColorRGB(*PANEL)
+    c.roundRect(x0 - 0.12 * inch, y0 + BARCODE_H + 0.12 * inch,
+                w + 0.24 * inch, h - BARCODE_H + 0.05 * inch, 14,
+                stroke=0, fill=1)
+
+    y = y0 + h - 0.45 * inch
+    c.setFillColorRGB(*INK)
     for kind, text in BACK_BLURB:
         if kind == "gap":
             y -= 0.16 * inch
             continue
         if kind == "h":
             y -= 0.06 * inch
-            c.setFont(DISPLAY, 13)
+            c.setFillColorRGB(*INK); c.setFont(DISPLAY, 13)
             c.drawString(x0, y, text)
             y -= 0.26 * inch
         elif kind == "b":
             # drawn, not typed: Fredoka carries no U+2713 and a missing glyph
             # prints as an empty box
             c.saveState()
-            c.setLineWidth(1.8); c.setLineCap(1)
+            c.setLineWidth(2.0); c.setLineCap(1)
+            c.setStrokeColorRGB(0.42, 0.72, 0.36)
             c.line(x0 + 1, y + 2.5, x0 + 4, y - 0.5)
             c.line(x0 + 4, y - 0.5, x0 + 9, y + 6.5)
             c.restoreState()
@@ -200,7 +224,7 @@ def draw_back(c, art):
     # the dead zone between the blurb and the barcode earns its keep here
     draw_steps(c, x0, y0 + h * 0.30, w)
 
-    c.setFillColorRGB(0, 0, 0)
+    c.setFillColorRGB(*INK)
     c.setFont(BODY, 9)
     c.drawString(x0, y0 + BARCODE_H + 0.35 * inch,
                  "Ages 3-6  ·  Preschool & Kindergarten  ·  "
@@ -221,6 +245,8 @@ def draw_back(c, art):
 def build(out, art):
     c = canvas.Canvas(out, pagesize=(WRAP_W, WRAP_H))
     c.setTitle(f"{TITLE}: {SUBTITLE} - cover")
+    c.setFillColorRGB(*BG)                      # covers the full bleed area
+    c.rect(0, 0, WRAP_W, WRAP_H, stroke=0, fill=1)
     draw_back(c, art)
     draw_spine(c)
     draw_front(c, art)

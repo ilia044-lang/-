@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""
+Colorize black-and-white line art for the cover.
+
+The interior of the book stays pure black and white - that is the product, and
+color there would wreck the print cost. The COVER is printed in full color at no
+extra charge, so the cover artwork should use it.
+
+Method: label every white region enclosed by the black lines, then fill each one
+with a color from a fixed children's palette. Regions that touch the image
+border are background and stay white; very small regions (eye whites, highlights)
+stay white; one very large interior region is the title oval and stays white.
+
+    python3 colorize.py --in raw/cover_hero.png --out art/cover_hero_color.png
+"""
+import argparse
+import numpy as np
+import scipy.ndimage as ndi
+from PIL import Image
+
+# bright, high-contrast, and distinguishable when printed small
+PALETTE = [
+    (255, 107, 107),   # coral
+    (255, 217,  61),   # sunny yellow
+    ( 78, 205, 196),   # teal
+    ( 93, 169, 233),   # sky blue
+    (107, 203, 119),   # leaf green
+    (255, 159,  69),   # orange
+    (255, 143, 171),   # pink
+    (167, 139, 250),   # purple
+]
+
+MIN_AREA_FRAC = 0.00025   # below this a region is an eye white or a highlight
+OVAL_AREA_FRAC = 0.10     # above this an interior region is the title oval
+
+
+def colorize(src, dst, line_threshold=128):
+    gray = np.array(Image.open(src).convert("L"))
+    h, w = gray.shape
+    total = h * w
+
+    white = gray > line_threshold
+    lab, n = ndi.label(white)
+
+    out = np.stack([gray] * 3, axis=-1).astype(np.uint8)
+    out[white] = 255                       # clean any anti-aliased gray away
+
+    # a region touching the border is outside the drawing
+    border = set(lab[0].tolist()) | set(lab[-1].tolist()) \
+        | set(lab[:, 0].tolist()) | set(lab[:, -1].tolist())
+
+    areas = ndi.sum(white, lab, range(1, n + 1))
+    filled = 0
+    for i, area in enumerate(areas, start=1):
+        if i in border:
+            continue                       # background
+        frac = area / total
+        if frac < MIN_AREA_FRAC:
+            continue                       # eye white, tiny highlight
+        if frac > OVAL_AREA_FRAC:
+            continue                       # the title oval
+        out[lab == i] = PALETTE[filled % len(PALETTE)]
+        filled += 1
+
+    # keep the lines crisp black over the fills
+    out[~white] = 0
+
+    Image.fromarray(out).save(dst, dpi=(300, 300))
+    return filled, n
+
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--in", dest="src", required=True)
+    ap.add_argument("--out", dest="dst", required=True)
+    a = ap.parse_args()
+    filled, n = colorize(a.src, a.dst)
+    print(f"{a.dst}: filled {filled} of {n} regions")
