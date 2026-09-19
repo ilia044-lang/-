@@ -33,9 +33,22 @@ if git diff --cached --quiet; then
   echo "אין שינויים לגבות."
 else
   git commit -q -m "${1:-backup: sync skills and project files $(date -u +%Y-%m-%d)}"
-  for i in 1 2 4 8 16; do
-    git push -u origin "$BRANCH" && { echo "✓ נדחף ל-$BRANCH"; exit 0; }
-    echo "push נכשל, מנסה שוב בעוד ${i}s..."; sleep "$i"
-  done
-  echo "✗ push נכשל אחרי 5 נסיונות"; exit 1
+fi
+
+pushed=0
+for i in 1 2 4 8 16; do
+  git push -u origin "$BRANCH" && { echo "✓ נדחף ל-$BRANCH"; pushed=1; break; }
+  echo "push נכשל, מנסה שוב בעוד ${i}s..."; sleep "$i"
+done
+[ "$pushed" = "1" ] || { echo "✗ push נכשל אחרי 5 נסיונות"; exit 1; }
+
+# עותק שני על main. fast-forward בלבד — אם main התפצל זו החלטת מיזוג של אדם,
+# לא force-push של סקריפט.
+if [ "$BRANCH" = "main" ]; then
+  :
+elif git push origin "HEAD:main"; then
+  echo "✓ נדחף ל-main"
+else
+  echo "⚠ main לא עודכן — הוא התפצל מהענף. מזג ידנית:"
+  echo "    git fetch origin main && git merge origin/main"
 fi

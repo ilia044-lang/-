@@ -33,9 +33,18 @@ fi
 ahead=$(git rev-list --count "origin/$branch..HEAD" 2>/dev/null || echo 0)
 [[ "$ahead" == "0" && "$changed" == "0" ]] && exit 0
 
-if git push -q -u origin "$branch" >/dev/null 2>&1; then
-  msg "🟣 מגובה — נדחף ל-$branch"
-else
+if ! git push -q -u origin "$branch" >/dev/null 2>&1; then
   msg "🔴 הגיבוי נכשל — הרץ ./backup.sh ידנית (ענף $branch)"
+  exit 0
+fi
+
+# second copy on main. Fast-forward only: a rejected push means main moved on
+# its own, which is a merge decision for a human, never a force-push here.
+if [[ "$branch" == "main" ]]; then
+  msg "🟣 מגובה — נדחף ל-main"
+elif git push -q origin "HEAD:main" >/dev/null 2>&1; then
+  msg "🟣 מגובה — $branch + main"
+else
+  msg "🟣 מגובה ל-$branch · ⚠ main התפצל — צריך מיזוג ידני"
 fi
 exit 0
