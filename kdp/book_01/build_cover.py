@@ -20,6 +20,24 @@ import argparse, os
 from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+
+
+def load_fonts():
+    """Fredoka (SIL OFL, commercial use permitted) - a rounded display face
+    that reads as a children's book. Falls back to Helvetica if absent."""
+    try:
+        pdfmetrics.registerFont(TTFont("Display", os.path.join(FONT_DIR, "Fredoka-Bold.ttf")))
+        pdfmetrics.registerFont(TTFont("Body", os.path.join(FONT_DIR, "Fredoka-SemiBold.ttf")))
+        return "Display", "Body"
+    except Exception:
+        return "Helvetica-Bold", "Helvetica"
+
+
+DISPLAY, BODY = load_fonts()
 
 PAGES = 110
 TRIM_W, TRIM_H = 8.5 * inch, 11.0 * inch
@@ -89,12 +107,12 @@ def draw_front(c, art):
     w, h = TRIM_W - 2 * SAFE, TRIM_H - 2 * SAFE
 
     c.setFillColorRGB(0, 0, 0)
-    c.setFont("Helvetica-Bold", 44)
+    c.setFont(DISPLAY, 40)
     c.drawCentredString(x0 + w / 2, y0 + h - 0.85 * inch, TITLE)
-    c.setFont("Helvetica-Bold", 62)
+    c.setFont(DISPLAY, 60)
     c.drawCentredString(x0 + w / 2, y0 + h - 1.75 * inch, SUBTITLE)
 
-    c.setFont("Helvetica", 14)
+    c.setFont(BODY, 14)
     c.drawCentredString(x0 + w / 2, y0 + h - 2.2 * inch, STRAP)
 
     place(c, os.path.join(art, "cover_hero.png") if art else None,
@@ -106,13 +124,13 @@ def draw_front(c, art):
                                       ("24", "CUT-OUT\nANIMALS"),
                                       ("5", "HABITAT\nSCENES")]):
         cx = x0 + bw * i + bw / 2
-        c.setFont("Helvetica-Bold", 40)
+        c.setFont(DISPLAY, 42)
         c.drawCentredString(cx, y0 + 0.95 * inch, big)
-        c.setFont("Helvetica-Bold", 11)
+        c.setFont(BODY, 11)
         for j, line in enumerate(small.split("\n")):
             c.drawCentredString(cx, y0 + 0.62 * inch - j * 13, line)
 
-    c.setFont("Helvetica-Bold", 15)
+    c.setFont(DISPLAY, 15)
     c.drawCentredString(x0 + w / 2, y0 + 0.1 * inch, AUTHOR)
 
 
@@ -122,7 +140,7 @@ def draw_spine(c):
     c.saveState()
     c.translate(SPINE_X0 + SPINE / 2, BLEED + TRIM_H / 2)
     c.rotate(90)
-    c.setFillColorRGB(0, 0, 0); c.setFont("Helvetica-Bold", 12)
+    c.setFillColorRGB(0, 0, 0); c.setFont(DISPLAY, 12)
     c.drawCentredString(0, -4.2, f"{SUBTITLE}   ·   {AUTHOR}")
     c.restoreState()
 
@@ -135,9 +153,9 @@ def draw_steps(c, x0, y, w):
         cx = x0 + slot * i + slot / 2
         c.setLineWidth(2.2); c.setStrokeColorRGB(0, 0, 0)
         c.circle(cx, y, r, stroke=1, fill=0)
-        c.setFillColorRGB(0, 0, 0); c.setFont("Helvetica-Bold", 22)
+        c.setFillColorRGB(0, 0, 0); c.setFont(DISPLAY, 22)
         c.drawCentredString(cx, y - 8, str(i + 1))
-        c.setFont("Helvetica-Bold", 12)
+        c.setFont(DISPLAY, 12)
         c.drawCentredString(cx, y - r - 0.24 * inch, word)
         if i < 2:                                   # arrow to the next step
             ax = cx + slot / 2
@@ -160,15 +178,22 @@ def draw_back(c, art):
             continue
         if kind == "h":
             y -= 0.06 * inch
-            c.setFont("Helvetica-Bold", 13)
+            c.setFont(DISPLAY, 13)
             c.drawString(x0, y, text)
             y -= 0.26 * inch
         elif kind == "b":
-            c.setFont("Helvetica", 10.5)
-            c.drawString(x0, y, "✓   " + text)
+            # drawn, not typed: Fredoka carries no U+2713 and a missing glyph
+            # prints as an empty box
+            c.saveState()
+            c.setLineWidth(1.8); c.setLineCap(1)
+            c.line(x0 + 1, y + 2.5, x0 + 4, y - 0.5)
+            c.line(x0 + 4, y - 0.5, x0 + 9, y + 6.5)
+            c.restoreState()
+            c.setFont(BODY, 10.5)
+            c.drawString(x0 + 15, y, text)
             y -= 0.215 * inch
         else:
-            c.setFont("Helvetica", 10.5)
+            c.setFont(BODY, 10.5)
             c.drawString(x0, y, text)
             y -= 0.215 * inch
 
@@ -176,7 +201,7 @@ def draw_back(c, art):
     draw_steps(c, x0, y0 + h * 0.30, w)
 
     c.setFillColorRGB(0, 0, 0)
-    c.setFont("Helvetica-Oblique", 9)
+    c.setFont(BODY, 9)
     c.drawString(x0, y0 + BARCODE_H + 0.35 * inch,
                  "Ages 3-6  ·  Preschool & Kindergarten  ·  "
                  "Use safety scissors with adult help")
