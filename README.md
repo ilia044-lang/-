@@ -7,11 +7,27 @@
 | גיבוי הסקילים האישיים (BubiPop) | `skills-backup/` |
 | סקריפט גיבוי | `backup.sh` |
 
-## גיבוי
+## גיבוי — אוטומטי
+
+הגיבוי רץ **לבד** בסוף כל תשובה של Claude (Stop hook). אתה לא צריך לזכור כלום.
+
+**הסימון בשורת הסטטוס אומר לך איפה אתה עומד:**
+
+| | מצב |
+|---|---|
+| 🟣 **● מגובה** | הכל שמור והכל ב-GitHub. שקט. |
+| 🟡 **● N לא נשמרו** | יש שינויים מקומיים שעוד לא נכנסו לקומיט |
+| 🔴 **● N לא נדחפו** | שמור מקומית, אבל **לא** ב-GitHub — הרץ `./backup.sh` |
+
+ידנית, מתי שבא לך:
 ```bash
-./backup.sh                  # מסנכרן סקילים, מוסיף הכל, דוחף ל-GitHub
+./backup.sh                  # מסנכרן סקילים, מוסיף הכל, דוחף עם retry
 ```
-הכל בענף `claude/amazon-book-creation-machine-fxlvzm` ב-GitHub. כל דחיפה היא הגיבוי.
+
+הכל בענף `claude/amazon-book-creation-machine-fxlvzm` ב-GitHub.
+
+**מה מגובה איפה:** `.claude/settings.json` מחבר את הכל —
+`.claude/hooks/autobackup.sh` (Stop hook) ו-`.claude/hooks/backup-status.sh` (שורת סטטוס).
 
 ## התחלה מהירה — כמה ארוויח על ספר?
 ```bash

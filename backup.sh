@@ -25,6 +25,9 @@ else
   echo "  ! לא נמצאה תיקיית skills מסונכרנת — משאיר את הגיבוי הקיים"
 fi
 
+# called from the Stop hook: mirror the skills only, let the hook commit and push
+[ "${BACKUP_NO_PUSH:-0}" = "1" ] && exit 0
+
 git add -A
 if git diff --cached --quiet; then
   echo "אין שינויים לגבות."

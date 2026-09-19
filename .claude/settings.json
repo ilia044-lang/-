@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "statusLine": {
+    "type": "command",
+    "command": "bash .claude/hooks/backup-status.sh",
+    "refreshInterval": 10
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/autobackup.sh",
+            "timeout": 120,
+            "statusMessage": "מגבה ל-GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
