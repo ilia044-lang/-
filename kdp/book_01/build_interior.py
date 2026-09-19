@@ -120,10 +120,6 @@ def build(out, art_dir):
         for a in animals:
             n = newpage()
             draw_art(c, A(f"color_{hab}_{a}.png"), safe_box(n), f"{a.upper()}")
-            c.setFont("Helvetica", 9); c.setFillColorRGB(.55, .55, .55)
-            bx, by, bw, _ = safe_box(n)
-            c.drawCentredString(bx + bw / 2, by - 0.0 * inch, "bubi")
-            c.setFillColorRGB(0, 0, 0)
             c.showPage()
             blank()                                  # blank back - no bleed-through
 
