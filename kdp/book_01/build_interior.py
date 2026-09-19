@@ -144,6 +144,62 @@ def folio(c, page_no):
     c.setFillGray(0)
 
 
+def step_icon(c, cx, cy, s, kind):
+    """One vector icon per instruction step. Children who cannot read yet still
+    follow the page, and a parent reads it in one glance."""
+    c.setLineWidth(3.5); c.setLineJoin(1); c.setLineCap(1)
+    if kind == "crayon":
+        c.rect(cx - 0.26 * s, cy - 0.85 * s, 0.52 * s, 1.35 * s)
+        c.line(cx - 0.26 * s, cy + 0.5 * s, cx, cy + 0.95 * s)
+        c.line(cx, cy + 0.95 * s, cx + 0.26 * s, cy + 0.5 * s)
+        c.line(cx - 0.26 * s, cy + 0.1 * s, cx + 0.26 * s, cy + 0.1 * s)
+    elif kind == "scissors":
+        c.circle(cx - 0.28 * s, cy - 0.68 * s, 0.24 * s)
+        c.circle(cx + 0.28 * s, cy - 0.68 * s, 0.24 * s)
+        c.line(cx - 0.28 * s, cy - 0.44 * s, cx + 0.22 * s, cy + 0.92 * s)
+        c.line(cx + 0.28 * s, cy - 0.44 * s, cx - 0.22 * s, cy + 0.92 * s)
+    elif kind == "glue":
+        c.rect(cx - 0.28 * s, cy - 0.85 * s, 0.56 * s, 1.15 * s)
+        c.rect(cx - 0.2 * s, cy + 0.3 * s, 0.4 * s, 0.55 * s)
+    elif kind == "speak":
+        c.roundRect(cx - 0.8 * s, cy - 0.25 * s, 1.6 * s, 1.1 * s, 0.25 * s)
+        c.line(cx - 0.25 * s, cy - 0.25 * s, cx - 0.1 * s, cy - 0.8 * s)
+        c.line(cx - 0.1 * s, cy - 0.8 * s, cx + 0.25 * s, cy - 0.25 * s)
+    c.setLineWidth(1)
+
+
+def steps_page(c, page_no, title, steps, footer=None):
+    """A numbered, illustrated instruction page. Left-aligned, because a centred
+    list is hard for a new reader to track back to."""
+    x, y, w, h = safe_box(page_no)
+    cx = x + w / 2
+
+    c.setFont(DISPLAY, 46)
+    c.drawCentredString(cx, y + h - 1.15 * inch, title)
+    c.setLineWidth(3); c.setLineCap(1)
+    c.line(cx - 0.9 * inch, y + h - 1.5 * inch, cx + 0.9 * inch, y + h - 1.5 * inch)
+    c.setLineWidth(1)
+
+    ty = y + h - 2.7 * inch
+    nx = x + 0.7 * inch                       # number column
+    ix = x + 1.7 * inch                       # icon column
+    tx = x + 2.6 * inch                       # text column
+    for i, (icon, line) in enumerate(steps):
+        c.setLineWidth(4)
+        c.circle(nx, ty, 0.42 * inch)
+        c.setLineWidth(1)
+        c.setFont(DISPLAY, 34)
+        c.drawCentredString(nx, ty - 0.16 * inch, str(i + 1))
+        step_icon(c, ix, ty, 0.5 * inch, icon)
+        c.setFont(BODY, 21)
+        c.drawString(tx, ty - 0.1 * inch, line)
+        ty -= 1.75 * inch
+
+    if footer:
+        c.setFont(BODY, 17)
+        c.drawCentredString(cx, y + 0.9 * inch, footer)
+
+
 def tool_icons(c, cx, y, size):
     """Crayon, safety scissors and glue stick, drawn as vectors - no art needed."""
     s = size
@@ -237,12 +293,12 @@ def build(out, art_dir):
     c.roundRect(cx - 2.2 * inch, ty - 6.9 * inch, 4.4 * inch, 3.3 * inch, 12)
     c.setDash(); c.setLineWidth(1)
     c.showPage()
-    text_page(c, newpage(), "How To Use This Book", [
-        "1.  Color the animal.",
-        "2.  Cut it out along the dotted line.",
-        "3.  Glue it where it lives.",
-        "4.  Say it out loud!",
-        "", "Always use safety scissors with a grown-up."])
+    steps_page(c, newpage(), "How To Use This Book",
+               [("crayon",   "Color the animal."),
+                ("scissors", "Cut it out."),
+                ("glue",     "Glue it where it lives."),
+                ("speak",    "Say it out loud!")],
+               footer="Always use safety scissors with a grown-up.")
     c.showPage()
     n = newpage()
     text_page(c, n, "What You Will Need", [], top=1.3)
@@ -290,11 +346,12 @@ def build(out, art_dir):
         c.setFont(DISPLAY, 30)
         c.drawString(cx - 0.4 * inch, sy - 0.12 * inch, word)
     c.showPage()
-    text_page(c, newpage(), "Time To Cut", [
-        "Color each animal first.",
-        "Then cut along the dotted line.",
-        "Keep them in a safe place!",
-        "", "Grown-ups: safety scissors only."])
+    steps_page(c, newpage(), "Time To Cut",
+               [("crayon",   "Color each animal first."),
+                ("scissors", "Cut along the dotted line."),
+                ("glue",     "Keep them somewhere safe."),
+                ("speak",    "Then find their home!")],
+               footer="Grown-ups: safety scissors only, please.")
     c.showPage()
 
     # --- 24 cut-out cards, 4 per sheet, single-sided (pages 87-98)
