@@ -82,6 +82,8 @@ little hands. One animal per page. No tiny details to frustrate a three-year-old
 practice, not busywork.</li>
 <li><b>5 full-page habitat scenes</b> &mdash; the Ocean, the Sky, the Farm, the
 Jungle and the Forest at Night.</li>
+<li><b>Every page is labelled</b> with the animal's name in big, friendly letters
+&mdash; and where it lives. First reading words, without a worksheet in sight.</li>
 <li><b>A finish-the-book certificate</b> with space for your child's name.</li>
 </ul>
 <b>HOW IT WORKS</b>
@@ -97,8 +99,8 @@ sky, the cow on the farm.<br>
 <li><b>Single-sided pages.</b> Markers will never bleed through onto the next
 picture &mdash; the number one complaint about coloring books, solved.</li>
 <li><b>Big 8.5 x 11 pages</b> with room for a whole hand.</li>
-<li><b>Builds three things at once:</b> scissor skills, pencil grip, and first
-science words.</li>
+<li><b>Builds four things at once:</b> scissor skills, pencil grip, first reading
+words, and first science words.</li>
 <li><b>Turns screen time into table time.</b></li>
 </ul>
 <b>Ages 3-6 &middot; Preschool &amp; Kindergarten</b>

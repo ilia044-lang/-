@@ -47,6 +47,19 @@ CUTOUTS = {              # 6 sheets x 4 animals = 24 cut-out cards
 SCENES = [("ocean", "Under the Sea"), ("sky", "Up in the Sky"), ("farm", "On the Farm"),
           ("jungle", "In the Jungle"), ("night", "Forest at Night")]
 
+# Every colouring page is captioned. Competitors that sell (SOCOLER's
+# paint-with-water books label every page) do this because the caption turns a
+# picture into a first-reading-word, and because an uncaptioned drawing floating
+# on white reads as unfinished. The habitat line also keeps reminding the child
+# where the animal is going to be glued.
+HABITAT_LABEL = {
+    "ocean":  "lives in the OCEAN",
+    "sky":    "lives in the SKY",
+    "farm":   "lives on the FARM",
+    "jungle": "lives in the JUNGLE",
+    "night":  "lives in the FOREST",
+}
+
 
 FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
 
@@ -168,7 +181,16 @@ def build(out, art_dir):
     for hab, animals in HABITATS.items():
         for a in animals:
             n = newpage()
-            draw_art(c, A(f"color_{hab}_{a}.png"), safe_box(n), f"{a.upper()}")
+            x, y, w, h = safe_box(n)
+            caption = 1.15 * inch                    # room reserved under the art
+            draw_art(c, A(f"color_{hab}_{a}.png"),
+                     (x, y + caption, w, h - caption), f"{a.upper()}")
+
+            cx = x + w / 2
+            c.setFont(DISPLAY, 40)
+            c.drawCentredString(cx, y + 0.52 * inch, a.upper())
+            c.setFont(BODY, 13)
+            c.drawCentredString(cx, y + 0.22 * inch, HABITAT_LABEL[hab])
             c.showPage()
             blank()                                  # blank back - no bleed-through
 
@@ -201,7 +223,9 @@ def build(out, art_dir):
                                         for h2 in HABITATS)
                             if p and os.path.exists(p)), cut)
             draw_art(c, cut,
-                     (cx + 22, cy + 22, w / 2 - 44, h / 2 - 44), a.upper())
+                     (cx + 22, cy + 40, w / 2 - 44, h / 2 - 62), a.upper())
+            c.setFont(DISPLAY, 15)
+            c.drawCentredString(cx + w / 4, cy + 20, a.upper())
         c.showPage()
         blank()
 
