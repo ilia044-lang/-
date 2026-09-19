@@ -171,7 +171,7 @@ def place(c, path, x, y, w, h, label):
     c.saveState()
     c.setDash(4, 4); c.setStrokeColorRGB(.78, .78, .78)
     c.rect(x, y, w, h)
-    c.setFillColorRGB(.62, .62, .62); c.setFont("Helvetica", 13)
+    c.setFillColorRGB(.62, .62, .62); c.setFont(BODY, 13)
     c.drawCentredString(x + w / 2, y + h / 2, f"[ {label} ]")
     c.restoreState()
 
@@ -357,14 +357,15 @@ def draw_back(c, art):
     c.saveState()
     c.setDash(3, 3); c.setStrokeColorRGB(.8, .8, .8)
     c.rect(bx, by, BARCODE_W, BARCODE_H)
-    c.setFillColorRGB(.72, .72, .72); c.setFont("Helvetica", 8)
+    c.setFillColorRGB(.72, .72, .72); c.setFont(BODY, 8)
     c.drawCentredString(bx + BARCODE_W / 2, by + BARCODE_H / 2,
                         "KDP barcode - keep clear")
     c.restoreState()
 
 
 def build(out, art):
-    c = canvas.Canvas(out, pagesize=(WRAP_W, WRAP_H))
+    c = canvas.Canvas(out, pagesize=(WRAP_W, WRAP_H),
+                      initialFontName=BODY, initialFontSize=10)
     c.setTitle(f"{TITLE}: {SUBTITLE} - cover")
     c.setFillColorRGB(*BG)                      # covers the full bleed area
     c.rect(0, 0, WRAP_W, WRAP_H, stroke=0, fill=1)

@@ -96,9 +96,9 @@ def draw_art(c, path, box, label):
     else:
         c.setDash(4, 4); c.setStrokeColorRGB(.75, .75, .75)
         c.rect(x, y, w, h); c.setDash()
-        c.setFillColorRGB(.6, .6, .6); c.setFont("Helvetica", 22)
+        c.setFillColorRGB(.6, .6, .6); c.setFont(DISPLAY, 22)
         c.drawCentredString(x + w / 2, y + h / 2, f"[ {label} ]")
-        c.setFont("Helvetica", 10)
+        c.setFont(BODY, 10)
         c.drawCentredString(x + w / 2, y + h / 2 - 26, "art placeholder")
         c.setFillColorRGB(0, 0, 0)
 
@@ -243,7 +243,8 @@ def write_line(c, cx, y, width, label=None):
 
 
 def build(out, art_dir):
-    c = canvas.Canvas(out, pagesize=(PAGE_W, PAGE_H))
+    c = canvas.Canvas(out, pagesize=(PAGE_W, PAGE_H),
+                      initialFontName=BODY, initialFontSize=10)
     c.setTitle("Color, Cut & Glue: Animal Homes")
     A = lambda n: os.path.join(art_dir, n) if art_dir else None
     page = 0
