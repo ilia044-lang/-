@@ -30,11 +30,34 @@ PALETTE = [
     (167, 139, 250),   # purple
 ]
 
+DPI = 300
 MIN_AREA_FRAC = 0.00025   # below this a region is an eye white or a highlight
 OVAL_AREA_FRAC = 0.10     # above this an interior region is the title oval
 
 
-def colorize(src, dst, line_threshold=128):
+def _lum(c):
+    f = lambda v: v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+    r, g, b = (f(x / 255) for x in c)
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def usable_palette(avoid, floor=1.4):
+    """Drop palette entries that would vanish against the cover background.
+    The stock palette contains a yellow identical to the sunshine theme, which
+    made the dolphin disappear at thumbnail size."""
+    if not avoid:
+        return PALETTE
+    la = _lum(avoid)
+    keep = []
+    for c in PALETTE:
+        lc = _lum(c)
+        hi, lo = max(la, lc), min(la, lc)
+        if (hi + 0.05) / (lo + 0.05) >= floor:
+            keep.append(c)
+    return keep or PALETTE
+
+
+def colorize(src, dst, line_threshold=128, avoid=None):
     gray = np.array(Image.open(src).convert("L"))
     h, w = gray.shape
     total = h * w
@@ -49,6 +72,7 @@ def colorize(src, dst, line_threshold=128):
     border = set(lab[0].tolist()) | set(lab[-1].tolist()) \
         | set(lab[:, 0].tolist()) | set(lab[:, -1].tolist())
 
+    pal = usable_palette(avoid)
     areas = ndi.sum(white, lab, range(1, n + 1))
     filled = 0
     for i, area in enumerate(areas, start=1):
@@ -59,13 +83,21 @@ def colorize(src, dst, line_threshold=128):
             continue                       # eye white, tiny highlight
         if frac > OVAL_AREA_FRAC:
             continue                       # the title oval
-        out[lab == i] = PALETTE[filled % len(PALETTE)]
+        out[lab == i] = pal[filled % len(pal)]
         filled += 1
 
     # keep the lines crisp black over the fills
     out[~white] = 0
 
-    Image.fromarray(out).save(dst, dpi=(300, 300))
+    # The outside background becomes transparent so the artwork sits directly on
+    # the cover colour instead of painting an unstyled white rectangle over it.
+    # Enclosed whites - the title oval, the eye whites - are kept opaque.
+    alpha = np.full((h, w), 255, dtype=np.uint8)
+    for i in border:
+        if i:
+            alpha[lab == i] = 0
+
+    Image.fromarray(np.dstack([out, alpha]), mode="RGBA").save(dst, dpi=(DPI, DPI))
     return filled, n
 
 
@@ -73,6 +105,11 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--in", dest="src", required=True)
     ap.add_argument("--out", dest="dst", required=True)
+    ap.add_argument("--avoid", help="cover background as RRGGBB; palette "
+                    "colours too close to it are dropped")
     a = ap.parse_args()
-    filled, n = colorize(a.src, a.dst)
-    print(f"{a.dst}: filled {filled} of {n} regions")
+    avoid = tuple(int(a.avoid[i:i+2], 16) for i in (0, 2, 4)) if a.avoid else None
+    pal = usable_palette(avoid)
+    filled, n = colorize(a.src, a.dst, avoid=avoid)
+    print(f"{a.dst}: filled {filled} of {n} regions "
+          f"using {len(pal)} of {len(PALETTE)} palette colours")

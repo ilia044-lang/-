@@ -83,6 +83,12 @@ THEMES = {
 }
 
 THEME = os.environ.get("COVER_THEME", "sunshine")
+LAYOUT = os.environ.get("COVER_LAYOUT", "oval")   # "oval" | "banner"
+
+# Where the empty title oval sits inside cover_hero.png, measured from the file
+# itself (largest enclosed white region) rather than guessed.
+OVAL_CX, OVAL_CY = 0.4988, 0.4486      # fraction of art width / height from top
+OVAL_W, OVAL_H = 0.5813, 0.3772
 _t = THEMES[THEME]
 BG, INK, BADGE = _t["bg"], _t["ink"], _t["badge"]
 PANEL = (1, 1, 1)
@@ -168,6 +174,61 @@ def place(c, path, x, y, w, h, label):
     c.setFillColorRGB(.62, .62, .62); c.setFont("Helvetica", 13)
     c.drawCentredString(x + w / 2, y + h / 2, f"[ {label} ]")
     c.restoreState()
+
+
+def fit_text(c, text, font, max_w, start):
+    """Largest size at or below `start` that keeps `text` inside `max_w`."""
+    size = start
+    while size > 6 and pdfmetrics.stringWidth(text, font, size) > max_w:
+        size -= 0.5
+    return size
+
+
+def draw_front_oval(c, art):
+    """Title inside the artwork's own oval. The squint test showed the banner
+    layout leaving a white void at the optical centre; this fills it, and the
+    animals go back to doing what a frame should do."""
+    x0, y0 = FRONT_X0 + SAFE, BLEED + SAFE
+    w, h = TRIM_W - 2 * SAFE, TRIM_H - 2 * SAFE
+
+    side = 7.6 * inch
+    ax, ay = x0 + (w - side) / 2, y0 + 2.6 * inch
+    place(c, os.path.join(art, "cover_hero.png") if art else None,
+          ax, ay, side, side, "cover_hero.png")
+
+    cx = ax + OVAL_CX * side
+    cy = ay + side - OVAL_CY * side
+    inner = OVAL_W * side - 0.34 * inch          # oval width less padding
+
+    c.setFillColorRGB(*INK)
+    k = fit_text(c, TITLE, DISPLAY, inner, TYPE["title"] * 0.72)
+    c.setFont(DISPLAY, k)
+    c.drawCentredString(cx, cy + 0.62 * inch, TITLE)
+
+    t = fit_text(c, SUBTITLE, DISPLAY, inner, TYPE["hero"])
+    c.setFont(DISPLAY, t)
+    c.drawCentredString(cx, cy - 0.12 * inch, SUBTITLE)
+
+    c.setFont(BODY, TYPE["cap"])
+    c.drawCentredString(cx, cy - 0.66 * inch, "AGES 3-6")
+
+    c.setFont(BODY, TYPE["h"])
+    c.drawCentredString(x0 + w / 2, y0 + 2.12 * inch, STRAP)
+
+    bw = w / 3
+    for i, (big, small) in enumerate([("40", "COLORING PAGES"),
+                                      ("24", "CUT-OUT ANIMALS"),
+                                      ("5", "HABITAT SCENES")]):
+        bx = x0 + bw * i + bw / 2
+        c.setFillColorRGB(*BADGE[i])
+        c.circle(bx, y0 + 1.22 * inch, 0.42 * inch, stroke=0, fill=1)
+        c.setFillColorRGB(1, 1, 1); c.setFont(DISPLAY, TYPE["badge"])
+        c.drawCentredString(bx, y0 + 1.08 * inch, big)
+        c.setFillColorRGB(*INK); c.setFont(DISPLAY, TYPE["cap"])
+        c.drawCentredString(bx, y0 + 0.62 * inch, small)
+
+    c.setFillColorRGB(*INK); c.setFont(DISPLAY, TYPE["h"] + 1)
+    c.drawCentredString(x0 + w / 2, y0 + 0.22 * inch, AUTHOR)
 
 
 def draw_steps(c, x0, y, w, r=0.34 * inch, label_size=12, num_size=22):
@@ -309,7 +370,7 @@ def build(out, art):
     c.rect(0, 0, WRAP_W, WRAP_H, stroke=0, fill=1)
     draw_back(c, art)
     draw_spine(c)
-    draw_front(c, art)
+    (draw_front_oval if LAYOUT == "oval" else draw_front)(c, art)
     c.showPage()
     c.save()
 
@@ -328,7 +389,7 @@ if __name__ == "__main__":
     print(f"  at 300 DPI   : {round(WRAP_W/inch*300)} x {round(WRAP_H/inch*300)} px")
     print(f"  barcode zone : {BARCODE_W/inch:g}\" x {BARCODE_H/inch:g}\" "
           f"clear at back-cover bottom-right")
-    print(f"  theme        : {THEME}")
+    print(f"  theme        : {THEME}   layout: {LAYOUT}")
     rows, worst = check_contrast()
     for name, ratio, verdict, floor in rows:
         print(f"    {verdict}  {ratio:5.2f}:1  (floor {floor})  {name}")
