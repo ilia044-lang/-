@@ -103,7 +103,7 @@ def draw_art(c, path, box, label):
         c.setFillColorRGB(0, 0, 0)
 
 
-def text_page(c, page_no, title, lines, title_size=38, gap=0.5, top=None):
+def text_page(c, page_no, title, lines, title_size=46, gap=0.56, top=None):
     """A text page whose block sits in the upper-middle of the page, not jammed
     against the top. An 8.5x11 page with copy in the top quarter reads as a
     mistake; this centres the block in the space it actually has."""
@@ -127,7 +127,7 @@ def text_page(c, page_no, title, lines, title_size=38, gap=0.5, top=None):
         if ln == "":
             ty -= gap * 0.5 * inch
             continue
-        c.setFont(BODY, 17)
+        c.setFont(BODY, 20)
         c.drawCentredString(cx, ty, ln)
         ty -= gap * inch
     return ty
@@ -170,7 +170,7 @@ def tool_icons(c, cx, y, size):
     c.rect(d - 0.22 * s, y + 0.35 * s, 0.44 * s, 0.6 * s)
     c.setLineWidth(1)
 
-    c.setFont(BODY, 13)
+    c.setFont(DISPLAY, 15)
     for a, lbl in zip(slots, ["CRAYONS", "SAFETY\nSCISSORS", "GLUE STICK"]):
         for i, line in enumerate(lbl.split("\n")):
             c.drawCentredString(a, y - 1.25 * s - i * 15, line)
@@ -231,7 +231,7 @@ def build(out, art_dir):
     cx = bx + bw / 2
     write_line(c, cx, ty - 0.5 * inch, 4.8 * inch, "MY NAME")
     write_line(c, cx, ty - 2.1 * inch, 2.6 * inch, "I AM THIS MANY")
-    c.setFont(BODY, 15)
+    c.setFont(BODY, 18)
     c.drawCentredString(cx, ty - 3.4 * inch, "Draw a picture of yourself here!")
     c.setDash(5, 5); c.setLineWidth(2)
     c.roundRect(cx - 2.2 * inch, ty - 6.9 * inch, 4.4 * inch, 3.3 * inch, 12)
@@ -248,7 +248,7 @@ def build(out, art_dir):
     text_page(c, n, "What You Will Need", [], top=1.3)
     bx, by, bw, bh = safe_box(n)
     tool_icons(c, bx + bw / 2, by + bh - 4.3 * inch, 0.62 * inch)
-    c.setFont(BODY, 16)
+    c.setFont(BODY, 19)
     c.drawCentredString(bx + bw / 2, by + bh - 6.4 * inch,
                         "Bubi, Maya and Leo are waiting inside.")
     c.drawCentredString(bx + bw / 2, by + bh - 6.9 * inch,
@@ -260,15 +260,15 @@ def build(out, art_dir):
         for a in animals:
             n = newpage()
             x, y, w, h = safe_box(n)
-            caption = 1.15 * inch                    # room reserved under the art
+            caption = 1.45 * inch                    # room reserved under the art
             draw_art(c, A(f"color_{hab}_{a}.png"),
                      (x, y + caption, w, h - caption), f"{a.upper()}")
 
             cx = x + w / 2
-            c.setFont(DISPLAY, 40)
-            c.drawCentredString(cx, y + 0.52 * inch, a.upper())
-            c.setFont(BODY, 13)
-            c.drawCentredString(cx, y + 0.22 * inch, HABITAT_LABEL[hab])
+            c.setFont(DISPLAY, 58)
+            c.drawCentredString(cx, y + 0.62 * inch, a.upper())
+            c.setFont(BODY, 17)
+            c.drawCentredString(cx, y + 0.24 * inch, HABITAT_LABEL[hab])
             folio(c, n)
             c.showPage()
             blank()                                  # blank back - no bleed-through
@@ -317,7 +317,7 @@ def build(out, art_dir):
                             if p and os.path.exists(p)), cut)
             draw_art(c, cut,
                      (cx + 22, cy + 40, w / 2 - 44, h / 2 - 62), a.upper())
-            c.setFont(DISPLAY, 15)
+            c.setFont(DISPLAY, 19)
             c.drawCentredString(cx + w / 4, cy + 20, a.upper())
         c.showPage()
         blank()
@@ -330,13 +330,13 @@ def build(out, art_dir):
                    "Tick each box when it is home."], top=1.2)
         bx, by, bw, bh = safe_box(n)
         # the checklist the old version only described
-        box = 0.26 * inch
+        box = 0.32 * inch
         ly = by + bh - 3.6 * inch
         for a in HABITATS[hab]:
             c.setLineWidth(2.5)
             c.rect(bx + 1.5 * inch, ly - box * 0.2, box, box)
             c.setLineWidth(1)
-            c.setFont(BODY, 18)
+            c.setFont(DISPLAY, 22)
             c.drawString(bx + 1.5 * inch + box + 0.28 * inch, ly, a.upper())
             ly -= 0.62 * inch
         c.showPage()
