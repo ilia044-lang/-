@@ -1,29 +1,20 @@
-# KDP Factory — מכונת ייצור ספרים וחוברות לאמזון
+# KDP — פרויקטי ספרים בייצור
 
-| קובץ | מה זה |
+הידע, החוקים והכלים עברו ל**סקיל**: `.claude/skills/kdp-factory/`.
+התיקייה הזו מחזיקה רק את הספרים עצמם.
+
+| תיקייה | מה |
 |---|---|
-| `01_KDP_RULES_RESEARCH.md` | כל התנאים, החוקים, המפרטים והמספרים של KDP — מאומת מול דפי העזרה הרשמיים, ספטמבר 2026 |
-| `02_MASTER_PROMPT.md` | **הפרומפט הראשי** — 8 תפקידים, 3 שערי החלטה, מנישה עד קבצים מוכנים להעלאה |
-| `kdp_calc.py` | מחשבון תמלוגים/עלות הדפסה/עובי שדרה — לבדוק כלכלה לפני שכותבים עמוד |
+| `book_01/` | Color, Cut & Glue: Animal Homes — 110 עמ', 8.5×11, ש/ל, חד-צדדי |
 
-## התחלה מהירה
-```bash
-# כמה ארוויח על חוברת עבודה 120 עמ', שחור-לבן, 8.5x11, במחיר $12.99?
-python3 kdp_calc.py --pages 120 --ink bw --trim large --price 12.99 --target 500
-
-# מה המחיר המינימלי המותר לספר צביעה 60 עמ' בצבע פרימיום?
-python3 kdp_calc.py --pages 60 --ink premium_color --trim large
-
-# תמלוג eBook
-python3 kdp_calc.py --ebook --price 9.99 --mb 2
-```
-
-אחר כך: פתח את `02_MASTER_PROMPT.md`, מלא את 4 השדות, הדבק בצ'אט עם גישה לאינטרנט.
-
-## ספר ראשון בייצור
-`book_01/` — Color, Cut & Glue: Animal Homes. מפרט מלא + סקריפט בנייה.
+## בנייה
 ```bash
 pip install reportlab pillow
-python3 book_01/build_interior.py --out proof.pdf          # פרוף עם מקומות שמורים
+python3 book_01/build_interior.py --out proof.pdf            # פרוף עם מקומות שמורים
 python3 book_01/build_interior.py --art ./art --out interior.pdf
+```
+
+## מחשבון
+```bash
+python3 ../.claude/skills/kdp-factory/scripts/kdp_calc.py --pages 110 --ink bw --trim large --price 9.99
 ```
