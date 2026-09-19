@@ -142,7 +142,16 @@ def build(out, art_dir):
             c.setDash(3, 3); c.setStrokeColorRGB(.4, .4, .4)
             c.roundRect(cx + 6, cy + 6, w / 2 - 12, h / 2 - 12, 10)
             c.setDash(); c.setStrokeColorRGB(0, 0, 0)
-            draw_art(c, A(f"cut_{hab}_{a}.png"),
+            # a dedicated cut-out drawing if one exists, otherwise reuse the
+            # full-page artwork - these animals already have clean closed
+            # outer contours, so scaling one down cuts just as well and
+            # saves generating 24 near-duplicate images
+            cut = A(f"cut_{hab}_{a}.png")
+            if not (cut and os.path.exists(cut)):
+                cut = next((p for p in (A(f"color_{h2}_{a}.png")
+                                        for h2 in HABITATS)
+                            if p and os.path.exists(p)), cut)
+            draw_art(c, cut,
                      (cx + 22, cy + 22, w / 2 - 44, h / 2 - 44), a.upper())
         c.showPage()
         blank()
