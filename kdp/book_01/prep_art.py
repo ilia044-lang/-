@@ -36,20 +36,21 @@ def prep(src, dst, square=False):
     im = Image.open(src).convert("L")
     tw, th = target_size(square)
 
-    # upscale so the image covers the target box without distorting it
-    scale = max(tw / im.width, th / im.height)
-    if scale > 1:
-        im = im.resize((round(im.width * scale), round(im.height * scale)),
-                       Image.LANCZOS)
+    # Scale to FIT inside the page box, never to cover it. Covering overshoots
+    # one dimension, so art of different aspect ratios would land at different
+    # sizes on the page and the book would look uneven. Fitting then padding
+    # puts every drawing in an identical box.
+    scale = min(tw / im.width, th / im.height)
+    im = im.resize((max(1, round(im.width * scale)),
+                    max(1, round(im.height * scale))), Image.LANCZOS)
 
     # pure black or pure white, nothing between
     im = im.point(lambda p: 255 if p > THRESHOLD else 0, mode="1")
 
-    # centre on a white page of the exact aspect ratio - never crop the art
+    # centre on a white page of exactly the page aspect ratio - never crop
     if (im.width, im.height) != (tw, th):
-        canvas = Image.new("1", (max(tw, im.width), max(th, im.height)), 1)
-        canvas.paste(im, ((canvas.width - im.width) // 2,
-                          (canvas.height - im.height) // 2))
+        canvas = Image.new("1", (tw, th), 1)
+        canvas.paste(im, ((tw - im.width) // 2, (th - im.height) // 2))
         im = canvas
 
     im.save(dst, dpi=(DPI, DPI), optimize=True)
