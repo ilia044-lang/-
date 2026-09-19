@@ -103,27 +103,77 @@ def draw_art(c, path, box, label):
         c.setFillColorRGB(0, 0, 0)
 
 
-def text_page(c, page_no, title, lines, title_size=30, gap=0.36):
-    """A framed text page. `lines` may hold ("rule", "") to draw a divider."""
+def text_page(c, page_no, title, lines, title_size=38, gap=0.5, top=None):
+    """A text page whose block sits in the upper-middle of the page, not jammed
+    against the top. An 8.5x11 page with copy in the top quarter reads as a
+    mistake; this centres the block in the space it actually has."""
     x, y, w, h = safe_box(page_no)
     cx = x + w / 2
 
+    body = sum(gap for ln in lines if ln) + sum(gap * 0.5 for ln in lines if not ln)
+    block = 0.9 + body                              # title + rule + copy, inches
+    ty = y + h - (top if top is not None else max(1.1, (h / inch - block) / 2.6)) * inch
+
     c.setFont(DISPLAY, title_size)
-    c.drawCentredString(cx, y + h - 1.15 * inch, title)
+    c.drawCentredString(cx, ty, title)
+    ty -= 0.34 * inch
 
-    # a short rule under the title ties these pages to the cover's look
-    c.setLineWidth(2.5); c.setLineCap(1)
-    c.line(cx - 0.8 * inch, y + h - 1.42 * inch, cx + 0.8 * inch, y + h - 1.42 * inch)
+    c.setLineWidth(3); c.setLineCap(1)
+    c.line(cx - 0.9 * inch, ty, cx + 0.9 * inch, ty)
     c.setLineWidth(1)
+    ty -= 0.52 * inch
 
-    ty = y + h - 2.1 * inch
     for ln in lines:
         if ln == "":
-            ty -= gap * 0.55 * inch
+            ty -= gap * 0.5 * inch
             continue
-        c.setFont(BODY, 15)
+        c.setFont(BODY, 17)
         c.drawCentredString(cx, ty, ln)
         ty -= gap * inch
+    return ty
+
+
+def folio(c, page_no):
+    """Small page number at the outer bottom corner - cheap, and its absence is
+    one of the things that makes a self-published interior look self-published."""
+    x, y, w, _ = safe_box(page_no)
+    c.setFont(BODY, 10)
+    c.setFillGray(0.35)
+    c.drawCentredString(x + (w - 0.25 * inch if page_no % 2 else 0.25 * inch),
+                        y - 0.22 * inch, str(page_no))
+    c.setFillGray(0)
+
+
+def tool_icons(c, cx, y, size):
+    """Crayon, safety scissors and glue stick, drawn as vectors - no art needed."""
+    s = size
+    slots = [cx - 1.9 * s, cx, cx + 1.9 * s]
+    c.setLineWidth(3); c.setLineJoin(1)
+
+    # crayon
+    a = slots[0]
+    c.rect(a - 0.28 * s, y - 0.9 * s, 0.56 * s, 1.5 * s)
+    c.line(a - 0.28 * s, y + 0.6 * s, a, y + 1.1 * s)
+    c.line(a, y + 1.1 * s, a + 0.28 * s, y + 0.6 * s)
+    c.line(a - 0.28 * s, y + 0.15 * s, a + 0.28 * s, y + 0.15 * s)
+
+    # safety scissors
+    b = slots[1]
+    c.circle(b - 0.3 * s, y - 0.72 * s, 0.26 * s)
+    c.circle(b + 0.3 * s, y - 0.72 * s, 0.26 * s)
+    c.line(b - 0.3 * s, y - 0.46 * s, b + 0.24 * s, y + 1.05 * s)
+    c.line(b + 0.3 * s, y - 0.46 * s, b - 0.24 * s, y + 1.05 * s)
+
+    # glue stick
+    d = slots[2]
+    c.rect(d - 0.3 * s, y - 0.9 * s, 0.6 * s, 1.25 * s)
+    c.rect(d - 0.22 * s, y + 0.35 * s, 0.44 * s, 0.6 * s)
+    c.setLineWidth(1)
+
+    c.setFont(BODY, 13)
+    for a, lbl in zip(slots, ["CRAYONS", "SAFETY\nSCISSORS", "GLUE STICK"]):
+        for i, line in enumerate(lbl.split("\n")):
+            c.drawCentredString(a, y - 1.25 * s - i * 15, line)
 
 
 def write_line(c, cx, y, width, label=None):
@@ -152,19 +202,39 @@ def build(out, art_dir):
         newpage()
 
     # --- front matter, pages 1-4
-    text_page(c, newpage(), "Color, Cut & Glue", ["ANIMAL HOMES", "", "with Bubi, Maya & Leo"])
+    n = newpage()
+    bx, by, bw, bh = safe_box(n)
+    cx = bx + bw / 2
+    c.setLineWidth(4)
+    c.roundRect(bx + 0.2 * inch, by + 0.4 * inch,
+                bw - 0.4 * inch, bh - 0.8 * inch, 18)
+    c.setLineWidth(1)
+    c.setFont(DISPLAY, 34)
+    c.drawCentredString(cx, by + bh - 2.6 * inch, "Color, Cut & Glue")
+    c.setFont(DISPLAY, 58)
+    c.drawCentredString(cx, by + bh - 3.8 * inch, "ANIMAL HOMES")
+    c.setLineWidth(3); c.setLineCap(1)
+    c.line(cx - 1.6 * inch, by + bh - 4.3 * inch, cx + 1.6 * inch, by + bh - 4.3 * inch)
+    c.setLineWidth(1)
+    c.setFont(BODY, 17)
+    for i, ln in enumerate(["40 coloring pages", "24 cut-out animals",
+                            "5 habitat scenes"]):
+        c.drawCentredString(cx, by + bh - (5.1 + i * 0.5) * inch, ln)
+    c.setFont(BODY, 16)
+    c.drawCentredString(cx, by + 1.9 * inch, "with Bubi, Maya & Leo")
+    c.setFont(DISPLAY, 20)
+    c.drawCentredString(cx, by + 1.3 * inch, "BubiPop Kids")
     c.showPage()
     n = newpage()
-    text_page(c, n, "This Book Belongs To", [])
+    ty = text_page(c, n, "This Book Belongs To", [], top=1.1)
     bx, by, bw, bh = safe_box(n)
-    write_line(c, bx + bw / 2, by + bh - 4.0 * inch, 4.6 * inch, "MY NAME")
-    write_line(c, bx + bw / 2, by + bh - 5.6 * inch, 2.4 * inch, "I AM THIS MANY")
-    c.setFont(BODY, 13)
-    c.drawCentredString(bx + bw / 2, by + bh - 7.2 * inch,
-                        "Draw a picture of yourself here!")
-    c.setDash(4, 4); c.setLineWidth(1.5)
-    c.roundRect(bx + bw / 2 - 1.7 * inch, by + bh - 9.9 * inch,
-                3.4 * inch, 2.5 * inch, 10)
+    cx = bx + bw / 2
+    write_line(c, cx, ty - 0.5 * inch, 4.8 * inch, "MY NAME")
+    write_line(c, cx, ty - 2.1 * inch, 2.6 * inch, "I AM THIS MANY")
+    c.setFont(BODY, 15)
+    c.drawCentredString(cx, ty - 3.4 * inch, "Draw a picture of yourself here!")
+    c.setDash(5, 5); c.setLineWidth(2)
+    c.roundRect(cx - 2.2 * inch, ty - 6.9 * inch, 4.4 * inch, 3.3 * inch, 12)
     c.setDash(); c.setLineWidth(1)
     c.showPage()
     text_page(c, newpage(), "How To Use This Book", [
@@ -174,7 +244,15 @@ def build(out, art_dir):
         "4.  Say it out loud!",
         "", "Always use safety scissors with a grown-up."])
     c.showPage()
-    text_page(c, newpage(), "Meet Your Friends", ["Bubi", "Maya", "Leo", "", "They will help you on every page!"])
+    n = newpage()
+    text_page(c, n, "What You Will Need", [], top=1.3)
+    bx, by, bw, bh = safe_box(n)
+    tool_icons(c, bx + bw / 2, by + bh - 4.3 * inch, 0.62 * inch)
+    c.setFont(BODY, 16)
+    c.drawCentredString(bx + bw / 2, by + bh - 6.4 * inch,
+                        "Bubi, Maya and Leo are waiting inside.")
+    c.drawCentredString(bx + bw / 2, by + bh - 6.9 * inch,
+                        "Let's bring every animal home!")
     c.showPage()
 
     # --- 40 coloring pages, single-sided: art on recto, blank verso (pages 5-84)
@@ -191,11 +269,26 @@ def build(out, art_dir):
             c.drawCentredString(cx, y + 0.52 * inch, a.upper())
             c.setFont(BODY, 13)
             c.drawCentredString(cx, y + 0.22 * inch, HABITAT_LABEL[hab])
+            folio(c, n)
             c.showPage()
             blank()                                  # blank back - no bleed-through
 
     # --- transition, pages 85-86
-    text_page(c, newpage(), "Great Job!", ["Now let's bring the animals home.", "", "Turn the page..."])
+    n = newpage()
+    ty = text_page(c, n, "Great Job!",
+                   ["You colored them all.", "Now let's bring them home."], top=1.4)
+    bx, by, bw, bh = safe_box(n)
+    cx = bx + bw / 2
+    r = 0.6 * inch
+    for i, word in enumerate(["COLOR", "CUT", "GLUE"]):
+        sy = ty - (1.6 + i * 2.0) * inch
+        c.setLineWidth(4)
+        c.circle(cx - 1.4 * inch, sy, r)
+        c.setLineWidth(1)
+        c.setFont(DISPLAY, 34)
+        c.drawCentredString(cx - 1.4 * inch, sy - 0.16 * inch, str(i + 1))
+        c.setFont(DISPLAY, 30)
+        c.drawString(cx - 0.4 * inch, sy - 0.12 * inch, word)
     c.showPage()
     text_page(c, newpage(), "Time To Cut", [
         "Color each animal first.",
@@ -231,11 +324,25 @@ def build(out, art_dir):
 
     # --- 5 habitat spreads, 2 pages each (pages 99-108)
     for hab, title in SCENES:
-        n = newpage()                                 # verso: who lives here
-        text_page(c, n, "Who Lives Here?", [f"Find the animals that belong in", title.lower() + ".", "", "Tick the box when you glue one."])
+        n = newpage()                                 # verso: the checklist
+        text_page(c, n, "Who Lives Here?",
+                  [f"Glue the animals that belong in {title.lower()}.",
+                   "Tick each box when it is home."], top=1.2)
+        bx, by, bw, bh = safe_box(n)
+        # the checklist the old version only described
+        box = 0.26 * inch
+        ly = by + bh - 3.6 * inch
+        for a in HABITATS[hab]:
+            c.setLineWidth(2.5)
+            c.rect(bx + 1.5 * inch, ly - box * 0.2, box, box)
+            c.setLineWidth(1)
+            c.setFont(BODY, 18)
+            c.drawString(bx + 1.5 * inch + box + 0.28 * inch, ly, a.upper())
+            ly -= 0.62 * inch
         c.showPage()
         n = newpage()                                 # recto: the scene
         draw_art(c, A(f"scene_{hab}.png"), safe_box(n), title.upper())
+        folio(c, n)
         c.showPage()
 
     # --- back matter, pages 109-110
@@ -256,21 +363,24 @@ def build(out, art_dir):
     c.drawCentredString(cx, by + 1.55 * inch, "are proud of you!")
     c.showPage()
     n = newpage()
-    text_page(c, n, "More Free Pages", ["Grown-ups: scan the code for free",
-                                        "bonus coloring pages to print at home."])
+    ty = text_page(c, n, "More Free Pages",
+                   ["Grown-ups: scan the code for free bonus",
+                    "coloring pages to print at home."], top=1.2)
     bx, by, bw, bh = safe_box(n)
     cx = bx + bw / 2
-    c.setDash(5, 5); c.setLineWidth(1.5)
-    c.rect(cx - 1.1 * inch, by + bh - 6.4 * inch, 2.2 * inch, 2.2 * inch)
+    box = 2.4 * inch
+    c.setDash(6, 6); c.setLineWidth(2)
+    c.rect(cx - box / 2, ty - 0.5 * inch - box, box, box)
     c.setDash(); c.setLineWidth(1)
-    c.setFont(BODY, 10)
-    c.drawCentredString(cx, by + bh - 5.4 * inch, "[ QR CODE ]")
     c.setFont(BODY, 12)
-    c.drawCentredString(cx, by + bh - 7.4 * inch, "More books in this series:")
-    c.setFont(DISPLAY, 13)
+    c.drawCentredString(cx, ty - 0.5 * inch - box / 2, "[ QR CODE ]")
+    ty = ty - 1.2 * inch - box
+    c.setFont(BODY, 15)
+    c.drawCentredString(cx, ty, "More books in this series:")
+    c.setFont(DISPLAY, 16)
     for i, t in enumerate(["Things That Go", "My Body & Me",
                            "Food & The Farm", "Seasons"]):
-        c.drawCentredString(cx, by + bh - (7.9 + i * 0.42) * inch,
+        c.drawCentredString(cx, ty - (0.55 + i * 0.5) * inch,
                             f"Color, Cut & Glue: {t}")
     c.showPage()
 
