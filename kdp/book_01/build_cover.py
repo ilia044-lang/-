@@ -55,13 +55,73 @@ FRONT_X0 = SPINE_X0 + SPINE
 
 BARCODE_W, BARCODE_H = 2.0 * inch, 1.2 * inch
 
-# cover palette. The interior stays pure B&W - the cover is full colour at no
-# extra print cost, so it uses it. Yellow + navy survives CMYK and stays
-# readable at 200px thumbnail width.
-BG        = (1.00, 0.85, 0.24)   # sunny yellow
-INK       = (0.106, 0.227, 0.361)  # deep navy
-PANEL     = (1, 1, 1)
-BADGE     = [(1.00, 0.42, 0.42), (0.31, 0.80, 0.77), (0.65, 0.55, 0.98)]
+# ---------------------------------------------------------------- design tokens
+# The interior stays pure B&W - colour there would take print cost from $2.84
+# to over $9. The cover prints full colour at no extra charge, so it uses it.
+#
+# One principle carries over from interface design and decides this cover:
+# CONTRAST. A cover is chosen at ~200px wide in a search result, which is the
+# print equivalent of a small viewport. check_contrast() below reports the WCAG
+# ratio of every text/background pair, and any pair under 4.5:1 is rejected.
+
+SPACE = 6                                    # base spacing unit, in points
+TYPE = {                                     # one scale, no arbitrary sizes
+    "hero":    60, "title": 40, "badge": 32, "h": 13,
+    "body":  10.5, "cap":   11, "fine":   9, "spine": 12,
+}
+
+THEMES = {
+    "sunshine": {"bg": (1.00, 0.85, 0.24), "ink": (0.106, 0.227, 0.361),
+                 "badge": [(0.837, 0.223, 0.251), (0.06, 0.45, 0.45),
+                           (0.42, 0.25, 0.70)]},
+    "lagoon":   {"bg": (0.36, 0.83, 0.82), "ink": (0.06, 0.20, 0.30),
+                 "badge": [(0.816, 0.240, 0.336), (0.665, 0.385, 0.070),
+                           (0.35, 0.22, 0.62)]},
+    "berry":    {"bg": (1.00, 0.72, 0.78), "ink": (0.29, 0.09, 0.28),
+                 "badge": [(0.842, 0.198, 0.416), (0.10, 0.45, 0.50),
+                           (0.684, 0.374, 0.072)]},
+}
+
+THEME = os.environ.get("COVER_THEME", "sunshine")
+_t = THEMES[THEME]
+BG, INK, BADGE = _t["bg"], _t["ink"], _t["badge"]
+PANEL = (1, 1, 1)
+
+
+def _lum(c):
+    f = lambda v: v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+    r, g, b = (f(x) for x in c)
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def contrast(a, b):
+    la, lb = _lum(a), _lum(b)
+    hi, lo = max(la, lb), min(la, lb)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def check_contrast():
+    """Every text/background pair in the design, against the WCAG 4.5:1 floor."""
+    text = [("title on background", INK, BG),
+            ("body on panel", INK, PANEL)]
+    text += [(f"badge {i+1} numeral (white on fill)", (1, 1, 1), c)
+             for i, c in enumerate(BADGE)]
+    # a panel edge is a surface boundary, not text: WCAG puts those at 3:1, and
+    # white on a light background cannot reach it, so the panel carries an ink
+    # outline and the outline is what is measured
+    surface = [("panel outline against background", INK, BG)]
+
+    rows, worst = [], 99.0
+    for name, fg, bg in text:
+        r = contrast(fg, bg)
+        worst = min(worst, r / 4.5)
+        rows.append((name, r, "PASS" if r >= 4.5 else "FAIL", 4.5))
+    for name, fg, bg in surface:
+        r = contrast(fg, bg)
+        worst = min(worst, r / 3.0)
+        rows.append((name, r, "PASS" if r >= 3.0 else "FAIL", 3.0))
+    return rows, worst
+
 
 TITLE = "COLOR, CUT & GLUE"
 SUBTITLE = "ANIMAL HOMES"
@@ -135,18 +195,18 @@ def draw_front(c, art):
     w, h = TRIM_W - 2 * SAFE, TRIM_H - 2 * SAFE
 
     c.setFillColorRGB(*INK)
-    c.setFont(DISPLAY, 40)
+    c.setFont(DISPLAY, TYPE["title"])
     c.drawCentredString(x0 + w / 2, y0 + h - 0.85 * inch, TITLE)
-    c.setFont(DISPLAY, 60)
+    c.setFont(DISPLAY, TYPE["hero"])
     c.drawCentredString(x0 + w / 2, y0 + h - 1.75 * inch, SUBTITLE)
-    c.setFont(BODY, 14)
+    c.setFont(BODY, TYPE["h"] + 1)
     c.drawCentredString(x0 + w / 2, y0 + h - 2.2 * inch, STRAP)
 
     # white panel so the coloured animals never sit on the yellow
     ph = h - 4.0 * inch
-    c.setFillColorRGB(*PANEL)
+    c.setFillColorRGB(*PANEL); c.setStrokeColorRGB(*INK); c.setLineWidth(2)
     c.roundRect(x0 - 0.1 * inch, y0 + 1.45 * inch,
-                w + 0.2 * inch, ph + 0.1 * inch, 14, stroke=0, fill=1)
+                w + 0.2 * inch, ph + 0.1 * inch, 14, stroke=1, fill=1)
     place(c, os.path.join(art, "cover_hero.png") if art else None,
           x0, y0 + 1.5 * inch, w, ph, "cover_hero.png")
 
@@ -163,9 +223,9 @@ def draw_front(c, art):
         cx = x0 + bw * i + bw / 2
         c.setFillColorRGB(*BADGE[i])
         c.circle(cx, y0 + 1.00 * inch, 0.40 * inch, stroke=0, fill=1)
-        c.setFillColorRGB(1, 1, 1); c.setFont(DISPLAY, 32)
+        c.setFillColorRGB(1, 1, 1); c.setFont(DISPLAY, TYPE["badge"])
         c.drawCentredString(cx, y0 + 0.87 * inch, big)
-        c.setFillColorRGB(*INK); c.setFont(DISPLAY, 11)
+        c.setFillColorRGB(*INK); c.setFont(DISPLAY, TYPE["cap"])
         c.drawCentredString(cx, y0 + 0.42 * inch, small)
 
     c.setFillColorRGB(*INK); c.setFont(DISPLAY, 14)
@@ -178,7 +238,7 @@ def draw_spine(c):
     c.saveState()
     c.translate(SPINE_X0 + SPINE / 2, BLEED + TRIM_H / 2)
     c.rotate(90)
-    c.setFillColorRGB(*INK); c.setFont(DISPLAY, 12)
+    c.setFillColorRGB(*INK); c.setFont(DISPLAY, TYPE["spine"])
     c.drawCentredString(0, -4.2, f"{SUBTITLE}   ·   {AUTHOR}")
     c.restoreState()
 
@@ -188,10 +248,10 @@ def draw_back(c, art):
     w, h = TRIM_W - 2 * SAFE, TRIM_H - 2 * SAFE
 
     # white panel keeps the body copy readable over the yellow
-    c.setFillColorRGB(*PANEL)
+    c.setFillColorRGB(*PANEL); c.setStrokeColorRGB(*INK); c.setLineWidth(2)
     c.roundRect(x0 - 0.12 * inch, y0 + BARCODE_H + 0.12 * inch,
                 w + 0.24 * inch, h - BARCODE_H + 0.05 * inch, 14,
-                stroke=0, fill=1)
+                stroke=1, fill=1)
 
     y = y0 + h - 0.45 * inch
     c.setFillColorRGB(*INK)
@@ -201,7 +261,7 @@ def draw_back(c, art):
             continue
         if kind == "h":
             y -= 0.06 * inch
-            c.setFillColorRGB(*INK); c.setFont(DISPLAY, 13)
+            c.setFillColorRGB(*INK); c.setFont(DISPLAY, TYPE["h"])
             c.drawString(x0, y, text)
             y -= 0.26 * inch
         elif kind == "b":
@@ -213,11 +273,11 @@ def draw_back(c, art):
             c.line(x0 + 1, y + 2.5, x0 + 4, y - 0.5)
             c.line(x0 + 4, y - 0.5, x0 + 9, y + 6.5)
             c.restoreState()
-            c.setFont(BODY, 10.5)
+            c.setFont(BODY, TYPE["body"])
             c.drawString(x0 + 15, y, text)
             y -= 0.215 * inch
         else:
-            c.setFont(BODY, 10.5)
+            c.setFont(BODY, TYPE["body"])
             c.drawString(x0, y, text)
             y -= 0.215 * inch
 
@@ -225,7 +285,7 @@ def draw_back(c, art):
     draw_steps(c, x0, y0 + h * 0.30, w)
 
     c.setFillColorRGB(*INK)
-    c.setFont(BODY, 9)
+    c.setFont(BODY, TYPE["fine"])
     c.drawString(x0, y0 + BARCODE_H + 0.35 * inch,
                  "Ages 3-6  ·  Preschool & Kindergarten  ·  "
                  "Use safety scissors with adult help")
@@ -268,3 +328,9 @@ if __name__ == "__main__":
     print(f"  at 300 DPI   : {round(WRAP_W/inch*300)} x {round(WRAP_H/inch*300)} px")
     print(f"  barcode zone : {BARCODE_W/inch:g}\" x {BARCODE_H/inch:g}\" "
           f"clear at back-cover bottom-right")
+    print(f"  theme        : {THEME}")
+    rows, worst = check_contrast()
+    for name, ratio, verdict, floor in rows:
+        print(f"    {verdict}  {ratio:5.2f}:1  (floor {floor})  {name}")
+    if worst < 1.0:
+        raise SystemExit("FAIL: a contrast pair is below its WCAG floor")
