@@ -48,6 +48,22 @@ SCENES = [("ocean", "Under the Sea"), ("sky", "Up in the Sky"), ("farm", "On the
           ("jungle", "In the Jungle"), ("night", "Forest at Night")]
 
 
+FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+
+
+def load_fonts():
+    """Same rounded face as the cover, so the book reads as one object."""
+    try:
+        pdfmetrics.registerFont(TTFont("IDisplay", os.path.join(FONT_DIR, "Fredoka-Bold.ttf")))
+        pdfmetrics.registerFont(TTFont("IBody", os.path.join(FONT_DIR, "Fredoka-SemiBold.ttf")))
+        return "IDisplay", "IBody"
+    except Exception:
+        return "Helvetica-Bold", "Helvetica"
+
+
+DISPLAY, BODY = load_fonts()
+
+
 def safe_box(page_no):
     """Printable safe area (x, y, w, h) for a page, accounting for gutter side."""
     recto = page_no % 2 == 1                      # odd pages are right-hand
@@ -74,15 +90,37 @@ def draw_art(c, path, box, label):
         c.setFillColorRGB(0, 0, 0)
 
 
-def text_page(c, page_no, title, lines):
+def text_page(c, page_no, title, lines, title_size=30, gap=0.36):
+    """A framed text page. `lines` may hold ("rule", "") to draw a divider."""
     x, y, w, h = safe_box(page_no)
-    c.setFont("Helvetica-Bold", 30)
-    c.drawCentredString(x + w / 2, y + h - 1.2 * inch, title)
-    c.setFont("Helvetica", 15)
+    cx = x + w / 2
+
+    c.setFont(DISPLAY, title_size)
+    c.drawCentredString(cx, y + h - 1.15 * inch, title)
+
+    # a short rule under the title ties these pages to the cover's look
+    c.setLineWidth(2.5); c.setLineCap(1)
+    c.line(cx - 0.8 * inch, y + h - 1.42 * inch, cx + 0.8 * inch, y + h - 1.42 * inch)
+    c.setLineWidth(1)
+
     ty = y + h - 2.1 * inch
     for ln in lines:
-        c.drawCentredString(x + w / 2, ty, ln)
-        ty -= 0.34 * inch
+        if ln == "":
+            ty -= gap * 0.55 * inch
+            continue
+        c.setFont(BODY, 15)
+        c.drawCentredString(cx, ty, ln)
+        ty -= gap * inch
+
+
+def write_line(c, cx, y, width, label=None):
+    """A ruled blank for a child to write on, with an optional label above."""
+    if label:
+        c.setFont(BODY, 12)
+        c.drawCentredString(cx, y + 0.24 * inch, label)
+    c.setLineWidth(2)
+    c.line(cx - width / 2, y, cx + width / 2, y)
+    c.setLineWidth(1)
 
 
 def build(out, art_dir):
@@ -103,7 +141,18 @@ def build(out, art_dir):
     # --- front matter, pages 1-4
     text_page(c, newpage(), "Color, Cut & Glue", ["ANIMAL HOMES", "", "with Bubi, Maya & Leo"])
     c.showPage()
-    text_page(c, newpage(), "This Book Belongs To", ["", "_______________________", "", "I am ____ years old"])
+    n = newpage()
+    text_page(c, n, "This Book Belongs To", [])
+    bx, by, bw, bh = safe_box(n)
+    write_line(c, bx + bw / 2, by + bh - 4.0 * inch, 4.6 * inch, "MY NAME")
+    write_line(c, bx + bw / 2, by + bh - 5.6 * inch, 2.4 * inch, "I AM THIS MANY")
+    c.setFont(BODY, 13)
+    c.drawCentredString(bx + bw / 2, by + bh - 7.2 * inch,
+                        "Draw a picture of yourself here!")
+    c.setDash(4, 4); c.setLineWidth(1.5)
+    c.roundRect(bx + bw / 2 - 1.7 * inch, by + bh - 9.9 * inch,
+                3.4 * inch, 2.5 * inch, 10)
+    c.setDash(); c.setLineWidth(1)
     c.showPage()
     text_page(c, newpage(), "How To Use This Book", [
         "1.  Color the animal.",
@@ -166,9 +215,39 @@ def build(out, art_dir):
         c.showPage()
 
     # --- back matter, pages 109-110
-    text_page(c, newpage(), "You Did It!", ["I finished my Animal Homes book.", "", "Name: ______________", "Date: ______________", "", "- Bubi, Maya & Leo"])
+    n = newpage()
+    text_page(c, n, "You Did It!", ["I finished my", "Animal Homes book!"])
+    bx, by, bw, bh = safe_box(n)
+    cx = bx + bw / 2
+    # a certificate border makes the page feel like a reward, not a form
+    c.setLineWidth(3)
+    c.roundRect(bx + 0.3 * inch, by + 0.6 * inch,
+                bw - 0.6 * inch, bh - 1.35 * inch, 16)
+    c.setLineWidth(1)
+    write_line(c, cx, by + bh - 5.6 * inch, 4.6 * inch, "NAME")
+    write_line(c, cx, by + bh - 7.0 * inch, 4.6 * inch, "DATE")
+    c.setFont(DISPLAY, 16)
+    c.drawCentredString(cx, by + 1.9 * inch, "Bubi, Maya & Leo")
+    c.setFont(BODY, 12)
+    c.drawCentredString(cx, by + 1.55 * inch, "are proud of you!")
     c.showPage()
-    text_page(c, newpage(), "More Free Pages", ["Scan the code for free bonus", "coloring pages and videos.", "", "[ QR CODE ]"])
+    n = newpage()
+    text_page(c, n, "More Free Pages", ["Grown-ups: scan the code for free",
+                                        "bonus coloring pages to print at home."])
+    bx, by, bw, bh = safe_box(n)
+    cx = bx + bw / 2
+    c.setDash(5, 5); c.setLineWidth(1.5)
+    c.rect(cx - 1.1 * inch, by + bh - 6.4 * inch, 2.2 * inch, 2.2 * inch)
+    c.setDash(); c.setLineWidth(1)
+    c.setFont(BODY, 10)
+    c.drawCentredString(cx, by + bh - 5.4 * inch, "[ QR CODE ]")
+    c.setFont(BODY, 12)
+    c.drawCentredString(cx, by + bh - 7.4 * inch, "More books in this series:")
+    c.setFont(DISPLAY, 13)
+    for i, t in enumerate(["Things That Go", "My Body & Me",
+                           "Food & The Farm", "Seasons"]):
+        c.drawCentredString(cx, by + bh - (7.9 + i * 0.42) * inch,
+                            f"Color, Cut & Glue: {t}")
     c.showPage()
 
     c.save()
