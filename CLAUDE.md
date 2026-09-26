@@ -73,7 +73,7 @@ kdp-books/
 |---|---|
 | `HANDOFF.md` | **מסמך המצב הראשי** — רשימת הספרים, החלטות, פרומפטים, מה נשאר |
 | `books/zoe-safety-stars/` | ספר 6 — Zoe. `text/ images/ output/ prompts.md` |
-| `kdp/book_01/` | ספר נוסף שנבנה כאן: *Color, Cut & Glue: Animal Homes* (מחבר BubiPop Kids) |
+| `books/color-cut-glue-animal-homes/` | ספר נוסף שנבנה כאן: *Color, Cut & Glue: Animal Homes* (מחבר BubiPop Kids) |
 | `.claude/skills/kdp-factory/` | חוקי KDP מאומתים, מחשבון תמלוגים, פרומפט 8 תפקידים |
 | `DECISIONS.md` | למה, ומה כבר נוסה ונכשל |
 | `inbox/` | חומר שמועבר מ-claude.ai וטרם מוין |
@@ -104,7 +104,7 @@ kdp-books/
 **מצב: בנוי ומאומת. חסרים 36 מתוך 46 איורים.**
 
 ```bash
-cd kdp/book_01
+cd books/color-cut-glue-animal-homes
 python3 check_art.py --dir art          # מה חסר
 python3 prep_art.py --in raw --out art
 python3 build_interior.py --art ./art --out output/interior.pdf

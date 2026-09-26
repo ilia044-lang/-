@@ -1,0 +1,19 @@
+# סודות
+.env
+.env.*
+*.key
+
+# מערכת
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# תמונות אחרי upscale — כבדות מדי ל-GitHub, נוצרות מחדש מ-images/
+books/*/images/print/
+books/*/art/
+books/*/raw/
+
+# פלטי בנייה — ה-PDF הסופי כן נשמר ב-output/
+*.pdf
+!books/*/output/*.pdf

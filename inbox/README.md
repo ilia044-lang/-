@@ -10,10 +10,10 @@
 | בפרויקט ב-claude.ai | כבר נמצא בריפו |
 |---|---|
 | חוקי KDP, מפרטים, מחירים | `.claude/skills/kdp-factory/references/kdp-specs.md` |
-| פרומפטים לייצור איורים | `kdp/book_01/ART_PROMPTS.md`, `CHATGPT_BATCH.md`, `GEMINI_BATCH.md` |
+| פרומפטים לייצור איורים | `books/color-cut-glue-animal-homes/ART_PROMPTS.md`, `CHATGPT_BATCH.md`, `GEMINI_BATCH.md` |
 | החלטות על הספר | `CLAUDE.md`, `DECISIONS.md` |
-| דף המוצר, מדריך העלאה | `kdp/book_01/KDP_LISTING.md`, `UPLOAD_STEPS.md` |
-| קבצי הספר | `kdp/book_01/output/` |
+| דף המוצר, מדריך העלאה | `books/color-cut-glue-animal-homes/KDP_LISTING.md`, `UPLOAD_STEPS.md` |
+| קבצי הספר | `books/color-cut-glue-animal-homes/output/` |
 
 ## מה כן שווה להעביר
 
