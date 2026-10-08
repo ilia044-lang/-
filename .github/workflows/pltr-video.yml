@@ -1,0 +1,129 @@
+name: PLTR cloud video — Oct 8 at 23-30 Israel
+
+on:
+  schedule:
+    # October 8, 2026 23:30 Asia/Jerusalem = 20:30 UTC.
+    # Cron has no year field; the date gate below prevents a future-year rerun.
+    - cron: '30 20 8 10 *'
+  workflow_dispatch:
+    inputs:
+      trade_date:
+        description: 'Required completed session YYYY-MM-DD (blank = preview using latest completed session)'
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pltr-video.yml'
+      - 'scripts/stock_video/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pltr-cloud-video
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONUNBUFFERED: '1'
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '1'
+      OUTPUT_DIR: ${{ runner.temp }}/pltr-video
+    steps:
+      - name: Select the required session; enforce the one-date schedule
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT_DATE: ${{ inputs.trade_date }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          trade_date=''
+          mode=preview
+          if [[ "$EVENT" == schedule ]]; then
+            if [[ "$(date -u +%F)" != 2026-10-08 ]]; then
+              echo 'run=false' >> "$GITHUB_OUTPUT"
+              echo 'One-date schedule expired; no video will be generated.'
+              exit 0
+            fi
+            trade_date=2026-10-08
+            mode=production
+          elif [[ -n "${INPUT_DATE:-}" ]]; then
+            [[ "$INPUT_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || exit 2
+            trade_date="$INPUT_DATE"
+            mode=production
+          fi
+          echo 'run=true' >> "$GITHUB_OUTPUT"
+          echo "trade_date=$trade_date" >> "$GITHUB_OUTPUT"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.plan.outputs.run == 'true'
+        with:
+          path: source
+
+      - uses: actions/setup-python@v5
+        if: steps.plan.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: source/scripts/stock_video/requirements.txt
+
+      - name: Install verified-runtime dependencies
+        if: steps.plan.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core libsndfile1
+          python -m pip install --disable-pip-version-check -r source/scripts/stock_video/requirements.txt
+          python -m pip check
+
+      - uses: actions/cache@v4
+        if: steps.plan.outputs.run == 'true'
+        with:
+          path: ~/.cache/stock-video
+          key: kokoro-onnx-model-files-v1-0
+
+      - name: Fetch dated PLTR data and render the animated video
+        if: steps.plan.outputs.run == 'true'
+        env:
+          TRADE_DATE: ${{ steps.plan.outputs.trade_date }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=(--ticker PLTR --out "$OUTPUT_DIR" --attempts 12)
+          if [[ -n "$TRADE_DATE" ]]; then args+=(--date "$TRADE_DATE"); fi
+          python source/scripts/stock_video/run.py "${args[@]}"
+
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.plan.outputs.run == 'true'
+        with:
+          name: PLTR-video-${{ github.run_id }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: |
+            ${{ env.OUTPUT_DIR }}/*.mp4
+            ${{ env.OUTPUT_DIR }}/*.png
+            ${{ env.OUTPUT_DIR }}/*.txt
+            ${{ env.OUTPUT_DIR }}/*.md
+            ${{ env.OUTPUT_DIR }}/*.json
+            ${{ env.OUTPUT_DIR }}/*.csv
+
+      - uses: actions/checkout@v4
+        if: success() && steps.plan.outputs.run == 'true'
+        with:
+          path: publish
+
+      - name: Publish validated video and captions to a delivery branch
+        if: success() && steps.plan.outputs.run == 'true'
+        env:
+          MODE: ${{ steps.plan.outputs.mode }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python source/scripts/stock_video/publish.py --out "$OUTPUT_DIR" --repo publish --mode "$MODE"
