@@ -1,0 +1,64 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir Technologies",
+  "exchange": "NasdaqGS",
+  "date": "2026-10-07",
+  "analysis_date": "2026-10-08",
+  "last": {
+    "open": 192.7050018310547,
+    "high": 194.6999969482422,
+    "low": 190.11199951171875,
+    "close": 194.1199951171875,
+    "volume": 15697200.0,
+    "ma20": 183.2594985961914,
+    "ma50": 173.72819885253907,
+    "ma150": 149.9816993713379,
+    "ma200": 152.22882465362548,
+    "rsi": 66.1637217403115,
+    "atr": 6.004330698608114,
+    "cci": 96.32663613109972,
+    "vol20": 21941220.0
+  },
+  "change": 2.04998779296875,
+  "change_pct": 1.067312810327703,
+  "above_count": 4,
+  "volume_ratio": 0.7154205645811855,
+  "anchor": 450,
+  "anchor_price": 117.88999938964844,
+  "anchor_date": "2026-07-28",
+  "advance_pct": 64.66196973636815,
+  "advance_dollars": 76.22999572753906,
+  "resistance": [
+    194.21
+  ],
+  "support": 186.6,
+  "trend": {
+    "a": 428,
+    "b": 450,
+    "ya": 106.37000274658203,
+    "yb": 117.88999938964844,
+    "rising": true
+  },
+  "gap": null,
+  "anatomy": {
+    "body": 1.4149932861328125,
+    "range": 4.5879974365234375,
+    "upper_wick": 0.5800018310546875,
+    "lower_wick": 2.5930023193359375,
+    "body_pct": 30.841196092843198,
+    "close_position": 87.3582790949817
+  },
+  "price_source": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=2y&interval=1d",
+  "retrieved_utc": "2026-10-08T11:44:53.367148+00:00",
+  "news": {
+    "positive": {
+      "headline": "What Does Palantir Technologies (PLTR) Maven Expansion Mean For Its AI Growth?",
+      "publisher": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/does-palantir-technologies-pltr-maven-061210851.html",
+      "published": "2026-10-08T06:12:10+00:00"
+    },
+    "risk": null,
+    "limitation": "Reported headlines only; full articles not verified. Earnings date unverified.",
+    "source": "https://query1.finance.yahoo.com/v1/finance/search?q=PLTR&newsCount=100"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "trade_date": "2026-10-07",
+  "video_duration": "133.133333",
+  "audio_duration": "133.133000",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "frame_rate": 30,
+  "sha256": "bd53ff5e81e72dabd949e8f9d44bd20641789e0ba2ebc31bab70499316be62ca"
+}
