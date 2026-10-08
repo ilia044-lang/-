@@ -111,12 +111,18 @@ def main():
     af=f'[1:a]loudnorm=I=-16:TP=-1.5:LRA=7[voice];[2:a]volume=0.22[music];[voice][music]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95,aresample=48000,atrim=duration={duration:.9f},asetpts=PTS-STARTPTS[a]'
     subprocess.run(['ffmpeg','-v','error','-y','-i',str(silent),'-i',str(out/'narration.wav'),'-i',str(out/'music.wav'),'-filter_complex',af,'-map','0:v:0','-map','[a]','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart',str(final)],check=True)
     streams=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-of','json',str(final)]))['streams'];video=next(s for s in streams if s['codec_type']=='video');audio=next(s for s in streams if s['codec_type']=='audio')
-    assert (video['width'],video['height'],video['r_frame_rate'])==(1080,1920,'30/1')
-    assert abs(float(video['duration'])-duration)<.04
-    assert abs(float(video['duration'])-float(audio['duration']))<.06
+    assert (video['width'],video['height'],video['r_frame_rate'])==(1080,1920,'30/1'), f'Video format: {video}'
+    assert abs(float(video['duration'])-duration)<.04, f'Video duration {video["duration"]}; expected {duration}'
+    assert abs(float(video['duration'])-float(audio['duration']))<.06, f'Video duration {video["duration"]}; audio {audio["duration"]}'
     subprocess.run(['ffmpeg','-v','error','-i',str(final),'-f','null','-'],check=True)
     (out/'validation.json').write_text(json.dumps({'passed':True,'trade_date':a['date'],'video_duration':video['duration'],'audio_duration':audio['duration'],'dimensions':[1080,1920],'frame_rate':30,'sha256':hashlib.sha256(final.read_bytes()).hexdigest()},indent=2))
     (out/'READY.txt').write_text(f'{final.name}\nTrade date: {a["date"]}\nValidated {dt.datetime.now(dt.timezone.utc).isoformat()}\n')
     print('READY',final,flush=True)
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    try:main()
+    except Exception:
+        import traceback
+        message=traceback.format_exc().replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+        print('::error title=Video production failed::'+message,flush=True)
+        raise
