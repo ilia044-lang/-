@@ -71,6 +71,16 @@ def music(out,duration):
         for f in chords[k%4]:result[i0:i1]+=.032*env*(np.sin(2*np.pi*f*tt)+.15*np.sin(2*np.pi*f*2*tt))
     result*=np.clip((duration-t)/2,0,1);sf.write(out/'music.wav',result,sr)
 
+def mix_audio(out,duration):
+    speech,sr=sf.read(out/'narration.wav');bed,mr=sf.read(out/'music.wav')
+    assert sr==mr and len(speech)==len(bed)==round(duration*sr)
+    rms=float(np.sqrt(np.mean(speech**2)));peak=float(np.max(np.abs(speech)))
+    gain=min(10**(-18/20)/max(rms,1e-9),.94/max(peak,1e-9))
+    mixed=speech*gain+bed*.22
+    scale=min(1.,.95/max(float(np.max(np.abs(mixed))),1e-9));mixed*=scale
+    sf.write(out/'mixed.wav',mixed,sr,subtype='PCM_24')
+    (out/'audio_mix.json').write_text(json.dumps({'sample_rate':sr,'samples':len(mixed),'duration':len(mixed)/sr,'narration_gain':gain,'mix_gain':scale,'narration_preserved_in_full':True},indent=2))
+
 def deliver_text(a,out):
     l=a['last'];levels=' / '.join(render.money(x) for x in a['resistance'])
     title=f'{a["ticker"]} Daily Chart: Key Levels & Candle Signals | {a["date"]}'
@@ -108,8 +118,9 @@ def main():
     listing=chunks/'concat.txt';listing.write_text('\n'.join("file '"+str(p)+"'" for p in [intro]+clips)+'\n')
     silent=chunks/'silent.mp4';subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',str(listing),'-c','copy',str(silent)],check=True)
     music(out,duration);final=out/f'{args.ticker}_analysis_{a["date"]}.mp4'
-    af=f'[1:a]loudnorm=I=-16:TP=-1.5:LRA=7[voice];[2:a]volume=0.22[music];[voice][music]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95,aresample=48000,atrim=duration={duration:.9f},asetpts=PTS-STARTPTS[a]'
-    subprocess.run(['ffmpeg','-v','error','-y','-i',str(silent),'-i',str(out/'narration.wav'),'-i',str(out/'music.wav'),'-filter_complex',af,'-map','0:v:0','-map','[a]','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart',str(final)],check=True)
+    # Mix exact-length PCM before AAC encoding; avoids version-dependent loudnorm/amix tail loss.
+    mix_audio(out,duration)
+    subprocess.run(['ffmpeg','-v','error','-y','-i',str(silent),'-i',str(out/'mixed.wav'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart',str(final)],check=True)
     streams=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-of','json',str(final)]))['streams'];video=next(s for s in streams if s['codec_type']=='video');audio=next(s for s in streams if s['codec_type']=='audio')
     assert (video['width'],video['height'],video['r_frame_rate'])==(1080,1920,'30/1'), f'Video format: {video}'
     assert abs(float(video['duration'])-duration)<.04, f'Video duration {video["duration"]}; expected {duration}'
