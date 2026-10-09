@@ -34,20 +34,29 @@ def fed_yields(root,date):
     return {'latest':{'date':dates[k],**{str(y)+'y':yields[y][k] for y in yields}},'previous':None,'source':url}
 
 def yahoo_macro(root):
-    def day(n):
-        date=(dt.date.fromisoformat(NEXT_START)+dt.timedelta(days=n)).isoformat();url=f'https://finance.yahoo.com/calendar/economic?from={NEXT_START}&to={NEXT_END}&day={date}&offset=0&size=100'
-        raw=fetch(url).decode();(root/('economic-yahoo-'+date+'.html')).write_text(raw);events=[]
-        for row in re.findall(r'<tr[^>]*>(.*?)</tr>',raw,re.S):
-            cells={k:clean_html(v) for k,v in re.findall(r'<td[^>]*data-testid-cell="([^"]+)"[^>]*>(.*?)</td>',row,re.S)}
-            if cells.get('country_code')=='US' and cells.get('econ_release'):
-                name=cells['econ_release'];family=next((x for x in ['CPI','PPI','Retail Sales','Jobless','Industrial','Consumer Sentiment'] if x.lower() in name.lower()),None)
-                if family:events.append({'date':date,'event':name,'family':family,'time':cells.get('startdatetime'),'source':url,'status':'Yahoo economic calendar; schedule subject to change'})
-        return events
+    start=dt.datetime.fromisoformat(NEXT_START).replace(tzinfo=NY)
+    end=dt.datetime.fromisoformat(NEXT_END).replace(tzinfo=NY)+dt.timedelta(days=1)
+    params={'countPerDay':100,'economicEventsHighImportanceOnly':'false','economicEventsRegionFilter':'US','endDate':int(end.timestamp()*1000),'modules':'economicEvents','startDate':int(start.timestamp()*1000),'lang':'en-US','region':'US'}
+    url='https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?'+urllib.parse.urlencode(params)
+    raw=get_json(url);(root/'economic-yahoo-structured.json').write_text(json.dumps(raw,indent=2))
     events=[]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-        for rows in pool.map(day,range(5)):events.extend(rows)
+    def visit(value):
+        if isinstance(value,list):
+            for item in value:visit(item)
+        elif isinstance(value,dict):
+            if value.get('economicEvents') is True and value.get('countryCode')=='US' and value.get('eventTime'):
+                stamp=dt.datetime.fromtimestamp(value['eventTime']/1000,NY);date=stamp.date().isoformat();name=value.get('event','')
+                family=next((x for x in ['CPI','PPI','Retail Sales','Jobless','Industrial','Consumer Sentiment'] if x.lower() in name.lower()),None)
+                if NEXT_START<=date<=NEXT_END and family:
+                    events.append({'date':date,'event':name,'family':family,'time':stamp.strftime('%H:%M ET'),'source':url,'status':'Yahoo economic calendar; schedule subject to change'})
+            for child in value.values():visit(child)
+    visit(raw)
+    preferred={'CPI MM, SA':'Consumer Price Index','PPI Final Demand MM':'Producer Price Index','Retail Sales MM':'Retail sales','Initial Jobless Clm *':'Initial jobless claims','Industrial Production MM*':'Industrial production'}
+    events.sort(key=lambda e:(e['event'] not in preferred,e['date'],e['time']))
     unique={}
-    for e in events:unique.setdefault((e['date'],e['family']),e)
+    for e in events:
+        e['source_event']=e['event'];e['event']=preferred.get(e['event'],e['event'])
+        unique.setdefault((e['date'],e['family']),e)
     return sorted(unique.values(),key=lambda e:e['date'])
 
 def chart(symbol, date, root, history='2y', interval='1d'):

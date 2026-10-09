@@ -39,7 +39,7 @@ def build(a):
         add('news',n['title'],n['publisher'].upper()+' • '+n['published'][:10],
             f'In the reported news, {n["publisher"]} published this headline: {n["title"]}. This is an attributed report, not proof that the headline caused the market move. For the coming week, separate the announcement from the subsequent evidence: company disclosures, reported results and the actual price response. Publication date and the source link accompany this edition.',news=n)
     if not news:add('news','NEWS VERIFICATION GAP','NO UNSOURCED HEADLINES', 'No eligible current headline could be verified in the connected feed. We will not fill that gap with invented news. The source notes disclose this limitation. Continue to check issuer announcements and authoritative reporting before treating a developing story as an established fact.')
-    cal=a['calendar'];events=cal['macro'][:4];earnings=cal['earnings'][:6]
+    cal=a['calendar'];events=cal['macro'][:5];earnings=cal['earnings'][:6]
     macro=' '.join(f'On October {int(e["date"][-2:])}, the economic calendar lists {e["event"]}.' for e in events)
     if not events:macro='A verified B L S release schedule could not be retrieved. Specific release dates are not asserted.'
     add('calendar','NEXT WEEK: OCTOBER 12–16','ECONOMIC RELEASES • EXPECTATIONS VS ACTUALS',macro+' The important distinction is the release versus the consensus expectation. The same headline number can have a different market impact depending on what was priced in. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.',events=events)

@@ -160,7 +160,7 @@ def frame(a,scene,t,portrait=False,sources=None):
         entries=scene.get('events') or scene.get('earnings') or []
         if not entries:wrapped(im,'Specific dates could not be verified.\nCheck the original calendar before the event.',40,content_y,w-80,32,WHITE,True,4)
         else:
-            for k,e in enumerate(entries[:5]):
+            for k,e in enumerate(entries[:6]):
                 yy=content_y+k*(100 if portrait else 59)
                 text(im,(40,yy),'OCT '+e['date'][-2:],23,GOLD,True)
                 label=e.get('event') or e.get('symbol','')+' • est.'
@@ -185,7 +185,7 @@ def frame(a,scene,t,portrait=False,sources=None):
     source='Source: Yahoo Finance • '+a['date']
     if kind=='season':source='Yahoo adjusted month-end data • 2011–2025'
     if kind=='news':source='Source: '+scene.get('news',{}).get('publisher','unavailable')+' • '+scene.get('news',{}).get('published','')[:10]
-    if kind=='calendar':source='Sources: BLS / Nasdaq calendar • estimates labelled'
+    if kind=='calendar':source=('Source: Yahoo economic calendar • schedule subject to change' if scene.get('events') else 'Source: Nasdaq earnings calendar • estimates labelled')
     text(im,(32,cy-32),source,14,GRAY)
     if not portrait:text(im,(w-30,cy-32),'AI-generated background illustration',13,GRAY,anchor='rt')
     # A short gold wipe makes scene changes visible without masking the narration.
