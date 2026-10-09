@@ -19,8 +19,10 @@ def build(a):
         f'Q Q Q closed at {price(qqq["close"])}. Its fourteen day R S I reads {qqq["rsi"]:.1f}. Support is referenced near {price(qqq["support"])}, and resistance near {price(qqq["resistance"])}. Compare its weekly change with the broad index before calling the move broad based. A strong technology index can coexist with weaker individual stocks. Momentum is evidence to weigh alongside price, volume and breadth.',symbol='QQQ')
     breadth=a['supplemental'].get('breadth');vix=m['^VIX']
     bv=f'The retrieved breadth snapshot is {breadth["value"]:.2f} percent. Its retrieval time is retained with the sources; it is not independently certified as an official daily close. ' if breadth else 'A verified final breadth reading was unavailable, so no percentage is invented. '
+    if breadth and breadth.get('proxy'):bv=f'Our independently calculated breadth proxy is {breadth["value"]:.2f} percent, covering {breadth["components"]} of {breadth["listed_components"]} listed constituents. This is not the official S five F I print. '
     add('breadth','HOW MANY STOCKS JOINED IN?','S5FI • S&P 500 MEMBERS ABOVE THEIR 50-DAY AVERAGE',
         bv+f'This measure asks how many index members are above their fifty day average. A rising index with improving participation is different from a rise carried by a few names. Meanwhile, VIX reads {vix["close"]:.2f}, {direction(vix["weekly_pct"])} over the review week. VIX measures implied volatility, not the direction of the next move.',symbol='^VIX')
+    if breadth and breadth.get('proxy'):rows[-1]['kicker']='INDEPENDENT BREADTH PROXY • NOT THE OFFICIAL S5FI PRINT'
     treasury=a['supplemental'].get('treasury');r=m['^TNX'];long=m['^TYX']
     rate_extra=f'The official Treasury series puts the twenty year yield at {treasury["latest"]["20y"]:.2f} percent, dated {treasury["latest"]["date"]}. ' if treasury else 'The twenty year official observation could not be verified for this edition. '
     add('rates','THE PRICE OF MONEY','US TREASURY YIELDS • 10 / 20 / 30 YEARS',

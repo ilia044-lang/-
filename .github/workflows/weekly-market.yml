@@ -21,6 +21,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  source-probe:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: source
+      - uses: actions/checkout@v4
+        with:
+          path: probe-publish
+      - run: python3 source/scripts/weekly_video/probe_sources.py
   produce:
     runs-on: ubuntu-24.04
     timeout-minutes: 150

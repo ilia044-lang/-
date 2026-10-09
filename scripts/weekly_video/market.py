@@ -87,10 +87,20 @@ def news(root,date):
                 if not begin<=stamp<=now.timestamp() or not n.get('link') or not publisher:continue
                 if any(x in title.lower() for x in ['should you','to buy','could make','price target','prediction','millionaire','best stock','motley fool','eyes entry','bc-most active','worth investing','undervalued','overvalued']):continue
                 if publisher.lower() in ['motley fool','24/7 wall st.','simply wall st.']:continue
-                items[n['link']]={'title':title,'publisher':publisher,'url':n['link'],'published':dt.datetime.fromtimestamp(stamp,dt.timezone.utc).isoformat(),'symbol':term,'verification':'Sourced headline metadata; not independent verification of the full article'}
+                resolutions=(n.get('thumbnail') or {}).get('resolutions',[])
+                image_url=next((x.get('url') for x in resolutions if x.get('tag')=='original'),None)
+                items[n['link']]={'title':title,'publisher':publisher,'url':n['link'],'published':dt.datetime.fromtimestamp(stamp,dt.timezone.utc).isoformat(),'symbol':term,'image_url':image_url,'verification':'Sourced headline metadata; not independent verification of the full article'}
         except Exception as e:errors.append(str(e))
     preferred=['Reuters','Associated Press','Bloomberg','Yahoo Finance','MT Newswires','Barrons.com','CNBC','Investing.com']
     result=sorted(items.values(),key=lambda x:(x['publisher'] in preferred,x['published']),reverse=True)[:8]
+    for i,n in enumerate(result[:2]):
+        if n.get('image_url'):
+            try:
+                from PIL import Image
+                u=urllib.parse.urlsplit(n['image_url']);assert u.scheme=='https' and any((u.hostname or '').endswith('.'+host) or u.hostname==host for host in ['zenfs.com','yimg.com','yahoo.com'])
+                content=fetch(n['image_url']);assert len(content)<12*1024*1024
+                Image.open(io.BytesIO(content)).verify();name=f'news-image-{i}.jpg';(root/name).write_bytes(content);n['image_file']=name
+            except Exception as e:n['image_error']=str(e)
     return result,errors
 
 def calendar(root):
@@ -129,6 +139,31 @@ def calendar(root):
         except ValueError:return 0
     earnings=sorted(earnings,key=cap,reverse=True)[:8];earnings.sort(key=lambda x:(x['date'],x['symbol']))
     return {'macro':events,'earnings':earnings,'errors':errors}
+
+def breadth_proxy(root,date):
+    """Transparent fallback; explicitly NOT the licensed TradingView S5FI print."""
+    url='https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv'
+    raw=fetch(url).decode();(root/'sp500-constituents.csv').write_text(raw);members=pd.read_csv(io.StringIO(raw));symbols=[s.replace('.','-') for s in members['Symbol']]
+    assert 450<=len(symbols)<=550 and len(set(symbols))==len(symbols)
+    groups=[symbols[i:i+20] for i in range(0,len(symbols),20)]
+    def group_fetch(pair):
+        i,group=pair;u='https://query1.finance.yahoo.com/v7/finance/spark?'+urllib.parse.urlencode({'symbols':','.join(group),'range':'3mo','interval':'1d'})
+        r=get_json(u);(root/f'breadth-group-{i:02}.json').write_text(json.dumps(r));result=[]
+        for item in r.get('spark',{}).get('result',[]) or []:
+            response=item['response'][0];values=[]
+            for stamp,c in zip(response['timestamp'],response['indicators']['quote'][0]['close']):
+                d=dt.datetime.fromtimestamp(stamp,NY).date().isoformat()
+                if d<=date and c is not None:values.append((d,float(c)))
+            if len(values)>=50 and values[-1][0]==date:
+                ma=statistics.mean(c for _,c in values[-50:]);result.append({'symbol':item['symbol'],'date':date,'close':values[-1][1],'ma50':ma,'above':values[-1][1]>ma})
+        return result
+    all_rows=[]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        for rows in pool.map(group_fetch,enumerate(groups)):all_rows.extend(rows)
+    assert len({x['symbol'] for x in all_rows})==len(all_rows)
+    coverage=len(all_rows)/len(symbols);assert coverage>=.98,f'Insufficient breadth coverage: {coverage:.1%}'
+    (root/'breadth-components.json').write_text(json.dumps(all_rows,indent=2));above=sum(x['above'] for x in all_rows)
+    return {'value':100*above/len(all_rows),'symbol':'S&P 500 breadth proxy','source':url,'market_source':'https://query1.finance.yahoo.com/v7/finance/spark','date':date,'retrieved_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'basis':'Independent current-constituent calculation, not the official S5FI print; close above simple 50-day average','coverage':coverage,'components':len(all_rows),'listed_components':len(symbols),'above':above,'proxy':True}
 
 def collect(out,date,attempts=1):
     root=out/'sources';root.mkdir(parents=True,exist_ok=True)
@@ -175,5 +210,8 @@ def collect(out,date,attempts=1):
             raw=json.load(urllib.request.urlopen(req,timeout=25));(root/'breadth-global.json').write_text(json.dumps(raw));row=raw['data'][0];v=float(row['d'][0]);assert 0<=v<=100
             supplemental['breadth']={'value':v,'source':url,'symbol':row['s'],'retrieved_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'basis':'Snapshot, not independently certified daily close'}
         except Exception as e:extra_errors.append('S5FI global snapshot: '+str(e))
+    if 'breadth' not in supplemental:
+        try:supplemental['breadth']=breadth_proxy(root,date)
+        except Exception as e:extra_errors.append('Independent breadth calculation: '+str(e))
     result={'date':date,'week_start':START,'week_end':END,'next_start':NEXT_START,'next_end':NEXT_END,'preview':date!=END,'retrieved_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'markets':{x['symbol']:x for x in records},'seasonality':seasons,'news':headlines,'news_errors':errors,'calendar':upcoming,'supplemental':supplemental,'extra_errors':extra_errors}
     (out/'analysis.json').write_text(json.dumps(result,indent=2));return result

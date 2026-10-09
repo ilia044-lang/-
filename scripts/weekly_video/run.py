@@ -102,7 +102,7 @@ def render(a,rows,out,portrait,workers,intro=0):
 def contact_sheet(a,rows,out):
     thumbs=[]
     for i,row in enumerate(rows):
-        im=visuals.frame(a,row,min(4,row['duration']/2));im.save(out/f'check_{i:02}.jpg',quality=85);thumbs.append(im.resize((384,216)))
+        im=visuals.frame(a,row,min(4,row['duration']/2),sources=out.parent/'sources');im.save(out/f'check_{i:02}.jpg',quality=85);thumbs.append(im.resize((384,216)))
     sheet=Image.new('RGB',(384*4,240*math.ceil(len(thumbs)/4)),visuals.BG);d=ImageDraw.Draw(sheet)
     for i,im in enumerate(thumbs):x=i%4*384;y=i//4*240;sheet.paste(im,(x,y));d.text((x+6,y+220),f'{i+1}: {rows[i]["kind"]}',fill=visuals.WHITE)
     sheet.save(out/'contact-sheet.jpg',quality=90)

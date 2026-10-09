@@ -86,7 +86,10 @@ def season(im,a,sym,t,rect):
         bar3d(im,xx+4,base,w/15*.57,hh,col);text(im,(xx+w/30,y+h+12),str(p['year'])[2:],15,GRAY,anchor='mm')
     text(im,(x+12,y+10),f'{s["positive"]}/15 positive  |  Average {s["mean"]:+.2f}%',22,GOLD,True)
 
-def frame(a,scene,t,portrait=False):
+@functools.lru_cache(maxsize=8)
+def article_image(path):return Image.open(path).convert('RGB')
+
+def frame(a,scene,t,portrait=False,sources=None):
     w,h=(720,1280) if portrait else (1280,720);xpan=round(48+40*math.sin(t*.085));ypan=round(25+22*math.sin(t*.06))
     theme='technology.png' if scene.get('symbol') in ['IREN','AVGO','QQQ'] else 'digital.png' if scene.get('symbol') in ['MSTR','CIFR'] or scene['kind']=='crossasset' else 'newsroom.png'
     im=background(w,h,theme).crop((xpan,ypan,xpan+w,ypan+h));d=ImageDraw.Draw(im)
@@ -143,11 +146,16 @@ def frame(a,scene,t,portrait=False):
                 col=GREEN if k<round(value) else '#434954';xx=45+(k%20)*27;yy=content_y+130+(k//20)*27;d.rounded_rectangle((xx,yy,xx+17,yy+17),radius=3,fill=col)
         text(im,(40 if portrait else 790,content_y+(340 if portrait else 80)),f'VIX {v["close"]:.2f}',36,WHITE,True)
     elif kind=='news':
-        n=scene.get('news');panel(im,(32,content_y-5,w-32,content_y+195),'#141c25')
-        wrapped(im,'REPORTED HEADLINE',55,content_y+16,w-110,22,GOLD,True,1)
-        wrapped(im,n['publisher'] if n else 'No verified current headline',55,content_y+70,w-110,34,WHITE,True,2)
-        wrapped(im,n['published'][:10] if n else 'See source notes',55,content_y+135,w-110,21,GRAY,False,2)
-        wrapped(im,'Attribution is not proof of market causation. Full links accompany this edition.',40,content_y+235,w-80,22,GRAY,maxlines=3)
+        n=scene.get('news');photo=Path(sources)/n['image_file'] if sources and n and n.get('image_file') else None
+        has_photo=photo and photo.exists() and not portrait;panel_width=625 if has_photo else w-32
+        panel(im,(32,content_y-5,panel_width,content_y+190),'#141c25')
+        wrapped(im,'REPORTED HEADLINE',55,content_y+16,panel_width-90,22,GOLD,True,1)
+        wrapped(im,n['publisher'] if n else 'No verified current headline',55,content_y+70,panel_width-90,34,WHITE,True,2)
+        wrapped(im,n['published'][:10] if n else 'See source notes',55,content_y+135,panel_width-90,21,GRAY,False,2)
+        if has_photo:
+            pw=560;ph=max(120,min(205,h-235-content_y));base=ImageOps.fit(article_image(str(photo)),(pw+30,ph+20));dx=round(15+12*math.sin(t*.12));dy=round(10+8*math.sin(t*.1));im.paste(base.crop((dx,dy,dx+pw,dy+ph)),(675,content_y))
+            text(im,(675,content_y+ph+8),'Publisher article image • '+n['publisher'],14,GRAY)
+        else:wrapped(im,'Reported headline • source links accompany this edition.',40,content_y+220,w-80,20,GRAY,maxlines=2)
     elif kind=='calendar':
         entries=scene.get('events') or scene.get('earnings') or []
         if not entries:wrapped(im,'Specific dates could not be verified.\nCheck the original calendar before the event.',40,content_y,w-80,32,WHITE,True,4)
@@ -191,7 +199,7 @@ def render_piece(task):
     dest=root/'chunks'/f'{index:04d}.mp4';dest.parent.mkdir(exist_ok=True)
     p=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{w}x{h}','-r',str(fps),'-i','-','-an','-vf',f'scale={outw}:{outh}:flags=lanczos','-c:v','libx264','-preset','veryfast','-crf','25','-pix_fmt','yuv420p','-threads','2',str(dest)],stdin=subprocess.PIPE)
     try:
-        for n in range(round((end-start)*fps)):p.stdin.write(frame(a,scene,start+n/fps,portrait).tobytes())
+        for n in range(round((end-start)*fps)):p.stdin.write(frame(a,scene,start+n/fps,portrait,root.parent/'sources').tobytes())
         p.stdin.close()
         if p.wait()!=0:raise RuntimeError('FFmpeg encoding failed')
     except BaseException:
