@@ -70,9 +70,13 @@ def build(a):
         'The same headline number can have a different market impact depending on what was priced in.',
         'That is why the event calendar belongs beside the technical analysis.',
         'Let new evidence update the assessment.',
+        'These are conditional scenarios, not recommendations.',
     ]
     for row in rows:
         for sentence in trim:row['voice']=row['voice'].replace(sentence,'')
+        row['voice']=row['voice'].replace('A close above an average describes the trend; it does not guarantee that support will hold.','Moving averages describe trends; they do not guarantee support.')
+        row['voice']=row['voice'].replace('These are adjusted monthly price returns, with dividends reflected by the data provider.','Adjusted prices reflect the provider dividend adjustments.')
+        row['voice']=row['voice'].replace('This is an attributed report, not proof that the headline caused the market move.','Reported headlines do not establish price causation.')
         row['voice']=' '.join(row['voice'].split())
     return rows
 

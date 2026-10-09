@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       preview:
-        description: 'Smoke-test with October 8 completed data (false = final October 9 edition)'
+        description: 'Full preview with October 8 completed data (false = final October 9 edition)'
         type: boolean
         default: false
   push:
@@ -77,16 +77,27 @@ jobs:
         with:
           path: ~/.cache/stock-video
           key: kokoro-onnx-model-files-v1-0
-      - name: Produce the landscape edition and both portrait Shorts
+      - name: Fetch and validate dated inputs
         if: steps.plan.outputs.run == 'true'
         env:
-          PREVIEW: ${{ steps.plan.outputs.preview }}
           TRADE_DATE: ${{ steps.plan.outputs.date }}
         run: |
           set -euo pipefail
-          args=(--date "$TRADE_DATE" --out "$OUTPUT_DIR" --attempts 12 --workers 2)
-          if [[ "$PREVIEW" == true ]]; then args+=(--smoke); fi
-          python source/scripts/weekly_video/run.py "${args[@]}"
+          python source/scripts/weekly_video/run.py --date "$TRADE_DATE" --out "$OUTPUT_DIR" --attempts 12 --data-only
+      - uses: actions/checkout@v4
+        if: success() && steps.plan.outputs.run == 'true'
+        with:
+          path: diagnostics
+      - name: Save inspectable public-source diagnostics
+        if: success() && steps.plan.outputs.run == 'true'
+        run: python source/scripts/weekly_video/publish_sources.py --out "$OUTPUT_DIR" --repo diagnostics
+      - name: Produce the landscape edition and both portrait Shorts
+        if: steps.plan.outputs.run == 'true'
+        env:
+          TRADE_DATE: ${{ steps.plan.outputs.date }}
+        run: |
+          set -euo pipefail
+          python source/scripts/weekly_video/run.py --date "$TRADE_DATE" --out "$OUTPUT_DIR" --reuse-data --workers 2
       - uses: actions/upload-artifact@v4
         if: always() && steps.plan.outputs.run == 'true'
         with:

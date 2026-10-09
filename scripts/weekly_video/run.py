@@ -41,6 +41,21 @@ def narration(rows,out,voice,speed,intro=0):
         samples=np.pad(np.concatenate(pieces),(0,round(duration*24000)-sum(len(p) for p in pieces)))
         row.update(duration=duration,start=cursor,end=cursor+duration,captions=captions);all_audio.append(samples);cursor+=duration
         print(f'Narration {out.name} {i+1}/{len(rows)} {duration:.2f}s',flush=True)
+    if cursor>476 and len(rows)>1:
+        # Bound modest date/headline-driven variation without cutting content or
+        # changing pitch; remap caption timing to the actual transformed audio.
+        ratio=(cursor-intro)/(452-intro)
+        assert ratio<=1.25,f'Narration needs editorial shortening: {cursor:.1f}s'
+        adjusted=[np.zeros(round(intro*24000))] if intro else [];cursor=intro
+        for i,row in enumerate(rows):
+            source=all_audio[i+(1 if intro else 0)];old=row['duration']
+            raw=subprocess.check_output(['ffmpeg','-v','error','-f','f32le','-ar','24000','-ac','1','-i','pipe:0','-af',f'atempo={ratio:.8f}','-f','f32le','pipe:1'],input=source.astype(np.float32).tobytes())
+            transformed=np.frombuffer(raw,dtype=np.float32);factor=len(transformed)/len(source);duration=math.ceil(len(transformed)/1000)/24
+            transformed=np.pad(transformed,(0,round(duration*24000)-len(transformed)))
+            for c in row['captions']:c['start']*=factor;c['end']*=factor
+            row.update(start=cursor,end=cursor+duration,duration=duration);cursor+=duration;adjusted.append(transformed)
+        all_audio=adjusted;subtitles=[(r['start']+c['start'],r['start']+c['end'],c['text']) for r in rows for c in r['captions']]
+        (out/'narration_tempo.json').write_text(json.dumps({'pitch_preserving_atempo':ratio,'duration':cursor},indent=2))
     speech=np.concatenate(all_audio);peak=float(np.max(np.abs(speech)));speech*=min(1.8,.85/max(peak,1e-8))
     sr=24000;t=np.arange(len(speech))/sr;bed=np.zeros(len(speech))
     for n in range(math.ceil(cursor/8)):
@@ -127,4 +142,10 @@ def main():
     (out/'TikTok_captions.txt').write_text('SHORT 1\nIs October really profitable? 15 years of SPY data, with the losing years included. Full weekly review on YouTube: @MarketMindTradingBasics. Education only, not financial advice. #SPY #StockMarket #TradingEducation\n\nSHORT 2\nNext week: connect support, breadth, yields and volatility. Full October 5–9 review and October 12–16 outlook on YouTube: @MarketMindTradingBasics. Education only, not financial advice. #MarketMind #QQQ #StockMarket\n')
     manifest={'passed':True,'smoke':args.smoke,'preview':a['preview'],'date':a['date'],'week':['2026-10-05','2026-10-09'],'next_week':['2026-10-12','2026-10-16'],'outputs':outputs,'completed_utc':dt.datetime.now(dt.timezone.utc).isoformat()};(out/'validation.json').write_text(json.dumps(manifest,indent=2));(out/'READY.txt').write_text('All three requested video files validated.\n');print('READY',json.dumps(manifest),flush=True)
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    try:main()
+    except Exception:
+        import traceback
+        message=traceback.format_exc().replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+        print('::error title=Weekly video production failed::'+message,flush=True)
+        raise

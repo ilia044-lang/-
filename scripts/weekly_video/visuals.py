@@ -30,9 +30,9 @@ def panel(im,rect,fill='#171d25',outline='#3a414b'):
     ImageDraw.Draw(im).rounded_rectangle(rect,radius=12,fill=fill,outline=outline,width=1)
 def ease(x):x=max(0,min(1,x));return x*x*(3-2*x)
 
-@functools.lru_cache(maxsize=3)
-def background(w,h):
-    im=Image.open(ASSETS/'newsroom.png').convert('RGB');im=ImageOps.fit(im,(w+100,h+60))
+@functools.lru_cache(maxsize=8)
+def background(w,h,theme):
+    im=Image.open(ASSETS/theme).convert('RGB');im=ImageOps.fit(im,(w+100,h+60))
     return ImageEnhance.Brightness(im).enhance(.34)
 
 def orbit(im,t,cx,cy,size):
@@ -87,7 +87,9 @@ def season(im,a,sym,t,rect):
     text(im,(x+12,y+10),f'{s["positive"]}/15 positive  |  Average {s["mean"]:+.2f}%',22,GOLD,True)
 
 def frame(a,scene,t,portrait=False):
-    w,h=(720,1280) if portrait else (1280,720);xpan=round(48+40*math.sin(t*.035));ypan=round(25+22*math.sin(t*.023));im=background(w,h).crop((xpan,ypan,xpan+w,ypan+h));d=ImageDraw.Draw(im)
+    w,h=(720,1280) if portrait else (1280,720);xpan=round(48+40*math.sin(t*.085));ypan=round(25+22*math.sin(t*.06))
+    theme='technology.png' if scene.get('symbol') in ['IREN','AVGO','QQQ'] else 'digital.png' if scene.get('symbol') in ['MSTR','CIFR'] or scene['kind']=='crossasset' else 'newsroom.png'
+    im=background(w,h,theme).crop((xpan,ypan,xpan+w,ypan+h));d=ImageDraw.Draw(im)
     orbit(im,t,w*.82,h*.38,210 if portrait else 235)
     d.rectangle((0,0,w,58),fill='#101317');text(im,(28,16),'MARKET MIND',24,GOLD,True);text(im,(w-28,20),'WEEKLY BRIEFING',14,GRAY,anchor='rt')
     text(im,(32,81),scene['kicker'],16,GOLD,True)
