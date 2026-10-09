@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "smoke": false,
+  "preview": false,
+  "date": "2026-10-09",
+  "week": [
+    "2026-10-05",
+    "2026-10-09"
+  ],
+  "next_week": [
+    "2026-10-12",
+    "2026-10-16"
+  ],
+  "outputs": [
+    {
+      "path": "Market_Mind_Weekly_2026-10-05_to_09/Market_Mind_Weekly_2026-10-05_to_09.mp4",
+      "passed": true,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 470.916667,
+      "audio_duration": 470.917,
+      "fps": 24,
+      "sha256": "e481fcd533ca22e54df5e98bc007153b7db01e93984e53fed9d4f630293aa81c",
+      "bytes": 51119439,
+      "motion_mean_absolute_difference": 6.032330367476852,
+      "caption_segments": 110
+    },
+    {
+      "path": "Market_Mind_Short_1/Market_Mind_Short_1.mp4",
+      "passed": true,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration": 33.25,
+      "audio_duration": 33.25,
+      "fps": 24,
+      "sha256": "00101d3f5a216412c5d2460aaa1218c408e6a19da09e4e19319356e79169eebd",
+      "bytes": 1976526,
+      "motion_mean_absolute_difference": 5.321303891782407,
+      "caption_segments": 8
+    },
+    {
+      "path": "Market_Mind_Short_2/Market_Mind_Short_2.mp4",
+      "passed": true,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration": 34.583333,
+      "audio_duration": 34.583,
+      "fps": 24,
+      "sha256": "8884fb7b0fe9fb476ddc36ccb08292f6ad5cb4047bb6a5a7b4f5c00c43d9492f",
+      "bytes": 3608358,
+      "motion_mean_absolute_difference": 5.311341869212963,
+      "caption_segments": 8
+    }
+  ],
+  "completed_utc": "2026-10-09T20:37:55.520316+00:00"
+}
