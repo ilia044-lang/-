@@ -1,10 +1,6 @@
-name: PLTR cloud video — Oct 8 at 23-30 Israel
+name: PLTR archive — manual runs only
 
 on:
-  schedule:
-    # October 8, 2026 23:30 Asia/Jerusalem = 20:30 UTC.
-    # Cron has no year field; the date gate below prevents a future-year rerun.
-    - cron: '30 20 8 10 *'
   workflow_dispatch:
     inputs:
       trade_date:
