@@ -1,0 +1,118 @@
+name: Weekly market review + 2 Shorts — Oct 9 at 23-30 Israel
+
+on:
+  schedule:
+    # One requested edition: Oct 9 2026 23:30 Asia/Jerusalem = 20:30 UTC.
+    - cron: '30 20 9 10 *'
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: 'Smoke-test with October 8 completed data (false = final October 9 edition)'
+        type: boolean
+        default: false
+  push:
+    branches: [codex/weekly-market-2026-10-09]
+    paths: ['.github/workflows/weekly-market.yml', 'scripts/weekly_video/**']
+
+permissions:
+  contents: write
+concurrency:
+  group: weekly-market-2026-10-09
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    env:
+      PYTHONUNBUFFERED: '1'
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '1'
+      OUTPUT_DIR: /tmp/weekly-market-video
+    steps:
+      - name: Select the edition and enforce the post-close time
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          PREVIEW: ${{ inputs.preview }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT" == push || "$PREVIEW" == true ]]; then
+            echo 'preview=true' >> "$GITHUB_OUTPUT"
+            echo 'date=2026-10-08' >> "$GITHUB_OUTPUT"
+          else
+            now=$(date -u +%s)
+            start=$(date -u -d '2026-10-09 20:30:00' +%s)
+            end=$(date -u -d '2026-10-11 06:00:00' +%s)
+            if (( now < start || now > end )); then
+              echo 'Outside the authorized production window; final edition not started.'
+              echo 'run=false' >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo 'preview=false' >> "$GITHUB_OUTPUT"
+            echo 'date=2026-10-09' >> "$GITHUB_OUTPUT"
+          fi
+          echo 'run=true' >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.plan.outputs.run == 'true'
+        with:
+          path: source
+      - uses: actions/setup-python@v5
+        if: steps.plan.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: source/scripts/weekly_video/requirements.txt
+      - name: Install rendering dependencies
+        if: steps.plan.outputs.run == 'true'
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core libsndfile1
+          python -m pip install --disable-pip-version-check -r source/scripts/weekly_video/requirements.txt
+          python -m pip check
+      - uses: actions/cache@v4
+        if: steps.plan.outputs.run == 'true'
+        with:
+          path: ~/.cache/stock-video
+          key: kokoro-onnx-model-files-v1-0
+      - name: Produce the landscape edition and both portrait Shorts
+        if: steps.plan.outputs.run == 'true'
+        env:
+          PREVIEW: ${{ steps.plan.outputs.preview }}
+          TRADE_DATE: ${{ steps.plan.outputs.date }}
+        run: |
+          set -euo pipefail
+          args=(--date "$TRADE_DATE" --out "$OUTPUT_DIR" --attempts 12 --workers 2)
+          if [[ "$PREVIEW" == true ]]; then args+=(--smoke); fi
+          python source/scripts/weekly_video/run.py "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.plan.outputs.run == 'true'
+        with:
+          name: weekly-market-${{ github.run_id }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: |
+            /tmp/weekly-market-video/**/*.mp4
+            /tmp/weekly-market-video/**/*.json
+            /tmp/weekly-market-video/**/*.srt
+            /tmp/weekly-market-video/**/*.txt
+            /tmp/weekly-market-video/**/*.md
+            /tmp/weekly-market-video/**/*.jpg
+            /tmp/weekly-market-video/*.png
+            /tmp/weekly-market-video/sources/**
+            !/tmp/weekly-market-video/**/chunks/**
+      - uses: actions/checkout@v4
+        if: success() && steps.plan.outputs.run == 'true'
+        with:
+          path: publish
+      - name: Save verified downloadable files
+        if: success() && steps.plan.outputs.run == 'true'
+        env:
+          PREVIEW: ${{ steps.plan.outputs.preview }}
+        run: |
+          set -euo pipefail
+          args=(--out "$OUTPUT_DIR" --repo publish)
+          if [[ "$PREVIEW" == true ]]; then args+=(--preview); fi
+          python source/scripts/weekly_video/publish.py "${args[@]}"
