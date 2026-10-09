@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:01,585
+This is a production test.
+
+2
+00:00:01,585 --> 00:00:05,175
+Moving graphics, English narration and synchronized captions.
+
+3
+00:00:05,417 --> 00:00:07,001
+This is a production test.
+
+4
+00:00:07,001 --> 00:00:10,591
+Moving graphics, English narration and synchronized captions.
+
+5
+00:00:10,833 --> 00:00:12,418
+This is a production test.
+
+6
+00:00:12,418 --> 00:00:16,008
+Moving graphics, English narration and synchronized captions.

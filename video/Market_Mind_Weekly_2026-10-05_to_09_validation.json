@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "duration": 16.25,
+  "audio_duration": 16.25,
+  "fps": 24,
+  "sha256": "0d309e533a1a116ba00adf47c269aa9f4c270d230f818e902e00d5867e7855f6",
+  "bytes": 1359465,
+  "motion_mean_absolute_difference": 4.82130859375,
+  "caption_segments": 6
+}
