@@ -1,5 +1,5 @@
 """Dated, auditable inputs for the October 5–9 weekly edition."""
-import concurrent.futures, datetime as dt, json, math, re, statistics, time, io, html
+import concurrent.futures, datetime as dt, json, math, re, statistics, time, io, html, gzip, zlib
 import urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -12,7 +12,11 @@ START='2026-10-05'; END='2026-10-09'; NEXT_START='2026-10-12'; NEXT_END='2026-10
 
 def fetch(url, timeout=35):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json,text/html,text/calendar,*/*','Accept-Language':'en-US,en;q=0.9'})
-    with urllib.request.urlopen(req,timeout=timeout) as r:return r.read()
+    with urllib.request.urlopen(req,timeout=timeout) as r:
+        raw=r.read();encoding=r.headers.get('Content-Encoding','').lower()
+        if encoding=='gzip' or raw[:2]==b'\x1f\x8b':return gzip.decompress(raw)
+        if encoding=='deflate':return zlib.decompress(raw)
+        return raw
 
 def get_json(url):return json.loads(fetch(url))
 

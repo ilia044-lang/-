@@ -114,6 +114,9 @@ def main():
     assert a['date']==args.date
     rows=editorial.build(a);(out/'draft_script.json').write_text(json.dumps(rows,indent=2))
     if args.data_only:print(json.dumps({'date':a['date'],'markets':len(a['markets']),'headlines':len(a['news']),'calendar':a['calendar'],'supplemental':a['supplemental'],'errors':a['extra_errors']},indent=2));return
+    if not args.smoke and not a['preview']:
+        assert a['calendar']['macro'],'Final weekly edition requires a verified upcoming economic calendar'
+        assert a['calendar']['earnings'],'Final weekly edition requires a sourced earnings calendar'
     voice=engine(Path(args.model_cache));outputs=[]
     long_name='Market_Mind_Weekly_2026-10-05_to_09';long_out=out/long_name;long_out.mkdir(exist_ok=True)
     if args.smoke:
