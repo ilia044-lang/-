@@ -24,3 +24,7 @@ python scripts/stock_video/run.py --ticker PLTR --date 2026-10-08 --out /tmp/plt
 ```
 
 Omit `--date` for a preview of the latest completed session. Keep outputs outside the source checkout. Every render validates the dated input, indicator calculations, expected frame counts, complete decoding, dimensions and audio/video duration. All numerical labels and candles are drawn in code.
+
+## October 8 recovery run
+
+The scheduled workflow started at 00:30 UTC on October 9 and skipped production because its original date gate only accepted October 8. This recovery branch requests the actual October 8 PLTR close, with production output at `deliveries/PLTR-2026-10-08`. The corrected gate accepts an overnight delay.
