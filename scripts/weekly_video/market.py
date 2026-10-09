@@ -1,5 +1,5 @@
 """Dated, auditable inputs for the October 5–9 weekly edition."""
-import concurrent.futures, datetime as dt, json, math, re, statistics, time, io
+import concurrent.futures, datetime as dt, json, math, re, statistics, time, io, html
 import urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -15,6 +15,36 @@ def fetch(url, timeout=35):
     with urllib.request.urlopen(req,timeout=timeout) as r:return r.read()
 
 def get_json(url):return json.loads(fetch(url))
+
+def clean_html(text):return ' '.join(html.unescape(re.sub('<[^>]*>',' ',text)).split())
+
+def fed_yields(root,date):
+    url='https://www.federalreserve.gov/releases/h15/';raw=fetch(url).decode();(root/'fed-h15.html').write_text(raw)
+    dates={int(k):dt.datetime.strptime(clean_html(v),'%Y %b %d').date().isoformat() for k,v in re.findall(r'<th id="col(\d+)"[^>]*>(.*?)</th>',raw,re.S)}
+    yields={}
+    for year in [10,20,30]:
+        row=re.search(r'<th[^>]*class="stub in4">'+str(year)+r'-year</th>(.*?)</tr>',raw,re.S);assert row
+        yields[year]={int(k):float(clean_html(v)) for k,v in re.findall(r'<td[^>]*headers="[^"]*col(\d+)"[^>]*>(.*?)</td>',row[1],re.S) if re.fullmatch(r'\d+(?:\.\d+)?',clean_html(v))}
+    valid=[k for k,d in dates.items() if d<=date and all(k in yields[y] for y in yields)];assert valid
+    k=max(valid,key=lambda k:dates[k]);assert (dt.date.fromisoformat(date)-dt.date.fromisoformat(dates[k])).days<=4
+    return {'latest':{'date':dates[k],**{str(y)+'y':yields[y][k] for y in yields}},'previous':None,'source':url}
+
+def yahoo_macro(root):
+    def day(n):
+        date=(dt.date.fromisoformat(NEXT_START)+dt.timedelta(days=n)).isoformat();url=f'https://finance.yahoo.com/calendar/economic?from={NEXT_START}&to={NEXT_END}&day={date}&offset=0&size=100'
+        raw=fetch(url).decode();(root/('economic-yahoo-'+date+'.html')).write_text(raw);events=[]
+        for row in re.findall(r'<tr[^>]*>(.*?)</tr>',raw,re.S):
+            cells={k:clean_html(v) for k,v in re.findall(r'<td[^>]*data-testid-cell="([^"]+)"[^>]*>(.*?)</td>',row,re.S)}
+            if cells.get('country_code')=='US' and cells.get('econ_release'):
+                name=cells['econ_release'];family=next((x for x in ['CPI','PPI','Retail Sales','Jobless','Industrial','Consumer Sentiment'] if x.lower() in name.lower()),None)
+                if family:events.append({'date':date,'event':name,'family':family,'time':cells.get('startdatetime'),'source':url,'status':'Yahoo economic calendar; schedule subject to change'})
+        return events
+    events=[]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        for rows in pool.map(day,range(5)):events.extend(rows)
+    unique={}
+    for e in events:unique.setdefault((e['date'],e['family']),e)
+    return sorted(unique.values(),key=lambda e:e['date'])
 
 def chart(symbol, date, root, history='2y', interval='1d'):
     failures=[]
@@ -126,6 +156,9 @@ def calendar(root):
                     if event and country in ['united states','us','usa','united states of america']:
                         events.append({'date':date,'event':event,'source':url,'status':'Nasdaq economic calendar; schedule subject to change'})
             except Exception as e:errors.append('Economic calendar '+date+': '+str(e))
+    if not events:
+        try:events=yahoo_macro(root)
+        except Exception as e:errors.append('Yahoo economic calendar: '+str(e))
     earnings=[]
     for n in range(5):
         date=(dt.date.fromisoformat(NEXT_START)+dt.timedelta(days=n)).isoformat();url='https://api.nasdaq.com/api/calendar/earnings?date='+date
@@ -189,6 +222,9 @@ def collect(out,date,attempts=1):
         assert observations
         observations.sort(key=lambda x:x['date']);supplemental['treasury']={'latest':observations[-1],'previous':next((x for x in reversed(observations) if x['date']<START),None),'source':treasury_url}
     except Exception as e:extra_errors.append('Treasury official daily yields: '+str(e))
+    if 'treasury' not in supplemental:
+        try:supplemental['treasury']=fed_yields(root,date)
+        except Exception as e:extra_errors.append('Federal Reserve H15: '+str(e))
     if 'treasury' not in supplemental:
         url='https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,DGS20,DGS30&cosd=2026-09-25&coed='+date
         try:

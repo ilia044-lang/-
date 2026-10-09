@@ -11,7 +11,7 @@ on:
         type: boolean
         default: false
   push:
-    branches: [codex/weekly-market-2026-10-09]
+    branches: [codex/weekly-market-2026-10-09, codex/weekly-final-2026-10-09]
     paths: ['.github/workflows/weekly-market.yml', 'scripts/weekly_video/**']
 
 permissions:
@@ -21,18 +21,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  source-probe:
-    if: github.event_name == 'push'
-    runs-on: ubuntu-24.04
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          path: source
-      - uses: actions/checkout@v4
-        with:
-          path: probe-publish
-      - run: python3 source/scripts/weekly_video/probe_sources.py
   produce:
     runs-on: ubuntu-24.04
     timeout-minutes: 150
@@ -47,14 +35,15 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
           PREVIEW: ${{ inputs.preview }}
+          REF_NAME: ${{ github.ref_name }}
         run: |
           set -euo pipefail
-          if [[ "$EVENT" == push || "$PREVIEW" == true ]]; then
+          if [[ "$EVENT" == push && "$REF_NAME" != codex/weekly-final-2026-10-09 || "$PREVIEW" == true ]]; then
             echo 'preview=true' >> "$GITHUB_OUTPUT"
             echo 'date=2026-10-08' >> "$GITHUB_OUTPUT"
           else
             now=$(date -u +%s)
-            start=$(date -u -d '2026-10-09 20:30:00' +%s)
+            start=$(date -u -d '2026-10-09 20:00:00' +%s)
             end=$(date -u -d '2026-10-11 06:00:00' +%s)
             if (( now < start || now > end )); then
               echo 'Outside the authorized production window; final edition not started.'

@@ -55,7 +55,7 @@ def build(a):
     add('scenarios','TWO PATHS. ONE CHECKLIST.','SCENARIOS, NOT PREDICTIONS',
         'For the constructive scenario, look for the major indexes to hold their support references, breadth to improve, and volatility to remain contained. For the risk scenario, watch support breaks accompanied by weaker participation or rising yields and volatility. Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly. None of these conditions guarantees a move. Let new evidence update the assessment.',symbols=['SPY','QQQ'])
     add('hero','READY FOR NEXT WEEK','MARKET MIND | TRADING BASICS',
-        'That is the weekly map: price, participation, cross asset signals and the calendar. Follow Market Mind for clear chart education and the next weekly briefing. This program is education only, not financial advice. I am not a licensed advisor. Nothing here is a recommendation to buy or sell.')
+        'That is the weekly map: price, participation, cross asset signals and the calendar. Follow Market Mind for clear chart education and the next weekly briefing. This program is education only, not financial advice. I am not a licensed financial advisor. This is not a recommendation to take any investment action.')
     # Remove redundant educational filler while preserving every numerical fact,
     # the reporting dates, watchlist scenarios and the final disclaimer.
     trim=[
