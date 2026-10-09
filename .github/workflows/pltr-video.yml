@@ -7,11 +7,6 @@ on:
         description: 'Required completed session YYYY-MM-DD (blank = preview using latest completed session)'
         required: false
         type: string
-  push:
-    branches: [main, codex/pltr-recovery-2026-10-08]
-    paths:
-      - '.github/workflows/pltr-video.yml'
-      - 'scripts/stock_video/**'
 
 permissions:
   contents: write

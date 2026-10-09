@@ -28,8 +28,8 @@ def engine(cache):
 def stamp(t):
     ms=round(t*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}'
 
-def narration(rows,out,voice,speed):
-    all_audio=[];cursor=0;subtitles=[]
+def narration(rows,out,voice,speed,intro=0):
+    all_audio=[np.zeros(round(intro*24000))] if intro else [];cursor=intro;subtitles=[]
     for i,row in enumerate(rows):
         pieces=[];captions=[];local=0
         for words in editorial.caption_chunks(row['voice']):
@@ -61,7 +61,7 @@ def validate(path,duration,portrait):
     subprocess.run(['ffmpeg','-v','error','-i',str(path),'-f','null','-'],check=True)
     return {'passed':True,'dimensions':list(dimensions),'duration':float(v['duration']),'audio_duration':float(a['duration']),'fps':24,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'bytes':path.stat().st_size}
 
-def render(a,rows,out,portrait,workers):
+def render(a,rows,out,portrait,workers,intro=0):
     (out/'analysis.json').write_text(json.dumps(a,indent=2));(out/'chunks').mkdir(exist_ok=True)
     tasks=[]
     for i,row in enumerate(rows):
@@ -70,13 +70,14 @@ def render(a,rows,out,portrait,workers):
     with concurrent.futures.ProcessPoolExecutor(max_workers=workers) as pool:
         clips=[]
         for path in pool.map(visuals.render_piece,tasks):clips.append(path);print('Rendered',out.name,len(clips),'/',len(tasks),flush=True)
+    if intro:clips.insert(0,str(visuals.ASSETS/'intro.mp4'))
     listing=out/'chunks'/'concat.txt';listing.write_text('\n'.join("file '"+x+"'" for x in clips)+'\n')
     silent=out/'chunks'/'silent.mp4';subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',str(listing),'-c','copy',str(silent)],check=True)
     dest=out/(out.name+'.mp4');subprocess.run(['ffmpeg','-v','error','-y','-i',str(silent),'-i',str(out/'mixed.wav'),'-c:v','copy','-c:a','aac','-b:a','128k','-movflags','+faststart',str(dest)],check=True)
     if dest.stat().st_size>94*1024*1024:
         smaller=out/'smaller.mp4';subprocess.run(['ffmpeg','-v','error','-y','-i',str(dest),'-c:v','libx264','-b:v','1400k','-maxrate','1800k','-bufsize','3600k','-preset','fast','-c:a','copy',str(smaller)],check=True);smaller.replace(dest)
     assert dest.stat().st_size<99*1024*1024,'GitHub individual file limit'
-    duration=sum(x['duration'] for x in rows);receipt=validate(dest,duration,portrait)
+    duration=intro+sum(x['duration'] for x in rows);receipt=validate(dest,duration,portrait)
     # Pixel differences verify actual motion, independently of encoded frame count.
     f0=np.asarray(visuals.frame(a,rows[0],1.0,portrait),dtype=float);f1=np.asarray(visuals.frame(a,rows[0],3.0,portrait),dtype=float)
     receipt['motion_mean_absolute_difference']=float(np.abs(f0-f1).mean());assert receipt['motion_mean_absolute_difference']>.1
@@ -103,9 +104,9 @@ def main():
     if args.smoke:
         rows=[dict(rows[i]) for i in [0,7,10]]
         for r in rows:r['voice']='This is a production test. Moving graphics, English narration and synchronized captions.'
-    duration=narration(rows,long_out,voice,1.18)
+    duration=narration(rows,long_out,voice,1.18,intro=4)
     if not args.smoke:assert 300<=duration<=480,f'Weekly narration must be 5–8 minutes; got {duration:.1f}s'
-    contact_sheet(a,rows,long_out);path,receipt=render(a,rows,long_out,False,args.workers);outputs.append({'path':str(path.relative_to(out)),**receipt})
+    contact_sheet(a,rows,long_out);path,receipt=render(a,rows,long_out,False,args.workers,intro=4);outputs.append({'path':str(path.relative_to(out)),**receipt})
     for k,s in enumerate(editorial.short_scripts(a)):
         name=f'Market_Mind_Short_{k+1}';short_out=out/name;short_out.mkdir(exist_ok=True)
         if args.smoke:s['voice']='This is a portrait video test with English captions and moving visuals.'

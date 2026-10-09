@@ -22,7 +22,8 @@ def fit(s,width,size,bold=False):
 def wrapped(im,s,x,y,width,size=26,col=WHITE,bold=False,maxlines=5):
     lines=fit(s,width,size,bold)
     if len(lines)>maxlines:
-        return wrapped(im,s,x,y,width,max(16,size-2),col,bold,maxlines)
+        if size>16:return wrapped(im,s,x,y,width,max(16,size-2),col,bold,maxlines)
+        lines=lines[:maxlines];lines[-1]=lines[-1][:-2]+'…'
     for line in lines:text(im,(x,y),line,size,col,bold);y+=round(size*1.3)
     return y
 def panel(im,rect,fill='#171d25',outline='#3a414b'):
@@ -138,7 +139,7 @@ def frame(a,scene,t,portrait=False):
         if value is not None:
             for k in range(100):
                 col=GREEN if k<round(value) else '#434954';xx=45+(k%20)*27;yy=content_y+130+(k//20)*27;d.rounded_rectangle((xx,yy,xx+17,yy+17),radius=3,fill=col)
-        text(im,(40,content_y+310),f'VIX {v["close"]:.2f}',36,WHITE,True)
+        text(im,(40 if portrait else 790,content_y+(340 if portrait else 80)),f'VIX {v["close"]:.2f}',36,WHITE,True)
     elif kind=='news':
         n=scene.get('news');panel(im,(32,content_y-5,w-32,content_y+195),'#141c25')
         wrapped(im,'REPORTED HEADLINE',55,content_y+16,w-110,22,GOLD,True,1)

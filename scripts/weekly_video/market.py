@@ -1,5 +1,5 @@
 """Dated, auditable inputs for the October 5–9 weekly edition."""
-import concurrent.futures, datetime as dt, json, math, re, statistics, time
+import concurrent.futures, datetime as dt, json, math, re, statistics, time, io
 import urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -85,11 +85,12 @@ def news(root,date):
             for n in raw.get('news',[]):
                 stamp=n.get('providerPublishTime',0);title=n.get('title','');publisher=n.get('publisher','')
                 if not begin<=stamp<=now.timestamp() or not n.get('link') or not publisher:continue
-                if any(x in title.lower() for x in ['should you','stocks to buy','could make','price target','prediction','millionaire','best stock','motley fool']):continue
+                if any(x in title.lower() for x in ['should you','to buy','could make','price target','prediction','millionaire','best stock','motley fool','eyes entry','bc-most active','worth investing','undervalued','overvalued']):continue
                 if publisher.lower() in ['motley fool','24/7 wall st.','simply wall st.']:continue
                 items[n['link']]={'title':title,'publisher':publisher,'url':n['link'],'published':dt.datetime.fromtimestamp(stamp,dt.timezone.utc).isoformat(),'symbol':term,'verification':'Sourced headline metadata; not independent verification of the full article'}
         except Exception as e:errors.append(str(e))
-    result=sorted(items.values(),key=lambda x:x['published'],reverse=True)[:8]
+    preferred=['Reuters','Associated Press','Bloomberg','Yahoo Finance','MT Newswires','Barrons.com','CNBC','Investing.com']
+    result=sorted(items.values(),key=lambda x:(x['publisher'] in preferred,x['published']),reverse=True)[:8]
     return result,errors
 
 def calendar(root):
@@ -104,6 +105,17 @@ def calendar(root):
                 date=dt.datetime.strptime(day[1],'%Y%m%d').date().isoformat()
                 if NEXT_START<=date<=NEXT_END:events.append({'date':date,'event':summary[1].strip().replace('\\,',','),'source':url,'status':'BLS calendar'})
     except Exception as e:errors.append('BLS calendar: '+str(e))
+    if not events:
+        for n in range(5):
+            date=(dt.date.fromisoformat(NEXT_START)+dt.timedelta(days=n)).isoformat();url='https://api.nasdaq.com/api/calendar/economic?date='+date
+            try:
+                raw=get_json(url);(root/('economic_'+date+'.json')).write_text(json.dumps(raw))
+                data=raw.get('data') or {};rows=data.get('rows') or (data.get('table') or {}).get('rows') or []
+                for r in rows:
+                    country=str(r.get('country',r.get('countryName',''))).lower();event=r.get('event',r.get('eventName',''))
+                    if event and country in ['united states','us','usa','united states of america']:
+                        events.append({'date':date,'event':event,'source':url,'status':'Nasdaq economic calendar; schedule subject to change'})
+            except Exception as e:errors.append('Economic calendar '+date+': '+str(e))
     earnings=[]
     for n in range(5):
         date=(dt.date.fromisoformat(NEXT_START)+dt.timedelta(days=n)).isoformat();url='https://api.nasdaq.com/api/calendar/earnings?date='+date
@@ -142,11 +154,26 @@ def collect(out,date,attempts=1):
         assert observations
         observations.sort(key=lambda x:x['date']);supplemental['treasury']={'latest':observations[-1],'previous':next((x for x in reversed(observations) if x['date']<START),None),'source':treasury_url}
     except Exception as e:extra_errors.append('Treasury official daily yields: '+str(e))
+    if 'treasury' not in supplemental:
+        url='https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,DGS20,DGS30&cosd=2026-09-25&coed='+date
+        try:
+            raw=fetch(url).decode();(root/'fred-yields.csv').write_text(raw);df=pd.read_csv(io.StringIO(raw),na_values='.').dropna();df=df[df.iloc[:,0]<=date];assert len(df)
+            def record(row):return {'date':str(row.iloc[0]),'10y':float(row['DGS10']),'20y':float(row['DGS20']),'30y':float(row['DGS30'])}
+            last=record(df.iloc[-1]);assert (dt.date.fromisoformat(date)-dt.date.fromisoformat(last['date'])).days<=4
+            previous=df[df.iloc[:,0]<START];supplemental['treasury']={'latest':last,'previous':record(previous.iloc[-1]) if len(previous) else None,'source':url}
+        except Exception as e:extra_errors.append('FRED official Treasury series: '+str(e))
     try:
         url='https://scanner.tradingview.com/america/scan';body=json.dumps({'symbols':{'tickers':['INDEX:S5FI'],'query':{'types':[]}},'columns':['close','change','description']}).encode()
         req=urllib.request.Request(url,data=body,headers={'User-Agent':'Mozilla/5.0','Content-Type':'application/json'})
         raw=json.load(urllib.request.urlopen(req,timeout=25));(root/'breadth.json').write_text(json.dumps(raw));row=raw['data'][0];v=float(row['d'][0]);assert 0<=v<=100
         supplemental['breadth']={'value':v,'source':url,'symbol':row['s'],'retrieved_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'basis':'Snapshot, not independently certified daily close'}
     except Exception as e:extra_errors.append('S5FI breadth: '+str(e))
+    if 'breadth' not in supplemental:
+        try:
+            url='https://scanner.tradingview.com/global/scan';body=json.dumps({'symbols':{'tickers':['INDEX:S5FI'],'query':{'types':[]}},'columns':['close','change','description']}).encode()
+            req=urllib.request.Request(url,data=body,headers={'User-Agent':'Mozilla/5.0','Content-Type':'application/json'})
+            raw=json.load(urllib.request.urlopen(req,timeout=25));(root/'breadth-global.json').write_text(json.dumps(raw));row=raw['data'][0];v=float(row['d'][0]);assert 0<=v<=100
+            supplemental['breadth']={'value':v,'source':url,'symbol':row['s'],'retrieved_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'basis':'Snapshot, not independently certified daily close'}
+        except Exception as e:extra_errors.append('S5FI global snapshot: '+str(e))
     result={'date':date,'week_start':START,'week_end':END,'next_start':NEXT_START,'next_end':NEXT_END,'preview':date!=END,'retrieved_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'markets':{x['symbol']:x for x in records},'seasonality':seasons,'news':headlines,'news_errors':errors,'calendar':upcoming,'supplemental':supplemental,'extra_errors':extra_errors}
     (out/'analysis.json').write_text(json.dumps(result,indent=2));return result

@@ -22,7 +22,7 @@ def build(a):
     add('breadth','HOW MANY STOCKS JOINED IN?','S5FI • S&P 500 MEMBERS ABOVE THEIR 50-DAY AVERAGE',
         bv+f'This measure asks how many index members are above their fifty day average. A rising index with improving participation is different from a rise carried by a few names. Meanwhile, VIX reads {vix["close"]:.2f}, {direction(vix["weekly_pct"])} over the review week. VIX measures implied volatility, not the direction of the next move.',symbol='^VIX')
     treasury=a['supplemental'].get('treasury');r=m['^TNX'];long=m['^TYX']
-    rate_extra=f'The Treasury publishes the twenty year yield at {treasury["latest"]["20y"]:.2f} percent, dated {treasury["latest"]["date"]}. ' if treasury else 'The twenty year official observation could not be verified for this edition. '
+    rate_extra=f'The official Treasury series puts the twenty year yield at {treasury["latest"]["20y"]:.2f} percent, dated {treasury["latest"]["date"]}. ' if treasury else 'The twenty year official observation could not be verified for this edition. '
     add('rates','THE PRICE OF MONEY','US TREASURY YIELDS • 10 / 20 / 30 YEARS',
         f'The ten year yield reads {r["close"]:.3f} percent and the thirty year {long["close"]:.3f} percent in the market feed. '+rate_extra+
         'Yield changes and bond price changes are different things: rising yields generally mean falling bond prices. Higher long term yields can pressure equity valuations and financing costs. For next week, watch the direction of yields alongside economic releases, rather than treating one number as a forecast.',symbols=['^TNX','^TYX'])
@@ -32,13 +32,13 @@ def build(a):
     for s in a['seasonality']:
         add('season',f'{s["symbol"]}: 15 OCTOBERS','2011–2025 • ADJUSTED MONTH-END RETURNS',
             f'Now the October question. Over fifteen completed Octobers, from twenty eleven through twenty twenty five, {"S P Y" if s["symbol"]=="SPY" else "Q Q Q"} was positive in {s["positive"]} years and negative in {s["negative"]}. The average October return was {s["mean"]:.2f} percent; the median was {s["median"]:.2f}. The best was {s["best"]:.2f} percent, and the worst {s["worst"]:.2f}. These are adjusted monthly price returns, with dividends reflected by the data provider. October twenty twenty six is incomplete and excluded. A fifteen year sample describes history, not the odds of a guaranteed outcome.',symbol=s['symbol'])
-    news=a['news'][:3]
+    news=a['news'][:2]
     for i,n in enumerate(news):
         add('news',n['title'],n['publisher'].upper()+' • '+n['published'][:10],
             f'In the reported news, {n["publisher"]} published this headline: {n["title"]}. This is an attributed report, not proof that the headline caused the market move. For the coming week, separate the announcement from the subsequent evidence: company disclosures, reported results and the actual price response. Publication date and the source link accompany this edition.',news=n)
     if not news:add('news','NEWS VERIFICATION GAP','NO UNSOURCED HEADLINES', 'No eligible current headline could be verified in the connected feed. We will not fill that gap with invented news. The source notes disclose this limitation. Continue to check issuer announcements and authoritative reporting before treating a developing story as an established fact.')
     cal=a['calendar'];events=cal['macro'][:4];earnings=cal['earnings'][:6]
-    macro=' '.join(f'On October {int(e["date"][-2:])}, the B L S calendar lists {e["event"]}.' for e in events)
+    macro=' '.join(f'On October {int(e["date"][-2:])}, the economic calendar lists {e["event"]}.' for e in events)
     if not events:macro='A verified B L S release schedule could not be retrieved. Specific release dates are not asserted.'
     add('calendar','NEXT WEEK: OCTOBER 12–16','ECONOMIC RELEASES • EXPECTATIONS VS ACTUALS',macro+' The important distinction is the release versus the consensus expectation. The same headline number can have a different market impact depending on what was priced in. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.',events=events)
     ev=' '.join(f'{e["symbol"]}, October {int(e["date"][-2:])}.' for e in earnings)
@@ -54,6 +54,26 @@ def build(a):
         'For the constructive scenario, look for the major indexes to hold their support references, breadth to improve, and volatility to remain contained. For the risk scenario, watch support breaks accompanied by weaker participation or rising yields and volatility. Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly. None of these conditions guarantees a move. Let new evidence update the assessment.',symbols=['SPY','QQQ'])
     add('hero','READY FOR NEXT WEEK','MARKET MIND | TRADING BASICS',
         'That is the weekly map: price, participation, cross asset signals and the calendar. Follow Market Mind for clear chart education and the next weekly briefing. This program is education only, not financial advice. I am not a licensed advisor. Nothing here is a recommendation to buy or sell.')
+    # Remove redundant educational filler while preserving every numerical fact,
+    # the reporting dates, watchlist scenarios and the final disclaimer.
+    trim=[
+        'The goal is context, not a prediction.',
+        'Comparing all three helps distinguish technology leadership from participation across the wider market.',
+        'Next week, the reaction at these levels matters more than the line itself.',
+        'Momentum is evidence to weigh alongside price, volume and breadth.',
+        'A rising index with improving participation is different from a rise carried by a few names.',
+        'For next week, watch the direction of yields alongside economic releases, rather than treating one number as a forecast.',
+        'For Strategy and the digital infrastructure names, Bitcoin adds another source of volatility.',
+        'A fifteen year sample describes history, not the odds of a guaranteed outcome.',
+        'For the coming week, separate the announcement from the subsequent evidence: company disclosures, reported results and the actual price response.',
+        'Publication date and the source link accompany this edition.',
+        'The same headline number can have a different market impact depending on what was priced in.',
+        'That is why the event calendar belongs beside the technical analysis.',
+        'Let new evidence update the assessment.',
+    ]
+    for row in rows:
+        for sentence in trim:row['voice']=row['voice'].replace(sentence,'')
+        row['voice']=' '.join(row['voice'].split())
     return rows
 
 def short_scripts(a):

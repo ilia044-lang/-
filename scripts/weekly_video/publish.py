@@ -18,6 +18,7 @@ def main():
     for name in ['YouTube_thumbnail.png','YouTube_title_and_description.txt','TikTok_captions.txt','Sources_and_methods.md','analysis.json','validation.json']:
         shutil.copy2(out/name,dest/name);links.append(f'- [{name}](video/{name}?raw=1)')
     shutil.copy2(out/'Market_Mind_Weekly_2026-10-05_to_09'/'contact-sheet.jpg',dest/'contact-sheet.jpg')
+    if (out/'sources').exists():shutil.copytree(out/'sources',dest/'sources',dirs_exist_ok=True)
     prefix='AUTOMATION TEST — NOT THE FINAL EDITION' if a.preview else 'WEEKLY MARKET REVIEW — FINAL FILES'
     (repo/'README.md').write_text('# '+prefix+'\n\nReview: October 5–9, 2026. Outlook: October 12–16.\n\nMain video: 16:9. Two Shorts: 9:16. English narration and burned English captions.\n\n'+'\n'.join(links)+'\n\nUse Download raw on a GitHub file page. Files are not automatically uploaded to YouTube or TikTok. Source gaps are recorded in Sources_and_methods.md.\n')
     git(repo,'config','user.name','Market Mind cloud video');git(repo,'config','user.email','41898282+github-actions[bot]@users.noreply.github.com');git(repo,'add','README.md','video')
