@@ -12,7 +12,7 @@ on:
         required: false
         type: string
   push:
-    branches: [main]
+    branches: [main, codex/pltr-recovery-2026-10-08]
     paths:
       - '.github/workflows/pltr-video.yml'
       - 'scripts/stock_video/**'
@@ -39,23 +39,31 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
           INPUT_DATE: ${{ inputs.trade_date }}
+          REF_NAME: ${{ github.ref_name }}
         shell: bash
         run: |
           set -euo pipefail
           trade_date=''
           mode=preview
           if [[ "$EVENT" == schedule ]]; then
-            if [[ "$(date -u +%F)" != 2026-10-08 ]]; then
+            if [[ "$(date -u +%F)" != 2026-10-08 && "$(date -u +%F)" != 2026-10-09 ]]; then
               echo 'run=false' >> "$GITHUB_OUTPUT"
               echo 'One-date schedule expired; no video will be generated.'
               exit 0
             fi
             trade_date=2026-10-08
             mode=production
+          elif [[ "$EVENT" == push && "$REF_NAME" == codex/pltr-recovery-2026-10-08 ]]; then
+            trade_date=2026-10-08
+            mode=production
           elif [[ -n "${INPUT_DATE:-}" ]]; then
             [[ "$INPUT_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || exit 2
             trade_date="$INPUT_DATE"
             mode=production
+          fi
+          if [[ "$EVENT" == push && "$REF_NAME" == main ]]; then
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           echo 'run=true' >> "$GITHUB_OUTPUT"
           echo "trade_date=$trade_date" >> "$GITHUB_OUTPUT"
