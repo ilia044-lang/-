@@ -51,7 +51,7 @@
     "kind": "crossasset",
     "title": "OIL. DOLLAR. BITCOIN.",
     "kicker": "THREE DIFFERENT TRANSMISSION CHANNELS",
-    "voice": "WTI futures read 91.59 dollars per barrel. The dollar index is 102.220. Bitcoin is around 82,314.96 dollars at the captured snapshot. Bitcoin trades around the clock, so this is not an equity market closing print. Oil can affect inflation expectations, while the dollar influences global financial conditions.",
+    "voice": "WTI futures read 91.74 dollars per barrel. The dollar index is 102.227. Bitcoin is around 82,318.45 dollars at the captured snapshot. Bitcoin trades around the clock, so this is not an equity market closing print. Oil can affect inflation expectations, while the dollar influences global financial conditions.",
     "symbols": [
       "CL=F",
       "DX-Y.NYB",
@@ -107,8 +107,54 @@
     "kind": "calendar",
     "title": "NEXT WEEK: OCTOBER 12\u201316",
     "kicker": "ECONOMIC RELEASES \u2022 EXPECTATIONS VS ACTUALS",
-    "voice": "A verified B L S release schedule could not be retrieved. Specific release dates are not asserted. The important distinction is the release versus the consensus expectation. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.",
-    "events": []
+    "voice": "On October 14, the economic calendar lists Consumer Price Index. On October 15, the economic calendar lists Producer Price Index. On October 15, the economic calendar lists Retail sales. On October 15, the economic calendar lists Initial jobless claims. On October 16, the economic calendar lists Industrial production. The important distinction is the release versus the consensus expectation. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.",
+    "events": [
+      {
+        "date": "2026-10-14",
+        "event": "Consumer Price Index",
+        "family": "CPI",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "CPI MM, SA"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Producer Price Index",
+        "family": "PPI",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "PPI Final Demand MM"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Retail sales",
+        "family": "Retail Sales",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "Retail Sales MM"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Initial jobless claims",
+        "family": "Jobless",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "Initial Jobless Clm *"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Industrial production",
+        "family": "Industrial",
+        "time": "09:15 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "Industrial Production MM*"
+      }
+    ]
   },
   {
     "kind": "calendar",
