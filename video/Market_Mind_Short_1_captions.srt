@@ -1,3 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,251
-This is a portrait video test with English captions and moving visuals.
+00:00:00,000 --> 00:00:02,097
+Is October really profitable?
+
+2
+00:00:02,097 --> 00:00:07,991
+In fifteen completed Octobers, S P Y was positive 9 times and negative 6.
+
+3
+00:00:07,991 --> 00:00:14,866
+Its average October return was 2.17 percent, but the worst was -6.91.
+
+4
+00:00:14,866 --> 00:00:19,885
+These are adjusted monthly returns from twenty eleven through twenty twenty five.
+
+5
+00:00:19,885 --> 00:00:22,451
+This October is incomplete and excluded.
+
+6
+00:00:22,451 --> 00:00:24,975
+History is context, not a guarantee.
+
+7
+00:00:24,975 --> 00:00:29,909
+Watch the full Market Mind weekly review for the charts and next week calendar.
+
+8
+00:00:29,909 --> 00:00:33,008
+Education only, not financial advice.

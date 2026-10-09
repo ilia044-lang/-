@@ -4,11 +4,11 @@
     1080,
     1920
   ],
-  "duration": 4.5,
-  "audio_duration": 4.5,
+  "duration": 33.25,
+  "audio_duration": 33.25,
   "fps": 24,
-  "sha256": "c4b54cdb0d11302c9503de0731b1144f010450a0c93eabf995c1ee10bcc887a7",
-  "bytes": 267650,
-  "motion_mean_absolute_difference": 3.3501381655092595,
-  "caption_segments": 1
+  "sha256": "00101d3f5a216412c5d2460aaa1218c408e6a19da09e4e19319356e79169eebd",
+  "bytes": 1976526,
+  "motion_mean_absolute_difference": 5.321303891782407,
+  "caption_segments": 8
 }

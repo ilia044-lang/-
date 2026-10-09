@@ -1,23 +1,443 @@
 1
-00:00:00,000 --> 00:00:01,585
-This is a production test.
+00:00:04,000 --> 00:00:08,657
+This is an automation preview using completed data through October eighth.
 
 2
-00:00:01,585 --> 00:00:05,175
-Moving graphics, English narration and synchronized captions.
+00:00:08,657 --> 00:00:12,823
+The final edition will require October ninth data after the close.
 
 3
-00:00:05,417 --> 00:00:07,001
-This is a production test.
+00:00:12,823 --> 00:00:14,365
+Welcome to Market Mind.
 
 4
-00:00:07,001 --> 00:00:10,591
-Moving graphics, English narration and synchronized captions.
+00:00:14,365 --> 00:00:18,445
+This is your weekly market briefing for October fifth through ninth, with the road
 
 5
-00:00:10,833 --> 00:00:12,418
-This is a production test.
+00:00:18,445 --> 00:00:20,755
+map for October twelfth through sixteenth.
 
 6
-00:00:12,418 --> 00:00:16,008
-Moving graphics, English narration and synchronized captions.
+00:00:20,755 --> 00:00:26,116
+We will connect stocks, bonds, oil, the dollar and Bitcoin, examine fifteen Octobers, and
+
+7
+00:00:26,116 --> 00:00:28,618
+put four stocks on a technical watchlist.
+
+8
+00:00:28,875 --> 00:00:34,321
+The S and P five hundred fund, S P Y, finished 0.56 percent higher.
+
+9
+00:00:34,321 --> 00:00:40,556
+Q Q Q was 0.27 percent lower, while the Dow Jones was 0.11 percent
+
+10
+00:00:40,556 --> 00:00:41,330
+higher.
+
+11
+00:00:41,330 --> 00:00:45,816
+These returns compare the review close with the previous Friday, October second.
+
+12
+00:00:46,042 --> 00:00:49,717
+S P Y closed at 773.93.
+
+13
+00:00:49,717 --> 00:00:57,382
+The fifty day average is 766.84 and the two hundred day is 722.46.
+
+14
+00:00:57,382 --> 00:01:05,686
+An observed support reference is 762.04, with resistance near 774.03.
+
+15
+00:01:05,686 --> 00:01:09,724
+Moving averages describe trends; they do not guarantee support.
+
+16
+00:01:09,958 --> 00:01:13,484
+Q Q Q closed at 747.58.
+
+17
+00:01:13,484 --> 00:01:16,733
+Its fourteen day R S I reads 58.8.
+
+18
+00:01:16,733 --> 00:01:24,099
+Support is referenced near 731.63, and resistance near 748.35.
+
+19
+00:01:24,099 --> 00:01:28,713
+Compare its weekly change with the broad index before calling the move broad based.
+
+20
+00:01:28,713 --> 00:01:33,092
+A strong technology index can coexist with weaker individual stocks.
+
+21
+00:01:33,333 --> 00:01:38,246
+A verified final breadth reading was unavailable, so no percentage is invented.
+
+22
+00:01:38,246 --> 00:01:42,732
+This measure asks how many index members are above their fifty day average.
+
+23
+00:01:42,732 --> 00:01:49,202
+Meanwhile, VIX reads 15.41, 0.65 percent higher over the review week.
+
+24
+00:01:49,202 --> 00:01:53,709
+VIX measures implied volatility, not the direction of the next move.
+
+25
+00:01:53,958 --> 00:02:00,514
+The ten year yield reads 5.231 percent and the thirty year 5.606 percent in
+
+26
+00:02:00,514 --> 00:02:01,693
+the market feed.
+
+27
+00:02:01,693 --> 00:02:06,072
+The twenty year official observation could not be verified for this edition.
+
+28
+00:02:06,072 --> 00:02:12,009
+Yield changes and bond price changes are different things: rising yields generally mean falling
+
+29
+00:02:12,009 --> 00:02:13,231
+bond prices.
+
+30
+00:02:13,231 --> 00:02:18,058
+Higher long term yields can pressure equity valuations and financing costs.
+
+31
+00:02:18,292 --> 00:02:22,522
+WTI futures read 91.49 dollars per barrel.
+
+32
+00:02:22,522 --> 00:02:25,792
+The dollar index is 102.140.
+
+33
+00:02:25,792 --> 00:02:32,112
+Bitcoin is around 81,676.34 dollars at the captured snapshot.
+
+34
+00:02:32,112 --> 00:02:36,620
+Bitcoin trades around the clock, so this is not an equity market closing print.
+
+35
+00:02:36,620 --> 00:02:42,578
+Oil can affect inflation expectations, while the dollar influences global financial conditions.
+
+36
+00:02:42,833 --> 00:02:44,610
+Now the October question.
+
+37
+00:02:44,610 --> 00:02:50,141
+Over fifteen completed Octobers, from twenty eleven through twenty twenty five, S P Y
+
+38
+00:02:50,141 --> 00:02:53,155
+was positive in 9 years and negative in 6.
+
+39
+00:02:53,155 --> 00:02:58,879
+The average October return was 2.17 percent; the median was 2.36.
+
+40
+00:02:58,879 --> 00:03:03,621
+The best was 10.91 percent, and the worst -6.91.
+
+41
+00:03:03,621 --> 00:03:07,232
+Adjusted prices reflect the provider dividend adjustments.
+
+42
+00:03:07,232 --> 00:03:10,566
+October twenty twenty six is incomplete and excluded.
+
+43
+00:03:10,792 --> 00:03:12,568
+Now the October question.
+
+44
+00:03:12,568 --> 00:03:18,057
+Over fifteen completed Octobers, from twenty eleven through twenty twenty five, Q Q Q
+
+45
+00:03:18,057 --> 00:03:21,071
+was positive in 9 years and negative in 6.
+
+46
+00:03:21,071 --> 00:03:27,050
+The average October return was 2.25 percent; the median was 4.00.
+
+47
+00:03:27,050 --> 00:03:31,600
+The best was 11.37 percent, and the worst -8.60.
+
+48
+00:03:31,600 --> 00:03:35,212
+Adjusted prices reflect the provider dividend adjustments.
+
+49
+00:03:35,212 --> 00:03:38,546
+October twenty twenty six is incomplete and excluded.
+
+50
+00:03:38,792 --> 00:03:45,262
+In the reported news, MT Newswires published this headline: Exchange-Traded Funds Rise as US
+
+51
+00:03:45,262 --> 00:03:47,230
+Equities Advance After Midday.
+
+52
+00:03:47,230 --> 00:03:50,415
+Reported headlines do not establish price causation.
+
+53
+00:03:50,667 --> 00:03:56,369
+In the reported news, Barrons.com published this headline: $50B? $70B?
+
+54
+00:03:56,369 --> 00:04:00,129
+How OpenAI’s Accounting Confusion Wrecked the AI Trade.
+
+55
+00:04:00,129 --> 00:04:03,314
+Reported headlines do not establish price causation.
+
+56
+00:04:03,542 --> 00:04:07,324
+A verified B L S release schedule could not be retrieved.
+
+57
+00:04:07,324 --> 00:04:09,890
+Specific release dates are not asserted.
+
+58
+00:04:09,890 --> 00:04:14,504
+The important distinction is the release versus the consensus expectation.
+
+59
+00:04:14,504 --> 00:04:18,264
+Watch the reaction in yields, the dollar and equity breadth together.
+
+60
+00:04:18,264 --> 00:04:22,964
+Economic calendars can change; recheck the original source before the event.
+
+61
+00:04:23,208 --> 00:04:25,049
+GS, October 13.
+
+62
+00:04:25,049 --> 00:04:27,146
+JNJ, October 13.
+
+63
+00:04:27,146 --> 00:04:29,242
+JPM, October 13.
+
+64
+00:04:29,242 --> 00:04:30,912
+UNH, October 13.
+
+65
+00:04:30,912 --> 00:04:32,774
+ASML, October 14.
+
+66
+00:04:32,774 --> 00:04:34,466
+BAC, October 14.
+
+67
+00:04:34,466 --> 00:04:38,952
+These dates are calendar estimates unless an issuer announcement confirms them.
+
+68
+00:04:38,952 --> 00:04:45,251
+For earnings, listen beyond the headline profit number: revenue quality, margins, demand and forward
+
+69
+00:04:45,251 --> 00:04:47,860
+guidance often shape the next conversation.
+
+70
+00:04:47,860 --> 00:04:51,215
+An overnight earnings gap can jump across a chart level.
+
+71
+00:04:51,458 --> 00:04:58,504
+Strategy closed at 151.47 dollars, 5.34 percent lower for the review week.
+
+72
+00:04:58,504 --> 00:05:03,161
+Bitcoin sensitivity and the company capital structure can amplify moves.
+
+73
+00:05:03,161 --> 00:05:10,548
+The observed support reference is 123.33, with resistance near 170.17.
+
+74
+00:05:10,548 --> 00:05:12,880
+R S I is 53.4.
+
+75
+00:05:12,880 --> 00:05:16,854
+Volume was 1.03 times its twenty session average.
+
+76
+00:05:16,854 --> 00:05:20,892
+Above resistance, watch for a sustained hold and participation.
+
+77
+00:05:20,892 --> 00:05:24,226
+Below support, reassess whether the structure is weakening.
+
+78
+00:05:24,458 --> 00:05:30,736
+IREN closed at 35.71 dollars, 14.49 percent lower for the review week.
+
+79
+00:05:30,736 --> 00:05:36,353
+Watch operating execution and funding disclosures alongside the digital infrastructure theme.
+
+80
+00:05:36,353 --> 00:05:42,524
+The observed support reference is 34.81, with resistance near 42.24.
+
+81
+00:05:42,524 --> 00:05:44,749
+R S I is 34.8.
+
+82
+00:05:44,749 --> 00:05:48,510
+Volume was 1.49 times its twenty session average.
+
+83
+00:05:48,510 --> 00:05:52,548
+Above resistance, watch for a sustained hold and participation.
+
+84
+00:05:52,548 --> 00:05:55,882
+Below support, reassess whether the structure is weakening.
+
+85
+00:05:56,125 --> 00:06:02,851
+Broadcom closed at 360.14 dollars, 1.41 percent higher for the review week.
+
+86
+00:06:02,851 --> 00:06:08,980
+Semiconductor demand and infrastructure spending are the business context; the chart alone cannot confirm
+
+87
+00:06:08,980 --> 00:06:09,754
+either.
+
+88
+00:06:09,754 --> 00:06:17,610
+The observed support reference is 357.80, with resistance near 361.86.
+
+89
+00:06:17,610 --> 00:06:19,856
+R S I is 49.3.
+
+90
+00:06:19,856 --> 00:06:23,489
+Volume was 1.12 times its twenty session average.
+
+91
+00:06:23,489 --> 00:06:27,527
+Above resistance, watch for a sustained hold and participation.
+
+92
+00:06:27,527 --> 00:06:30,861
+Below support, reassess whether the structure is weakening.
+
+93
+00:06:31,083 --> 00:06:38,236
+Cipher Digital closed at 13.50 dollars, 14.07 percent lower for the review week.
+
+94
+00:06:38,236 --> 00:06:41,037
+This is Cipher Digital, ticker C I F R.
+
+95
+00:06:41,037 --> 00:06:45,245
+Infrastructure execution and financing remain relevant context.
+
+96
+00:06:45,245 --> 00:06:51,182
+The observed support reference is 12.88, with resistance near 17.47.
+
+97
+00:06:51,182 --> 00:06:53,492
+R S I is 34.1.
+
+98
+00:06:53,492 --> 00:06:57,445
+Volume was 1.64 times its twenty session average.
+
+99
+00:06:57,445 --> 00:07:01,483
+Above resistance, watch for a sustained hold and participation.
+
+100
+00:07:01,483 --> 00:07:04,817
+Below support, reassess whether the structure is weakening.
+
+101
+00:07:05,042 --> 00:07:10,274
+For the constructive scenario, look for the major indexes to hold their support references,
+
+102
+00:07:10,274 --> 00:07:13,672
+breadth to improve, and volatility to remain contained.
+
+103
+00:07:13,672 --> 00:07:19,758
+For the risk scenario, watch support breaks accompanied by weaker participation or rising yields
+
+104
+00:07:19,758 --> 00:07:21,002
+and volatility.
+
+105
+00:07:21,002 --> 00:07:26,810
+Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly.
+
+106
+00:07:26,810 --> 00:07:29,419
+None of these conditions guarantees a move.
+
+107
+00:07:29,667 --> 00:07:34,622
+That is the weekly map: price, participation, cross asset signals and the calendar.
+
+108
+00:07:34,622 --> 00:07:39,087
+Follow Market Mind for clear chart education and the next weekly briefing.
+
+109
+00:07:39,087 --> 00:07:42,847
+This program is education only, not financial advice.
+
+110
+00:07:42,847 --> 00:07:44,987
+I am not a licensed advisor.
+
+111
+00:07:44,987 --> 00:07:47,915
+Nothing here is a recommendation to buy or sell.

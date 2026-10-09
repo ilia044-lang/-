@@ -1,9 +1,57 @@
 THE WEEK.
 THE NEXT MOVE.
-This is a production test. Moving graphics, English narration and synchronized captions.
+This is an automation preview using completed data through October eighth. The final edition will require October ninth data after the close. Welcome to Market Mind. This is your weekly market briefing for October fifth through ninth, with the road map for October twelfth through sixteenth. We will connect stocks, bonds, oil, the dollar and Bitcoin, examine fifteen Octobers, and put four stocks on a technical watchlist.
+
+WHAT CHANGED THIS WEEK
+The S and P five hundred fund, S P Y, finished 0.56 percent higher. Q Q Q was 0.27 percent lower, while the Dow Jones was 0.11 percent higher. These returns compare the review close with the previous Friday, October second.
+
+SPY: THE MARKET REFERENCE
+S P Y closed at 773.93. The fifty day average is 766.84 and the two hundred day is 722.46. An observed support reference is 762.04, with resistance near 774.03. Moving averages describe trends; they do not guarantee support.
+
+QQQ: CHECK THE LEADERSHIP
+Q Q Q closed at 747.58. Its fourteen day R S I reads 58.8. Support is referenced near 731.63, and resistance near 748.35. Compare its weekly change with the broad index before calling the move broad based. A strong technology index can coexist with weaker individual stocks.
+
+HOW MANY STOCKS JOINED IN?
+A verified final breadth reading was unavailable, so no percentage is invented. This measure asks how many index members are above their fifty day average. Meanwhile, VIX reads 15.41, 0.65 percent higher over the review week. VIX measures implied volatility, not the direction of the next move.
+
+THE PRICE OF MONEY
+The ten year yield reads 5.231 percent and the thirty year 5.606 percent in the market feed. The twenty year official observation could not be verified for this edition. Yield changes and bond price changes are different things: rising yields generally mean falling bond prices. Higher long term yields can pressure equity valuations and financing costs.
+
+OIL. DOLLAR. BITCOIN.
+WTI futures read 91.49 dollars per barrel. The dollar index is 102.140. Bitcoin is around 81,676.34 dollars at the captured snapshot. Bitcoin trades around the clock, so this is not an equity market closing print. Oil can affect inflation expectations, while the dollar influences global financial conditions.
 
 SPY: 15 OCTOBERS
-This is a production test. Moving graphics, English narration and synchronized captions.
+Now the October question. Over fifteen completed Octobers, from twenty eleven through twenty twenty five, S P Y was positive in 9 years and negative in 6. The average October return was 2.17 percent; the median was 2.36. The best was 10.91 percent, and the worst -6.91. Adjusted prices reflect the provider dividend adjustments. October twenty twenty six is incomplete and excluded.
 
-Dan Ives Makes Major Shakeup to AI Stock To Buy List
-This is a production test. Moving graphics, English narration and synchronized captions.
+QQQ: 15 OCTOBERS
+Now the October question. Over fifteen completed Octobers, from twenty eleven through twenty twenty five, Q Q Q was positive in 9 years and negative in 6. The average October return was 2.25 percent; the median was 4.00. The best was 11.37 percent, and the worst -8.60. Adjusted prices reflect the provider dividend adjustments. October twenty twenty six is incomplete and excluded.
+
+Exchange-Traded Funds Rise as US Equities Advance After Midday
+In the reported news, MT Newswires published this headline: Exchange-Traded Funds Rise as US Equities Advance After Midday. Reported headlines do not establish price causation.
+
+$50B? $70B? How OpenAI’s Accounting Confusion Wrecked the AI Trade
+In the reported news, Barrons.com published this headline: $50B? $70B? How OpenAI’s Accounting Confusion Wrecked the AI Trade. Reported headlines do not establish price causation.
+
+NEXT WEEK: OCTOBER 12–16
+A verified B L S release schedule could not be retrieved. Specific release dates are not asserted. The important distinction is the release versus the consensus expectation. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.
+
+EARNINGS ON THE RADAR
+GS, October 13. JNJ, October 13. JPM, October 13. UNH, October 13. ASML, October 14. BAC, October 14. These dates are calendar estimates unless an issuer announcement confirms them. For earnings, listen beyond the headline profit number: revenue quality, margins, demand and forward guidance often shape the next conversation. An overnight earnings gap can jump across a chart level.
+
+MSTR: LEVELS, NOT PROMISES
+Strategy closed at 151.47 dollars, 5.34 percent lower for the review week. Bitcoin sensitivity and the company capital structure can amplify moves. The observed support reference is 123.33, with resistance near 170.17. R S I is 53.4. Volume was 1.03 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+
+IREN: LEVELS, NOT PROMISES
+IREN closed at 35.71 dollars, 14.49 percent lower for the review week. Watch operating execution and funding disclosures alongside the digital infrastructure theme. The observed support reference is 34.81, with resistance near 42.24. R S I is 34.8. Volume was 1.49 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+
+AVGO: LEVELS, NOT PROMISES
+Broadcom closed at 360.14 dollars, 1.41 percent higher for the review week. Semiconductor demand and infrastructure spending are the business context; the chart alone cannot confirm either. The observed support reference is 357.80, with resistance near 361.86. R S I is 49.3. Volume was 1.12 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+
+CIFR: LEVELS, NOT PROMISES
+Cipher Digital closed at 13.50 dollars, 14.07 percent lower for the review week. This is Cipher Digital, ticker C I F R. Infrastructure execution and financing remain relevant context. The observed support reference is 12.88, with resistance near 17.47. R S I is 34.1. Volume was 1.64 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+
+TWO PATHS. ONE CHECKLIST.
+For the constructive scenario, look for the major indexes to hold their support references, breadth to improve, and volatility to remain contained. For the risk scenario, watch support breaks accompanied by weaker participation or rising yields and volatility. Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly. None of these conditions guarantees a move.
+
+READY FOR NEXT WEEK
+That is the weekly map: price, participation, cross asset signals and the calendar. Follow Market Mind for clear chart education and the next weekly briefing. This program is education only, not financial advice. I am not a licensed advisor. Nothing here is a recommendation to buy or sell.

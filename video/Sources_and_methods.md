@@ -1,7 +1,7 @@
 # Sources and methods
 
 Review: October 5–9, 2026. Data used: 2026-10-08. Outlook: October 12–16, 2026.
-Retrieved: 2026-10-09T17:10:35.737495+00:00.
+Retrieved: 2026-10-09T17:22:02.379065+00:00.
 
 Weekly equity returns: dated close / October 2 close minus 1. Bitcoin is a timestamped daily snapshot, not an equity closing print. Oil futures and foreign exchange use provider session conventions. Treasury yields are percentages, not bond prices. Moving averages: simple daily close averages. RSI/ATR: Wilder smoothing. CCI: 14-day typical-price mean deviation. Historical support/resistance references are not forecasts.
 
@@ -26,14 +26,14 @@ Background is AI-generated illustration. English narration is synthetic, not an 
 - CIFR: https://query1.finance.yahoo.com/v8/finance/chart/CIFR?range=2y&interval=1d
 - October SPY: https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=20y&interval=1mo
 - October QQQ: https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=20y&interval=1mo
-- 2026-10-09T17:00:04+00:00 | Investor's Business Daily | This AI Stock Snatches Share, Eyes Entry As Funds Pile In. Earnings Are Soaring. | https://finance.yahoo.com/m/ad872e8a-208f-36ff-8a25-0a3f9a363091/this-ai-stock-snatches-share%2C.html
-- 2026-10-09T16:38:17+00:00 | GuruFocus.com | Dan Ives Makes Major Shakeup to AI Stock To Buy List | https://finance.yahoo.com/technology/ai/articles/dan-ives-makes-major-shakeup-163817888.html
-- 2026-10-09T16:37:54+00:00 | etf.com | ETF Zoo: No CLARITY and New Treasury Tax Crackdowns | https://finance.yahoo.com/markets/crypto/articles/etf-zoo-no-clarity-treasury-163754748.html
-- 2026-10-09T16:05:21+00:00 | Insider Monkey | AMD vs. Broadcom: How Much Faster Must AMD’s Cash Flow Grow to Earn Its Premium? | https://finance.yahoo.com/markets/stocks/articles/amd-vs-broadcom-much-faster-160521892.html
-- 2026-10-09T15:47:43+00:00 | Trefis | One Reason To Buy Applied Optoelectronics Stock Now | https://finance.yahoo.com/markets/stocks/articles/one-reason-buy-applied-optoelectronics-154743966.html
+- 2026-10-09T17:15:21+00:00 | MT Newswires | Exchange-Traded Funds Rise as US Equities Advance After Midday | https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171521828.html
 - 2026-10-09T14:57:00+00:00 | Barrons.com | $50B? $70B? How OpenAI’s Accounting Confusion Wrecked the AI Trade | https://finance.yahoo.com/m/5b1b0d95-fc06-3130-815e-05ab50b8e9eb/%2450b%3F-%2470b%3F-how-openai%E2%80%99s.html
-- 2026-10-09T13:34:00+00:00 | CryptoProwl | JPMorgan Chase Is Bullish On Crypto Heading Into Year’s End | https://finance.yahoo.com/markets/crypto/articles/jpmorgan-chase-bullish-crypto-heading-133400339.html
 - 2026-10-09T13:26:19+00:00 | MT Newswires | Exchange-Traded Funds, Equity Futures Up Pre-Bell Friday as Oil Prices Fall, Traders Assess SpaceX Spectrum Deal | https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132619334.html
+- 2026-10-09T12:21:00+00:00 | Barrons.com | Bitcoin, Strategy, and Crypto Stocks Rebound as Trump Signal Cools Iran Attack Fears | https://finance.yahoo.com/m/fdafdedd-9b80-3ca6-b5dc-bc31417773c8/bitcoin%2C-strategy%2C-and-crypto.html
+- 2026-10-09T11:48:15+00:00 | MT Newswires | Stocks Rise Pre-Bell Following Tech Selloff | https://finance.yahoo.com/markets/stocks/articles/stocks-rise-pre-bell-following-114815917.html
+- 2026-10-09T07:05:55+00:00 | Investing.com | Bitcoin steadies above $82k, heads for weekly losses amid yield pressure | https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-82k-heads-weekly-070555111.html
+- 2026-10-09T04:35:51+00:00 | Reuters | Morning Bid: Feeding the AI beast | https://finance.yahoo.com/technology/ai/articles/morning-bid-feeding-ai-beast-043551628.html
+- 2026-10-08T17:14:15+00:00 | MT Newswires | Exchange-Traded Funds Drop as US Equities Fall After Midday | https://finance.yahoo.com/markets/articles/exchange-traded-funds-drop-us-171415436.html
 - 2026-10-13 | GS | est. — Nasdaq calendar; issuer confirmation not independently checked | https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13
 - 2026-10-13 | JNJ | est. — Nasdaq calendar; issuer confirmation not independently checked | https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13
 - 2026-10-13 | JPM | est. — Nasdaq calendar; issuer confirmation not independently checked | https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13
@@ -45,5 +45,12 @@ Background is AI-generated illustration. English narration is synthetic, not an 
 
 ## Unresolved source limitations
 BLS calendar: HTTP Error 403: Forbidden
+Economic calendar 2026-10-12: HTTP Error 404: Not Found
+Economic calendar 2026-10-13: HTTP Error 404: Not Found
+Economic calendar 2026-10-14: HTTP Error 404: Not Found
+Economic calendar 2026-10-15: HTTP Error 404: Not Found
+Economic calendar 2026-10-16: HTTP Error 404: Not Found
 Treasury official daily yields: HTTP Error 404: Not Found
+FRED official Treasury series: The read operation timed out
 S5FI breadth: list index out of range
+S5FI global snapshot: list index out of range
