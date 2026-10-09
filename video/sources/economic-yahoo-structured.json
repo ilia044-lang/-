@@ -1,0 +1,615 @@
+{
+  "finance": {
+    "result": {
+      "economicEvents": [
+        {
+          "timestamp": 1791777600000,
+          "timestampString": "2026-10-12",
+          "timezone": "America/New_York",
+          "count": 1,
+          "totalCount": 1,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Federal Budget,$",
+              "countryCode": "US",
+              "eventTime": 1791849600000,
+              "period": "Sep",
+              "prior": "-167",
+              "description": "The budget of a government is a summary or plan of the intended revenues and expenditures of that government. Surplus in general refers to an excess of income over expenditure. Deficit refers to the negative of the budget surplus, thus the excess of expenditure over income. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1791864000000,
+          "timestampString": "2026-10-13",
+          "timezone": "America/New_York",
+          "count": 5,
+          "totalCount": 5,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Federal Budget,$",
+              "countryCode": "US",
+              "eventTime": 1791936000000,
+              "period": "Sep",
+              "prior": "-167",
+              "description": "The budget of a government is a summary or plan of the intended revenues and expenditures of that government. Surplus in general refers to an excess of income over expenditure. Deficit refers to the negative of the budget surplus, thus the excess of expenditure over income. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Exist. Home Sales % Chg",
+              "countryCode": "US",
+              "eventTime": 1791900000000,
+              "period": "Sep",
+              "prior": "-2",
+              "description": "Construction industry provides information on construction output and activity. Such information gives an insight into the supply on the housing and construction market. Rising number of new construction starts or value of construction completed reflects higher consumer and business optimism. Expanding construction indicates growth in the housing market and predicts an increase in the overall economy. However, an excessive supply of new buildings may result in a drop in housing prices. The construction industry is one of the first to go into a recession when the economy declines but also to recover as conditions improve. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Existing Home Sales",
+              "countryCode": "US",
+              "eventTime": 1791900000000,
+              "period": "Sep",
+              "prior": "3.98",
+              "description": "Construction industry provides information on construction output and activity. Such information gives an insight into the supply on the housing and construction market. Rising number of new construction starts or value of construction completed reflects higher consumer and business optimism. Expanding construction indicates growth in the housing market and predicts an increase in the overall economy. However, an excessive supply of new buildings may result in a drop in housing prices. The construction industry is one of the first to go into a recession when the economy declines but also to recover as conditions improve. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Redbook YY *",
+              "countryCode": "US",
+              "eventTime": 1791896100000,
+              "prior": "8.6",
+              "description": "About Johnson Redbook Index 1. The Johnson Redbook Index is a sales-weighted of year-over-year same-store sales growth in a sample of large US general merchandise retailers representing about 9,000 stores. By dollar value, the Index represents over 80% of the equivalent 'official' retail sales series collected and published by the US Department of Commerce. 2. Redbook compiles the Index by collecting and interpreting performance estimates from retailers. The Index and its sub-groups are sales-weighted aggregates of these estimates. Weeks are retail weeks(Sunday to Saturday). Months are retail fiscal months on the National Retail Federation's 4-5-4 calendar,& may start and end on different days than equivalent calendar months. 3. Seasonally adjusted month-to-month changes are derived from dollar sales estimates, which are the product of the Index and a base of seasonally adjusted department store sales in US dollars (excluding leased departments) reported by the US Department of Commerce for the equivalent year-ago month. The Commerce Department's frequent revisions to this series are not incorporated into the Index except for the annual benchmark revision, which may affect historic monthly changes. 4. Retailer targets are sales-weighted of individual retailers' sales growth "
+            },
+            {
+              "economicEvents": true,
+              "event": "NFIB Business Optimism Idx",
+              "countryCode": "US",
+              "eventTime": 1791885600000,
+              "period": "Sep",
+              "prior": "98.7",
+              "description": "The NFIB Research Foundation has collected Small Business Economic Trends Data with Quarterly surveys since 1973 and monthly surveys since 1986. The sample is drawn from the membership files of the National Federation of Independent Business (NFIB). Each was mailed a questionnaire and one reminder. Historical and unadjusted data are available, along with a copy of the questionnaire, from the NFIB Research Foundation. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1791950400000,
+          "timestampString": "2026-10-14",
+          "timezone": "America/New_York",
+          "count": 13,
+          "totalCount": 13,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Federal Budget,$",
+              "countryCode": "US",
+              "eventTime": 1792022400000,
+              "period": "Sep",
+              "prior": "-167",
+              "description": "The budget of a government is a summary or plan of the intended revenues and expenditures of that government. Surplus in general refers to an excess of income over expenditure. Deficit refers to the negative of the budget surplus, thus the excess of expenditure over income. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Cleveland Fed CPI*",
+              "countryCode": "US",
+              "eventTime": 1791990000000,
+              "period": "Sep",
+              "prior": "0.2",
+              "description": " The consumer price index (CPI) is a measure of change over a specified period of time in the general level of prices of goods and services that a given population acquires, uses or pays for consumption. It compares a household's cost for a specific basket of finished goods and services with the cost of the same basket during an earlier benchmark period. The median CPI is a measure of core inflation, calculated by the Federal Reserve Bank of Cleveland based on data released in the Bureau of Labor Statistics (BLS) monthly CPI report. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Core CPI MM, SA",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "0.3",
+              "description": " The consumer price index (CPI) is a measure of the average change in the prices paid by urban consumers for a fixed market basket of goods and services. The CPI is based on prices of food, clothing, shelter, fuel, drugs, transportation fares, doctors and dentists fees, and other goods and services that people buy for day-to-day living. The quantity and quality of these items are kept essentially unchanged between major revisions so that only price changes will be measured. All taxes directly associated with the purchase and use of items are included in the index. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Core CPI YY, NSA",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "2.4",
+              "description": "The consumer price index (CPI) is a measure of the average change in the prices paid by urban consumers for a fixed market basket of goods and services. The CPI is based on prices of food, clothing, shelter, fuel, drugs, transportation fares, doctors and dentists fees, and other goods and services that people buy for day-to-day living. The quantity and quality of these items are kept essentially unchanged between major revisions so that only price changes will be measured. All taxes directly associated with the purchase and use of items are included in the index.\" "
+            },
+            {
+              "economicEvents": true,
+              "event": "CPI YY, NSA",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "3.4",
+              "description": "CPI for all urban consumers The consumer price index (CPI) is a measure of the average change in the prices paid by urban consumers for a fixed market basket of goods and services. The CPI is based on prices of food, clothing, shelter, fuel, drugs, transportation fares, doctors and dentists fees, and other goods and services that people buy for day-to-day living. The quantity and quality of these items are kept essentially unchanged between major revisions so that only price changes will be measured. All taxes directly associated with the purchase and use of items are included in the index. "
+            },
+            {
+              "economicEvents": true,
+              "event": "CPI Index, NSA",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "334.98",
+              "description": "The consumer price index (CPI) is a measure of the average change in the prices paid by urban consumers for a fixed market basket of goods and services. The CPI is based on prices of food, clothing, shelter, fuel, drugs, transportation fares, doctors and dentists fees, and other goods and services that people buy for day-to-day living. The quantity and quality of these items are kept essentially unchanged between major revisions so that only price changes will be measured. All taxes directly associated with the purchase and use of items are included in the index.\" "
+            },
+            {
+              "economicEvents": true,
+              "event": "Real Weekly Earnings MM",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "0.2",
+              "description": "Wages and salaries are defined as \"the total remuneration, in cash or in kind, payable to all persons counted on the payroll (including homeworkers), in return for work done during the accounting period\" regardless of whether it is paid on the basis of working time, output or piecework and whether it is paid regularly or not. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Core CPI Index, SA*",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "337.77",
+              "description": " The consumer price index (CPI) is a measure of the average change in the prices paid by urban consumers for a fixed market basket of goods and services. The CPI is based on prices of food, clothing, shelter, fuel, drugs, transportation fares, doctors' and dentists' fees, and other goods and services that people buy for day-to-day living. The quantity and quality of these items are kept essentially unchanged between major revisions so that only price changes will be measured. All taxes directly associated with the purchase and use of items are included in the index. "
+            },
+            {
+              "economicEvents": true,
+              "event": "CPI MM, SA",
+              "countryCode": "US",
+              "eventTime": 1791981000000,
+              "period": "Sep",
+              "prior": "0.4",
+              "description": "CPI for all urban consumers The consumer price index (CPI) is a measure of the average change in the prices paid by urban consumers for a fixed market basket of goods and services. The CPI is based on prices of food, clothing, shelter, fuel, drugs, transportation fares, doctors_ and dentists_ fees, and other goods and services that people buy for day-to-day living. The quantity and quality of these items are kept essentially unchanged between major revisions so that only price changes will be measured. All taxes directly associated with the purchase and use of items are included in the index. dkbhgdi;gb "
+            },
+            {
+              "economicEvents": true,
+              "event": "MBA 30-Yr Mortgage Rate",
+              "countryCode": "US",
+              "eventTime": 1791975600000,
+              "prior": "7.49",
+              "description": "United States, Mortgage Lending Rates, FRM 30-Year Contract Rate (MBA Sourced) For 80% loan-to-value Mortgage. Sourced through Mortgage Banking Association of America. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Mortgage Refinance Index",
+              "countryCode": "US",
+              "eventTime": 1791975600000,
+              "prior": "515.8",
+              "description": "MBA - Mortgage Bankers Association of America. The Refinance Index covers all mortgage applications to refinance an existing mortgage. It is the best overall gauge of mortgage refinancing activity. The Refinance Index includes conventional and government refinances, regardless of product (FRM or ARM) or coupon rate refinanced into or out of.Seasonal factors are less significant in refinances than in home sales, however holiday effects are considerable. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Mortgage Market Index",
+              "countryCode": "US",
+              "eventTime": 1791975600000,
+              "prior": "204.7",
+              "description": "MBA - Mortgage Bankers Association of America. The Market Index covers all mortgage applications during the week. This includes all conventional and government applications, all fixed-rate mortgages (FRMs), all adjustable-rate mortgages (ARMs), whether for a purchase or to refinance. "
+            },
+            {
+              "economicEvents": true,
+              "event": "MBA Purchase Index",
+              "countryCode": "US",
+              "eventTime": 1791975600000,
+              "prior": "145.1",
+              "description": "MBA - Mortgage Bankers Association of America. The Purchase Index includes all mortgages applications for the purchase of a single-family home. It covers the entire market, both conventional and government loans, and all products. The Purchase Index has proven to be a reliable indicator of impending home sales "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792036800000,
+          "timestampString": "2026-10-15",
+          "timezone": "America/New_York",
+          "count": 36,
+          "totalCount": 36,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Federal Budget,$",
+              "countryCode": "US",
+              "eventTime": 1792108800000,
+              "period": "Sep",
+              "prior": "-167",
+              "description": "The budget of a government is a summary or plan of the intended revenues and expenditures of that government. Surplus in general refers to an excess of income over expenditure. Deficit refers to the negative of the budget surplus, thus the excess of expenditure over income. "
+            },
+            {
+              "economicEvents": true,
+              "event": "NOPA-Soy Crush*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "period": "Sep",
+              "prior": "205.46"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Crude Runs*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "0.22"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Crude Stk*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "-3.19"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Gasoline O/P*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "-0.12"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Crude Cushing*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "0.44"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Dist Output*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "0.29"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Crude Imports*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "-0.05"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Dist. Stk*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "-0.04"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Gsln Stk*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "0.38"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Heatoil Stock*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "0.67"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Rfg Stocks*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "-0"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Prods Imports*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "-0.05"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Refn Util*",
+              "countryCode": "US",
+              "eventTime": 1792080000000,
+              "prior": "0.2"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA-Nat Gas Chg Bcf*",
+              "countryCode": "US",
+              "eventTime": 1792074600000,
+              "prior": "85"
+            },
+            {
+              "economicEvents": true,
+              "event": "Business Inventories MM",
+              "countryCode": "US",
+              "eventTime": 1792072800000,
+              "period": "Aug",
+              "prior": "0.8",
+              "description": "Total business inventories are defined as the amount of goods kept by retailers, wholesalers and manufacturers in the stockrooms. Too much inventories can cause economic downturn. However, a certain level is necessary to be able to continue production and sell goods. "
+            },
+            {
+              "economicEvents": true,
+              "event": "NY Fed Manufacturing*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "7.6",
+              "description": "The Empire State Manufacturing Survey is a monthly survey of manufacturers in New York State conducted by the Federal Reserve Bank of New York. Participants from across the state in a variety of industries respond to a questionnaire and report the change in a variety of indicators from the previous month. Respondents also state the likely direction of these same indicators six months ahead. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Philly Fed 6M Index*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "52.9",
+              "description": "The Philadelphia Fed Regional Index is an indicator that measures the current conditions in the manufacturing sector in the district of Philadelphia, which is the third largest in the United States. Arises from a survey conducted by the Philadelphia Fed on the general health of the economy and businesses. Participants must indicate in the interview, according to its assessment, the changes from the previous month and the forecast for the next six months. The general index indicates growth when it is above zero and contraction when is below zero. Then there are various components, such as the prices paid, prices received, employment, hours worked, new orders and backlog of those, the delivery time and shipment orders. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Philly Fed Prices Paid*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "48.6",
+              "description": "The Philadelphia Fed Regional Index is an indicator that measures the current conditions in the manufacturing sector in the district of Philadelphia, which is the third largest in the United States. Arises from a survey conducted by the Philadelphia Fed on the general health of the economy and businesses. Participants must indicate in the interview, according to its assessment, the changes from the previous month and the forecast for the next six months. The general index indicates growth when it is above zero and contraction when is below zero. Then there are various components, such as the prices paid, prices received, employment, hours worked, new orders and backlog of those, the delivery time and shipment orders. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Philly Fed Business Indx*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "37.8",
+              "description": "Diffusion indexes represent the percentage of respondents indicating an increase minus the percentage indicating a decrease. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Philly Fed New Orders*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "29.2",
+              "description": "The Philadelphia Fed Regional Index is an indicator that measures the current conditions in the manufacturing sector in the district of Philadelphia, which is the third largest in the United States. Arises from a survey conducted by the Philadelphia Fed on the general health of the economy and businesses. Participants must indicate in the interview, according to its assessment, the changes from the previous month and the forecast for the next six months. The general index indicates growth when it is above zero and contraction when is below zero. Then there are various components, such as the prices paid, prices received, employment, hours worked, new orders and backlog of those, the delivery time and shipment orders. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Retail Control",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "1.4"
+            },
+            {
+              "economicEvents": true,
+              "event": "PPI ex Food/Energy/Tr YY",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "4.7"
+            },
+            {
+              "economicEvents": true,
+              "event": "Philly Fed Capex Index*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "37.1",
+              "description": "The Philadelphia Fed Regional Index is an indicator that measures the current conditions in the manufacturing sector in the district of Philadelphia, which is the third largest in the United States. Arises from a survey conducted by the Philadelphia Fed on the general health of the economy and businesses. Participants must indicate in the interview, according to its assessment, the changes from the previous month and the forecast for the next six months. The general index indicates growth when it is above zero and contraction when is below zero. Then there are various components, such as the prices paid, prices received, employment, hours worked, new orders and backlog of those, the delivery time and shipment orders. "
+            },
+            {
+              "economicEvents": true,
+              "event": "PPI Final Demand YY",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "5.4"
+            },
+            {
+              "economicEvents": true,
+              "event": "Retail Sales Ex-Autos MM",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "1.4",
+              "description": "Retail sales data represents total consumer purchase from retail stores. It provides valuable information about consumer spending which makes up the consumption part of GDP. The most volatile components like autos, gas prices and food prices are often removed from the report to show more underlying demand patterns as changes in sales in these categories are frequently a result of price changes. It is not adjusted for inflation. Spending on services is not included. Rising retail sales indicate stronger economic growth. However, if the increase is larger than forecast, it may be inflationary. "
+            },
+            {
+              "economicEvents": true,
+              "event": "PPI Final Demand MM",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "0.4"
+            },
+            {
+              "economicEvents": true,
+              "event": "Retail Ex Gas/Autos",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "1.2",
+              "description": "Retail sales data represents total consumer purchase from retail stores. It provides valuable information about consumer spending which makes up the consumption part of GDP. The most volatile components like autos, gas prices and food prices are often removed from the report to show more underlying demand patterns as changes in sales in these categories are frequently a result of price changes. It is not adjusted for inflation. Spending on services is not included. Rising retail sales indicate stronger economic growth. However, if the increase is larger than forecast, it may be inflationary. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Philly Fed Employment*",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Oct",
+              "prior": "11.8",
+              "description": "The Philadelphia Fed Regional Index is an indicator that measures the current conditions in the manufacturing sector in the district of Philadelphia, which is the third largest in the United States. Arises from a survey conducted by the Philadelphia Fed on the general health of the economy and businesses. Participants must indicate in the interview, according to its assessment, the changes from the previous month and the forecast for the next six months. The general index indicates growth when it is above zero and contraction when is below zero. Then there are various components, such as the prices paid, prices received, employment, hours worked, new orders and backlog of those, the delivery time and shipment orders. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Retail Sales MM",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "1.2",
+              "description": "Retail sales data represents total consumer purchase from retail stores. It provides valuable information about consumer spending which makes up the consumption part of GDP. The most volatile components like autos, gas prices and food prices are often removed from the report to show more underlying demand patterns as changes in sales in these categories are frequently a result of price changes. It is not adjusted for inflation. Spending on services is not included. Rising retail sales indicate stronger economic growth. However, if the increase is larger than forecast, it may be inflationary. "
+            },
+            {
+              "economicEvents": true,
+              "event": "PPI exFood/Energy MM",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "0.2"
+            },
+            {
+              "economicEvents": true,
+              "event": "PPI ex Food/Energy/Tr MM",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "0.3"
+            },
+            {
+              "economicEvents": true,
+              "event": "PPI exFood/Energy YY",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "period": "Sep",
+              "prior": "4.6"
+            },
+            {
+              "economicEvents": true,
+              "event": "Jobless Clm 4Wk Avg *",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "prior": "198",
+              "description": "U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. Initial claims - Any notice of unemployment filed (1) to request a determination of entitlement to and eligibility for compensation or (2) to begin a second or subsequent period of eligibility within a benefit year or period of eligibility. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Initial Jobless Clm *",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "prior": "197",
+              "description": "U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. Initial claims - Any notice of unemployment filed: (1) to request a determination of entitlement to and eligibility for compensation or (2) to begin a second or subsequent period of eligibility within a benefit year or period of eligibility. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Cont Jobless Clm *",
+              "countryCode": "US",
+              "eventTime": 1792067400000,
+              "prior": "1.72",
+              "description": "Continued claims are reported one week after initial claims. U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792123200000,
+          "timestampString": "2026-10-16",
+          "timezone": "America/New_York",
+          "count": 10,
+          "totalCount": 10,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Federal Budget,$",
+              "countryCode": "US",
+              "eventTime": 1792195200000,
+              "period": "Sep",
+              "prior": "-167",
+              "description": "The budget of a government is a summary or plan of the intended revenues and expenditures of that government. Surplus in general refers to an excess of income over expenditure. Deficit refers to the negative of the budget surplus, thus the excess of expenditure over income. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Net L-T Flows,Exswaps",
+              "countryCode": "US",
+              "eventTime": 1792180800000,
+              "period": "Aug",
+              "prior": "-27.9",
+              "description": "U.S. securities + Foreign stocks and bonds are included in this series. (Negative figures indicate net sales by foreigners to U.S residents or a net outflow of capital from the United States.) "
+            },
+            {
+              "economicEvents": true,
+              "event": "Net L-T Flows,Incl.Swaps",
+              "countryCode": "US",
+              "eventTime": 1792180800000,
+              "period": "Aug",
+              "prior": "-27.9",
+              "description": "U.S. securities + Foreign stocks and bonds (Negative figures indicate net sales by foreigners to U.S residents or a net outflow of capital from the United States.) Minus estimated unrecorded principal repayments to foreigners on domestic corporate and agency asset-backed securities + estimated foreign acquisitions of U.S. equities through stock swaps - estimated U.S. acquisitions of foreign equities through stock swaps + increase in nonmarketable Treasury Bonds and Notes Issued to Official Institutions and Other Residents of Foreign Countries. (Negative figures indicate net sales by foreigners to U.S residents or a net outflow of capital from the United States.) "
+            },
+            {
+              "economicEvents": true,
+              "event": "Overall Net Capital Flows",
+              "countryCode": "US",
+              "eventTime": 1792180800000,
+              "period": "Aug",
+              "prior": "83.7",
+              "description": "Its is the Sum of [(U.S. securities + Foreign stocks and bonds (Negative figures indicate net sales by foreigners to U.S residents or a net outflow of capital from the United States.) Minus estimated unrecorded principal repayments to foreigners on domestic corporate and agency asset-backed securities + estimated foreign acquisitions of U.S. equities through stock swaps - estimated U.S. acquisitions of foreign equities through stock swaps + increase in nonmarketable Treasury Bonds and Notes Issued to Official Institutions and Other Residents of Foreign Countries)+(monthly changes in banks' and broker/dealers' custody liabilities.)+(TIC, Change in Banks' Own Net Dollar- Denominated Liabilities)] TIC data cover most components of international financial flows, but do not include data on direct investment flows, which are collected and published by the Department of Commerce's Bureau of Economic Analysis. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Foreign Buying, T-Bonds",
+              "countryCode": "US",
+              "eventTime": 1792180800000,
+              "period": "Aug",
+              "prior": "-3.6",
+              "description": "Net purchases of U.S treasury bonds & notes by major foreign sector. (Negative figures indicate net sales by foreigners to U.S residents or a net outflow of capital from the United States.) "
+            },
+            {
+              "economicEvents": true,
+              "event": "Capacity Utilization SA*",
+              "countryCode": "US",
+              "eventTime": 1792156500000,
+              "period": "Sep",
+              "prior": "76.3",
+              "description": "Capacity utilization is the extent to which a country actually uses its potential production capacity. 100% denotes full capacity being used. This indicator rises as a response to market demand growth. If demand weakens, capacity utilization will diminish. Capacity utilization is a useful indicator of inflation pressures. It is believed that capacity utilization above 82-85% propels price inflation. The Federal Reserve Board constructs estimates of capacity and capacity utilization for industries in manufacturing, mining, and electric and gas utilities. For a given industry, the capacity utilization rate is equal to an output index (seasonally adjusted) divided by a capacity index. The Federal Reserve Board's capacity indexes attempt to capture the concept of sustainable maximum output (the greatest level of output a plant can maintain within the framework of a realistic work schedule) after factoring in normal downtime and assuming sufficient availability of inputs to operate the capital in place. The monthly rates of capacity utilization are designed to be consistent with both the monthly data on production and the periodically available data on capacity and utilization. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Industrial Production MM*",
+              "countryCode": "US",
+              "eventTime": 1792156500000,
+              "period": "Sep",
+              "prior": "0",
+              "description": "Industry is a basic category of business activity. Firms in the same industry are on the same side of the market, produce goods which are close substitutes and compete for the same customers. For statistical purposes, industries are categorized following a uniform classification code such as Standard Industrial Classification (SIC). Changes in the volume of the physical output of the nation s factories, mine and utilities are measured by the index of industrial production. The figure is calculated as a weighted aggregate of goods and reported in headlines as a percent change from previous months. It is often adjusted by season or weather conditions and thus volatile. However, it is used as a leading indicator and helps in forecasting GDP changes. Rising industrial production figures signify increasing economic growth and can positively influence the sentiment towards local currency. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Manuf Output MM*",
+              "countryCode": "US",
+              "eventTime": 1792156500000,
+              "period": "Sep",
+              "prior": "-0.3",
+              "description": ""
+            },
+            {
+              "economicEvents": true,
+              "event": "Export Prices MM",
+              "countryCode": "US",
+              "eventTime": 1792153800000,
+              "period": "Sep",
+              "prior": "0.6",
+              "description": "Export price index is a measure of the average prices of a group of the goods that a country exports. The headline is the percentage change in the index from the previous month or year. It is generally preferable when the index is based on prices taken directly from the exporter. However, in the absence of national sources, data for wholesale prices are taken from world commodity markets and are converted into national currency at period average exchange rates. Changes in this figure represent either a change in the amount of sold goods or in the prices of the goods which might be caused by changing production costs. Export price index serves is an indicator of the economy s total demand for goods and services. Therefore it directly influences GDP. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Import Prices MM",
+              "countryCode": "US",
+              "eventTime": 1792153800000,
+              "period": "Sep",
+              "prior": "0.7",
+              "description": "Import price index is a measure of the average prices of the goods that a country imports. The headline is the percentage change in the index from the previous month or year. It is generally preferable when the index is based on prices taken directly from the importer. However, in the absence of national sources, data for wholesale prices are taken from world commodity markets and are converted into national currency at period average exchange rates. Changes in this figure represent either a changing foreign demand or a change in prices of foreign goods. Significant changes in foreign goods prices might affect inflation. Increasing index causes higher retail prices in the country. Import price index is an indicator of the economy s total supply of goods an services. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792209600000,
+          "timestampString": "2026-10-17",
+          "timezone": "America/New_York",
+          "count": 1,
+          "totalCount": 1,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Federal Budget,$",
+              "countryCode": "US",
+              "eventTime": 1792281600000,
+              "period": "Sep",
+              "prior": "-167",
+              "description": "The budget of a government is a summary or plan of the intended revenues and expenditures of that government. Surplus in general refers to an excess of income over expenditure. Deficit refers to the negative of the budget surplus, thus the excess of expenditure over income. "
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  }
+}

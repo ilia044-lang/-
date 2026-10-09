@@ -18,7 +18,7 @@ THE PRICE OF MONEY
 The ten year yield reads 5.244 percent and the thirty year 5.600 percent in the market feed. The official Treasury series puts the twenty year yield at 5.64 percent, dated 2026-10-08. Yield changes and bond price changes are different things: rising yields generally mean falling bond prices. Higher long term yields can pressure equity valuations and financing costs.
 
 OIL. DOLLAR. BITCOIN.
-WTI futures read 91.53 dollars per barrel. The dollar index is 102.205. Bitcoin is around 82,305.76 dollars at the captured snapshot. Bitcoin trades around the clock, so this is not an equity market closing print. Oil can affect inflation expectations, while the dollar influences global financial conditions.
+WTI futures read 91.74 dollars per barrel. The dollar index is 102.227. Bitcoin is around 82,318.45 dollars at the captured snapshot. Bitcoin trades around the clock, so this is not an equity market closing print. Oil can affect inflation expectations, while the dollar influences global financial conditions.
 
 SPY: 15 OCTOBERS
 Now the October question. Over fifteen completed Octobers, from twenty eleven through twenty twenty five, S P Y was positive in 9 years and negative in 6. The average October return was 2.17 percent; the median was 2.36. The best was 10.91 percent, and the worst -6.91. Adjusted prices reflect the provider dividend adjustments. October twenty twenty six is incomplete and excluded.
@@ -33,7 +33,7 @@ $50B? $70B? How OpenAI’s Accounting Confusion Wrecked the AI Trade
 In the reported news, Barrons.com published this headline: $50B? $70B? How OpenAI’s Accounting Confusion Wrecked the AI Trade. Reported headlines do not establish price causation.
 
 NEXT WEEK: OCTOBER 12–16
-A verified B L S release schedule could not be retrieved. Specific release dates are not asserted. The important distinction is the release versus the consensus expectation. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.
+On October 14, the economic calendar lists Consumer Price Index. On October 15, the economic calendar lists Producer Price Index. On October 15, the economic calendar lists Retail sales. On October 15, the economic calendar lists Initial jobless claims. On October 16, the economic calendar lists Industrial production. The important distinction is the release versus the consensus expectation. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.
 
 EARNINGS ON THE RADAR
 GS, October 13. JNJ, October 13. JPM, October 13. UNH, October 13. ASML, October 14. BAC, October 14. These dates are calendar estimates unless an issuer announcement confirms them. For earnings, listen beyond the headline profit number: revenue quality, margins, demand and forward guidance often shape the next conversation. An overnight earnings gap can jump across a chart level.

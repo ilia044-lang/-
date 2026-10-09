@@ -1,12 +1,5 @@
 [
   {
-    "symbol": "ABBV",
-    "date": "2026-10-09",
-    "close": 276.47,
-    "ma50": 258.893,
-    "above": true
-  },
-  {
     "symbol": "MMM",
     "date": "2026-10-09",
     "close": 159.96,
@@ -21,11 +14,53 @@
     "above": true
   },
   {
-    "symbol": "APD",
+    "symbol": "ALGN",
     "date": "2026-10-09",
-    "close": 281.26,
-    "ma50": 294.1746,
+    "close": 142.71,
+    "ma50": 156.9972,
     "above": false
+  },
+  {
+    "symbol": "ARE",
+    "date": "2026-10-09",
+    "close": 45.51,
+    "ma50": 50.2738,
+    "above": false
+  },
+  {
+    "symbol": "AFL",
+    "date": "2026-10-09",
+    "close": 114.54,
+    "ma50": 117.4032,
+    "above": false
+  },
+  {
+    "symbol": "GOOGL",
+    "date": "2026-10-09",
+    "close": 351.66,
+    "ma50": 346.2508,
+    "above": true
+  },
+  {
+    "symbol": "ALLE",
+    "date": "2026-10-09",
+    "close": 150.48,
+    "ma50": 157.6672,
+    "above": false
+  },
+  {
+    "symbol": "A",
+    "date": "2026-10-09",
+    "close": 170.54,
+    "ma50": 155.5798,
+    "above": true
+  },
+  {
+    "symbol": "AMD",
+    "date": "2026-10-09",
+    "close": 608.1,
+    "ma50": 528.921,
+    "above": true
   },
   {
     "symbol": "ABT",
@@ -42,80 +77,10 @@
     "above": false
   },
   {
-    "symbol": "ADBE",
-    "date": "2026-10-09",
-    "close": 242.27,
-    "ma50": 257.8788,
-    "above": false
-  },
-  {
-    "symbol": "AFL",
-    "date": "2026-10-09",
-    "close": 114.54,
-    "ma50": 117.4032,
-    "above": false
-  },
-  {
-    "symbol": "LNT",
-    "date": "2026-10-09",
-    "close": 65.85,
-    "ma50": 67.3326,
-    "above": false
-  },
-  {
-    "symbol": "ACN",
-    "date": "2026-10-09",
-    "close": 209.06,
-    "ma50": 184.0994,
-    "above": true
-  },
-  {
     "symbol": "AKAM",
     "date": "2026-10-09",
     "close": 106.95,
     "ma50": 111.2262,
-    "above": false
-  },
-  {
-    "symbol": "ABNB",
-    "date": "2026-10-09",
-    "close": 165.87,
-    "ma50": 171.0362,
-    "above": false
-  },
-  {
-    "symbol": "ALLE",
-    "date": "2026-10-09",
-    "close": 150.48,
-    "ma50": 157.6672,
-    "above": false
-  },
-  {
-    "symbol": "ALL",
-    "date": "2026-10-09",
-    "close": 229.43,
-    "ma50": 249.648,
-    "above": false
-  },
-  {
-    "symbol": "AMD",
-    "date": "2026-10-09",
-    "close": 608.1,
-    "ma50": 528.921,
-    "above": true
-  },
-  {
-    "symbol": "GOOGL",
-    "date": "2026-10-09",
-    "close": 351.66,
-    "ma50": 346.2508,
-    "above": true
-  },
-  {
-    "symbol": "ALGN",
-    "date": "2026-10-09",
-    "close": 142.71,
-    "ma50": 156.9972,
     "above": false
   },
   {
@@ -126,18 +91,81 @@
     "above": false
   },
   {
-    "symbol": "ARE",
+    "symbol": "ABNB",
     "date": "2026-10-09",
-    "close": 45.51,
-    "ma50": 50.2738,
+    "close": 165.87,
+    "ma50": 171.0362,
     "above": false
   },
   {
-    "symbol": "A",
+    "symbol": "ABBV",
     "date": "2026-10-09",
-    "close": 170.54,
-    "ma50": 155.5798,
+    "close": 276.47,
+    "ma50": 258.893,
     "above": true
+  },
+  {
+    "symbol": "ACN",
+    "date": "2026-10-09",
+    "close": 209.06,
+    "ma50": 184.0994,
+    "above": true
+  },
+  {
+    "symbol": "ALL",
+    "date": "2026-10-09",
+    "close": 229.43,
+    "ma50": 249.648,
+    "above": false
+  },
+  {
+    "symbol": "ADBE",
+    "date": "2026-10-09",
+    "close": 242.27,
+    "ma50": 257.8788,
+    "above": false
+  },
+  {
+    "symbol": "APD",
+    "date": "2026-10-09",
+    "close": 281.26,
+    "ma50": 294.1746,
+    "above": false
+  },
+  {
+    "symbol": "LNT",
+    "date": "2026-10-09",
+    "close": 65.85,
+    "ma50": 67.3326,
+    "above": false
+  },
+  {
+    "symbol": "AMT",
+    "date": "2026-10-09",
+    "close": 182.24,
+    "ma50": 172.5634,
+    "above": true
+  },
+  {
+    "symbol": "AWK",
+    "date": "2026-10-09",
+    "close": 128.88,
+    "ma50": 134.9698,
+    "above": false
+  },
+  {
+    "symbol": "AXP",
+    "date": "2026-10-09",
+    "close": 308.17,
+    "ma50": 324.6916,
+    "above": false
+  },
+  {
+    "symbol": "AMP",
+    "date": "2026-10-09",
+    "close": 500.51,
+    "ma50": 539.1416,
+    "above": false
   },
   {
     "symbol": "AMZN",
@@ -147,10 +175,59 @@
     "above": true
   },
   {
-    "symbol": "AXP",
+    "symbol": "AME",
     "date": "2026-10-09",
-    "close": 308.17,
-    "ma50": 324.6916,
+    "close": 248.58,
+    "ma50": 244.8078,
+    "above": true
+  },
+  {
+    "symbol": "MO",
+    "date": "2026-10-09",
+    "close": 71.68,
+    "ma50": 68.1378,
+    "above": true
+  },
+  {
+    "symbol": "ADI",
+    "date": "2026-10-09",
+    "close": 406.19,
+    "ma50": 380.1226,
+    "above": true
+  },
+  {
+    "symbol": "APA",
+    "date": "2026-10-09",
+    "close": 45.88,
+    "ma50": 42.4644,
+    "above": true
+  },
+  {
+    "symbol": "AEP",
+    "date": "2026-10-09",
+    "close": 122.81,
+    "ma50": 122.837,
+    "above": false
+  },
+  {
+    "symbol": "AON",
+    "date": "2026-10-09",
+    "close": 273.47,
+    "ma50": 319.3876,
+    "above": false
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2026-10-09",
+    "close": 41.72,
+    "ma50": 44.6028,
+    "above": false
+  },
+  {
+    "symbol": "APO",
+    "date": "2026-10-09",
+    "close": 118.65,
+    "ma50": 128.0722,
     "above": false
   },
   {
@@ -161,17 +238,24 @@
     "above": false
   },
   {
-    "symbol": "AEP",
+    "symbol": "GOOG",
     "date": "2026-10-09",
-    "close": 122.81,
-    "ma50": 122.837,
-    "above": false
+    "close": 347.86,
+    "ma50": 343.3908,
+    "above": true
   },
   {
-    "symbol": "MO",
+    "symbol": "AIG",
     "date": "2026-10-09",
-    "close": 71.68,
-    "ma50": 68.1378,
+    "close": 77.04,
+    "ma50": 76.2208,
+    "above": true
+  },
+  {
+    "symbol": "AMGN",
+    "date": "2026-10-09",
+    "close": 414.87,
+    "ma50": 411.888,
     "above": true
   },
   {
@@ -189,62 +273,6 @@
     "above": true
   },
   {
-    "symbol": "APO",
-    "date": "2026-10-09",
-    "close": 118.65,
-    "ma50": 128.0722,
-    "above": false
-  },
-  {
-    "symbol": "AMT",
-    "date": "2026-10-09",
-    "close": 182.24,
-    "ma50": 172.5634,
-    "above": true
-  },
-  {
-    "symbol": "ADI",
-    "date": "2026-10-09",
-    "close": 406.19,
-    "ma50": 380.1226,
-    "above": true
-  },
-  {
-    "symbol": "AON",
-    "date": "2026-10-09",
-    "close": 273.47,
-    "ma50": 319.3876,
-    "above": false
-  },
-  {
-    "symbol": "AMP",
-    "date": "2026-10-09",
-    "close": 500.51,
-    "ma50": 539.1416,
-    "above": false
-  },
-  {
-    "symbol": "AMCR",
-    "date": "2026-10-09",
-    "close": 41.72,
-    "ma50": 44.6028,
-    "above": false
-  },
-  {
-    "symbol": "AMGN",
-    "date": "2026-10-09",
-    "close": 414.87,
-    "ma50": 411.888,
-    "above": true
-  },
-  {
-    "symbol": "AME",
-    "date": "2026-10-09",
-    "close": 248.58,
-    "ma50": 244.8078,
-    "above": true
-  },
-  {
     "symbol": "AMAT",
     "date": "2026-10-09",
     "close": 507.03,
@@ -252,32 +280,11 @@
     "above": true
   },
   {
-    "symbol": "GOOG",
+    "symbol": "T",
     "date": "2026-10-09",
-    "close": 347.86,
-    "ma50": 343.3908,
-    "above": true
-  },
-  {
-    "symbol": "AWK",
-    "date": "2026-10-09",
-    "close": 128.88,
-    "ma50": 134.9698,
+    "close": 22.18,
+    "ma50": 24.9632,
     "above": false
-  },
-  {
-    "symbol": "AIG",
-    "date": "2026-10-09",
-    "close": 77.04,
-    "ma50": 76.2208,
-    "above": true
-  },
-  {
-    "symbol": "APA",
-    "date": "2026-10-09",
-    "close": 45.88,
-    "ma50": 42.4644,
-    "above": true
   },
   {
     "symbol": "ADM",
@@ -287,31 +294,10 @@
     "above": false
   },
   {
-    "symbol": "AVY",
+    "symbol": "BKR",
     "date": "2026-10-09",
-    "close": 167.82,
-    "ma50": 173.9402,
-    "above": false
-  },
-  {
-    "symbol": "ANET",
-    "date": "2026-10-09",
-    "close": 216.74,
-    "ma50": 197.8638,
-    "above": true
-  },
-  {
-    "symbol": "ARES",
-    "date": "2026-10-09",
-    "close": 117.22,
-    "ma50": 132.2952,
-    "above": false
-  },
-  {
-    "symbol": "ADP",
-    "date": "2026-10-09",
-    "close": 270.88,
-    "ma50": 271.7826,
+    "close": 56.7,
+    "ma50": 60.381,
     "above": false
   },
   {
@@ -322,17 +308,31 @@
     "above": false
   },
   {
-    "symbol": "ADSK",
+    "symbol": "ACGL",
     "date": "2026-10-09",
-    "close": 235.35,
-    "ma50": 233.4826,
+    "close": 95.57,
+    "ma50": 97.32,
+    "above": false
+  },
+  {
+    "symbol": "BDX",
+    "date": "2026-10-09",
+    "close": 183.75,
+    "ma50": 181.9368,
     "above": true
   },
   {
-    "symbol": "BKR",
+    "symbol": "ARES",
     "date": "2026-10-09",
-    "close": 56.7,
-    "ma50": 60.381,
+    "close": 117.22,
+    "ma50": 132.2952,
+    "above": false
+  },
+  {
+    "symbol": "ATO",
+    "date": "2026-10-09",
+    "close": 161.66,
+    "ma50": 164.951,
     "above": false
   },
   {
@@ -350,38 +350,24 @@
     "above": false
   },
   {
-    "symbol": "ACGL",
+    "symbol": "ADP",
     "date": "2026-10-09",
-    "close": 95.57,
-    "ma50": 97.32,
+    "close": 270.88,
+    "ma50": 271.7826,
     "above": false
   },
   {
-    "symbol": "AZO",
+    "symbol": "ADSK",
     "date": "2026-10-09",
-    "close": 2939.85,
-    "ma50": 2945.7094,
-    "above": false
+    "close": 235.35,
+    "ma50": 233.4826,
+    "above": true
   },
   {
-    "symbol": "AIZ",
+    "symbol": "AVY",
     "date": "2026-10-09",
-    "close": 266.49,
-    "ma50": 279.1104,
-    "above": false
-  },
-  {
-    "symbol": "AJG",
-    "date": "2026-10-09",
-    "close": 232.7,
-    "ma50": 246.903,
-    "above": false
-  },
-  {
-    "symbol": "T",
-    "date": "2026-10-09",
-    "close": 22.18,
-    "ma50": 24.9632,
+    "close": 167.82,
+    "ma50": 173.9402,
     "above": false
   },
   {
@@ -392,24 +378,38 @@
     "above": false
   },
   {
-    "symbol": "BDX",
+    "symbol": "AJG",
     "date": "2026-10-09",
-    "close": 183.75,
-    "ma50": 181.9368,
+    "close": 232.7,
+    "ma50": 246.903,
+    "above": false
+  },
+  {
+    "symbol": "AIZ",
+    "date": "2026-10-09",
+    "close": 266.49,
+    "ma50": 279.1104,
+    "above": false
+  },
+  {
+    "symbol": "ANET",
+    "date": "2026-10-09",
+    "close": 216.74,
+    "ma50": 197.8638,
     "above": true
+  },
+  {
+    "symbol": "AZO",
+    "date": "2026-10-09",
+    "close": 2939.85,
+    "ma50": 2945.7094,
+    "above": false
   },
   {
     "symbol": "BAC",
     "date": "2026-10-09",
     "close": 54.32,
     "ma50": 60.069,
-    "above": false
-  },
-  {
-    "symbol": "ATO",
-    "date": "2026-10-09",
-    "close": 161.66,
-    "ma50": 164.951,
     "above": false
   },
   {
@@ -420,6 +420,13 @@
     "above": false
   },
   {
+    "symbol": "BRK-B",
+    "date": "2026-10-09",
+    "close": 515.62,
+    "ma50": 507.7682,
+    "above": true
+  },
+  {
     "symbol": "TECH",
     "date": "2026-10-09",
     "close": 72.46,
@@ -427,31 +434,10 @@
     "above": true
   },
   {
-    "symbol": "BRO",
+    "symbol": "BBY",
     "date": "2026-10-09",
-    "close": 62.88,
-    "ma50": 67.7126,
-    "above": false
-  },
-  {
-    "symbol": "BG",
-    "date": "2026-10-09",
-    "close": 102.73,
-    "ma50": 112.9946,
-    "above": false
-  },
-  {
-    "symbol": "BKNG",
-    "date": "2026-10-09",
-    "close": 160.34,
-    "ma50": 186.2734,
-    "above": false
-  },
-  {
-    "symbol": "AVGO",
-    "date": "2026-10-09",
-    "close": 361.54,
-    "ma50": 371.8686,
+    "close": 87.01,
+    "ma50": 87.4298,
     "above": false
   },
   {
@@ -462,53 +448,11 @@
     "above": false
   },
   {
-    "symbol": "BBY",
-    "date": "2026-10-09",
-    "close": 87.01,
-    "ma50": 87.4298,
-    "above": false
-  },
-  {
-    "symbol": "BRK-B",
-    "date": "2026-10-09",
-    "close": 515.62,
-    "ma50": 507.7682,
-    "above": true
-  },
-  {
-    "symbol": "CHRW",
-    "date": "2026-10-09",
-    "close": 142.31,
-    "ma50": 148.21959999999999,
-    "above": false
-  },
-  {
-    "symbol": "BMY",
-    "date": "2026-10-09",
-    "close": 59.12,
-    "ma50": 64.1184,
-    "above": false
-  },
-  {
     "symbol": "BLK",
     "date": "2026-10-09",
     "close": 1082.39,
     "ma50": 1109.0522,
     "above": false
-  },
-  {
-    "symbol": "BXP",
-    "date": "2026-10-09",
-    "close": 59.05,
-    "ma50": 65.6664,
-    "above": false
-  },
-  {
-    "symbol": "BIIB",
-    "date": "2026-10-09",
-    "close": 225.71,
-    "ma50": 217.0484,
-    "above": true
   },
   {
     "symbol": "BNY",
@@ -518,31 +462,10 @@
     "above": false
   },
   {
-    "symbol": "BX",
-    "date": "2026-10-09",
-    "close": 114.29,
-    "ma50": 130.6416,
-    "above": false
-  },
-  {
-    "symbol": "BE",
-    "date": "2026-10-09",
-    "close": 280.5,
-    "ma50": 246.481,
-    "above": true
-  },
-  {
     "symbol": "BSX",
     "date": "2026-10-09",
     "close": 42.73,
     "ma50": 46.5804,
-    "above": false
-  },
-  {
-    "symbol": "BF-B",
-    "date": "2026-10-09",
-    "close": 26.39,
-    "ma50": 27.0816,
     "above": false
   },
   {
@@ -553,6 +476,48 @@
     "above": false
   },
   {
+    "symbol": "BKNG",
+    "date": "2026-10-09",
+    "close": 160.34,
+    "ma50": 186.2734,
+    "above": false
+  },
+  {
+    "symbol": "BMY",
+    "date": "2026-10-09",
+    "close": 59.12,
+    "ma50": 64.1184,
+    "above": false
+  },
+  {
+    "symbol": "BX",
+    "date": "2026-10-09",
+    "close": 114.29,
+    "ma50": 130.6416,
+    "above": false
+  },
+  {
+    "symbol": "BXP",
+    "date": "2026-10-09",
+    "close": 59.05,
+    "ma50": 65.6664,
+    "above": false
+  },
+  {
+    "symbol": "BG",
+    "date": "2026-10-09",
+    "close": 102.73,
+    "ma50": 112.9946,
+    "above": false
+  },
+  {
+    "symbol": "AVGO",
+    "date": "2026-10-09",
+    "close": 361.54,
+    "ma50": 371.8686,
+    "above": false
+  },
+  {
     "symbol": "XYZ",
     "date": "2026-10-09",
     "close": 77.24,
@@ -560,66 +525,38 @@
     "above": false
   },
   {
-    "symbol": "CPT",
+    "symbol": "BIIB",
     "date": "2026-10-09",
-    "close": 97.58,
-    "ma50": 104.0792,
-    "above": false
-  },
-  {
-    "symbol": "CASY",
-    "date": "2026-10-09",
-    "close": 646.27,
-    "ma50": 722.5476,
-    "above": false
-  },
-  {
-    "symbol": "CBRE",
-    "date": "2026-10-09",
-    "close": 130.8,
-    "ma50": 142.4338,
-    "above": false
-  },
-  {
-    "symbol": "COR",
-    "date": "2026-10-09",
-    "close": 323.85,
-    "ma50": 318.13960000000003,
+    "close": 225.71,
+    "ma50": 217.0484,
     "above": true
   },
   {
-    "symbol": "CAH",
+    "symbol": "BE",
     "date": "2026-10-09",
-    "close": 237.57,
-    "ma50": 233.2536,
+    "close": 280.5,
+    "ma50": 246.481,
     "above": true
   },
   {
-    "symbol": "CVNA",
+    "symbol": "BRO",
     "date": "2026-10-09",
-    "close": 63.73,
-    "ma50": 68.72540000000001,
+    "close": 62.88,
+    "ma50": 67.7126,
     "above": false
   },
   {
-    "symbol": "SCHW",
+    "symbol": "CHRW",
     "date": "2026-10-09",
-    "close": 96.7,
-    "ma50": 105.5836,
+    "close": 142.31,
+    "ma50": 148.21959999999999,
     "above": false
   },
   {
-    "symbol": "CF",
+    "symbol": "BF-B",
     "date": "2026-10-09",
-    "close": 111.54,
-    "ma50": 123.434,
-    "above": false
-  },
-  {
-    "symbol": "COF",
-    "date": "2026-10-09",
-    "close": 199.26,
-    "ma50": 209.9778,
+    "close": 26.39,
+    "ma50": 27.0816,
     "above": false
   },
   {
@@ -630,18 +567,39 @@
     "above": false
   },
   {
-    "symbol": "CVX",
+    "symbol": "CDNS",
     "date": "2026-10-09",
-    "close": 211.98,
-    "ma50": 204.2718,
+    "close": 352.84,
+    "ma50": 320.5084,
     "above": true
   },
   {
-    "symbol": "CBOE",
+    "symbol": "COF",
     "date": "2026-10-09",
-    "close": 304.16,
-    "ma50": 286.8888,
+    "close": 199.26,
+    "ma50": 209.9778,
+    "above": false
+  },
+  {
+    "symbol": "CAH",
+    "date": "2026-10-09",
+    "close": 237.57,
+    "ma50": 233.2536,
     "above": true
+  },
+  {
+    "symbol": "CPT",
+    "date": "2026-10-09",
+    "close": 97.58,
+    "ma50": 104.0792,
+    "above": false
+  },
+  {
+    "symbol": "CBRE",
+    "date": "2026-10-09",
+    "close": 130.8,
+    "ma50": 142.4338,
+    "above": false
   },
   {
     "symbol": "CCL",
@@ -651,10 +609,31 @@
     "above": true
   },
   {
-    "symbol": "CDNS",
+    "symbol": "CF",
     "date": "2026-10-09",
-    "close": 352.84,
-    "ma50": 320.5084,
+    "close": 111.54,
+    "ma50": 123.434,
+    "above": false
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2026-10-09",
+    "close": 304.16,
+    "ma50": 286.8888,
+    "above": true
+  },
+  {
+    "symbol": "CNP",
+    "date": "2026-10-09",
+    "close": 38.6,
+    "ma50": 39.165,
+    "above": false
+  },
+  {
+    "symbol": "CNC",
+    "date": "2026-10-09",
+    "close": 65.36,
+    "ma50": 64.904,
     "above": true
   },
   {
@@ -665,6 +644,13 @@
     "above": true
   },
   {
+    "symbol": "CVX",
+    "date": "2026-10-09",
+    "close": 211.98,
+    "ma50": 204.2718,
+    "above": true
+  },
+  {
     "symbol": "CDW",
     "date": "2026-10-09",
     "close": 142.17,
@@ -672,24 +658,38 @@
     "above": true
   },
   {
-    "symbol": "CNC",
+    "symbol": "COR",
     "date": "2026-10-09",
-    "close": 65.36,
-    "ma50": 64.904,
+    "close": 323.85,
+    "ma50": 318.13960000000003,
     "above": true
+  },
+  {
+    "symbol": "SCHW",
+    "date": "2026-10-09",
+    "close": 96.7,
+    "ma50": 105.5836,
+    "above": false
+  },
+  {
+    "symbol": "CVNA",
+    "date": "2026-10-09",
+    "close": 63.73,
+    "ma50": 68.72540000000001,
+    "above": false
+  },
+  {
+    "symbol": "CASY",
+    "date": "2026-10-09",
+    "close": 646.27,
+    "ma50": 722.5476,
+    "above": false
   },
   {
     "symbol": "CARR",
     "date": "2026-10-09",
     "close": 55.56,
     "ma50": 58.6024,
-    "above": false
-  },
-  {
-    "symbol": "CNP",
-    "date": "2026-10-09",
-    "close": 38.6,
-    "ma50": 39.165,
     "above": false
   },
   {
@@ -707,25 +707,32 @@
     "above": true
   },
   {
-    "symbol": "CMG",
+    "symbol": "CIEN",
     "date": "2026-10-09",
-    "close": 31.59,
-    "ma50": 34.3952,
+    "close": 449.77,
+    "ma50": 380.6496,
+    "above": true
+  },
+  {
+    "symbol": "COHR",
+    "date": "2026-10-09",
+    "close": 312.62,
+    "ma50": 304.096,
+    "above": true
+  },
+  {
+    "symbol": "KO",
+    "date": "2026-10-09",
+    "close": 88.05,
+    "ma50": 87.9814,
+    "above": true
+  },
+  {
+    "symbol": "CLX",
+    "date": "2026-10-09",
+    "close": 83.8,
+    "ma50": 94.134,
     "above": false
-  },
-  {
-    "symbol": "CSCO",
-    "date": "2026-10-09",
-    "close": 118.39,
-    "ma50": 112.3178,
-    "above": true
-  },
-  {
-    "symbol": "CTAS",
-    "date": "2026-10-09",
-    "close": 202.41,
-    "ma50": 200.4232,
-    "above": true
   },
   {
     "symbol": "C",
@@ -742,10 +749,17 @@
     "above": true
   },
   {
-    "symbol": "CLX",
+    "symbol": "CME",
     "date": "2026-10-09",
-    "close": 83.8,
-    "ma50": 94.134,
+    "close": 280.56,
+    "ma50": 271.7956,
+    "above": true
+  },
+  {
+    "symbol": "CMG",
+    "date": "2026-10-09",
+    "close": 31.59,
+    "ma50": 34.3952,
     "above": false
   },
   {
@@ -756,74 +770,11 @@
     "above": false
   },
   {
-    "symbol": "CMS",
+    "symbol": "CSCO",
     "date": "2026-10-09",
-    "close": 65.49,
-    "ma50": 67.5252,
-    "above": false
-  },
-  {
-    "symbol": "CFG",
-    "date": "2026-10-09",
-    "close": 63.57,
-    "ma50": 69.019,
-    "above": false
-  },
-  {
-    "symbol": "CIEN",
-    "date": "2026-10-09",
-    "close": 449.77,
-    "ma50": 380.6496,
+    "close": 118.39,
+    "ma50": 112.3178,
     "above": true
-  },
-  {
-    "symbol": "CME",
-    "date": "2026-10-09",
-    "close": 280.56,
-    "ma50": 271.7956,
-    "above": true
-  },
-  {
-    "symbol": "COIN",
-    "date": "2026-10-09",
-    "close": 179.39,
-    "ma50": 174.5654,
-    "above": true
-  },
-  {
-    "symbol": "KO",
-    "date": "2026-10-09",
-    "close": 88.05,
-    "ma50": 87.9814,
-    "above": true
-  },
-  {
-    "symbol": "CMCSA",
-    "date": "2026-10-09",
-    "close": 20.66,
-    "ma50": 24.3998,
-    "above": false
-  },
-  {
-    "symbol": "CTSH",
-    "date": "2026-10-09",
-    "close": 59.2,
-    "ma50": 59.6594,
-    "above": false
-  },
-  {
-    "symbol": "COHR",
-    "date": "2026-10-09",
-    "close": 312.62,
-    "ma50": 304.096,
-    "above": true
-  },
-  {
-    "symbol": "CL",
-    "date": "2026-10-09",
-    "close": 88.27,
-    "ma50": 89.1656,
-    "above": false
   },
   {
     "symbol": "CINF",
@@ -840,11 +791,116 @@
     "above": true
   },
   {
-    "symbol": "CPAY",
+    "symbol": "CTAS",
     "date": "2026-10-09",
-    "close": 397.92,
-    "ma50": 403.5538,
+    "close": 202.41,
+    "ma50": 200.4232,
+    "above": true
+  },
+  {
+    "symbol": "CFG",
+    "date": "2026-10-09",
+    "close": 63.57,
+    "ma50": 69.019,
     "above": false
+  },
+  {
+    "symbol": "CTSH",
+    "date": "2026-10-09",
+    "close": 59.2,
+    "ma50": 59.6594,
+    "above": false
+  },
+  {
+    "symbol": "CMCSA",
+    "date": "2026-10-09",
+    "close": 20.66,
+    "ma50": 24.3998,
+    "above": false
+  },
+  {
+    "symbol": "CMS",
+    "date": "2026-10-09",
+    "close": 65.49,
+    "ma50": 67.5252,
+    "above": false
+  },
+  {
+    "symbol": "COIN",
+    "date": "2026-10-09",
+    "close": 179.39,
+    "ma50": 174.5654,
+    "above": true
+  },
+  {
+    "symbol": "CL",
+    "date": "2026-10-09",
+    "close": 88.27,
+    "ma50": 89.1656,
+    "above": false
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-09",
+    "close": 27.32,
+    "ma50": 30.2332,
+    "above": false
+  },
+  {
+    "symbol": "COP",
+    "date": "2026-10-09",
+    "close": 134.1,
+    "ma50": 129.379,
+    "above": true
+  },
+  {
+    "symbol": "COO",
+    "date": "2026-10-09",
+    "close": 54.37,
+    "ma50": 65.331,
+    "above": false
+  },
+  {
+    "symbol": "ED",
+    "date": "2026-10-09",
+    "close": 106.1,
+    "ma50": 106.4002,
+    "above": false
+  },
+  {
+    "symbol": "CSX",
+    "date": "2026-10-09",
+    "close": 47.26,
+    "ma50": 49.1016,
+    "above": false
+  },
+  {
+    "symbol": "GLW",
+    "date": "2026-10-09",
+    "close": 156.68,
+    "ma50": 155.4624,
+    "above": true
+  },
+  {
+    "symbol": "CMI",
+    "date": "2026-10-09",
+    "close": 523.39,
+    "ma50": 568.99,
+    "above": false
+  },
+  {
+    "symbol": "COST",
+    "date": "2026-10-09",
+    "close": 946.92,
+    "ma50": 931.427,
+    "above": true
+  },
+  {
+    "symbol": "DDOG",
+    "date": "2026-10-09",
+    "close": 293.26,
+    "ma50": 246.876,
+    "above": true
   },
   {
     "symbol": "STZ",
@@ -852,13 +908,6 @@
     "close": 122.64,
     "ma50": 125.8244,
     "above": false
-  },
-  {
-    "symbol": "DHR",
-    "date": "2026-10-09",
-    "close": 219.81,
-    "ma50": 211.0504,
-    "above": true
   },
   {
     "symbol": "CEG",
@@ -875,48 +924,6 @@
     "above": true
   },
   {
-    "symbol": "ED",
-    "date": "2026-10-09",
-    "close": 106.1,
-    "ma50": 106.4002,
-    "above": false
-  },
-  {
-    "symbol": "GLW",
-    "date": "2026-10-09",
-    "close": 156.68,
-    "ma50": 155.4624,
-    "above": true
-  },
-  {
-    "symbol": "COP",
-    "date": "2026-10-09",
-    "close": 134.1,
-    "ma50": 129.379,
-    "above": true
-  },
-  {
-    "symbol": "CPRT",
-    "date": "2026-10-09",
-    "close": 27.32,
-    "ma50": 30.2332,
-    "above": false
-  },
-  {
-    "symbol": "DVA",
-    "date": "2026-10-09",
-    "close": 179.25,
-    "ma50": 183.488,
-    "above": false
-  },
-  {
-    "symbol": "DDOG",
-    "date": "2026-10-09",
-    "close": 293.26,
-    "ma50": 246.876,
-    "above": true
-  },
-  {
     "symbol": "CSGP",
     "date": "2026-10-09",
     "close": 29.67,
@@ -924,45 +931,10 @@
     "above": false
   },
   {
-    "symbol": "CMI",
-    "date": "2026-10-09",
-    "close": 523.39,
-    "ma50": 568.99,
-    "above": false
-  },
-  {
-    "symbol": "COO",
-    "date": "2026-10-09",
-    "close": 54.37,
-    "ma50": 65.331,
-    "above": false
-  },
-  {
-    "symbol": "CSX",
-    "date": "2026-10-09",
-    "close": 47.26,
-    "ma50": 49.1016,
-    "above": false
-  },
-  {
-    "symbol": "CCI",
-    "date": "2026-10-09",
-    "close": 79.64,
-    "ma50": 73.36,
-    "above": true
-  },
-  {
     "symbol": "CRH",
     "date": "2026-10-09",
     "close": 81.54,
     "ma50": 91.002,
-    "above": false
-  },
-  {
-    "symbol": "DRI",
-    "date": "2026-10-09",
-    "close": 197.66,
-    "ma50": 211.3218,
     "above": false
   },
   {
@@ -973,11 +945,60 @@
     "above": false
   },
   {
-    "symbol": "COST",
+    "symbol": "CPAY",
     "date": "2026-10-09",
-    "close": 946.92,
-    "ma50": 931.427,
+    "close": 397.92,
+    "ma50": 403.5538,
+    "above": false
+  },
+  {
+    "symbol": "CCI",
+    "date": "2026-10-09",
+    "close": 79.64,
+    "ma50": 73.36,
     "above": true
+  },
+  {
+    "symbol": "DHR",
+    "date": "2026-10-09",
+    "close": 219.81,
+    "ma50": 211.0504,
+    "above": true
+  },
+  {
+    "symbol": "DVA",
+    "date": "2026-10-09",
+    "close": 179.25,
+    "ma50": 183.488,
+    "above": false
+  },
+  {
+    "symbol": "DRI",
+    "date": "2026-10-09",
+    "close": 197.66,
+    "ma50": 211.3218,
+    "above": false
+  },
+  {
+    "symbol": "DG",
+    "date": "2026-10-09",
+    "close": 127.23,
+    "ma50": 124.156,
+    "above": true
+  },
+  {
+    "symbol": "DVN",
+    "date": "2026-10-09",
+    "close": 48.26,
+    "ma50": 47.3574,
+    "above": true
+  },
+  {
+    "symbol": "FANG",
+    "date": "2026-10-09",
+    "close": 192.13,
+    "ma50": 196.59199999999998,
+    "above": false
   },
   {
     "symbol": "DXCM",
@@ -994,48 +1015,6 @@
     "above": false
   },
   {
-    "symbol": "DOW",
-    "date": "2026-10-09",
-    "close": 28.42,
-    "ma50": 29.6838,
-    "above": false
-  },
-  {
-    "symbol": "DAL",
-    "date": "2026-10-09",
-    "close": 82.17,
-    "ma50": 83.6458,
-    "above": false
-  },
-  {
-    "symbol": "DPZ",
-    "date": "2026-10-09",
-    "close": 309.36,
-    "ma50": 326.6886,
-    "above": false
-  },
-  {
-    "symbol": "DLR",
-    "date": "2026-10-09",
-    "close": 178.76,
-    "ma50": 186.7696,
-    "above": false
-  },
-  {
-    "symbol": "ETN",
-    "date": "2026-10-09",
-    "close": 429.65,
-    "ma50": 426.4382,
-    "above": true
-  },
-  {
-    "symbol": "DHI",
-    "date": "2026-10-09",
-    "close": 134.88,
-    "ma50": 142.8652,
-    "above": false
-  },
-  {
     "symbol": "DASH",
     "date": "2026-10-09",
     "close": 196.5,
@@ -1043,24 +1022,10 @@
     "above": false
   },
   {
-    "symbol": "FANG",
+    "symbol": "DECK",
     "date": "2026-10-09",
-    "close": 192.13,
-    "ma50": 196.59199999999998,
-    "above": false
-  },
-  {
-    "symbol": "DG",
-    "date": "2026-10-09",
-    "close": 127.23,
-    "ma50": 124.156,
-    "above": true
-  },
-  {
-    "symbol": "DOV",
-    "date": "2026-10-09",
-    "close": 188.83,
-    "ma50": 196.3388,
+    "close": 82.89,
+    "ma50": 85.926,
     "above": false
   },
   {
@@ -1071,45 +1036,17 @@
     "above": false
   },
   {
-    "symbol": "D",
+    "symbol": "DPZ",
     "date": "2026-10-09",
-    "close": 61.64,
-    "ma50": 65.058,
+    "close": 309.36,
+    "ma50": 326.6886,
     "above": false
   },
   {
-    "symbol": "DELL",
+    "symbol": "DHI",
     "date": "2026-10-09",
-    "close": 586.06,
-    "ma50": 505.6542,
-    "above": true
-  },
-  {
-    "symbol": "DTE",
-    "date": "2026-10-09",
-    "close": 126.9,
-    "ma50": 133.0082,
-    "above": false
-  },
-  {
-    "symbol": "DVN",
-    "date": "2026-10-09",
-    "close": 48.26,
-    "ma50": 47.3574,
-    "above": true
-  },
-  {
-    "symbol": "DECK",
-    "date": "2026-10-09",
-    "close": 82.89,
-    "ma50": 85.926,
-    "above": false
-  },
-  {
-    "symbol": "DD",
-    "date": "2026-10-09",
-    "close": 130.0,
-    "ma50": 134.7212,
+    "close": 134.88,
+    "ma50": 142.8652,
     "above": false
   },
   {
@@ -1120,11 +1057,109 @@
     "above": false
   },
   {
-    "symbol": "EL",
+    "symbol": "ETN",
     "date": "2026-10-09",
-    "close": 98.05,
-    "ma50": 94.88,
+    "close": 429.65,
+    "ma50": 426.4382,
     "above": true
+  },
+  {
+    "symbol": "DAL",
+    "date": "2026-10-09",
+    "close": 82.17,
+    "ma50": 83.6458,
+    "above": false
+  },
+  {
+    "symbol": "DELL",
+    "date": "2026-10-09",
+    "close": 586.06,
+    "ma50": 505.6542,
+    "above": true
+  },
+  {
+    "symbol": "D",
+    "date": "2026-10-09",
+    "close": 61.64,
+    "ma50": 65.058,
+    "above": false
+  },
+  {
+    "symbol": "DTE",
+    "date": "2026-10-09",
+    "close": 126.9,
+    "ma50": 133.0082,
+    "above": false
+  },
+  {
+    "symbol": "DD",
+    "date": "2026-10-09",
+    "close": 130.0,
+    "ma50": 134.7212,
+    "above": false
+  },
+  {
+    "symbol": "DOV",
+    "date": "2026-10-09",
+    "close": 188.83,
+    "ma50": 196.3388,
+    "above": false
+  },
+  {
+    "symbol": "DOW",
+    "date": "2026-10-09",
+    "close": 28.42,
+    "ma50": 29.6838,
+    "above": false
+  },
+  {
+    "symbol": "DLR",
+    "date": "2026-10-09",
+    "close": 178.76,
+    "ma50": 186.7696,
+    "above": false
+  },
+  {
+    "symbol": "EW",
+    "date": "2026-10-09",
+    "close": 85.21,
+    "ma50": 88.619,
+    "above": false
+  },
+  {
+    "symbol": "EQT",
+    "date": "2026-10-09",
+    "close": 52.83,
+    "ma50": 52.8112,
+    "above": true
+  },
+  {
+    "symbol": "ECL",
+    "date": "2026-10-09",
+    "close": 281.83,
+    "ma50": 279.1688,
+    "above": true
+  },
+  {
+    "symbol": "EMR",
+    "date": "2026-10-09",
+    "close": 161.83,
+    "ma50": 155.8548,
+    "above": true
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2026-10-09",
+    "close": 1026.06,
+    "ma50": 1042.1946,
+    "above": false
+  },
+  {
+    "symbol": "EIX",
+    "date": "2026-10-09",
+    "close": 55.3,
+    "ma50": 61.9042,
+    "above": false
   },
   {
     "symbol": "EME",
@@ -1132,6 +1167,55 @@
     "close": 789.45,
     "ma50": 777.6738,
     "above": true
+  },
+  {
+    "symbol": "ETR",
+    "date": "2026-10-09",
+    "close": 102.8,
+    "ma50": 104.6658,
+    "above": false
+  },
+  {
+    "symbol": "EBAY",
+    "date": "2026-10-09",
+    "close": 112.19,
+    "ma50": 106.8618,
+    "above": true
+  },
+  {
+    "symbol": "EOG",
+    "date": "2026-10-09",
+    "close": 148.16,
+    "ma50": 144.5718,
+    "above": true
+  },
+  {
+    "symbol": "ESS",
+    "date": "2026-10-09",
+    "close": 271.57,
+    "ma50": 278.7256,
+    "above": false
+  },
+  {
+    "symbol": "EL",
+    "date": "2026-10-09",
+    "close": 98.05,
+    "ma50": 94.88,
+    "above": true
+  },
+  {
+    "symbol": "ES",
+    "date": "2026-10-09",
+    "close": 65.73,
+    "ma50": 69.0256,
+    "above": false
+  },
+  {
+    "symbol": "EVRG",
+    "date": "2026-10-09",
+    "close": 80.96,
+    "ma50": 81.1762,
+    "above": false
   },
   {
     "symbol": "ECHO",
@@ -1148,80 +1232,10 @@
     "above": false
   },
   {
-    "symbol": "EBAY",
-    "date": "2026-10-09",
-    "close": 112.19,
-    "ma50": 106.8618,
-    "above": true
-  },
-  {
-    "symbol": "ETR",
-    "date": "2026-10-09",
-    "close": 102.8,
-    "ma50": 104.6658,
-    "above": false
-  },
-  {
-    "symbol": "ELV",
-    "date": "2026-10-09",
-    "close": 412.7,
-    "ma50": 399.5868,
-    "above": true
-  },
-  {
-    "symbol": "EMR",
-    "date": "2026-10-09",
-    "close": 161.83,
-    "ma50": 155.8548,
-    "above": true
-  },
-  {
-    "symbol": "ESS",
-    "date": "2026-10-09",
-    "close": 271.57,
-    "ma50": 278.7256,
-    "above": false
-  },
-  {
-    "symbol": "EG",
-    "date": "2026-10-09",
-    "close": 368.37,
-    "ma50": 371.9158,
-    "above": false
-  },
-  {
-    "symbol": "EQIX",
-    "date": "2026-10-09",
-    "close": 1026.06,
-    "ma50": 1042.1946,
-    "above": false
-  },
-  {
-    "symbol": "ES",
-    "date": "2026-10-09",
-    "close": 65.73,
-    "ma50": 69.0256,
-    "above": false
-  },
-  {
-    "symbol": "EIX",
-    "date": "2026-10-09",
-    "close": 55.3,
-    "ma50": 61.9042,
-    "above": false
-  },
-  {
     "symbol": "ERIE",
     "date": "2026-10-09",
     "close": 222.04,
     "ma50": 244.1158,
-    "above": false
-  },
-  {
-    "symbol": "EW",
-    "date": "2026-10-09",
-    "close": 85.21,
-    "ma50": 88.619,
     "above": false
   },
   {
@@ -1232,80 +1246,31 @@
     "above": true
   },
   {
-    "symbol": "EQT",
+    "symbol": "EG",
     "date": "2026-10-09",
-    "close": 52.83,
-    "ma50": 52.8112,
+    "close": 368.37,
+    "ma50": 371.9158,
+    "above": false
+  },
+  {
+    "symbol": "ELV",
+    "date": "2026-10-09",
+    "close": 412.7,
+    "ma50": 399.5868,
     "above": true
   },
   {
-    "symbol": "EOG",
+    "symbol": "XOM",
     "date": "2026-10-09",
-    "close": 148.16,
-    "ma50": 144.5718,
+    "close": 168.94,
+    "ma50": 161.5692,
     "above": true
   },
   {
-    "symbol": "ECL",
+    "symbol": "EXE",
     "date": "2026-10-09",
-    "close": 281.83,
-    "ma50": 279.1688,
-    "above": true
-  },
-  {
-    "symbol": "EVRG",
-    "date": "2026-10-09",
-    "close": 80.96,
-    "ma50": 81.1762,
-    "above": false
-  },
-  {
-    "symbol": "FICO",
-    "date": "2026-10-09",
-    "close": 667.58,
-    "ma50": 969.9294,
-    "above": false
-  },
-  {
-    "symbol": "FRT",
-    "date": "2026-10-09",
-    "close": 106.16,
-    "ma50": 114.4766,
-    "above": false
-  },
-  {
-    "symbol": "EXR",
-    "date": "2026-10-09",
-    "close": 134.65,
-    "ma50": 140.62,
-    "above": false
-  },
-  {
-    "symbol": "FISV",
-    "date": "2026-10-09",
-    "close": 45.63,
-    "ma50": 50.2022,
-    "above": false
-  },
-  {
-    "symbol": "FE",
-    "date": "2026-10-09",
-    "close": 45.0,
-    "ma50": 45.8642,
-    "above": false
-  },
-  {
-    "symbol": "FLEX",
-    "date": "2026-10-09",
-    "close": 119.83,
-    "ma50": 114.6836,
-    "above": true
-  },
-  {
-    "symbol": "EXC",
-    "date": "2026-10-09",
-    "close": 41.76,
-    "ma50": 43.341,
+    "close": 88.22,
+    "ma50": 92.7135,
     "above": false
   },
   {
@@ -1316,32 +1281,11 @@
     "above": true
   },
   {
-    "symbol": "FAST",
+    "symbol": "FIS",
     "date": "2026-10-09",
-    "close": 50.75,
-    "ma50": 50.1918,
-    "above": true
-  },
-  {
-    "symbol": "EXPD",
-    "date": "2026-10-09",
-    "close": 193.24,
-    "ma50": 187.0486,
-    "above": true
-  },
-  {
-    "symbol": "FDX",
-    "date": "2026-10-09",
-    "close": 291.71,
-    "ma50": 311.2512,
+    "close": 34.04,
+    "ma50": 38.848,
     "above": false
-  },
-  {
-    "symbol": "XOM",
-    "date": "2026-10-09",
-    "close": 168.94,
-    "ma50": 161.5692,
-    "above": true
   },
   {
     "symbol": "FDS",
@@ -1351,17 +1295,10 @@
     "above": true
   },
   {
-    "symbol": "FERG",
+    "symbol": "EXPE",
     "date": "2026-10-09",
-    "close": 220.04,
-    "ma50": 230.951,
-    "above": false
-  },
-  {
-    "symbol": "FSLR",
-    "date": "2026-10-09",
-    "close": 177.82,
-    "ma50": 205.04,
+    "close": 274.22,
+    "ma50": 295.8652,
     "above": false
   },
   {
@@ -1372,11 +1309,67 @@
     "above": false
   },
   {
-    "symbol": "FIS",
+    "symbol": "EXPD",
     "date": "2026-10-09",
-    "close": 34.04,
-    "ma50": 38.848,
+    "close": 193.24,
+    "ma50": 187.0486,
+    "above": true
+  },
+  {
+    "symbol": "FRT",
+    "date": "2026-10-09",
+    "close": 106.16,
+    "ma50": 114.4766,
     "above": false
+  },
+  {
+    "symbol": "FERG",
+    "date": "2026-10-09",
+    "close": 220.04,
+    "ma50": 230.951,
+    "above": false
+  },
+  {
+    "symbol": "EXR",
+    "date": "2026-10-09",
+    "close": 134.65,
+    "ma50": 140.62,
+    "above": false
+  },
+  {
+    "symbol": "FE",
+    "date": "2026-10-09",
+    "close": 45.0,
+    "ma50": 45.8642,
+    "above": false
+  },
+  {
+    "symbol": "FDX",
+    "date": "2026-10-09",
+    "close": 291.71,
+    "ma50": 311.2512,
+    "above": false
+  },
+  {
+    "symbol": "EXC",
+    "date": "2026-10-09",
+    "close": 41.76,
+    "ma50": 43.341,
+    "above": false
+  },
+  {
+    "symbol": "FICO",
+    "date": "2026-10-09",
+    "close": 667.58,
+    "ma50": 969.9294,
+    "above": false
+  },
+  {
+    "symbol": "FAST",
+    "date": "2026-10-09",
+    "close": 50.75,
+    "ma50": 50.1918,
+    "above": true
   },
   {
     "symbol": "FDXF",
@@ -1386,32 +1379,46 @@
     "above": false
   },
   {
-    "symbol": "EXPE",
+    "symbol": "FLEX",
     "date": "2026-10-09",
-    "close": 274.22,
-    "ma50": 295.8652,
+    "close": 119.83,
+    "ma50": 114.6836,
+    "above": true
+  },
+  {
+    "symbol": "FISV",
+    "date": "2026-10-09",
+    "close": 45.63,
+    "ma50": 50.2022,
     "above": false
   },
   {
-    "symbol": "EXE",
+    "symbol": "FSLR",
     "date": "2026-10-09",
-    "close": 88.22,
-    "ma50": 92.7135,
+    "close": 177.82,
+    "ma50": 205.04,
     "above": false
   },
   {
-    "symbol": "FTV",
+    "symbol": "GEHC",
     "date": "2026-10-09",
-    "close": 57.26,
-    "ma50": 57.9732,
+    "close": 65.74,
+    "ma50": 68.6677,
     "above": false
   },
   {
-    "symbol": "F",
+    "symbol": "FOXA",
     "date": "2026-10-09",
-    "close": 12.17,
-    "ma50": 13.5238,
+    "close": 62.41,
+    "ma50": 64.853,
     "above": false
+  },
+  {
+    "symbol": "GNRC",
+    "date": "2026-10-09",
+    "close": 224.94,
+    "ma50": 203.3474,
+    "above": true
   },
   {
     "symbol": "GEV",
@@ -1421,17 +1428,38 @@
     "above": true
   },
   {
-    "symbol": "GEN",
+    "symbol": "IT",
     "date": "2026-10-09",
-    "close": 23.25,
-    "ma50": 27.5626,
+    "close": 191.15,
+    "ma50": 185.9036,
+    "above": true
+  },
+  {
+    "symbol": "FOX",
+    "date": "2026-10-09",
+    "close": 55.89,
+    "ma50": 57.9112,
     "above": false
   },
   {
-    "symbol": "FOXA",
+    "symbol": "FCX",
     "date": "2026-10-09",
-    "close": 62.41,
-    "ma50": 64.853,
+    "close": 73.69,
+    "ma50": 71.5648,
+    "above": true
+  },
+  {
+    "symbol": "FTNT",
+    "date": "2026-10-09",
+    "close": 194.75,
+    "ma50": 167.3726,
+    "above": true
+  },
+  {
+    "symbol": "GD",
+    "date": "2026-10-09",
+    "close": 331.27,
+    "ma50": 363.8812,
     "above": false
   },
   {
@@ -1449,59 +1477,38 @@
     "above": false
   },
   {
-    "symbol": "FTNT",
+    "symbol": "F",
     "date": "2026-10-09",
-    "close": 194.75,
-    "ma50": 167.3726,
-    "above": true
+    "close": 12.17,
+    "ma50": 13.5238,
+    "above": false
   },
   {
-    "symbol": "GILD",
+    "symbol": "FTV",
     "date": "2026-10-09",
-    "close": 151.17,
-    "ma50": 144.7116,
-    "above": true
+    "close": 57.26,
+    "ma50": 57.9732,
+    "above": false
+  },
+  {
+    "symbol": "GEN",
+    "date": "2026-10-09",
+    "close": 23.25,
+    "ma50": 27.5626,
+    "above": false
+  },
+  {
+    "symbol": "GM",
+    "date": "2026-10-09",
+    "close": 82.73,
+    "ma50": 84.82900000000001,
+    "above": false
   },
   {
     "symbol": "BEN",
     "date": "2026-10-09",
     "close": 32.0,
     "ma50": 33.6106,
-    "above": false
-  },
-  {
-    "symbol": "GD",
-    "date": "2026-10-09",
-    "close": 331.27,
-    "ma50": 363.8812,
-    "above": false
-  },
-  {
-    "symbol": "FOX",
-    "date": "2026-10-09",
-    "close": 55.89,
-    "ma50": 57.9112,
-    "above": false
-  },
-  {
-    "symbol": "GPC",
-    "date": "2026-10-09",
-    "close": 127.02,
-    "ma50": 131.9528,
-    "above": false
-  },
-  {
-    "symbol": "FCX",
-    "date": "2026-10-09",
-    "close": 73.69,
-    "ma50": 71.5648,
-    "above": true
-  },
-  {
-    "symbol": "GPN",
-    "date": "2026-10-09",
-    "close": 82.2,
-    "ma50": 87.68,
     "above": false
   },
   {
@@ -1512,80 +1519,24 @@
     "above": false
   },
   {
-    "symbol": "GNRC",
+    "symbol": "GPN",
     "date": "2026-10-09",
-    "close": 224.94,
-    "ma50": 203.3474,
-    "above": true
-  },
-  {
-    "symbol": "GEHC",
-    "date": "2026-10-09",
-    "close": 65.74,
-    "ma50": 68.6677,
+    "close": 82.2,
+    "ma50": 87.68,
     "above": false
   },
   {
-    "symbol": "IT",
+    "symbol": "GPC",
     "date": "2026-10-09",
-    "close": 191.15,
-    "ma50": 185.9036,
-    "above": true
-  },
-  {
-    "symbol": "GM",
-    "date": "2026-10-09",
-    "close": 82.73,
-    "ma50": 84.82900000000001,
+    "close": 127.02,
+    "ma50": 131.9528,
     "above": false
   },
   {
-    "symbol": "HIG",
+    "symbol": "GILD",
     "date": "2026-10-09",
-    "close": 129.11,
-    "ma50": 134.8232,
-    "above": false
-  },
-  {
-    "symbol": "HSIC",
-    "date": "2026-10-09",
-    "close": 84.01,
-    "ma50": 87.6042,
-    "above": false
-  },
-  {
-    "symbol": "HAL",
-    "date": "2026-10-09",
-    "close": 32.55,
-    "ma50": 34.0334,
-    "above": false
-  },
-  {
-    "symbol": "DOC",
-    "date": "2026-10-09",
-    "close": 18.8,
-    "ma50": 20.576999999999998,
-    "above": false
-  },
-  {
-    "symbol": "HPE",
-    "date": "2026-10-09",
-    "close": 73.46,
-    "ma50": 58.1728,
-    "above": true
-  },
-  {
-    "symbol": "HUBB",
-    "date": "2026-10-09",
-    "close": 474.11,
-    "ma50": 472.2662,
-    "above": true
-  },
-  {
-    "symbol": "HCA",
-    "date": "2026-10-09",
-    "close": 451.09,
-    "ma50": 420.7144,
+    "close": 151.17,
+    "ma50": 144.7116,
     "above": true
   },
   {
@@ -1596,10 +1547,10 @@
     "above": true
   },
   {
-    "symbol": "HST",
+    "symbol": "HAL",
     "date": "2026-10-09",
-    "close": 22.65,
-    "ma50": 22.6664,
+    "close": 32.55,
+    "ma50": 34.0334,
     "above": false
   },
   {
@@ -1610,52 +1561,10 @@
     "above": false
   },
   {
-    "symbol": "HONA",
-    "date": "2026-10-09",
-    "close": 157.94,
-    "ma50": 164.1794,
-    "above": false
-  },
-  {
-    "symbol": "GL",
-    "date": "2026-10-09",
-    "close": 164.17,
-    "ma50": 173.2958,
-    "above": false
-  },
-  {
-    "symbol": "HON",
-    "date": "2026-10-09",
-    "close": 207.73,
-    "ma50": 218.142,
-    "above": false
-  },
-  {
     "symbol": "GS",
     "date": "2026-10-09",
     "close": 895.32,
     "ma50": 989.9282000000001,
-    "above": false
-  },
-  {
-    "symbol": "HAS",
-    "date": "2026-10-09",
-    "close": 93.32,
-    "ma50": 91.8856,
-    "above": true
-  },
-  {
-    "symbol": "HD",
-    "date": "2026-10-09",
-    "close": 290.74,
-    "ma50": 317.676,
-    "above": false
-  },
-  {
-    "symbol": "HSY",
-    "date": "2026-10-09",
-    "close": 162.74,
-    "ma50": 174.3862,
     "above": false
   },
   {
@@ -1666,11 +1575,95 @@
     "above": true
   },
   {
+    "symbol": "HCA",
+    "date": "2026-10-09",
+    "close": 451.09,
+    "ma50": 420.7144,
+    "above": true
+  },
+  {
+    "symbol": "HST",
+    "date": "2026-10-09",
+    "close": 22.65,
+    "ma50": 22.6664,
+    "above": false
+  },
+  {
+    "symbol": "HSIC",
+    "date": "2026-10-09",
+    "close": 84.01,
+    "ma50": 87.6042,
+    "above": false
+  },
+  {
+    "symbol": "GL",
+    "date": "2026-10-09",
+    "close": 164.17,
+    "ma50": 173.2958,
+    "above": false
+  },
+  {
+    "symbol": "HIG",
+    "date": "2026-10-09",
+    "close": 129.11,
+    "ma50": 134.8232,
+    "above": false
+  },
+  {
+    "symbol": "HONA",
+    "date": "2026-10-09",
+    "close": 157.94,
+    "ma50": 164.1794,
+    "above": false
+  },
+  {
     "symbol": "HRL",
     "date": "2026-10-09",
     "close": 19.19,
     "ma50": 22.072400000000002,
     "above": false
+  },
+  {
+    "symbol": "HSY",
+    "date": "2026-10-09",
+    "close": 162.74,
+    "ma50": 174.3862,
+    "above": false
+  },
+  {
+    "symbol": "HPE",
+    "date": "2026-10-09",
+    "close": 73.46,
+    "ma50": 58.1728,
+    "above": true
+  },
+  {
+    "symbol": "DOC",
+    "date": "2026-10-09",
+    "close": 18.8,
+    "ma50": 20.576999999999998,
+    "above": false
+  },
+  {
+    "symbol": "HD",
+    "date": "2026-10-09",
+    "close": 290.74,
+    "ma50": 317.676,
+    "above": false
+  },
+  {
+    "symbol": "HAS",
+    "date": "2026-10-09",
+    "close": 93.32,
+    "ma50": 91.8856,
+    "above": true
+  },
+  {
+    "symbol": "HUBB",
+    "date": "2026-10-09",
+    "close": 474.11,
+    "ma50": 472.2662,
+    "above": true
   },
   {
     "symbol": "HWM",
@@ -1680,46 +1673,11 @@
     "above": false
   },
   {
-    "symbol": "HBAN",
+    "symbol": "HON",
     "date": "2026-10-09",
-    "close": 15.32,
-    "ma50": 16.5612,
+    "close": 207.73,
+    "ma50": 218.142,
     "above": false
-  },
-  {
-    "symbol": "IBM",
-    "date": "2026-10-09",
-    "close": 227.13,
-    "ma50": 232.0842,
-    "above": false
-  },
-  {
-    "symbol": "INTU",
-    "date": "2026-10-09",
-    "close": 302.75,
-    "ma50": 321.7032,
-    "above": false
-  },
-  {
-    "symbol": "IBKR",
-    "date": "2026-10-09",
-    "close": 87.87,
-    "ma50": 90.4464,
-    "above": false
-  },
-  {
-    "symbol": "IR",
-    "date": "2026-10-09",
-    "close": 78.75,
-    "ma50": 78.548,
-    "above": true
-  },
-  {
-    "symbol": "INTC",
-    "date": "2026-10-09",
-    "close": 104.7,
-    "ma50": 103.0806,
-    "above": true
   },
   {
     "symbol": "HUM",
@@ -1729,60 +1687,11 @@
     "above": true
   },
   {
-    "symbol": "INCY",
+    "symbol": "HBAN",
     "date": "2026-10-09",
-    "close": 112.79,
-    "ma50": 122.6108,
+    "close": 15.32,
+    "ma50": 16.5612,
     "above": false
-  },
-  {
-    "symbol": "IDXX",
-    "date": "2026-10-09",
-    "close": 518.0,
-    "ma50": 539.4296,
-    "above": false
-  },
-  {
-    "symbol": "HII",
-    "date": "2026-10-09",
-    "close": 264.8,
-    "ma50": 291.1996,
-    "above": false
-  },
-  {
-    "symbol": "IP",
-    "date": "2026-10-09",
-    "close": 32.12,
-    "ma50": 37.1816,
-    "above": false
-  },
-  {
-    "symbol": "ITW",
-    "date": "2026-10-09",
-    "close": 264.13,
-    "ma50": 276.6704,
-    "above": false
-  },
-  {
-    "symbol": "PODD",
-    "date": "2026-10-09",
-    "close": 135.28,
-    "ma50": 142.0838,
-    "above": false
-  },
-  {
-    "symbol": "ISRG",
-    "date": "2026-10-09",
-    "close": 423.96,
-    "ma50": 386.0972,
-    "above": true
-  },
-  {
-    "symbol": "ILMN",
-    "date": "2026-10-09",
-    "close": 278.17,
-    "ma50": 226.9164,
-    "above": true
   },
   {
     "symbol": "IEX",
@@ -1792,24 +1701,10 @@
     "above": true
   },
   {
-    "symbol": "ICE",
+    "symbol": "IBM",
     "date": "2026-10-09",
-    "close": 156.19,
-    "ma50": 155.5542,
-    "above": true
-  },
-  {
-    "symbol": "IVZ",
-    "date": "2026-10-09",
-    "close": 29.51,
-    "ma50": 31.4774,
-    "above": false
-  },
-  {
-    "symbol": "INVH",
-    "date": "2026-10-09",
-    "close": 26.79,
-    "ma50": 28.4134,
+    "close": 227.13,
+    "ma50": 232.0842,
     "above": false
   },
   {
@@ -1820,24 +1715,129 @@
     "above": true
   },
   {
-    "symbol": "IQV",
+    "symbol": "IBKR",
     "date": "2026-10-09",
-    "close": 259.88,
-    "ma50": 256.863,
+    "close": 87.87,
+    "ma50": 90.4464,
+    "above": false
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-09",
+    "close": 264.8,
+    "ma50": 291.1996,
+    "above": false
+  },
+  {
+    "symbol": "ISRG",
+    "date": "2026-10-09",
+    "close": 423.96,
+    "ma50": 386.0972,
     "above": true
   },
   {
-    "symbol": "KDP",
+    "symbol": "ITW",
     "date": "2026-10-09",
-    "close": 31.76,
-    "ma50": 31.281,
+    "close": 264.13,
+    "ma50": 276.6704,
+    "above": false
+  },
+  {
+    "symbol": "INVH",
+    "date": "2026-10-09",
+    "close": 26.79,
+    "ma50": 28.4134,
+    "above": false
+  },
+  {
+    "symbol": "IDXX",
+    "date": "2026-10-09",
+    "close": 518.0,
+    "ma50": 539.4296,
+    "above": false
+  },
+  {
+    "symbol": "INCY",
+    "date": "2026-10-09",
+    "close": 112.79,
+    "ma50": 122.6108,
+    "above": false
+  },
+  {
+    "symbol": "IR",
+    "date": "2026-10-09",
+    "close": 78.75,
+    "ma50": 78.548,
     "above": true
   },
   {
-    "symbol": "KVUE",
+    "symbol": "ILMN",
     "date": "2026-10-09",
-    "close": 17.7,
-    "ma50": 18.4464,
+    "close": 278.17,
+    "ma50": 226.9164,
+    "above": true
+  },
+  {
+    "symbol": "PODD",
+    "date": "2026-10-09",
+    "close": 135.28,
+    "ma50": 142.0838,
+    "above": false
+  },
+  {
+    "symbol": "INTC",
+    "date": "2026-10-09",
+    "close": 104.7,
+    "ma50": 103.0806,
+    "above": true
+  },
+  {
+    "symbol": "IVZ",
+    "date": "2026-10-09",
+    "close": 29.51,
+    "ma50": 31.4774,
+    "above": false
+  },
+  {
+    "symbol": "ICE",
+    "date": "2026-10-09",
+    "close": 156.19,
+    "ma50": 155.5542,
+    "above": true
+  },
+  {
+    "symbol": "INTU",
+    "date": "2026-10-09",
+    "close": 302.75,
+    "ma50": 321.7032,
+    "above": false
+  },
+  {
+    "symbol": "IP",
+    "date": "2026-10-09",
+    "close": 32.12,
+    "ma50": 37.1816,
+    "above": false
+  },
+  {
+    "symbol": "JBHT",
+    "date": "2026-10-09",
+    "close": 229.26,
+    "ma50": 255.5922,
+    "above": false
+  },
+  {
+    "symbol": "IRM",
+    "date": "2026-10-09",
+    "close": 114.51,
+    "ma50": 117.9322,
+    "above": false
+  },
+  {
+    "symbol": "J",
+    "date": "2026-10-09",
+    "close": 139.15,
+    "ma50": 143.4758,
     "above": false
   },
   {
@@ -1848,59 +1848,24 @@
     "above": true
   },
   {
-    "symbol": "JBHT",
+    "symbol": "KDP",
     "date": "2026-10-09",
-    "close": 229.26,
-    "ma50": 255.5922,
-    "above": false
-  },
-  {
-    "symbol": "KMI",
-    "date": "2026-10-09",
-    "close": 32.49,
-    "ma50": 31.4816,
+    "close": 31.76,
+    "ma50": 31.281,
     "above": true
   },
   {
-    "symbol": "J",
+    "symbol": "IQV",
     "date": "2026-10-09",
-    "close": 139.15,
-    "ma50": 143.4758,
-    "above": false
-  },
-  {
-    "symbol": "KLAC",
-    "date": "2026-10-09",
-    "close": 195.57,
-    "ma50": 187.9834,
+    "close": 259.88,
+    "ma50": 256.863,
     "above": true
   },
   {
-    "symbol": "JCI",
+    "symbol": "KVUE",
     "date": "2026-10-09",
-    "close": 157.44,
-    "ma50": 147.4404,
-    "above": true
-  },
-  {
-    "symbol": "IRM",
-    "date": "2026-10-09",
-    "close": 114.51,
-    "ma50": 117.9322,
-    "above": false
-  },
-  {
-    "symbol": "JKHY",
-    "date": "2026-10-09",
-    "close": 149.31,
-    "ma50": 156.524,
-    "above": false
-  },
-  {
-    "symbol": "JNJ",
-    "date": "2026-10-09",
-    "close": 261.44,
-    "ma50": 265.334,
+    "close": 17.7,
+    "ma50": 18.4464,
     "above": false
   },
   {
@@ -1911,10 +1876,31 @@
     "above": false
   },
   {
+    "symbol": "JKHY",
+    "date": "2026-10-09",
+    "close": 149.31,
+    "ma50": 156.524,
+    "above": false
+  },
+  {
+    "symbol": "KEY",
+    "date": "2026-10-09",
+    "close": 19.97,
+    "ma50": 21.5696,
+    "above": false
+  },
+  {
     "symbol": "JPM",
     "date": "2026-10-09",
     "close": 332.99,
     "ma50": 350.1442,
+    "above": false
+  },
+  {
+    "symbol": "JNJ",
+    "date": "2026-10-09",
+    "close": 261.44,
+    "ma50": 265.334,
     "above": false
   },
   {
@@ -1925,11 +1911,18 @@
     "above": false
   },
   {
-    "symbol": "KEY",
+    "symbol": "KLAC",
     "date": "2026-10-09",
-    "close": 19.97,
-    "ma50": 21.5696,
-    "above": false
+    "close": 195.57,
+    "ma50": 187.9834,
+    "above": true
+  },
+  {
+    "symbol": "KR",
+    "date": "2026-10-09",
+    "close": 61.64,
+    "ma50": 58.3272,
+    "above": true
   },
   {
     "symbol": "KKR",
@@ -1946,10 +1939,17 @@
     "above": false
   },
   {
-    "symbol": "KR",
+    "symbol": "JCI",
     "date": "2026-10-09",
-    "close": 61.64,
-    "ma50": 58.3272,
+    "close": 157.44,
+    "ma50": 147.4404,
+    "above": true
+  },
+  {
+    "symbol": "KMI",
+    "date": "2026-10-09",
+    "close": 32.49,
+    "ma50": 31.4816,
     "above": true
   },
   {
@@ -1960,24 +1960,10 @@
     "above": false
   },
   {
-    "symbol": "LITE",
+    "symbol": "LOW",
     "date": "2026-10-09",
-    "close": 1103.355,
-    "ma50": 920.338,
-    "above": true
-  },
-  {
-    "symbol": "LH",
-    "date": "2026-10-09",
-    "close": 312.15,
-    "ma50": 319.8284,
-    "above": false
-  },
-  {
-    "symbol": "LDOS",
-    "date": "2026-10-09",
-    "close": 121.68,
-    "ma50": 130.8468,
+    "close": 186.0,
+    "ma50": 202.1898,
     "above": false
   },
   {
@@ -1988,24 +1974,17 @@
     "above": false
   },
   {
-    "symbol": "LRCX",
+    "symbol": "LIN",
     "date": "2026-10-09",
-    "close": 318.84,
-    "ma50": 310.6924,
+    "close": 483.73,
+    "ma50": 477.9816,
     "above": true
   },
   {
-    "symbol": "LVS",
+    "symbol": "LMT",
     "date": "2026-10-09",
-    "close": 36.17,
-    "ma50": 42.6764,
-    "above": false
-  },
-  {
-    "symbol": "LULU",
-    "date": "2026-10-09",
-    "close": 94.5,
-    "ma50": 109.432,
+    "close": 509.59,
+    "ma50": 549.0764,
     "above": false
   },
   {
@@ -2016,20 +1995,6 @@
     "above": false
   },
   {
-    "symbol": "MRSH",
-    "date": "2026-10-09",
-    "close": 175.76,
-    "ma50": 182.316,
-    "above": false
-  },
-  {
-    "symbol": "LHX",
-    "date": "2026-10-09",
-    "close": 236.97,
-    "ma50": 259.2224,
-    "above": false
-  },
-  {
     "symbol": "MPC",
     "date": "2026-10-09",
     "close": 455.03,
@@ -2037,10 +2002,10 @@
     "above": true
   },
   {
-    "symbol": "MTB",
+    "symbol": "LH",
     "date": "2026-10-09",
-    "close": 217.49,
-    "ma50": 235.4554,
+    "close": 312.15,
+    "ma50": 319.8284,
     "above": false
   },
   {
@@ -2051,17 +2016,10 @@
     "above": false
   },
   {
-    "symbol": "LIN",
+    "symbol": "LDOS",
     "date": "2026-10-09",
-    "close": 483.73,
-    "ma50": 477.9816,
-    "above": true
-  },
-  {
-    "symbol": "L",
-    "date": "2026-10-09",
-    "close": 106.69,
-    "ma50": 109.6022,
+    "close": 121.68,
+    "ma50": 130.8468,
     "above": false
   },
   {
@@ -2072,24 +2030,31 @@
     "above": false
   },
   {
-    "symbol": "LMT",
+    "symbol": "LHX",
     "date": "2026-10-09",
-    "close": 509.59,
-    "ma50": 549.0764,
+    "close": 236.97,
+    "ma50": 259.2224,
     "above": false
   },
   {
-    "symbol": "LOW",
+    "symbol": "MRSH",
     "date": "2026-10-09",
-    "close": 186.0,
-    "ma50": 202.1898,
+    "close": 175.76,
+    "ma50": 182.316,
     "above": false
   },
   {
-    "symbol": "LLY",
+    "symbol": "LVS",
     "date": "2026-10-09",
-    "close": 1179.27,
-    "ma50": 1173.9692,
+    "close": 36.17,
+    "ma50": 42.6764,
+    "above": false
+  },
+  {
+    "symbol": "LRCX",
+    "date": "2026-10-09",
+    "close": 318.84,
+    "ma50": 310.6924,
     "above": true
   },
   {
@@ -2100,10 +2065,52 @@
     "above": true
   },
   {
-    "symbol": "META",
+    "symbol": "LLY",
     "date": "2026-10-09",
-    "close": 718.67,
-    "ma50": 639.7304,
+    "close": 1179.27,
+    "ma50": 1173.9692,
+    "above": true
+  },
+  {
+    "symbol": "L",
+    "date": "2026-10-09",
+    "close": 106.69,
+    "ma50": 109.6022,
+    "above": false
+  },
+  {
+    "symbol": "LITE",
+    "date": "2026-10-09",
+    "close": 1103.355,
+    "ma50": 920.338,
+    "above": true
+  },
+  {
+    "symbol": "LULU",
+    "date": "2026-10-09",
+    "close": 94.5,
+    "ma50": 109.432,
+    "above": false
+  },
+  {
+    "symbol": "MTB",
+    "date": "2026-10-09",
+    "close": 217.49,
+    "ma50": 235.4554,
+    "above": false
+  },
+  {
+    "symbol": "MU",
+    "date": "2026-10-09",
+    "close": 1029.0,
+    "ma50": 976.1862,
+    "above": true
+  },
+  {
+    "symbol": "MRNA",
+    "date": "2026-10-09",
+    "close": 225.0,
+    "ma50": 138.2585,
     "above": true
   },
   {
@@ -2114,52 +2121,10 @@
     "above": true
   },
   {
-    "symbol": "MDT",
+    "symbol": "MKC",
     "date": "2026-10-09",
-    "close": 88.48,
-    "ma50": 90.1058,
-    "above": false
-  },
-  {
-    "symbol": "MGM",
-    "date": "2026-10-09",
-    "close": 29.27,
-    "ma50": 39.394,
-    "above": false
-  },
-  {
-    "symbol": "MAA",
-    "date": "2026-10-09",
-    "close": 116.86,
-    "ma50": 125.923,
-    "above": false
-  },
-  {
-    "symbol": "MSFT",
-    "date": "2026-10-09",
-    "close": 535.07,
-    "ma50": 500.4468,
-    "above": true
-  },
-  {
-    "symbol": "MPWR",
-    "date": "2026-10-09",
-    "close": 1386.29,
-    "ma50": 1316.8494,
-    "above": true
-  },
-  {
-    "symbol": "MCD",
-    "date": "2026-10-09",
-    "close": 235.23,
-    "ma50": 255.6486,
-    "above": false
-  },
-  {
-    "symbol": "MCHP",
-    "date": "2026-10-09",
-    "close": 75.55,
-    "ma50": 76.0548,
+    "close": 44.81,
+    "ma50": 51.1198,
     "above": false
   },
   {
@@ -2177,17 +2142,45 @@
     "above": true
   },
   {
-    "symbol": "MCK",
+    "symbol": "MGM",
     "date": "2026-10-09",
-    "close": 938.84,
-    "ma50": 883.7234,
+    "close": 29.27,
+    "ma50": 39.394,
+    "above": false
+  },
+  {
+    "symbol": "MCHP",
+    "date": "2026-10-09",
+    "close": 75.55,
+    "ma50": 76.0548,
+    "above": false
+  },
+  {
+    "symbol": "MAA",
+    "date": "2026-10-09",
+    "close": 116.86,
+    "ma50": 125.923,
+    "above": false
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2026-10-09",
+    "close": 535.07,
+    "ma50": 500.4468,
     "above": true
   },
   {
-    "symbol": "MRK",
+    "symbol": "MAS",
     "date": "2026-10-09",
-    "close": 145.6,
-    "ma50": 143.458,
+    "close": 68.75,
+    "ma50": 71.361,
+    "above": false
+  },
+  {
+    "symbol": "META",
+    "date": "2026-10-09",
+    "close": 718.67,
+    "ma50": 639.7304,
     "above": true
   },
   {
@@ -2198,11 +2191,39 @@
     "above": true
   },
   {
-    "symbol": "MAS",
+    "symbol": "MCK",
     "date": "2026-10-09",
-    "close": 68.75,
-    "ma50": 71.361,
+    "close": 938.84,
+    "ma50": 883.7234,
+    "above": true
+  },
+  {
+    "symbol": "MCD",
+    "date": "2026-10-09",
+    "close": 235.23,
+    "ma50": 255.6486,
     "above": false
+  },
+  {
+    "symbol": "MDT",
+    "date": "2026-10-09",
+    "close": 88.48,
+    "ma50": 90.1058,
+    "above": false
+  },
+  {
+    "symbol": "MPWR",
+    "date": "2026-10-09",
+    "close": 1386.29,
+    "ma50": 1316.8494,
+    "above": true
+  },
+  {
+    "symbol": "MRK",
+    "date": "2026-10-09",
+    "close": 145.6,
+    "ma50": 143.458,
+    "above": true
   },
   {
     "symbol": "MLM",
@@ -2219,55 +2240,6 @@
     "above": false
   },
   {
-    "symbol": "MKC",
-    "date": "2026-10-09",
-    "close": 44.81,
-    "ma50": 51.1198,
-    "above": false
-  },
-  {
-    "symbol": "MRNA",
-    "date": "2026-10-09",
-    "close": 225.0,
-    "ma50": 138.2585,
-    "above": true
-  },
-  {
-    "symbol": "MU",
-    "date": "2026-10-09",
-    "close": 1029.0,
-    "ma50": 976.1862,
-    "above": true
-  },
-  {
-    "symbol": "NWS",
-    "date": "2026-10-09",
-    "close": 32.01,
-    "ma50": 33.0166,
-    "above": false
-  },
-  {
-    "symbol": "MOS",
-    "date": "2026-10-09",
-    "close": 18.74,
-    "ma50": 23.2872,
-    "above": false
-  },
-  {
-    "symbol": "MSCI",
-    "date": "2026-10-09",
-    "close": 565.12,
-    "ma50": 559.1458,
-    "above": true
-  },
-  {
-    "symbol": "MSI",
-    "date": "2026-10-09",
-    "close": 444.18,
-    "ma50": 463.3182,
-    "above": false
-  },
-  {
     "symbol": "NTAP",
     "date": "2026-10-09",
     "close": 237.15,
@@ -2275,45 +2247,17 @@
     "above": true
   },
   {
-    "symbol": "MNST",
+    "symbol": "NEM",
     "date": "2026-10-09",
-    "close": 43.64,
-    "ma50": 45.0935,
+    "close": 117.84,
+    "ma50": 120.1122,
     "above": false
   },
   {
-    "symbol": "NFLX",
+    "symbol": "MSI",
     "date": "2026-10-09",
-    "close": 70.3,
-    "ma50": 75.3262,
-    "above": false
-  },
-  {
-    "symbol": "NCLH",
-    "date": "2026-10-09",
-    "close": 15.57,
-    "ma50": 16.309,
-    "above": false
-  },
-  {
-    "symbol": "MCO",
-    "date": "2026-10-09",
-    "close": 464.23,
-    "ma50": 478.29,
-    "above": false
-  },
-  {
-    "symbol": "NSC",
-    "date": "2026-10-09",
-    "close": 317.79,
-    "ma50": 328.8116,
-    "above": false
-  },
-  {
-    "symbol": "NOC",
-    "date": "2026-10-09",
-    "close": 480.72,
-    "ma50": 531.9012,
+    "close": 444.18,
+    "ma50": 463.3182,
     "above": false
   },
   {
@@ -2324,10 +2268,38 @@
     "above": false
   },
   {
-    "symbol": "NWSA",
+    "symbol": "NCLH",
     "date": "2026-10-09",
-    "close": 29.12,
-    "ma50": 29.4426,
+    "close": 15.57,
+    "ma50": 16.309,
+    "above": false
+  },
+  {
+    "symbol": "NWS",
+    "date": "2026-10-09",
+    "close": 32.01,
+    "ma50": 33.0166,
+    "above": false
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2026-10-09",
+    "close": 70.3,
+    "ma50": 75.3262,
+    "above": false
+  },
+  {
+    "symbol": "MSCI",
+    "date": "2026-10-09",
+    "close": 565.12,
+    "ma50": 559.1458,
+    "above": true
+  },
+  {
+    "symbol": "NEE",
+    "date": "2026-10-09",
+    "close": 77.38,
+    "ma50": 81.8984,
     "above": false
   },
   {
@@ -2338,6 +2310,34 @@
     "above": false
   },
   {
+    "symbol": "MNST",
+    "date": "2026-10-09",
+    "close": 43.64,
+    "ma50": 45.0935,
+    "above": false
+  },
+  {
+    "symbol": "MCO",
+    "date": "2026-10-09",
+    "close": 464.23,
+    "ma50": 478.29,
+    "above": false
+  },
+  {
+    "symbol": "NTRS",
+    "date": "2026-10-09",
+    "close": 168.21,
+    "ma50": 181.219,
+    "above": false
+  },
+  {
+    "symbol": "NOC",
+    "date": "2026-10-09",
+    "close": 480.72,
+    "ma50": 531.9012,
+    "above": false
+  },
+  {
     "symbol": "NI",
     "date": "2026-10-09",
     "close": 40.76,
@@ -2345,31 +2345,24 @@
     "above": false
   },
   {
-    "symbol": "NEM",
+    "symbol": "MOS",
     "date": "2026-10-09",
-    "close": 117.84,
-    "ma50": 120.1122,
+    "close": 18.74,
+    "ma50": 23.2872,
     "above": false
   },
   {
-    "symbol": "NEE",
+    "symbol": "NWSA",
     "date": "2026-10-09",
-    "close": 77.38,
-    "ma50": 81.8984,
+    "close": 29.12,
+    "ma50": 29.4426,
     "above": false
   },
   {
-    "symbol": "NDSN",
+    "symbol": "NSC",
     "date": "2026-10-09",
-    "close": 328.17,
-    "ma50": 318.7306,
-    "above": true
-  },
-  {
-    "symbol": "NTRS",
-    "date": "2026-10-09",
-    "close": 168.21,
-    "ma50": 181.219,
+    "close": 317.79,
+    "ma50": 328.8116,
     "above": false
   },
   {
@@ -2380,24 +2373,31 @@
     "above": false
   },
   {
-    "symbol": "NUE",
+    "symbol": "NDSN",
     "date": "2026-10-09",
-    "close": 250.33,
-    "ma50": 255.2308,
+    "close": 328.17,
+    "ma50": 318.7306,
+    "above": true
+  },
+  {
+    "symbol": "NVDA",
+    "date": "2026-10-09",
+    "close": 229.28,
+    "ma50": 222.0774,
+    "above": true
+  },
+  {
+    "symbol": "ODFL",
+    "date": "2026-10-09",
+    "close": 181.97,
+    "ma50": 192.0842,
     "above": false
   },
   {
-    "symbol": "PCAR",
+    "symbol": "ORCL",
     "date": "2026-10-09",
-    "close": 108.04,
-    "ma50": 122.11,
-    "above": false
-  },
-  {
-    "symbol": "PKG",
-    "date": "2026-10-09",
-    "close": 230.51,
-    "ma50": 240.7314,
+    "close": 141.4,
+    "ma50": 145.74699999999999,
     "above": false
   },
   {
@@ -2408,10 +2408,17 @@
     "above": false
   },
   {
-    "symbol": "NVR",
+    "symbol": "NUE",
     "date": "2026-10-09",
-    "close": 5899.16,
-    "ma50": 6243.4816,
+    "close": 250.33,
+    "ma50": 255.2308,
+    "above": false
+  },
+  {
+    "symbol": "PYPL",
+    "date": "2026-10-09",
+    "close": 55.53,
+    "ma50": 56.2669,
     "above": false
   },
   {
@@ -2422,52 +2429,38 @@
     "above": true
   },
   {
-    "symbol": "ON",
+    "symbol": "NVR",
     "date": "2026-10-09",
-    "close": 77.53,
-    "ma50": 76.4222,
-    "above": true
-  },
-  {
-    "symbol": "ORCL",
-    "date": "2026-10-09",
-    "close": 141.4,
-    "ma50": 145.74699999999999,
+    "close": 5899.16,
+    "ma50": 6243.4816,
     "above": false
   },
   {
-    "symbol": "NVDA",
+    "symbol": "PH",
     "date": "2026-10-09",
-    "close": 229.28,
-    "ma50": 222.0774,
-    "above": true
-  },
-  {
-    "symbol": "PLTR",
-    "date": "2026-10-09",
-    "close": 209.05,
-    "ma50": 176.9796,
-    "above": true
-  },
-  {
-    "symbol": "OMC",
-    "date": "2026-10-09",
-    "close": 76.48,
-    "ma50": 81.1894,
+    "close": 962.56,
+    "ma50": 987.0776,
     "above": false
   },
   {
-    "symbol": "NRG",
+    "symbol": "OTIS",
     "date": "2026-10-09",
-    "close": 107.97,
-    "ma50": 111.4156,
+    "close": 65.95,
+    "ma50": 69.7388,
     "above": false
   },
   {
-    "symbol": "ODFL",
+    "symbol": "PCAR",
     "date": "2026-10-09",
-    "close": 181.97,
-    "ma50": 192.0842,
+    "close": 108.04,
+    "ma50": 122.11,
+    "above": false
+  },
+  {
+    "symbol": "PAYX",
+    "date": "2026-10-09",
+    "close": 103.98,
+    "ma50": 115.5384,
     "above": false
   },
   {
@@ -2475,6 +2468,20 @@
     "date": "2026-10-09",
     "close": 418.78,
     "ma50": 370.8524,
+    "above": true
+  },
+  {
+    "symbol": "PKG",
+    "date": "2026-10-09",
+    "close": 230.51,
+    "ma50": 240.7314,
+    "above": false
+  },
+  {
+    "symbol": "PLTR",
+    "date": "2026-10-09",
+    "close": 209.05,
+    "ma50": 176.9796,
     "above": true
   },
   {
@@ -2492,45 +2499,24 @@
     "above": false
   },
   {
-    "symbol": "OTIS",
+    "symbol": "NRG",
     "date": "2026-10-09",
-    "close": 65.95,
-    "ma50": 69.7388,
+    "close": 107.97,
+    "ma50": 111.4156,
     "above": false
   },
   {
-    "symbol": "PAYX",
+    "symbol": "OMC",
     "date": "2026-10-09",
-    "close": 103.98,
-    "ma50": 115.5384,
+    "close": 76.48,
+    "ma50": 81.1894,
     "above": false
   },
   {
-    "symbol": "PYPL",
+    "symbol": "ON",
     "date": "2026-10-09",
-    "close": 55.53,
-    "ma50": 56.2669,
-    "above": false
-  },
-  {
-    "symbol": "PH",
-    "date": "2026-10-09",
-    "close": 962.56,
-    "ma50": 987.0776,
-    "above": false
-  },
-  {
-    "symbol": "PLD",
-    "date": "2026-10-09",
-    "close": 129.49,
-    "ma50": 136.8734,
-    "above": false
-  },
-  {
-    "symbol": "PM",
-    "date": "2026-10-09",
-    "close": 201.19,
-    "ma50": 189.8834,
+    "close": 77.53,
+    "ma50": 76.4222,
     "above": true
   },
   {
@@ -2541,17 +2527,10 @@
     "above": false
   },
   {
-    "symbol": "PGR",
+    "symbol": "PCG",
     "date": "2026-10-09",
-    "close": 217.43,
-    "ma50": 214.2118,
-    "above": true
-  },
-  {
-    "symbol": "PPG",
-    "date": "2026-10-09",
-    "close": 103.96,
-    "ma50": 110.0968,
+    "close": 13.13,
+    "ma50": 14.975,
     "above": false
   },
   {
@@ -2562,66 +2541,17 @@
     "above": false
   },
   {
-    "symbol": "PEP",
+    "symbol": "PM",
     "date": "2026-10-09",
-    "close": 125.97,
-    "ma50": 135.515,
-    "above": false
-  },
-  {
-    "symbol": "PG",
-    "date": "2026-10-09",
-    "close": 151.23,
-    "ma50": 145.9144,
+    "close": 201.19,
+    "ma50": 189.8834,
     "above": true
   },
   {
-    "symbol": "PRU",
+    "symbol": "PPG",
     "date": "2026-10-09",
-    "close": 113.09,
-    "ma50": 119.1996,
-    "above": false
-  },
-  {
-    "symbol": "PSX",
-    "date": "2026-10-09",
-    "close": 278.18,
-    "ma50": 247.3058,
-    "above": true
-  },
-  {
-    "symbol": "PCG",
-    "date": "2026-10-09",
-    "close": 13.13,
-    "ma50": 14.975,
-    "above": false
-  },
-  {
-    "symbol": "PFG",
-    "date": "2026-10-09",
-    "close": 107.24,
-    "ma50": 113.4288,
-    "above": false
-  },
-  {
-    "symbol": "PEG",
-    "date": "2026-10-09",
-    "close": 72.28,
-    "ma50": 72.3936,
-    "above": false
-  },
-  {
-    "symbol": "PPL",
-    "date": "2026-10-09",
-    "close": 34.25,
-    "ma50": 34.226,
-    "above": true
-  },
-  {
-    "symbol": "PNC",
-    "date": "2026-10-09",
-    "close": 219.21,
-    "ma50": 239.005,
+    "close": 103.96,
+    "ma50": 110.0968,
     "above": false
   },
   {
@@ -2639,6 +2569,83 @@
     "above": true
   },
   {
+    "symbol": "PPL",
+    "date": "2026-10-09",
+    "close": 34.25,
+    "ma50": 34.226,
+    "above": true
+  },
+  {
+    "symbol": "PTC",
+    "date": "2026-10-09",
+    "close": 194.45,
+    "ma50": 148.8102,
+    "above": true
+  },
+  {
+    "symbol": "PNC",
+    "date": "2026-10-09",
+    "close": 219.21,
+    "ma50": 239.005,
+    "above": false
+  },
+  {
+    "symbol": "PGR",
+    "date": "2026-10-09",
+    "close": 217.43,
+    "ma50": 214.2118,
+    "above": true
+  },
+  {
+    "symbol": "PFG",
+    "date": "2026-10-09",
+    "close": 107.24,
+    "ma50": 113.4288,
+    "above": false
+  },
+  {
+    "symbol": "PEG",
+    "date": "2026-10-09",
+    "close": 72.28,
+    "ma50": 72.3936,
+    "above": false
+  },
+  {
+    "symbol": "PEP",
+    "date": "2026-10-09",
+    "close": 125.97,
+    "ma50": 135.515,
+    "above": false
+  },
+  {
+    "symbol": "PLD",
+    "date": "2026-10-09",
+    "close": 129.49,
+    "ma50": 136.8734,
+    "above": false
+  },
+  {
+    "symbol": "PRU",
+    "date": "2026-10-09",
+    "close": 113.09,
+    "ma50": 119.1996,
+    "above": false
+  },
+  {
+    "symbol": "PSX",
+    "date": "2026-10-09",
+    "close": 278.18,
+    "ma50": 247.3058,
+    "above": true
+  },
+  {
+    "symbol": "PG",
+    "date": "2026-10-09",
+    "close": 151.23,
+    "ma50": 145.9144,
+    "above": true
+  },
+  {
     "symbol": "PWR",
     "date": "2026-10-09",
     "close": 705.94,
@@ -2653,10 +2660,17 @@
     "above": false
   },
   {
-    "symbol": "PTC",
+    "symbol": "O",
     "date": "2026-10-09",
-    "close": 194.45,
-    "ma50": 148.8102,
+    "close": 54.18,
+    "ma50": 59.472,
+    "above": false
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2026-10-09",
+    "close": 175.5,
+    "ma50": 173.112,
     "above": true
   },
   {
@@ -2667,11 +2681,11 @@
     "above": false
   },
   {
-    "symbol": "ROK",
+    "symbol": "RSG",
     "date": "2026-10-09",
-    "close": 432.59,
-    "ma50": 435.4948,
-    "above": false
+    "close": 216.88,
+    "ma50": 216.7312,
+    "above": true
   },
   {
     "symbol": "REGN",
@@ -2681,11 +2695,11 @@
     "above": false
   },
   {
-    "symbol": "RSG",
+    "symbol": "RTX",
     "date": "2026-10-09",
-    "close": 216.88,
-    "ma50": 216.7312,
-    "above": true
+    "close": 185.97,
+    "ma50": 203.3028,
+    "above": false
   },
   {
     "symbol": "RL",
@@ -2702,87 +2716,10 @@
     "above": false
   },
   {
-    "symbol": "O",
-    "date": "2026-10-09",
-    "close": 54.18,
-    "ma50": 59.472,
-    "above": false
-  },
-  {
-    "symbol": "RF",
-    "date": "2026-10-09",
-    "close": 27.03,
-    "ma50": 29.5702,
-    "above": false
-  },
-  {
-    "symbol": "RTX",
-    "date": "2026-10-09",
-    "close": 185.97,
-    "ma50": 203.3028,
-    "above": false
-  },
-  {
-    "symbol": "RCL",
-    "date": "2026-10-09",
-    "close": 282.26,
-    "ma50": 278.9516,
-    "above": true
-  },
-  {
-    "symbol": "QCOM",
-    "date": "2026-10-09",
-    "close": 175.5,
-    "ma50": 173.112,
-    "above": true
-  },
-  {
-    "symbol": "HOOD",
-    "date": "2026-10-09",
-    "close": 109.02,
-    "ma50": 107.2336,
-    "above": true
-  },
-  {
-    "symbol": "Q",
-    "date": "2026-10-09",
-    "close": 126.6,
-    "ma50": 127.552,
-    "above": false
-  },
-  {
-    "symbol": "RVTY",
-    "date": "2026-10-09",
-    "close": 154.18,
-    "ma50": 132.0892,
-    "above": true
-  },
-  {
-    "symbol": "ROST",
-    "date": "2026-10-09",
-    "close": 222.41,
-    "ma50": 235.4856,
-    "above": false
-  },
-  {
     "symbol": "REG",
     "date": "2026-10-09",
     "close": 72.05,
     "ma50": 74.9464,
-    "above": false
-  },
-  {
-    "symbol": "RMD",
-    "date": "2026-10-09",
-    "close": 230.05,
-    "ma50": 225.187,
-    "above": true
-  },
-  {
-    "symbol": "ROL",
-    "date": "2026-10-09",
-    "close": 31.98,
-    "ma50": 34.508,
     "above": false
   },
   {
@@ -2793,6 +2730,41 @@
     "above": true
   },
   {
+    "symbol": "HOOD",
+    "date": "2026-10-09",
+    "close": 109.02,
+    "ma50": 107.2336,
+    "above": true
+  },
+  {
+    "symbol": "RVTY",
+    "date": "2026-10-09",
+    "close": 154.18,
+    "ma50": 132.0892,
+    "above": true
+  },
+  {
+    "symbol": "RCL",
+    "date": "2026-10-09",
+    "close": 282.26,
+    "ma50": 278.9516,
+    "above": true
+  },
+  {
+    "symbol": "Q",
+    "date": "2026-10-09",
+    "close": 126.6,
+    "ma50": 127.552,
+    "above": false
+  },
+  {
+    "symbol": "ROST",
+    "date": "2026-10-09",
+    "close": 222.41,
+    "ma50": 235.4856,
+    "above": false
+  },
+  {
     "symbol": "ROP",
     "date": "2026-10-09",
     "close": 364.09,
@@ -2800,66 +2772,31 @@
     "above": false
   },
   {
-    "symbol": "SNDK",
+    "symbol": "RMD",
     "date": "2026-10-09",
-    "close": 1581.82,
-    "ma50": 1582.4995,
-    "above": false
-  },
-  {
-    "symbol": "CRM",
-    "date": "2026-10-09",
-    "close": 229.13,
-    "ma50": 225.03,
+    "close": 230.05,
+    "ma50": 225.187,
     "above": true
   },
   {
-    "symbol": "SO",
+    "symbol": "RF",
     "date": "2026-10-09",
-    "close": 86.17,
-    "ma50": 88.251,
+    "close": 27.03,
+    "ma50": 29.5702,
     "above": false
   },
   {
-    "symbol": "SPGI",
+    "symbol": "ROK",
     "date": "2026-10-09",
-    "close": 407.82,
-    "ma50": 414.5028,
+    "close": 432.59,
+    "ma50": 435.4948,
     "above": false
   },
   {
-    "symbol": "SBAC",
+    "symbol": "ROL",
     "date": "2026-10-09",
-    "close": 182.49,
-    "ma50": 179.258,
-    "above": true
-  },
-  {
-    "symbol": "SOLV",
-    "date": "2026-10-09",
-    "close": 87.29,
-    "ma50": 88.418,
-    "above": false
-  },
-  {
-    "symbol": "LUV",
-    "date": "2026-10-09",
-    "close": 41.66,
-    "ma50": 41.8674,
-    "above": false
-  },
-  {
-    "symbol": "SKYD",
-    "date": "2026-10-09",
-    "close": 9.16,
-    "ma50": 10.032,
-    "above": false
-  },
-  {
-    "symbol": "SNA",
-    "date": "2026-10-09",
-    "close": 360.37,
-    "ma50": 385.3928,
+    "close": 31.98,
+    "ma50": 34.508,
     "above": false
   },
   {
@@ -2870,31 +2807,17 @@
     "above": false
   },
   {
-    "symbol": "NOW",
+    "symbol": "SBAC",
     "date": "2026-10-09",
-    "close": 140.86,
-    "ma50": 132.2242,
+    "close": 182.49,
+    "ma50": 179.258,
     "above": true
   },
   {
-    "symbol": "STX",
+    "symbol": "SRE",
     "date": "2026-10-09",
-    "close": 783.0,
-    "ma50": 855.2366,
-    "above": false
-  },
-  {
-    "symbol": "SLB",
-    "date": "2026-10-09",
-    "close": 48.95,
-    "ma50": 52.8038,
-    "above": false
-  },
-  {
-    "symbol": "SHW",
-    "date": "2026-10-09",
-    "close": 319.36,
-    "ma50": 337.1484,
+    "close": 81.34,
+    "ma50": 82.949,
     "above": false
   },
   {
@@ -2905,10 +2828,66 @@
     "above": false
   },
   {
-    "symbol": "SRE",
+    "symbol": "SLB",
     "date": "2026-10-09",
-    "close": 81.34,
-    "ma50": 82.949,
+    "close": 48.95,
+    "ma50": 52.8038,
+    "above": false
+  },
+  {
+    "symbol": "SKYD",
+    "date": "2026-10-09",
+    "close": 9.16,
+    "ma50": 10.032,
+    "above": false
+  },
+  {
+    "symbol": "LUV",
+    "date": "2026-10-09",
+    "close": 41.66,
+    "ma50": 41.8674,
+    "above": false
+  },
+  {
+    "symbol": "SO",
+    "date": "2026-10-09",
+    "close": 86.17,
+    "ma50": 88.251,
+    "above": false
+  },
+  {
+    "symbol": "SNA",
+    "date": "2026-10-09",
+    "close": 360.37,
+    "ma50": 385.3928,
+    "above": false
+  },
+  {
+    "symbol": "SPGI",
+    "date": "2026-10-09",
+    "close": 407.82,
+    "ma50": 414.5028,
+    "above": false
+  },
+  {
+    "symbol": "CRM",
+    "date": "2026-10-09",
+    "close": 229.13,
+    "ma50": 225.03,
+    "above": true
+  },
+  {
+    "symbol": "STX",
+    "date": "2026-10-09",
+    "close": 783.0,
+    "ma50": 855.2366,
+    "above": false
+  },
+  {
+    "symbol": "SHW",
+    "date": "2026-10-09",
+    "close": 319.36,
+    "ma50": 337.1484,
     "above": false
   },
   {
@@ -2919,18 +2898,25 @@
     "above": false
   },
   {
+    "symbol": "SNDK",
+    "date": "2026-10-09",
+    "close": 1581.82,
+    "ma50": 1582.4995,
+    "above": false
+  },
+  {
+    "symbol": "NOW",
+    "date": "2026-10-09",
+    "close": 140.86,
+    "ma50": 132.2242,
+    "above": true
+  },
+  {
     "symbol": "SWKS",
     "date": "2026-10-09",
     "close": 76.35,
     "ma50": 76.1342,
     "above": true
-  },
-  {
-    "symbol": "SBUX",
-    "date": "2026-10-09",
-    "close": 90.75,
-    "ma50": 101.262,
-    "above": false
   },
   {
     "symbol": "SWK",
@@ -2940,38 +2926,38 @@
     "above": false
   },
   {
-    "symbol": "SYK",
+    "symbol": "SOLV",
     "date": "2026-10-09",
-    "close": 277.33,
-    "ma50": 304.7986,
+    "close": 87.29,
+    "ma50": 88.418,
     "above": false
   },
   {
-    "symbol": "STE",
+    "symbol": "SBUX",
     "date": "2026-10-09",
-    "close": 214.4,
-    "ma50": 222.495,
+    "close": 90.75,
+    "ma50": 101.262,
     "above": false
   },
   {
-    "symbol": "TSLA",
+    "symbol": "STLD",
     "date": "2026-10-09",
-    "close": 382.7,
-    "ma50": 354.745,
+    "close": 238.38,
+    "ma50": 241.3552,
+    "above": false
+  },
+  {
+    "symbol": "SNPS",
+    "date": "2026-10-09",
+    "close": 509.99,
+    "ma50": 419.8424,
     "above": true
   },
   {
-    "symbol": "SMCI",
+    "symbol": "TROW",
     "date": "2026-10-09",
-    "close": 41.855,
-    "ma50": 38.0047,
-    "above": true
-  },
-  {
-    "symbol": "TPR",
-    "date": "2026-10-09",
-    "close": 116.24,
-    "ma50": 127.251,
+    "close": 105.16,
+    "ma50": 108.6038,
     "above": false
   },
   {
@@ -2982,10 +2968,10 @@
     "above": false
   },
   {
-    "symbol": "TMUS",
+    "symbol": "SYK",
     "date": "2026-10-09",
-    "close": 148.58,
-    "ma50": 174.8462,
+    "close": 277.33,
+    "ma50": 304.7986,
     "above": false
   },
   {
@@ -3003,11 +2989,11 @@
     "above": false
   },
   {
-    "symbol": "SNPS",
+    "symbol": "SYY",
     "date": "2026-10-09",
-    "close": 509.99,
-    "ma50": 419.8424,
-    "above": true
+    "close": 78.14,
+    "ma50": 81.0956,
+    "above": false
   },
   {
     "symbol": "TPL",
@@ -3017,25 +3003,18 @@
     "above": true
   },
   {
-    "symbol": "TTWO",
+    "symbol": "TSLA",
     "date": "2026-10-09",
-    "close": 213.44,
-    "ma50": 222.5214,
-    "above": false
-  },
-  {
-    "symbol": "STLD",
-    "date": "2026-10-09",
-    "close": 238.38,
-    "ma50": 241.3552,
-    "above": false
-  },
-  {
-    "symbol": "TRGP",
-    "date": "2026-10-09",
-    "close": 286.7,
-    "ma50": 283.0378,
+    "close": 382.7,
+    "ma50": 354.745,
     "above": true
+  },
+  {
+    "symbol": "STE",
+    "date": "2026-10-09",
+    "close": 214.4,
+    "ma50": 222.495,
+    "above": false
   },
   {
     "symbol": "TEL",
@@ -3045,24 +3024,24 @@
     "above": true
   },
   {
-    "symbol": "TXN",
+    "symbol": "TPR",
     "date": "2026-10-09",
-    "close": 283.74,
-    "ma50": 271.8782,
-    "above": true
-  },
-  {
-    "symbol": "TROW",
-    "date": "2026-10-09",
-    "close": 105.16,
-    "ma50": 108.6038,
+    "close": 116.24,
+    "ma50": 127.251,
     "above": false
   },
   {
-    "symbol": "TER",
+    "symbol": "SMCI",
     "date": "2026-10-09",
-    "close": 402.68,
-    "ma50": 382.8862,
+    "close": 41.855,
+    "ma50": 38.0047,
+    "above": true
+  },
+  {
+    "symbol": "TRGP",
+    "date": "2026-10-09",
+    "close": 286.7,
+    "ma50": 283.0378,
     "above": true
   },
   {
@@ -3073,59 +3052,31 @@
     "above": false
   },
   {
-    "symbol": "SYY",
+    "symbol": "TTWO",
     "date": "2026-10-09",
-    "close": 78.14,
-    "ma50": 81.0956,
+    "close": 213.44,
+    "ma50": 222.5214,
     "above": false
   },
   {
-    "symbol": "TSN",
+    "symbol": "TXN",
     "date": "2026-10-09",
-    "close": 53.43,
-    "ma50": 54.6732,
-    "above": false
-  },
-  {
-    "symbol": "TDG",
-    "date": "2026-10-09",
-    "close": 1107.99,
-    "ma50": 1162.0554,
-    "above": false
-  },
-  {
-    "symbol": "TMO",
-    "date": "2026-10-09",
-    "close": 658.02,
-    "ma50": 626.4082,
+    "close": 283.74,
+    "ma50": 271.8782,
     "above": true
   },
   {
-    "symbol": "TWLO",
+    "symbol": "TER",
     "date": "2026-10-09",
-    "close": 289.47,
-    "ma50": 246.3856,
+    "close": 402.68,
+    "ma50": 382.8862,
     "above": true
   },
   {
-    "symbol": "TYL",
+    "symbol": "TMUS",
     "date": "2026-10-09",
-    "close": 329.55,
-    "ma50": 337.1128,
-    "above": false
-  },
-  {
-    "symbol": "UNP",
-    "date": "2026-10-09",
-    "close": 278.34,
-    "ma50": 288.6016,
-    "above": false
-  },
-  {
-    "symbol": "UBER",
-    "date": "2026-10-09",
-    "close": 71.51,
-    "ma50": 73.08,
+    "close": 148.58,
+    "ma50": 174.8462,
     "above": false
   },
   {
@@ -3136,17 +3087,45 @@
     "above": false
   },
   {
-    "symbol": "UPS",
+    "symbol": "TT",
     "date": "2026-10-09",
-    "close": 94.57,
-    "ma50": 100.4258,
+    "close": 476.98,
+    "ma50": 455.2198,
+    "above": true
+  },
+  {
+    "symbol": "UAL",
+    "date": "2026-10-09",
+    "close": 107.455,
+    "ma50": 114.6829,
     "above": false
   },
   {
-    "symbol": "TXT",
+    "symbol": "TSN",
     "date": "2026-10-09",
-    "close": 74.16,
-    "ma50": 81.5026,
+    "close": 53.43,
+    "ma50": 54.6732,
+    "above": false
+  },
+  {
+    "symbol": "TFC",
+    "date": "2026-10-09",
+    "close": 46.11,
+    "ma50": 49.7732,
+    "above": false
+  },
+  {
+    "symbol": "UBER",
+    "date": "2026-10-09",
+    "close": 71.51,
+    "ma50": 73.08,
+    "above": false
+  },
+  {
+    "symbol": "TJX",
+    "date": "2026-10-09",
+    "close": 138.76,
+    "ma50": 138.9094,
     "above": false
   },
   {
@@ -3157,52 +3136,17 @@
     "above": true
   },
   {
-    "symbol": "TJX",
+    "symbol": "TDG",
     "date": "2026-10-09",
-    "close": 138.76,
-    "ma50": 138.9094,
+    "close": 1107.99,
+    "ma50": 1162.0554,
     "above": false
   },
   {
-    "symbol": "TKO",
+    "symbol": "UPS",
     "date": "2026-10-09",
-    "close": 178.01,
-    "ma50": 187.5802,
-    "above": false
-  },
-  {
-    "symbol": "TT",
-    "date": "2026-10-09",
-    "close": 476.98,
-    "ma50": 455.2198,
-    "above": true
-  },
-  {
-    "symbol": "TFC",
-    "date": "2026-10-09",
-    "close": 46.11,
-    "ma50": 49.7732,
-    "above": false
-  },
-  {
-    "symbol": "UDR",
-    "date": "2026-10-09",
-    "close": 34.12,
-    "ma50": 35.9692,
-    "above": false
-  },
-  {
-    "symbol": "USB",
-    "date": "2026-10-09",
-    "close": 57.08,
-    "ma50": 61.4754,
-    "above": false
-  },
-  {
-    "symbol": "UAL",
-    "date": "2026-10-09",
-    "close": 107.455,
-    "ma50": 114.6829,
+    "close": 94.57,
+    "ma50": 100.4258,
     "above": false
   },
   {
@@ -3213,6 +3157,62 @@
     "above": true
   },
   {
+    "symbol": "UNP",
+    "date": "2026-10-09",
+    "close": 278.34,
+    "ma50": 288.6016,
+    "above": false
+  },
+  {
+    "symbol": "TMO",
+    "date": "2026-10-09",
+    "close": 658.02,
+    "ma50": 626.4082,
+    "above": true
+  },
+  {
+    "symbol": "TKO",
+    "date": "2026-10-09",
+    "close": 178.01,
+    "ma50": 187.5802,
+    "above": false
+  },
+  {
+    "symbol": "TXT",
+    "date": "2026-10-09",
+    "close": 74.16,
+    "ma50": 81.5026,
+    "above": false
+  },
+  {
+    "symbol": "TWLO",
+    "date": "2026-10-09",
+    "close": 289.47,
+    "ma50": 246.3856,
+    "above": true
+  },
+  {
+    "symbol": "UDR",
+    "date": "2026-10-09",
+    "close": 34.12,
+    "ma50": 35.9692,
+    "above": false
+  },
+  {
+    "symbol": "TYL",
+    "date": "2026-10-09",
+    "close": 329.55,
+    "ma50": 337.1128,
+    "above": false
+  },
+  {
+    "symbol": "USB",
+    "date": "2026-10-09",
+    "close": 57.08,
+    "ma50": 61.4754,
+    "above": false
+  },
+  {
     "symbol": "ULTA",
     "date": "2026-10-09",
     "close": 570.37,
@@ -3220,32 +3220,18 @@
     "above": true
   },
   {
-    "symbol": "VLTO",
+    "symbol": "VTR",
     "date": "2026-10-09",
-    "close": 96.93,
-    "ma50": 96.6346,
-    "above": true
+    "close": 82.04,
+    "ma50": 89.078,
+    "above": false
   },
   {
-    "symbol": "VST",
+    "symbol": "URI",
     "date": "2026-10-09",
-    "close": 161.48,
-    "ma50": 143.8966,
-    "above": true
-  },
-  {
-    "symbol": "V",
-    "date": "2026-10-09",
-    "close": 385.45,
-    "ma50": 369.73,
-    "above": true
-  },
-  {
-    "symbol": "VRSN",
-    "date": "2026-10-09",
-    "close": 303.74,
-    "ma50": 290.6366,
-    "above": true
+    "close": 1056.37,
+    "ma50": 1061.1638,
+    "above": false
   },
   {
     "symbol": "VEEV",
@@ -3262,31 +3248,10 @@
     "above": true
   },
   {
-    "symbol": "URI",
+    "symbol": "VTRS",
     "date": "2026-10-09",
-    "close": 1056.37,
-    "ma50": 1061.1638,
-    "above": false
-  },
-  {
-    "symbol": "UNH",
-    "date": "2026-10-09",
-    "close": 379.3,
-    "ma50": 389.179,
-    "above": false
-  },
-  {
-    "symbol": "VTR",
-    "date": "2026-10-09",
-    "close": 82.04,
-    "ma50": 89.078,
-    "above": false
-  },
-  {
-    "symbol": "WRB",
-    "date": "2026-10-09",
-    "close": 71.91,
-    "ma50": 69.628,
+    "close": 17.64,
+    "ma50": 16.9326,
     "above": true
   },
   {
@@ -3297,10 +3262,10 @@
     "above": false
   },
   {
-    "symbol": "VLO",
+    "symbol": "WRB",
     "date": "2026-10-09",
-    "close": 433.75,
-    "ma50": 367.5016,
+    "close": 71.91,
+    "ma50": 69.628,
     "above": true
   },
   {
@@ -3311,10 +3276,45 @@
     "above": false
   },
   {
-    "symbol": "VRTX",
+    "symbol": "VLO",
     "date": "2026-10-09",
-    "close": 510.08,
-    "ma50": 520.4639999999999,
+    "close": 433.75,
+    "ma50": 367.5016,
+    "above": true
+  },
+  {
+    "symbol": "VRSN",
+    "date": "2026-10-09",
+    "close": 303.74,
+    "ma50": 290.6366,
+    "above": true
+  },
+  {
+    "symbol": "VRT",
+    "date": "2026-10-09",
+    "close": 242.78,
+    "ma50": 259.6012,
+    "above": false
+  },
+  {
+    "symbol": "VLTO",
+    "date": "2026-10-09",
+    "close": 96.93,
+    "ma50": 96.6346,
+    "above": true
+  },
+  {
+    "symbol": "VST",
+    "date": "2026-10-09",
+    "close": 161.48,
+    "ma50": 143.8966,
+    "above": true
+  },
+  {
+    "symbol": "UNH",
+    "date": "2026-10-09",
+    "close": 379.3,
+    "ma50": 389.179,
     "above": false
   },
   {
@@ -3325,10 +3325,24 @@
     "above": false
   },
   {
-    "symbol": "VTRS",
+    "symbol": "VMRK",
     "date": "2026-10-09",
-    "close": 17.64,
-    "ma50": 16.9326,
+    "close": 61.16,
+    "ma50": 64.2578,
+    "above": false
+  },
+  {
+    "symbol": "VRTX",
+    "date": "2026-10-09",
+    "close": 510.08,
+    "ma50": 520.4639999999999,
+    "above": false
+  },
+  {
+    "symbol": "V",
+    "date": "2026-10-09",
+    "close": 385.45,
+    "ma50": 369.73,
     "above": true
   },
   {
@@ -3339,24 +3353,10 @@
     "above": false
   },
   {
-    "symbol": "VMRK",
+    "symbol": "DIS",
     "date": "2026-10-09",
-    "close": 61.16,
-    "ma50": 64.2578,
-    "above": false
-  },
-  {
-    "symbol": "VRT",
-    "date": "2026-10-09",
-    "close": 242.78,
-    "ma50": 259.6012,
-    "above": false
-  },
-  {
-    "symbol": "WAT",
-    "date": "2026-10-09",
-    "close": 433.77,
-    "ma50": 415.9012,
+    "close": 108.05,
+    "ma50": 105.1456,
     "above": true
   },
   {
@@ -3367,17 +3367,10 @@
     "above": false
   },
   {
-    "symbol": "WEC",
+    "symbol": "GWW",
     "date": "2026-10-09",
-    "close": 103.74,
-    "ma50": 105.6352,
-    "above": false
-  },
-  {
-    "symbol": "WM",
-    "date": "2026-10-09",
-    "close": 208.83,
-    "ma50": 217.0986,
+    "close": 1289.79,
+    "ma50": 1292.3214,
     "above": false
   },
   {
@@ -3388,11 +3381,53 @@
     "above": true
   },
   {
+    "symbol": "WAT",
+    "date": "2026-10-09",
+    "close": 433.77,
+    "ma50": 415.9012,
+    "above": true
+  },
+  {
     "symbol": "WDC",
     "date": "2026-10-09",
     "close": 397.28,
     "ma50": 457.6056,
     "above": false
+  },
+  {
+    "symbol": "WM",
+    "date": "2026-10-09",
+    "close": 208.83,
+    "ma50": 217.0986,
+    "above": false
+  },
+  {
+    "symbol": "WELL",
+    "date": "2026-10-09",
+    "close": 225.47,
+    "ma50": 233.6396,
+    "above": false
+  },
+  {
+    "symbol": "WTW",
+    "date": "2026-10-09",
+    "close": 296.26,
+    "ma50": 321.4856,
+    "above": false
+  },
+  {
+    "symbol": "WY",
+    "date": "2026-10-09",
+    "close": 19.1,
+    "ma50": 22.5346,
+    "above": false
+  },
+  {
+    "symbol": "WMT",
+    "date": "2026-10-09",
+    "close": 111.35,
+    "ma50": 108.506,
+    "above": true
   },
   {
     "symbol": "WAB",
@@ -3402,13 +3437,6 @@
     "above": false
   },
   {
-    "symbol": "DIS",
-    "date": "2026-10-09",
-    "close": 108.05,
-    "ma50": 105.1456,
-    "above": true
-  },
-  {
     "symbol": "XEL",
     "date": "2026-10-09",
     "close": 73.775,
@@ -3416,10 +3444,10 @@
     "above": false
   },
   {
-    "symbol": "GWW",
+    "symbol": "WDAY",
     "date": "2026-10-09",
-    "close": 1289.79,
-    "ma50": 1292.3214,
+    "close": 186.59,
+    "ma50": 189.1966,
     "above": false
   },
   {
@@ -3437,13 +3465,6 @@
     "above": true
   },
   {
-    "symbol": "WTW",
-    "date": "2026-10-09",
-    "close": 296.26,
-    "ma50": 321.4856,
-    "above": false
-  },
-  {
     "symbol": "YUM",
     "date": "2026-10-09",
     "close": 144.82,
@@ -3451,31 +3472,10 @@
     "above": false
   },
   {
-    "symbol": "WMT",
+    "symbol": "WEC",
     "date": "2026-10-09",
-    "close": 111.35,
-    "ma50": 108.506,
-    "above": true
-  },
-  {
-    "symbol": "WELL",
-    "date": "2026-10-09",
-    "close": 225.47,
-    "ma50": 233.6396,
-    "above": false
-  },
-  {
-    "symbol": "WY",
-    "date": "2026-10-09",
-    "close": 19.1,
-    "ma50": 22.5346,
-    "above": false
-  },
-  {
-    "symbol": "WYNN",
-    "date": "2026-10-09",
-    "close": 75.15,
-    "ma50": 90.4286,
+    "close": 103.74,
+    "ma50": 105.6352,
     "above": false
   },
   {
@@ -3486,24 +3486,24 @@
     "above": false
   },
   {
-    "symbol": "WDAY",
+    "symbol": "WYNN",
     "date": "2026-10-09",
-    "close": 186.59,
-    "ma50": 189.1966,
+    "close": 75.15,
+    "ma50": 90.4286,
     "above": false
-  },
-  {
-    "symbol": "ZTS",
-    "date": "2026-10-09",
-    "close": 74.81,
-    "ma50": 73.9658,
-    "above": true
   },
   {
     "symbol": "ZBRA",
     "date": "2026-10-09",
     "close": 387.18,
     "ma50": 361.603,
+    "above": true
+  },
+  {
+    "symbol": "ZTS",
+    "date": "2026-10-09",
+    "close": 74.81,
+    "ma50": 73.9658,
     "above": true
   },
   {

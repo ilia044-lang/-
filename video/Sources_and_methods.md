@@ -1,7 +1,7 @@
 # Sources and methods
 
 Review: October 5–9, 2026. Data used: 2026-10-09. Outlook: October 12–16, 2026.
-Retrieved: 2026-10-09T20:33:59.095809+00:00.
+Retrieved: 2026-10-09T20:45:00.629453+00:00.
 
 Weekly equity returns: dated close / October 2 close minus 1. Bitcoin is a timestamped daily snapshot, not an equity closing print. Oil futures and foreign exchange use provider session conventions. Treasury yields are percentages, not bond prices. Moving averages: simple daily close averages. RSI/ATR: Wilder smoothing. CCI: 14-day typical-price mean deviation. Historical support/resistance references are not forecasts.
 
@@ -34,6 +34,11 @@ Background is AI-generated illustration. English narration is synthetic, not an 
 - 2026-10-09T07:05:55+00:00 | Investing.com | Bitcoin steadies above $82k, heads for weekly losses amid yield pressure | https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-82k-heads-weekly-070555111.html
 - 2026-10-08T17:14:15+00:00 | MT Newswires | Exchange-Traded Funds Drop as US Equities Fall After Midday | https://finance.yahoo.com/markets/articles/exchange-traded-funds-drop-us-171415436.html
 - 2026-10-07T16:33:50+00:00 | Investing.com | Iren shares fall as SemiAnalysis highlights data center reliability issues | https://finance.yahoo.com/markets/stocks/articles/iren-shares-fall-semianalysis-highlights-163350495.html
+- 2026-10-14 | Consumer Price Index | Yahoo economic calendar; schedule subject to change | https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US
+- 2026-10-15 | Producer Price Index | Yahoo economic calendar; schedule subject to change | https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US
+- 2026-10-15 | Retail sales | Yahoo economic calendar; schedule subject to change | https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US
+- 2026-10-15 | Initial jobless claims | Yahoo economic calendar; schedule subject to change | https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US
+- 2026-10-16 | Industrial production | Yahoo economic calendar; schedule subject to change | https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US
 - 2026-10-13 | GS | est. — Nasdaq calendar; issuer confirmation not independently checked | https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13
 - 2026-10-13 | JNJ | est. — Nasdaq calendar; issuer confirmation not independently checked | https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13
 - 2026-10-13 | JPM | est. — Nasdaq calendar; issuer confirmation not independently checked | https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13
@@ -50,7 +55,6 @@ Economic calendar 2026-10-13: HTTP Error 404: Not Found
 Economic calendar 2026-10-14: HTTP Error 404: Not Found
 Economic calendar 2026-10-15: HTTP Error 404: Not Found
 Economic calendar 2026-10-16: HTTP Error 404: Not Found
-Yahoo economic calendar: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
 Treasury official daily yields: HTTP Error 404: Not Found
 S5FI breadth: list index out of range
 S5FI global snapshot: list index out of range
