@@ -1,0 +1,69 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir Technologies",
+  "exchange": "NasdaqGS",
+  "date": "2026-10-08",
+  "analysis_date": "2026-10-09",
+  "last": {
+    "open": 199.0,
+    "high": 204.44000244140625,
+    "low": 195.64999389648438,
+    "close": 198.77999877929688,
+    "volume": 41802500.0,
+    "ma20": 184.90549850463867,
+    "ma50": 175.243798828125,
+    "ma150": 150.2890993754069,
+    "ma200": 152.2558246231079,
+    "rsi": 69.96564006677684,
+    "atr": 6.312593314723159,
+    "cci": 225.7552361941889,
+    "vol20": 22966410.0
+  },
+  "change": 4.660003662109375,
+  "change_pct": 2.400578909604967,
+  "above_count": 4,
+  "volume_ratio": 1.8201582223778117,
+  "anchor": 449,
+  "anchor_price": 117.88999938964844,
+  "anchor_date": "2026-07-28",
+  "advance_pct": 68.6148102539995,
+  "advance_dollars": 80.88999938964844,
+  "resistance": [
+    204.44
+  ],
+  "support": 187.63,
+  "trend": {
+    "a": 427,
+    "b": 449,
+    "ya": 106.37000274658203,
+    "yb": 117.88999938964844,
+    "rising": true
+  },
+  "gap": {
+    "low": 194.6999969482422,
+    "high": 195.64999389648438,
+    "index": 500,
+    "direction": "up"
+  },
+  "anatomy": {
+    "body": 0.220001220703125,
+    "range": 8.790008544921875,
+    "upper_wick": 5.44000244140625,
+    "lower_wick": 3.1300048828125,
+    "body_pct": 2.5028555954046614,
+    "close_position": 35.608667122636106
+  },
+  "price_source": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=2y&interval=1d",
+  "retrieved_utc": "2026-10-09T04:13:30.169535+00:00",
+  "news": {
+    "positive": {
+      "headline": "Palantir stock nears all-time high after Goldman Sachs upgrade highlights next phase of growth",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/article/palantir-stock-nears-all-time-high-after-goldman-sachs-upgrade-highlights-next-phase-of-growth-145244094.html",
+      "published": "2026-10-08T20:46:07+00:00"
+    },
+    "risk": null,
+    "limitation": "Reported headlines only; full articles not verified. Earnings date unverified.",
+    "source": "https://query1.finance.yahoo.com/v1/finance/search?q=PLTR&newsCount=100"
+  }
+}
