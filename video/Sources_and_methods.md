@@ -1,7 +1,7 @@
 # Sources and methods
 
 Review: October 5–9, 2026. Data used: 2026-10-08. Outlook: October 12–16, 2026.
-Retrieved: 2026-10-09T17:22:02.379065+00:00.
+Retrieved: 2026-10-09T17:29:59.532988+00:00.
 
 Weekly equity returns: dated close / October 2 close minus 1. Bitcoin is a timestamped daily snapshot, not an equity closing print. Oil futures and foreign exchange use provider session conventions. Treasury yields are percentages, not bond prices. Moving averages: simple daily close averages. RSI/ATR: Wilder smoothing. CCI: 14-day typical-price mean deviation. Historical support/resistance references are not forecasts.
 

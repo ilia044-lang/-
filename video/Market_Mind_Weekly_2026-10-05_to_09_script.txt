@@ -12,7 +12,7 @@ QQQ: CHECK THE LEADERSHIP
 Q Q Q closed at 747.58. Its fourteen day R S I reads 58.8. Support is referenced near 731.63, and resistance near 748.35. Compare its weekly change with the broad index before calling the move broad based. A strong technology index can coexist with weaker individual stocks.
 
 HOW MANY STOCKS JOINED IN?
-A verified final breadth reading was unavailable, so no percentage is invented. This measure asks how many index members are above their fifty day average. Meanwhile, VIX reads 15.41, 0.65 percent higher over the review week. VIX measures implied volatility, not the direction of the next move.
+Our independently calculated breadth proxy is 32.07 percent, covering 502 of 503 listed constituents. This is not the official S five F I print. This measure asks how many index members are above their fifty day average. Meanwhile, VIX reads 15.41, 0.65 percent higher over the review week. VIX measures implied volatility, not the direction of the next move.
 
 THE PRICE OF MONEY
 The ten year yield reads 5.231 percent and the thirty year 5.606 percent in the market feed. The twenty year official observation could not be verified for this edition. Yield changes and bond price changes are different things: rising yields generally mean falling bond prices. Higher long term yields can pressure equity valuations and financing costs.

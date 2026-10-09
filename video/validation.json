@@ -19,13 +19,13 @@
         1920,
         1080
       ],
-      "duration": 468.166667,
-      "audio_duration": 468.167,
+      "duration": 475.5,
+      "audio_duration": 475.5,
       "fps": 24,
-      "sha256": "4eb9f2ceeaefe757bae8cf9948d365ada08df2bd92edd311d40073ee96a794a3",
-      "bytes": 50634248,
+      "sha256": "9d78cd43877549bda657d46afcd0c11dfdf33b25e29aea4cd777a86bc2320c9c",
+      "bytes": 51799415,
       "motion_mean_absolute_difference": 4.688829933449074,
-      "caption_segments": 111
+      "caption_segments": 112
     },
     {
       "path": "Market_Mind_Short_1/Market_Mind_Short_1.mp4",
@@ -37,8 +37,8 @@
       "duration": 33.25,
       "audio_duration": 33.25,
       "fps": 24,
-      "sha256": "00101d3f5a216412c5d2460aaa1218c408e6a19da09e4e19319356e79169eebd",
-      "bytes": 1976526,
+      "sha256": "db7c71e218391bfab95a62380fae9bda37762fab404715601efb924c0a0ba399",
+      "bytes": 1974726,
       "motion_mean_absolute_difference": 5.321303891782407,
       "caption_segments": 8
     },
@@ -52,11 +52,11 @@
       "duration": 34.833333,
       "audio_duration": 34.833,
       "fps": 24,
-      "sha256": "7e4440014ee91a8b0aa0a01f2b8cdd89d35950c66a5d143dde379373ffa2342c",
-      "bytes": 3634454,
+      "sha256": "36ac18379355a2b71b9b6e276a18a443f7c1d5fb2c941a38e82763b6193c123a",
+      "bytes": 3634952,
       "motion_mean_absolute_difference": 5.317207392939815,
       "caption_segments": 8
     }
   ],
-  "completed_utc": "2026-10-09T17:28:00.151319+00:00"
+  "completed_utc": "2026-10-09T17:37:39.932676+00:00"
 }
