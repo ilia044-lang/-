@@ -1,0 +1,3516 @@
+[
+  {
+    "symbol": "ABT",
+    "date": "2026-10-08",
+    "close": 98.49,
+    "ma50": 106.2914,
+    "above": false
+  },
+  {
+    "symbol": "AKAM",
+    "date": "2026-10-08",
+    "close": 100.9,
+    "ma50": 111.3622,
+    "above": false
+  },
+  {
+    "symbol": "GOOGL",
+    "date": "2026-10-08",
+    "close": 348.29,
+    "ma50": 345.8908,
+    "above": true
+  },
+  {
+    "symbol": "ACN",
+    "date": "2026-10-08",
+    "close": 208.36,
+    "ma50": 183.184,
+    "above": true
+  },
+  {
+    "symbol": "A",
+    "date": "2026-10-08",
+    "close": 168.17,
+    "ma50": 154.9432,
+    "above": true
+  },
+  {
+    "symbol": "AMD",
+    "date": "2026-10-08",
+    "close": 620.68,
+    "ma50": 526.4668,
+    "above": true
+  },
+  {
+    "symbol": "MMM",
+    "date": "2026-10-08",
+    "close": 163.58,
+    "ma50": 172.1992,
+    "above": false
+  },
+  {
+    "symbol": "AFL",
+    "date": "2026-10-08",
+    "close": 114.94,
+    "ma50": 117.6596,
+    "above": false
+  },
+  {
+    "symbol": "ABNB",
+    "date": "2026-10-08",
+    "close": 163.23,
+    "ma50": 170.7604,
+    "above": false
+  },
+  {
+    "symbol": "ADBE",
+    "date": "2026-10-08",
+    "close": 241.05,
+    "ma50": 257.9914,
+    "above": false
+  },
+  {
+    "symbol": "AOS",
+    "date": "2026-10-08",
+    "close": 56.56,
+    "ma50": 59.6564,
+    "above": false
+  },
+  {
+    "symbol": "ABBV",
+    "date": "2026-10-08",
+    "close": 272.42,
+    "ma50": 258.5118,
+    "above": true
+  },
+  {
+    "symbol": "APD",
+    "date": "2026-10-08",
+    "close": 278.38,
+    "ma50": 294.5534,
+    "above": false
+  },
+  {
+    "symbol": "ALL",
+    "date": "2026-10-08",
+    "close": 230.63,
+    "ma50": 250.367,
+    "above": false
+  },
+  {
+    "symbol": "LNT",
+    "date": "2026-10-08",
+    "close": 65.5,
+    "ma50": 67.4334,
+    "above": false
+  },
+  {
+    "symbol": "ARE",
+    "date": "2026-10-08",
+    "close": 45.6,
+    "ma50": 50.4134,
+    "above": false
+  },
+  {
+    "symbol": "ALGN",
+    "date": "2026-10-08",
+    "close": 141.03,
+    "ma50": 157.6112,
+    "above": false
+  },
+  {
+    "symbol": "ALLE",
+    "date": "2026-10-08",
+    "close": 149.99,
+    "ma50": 157.7988,
+    "above": false
+  },
+  {
+    "symbol": "ALB",
+    "date": "2026-10-08",
+    "close": 102.1,
+    "ma50": 121.9892,
+    "above": false
+  },
+  {
+    "symbol": "AES",
+    "date": "2026-10-08",
+    "close": 14.93,
+    "ma50": 14.7902,
+    "above": true
+  },
+  {
+    "symbol": "AIG",
+    "date": "2026-10-08",
+    "close": 77.05,
+    "ma50": 76.2578,
+    "above": true
+  },
+  {
+    "symbol": "AEE",
+    "date": "2026-10-08",
+    "close": 101.84,
+    "ma50": 105.1726,
+    "above": false
+  },
+  {
+    "symbol": "AMCR",
+    "date": "2026-10-08",
+    "close": 41.88,
+    "ma50": 44.6714,
+    "above": false
+  },
+  {
+    "symbol": "AMAT",
+    "date": "2026-10-08",
+    "close": 509.57,
+    "ma50": 489.8374,
+    "above": true
+  },
+  {
+    "symbol": "APA",
+    "date": "2026-10-08",
+    "close": 45.47,
+    "ma50": 42.2734,
+    "above": true
+  },
+  {
+    "symbol": "GOOG",
+    "date": "2026-10-08",
+    "close": 344.86,
+    "ma50": 343.1072,
+    "above": true
+  },
+  {
+    "symbol": "AEP",
+    "date": "2026-10-08",
+    "close": 122.32,
+    "ma50": 122.93639999999999,
+    "above": false
+  },
+  {
+    "symbol": "ADI",
+    "date": "2026-10-08",
+    "close": 405.93,
+    "ma50": 379.3322,
+    "above": true
+  },
+  {
+    "symbol": "AMZN",
+    "date": "2026-10-08",
+    "close": 254.06,
+    "ma50": 258.557,
+    "above": false
+  },
+  {
+    "symbol": "AMGN",
+    "date": "2026-10-08",
+    "close": 407.44,
+    "ma50": 411.3434,
+    "above": false
+  },
+  {
+    "symbol": "AMT",
+    "date": "2026-10-08",
+    "close": 166.73,
+    "ma50": 172.4078,
+    "above": false
+  },
+  {
+    "symbol": "AXP",
+    "date": "2026-10-08",
+    "close": 308.1,
+    "ma50": 325.2786,
+    "above": false
+  },
+  {
+    "symbol": "AAPL",
+    "date": "2026-10-08",
+    "close": 340.42,
+    "ma50": 322.32439999999997,
+    "above": true
+  },
+  {
+    "symbol": "AME",
+    "date": "2026-10-08",
+    "close": 247.52,
+    "ma50": 244.6364,
+    "above": true
+  },
+  {
+    "symbol": "APH",
+    "date": "2026-10-08",
+    "close": 85.32,
+    "ma50": 82.1631,
+    "above": true
+  },
+  {
+    "symbol": "APO",
+    "date": "2026-10-08",
+    "close": 115.3,
+    "ma50": 128.1042,
+    "above": false
+  },
+  {
+    "symbol": "AMP",
+    "date": "2026-10-08",
+    "close": 499.08,
+    "ma50": 540.0206000000001,
+    "above": false
+  },
+  {
+    "symbol": "AWK",
+    "date": "2026-10-08",
+    "close": 128.18,
+    "ma50": 135.1284,
+    "above": false
+  },
+  {
+    "symbol": "AON",
+    "date": "2026-10-08",
+    "close": 277.12,
+    "ma50": 321.2496,
+    "above": false
+  },
+  {
+    "symbol": "MO",
+    "date": "2026-10-08",
+    "close": 71.42,
+    "ma50": 68.063,
+    "above": true
+  },
+  {
+    "symbol": "AXON",
+    "date": "2026-10-08",
+    "close": 417.31,
+    "ma50": 520.7314,
+    "above": false
+  },
+  {
+    "symbol": "ANET",
+    "date": "2026-10-08",
+    "close": 210.97,
+    "ma50": 196.9494,
+    "above": true
+  },
+  {
+    "symbol": "ADP",
+    "date": "2026-10-08",
+    "close": 270.73,
+    "ma50": 271.6424,
+    "above": false
+  },
+  {
+    "symbol": "AIZ",
+    "date": "2026-10-08",
+    "close": 272.86,
+    "ma50": 279.4298,
+    "above": false
+  },
+  {
+    "symbol": "ADSK",
+    "date": "2026-10-08",
+    "close": 233.6,
+    "ma50": 233.475,
+    "above": true
+  },
+  {
+    "symbol": "AZO",
+    "date": "2026-10-08",
+    "close": 2910.54,
+    "ma50": 2947.0438,
+    "above": false
+  },
+  {
+    "symbol": "APP",
+    "date": "2026-10-08",
+    "close": 280.12,
+    "ma50": 320.7094,
+    "above": false
+  },
+  {
+    "symbol": "ARES",
+    "date": "2026-10-08",
+    "close": 116.26,
+    "ma50": 132.4332,
+    "above": false
+  },
+  {
+    "symbol": "ATO",
+    "date": "2026-10-08",
+    "close": 160.66,
+    "ma50": 165.203,
+    "above": false
+  },
+  {
+    "symbol": "AJG",
+    "date": "2026-10-08",
+    "close": 234.05,
+    "ma50": 247.3782,
+    "above": false
+  },
+  {
+    "symbol": "BAX",
+    "date": "2026-10-08",
+    "close": 23.9,
+    "ma50": 25.2836,
+    "above": false
+  },
+  {
+    "symbol": "APTV",
+    "date": "2026-10-08",
+    "close": 44.21,
+    "ma50": 46.5858,
+    "above": false
+  },
+  {
+    "symbol": "BAC",
+    "date": "2026-10-08",
+    "close": 53.61,
+    "ma50": 60.2172,
+    "above": false
+  },
+  {
+    "symbol": "ADM",
+    "date": "2026-10-08",
+    "close": 82.45,
+    "ma50": 81.8,
+    "above": true
+  },
+  {
+    "symbol": "BKR",
+    "date": "2026-10-08",
+    "close": 56.3,
+    "ma50": 60.445,
+    "above": false
+  },
+  {
+    "symbol": "AVY",
+    "date": "2026-10-08",
+    "close": 167.62,
+    "ma50": 174.0802,
+    "above": false
+  },
+  {
+    "symbol": "BALL",
+    "date": "2026-10-08",
+    "close": 58.37,
+    "ma50": 61.1288,
+    "above": false
+  },
+  {
+    "symbol": "BDX",
+    "date": "2026-10-08",
+    "close": 182.75,
+    "ma50": 181.5708,
+    "above": true
+  },
+  {
+    "symbol": "T",
+    "date": "2026-10-08",
+    "close": 24.87,
+    "ma50": 24.9838,
+    "above": false
+  },
+  {
+    "symbol": "ACGL",
+    "date": "2026-10-08",
+    "close": 96.08,
+    "ma50": 97.4314,
+    "above": false
+  },
+  {
+    "symbol": "BNY",
+    "date": "2026-10-08",
+    "close": 143.61,
+    "ma50": 156.3876,
+    "above": false
+  },
+  {
+    "symbol": "XYZ",
+    "date": "2026-10-08",
+    "close": 75.23,
+    "ma50": 79.2712,
+    "above": false
+  },
+  {
+    "symbol": "BX",
+    "date": "2026-10-08",
+    "close": 112.68,
+    "ma50": 130.9172,
+    "above": false
+  },
+  {
+    "symbol": "BE",
+    "date": "2026-10-08",
+    "close": 272.82,
+    "ma50": 245.0134,
+    "above": true
+  },
+  {
+    "symbol": "AVGO",
+    "date": "2026-10-08",
+    "close": 360.14,
+    "ma50": 372.3946,
+    "above": false
+  },
+  {
+    "symbol": "BRK-B",
+    "date": "2026-10-08",
+    "close": 511.05,
+    "ma50": 507.6494,
+    "above": true
+  },
+  {
+    "symbol": "BA",
+    "date": "2026-10-08",
+    "close": 187.75,
+    "ma50": 210.368,
+    "above": false
+  },
+  {
+    "symbol": "BRO",
+    "date": "2026-10-08",
+    "close": 63.75,
+    "ma50": 67.8724,
+    "above": false
+  },
+  {
+    "symbol": "BBY",
+    "date": "2026-10-08",
+    "close": 88.4,
+    "ma50": 87.446,
+    "above": true
+  },
+  {
+    "symbol": "CHRW",
+    "date": "2026-10-08",
+    "close": 141.34,
+    "ma50": 148.3118,
+    "above": false
+  },
+  {
+    "symbol": "TECH",
+    "date": "2026-10-08",
+    "close": 72.45,
+    "ma50": 72.3248,
+    "above": true
+  },
+  {
+    "symbol": "BF-B",
+    "date": "2026-10-08",
+    "close": 26.54,
+    "ma50": 27.1304,
+    "above": false
+  },
+  {
+    "symbol": "BKNG",
+    "date": "2026-10-08",
+    "close": 159.97,
+    "ma50": 186.9314,
+    "above": false
+  },
+  {
+    "symbol": "BXP",
+    "date": "2026-10-08",
+    "close": 59.32,
+    "ma50": 65.9188,
+    "above": false
+  },
+  {
+    "symbol": "BIIB",
+    "date": "2026-10-08",
+    "close": 218.43,
+    "ma50": 216.6928,
+    "above": true
+  },
+  {
+    "symbol": "BSX",
+    "date": "2026-10-08",
+    "close": 42.04,
+    "ma50": 46.6466,
+    "above": false
+  },
+  {
+    "symbol": "BLK",
+    "date": "2026-10-08",
+    "close": 1065.35,
+    "ma50": 1109.3718,
+    "above": false
+  },
+  {
+    "symbol": "BG",
+    "date": "2026-10-08",
+    "close": 107.82,
+    "ma50": 113.0414,
+    "above": false
+  },
+  {
+    "symbol": "BR",
+    "date": "2026-10-08",
+    "close": 165.21,
+    "ma50": 168.9384,
+    "above": false
+  },
+  {
+    "symbol": "BMY",
+    "date": "2026-10-08",
+    "close": 59.58,
+    "ma50": 64.2332,
+    "above": false
+  },
+  {
+    "symbol": "CAH",
+    "date": "2026-10-08",
+    "close": 238.96,
+    "ma50": 233.0436,
+    "above": true
+  },
+  {
+    "symbol": "CDNS",
+    "date": "2026-10-08",
+    "close": 348.84,
+    "ma50": 320.108,
+    "above": true
+  },
+  {
+    "symbol": "CCL",
+    "date": "2026-10-08",
+    "close": 26.13,
+    "ma50": 25.1692,
+    "above": true
+  },
+  {
+    "symbol": "CDW",
+    "date": "2026-10-08",
+    "close": 139.88,
+    "ma50": 142.065,
+    "above": false
+  },
+  {
+    "symbol": "CPT",
+    "date": "2026-10-08",
+    "close": 96.76,
+    "ma50": 104.3934,
+    "above": false
+  },
+  {
+    "symbol": "CNC",
+    "date": "2026-10-08",
+    "close": 64.54,
+    "ma50": 64.8136,
+    "above": false
+  },
+  {
+    "symbol": "CBRE",
+    "date": "2026-10-08",
+    "close": 131.08,
+    "ma50": 142.80700000000002,
+    "above": false
+  },
+  {
+    "symbol": "CRL",
+    "date": "2026-10-08",
+    "close": 298.0,
+    "ma50": 281.8252,
+    "above": true
+  },
+  {
+    "symbol": "COF",
+    "date": "2026-10-08",
+    "close": 199.4,
+    "ma50": 210.1954,
+    "above": false
+  },
+  {
+    "symbol": "COR",
+    "date": "2026-10-08",
+    "close": 321.35,
+    "ma50": 317.9072,
+    "above": true
+  },
+  {
+    "symbol": "CVNA",
+    "date": "2026-10-08",
+    "close": 63.2,
+    "ma50": 68.67960000000001,
+    "above": false
+  },
+  {
+    "symbol": "CARR",
+    "date": "2026-10-08",
+    "close": 55.83,
+    "ma50": 58.719,
+    "above": false
+  },
+  {
+    "symbol": "CF",
+    "date": "2026-10-08",
+    "close": 113.58,
+    "ma50": 123.7186,
+    "above": false
+  },
+  {
+    "symbol": "CAT",
+    "date": "2026-10-08",
+    "close": 796.18,
+    "ma50": 822.1688,
+    "above": false
+  },
+  {
+    "symbol": "CBOE",
+    "date": "2026-10-08",
+    "close": 294.08,
+    "ma50": 286.736,
+    "above": true
+  },
+  {
+    "symbol": "SCHW",
+    "date": "2026-10-08",
+    "close": 96.87,
+    "ma50": 105.7362,
+    "above": false
+  },
+  {
+    "symbol": "CNP",
+    "date": "2026-10-08",
+    "close": 38.42,
+    "ma50": 39.236,
+    "above": false
+  },
+  {
+    "symbol": "CHTR",
+    "date": "2026-10-08",
+    "close": 109.67,
+    "ma50": 138.1164,
+    "above": false
+  },
+  {
+    "symbol": "CASY",
+    "date": "2026-10-08",
+    "close": 642.28,
+    "ma50": 726.9722,
+    "above": false
+  },
+  {
+    "symbol": "CVX",
+    "date": "2026-10-08",
+    "close": 211.55,
+    "ma50": 203.8784,
+    "above": true
+  },
+  {
+    "symbol": "CMG",
+    "date": "2026-10-08",
+    "close": 32.68,
+    "ma50": 34.5338,
+    "above": false
+  },
+  {
+    "symbol": "C",
+    "date": "2026-10-08",
+    "close": 128.08,
+    "ma50": 133.6832,
+    "above": false
+  },
+  {
+    "symbol": "CI",
+    "date": "2026-10-08",
+    "close": 281.03,
+    "ma50": 277.5078,
+    "above": true
+  },
+  {
+    "symbol": "COHR",
+    "date": "2026-10-08",
+    "close": 302.35,
+    "ma50": 302.8248,
+    "above": false
+  },
+  {
+    "symbol": "CFG",
+    "date": "2026-10-08",
+    "close": 64.09,
+    "ma50": 69.1822,
+    "above": false
+  },
+  {
+    "symbol": "CB",
+    "date": "2026-10-08",
+    "close": 343.78,
+    "ma50": 340.7806,
+    "above": true
+  },
+  {
+    "symbol": "CIEN",
+    "date": "2026-10-08",
+    "close": 425.93,
+    "ma50": 379.0956,
+    "above": true
+  },
+  {
+    "symbol": "CSCO",
+    "date": "2026-10-08",
+    "close": 114.89,
+    "ma50": 112.2212,
+    "above": true
+  },
+  {
+    "symbol": "KO",
+    "date": "2026-10-08",
+    "close": 87.77,
+    "ma50": 87.9902,
+    "above": false
+  },
+  {
+    "symbol": "CINF",
+    "date": "2026-10-08",
+    "close": 165.25,
+    "ma50": 169.6686,
+    "above": false
+  },
+  {
+    "symbol": "CTAS",
+    "date": "2026-10-08",
+    "close": 201.12,
+    "ma50": 200.5108,
+    "above": true
+  },
+  {
+    "symbol": "CME",
+    "date": "2026-10-08",
+    "close": 276.44,
+    "ma50": 271.5288,
+    "above": true
+  },
+  {
+    "symbol": "CL",
+    "date": "2026-10-08",
+    "close": 88.1,
+    "ma50": 89.2322,
+    "above": false
+  },
+  {
+    "symbol": "CHD",
+    "date": "2026-10-08",
+    "close": 97.73,
+    "ma50": 98.2542,
+    "above": false
+  },
+  {
+    "symbol": "COIN",
+    "date": "2026-10-08",
+    "close": 172.0,
+    "ma50": 174.2492,
+    "above": false
+  },
+  {
+    "symbol": "CLX",
+    "date": "2026-10-08",
+    "close": 83.44,
+    "ma50": 94.3926,
+    "above": false
+  },
+  {
+    "symbol": "FIX",
+    "date": "2026-10-08",
+    "close": 1706.39,
+    "ma50": 1664.2484,
+    "above": true
+  },
+  {
+    "symbol": "CMCSA",
+    "date": "2026-10-08",
+    "close": 21.21,
+    "ma50": 24.4788,
+    "above": false
+  },
+  {
+    "symbol": "CMS",
+    "date": "2026-10-08",
+    "close": 65.34,
+    "ma50": 67.6606,
+    "above": false
+  },
+  {
+    "symbol": "CTSH",
+    "date": "2026-10-08",
+    "close": 60.01,
+    "ma50": 59.5534,
+    "above": true
+  },
+  {
+    "symbol": "CEG",
+    "date": "2026-10-08",
+    "close": 285.07,
+    "ma50": 273.2857,
+    "above": true
+  },
+  {
+    "symbol": "CPRT",
+    "date": "2026-10-08",
+    "close": 27.48,
+    "ma50": 30.2782,
+    "above": false
+  },
+  {
+    "symbol": "CSX",
+    "date": "2026-10-08",
+    "close": 47.34,
+    "ma50": 49.1712,
+    "above": false
+  },
+  {
+    "symbol": "CSGP",
+    "date": "2026-10-08",
+    "close": 29.81,
+    "ma50": 30.195,
+    "above": false
+  },
+  {
+    "symbol": "COST",
+    "date": "2026-10-08",
+    "close": 947.92,
+    "ma50": 931.572,
+    "above": true
+  },
+  {
+    "symbol": "CVS",
+    "date": "2026-10-08",
+    "close": 87.8,
+    "ma50": 93.285,
+    "above": false
+  },
+  {
+    "symbol": "DDOG",
+    "date": "2026-10-08",
+    "close": 273.8,
+    "ma50": 246.382,
+    "above": true
+  },
+  {
+    "symbol": "DVA",
+    "date": "2026-10-08",
+    "close": 177.02,
+    "ma50": 184.6802,
+    "above": false
+  },
+  {
+    "symbol": "CRH",
+    "date": "2026-10-08",
+    "close": 81.88,
+    "ma50": 91.2912,
+    "above": false
+  },
+  {
+    "symbol": "CCI",
+    "date": "2026-10-08",
+    "close": 68.89,
+    "ma50": 73.2974,
+    "above": false
+  },
+  {
+    "symbol": "COP",
+    "date": "2026-10-08",
+    "close": 134.19,
+    "ma50": 129.0776,
+    "above": true
+  },
+  {
+    "symbol": "GLW",
+    "date": "2026-10-08",
+    "close": 152.83,
+    "ma50": 155.0332,
+    "above": false
+  },
+  {
+    "symbol": "STZ",
+    "date": "2026-10-08",
+    "close": 123.63,
+    "ma50": 125.97919999999999,
+    "above": false
+  },
+  {
+    "symbol": "ED",
+    "date": "2026-10-08",
+    "close": 105.99,
+    "ma50": 106.4714,
+    "above": false
+  },
+  {
+    "symbol": "DRI",
+    "date": "2026-10-08",
+    "close": 200.52,
+    "ma50": 211.508,
+    "above": false
+  },
+  {
+    "symbol": "COO",
+    "date": "2026-10-08",
+    "close": 54.3,
+    "ma50": 65.6966,
+    "above": false
+  },
+  {
+    "symbol": "CRWD",
+    "date": "2026-10-08",
+    "close": 263.01,
+    "ma50": 226.9056,
+    "above": true
+  },
+  {
+    "symbol": "CPAY",
+    "date": "2026-10-08",
+    "close": 402.08,
+    "ma50": 403.3978,
+    "above": false
+  },
+  {
+    "symbol": "CMI",
+    "date": "2026-10-08",
+    "close": 520.4,
+    "ma50": 571.1818,
+    "above": false
+  },
+  {
+    "symbol": "DHR",
+    "date": "2026-10-08",
+    "close": 217.46,
+    "ma50": 210.5776,
+    "above": true
+  },
+  {
+    "symbol": "DE",
+    "date": "2026-10-08",
+    "close": 652.58,
+    "ma50": 652.4312,
+    "above": true
+  },
+  {
+    "symbol": "DG",
+    "date": "2026-10-08",
+    "close": 124.27,
+    "ma50": 124.1614,
+    "above": true
+  },
+  {
+    "symbol": "FANG",
+    "date": "2026-10-08",
+    "close": 191.68,
+    "ma50": 196.7448,
+    "above": false
+  },
+  {
+    "symbol": "DXCM",
+    "date": "2026-10-08",
+    "close": 84.41,
+    "ma50": 87.2578,
+    "above": false
+  },
+  {
+    "symbol": "DPZ",
+    "date": "2026-10-08",
+    "close": 308.65,
+    "ma50": 327.5464,
+    "above": false
+  },
+  {
+    "symbol": "DOW",
+    "date": "2026-10-08",
+    "close": 28.59,
+    "ma50": 29.7244,
+    "above": false
+  },
+  {
+    "symbol": "DAL",
+    "date": "2026-10-08",
+    "close": 82.14,
+    "ma50": 83.7742,
+    "above": false
+  },
+  {
+    "symbol": "DUK",
+    "date": "2026-10-08",
+    "close": 116.84,
+    "ma50": 119.7514,
+    "above": false
+  },
+  {
+    "symbol": "DTE",
+    "date": "2026-10-08",
+    "close": 127.1,
+    "ma50": 133.3042,
+    "above": false
+  },
+  {
+    "symbol": "DELL",
+    "date": "2026-10-08",
+    "close": 574.55,
+    "ma50": 502.0292,
+    "above": true
+  },
+  {
+    "symbol": "DHI",
+    "date": "2026-10-08",
+    "close": 135.82,
+    "ma50": 143.0782,
+    "above": false
+  },
+  {
+    "symbol": "DD",
+    "date": "2026-10-08",
+    "close": 132.48,
+    "ma50": 134.898,
+    "above": false
+  },
+  {
+    "symbol": "DASH",
+    "date": "2026-10-08",
+    "close": 191.71,
+    "ma50": 206.2648,
+    "above": false
+  },
+  {
+    "symbol": "D",
+    "date": "2026-10-08",
+    "close": 61.75,
+    "ma50": 65.2198,
+    "above": false
+  },
+  {
+    "symbol": "DLTR",
+    "date": "2026-10-08",
+    "close": 118.62,
+    "ma50": 123.3116,
+    "above": false
+  },
+  {
+    "symbol": "DVN",
+    "date": "2026-10-08",
+    "close": 48.92,
+    "ma50": 47.2756,
+    "above": true
+  },
+  {
+    "symbol": "DECK",
+    "date": "2026-10-08",
+    "close": 82.56,
+    "ma50": 86.262,
+    "above": false
+  },
+  {
+    "symbol": "ETN",
+    "date": "2026-10-08",
+    "close": 424.51,
+    "ma50": 425.58299999999997,
+    "above": false
+  },
+  {
+    "symbol": "DOV",
+    "date": "2026-10-08",
+    "close": 188.96,
+    "ma50": 196.64339999999999,
+    "above": false
+  },
+  {
+    "symbol": "DLR",
+    "date": "2026-10-08",
+    "close": 176.07,
+    "ma50": 187.0582,
+    "above": false
+  },
+  {
+    "symbol": "EBAY",
+    "date": "2026-10-08",
+    "close": 111.98,
+    "ma50": 106.8884,
+    "above": true
+  },
+  {
+    "symbol": "ECL",
+    "date": "2026-10-08",
+    "close": 281.69,
+    "ma50": 279.119,
+    "above": true
+  },
+  {
+    "symbol": "EME",
+    "date": "2026-10-08",
+    "close": 778.24,
+    "ma50": 777.9322,
+    "above": true
+  },
+  {
+    "symbol": "EMR",
+    "date": "2026-10-08",
+    "close": 159.06,
+    "ma50": 155.591,
+    "above": true
+  },
+  {
+    "symbol": "ERIE",
+    "date": "2026-10-08",
+    "close": 226.54,
+    "ma50": 244.3484,
+    "above": false
+  },
+  {
+    "symbol": "EW",
+    "date": "2026-10-08",
+    "close": 84.24,
+    "ma50": 88.6532,
+    "above": false
+  },
+  {
+    "symbol": "EQIX",
+    "date": "2026-10-08",
+    "close": 1011.16,
+    "ma50": 1042.624,
+    "above": false
+  },
+  {
+    "symbol": "EG",
+    "date": "2026-10-08",
+    "close": 373.1,
+    "ma50": 372.0556,
+    "above": true
+  },
+  {
+    "symbol": "ESS",
+    "date": "2026-10-08",
+    "close": 268.58,
+    "ma50": 278.9314,
+    "above": false
+  },
+  {
+    "symbol": "ETR",
+    "date": "2026-10-08",
+    "close": 102.49,
+    "ma50": 104.7704,
+    "above": false
+  },
+  {
+    "symbol": "EQT",
+    "date": "2026-10-08",
+    "close": 52.94,
+    "ma50": 52.8088,
+    "above": true
+  },
+  {
+    "symbol": "ES",
+    "date": "2026-10-08",
+    "close": 65.69,
+    "ma50": 69.1878,
+    "above": false
+  },
+  {
+    "symbol": "EIX",
+    "date": "2026-10-08",
+    "close": 54.3,
+    "ma50": 62.3728,
+    "above": false
+  },
+  {
+    "symbol": "P",
+    "date": "2026-10-08",
+    "close": 150.57,
+    "ma50": 108.1132,
+    "above": true
+  },
+  {
+    "symbol": "ELV",
+    "date": "2026-10-08",
+    "close": 400.94,
+    "ma50": 398.8608,
+    "above": true
+  },
+  {
+    "symbol": "EL",
+    "date": "2026-10-08",
+    "close": 94.32,
+    "ma50": 94.6166,
+    "above": false
+  },
+  {
+    "symbol": "EOG",
+    "date": "2026-10-08",
+    "close": 148.51,
+    "ma50": 144.5188,
+    "above": true
+  },
+  {
+    "symbol": "EVRG",
+    "date": "2026-10-08",
+    "close": 80.52,
+    "ma50": 81.222,
+    "above": false
+  },
+  {
+    "symbol": "ECHO",
+    "date": "2026-10-08",
+    "close": 93.36,
+    "ma50": 90.4138,
+    "above": true
+  },
+  {
+    "symbol": "EFX",
+    "date": "2026-10-08",
+    "close": 145.54,
+    "ma50": 170.347,
+    "above": false
+  },
+  {
+    "symbol": "EXPD",
+    "date": "2026-10-08",
+    "close": 193.71,
+    "ma50": 186.524,
+    "above": true
+  },
+  {
+    "symbol": "FAST",
+    "date": "2026-10-08",
+    "close": 50.49,
+    "ma50": 50.11,
+    "above": true
+  },
+  {
+    "symbol": "EXR",
+    "date": "2026-10-08",
+    "close": 133.12,
+    "ma50": 140.8912,
+    "above": false
+  },
+  {
+    "symbol": "EXPE",
+    "date": "2026-10-08",
+    "close": 270.13,
+    "ma50": 296.2394,
+    "above": false
+  },
+  {
+    "symbol": "FDXF",
+    "date": "2026-10-08",
+    "close": 115.65,
+    "ma50": 128.7118,
+    "above": false
+  },
+  {
+    "symbol": "FFIV",
+    "date": "2026-10-08",
+    "close": 461.66,
+    "ma50": 416.7304,
+    "above": true
+  },
+  {
+    "symbol": "FDX",
+    "date": "2026-10-08",
+    "close": 291.73,
+    "ma50": 311.588,
+    "above": false
+  },
+  {
+    "symbol": "FRT",
+    "date": "2026-10-08",
+    "close": 105.46,
+    "ma50": 114.8352,
+    "above": false
+  },
+  {
+    "symbol": "FSLR",
+    "date": "2026-10-08",
+    "close": 178.85,
+    "ma50": 205.6038,
+    "above": false
+  },
+  {
+    "symbol": "FDS",
+    "date": "2026-10-08",
+    "close": 286.52,
+    "ma50": 283.0394,
+    "above": true
+  },
+  {
+    "symbol": "FICO",
+    "date": "2026-10-08",
+    "close": 707.43,
+    "ma50": 979.3686,
+    "above": false
+  },
+  {
+    "symbol": "FIS",
+    "date": "2026-10-08",
+    "close": 34.34,
+    "ma50": 39.0872,
+    "above": false
+  },
+  {
+    "symbol": "EXC",
+    "date": "2026-10-08",
+    "close": 41.73,
+    "ma50": 43.4174,
+    "above": false
+  },
+  {
+    "symbol": "FE",
+    "date": "2026-10-08",
+    "close": 44.85,
+    "ma50": 45.9384,
+    "above": false
+  },
+  {
+    "symbol": "FITB",
+    "date": "2026-10-08",
+    "close": 50.7,
+    "ma50": 54.329,
+    "above": false
+  },
+  {
+    "symbol": "XOM",
+    "date": "2026-10-08",
+    "close": 168.5,
+    "ma50": 161.3298,
+    "above": true
+  },
+  {
+    "symbol": "EXE",
+    "date": "2026-10-08",
+    "close": 88.86,
+    "ma50": 92.7975,
+    "above": false
+  },
+  {
+    "symbol": "FISV",
+    "date": "2026-10-08",
+    "close": 45.94,
+    "ma50": 50.371,
+    "above": false
+  },
+  {
+    "symbol": "FERG",
+    "date": "2026-10-08",
+    "close": 216.73,
+    "ma50": 231.0774,
+    "above": false
+  },
+  {
+    "symbol": "FLEX",
+    "date": "2026-10-08",
+    "close": 114.74,
+    "ma50": 114.5252,
+    "above": true
+  },
+  {
+    "symbol": "FCX",
+    "date": "2026-10-08",
+    "close": 71.14,
+    "ma50": 71.35979999999999,
+    "above": false
+  },
+  {
+    "symbol": "F",
+    "date": "2026-10-08",
+    "close": 12.25,
+    "ma50": 13.5776,
+    "above": false
+  },
+  {
+    "symbol": "BEN",
+    "date": "2026-10-08",
+    "close": 32.4,
+    "ma50": 33.634,
+    "above": false
+  },
+  {
+    "symbol": "GEV",
+    "date": "2026-10-08",
+    "close": 999.35,
+    "ma50": 968.255,
+    "above": true
+  },
+  {
+    "symbol": "FTNT",
+    "date": "2026-10-08",
+    "close": 189.1,
+    "ma50": 166.5626,
+    "above": true
+  },
+  {
+    "symbol": "GEHC",
+    "date": "2026-10-08",
+    "close": 64.22,
+    "ma50": 68.7517,
+    "above": false
+  },
+  {
+    "symbol": "FOXA",
+    "date": "2026-10-08",
+    "close": 63.57,
+    "ma50": 64.7812,
+    "above": false
+  },
+  {
+    "symbol": "IT",
+    "date": "2026-10-08",
+    "close": 195.41,
+    "ma50": 185.139,
+    "above": true
+  },
+  {
+    "symbol": "GPC",
+    "date": "2026-10-08",
+    "close": 128.17,
+    "ma50": 131.909,
+    "above": false
+  },
+  {
+    "symbol": "GNRC",
+    "date": "2026-10-08",
+    "close": 224.4,
+    "ma50": 202.6868,
+    "above": true
+  },
+  {
+    "symbol": "GRMN",
+    "date": "2026-10-08",
+    "close": 268.44,
+    "ma50": 289.3954,
+    "above": false
+  },
+  {
+    "symbol": "FOX",
+    "date": "2026-10-08",
+    "close": 56.97,
+    "ma50": 57.8402,
+    "above": false
+  },
+  {
+    "symbol": "GD",
+    "date": "2026-10-08",
+    "close": 329.9,
+    "ma50": 364.89979999999997,
+    "above": false
+  },
+  {
+    "symbol": "GE",
+    "date": "2026-10-08",
+    "close": 305.62,
+    "ma50": 337.633,
+    "above": false
+  },
+  {
+    "symbol": "FTV",
+    "date": "2026-10-08",
+    "close": 56.42,
+    "ma50": 57.9976,
+    "above": false
+  },
+  {
+    "symbol": "GIS",
+    "date": "2026-10-08",
+    "close": 32.59,
+    "ma50": 36.7922,
+    "above": false
+  },
+  {
+    "symbol": "GEN",
+    "date": "2026-10-08",
+    "close": 22.75,
+    "ma50": 27.6434,
+    "above": false
+  },
+  {
+    "symbol": "GM",
+    "date": "2026-10-08",
+    "close": 82.25,
+    "ma50": 84.9424,
+    "above": false
+  },
+  {
+    "symbol": "GPN",
+    "date": "2026-10-08",
+    "close": 82.77,
+    "ma50": 87.7728,
+    "above": false
+  },
+  {
+    "symbol": "GILD",
+    "date": "2026-10-08",
+    "close": 147.1,
+    "ma50": 144.31380000000001,
+    "above": true
+  },
+  {
+    "symbol": "GS",
+    "date": "2026-10-08",
+    "close": 882.59,
+    "ma50": 992.519,
+    "above": false
+  },
+  {
+    "symbol": "HSY",
+    "date": "2026-10-08",
+    "close": 162.54,
+    "ma50": 174.676,
+    "above": false
+  },
+  {
+    "symbol": "HIG",
+    "date": "2026-10-08",
+    "close": 129.48,
+    "ma50": 135.102,
+    "above": false
+  },
+  {
+    "symbol": "HAL",
+    "date": "2026-10-08",
+    "close": 32.57,
+    "ma50": 34.0152,
+    "above": false
+  },
+  {
+    "symbol": "HUBB",
+    "date": "2026-10-08",
+    "close": 475.4,
+    "ma50": 472.2578,
+    "above": true
+  },
+  {
+    "symbol": "HCA",
+    "date": "2026-10-08",
+    "close": 445.01,
+    "ma50": 419.6084,
+    "above": true
+  },
+  {
+    "symbol": "GL",
+    "date": "2026-10-08",
+    "close": 166.08,
+    "ma50": 173.672,
+    "above": false
+  },
+  {
+    "symbol": "GDDY",
+    "date": "2026-10-08",
+    "close": 103.19,
+    "ma50": 96.678,
+    "above": true
+  },
+  {
+    "symbol": "DOC",
+    "date": "2026-10-08",
+    "close": 18.52,
+    "ma50": 20.6506,
+    "above": false
+  },
+  {
+    "symbol": "HSIC",
+    "date": "2026-10-08",
+    "close": 84.63,
+    "ma50": 87.6274,
+    "above": false
+  },
+  {
+    "symbol": "HRL",
+    "date": "2026-10-08",
+    "close": 19.42,
+    "ma50": 22.196,
+    "above": false
+  },
+  {
+    "symbol": "HONA",
+    "date": "2026-10-08",
+    "close": 154.01,
+    "ma50": 165.107,
+    "above": false
+  },
+  {
+    "symbol": "HAS",
+    "date": "2026-10-08",
+    "close": 92.5,
+    "ma50": 91.9098,
+    "above": true
+  },
+  {
+    "symbol": "HPQ",
+    "date": "2026-10-08",
+    "close": 32.44,
+    "ma50": 30.9594,
+    "above": true
+  },
+  {
+    "symbol": "HPE",
+    "date": "2026-10-08",
+    "close": 71.0,
+    "ma50": 57.6464,
+    "above": true
+  },
+  {
+    "symbol": "HLT",
+    "date": "2026-10-08",
+    "close": 323.29,
+    "ma50": 317.2618,
+    "above": true
+  },
+  {
+    "symbol": "HD",
+    "date": "2026-10-08",
+    "close": 295.47,
+    "ma50": 318.5282,
+    "above": false
+  },
+  {
+    "symbol": "HST",
+    "date": "2026-10-08",
+    "close": 22.54,
+    "ma50": 22.7152,
+    "above": false
+  },
+  {
+    "symbol": "HON",
+    "date": "2026-10-08",
+    "close": 206.6,
+    "ma50": 218.8256,
+    "above": false
+  },
+  {
+    "symbol": "HWM",
+    "date": "2026-10-08",
+    "close": 222.56,
+    "ma50": 253.593,
+    "above": false
+  },
+  {
+    "symbol": "IP",
+    "date": "2026-10-08",
+    "close": 31.88,
+    "ma50": 37.4022,
+    "above": false
+  },
+  {
+    "symbol": "HUM",
+    "date": "2026-10-08",
+    "close": 387.12,
+    "ma50": 386.7134,
+    "above": true
+  },
+  {
+    "symbol": "HII",
+    "date": "2026-10-08",
+    "close": 265.02,
+    "ma50": 292.3016,
+    "above": false
+  },
+  {
+    "symbol": "IEX",
+    "date": "2026-10-08",
+    "close": 231.75,
+    "ma50": 230.519,
+    "above": true
+  },
+  {
+    "symbol": "IR",
+    "date": "2026-10-08",
+    "close": 78.0,
+    "ma50": 78.6594,
+    "above": false
+  },
+  {
+    "symbol": "INCY",
+    "date": "2026-10-08",
+    "close": 112.75,
+    "ma50": 122.8148,
+    "above": false
+  },
+  {
+    "symbol": "ITW",
+    "date": "2026-10-08",
+    "close": 264.71,
+    "ma50": 277.2368,
+    "above": false
+  },
+  {
+    "symbol": "IFF",
+    "date": "2026-10-08",
+    "close": 84.65,
+    "ma50": 84.4308,
+    "above": true
+  },
+  {
+    "symbol": "INTU",
+    "date": "2026-10-08",
+    "close": 303.88,
+    "ma50": 321.9582,
+    "above": false
+  },
+  {
+    "symbol": "ISRG",
+    "date": "2026-10-08",
+    "close": 415.41,
+    "ma50": 384.6774,
+    "above": true
+  },
+  {
+    "symbol": "IBKR",
+    "date": "2026-10-08",
+    "close": 86.47,
+    "ma50": 90.4986,
+    "above": false
+  },
+  {
+    "symbol": "INTC",
+    "date": "2026-10-08",
+    "close": 107.08,
+    "ma50": 102.8092,
+    "above": true
+  },
+  {
+    "symbol": "INVH",
+    "date": "2026-10-08",
+    "close": 26.48,
+    "ma50": 28.471,
+    "above": false
+  },
+  {
+    "symbol": "IDXX",
+    "date": "2026-10-08",
+    "close": 513.14,
+    "ma50": 540.2456,
+    "above": false
+  },
+  {
+    "symbol": "HBAN",
+    "date": "2026-10-08",
+    "close": 15.37,
+    "ma50": 16.5964,
+    "above": false
+  },
+  {
+    "symbol": "IBM",
+    "date": "2026-10-08",
+    "close": 226.61,
+    "ma50": 231.9764,
+    "above": false
+  },
+  {
+    "symbol": "IVZ",
+    "date": "2026-10-08",
+    "close": 30.09,
+    "ma50": 31.4756,
+    "above": false
+  },
+  {
+    "symbol": "PODD",
+    "date": "2026-10-08",
+    "close": 134.47,
+    "ma50": 142.6918,
+    "above": false
+  },
+  {
+    "symbol": "ICE",
+    "date": "2026-10-08",
+    "close": 155.35,
+    "ma50": 155.5558,
+    "above": false
+  },
+  {
+    "symbol": "ILMN",
+    "date": "2026-10-08",
+    "close": 264.57,
+    "ma50": 225.4548,
+    "above": true
+  },
+  {
+    "symbol": "JBL",
+    "date": "2026-10-08",
+    "close": 299.16,
+    "ma50": 316.7484,
+    "above": false
+  },
+  {
+    "symbol": "KMB",
+    "date": "2026-10-08",
+    "close": 97.74,
+    "ma50": 103.9884,
+    "above": false
+  },
+  {
+    "symbol": "JPM",
+    "date": "2026-10-08",
+    "close": 331.42,
+    "ma50": 350.5014,
+    "above": false
+  },
+  {
+    "symbol": "JBHT",
+    "date": "2026-10-08",
+    "close": 228.42,
+    "ma50": 256.3912,
+    "above": false
+  },
+  {
+    "symbol": "IQV",
+    "date": "2026-10-08",
+    "close": 258.88,
+    "ma50": 256.4212,
+    "above": true
+  },
+  {
+    "symbol": "JNJ",
+    "date": "2026-10-08",
+    "close": 256.48,
+    "ma50": 265.2216,
+    "above": false
+  },
+  {
+    "symbol": "KEYS",
+    "date": "2026-10-08",
+    "close": 374.67,
+    "ma50": 339.987,
+    "above": true
+  },
+  {
+    "symbol": "KEY",
+    "date": "2026-10-08",
+    "close": 20.1,
+    "ma50": 21.6224,
+    "above": false
+  },
+  {
+    "symbol": "KR",
+    "date": "2026-10-08",
+    "close": 61.41,
+    "ma50": 58.251599999999996,
+    "above": true
+  },
+  {
+    "symbol": "JCI",
+    "date": "2026-10-08",
+    "close": 154.0,
+    "ma50": 147.1692,
+    "above": true
+  },
+  {
+    "symbol": "J",
+    "date": "2026-10-08",
+    "close": 138.59,
+    "ma50": 143.3478,
+    "above": false
+  },
+  {
+    "symbol": "KVUE",
+    "date": "2026-10-08",
+    "close": 17.73,
+    "ma50": 18.4786,
+    "above": false
+  },
+  {
+    "symbol": "KLAC",
+    "date": "2026-10-08",
+    "close": 196.72,
+    "ma50": 187.6786,
+    "above": true
+  },
+  {
+    "symbol": "KDP",
+    "date": "2026-10-08",
+    "close": 31.26,
+    "ma50": 31.2772,
+    "above": false
+  },
+  {
+    "symbol": "KMI",
+    "date": "2026-10-08",
+    "close": 32.25,
+    "ma50": 31.465,
+    "above": true
+  },
+  {
+    "symbol": "IRM",
+    "date": "2026-10-08",
+    "close": 112.97,
+    "ma50": 118.1348,
+    "above": false
+  },
+  {
+    "symbol": "KKR",
+    "date": "2026-10-08",
+    "close": 89.56,
+    "ma50": 102.4642,
+    "above": false
+  },
+  {
+    "symbol": "KIM",
+    "date": "2026-10-08",
+    "close": 22.09,
+    "ma50": 23.5204,
+    "above": false
+  },
+  {
+    "symbol": "KHC",
+    "date": "2026-10-08",
+    "close": 22.48,
+    "ma50": 24.6804,
+    "above": false
+  },
+  {
+    "symbol": "JKHY",
+    "date": "2026-10-08",
+    "close": 149.05,
+    "ma50": 156.6226,
+    "above": false
+  },
+  {
+    "symbol": "LLY",
+    "date": "2026-10-08",
+    "close": 1169.6,
+    "ma50": 1173.4832,
+    "above": false
+  },
+  {
+    "symbol": "LHX",
+    "date": "2026-10-08",
+    "close": 236.92,
+    "ma50": 259.921,
+    "above": false
+  },
+  {
+    "symbol": "LYV",
+    "date": "2026-10-08",
+    "close": 171.34,
+    "ma50": 176.4928,
+    "above": false
+  },
+  {
+    "symbol": "LULU",
+    "date": "2026-10-08",
+    "close": 92.68,
+    "ma50": 109.9316,
+    "above": false
+  },
+  {
+    "symbol": "LH",
+    "date": "2026-10-08",
+    "close": 314.2,
+    "ma50": 319.896,
+    "above": false
+  },
+  {
+    "symbol": "LIN",
+    "date": "2026-10-08",
+    "close": 481.7,
+    "ma50": 478.4798,
+    "above": true
+  },
+  {
+    "symbol": "L",
+    "date": "2026-10-08",
+    "close": 107.6,
+    "ma50": 109.7958,
+    "above": false
+  },
+  {
+    "symbol": "LYB",
+    "date": "2026-10-08",
+    "close": 60.34,
+    "ma50": 62.3046,
+    "above": false
+  },
+  {
+    "symbol": "LVS",
+    "date": "2026-10-08",
+    "close": 36.1,
+    "ma50": 42.9504,
+    "above": false
+  },
+  {
+    "symbol": "LRCX",
+    "date": "2026-10-08",
+    "close": 320.59,
+    "ma50": 310.27,
+    "above": true
+  },
+  {
+    "symbol": "LOW",
+    "date": "2026-10-08",
+    "close": 188.85,
+    "ma50": 202.6714,
+    "above": false
+  },
+  {
+    "symbol": "MAR",
+    "date": "2026-10-08",
+    "close": 361.08,
+    "ma50": 350.1478,
+    "above": true
+  },
+  {
+    "symbol": "LEN",
+    "date": "2026-10-08",
+    "close": 77.6,
+    "ma50": 82.9926,
+    "above": false
+  },
+  {
+    "symbol": "LITE",
+    "date": "2026-10-08",
+    "close": 1048.6,
+    "ma50": 912.1357,
+    "above": true
+  },
+  {
+    "symbol": "MRSH",
+    "date": "2026-10-08",
+    "close": 176.67,
+    "ma50": 182.631,
+    "above": false
+  },
+  {
+    "symbol": "LII",
+    "date": "2026-10-08",
+    "close": 361.54,
+    "ma50": 389.7624,
+    "above": false
+  },
+  {
+    "symbol": "LMT",
+    "date": "2026-10-08",
+    "close": 507.89,
+    "ma50": 550.3668,
+    "above": false
+  },
+  {
+    "symbol": "LDOS",
+    "date": "2026-10-08",
+    "close": 119.22,
+    "ma50": 130.6614,
+    "above": false
+  },
+  {
+    "symbol": "MTB",
+    "date": "2026-10-08",
+    "close": 217.56,
+    "ma50": 236.0456,
+    "above": false
+  },
+  {
+    "symbol": "MPC",
+    "date": "2026-10-08",
+    "close": 463.34,
+    "ma50": 376.1512,
+    "above": true
+  },
+  {
+    "symbol": "MRVL",
+    "date": "2026-10-08",
+    "close": 274.66,
+    "ma50": 234.6534,
+    "above": true
+  },
+  {
+    "symbol": "MU",
+    "date": "2026-10-08",
+    "close": 1035.84,
+    "ma50": 973.0994,
+    "above": true
+  },
+  {
+    "symbol": "MLM",
+    "date": "2026-10-08",
+    "close": 481.57,
+    "ma50": 514.7708,
+    "above": false
+  },
+  {
+    "symbol": "MRK",
+    "date": "2026-10-08",
+    "close": 142.38,
+    "ma50": 143.1418,
+    "above": false
+  },
+  {
+    "symbol": "MGM",
+    "date": "2026-10-08",
+    "close": 30.01,
+    "ma50": 39.7218,
+    "above": false
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2026-10-08",
+    "close": 522.61,
+    "ma50": 498.7674,
+    "above": true
+  },
+  {
+    "symbol": "MRNA",
+    "date": "2026-10-08",
+    "close": 197.0,
+    "ma50": 134.9169,
+    "above": true
+  },
+  {
+    "symbol": "MAS",
+    "date": "2026-10-08",
+    "close": 69.5,
+    "ma50": 71.4282,
+    "above": false
+  },
+  {
+    "symbol": "MDT",
+    "date": "2026-10-08",
+    "close": 87.75,
+    "ma50": 90.0504,
+    "above": false
+  },
+  {
+    "symbol": "META",
+    "date": "2026-10-08",
+    "close": 720.89,
+    "ma50": 636.1376,
+    "above": true
+  },
+  {
+    "symbol": "MET",
+    "date": "2026-10-08",
+    "close": 98.47,
+    "ma50": 96.5088,
+    "above": true
+  },
+  {
+    "symbol": "MDLZ",
+    "date": "2026-10-08",
+    "close": 60.67,
+    "ma50": 61.7132,
+    "above": false
+  },
+  {
+    "symbol": "MCHP",
+    "date": "2026-10-08",
+    "close": 75.52,
+    "ma50": 76.044,
+    "above": false
+  },
+  {
+    "symbol": "MA",
+    "date": "2026-10-08",
+    "close": 574.76,
+    "ma50": 571.873,
+    "above": true
+  },
+  {
+    "symbol": "MCK",
+    "date": "2026-10-08",
+    "close": 930.25,
+    "ma50": 882.2568,
+    "above": true
+  },
+  {
+    "symbol": "MKC",
+    "date": "2026-10-08",
+    "close": 45.94,
+    "ma50": 51.2428,
+    "above": false
+  },
+  {
+    "symbol": "MTD",
+    "date": "2026-10-08",
+    "close": 1529.46,
+    "ma50": 1422.424,
+    "above": true
+  },
+  {
+    "symbol": "MAA",
+    "date": "2026-10-08",
+    "close": 116.19,
+    "ma50": 126.2522,
+    "above": false
+  },
+  {
+    "symbol": "MCD",
+    "date": "2026-10-08",
+    "close": 236.9,
+    "ma50": 256.3128,
+    "above": false
+  },
+  {
+    "symbol": "MPWR",
+    "date": "2026-10-08",
+    "close": 1369.8,
+    "ma50": 1315.4472,
+    "above": true
+  },
+  {
+    "symbol": "MNST",
+    "date": "2026-10-08",
+    "close": 43.65,
+    "ma50": 45.193,
+    "above": false
+  },
+  {
+    "symbol": "MS",
+    "date": "2026-10-08",
+    "close": 187.44,
+    "ma50": 207.7324,
+    "above": false
+  },
+  {
+    "symbol": "NWS",
+    "date": "2026-10-08",
+    "close": 31.92,
+    "ma50": 33.0124,
+    "above": false
+  },
+  {
+    "symbol": "NDAQ",
+    "date": "2026-10-08",
+    "close": 92.37,
+    "ma50": 94.7466,
+    "above": false
+  },
+  {
+    "symbol": "NFLX",
+    "date": "2026-10-08",
+    "close": 71.57,
+    "ma50": 75.3836,
+    "above": false
+  },
+  {
+    "symbol": "NEM",
+    "date": "2026-10-08",
+    "close": 115.55,
+    "ma50": 119.67060000000001,
+    "above": false
+  },
+  {
+    "symbol": "MCO",
+    "date": "2026-10-08",
+    "close": 458.69,
+    "ma50": 478.6506,
+    "above": false
+  },
+  {
+    "symbol": "NEE",
+    "date": "2026-10-08",
+    "close": 77.37,
+    "ma50": 82.1094,
+    "above": false
+  },
+  {
+    "symbol": "NKE",
+    "date": "2026-10-08",
+    "close": 34.74,
+    "ma50": 38.2988,
+    "above": false
+  },
+  {
+    "symbol": "NI",
+    "date": "2026-10-08",
+    "close": 40.53,
+    "ma50": 41.2492,
+    "above": false
+  },
+  {
+    "symbol": "MOS",
+    "date": "2026-10-08",
+    "close": 19.73,
+    "ma50": 23.3648,
+    "above": false
+  },
+  {
+    "symbol": "NDSN",
+    "date": "2026-10-08",
+    "close": 326.87,
+    "ma50": 318.0718,
+    "above": true
+  },
+  {
+    "symbol": "NTAP",
+    "date": "2026-10-08",
+    "close": 231.05,
+    "ma50": 197.004,
+    "above": true
+  },
+  {
+    "symbol": "NWSA",
+    "date": "2026-10-08",
+    "close": 28.97,
+    "ma50": 29.422,
+    "above": false
+  },
+  {
+    "symbol": "NOC",
+    "date": "2026-10-08",
+    "close": 484.48,
+    "ma50": 532.9838,
+    "above": false
+  },
+  {
+    "symbol": "NTRS",
+    "date": "2026-10-08",
+    "close": 168.5,
+    "ma50": 181.505,
+    "above": false
+  },
+  {
+    "symbol": "MSCI",
+    "date": "2026-10-08",
+    "close": 561.67,
+    "ma50": 559.3582,
+    "above": true
+  },
+  {
+    "symbol": "NSC",
+    "date": "2026-10-08",
+    "close": 316.99,
+    "ma50": 329.1344,
+    "above": false
+  },
+  {
+    "symbol": "MSI",
+    "date": "2026-10-08",
+    "close": 447.12,
+    "ma50": 463.051,
+    "above": false
+  },
+  {
+    "symbol": "NCLH",
+    "date": "2026-10-08",
+    "close": 15.49,
+    "ma50": 16.372,
+    "above": false
+  },
+  {
+    "symbol": "OMC",
+    "date": "2026-10-08",
+    "close": 76.45,
+    "ma50": 81.252,
+    "above": false
+  },
+  {
+    "symbol": "ORLY",
+    "date": "2026-10-08",
+    "close": 86.01,
+    "ma50": 87.9774,
+    "above": false
+  },
+  {
+    "symbol": "ON",
+    "date": "2026-10-08",
+    "close": 79.41,
+    "ma50": 76.5464,
+    "above": true
+  },
+  {
+    "symbol": "OTIS",
+    "date": "2026-10-08",
+    "close": 66.11,
+    "ma50": 69.8536,
+    "above": false
+  },
+  {
+    "symbol": "OKE",
+    "date": "2026-10-08",
+    "close": 90.29,
+    "ma50": 92.0912,
+    "above": false
+  },
+  {
+    "symbol": "NXPI",
+    "date": "2026-10-08",
+    "close": 231.07,
+    "ma50": 230.956,
+    "above": true
+  },
+  {
+    "symbol": "NVR",
+    "date": "2026-10-08",
+    "close": 6002.55,
+    "ma50": 6251.272,
+    "above": false
+  },
+  {
+    "symbol": "ODFL",
+    "date": "2026-10-08",
+    "close": 181.65,
+    "ma50": 192.6942,
+    "above": false
+  },
+  {
+    "symbol": "NUE",
+    "date": "2026-10-08",
+    "close": 246.14,
+    "ma50": 255.365,
+    "above": false
+  },
+  {
+    "symbol": "NVDA",
+    "date": "2026-10-08",
+    "close": 230.48,
+    "ma50": 221.3926,
+    "above": true
+  },
+  {
+    "symbol": "ORCL",
+    "date": "2026-10-08",
+    "close": 135.69,
+    "ma50": 145.4702,
+    "above": false
+  },
+  {
+    "symbol": "NRG",
+    "date": "2026-10-08",
+    "close": 106.32,
+    "ma50": 111.9356,
+    "above": false
+  },
+  {
+    "symbol": "PKG",
+    "date": "2026-10-08",
+    "close": 229.94,
+    "ma50": 241.0938,
+    "above": false
+  },
+  {
+    "symbol": "PLTR",
+    "date": "2026-10-08",
+    "close": 198.78,
+    "ma50": 175.2438,
+    "above": true
+  },
+  {
+    "symbol": "PAYX",
+    "date": "2026-10-08",
+    "close": 104.46,
+    "ma50": 115.7854,
+    "above": false
+  },
+  {
+    "symbol": "PH",
+    "date": "2026-10-08",
+    "close": 946.96,
+    "ma50": 987.0822,
+    "above": false
+  },
+  {
+    "symbol": "PCAR",
+    "date": "2026-10-08",
+    "close": 109.66,
+    "ma50": 122.6244,
+    "above": false
+  },
+  {
+    "symbol": "OXY",
+    "date": "2026-10-08",
+    "close": 60.28,
+    "ma50": 58.6422,
+    "above": true
+  },
+  {
+    "symbol": "PANW",
+    "date": "2026-10-08",
+    "close": 398.5,
+    "ma50": 368.9904,
+    "above": true
+  },
+  {
+    "symbol": "PYPL",
+    "date": "2026-10-08",
+    "close": 55.02,
+    "ma50": 56.3093,
+    "above": false
+  },
+  {
+    "symbol": "PEP",
+    "date": "2026-10-08",
+    "close": 128.34,
+    "ma50": 135.7996,
+    "above": false
+  },
+  {
+    "symbol": "PNR",
+    "date": "2026-10-08",
+    "close": 52.3,
+    "ma50": 60.0324,
+    "above": false
+  },
+  {
+    "symbol": "PFE",
+    "date": "2026-10-08",
+    "close": 27.82,
+    "ma50": 27.5508,
+    "above": true
+  },
+  {
+    "symbol": "PNC",
+    "date": "2026-10-08",
+    "close": 219.68,
+    "ma50": 239.595,
+    "above": false
+  },
+  {
+    "symbol": "PNW",
+    "date": "2026-10-08",
+    "close": 97.98,
+    "ma50": 97.3298,
+    "above": true
+  },
+  {
+    "symbol": "PPG",
+    "date": "2026-10-08",
+    "close": 105.46,
+    "ma50": 110.2582,
+    "above": false
+  },
+  {
+    "symbol": "PFG",
+    "date": "2026-10-08",
+    "close": 109.77,
+    "ma50": 113.563,
+    "above": false
+  },
+  {
+    "symbol": "PPL",
+    "date": "2026-10-08",
+    "close": 34.1,
+    "ma50": 34.2522,
+    "above": false
+  },
+  {
+    "symbol": "PSX",
+    "date": "2026-10-08",
+    "close": 281.6,
+    "ma50": 245.95420000000001,
+    "above": true
+  },
+  {
+    "symbol": "PEG",
+    "date": "2026-10-08",
+    "close": 71.84,
+    "ma50": 72.499,
+    "above": false
+  },
+  {
+    "symbol": "PRU",
+    "date": "2026-10-08",
+    "close": 113.53,
+    "ma50": 119.39320000000001,
+    "above": false
+  },
+  {
+    "symbol": "PHM",
+    "date": "2026-10-08",
+    "close": 113.53,
+    "ma50": 123.5808,
+    "above": false
+  },
+  {
+    "symbol": "PCG",
+    "date": "2026-10-08",
+    "close": 12.67,
+    "ma50": 15.0666,
+    "above": false
+  },
+  {
+    "symbol": "PM",
+    "date": "2026-10-08",
+    "close": 200.5,
+    "ma50": 189.6996,
+    "above": true
+  },
+  {
+    "symbol": "PG",
+    "date": "2026-10-08",
+    "close": 150.59,
+    "ma50": 145.769,
+    "above": true
+  },
+  {
+    "symbol": "PLD",
+    "date": "2026-10-08",
+    "close": 129.29,
+    "ma50": 137.2074,
+    "above": false
+  },
+  {
+    "symbol": "PSA",
+    "date": "2026-10-08",
+    "close": 285.52,
+    "ma50": 306.10020000000003,
+    "above": false
+  },
+  {
+    "symbol": "PGR",
+    "date": "2026-10-08",
+    "close": 218.73,
+    "ma50": 214.1288,
+    "above": true
+  },
+  {
+    "symbol": "PTC",
+    "date": "2026-10-08",
+    "close": 193.73,
+    "ma50": 147.6472,
+    "above": true
+  },
+  {
+    "symbol": "PWR",
+    "date": "2026-10-08",
+    "close": 685.33,
+    "ma50": 650.9138,
+    "above": true
+  },
+  {
+    "symbol": "RDDT",
+    "date": "2026-10-08",
+    "close": 156.47,
+    "ma50": 154.4058,
+    "above": true
+  },
+  {
+    "symbol": "REGN",
+    "date": "2026-10-08",
+    "close": 739.57,
+    "ma50": 789.5262,
+    "above": false
+  },
+  {
+    "symbol": "HOOD",
+    "date": "2026-10-08",
+    "close": 107.01,
+    "ma50": 106.7852,
+    "above": true
+  },
+  {
+    "symbol": "ROP",
+    "date": "2026-10-08",
+    "close": 364.23,
+    "ma50": 389.0024,
+    "above": false
+  },
+  {
+    "symbol": "DGX",
+    "date": "2026-10-08",
+    "close": 230.81,
+    "ma50": 237.5404,
+    "above": false
+  },
+  {
+    "symbol": "RMD",
+    "date": "2026-10-08",
+    "close": 226.73,
+    "ma50": 224.7572,
+    "above": true
+  },
+  {
+    "symbol": "Q",
+    "date": "2026-10-08",
+    "close": 126.68,
+    "ma50": 127.6304,
+    "above": false
+  },
+  {
+    "symbol": "RL",
+    "date": "2026-10-08",
+    "close": 367.39,
+    "ma50": 362.1342,
+    "above": true
+  },
+  {
+    "symbol": "REG",
+    "date": "2026-10-08",
+    "close": 71.48,
+    "ma50": 75.1126,
+    "above": false
+  },
+  {
+    "symbol": "O",
+    "date": "2026-10-08",
+    "close": 54.17,
+    "ma50": 59.677,
+    "above": false
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2026-10-08",
+    "close": 176.01,
+    "ma50": 172.634,
+    "above": true
+  },
+  {
+    "symbol": "RTX",
+    "date": "2026-10-08",
+    "close": 184.32,
+    "ma50": 203.871,
+    "above": false
+  },
+  {
+    "symbol": "RF",
+    "date": "2026-10-08",
+    "close": 27.07,
+    "ma50": 29.6466,
+    "above": false
+  },
+  {
+    "symbol": "RSG",
+    "date": "2026-10-08",
+    "close": 216.84,
+    "ma50": 216.6202,
+    "above": true
+  },
+  {
+    "symbol": "ROL",
+    "date": "2026-10-08",
+    "close": 32.26,
+    "ma50": 34.6354,
+    "above": false
+  },
+  {
+    "symbol": "RJF",
+    "date": "2026-10-08",
+    "close": 158.6,
+    "ma50": 171.3344,
+    "above": false
+  },
+  {
+    "symbol": "RVTY",
+    "date": "2026-10-08",
+    "close": 152.16,
+    "ma50": 131.2764,
+    "above": true
+  },
+  {
+    "symbol": "ROK",
+    "date": "2026-10-08",
+    "close": 434.14,
+    "ma50": 436.2632,
+    "above": false
+  },
+  {
+    "symbol": "RCL",
+    "date": "2026-10-08",
+    "close": 281.41,
+    "ma50": 279.7452,
+    "above": true
+  },
+  {
+    "symbol": "ROST",
+    "date": "2026-10-08",
+    "close": 225.2,
+    "ma50": 236.0888,
+    "above": false
+  },
+  {
+    "symbol": "CRM",
+    "date": "2026-10-08",
+    "close": 227.8,
+    "ma50": 224.0616,
+    "above": true
+  },
+  {
+    "symbol": "STX",
+    "date": "2026-10-08",
+    "close": 774.83,
+    "ma50": 856.6102,
+    "above": false
+  },
+  {
+    "symbol": "SHW",
+    "date": "2026-10-08",
+    "close": 321.03,
+    "ma50": 337.658,
+    "above": false
+  },
+  {
+    "symbol": "NOW",
+    "date": "2026-10-08",
+    "close": 139.75,
+    "ma50": 131.6084,
+    "above": true
+  },
+  {
+    "symbol": "SPGI",
+    "date": "2026-10-08",
+    "close": 402.73,
+    "ma50": 414.6464,
+    "above": false
+  },
+  {
+    "symbol": "SLB",
+    "date": "2026-10-08",
+    "close": 48.98,
+    "ma50": 52.803,
+    "above": false
+  },
+  {
+    "symbol": "SWKS",
+    "date": "2026-10-08",
+    "close": 80.75,
+    "ma50": 75.8568,
+    "above": true
+  },
+  {
+    "symbol": "SW",
+    "date": "2026-10-08",
+    "close": 41.45,
+    "ma50": 46.085,
+    "above": false
+  },
+  {
+    "symbol": "SRE",
+    "date": "2026-10-08",
+    "close": 80.08,
+    "ma50": 83.1138,
+    "above": false
+  },
+  {
+    "symbol": "SNA",
+    "date": "2026-10-08",
+    "close": 358.88,
+    "ma50": 386.3664,
+    "above": false
+  },
+  {
+    "symbol": "SNDK",
+    "date": "2026-10-08",
+    "close": 1609.46,
+    "ma50": 1576.4623,
+    "above": true
+  },
+  {
+    "symbol": "SWK",
+    "date": "2026-10-08",
+    "close": 89.17,
+    "ma50": 95.0446,
+    "above": false
+  },
+  {
+    "symbol": "SBAC",
+    "date": "2026-10-08",
+    "close": 170.01,
+    "ma50": 179.2462,
+    "above": false
+  },
+  {
+    "symbol": "SKYD",
+    "date": "2026-10-08",
+    "close": 9.28,
+    "ma50": 10.005,
+    "above": false
+  },
+  {
+    "symbol": "SPG",
+    "date": "2026-10-08",
+    "close": 199.61,
+    "ma50": 212.3076,
+    "above": false
+  },
+  {
+    "symbol": "SOLV",
+    "date": "2026-10-08",
+    "close": 86.41,
+    "ma50": 88.4086,
+    "above": false
+  },
+  {
+    "symbol": "SBUX",
+    "date": "2026-10-08",
+    "close": 93.21,
+    "ma50": 101.564,
+    "above": false
+  },
+  {
+    "symbol": "SJM",
+    "date": "2026-10-08",
+    "close": 119.41,
+    "ma50": 122.1066,
+    "above": false
+  },
+  {
+    "symbol": "LUV",
+    "date": "2026-10-08",
+    "close": 41.36,
+    "ma50": 41.9462,
+    "above": false
+  },
+  {
+    "symbol": "SO",
+    "date": "2026-10-08",
+    "close": 86.15,
+    "ma50": 88.4144,
+    "above": false
+  },
+  {
+    "symbol": "SYK",
+    "date": "2026-10-08",
+    "close": 276.97,
+    "ma50": 306.2128,
+    "above": false
+  },
+  {
+    "symbol": "STT",
+    "date": "2026-10-08",
+    "close": 175.09,
+    "ma50": 185.6472,
+    "above": false
+  },
+  {
+    "symbol": "SMCI",
+    "date": "2026-10-08",
+    "close": 42.77,
+    "ma50": 37.7222,
+    "above": true
+  },
+  {
+    "symbol": "TROW",
+    "date": "2026-10-08",
+    "close": 104.23,
+    "ma50": 108.8862,
+    "above": false
+  },
+  {
+    "symbol": "TRGP",
+    "date": "2026-10-08",
+    "close": 288.49,
+    "ma50": 282.6706,
+    "above": true
+  },
+  {
+    "symbol": "SYY",
+    "date": "2026-10-08",
+    "close": 78.2,
+    "ma50": 81.227,
+    "above": false
+  },
+  {
+    "symbol": "TPR",
+    "date": "2026-10-08",
+    "close": 115.82,
+    "ma50": 127.9778,
+    "above": false
+  },
+  {
+    "symbol": "SNPS",
+    "date": "2026-10-08",
+    "close": 497.75,
+    "ma50": 417.0892,
+    "above": true
+  },
+  {
+    "symbol": "TGT",
+    "date": "2026-10-08",
+    "close": 154.76,
+    "ma50": 156.596,
+    "above": false
+  },
+  {
+    "symbol": "STLD",
+    "date": "2026-10-08",
+    "close": 234.17,
+    "ma50": 241.6376,
+    "above": false
+  },
+  {
+    "symbol": "TPL",
+    "date": "2026-10-08",
+    "close": 357.78,
+    "ma50": 361.3902,
+    "above": false
+  },
+  {
+    "symbol": "TER",
+    "date": "2026-10-08",
+    "close": 398.72,
+    "ma50": 382.1424,
+    "above": true
+  },
+  {
+    "symbol": "TTWO",
+    "date": "2026-10-08",
+    "close": 209.37,
+    "ma50": 223.2012,
+    "above": false
+  },
+  {
+    "symbol": "STE",
+    "date": "2026-10-08",
+    "close": 210.76,
+    "ma50": 222.8312,
+    "above": false
+  },
+  {
+    "symbol": "SYF",
+    "date": "2026-10-08",
+    "close": 73.72,
+    "ma50": 76.4952,
+    "above": false
+  },
+  {
+    "symbol": "TDY",
+    "date": "2026-10-08",
+    "close": 604.82,
+    "ma50": 631.0726,
+    "above": false
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2026-10-08",
+    "close": 375.0,
+    "ma50": 353.268,
+    "above": true
+  },
+  {
+    "symbol": "TEL",
+    "date": "2026-10-08",
+    "close": 214.31,
+    "ma50": 210.0026,
+    "above": true
+  },
+  {
+    "symbol": "TMUS",
+    "date": "2026-10-08",
+    "close": 171.31,
+    "ma50": 175.3414,
+    "above": false
+  },
+  {
+    "symbol": "TXN",
+    "date": "2026-10-08",
+    "close": 288.2,
+    "ma50": 271.7786,
+    "above": true
+  },
+  {
+    "symbol": "ULTA",
+    "date": "2026-10-08",
+    "close": 564.21,
+    "ma50": 539.24,
+    "above": true
+  },
+  {
+    "symbol": "TT",
+    "date": "2026-10-08",
+    "close": 469.94,
+    "ma50": 454.4858,
+    "above": true
+  },
+  {
+    "symbol": "TYL",
+    "date": "2026-10-08",
+    "close": 331.15,
+    "ma50": 336.988,
+    "above": false
+  },
+  {
+    "symbol": "TSCO",
+    "date": "2026-10-08",
+    "close": 33.48,
+    "ma50": 33.6066,
+    "above": false
+  },
+  {
+    "symbol": "TRMB",
+    "date": "2026-10-08",
+    "close": 59.85,
+    "ma50": 58.5312,
+    "above": true
+  },
+  {
+    "symbol": "UPS",
+    "date": "2026-10-08",
+    "close": 94.13,
+    "ma50": 100.6398,
+    "above": false
+  },
+  {
+    "symbol": "TKO",
+    "date": "2026-10-08",
+    "close": 181.63,
+    "ma50": 187.6962,
+    "above": false
+  },
+  {
+    "symbol": "USB",
+    "date": "2026-10-08",
+    "close": 57.03,
+    "ma50": 61.5918,
+    "above": false
+  },
+  {
+    "symbol": "UNP",
+    "date": "2026-10-08",
+    "close": 278.2,
+    "ma50": 288.824,
+    "above": false
+  },
+  {
+    "symbol": "UDR",
+    "date": "2026-10-08",
+    "close": 33.57,
+    "ma50": 36.0528,
+    "above": false
+  },
+  {
+    "symbol": "TMO",
+    "date": "2026-10-08",
+    "close": 651.98,
+    "ma50": 624.7832,
+    "above": true
+  },
+  {
+    "symbol": "TRV",
+    "date": "2026-10-08",
+    "close": 370.27,
+    "ma50": 369.3854,
+    "above": true
+  },
+  {
+    "symbol": "TJX",
+    "date": "2026-10-08",
+    "close": 138.75,
+    "ma50": 139.3194,
+    "above": false
+  },
+  {
+    "symbol": "TWLO",
+    "date": "2026-10-08",
+    "close": 275.77,
+    "ma50": 244.415,
+    "above": true
+  },
+  {
+    "symbol": "TXT",
+    "date": "2026-10-08",
+    "close": 73.22,
+    "ma50": 81.7612,
+    "above": false
+  },
+  {
+    "symbol": "TSN",
+    "date": "2026-10-08",
+    "close": 52.34,
+    "ma50": 54.8254,
+    "above": false
+  },
+  {
+    "symbol": "TDG",
+    "date": "2026-10-08",
+    "close": 1089.3,
+    "ma50": 1164.8938,
+    "above": false
+  },
+  {
+    "symbol": "TFC",
+    "date": "2026-10-08",
+    "close": 46.18,
+    "ma50": 49.8912,
+    "above": false
+  },
+  {
+    "symbol": "UAL",
+    "date": "2026-10-08",
+    "close": 107.44,
+    "ma50": 115.005,
+    "above": false
+  },
+  {
+    "symbol": "UBER",
+    "date": "2026-10-08",
+    "close": 70.24,
+    "ma50": 73.0572,
+    "above": false
+  },
+  {
+    "symbol": "VTRS",
+    "date": "2026-10-08",
+    "close": 17.44,
+    "ma50": 16.935,
+    "above": true
+  },
+  {
+    "symbol": "VZ",
+    "date": "2026-10-08",
+    "close": 46.35,
+    "ma50": 48.2146,
+    "above": false
+  },
+  {
+    "symbol": "VEEV",
+    "date": "2026-10-08",
+    "close": 284.84,
+    "ma50": 257.6238,
+    "above": true
+  },
+  {
+    "symbol": "VTR",
+    "date": "2026-10-08",
+    "close": 81.76,
+    "ma50": 89.2756,
+    "above": false
+  },
+  {
+    "symbol": "VRSK",
+    "date": "2026-10-08",
+    "close": 175.49,
+    "ma50": 180.9088,
+    "above": false
+  },
+  {
+    "symbol": "V",
+    "date": "2026-10-08",
+    "close": 375.1,
+    "ma50": 369.3464,
+    "above": true
+  },
+  {
+    "symbol": "URI",
+    "date": "2026-10-08",
+    "close": 1050.15,
+    "ma50": 1061.409,
+    "above": false
+  },
+  {
+    "symbol": "UNH",
+    "date": "2026-10-08",
+    "close": 370.95,
+    "ma50": 390.0224,
+    "above": false
+  },
+  {
+    "symbol": "VRTX",
+    "date": "2026-10-08",
+    "close": 503.25,
+    "ma50": 519.8964,
+    "above": false
+  },
+  {
+    "symbol": "VMC",
+    "date": "2026-10-08",
+    "close": 246.26,
+    "ma50": 262.1414,
+    "above": false
+  },
+  {
+    "symbol": "VICI",
+    "date": "2026-10-08",
+    "close": 22.79,
+    "ma50": 25.0466,
+    "above": false
+  },
+  {
+    "symbol": "VLTO",
+    "date": "2026-10-08",
+    "close": 96.48,
+    "ma50": 96.5902,
+    "above": false
+  },
+  {
+    "symbol": "VMRK",
+    "date": "2026-10-08",
+    "close": 59.98,
+    "ma50": 64.41159999999999,
+    "above": false
+  },
+  {
+    "symbol": "VLO",
+    "date": "2026-10-08",
+    "close": 443.8,
+    "ma50": 365.0608,
+    "above": true
+  },
+  {
+    "symbol": "WRB",
+    "date": "2026-10-08",
+    "close": 72.05,
+    "ma50": 69.6574,
+    "above": true
+  },
+  {
+    "symbol": "UHS",
+    "date": "2026-10-08",
+    "close": 175.72,
+    "ma50": 173.6854,
+    "above": true
+  },
+  {
+    "symbol": "VRSN",
+    "date": "2026-10-08",
+    "close": 297.79,
+    "ma50": 290.2934,
+    "above": true
+  },
+  {
+    "symbol": "VST",
+    "date": "2026-10-08",
+    "close": 156.14,
+    "ma50": 143.6394,
+    "above": true
+  },
+  {
+    "symbol": "VRT",
+    "date": "2026-10-08",
+    "close": 243.73,
+    "ma50": 259.2956,
+    "above": false
+  },
+  {
+    "symbol": "WMT",
+    "date": "2026-10-08",
+    "close": 110.56,
+    "ma50": 108.501,
+    "above": true
+  },
+  {
+    "symbol": "GWW",
+    "date": "2026-10-08",
+    "close": 1268.67,
+    "ma50": 1293.6354,
+    "above": false
+  },
+  {
+    "symbol": "WM",
+    "date": "2026-10-08",
+    "close": 210.1,
+    "ma50": 217.4486,
+    "above": false
+  },
+  {
+    "symbol": "WEC",
+    "date": "2026-10-08",
+    "close": 103.61,
+    "ma50": 105.7614,
+    "above": false
+  },
+  {
+    "symbol": "WFC",
+    "date": "2026-10-08",
+    "close": 82.03,
+    "ma50": 85.8636,
+    "above": false
+  },
+  {
+    "symbol": "WDAY",
+    "date": "2026-10-08",
+    "close": 187.81,
+    "ma50": 188.627,
+    "above": false
+  },
+  {
+    "symbol": "WYNN",
+    "date": "2026-10-08",
+    "close": 75.29,
+    "ma50": 90.9396,
+    "above": false
+  },
+  {
+    "symbol": "YUM",
+    "date": "2026-10-08",
+    "close": 143.0,
+    "ma50": 145.8898,
+    "above": false
+  },
+  {
+    "symbol": "DIS",
+    "date": "2026-10-08",
+    "close": 107.02,
+    "ma50": 104.9078,
+    "above": true
+  },
+  {
+    "symbol": "WSM",
+    "date": "2026-10-08",
+    "close": 239.0,
+    "ma50": 234.2412,
+    "above": true
+  },
+  {
+    "symbol": "WAT",
+    "date": "2026-10-08",
+    "close": 429.13,
+    "ma50": 414.8318,
+    "above": true
+  },
+  {
+    "symbol": "WTW",
+    "date": "2026-10-08",
+    "close": 297.86,
+    "ma50": 322.2814,
+    "above": false
+  },
+  {
+    "symbol": "WY",
+    "date": "2026-10-08",
+    "close": 19.17,
+    "ma50": 22.6226,
+    "above": false
+  },
+  {
+    "symbol": "XEL",
+    "date": "2026-10-08",
+    "close": 73.36,
+    "ma50": 75.1772,
+    "above": false
+  },
+  {
+    "symbol": "WDC",
+    "date": "2026-10-08",
+    "close": 393.31,
+    "ma50": 460.3208,
+    "above": false
+  },
+  {
+    "symbol": "WELL",
+    "date": "2026-10-08",
+    "close": 223.04,
+    "ma50": 233.8428,
+    "above": false
+  },
+  {
+    "symbol": "WAB",
+    "date": "2026-10-08",
+    "close": 280.8,
+    "ma50": 289.492,
+    "above": false
+  },
+  {
+    "symbol": "WMB",
+    "date": "2026-10-08",
+    "close": 72.34,
+    "ma50": 72.1476,
+    "above": true
+  },
+  {
+    "symbol": "WST",
+    "date": "2026-10-08",
+    "close": 363.27,
+    "ma50": 354.7354,
+    "above": true
+  },
+  {
+    "symbol": "XYL",
+    "date": "2026-10-08",
+    "close": 101.99,
+    "ma50": 110.6764,
+    "above": false
+  },
+  {
+    "symbol": "ZBH",
+    "date": "2026-10-08",
+    "close": 88.88,
+    "ma50": 95.7286,
+    "above": false
+  },
+  {
+    "symbol": "ZBRA",
+    "date": "2026-10-08",
+    "close": 382.14,
+    "ma50": 359.6308,
+    "above": true
+  },
+  {
+    "symbol": "ZTS",
+    "date": "2026-10-08",
+    "close": 73.08,
+    "ma50": 73.9902,
+    "above": false
+  }
+]

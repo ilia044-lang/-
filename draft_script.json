@@ -33,8 +33,8 @@
   {
     "kind": "breadth",
     "title": "HOW MANY STOCKS JOINED IN?",
-    "kicker": "S5FI \u2022 S&P 500 MEMBERS ABOVE THEIR 50-DAY AVERAGE",
-    "voice": "A verified final breadth reading was unavailable, so no percentage is invented. This measure asks how many index members are above their fifty day average. Meanwhile, VIX reads 15.41, 0.65 percent higher over the review week. VIX measures implied volatility, not the direction of the next move.",
+    "kicker": "INDEPENDENT BREADTH PROXY \u2022 NOT THE OFFICIAL S5FI PRINT",
+    "voice": "Our independently calculated breadth proxy is 32.07 percent, covering 502 of 503 listed constituents. This is not the official S five F I print. This measure asks how many index members are above their fifty day average. Meanwhile, VIX reads 15.41, 0.65 percent higher over the review week. VIX measures implied volatility, not the direction of the next move.",
     "symbol": "^VIX"
   },
   {
@@ -83,6 +83,7 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171521828.html",
       "published": "2026-10-09T17:15:21+00:00",
       "symbol": "QQQ",
+      "image_url": null,
       "verification": "Sourced headline metadata; not independent verification of the full article"
     }
   },
@@ -97,7 +98,9 @@
       "url": "https://finance.yahoo.com/m/5b1b0d95-fc06-3130-815e-05ab50b8e9eb/%2450b%3F-%2470b%3F-how-openai%E2%80%99s.html",
       "published": "2026-10-09T14:57:00+00:00",
       "symbol": "AVGO",
-      "verification": "Sourced headline metadata; not independent verification of the full article"
+      "image_url": "https://media.zenfs.com/en/Barrons.com/1f002a00308e5ebb86b23253274e4e08.jpg",
+      "verification": "Sourced headline metadata; not independent verification of the full article",
+      "image_file": "news-image-1.jpg"
     }
   },
   {
