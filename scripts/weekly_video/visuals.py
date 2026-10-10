@@ -2,7 +2,7 @@
 import functools,json,math,subprocess,textwrap
 from pathlib import Path
 import numpy as np
-from PIL import Image,ImageDraw,ImageFont,ImageOps,ImageEnhance
+from PIL import Image,ImageDraw,ImageFont,ImageOps,ImageEnhance,ImageFilter
 
 GOLD='#e2bd69';WHITE='#f1eee7';GRAY='#b9bdc4';GREEN='#4caf50';RED='#f23645';CYAN='#24c5d9';BG='#101317'
 ASSETS=Path(__file__).parent/'assets'
@@ -215,6 +215,17 @@ def character_stream(kind,start):
     proc=subprocess.Popen(['ffmpeg','-v','error','-stream_loop','-1','-ss',str(start*.90%60),'-i',str(ASSETS/('user-'+kind+'.mp4')),'-an','-vf',filters,'-f','rawvideo','-pix_fmt','rgba','-threads','1','-'],stdout=subprocess.PIPE)
     return proc,size
 
+def remove_debate_background(clip):
+    # Remove only near-black pixels connected to the outer background;
+    # preserve enclosed dark suit details rather than keying every black pixel.
+    rgb=np.asarray(clip)[:,:,:3]
+    dark=Image.fromarray(np.where(rgb.max(axis=2)<42,255,0).astype(np.uint8)).copy()
+    for point in [(0,0),(clip.width-1,0),(0,clip.height-1),(clip.width-1,clip.height-1)]:
+        if dark.getpixel(point)==255:ImageDraw.floodfill(dark,point,128)
+    alpha=Image.fromarray(np.where(np.asarray(dark)==128,0,255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(.45))
+    clip.putalpha(alpha)
+    return clip
+
 def render_piece(task):
     root,scene_index,start,end,portrait,index=task;root=Path(root);a=json.loads((root/'analysis.json').read_text());scenes=json.loads((root/'timing.json').read_text());scene=scenes[scene_index]
     w,h=(720,1280) if portrait else (1280,720);outw,outh=(1080,1920) if portrait else (1920,1080);fps=24
@@ -232,6 +243,7 @@ def render_piece(task):
                 raw=character.stdout.read(size[0]*size[1]*4)
                 assert len(raw)==size[0]*size[1]*4,'Character video decode ended unexpectedly'
                 clip=Image.frombytes('RGBA',size,raw)
+                if kind=='debate':clip=remove_debate_background(clip)
                 im.paste(clip,(w-size[0]-22,72),clip)
             p.stdin.write(im.tobytes())
         p.stdin.close()

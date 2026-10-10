@@ -15,7 +15,7 @@ def main():
         source=out/item['path'];shutil.copy2(source,dest/source.name);links.append(f'- [{source.name}](video/{source.name}?raw=1)')
         for name in ['captions.srt','script.txt','validation.json']:
             shutil.copy2(source.parent/name,dest/(source.stem+'_'+name))
-    for name in ['YouTube_thumbnail.png','YouTube_title_and_description.txt','TikTok_captions.txt','Sources_and_methods.md','analysis.json','validation.json']:
+    for name in ['YouTube_thumbnail.png','YouTube_title_and_description.txt','YouTube_upload_settings.txt','TikTok_captions.txt','Sources_and_methods.md','analysis.json','validation.json']:
         shutil.copy2(out/name,dest/name);links.append(f'- [{name}](video/{name}?raw=1)')
     shutil.copy2(out/'Market_Mind_Weekly_2026-10-05_to_09'/'contact-sheet.jpg',dest/'contact-sheet.jpg')
     if (out/'sources').exists():shutil.copytree(out/'sources',dest/'sources',dirs_exist_ok=True)
