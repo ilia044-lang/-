@@ -50,12 +50,14 @@ def build(a):
     context={'MSTR':'Bitcoin sensitivity and the company capital structure can amplify moves.','IREN':'Watch operating execution and funding disclosures alongside the digital infrastructure theme.','AVGO':'Semiconductor demand and infrastructure spending are the business context; the chart alone cannot confirm either.','CIFR':'This is Cipher Digital, ticker C I F R. Infrastructure execution and financing remain relevant context.'}
     for sym in ['MSTR','IREN','AVGO','CIFR']:
         x=m[sym];vol=f'Volume was {x["relative_volume"]:.2f} times its twenty session average.' if x['relative_volume'] is not None else ''
+        above=[n for n in ['20','50','150','200'] if x['close']>x['ma'][n]]
+        context[sym]=('Price is above all four moving averages, despite this week\'s decline.' if len(above)==4 and x['weekly_pct']<0 else 'Price is above all four moving averages.' if len(above)==4 else 'Price is below all four moving averages, showing a weaker daily structure.' if not above else 'Price is above the twenty day average, but below the fifty, one fifty and two hundred.' if above==['20'] else f'Price is above {len(above)} of the four moving averages.')
         add('stock',f'{sym}: LEVELS, NOT PROMISES',x['name'].upper()+' • TECHNICAL WATCHLIST',
             f'{x["name"]} closed at {price(x["close"])} dollars, {direction(x["weekly_pct"])} for the review week. '+context[sym]+f' The observed support reference is {price(x["support"])}, with resistance near {price(x["resistance"])}. R S I is {x["rsi"]:.1f}. '+vol+' Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening. These are conditional scenarios, not recommendations.',symbol=sym)
     add('scenarios','TWO PATHS. ONE CHECKLIST.','SCENARIOS, NOT PREDICTIONS',
         'For the constructive scenario, look for the major indexes to hold their support references, breadth to improve, and volatility to remain contained. For the risk scenario, watch support breaks accompanied by weaker participation or rising yields and volatility. Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly. None of these conditions guarantees a move. Let new evidence update the assessment.',symbols=['SPY','QQQ'])
-    add('hero','READY FOR NEXT WEEK','MARKET MIND | TRADING BASICS',
-        'That is the weekly map: price, participation, cross asset signals and the calendar. Follow Market Mind for clear chart education and the next weekly briefing. This program is education only, not financial advice. I am not a licensed financial advisor. This is not a recommendation to take any investment action.')
+    add('outro','READY FOR NEXT WEEK','MARKET MIND | TRADING BASICS',
+        'That is the weekly map: price, participation, cross asset signals and the calendar. Subscribe to Market Mind Trading Basics on YouTube for clear chart education and our next weekly market review. This program is education only, not financial advice. I am not a licensed financial advisor. This is not a recommendation to take any investment action.')
     # Remove redundant educational filler while preserving every numerical fact,
     # the reporting dates, watchlist scenarios and the final disclaimer.
     trim=[
@@ -80,13 +82,16 @@ def build(a):
         row['voice']=row['voice'].replace('These are adjusted monthly price returns, with dividends reflected by the data provider.','Adjusted prices reflect the provider dividend adjustments.')
         row['voice']=row['voice'].replace('This is an attributed report, not proof that the headline caused the market move.','Reported headlines do not establish price causation.')
         row['voice']=' '.join(row['voice'].split())
+    gap=abs(spy['ma']['20']-spy['ma']['50'])
+    if gap<spy['atr']*.25:
+        rows[2]['voice']=rows[2]['voice'].replace('Moving averages describe trends; they do not guarantee support.',f'The twenty and fifty day averages are only {gap:.2f} points apart, a tight cluster.')
     return rows
 
 def short_scripts(a):
     s=a['seasonality'][0];m=a['markets'];x=m['SPY']
     return [
-      {'kind':'season','symbol':'SPY','title':'IS OCTOBER REALLY PROFITABLE?','kicker':'15 YEARS OF DATA • 2011–2025','voice':f'Is October really profitable? In fifteen completed Octobers, S P Y was positive {s["positive"]} times and negative {s["negative"]}. Its average October return was {s["mean"]:.2f} percent, but the worst was {s["worst"]:.2f}. These are adjusted monthly returns from twenty eleven through twenty twenty five. This October is incomplete and excluded. History is context, not a guarantee. Watch the full Market Mind weekly review for the charts and next week calendar. Education only, not financial advice.'},
-      {'kind':'scenarios','title':'NEXT WEEK: WATCH THESE SIGNALS','kicker':'OCTOBER 12–16 • MARKET MIND','symbols':['SPY','QQQ'],'voice':f'Before next week, connect three signals. First, S P Y support near {price(x["support"])} and resistance near {price(x["resistance"])}. Second, whether more stocks participate in the move. Third, the reaction in yields and volatility around economic releases and earnings. Our technical watchlist includes Strategy, IREN, Broadcom and Cipher Digital. A level is a reference, not a promise. Watch the full weekly review for context and both scenarios. Education only, not financial advice.'}
+      {'kind':'season','symbol':'SPY','title':'IS OCTOBER REALLY PROFITABLE?','kicker':'15 YEARS OF DATA • 2011–2025','voice':f'Is October really profitable? In fifteen completed Octobers, S P Y was positive {s["positive"]} times. It was negative in {s["negative"]} years. Its average October return was {s["mean"]:.2f} percent. The worst was {s["worst"]:.2f}. These are adjusted monthly returns from twenty eleven through twenty twenty five. This October is incomplete and excluded. History is context, not a guarantee. For the full weekly market review, visit our YouTube channel, Market Mind Trading Basics. Education only, not financial advice.'},
+      {'kind':'scenarios','title':'NEXT WEEK: WATCH THESE SIGNALS','kicker':'OCTOBER 12–16 • MARKET MIND','symbols':['SPY','QQQ'],'voice':f'Before next week, connect price, participation and volatility. S P Y support is near {price(x["support"])} and resistance near {price(x["resistance"])}. The constructive case is support holding while participation improves. The risk case is support breaking as volatility rises. Watch the reaction around economic releases and earnings. Our technical watchlist includes Strategy, IREN, Broadcom and Cipher Digital. These are scenarios, not predictions. For the full weekly market review, visit our YouTube channel, Market Mind Trading Basics. Education only, not financial advice.'}
     ]
 
 def caption_chunks(text):

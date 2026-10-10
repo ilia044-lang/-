@@ -1,5 +1,5 @@
 """Deterministic broadcast graphics: fixed sourced values, animated explanation."""
-import functools,json,math,subprocess,textwrap
+import functools,json,math,subprocess,textwrap,re
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageOps,ImageEnhance,ImageFilter
@@ -7,7 +7,7 @@ from PIL import Image,ImageDraw,ImageFont,ImageOps,ImageEnhance,ImageFilter
 GOLD='#e2bd69';WHITE='#f1eee7';GRAY='#b9bdc4';GREEN='#4caf50';RED='#f23645';CYAN='#24c5d9';BG='#101317'
 ASSETS=Path(__file__).parent/'assets'
 @functools.lru_cache(maxsize=70)
-def font(size,bold=False):return ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if bold else '')+'.ttf',size)
+def font(size,bold=False):return ImageFont.truetype(str(ASSETS/('Inter-700.ttf' if bold else 'Inter-400.ttf')),size)
 def text(im,xy,s,size=26,col=WHITE,bold=False,anchor=None):ImageDraw.Draw(im).text(xy,str(s),font=font(size,bold),fill=col,anchor=anchor)
 def fit(s,width,size,bold=False):
     lines=[]
@@ -33,7 +33,7 @@ def ease(x):x=max(0,min(1,x));return x*x*(3-2*x)
 @functools.lru_cache(maxsize=8)
 def background(w,h,theme):
     im=Image.open(ASSETS/theme).convert('RGB');im=ImageOps.fit(im,(w+100,h+60))
-    return ImageEnhance.Brightness(im).enhance(.34)
+    return ImageEnhance.Brightness(im).enhance(.64)
 
 def orbit(im,t,cx,cy,size):
     """Perspective-projected wire globe; decor, not a market data series."""
@@ -59,23 +59,51 @@ def bar3d(im,x,y,w,height,col):
         d.rectangle((x,y,x+w,top),fill=col);d.polygon([(x+w,y),(x+w+depth,y-depth),(x+w+depth,top-depth),(x+w,top)],fill='#66343c')
 
 def chart(im,record,t,rect):
-    x,y,w,h=rect;d=ImageDraw.Draw(im);panel(im,(x-12,y-14,x+w+68,y+h+42),'#101317')
-    history=record['history'][-42:];vals=[p['high'] for p in history]+[p['low'] for p in history]+[record['support'],record['resistance']]
+    x,y,w,h=rect;d=ImageDraw.Draw(im);panel(im,(x-14,y-38,x+w+72,y+h+20),'#0f0f0f')
+    zoom=int(t/9)%2==1;history=record['history'][-18 if zoom else -60:]
+    ph=h*.57;vy=y+ph+12;vh=h*.12;iy=vy+vh+16;ih=h*.17
+    vals=[p['high'] for p in history]+[p['low'] for p in history]+[record['support'],record['resistance']]
     lo=min(vals);hi=max(vals);pad=(hi-lo)*.1 or 1;lo-=pad;hi+=pad
-    px=lambda i:x+(i+.5)*w/len(history);py=lambda p:y+h-(p-lo)/(hi-lo)*h
+    px=lambda i:x+(i+.5)*w/len(history);py=lambda p:y+ph-(p-lo)/(hi-lo)*ph
+    text(im,(x,y-31),record['symbol']+' · 1D',18,WHITE,True)
+    text(im,(x+155,y-29),'Last candles' if zoom else 'Daily structure',14,GRAY)
+    if w>800:text(im,(x+325,y-29),f'RSI 14 {record["rsi"]:.1f}  ·  ATR 14 {record["atr"]:.2f}',13,GRAY)
+    text(im,(x+w,y-29),f'Week {record["weekly_pct"]:+.2f}%  |  Close {record["close"]:,.2f}',14,GOLD,anchor='rt')
+    text(im,(x+w*.43,y+ph*.45),record['symbol']+', 1D',40,'#252830',True,anchor='mm')
     for k in range(5):
-        price=lo+(hi-lo)*k/4;yy=py(price);d.line((x,yy,x+w,yy),fill='#29313b',width=1);text(im,(x+w+6,yy-9),f'{price:,.1f}',14,GRAY)
+        price=lo+(hi-lo)*k/4;yy=py(price);d.line((x,yy,x+w,yy),fill='#24272f',width=1);text(im,(x+w+6,yy-9),f'{price:,.1f}',12,GRAY)
     for i,p in enumerate(history):
         xx=px(i);col=GREEN if p['close']>=p['open'] else RED;bw=max(2,w/len(history)*.29)
         d.line((xx,py(p['high']),xx,py(p['low'])),fill=col,width=2);a,b=sorted([py(p['open']),py(p['close'])]);d.rectangle((xx-bw,a,xx+bw,max(a+2,b)),fill=col)
-    for period,col in [(20,CYAN),(50,GREEN),(150,RED),(200,GOLD)]:
+    for k,(period,col) in enumerate([(20,CYAN),(50,GREEN),(150,RED),(200,GOLD)]):
         pts=[(px(i),py(p[f'ma{period}'])) for i,p in enumerate(history) if p.get(f'ma{period}') is not None and lo<=p[f'ma{period}']<=hi]
         if len(pts)>1:d.line(pts,fill=col,width=2)
+        label=f'MA{period} {record["ma"][str(period)]:.2f}'
+        if not lo<=record['ma'][str(period)]<=hi:label+=' (off scale)'
+        text(im,(x+k*w/4,y+ph+1),label,11,col)
     for label,price,col in [('SUPPORT',record['support'],GREEN),('RESISTANCE',record['resistance'],RED)]:
-        yy=py(price);length=w*ease(t/2);d.line((x,yy,x+length,yy),fill=col,width=2);text(im,(x+10,yy-23),label+f'  {price:,.2f}',16,col,True)
+        yy=py(price);length=w*ease(t/2);d.line((x,yy,x+length,yy),fill=col,width=2);text(im,(x+10,yy-18),label+f'  {price:,.2f}',12,col,True)
+    close_y=py(record['close']);d.rounded_rectangle((x+w+1,close_y-8,x+w+65,close_y+9),radius=3,fill=GREEN if record['ohlc']['close']>=record['ohlc']['open'] else RED)
+    text(im,(x+w+4,close_y-6),f'{record["close"]:.2f}',10,WHITE,True)
+    pivots=[i for i in range(2,len(history)-2) if history[i]['low']==min(p['low'] for p in history[i-2:i+3])]
+    if len(pivots)>=2:
+        i,j=pivots[-2:]
+        if history[j]['low']>history[i]['low']:
+            d.line((px(i),py(history[i]['low']),px(j),py(history[j]['low'])),fill=CYAN,width=2)
+    vmax=max(p['volume'] or 0 for p in history) or 1
+    for i,p in enumerate(history):
+        height=(p['volume'] or 0)/vmax*vh;xx=px(i);bw=max(2,w/len(history)*.3)
+        d.rectangle((xx-bw,vy+vh-height,xx+bw,vy+vh),fill=GREEN if p['close']>=p['open'] else RED)
+    text(im,(x,vy+1),'Vol',10,GRAY)
+    cci=[p['cci'] or 0 for p in history];cci_limit=max(200,math.ceil(max(abs(v) for v in cci)/100)*100)
+    cp=lambda value:iy+ih*(cci_limit-value)/(2*cci_limit)
+    for value in [-100,0,100]:
+        d.line((x,cp(value),x+w,cp(value)),fill='#34343e',width=1)
+    d.line([(px(i),cp(value)) for i,value in enumerate(cci)],fill='#9b8afb',width=2)
+    text(im,(x,iy),f'CCI 14  {record["cci"]:.1f}',10,'#bdb0ff')
     selected=min(len(history)-1,int((.5+.5*math.sin(t*.32))*(len(history)-1)));xx=px(selected)
-    d.line((xx,y,xx,y+h),fill='#697079',width=1)
-    text(im,(x,y+h+15),history[0]['date']+'  —  '+history[-1]['date']+' | Yahoo Finance',14,GRAY)
+    d.line((xx,y,xx,iy+ih),fill='#697079',width=1)
+    for i in [0,len(history)//2,len(history)-1]:text(im,(px(i),y+h+5),history[i]['date'][5:],10,GRAY,anchor='mt')
 
 def season(im,a,sym,t,rect):
     s=next(x for x in a['seasonality'] if x['symbol']==sym);x,y,w,h=rect;d=ImageDraw.Draw(im)
@@ -89,6 +117,45 @@ def season(im,a,sym,t,rect):
 @functools.lru_cache(maxsize=8)
 def article_image(path):return Image.open(path).convert('RGB')
 
+def cover(a,number=0):
+    """Branded publication covers; every label and statistic is drawn from data."""
+    portrait=number>0;w,h=(1080,1920) if portrait else (1920,1080)
+    base=ImageOps.fit(Image.open(ASSETS/('newsroom.png' if number!=2 else 'digital.png')).convert('RGB'),(w,h))
+    im=ImageEnhance.Brightness(base).enhance(.86);d=ImageDraw.Draw(im)
+    # A localized title panel preserves bright artwork instead of dimming it all.
+    d.rounded_rectangle((45,55,w-45 if portrait else 1240,1040 if portrait else 685),radius=38,fill='#16202a',outline='#af955b',width=3)
+    text(im,(80,90),'MARKET MIND',44 if portrait else 55,GOLD,True)
+    if number==0:
+        text(im,(85,195),'THE MARKET WEEK',100,WHITE,True)
+        text(im,(85,345),"WHAT’S NEXT?",130,GOLD,True)
+        text(im,(90,555),'REVIEW OCT 5–9  ·  OUTLOOK OCT 12–16',40,WHITE,True)
+    elif number==1:
+        wrapped(im,'Was October\nprofitable?',85,220,w-170,105,WHITE,True,3)
+        text(im,(85,520),'15 YEARS OF SPY DATA',43,GOLD,True)
+        s=a['seasonality'][0]
+        text(im,(85,645),f'{s["positive"]}/15',150,GREEN,True)
+        text(im,(90,835),'POSITIVE OCTOBERS',45,WHITE,True)
+        text(im,(90,925),'2011–2025 · Past returns are not a forecast',25,GRAY)
+    else:
+        wrapped(im,'Next week:\n3 signals',85,220,w-170,110,WHITE,True,3)
+        for k,label in enumerate(['PRICE','PARTICIPATION','VOLATILITY']):
+            text(im,(90,570+k*120),f'0{k+1}',49,GOLD,True);text(im,(220,570+k*120),label,48,WHITE,True)
+        text(im,(90,965),'OCTOBER 12–16, 2026',36,GOLD,True)
+    cast=Image.open(ASSETS/'cover-cast.png').convert('RGBA')
+    cast.thumbnail((850,455) if portrait else (640,580))
+    im.paste(cast,((w-cast.width)//2,1048) if portrait else (1260,180),cast)
+    if portrait:
+        panel(im,(45,1510,w-45,1710),'#16202a','#af955b')
+        text(im,(w/2,1542),'Full weekly review on YouTube',38,WHITE,True,'mt')
+        text(im,(w/2,1615),'@MarketMindTradingBasics',34,GOLD,True,'mt')
+        text(im,(w/2,1810),'Education only · Not financial advice',29,WHITE,anchor='mt')
+        text(im,(w/2,1858),'I am not a licensed advisor',26,WHITE,anchor='mt')
+    else:
+        panel(im,(60,895,w-60,1015),'#16202a','#af955b')
+        text(im,(95,930),'SPY  ·  QQQ  ·  RATES  ·  WATCHLIST',44,WHITE,True)
+        text(im,(w-90,943),'Education only',29,GOLD,anchor='rt')
+    return im
+
 def frame(a,scene,t,portrait=False,sources=None):
     w,h=(720,1280) if portrait else (1280,720);xpan=round(48+40*math.sin(t*.085));ypan=round(25+22*math.sin(t*.06))
     theme='technology.png' if scene.get('symbol') in ['IREN','AVGO','QQQ'] else 'digital.png' if scene.get('symbol') in ['MSTR','CIFR'] or scene['kind']=='crossasset' else 'newsroom.png'
@@ -96,10 +163,19 @@ def frame(a,scene,t,portrait=False,sources=None):
     orbit(im,t,w*.82,h*.38,210 if portrait else 235)
     d.rectangle((0,0,w,58),fill='#101317');text(im,(28,16),'MARKET MIND',24,GOLD,True);text(im,(w-28,20),'WEEKLY BRIEFING',14,GRAY,anchor='rt')
     text(im,(32,81),scene['kicker'],16,GOLD,True)
-    title_size=35 if portrait else 43
-    title_y=wrapped(im,scene['title'],32,115,w-64 if portrait else w-340,title_size,WHITE,True,4 if scene['kind']=='news' else 3)
-    kind=scene['kind'];m=a['markets'];content_y=max(title_y+28,240 if not portrait else 350)
-    if kind=='hero':
+    title_size=34 if portrait else 40
+    display_title=scene['title'].title() if scene['title'].isupper() else scene['title']
+    for ticker in ['SPY','QQQ','MSTR','IREN','AVGO','CIFR','VIX']:display_title=re.sub(r'\b'+ticker+r'\b',ticker,display_title,flags=re.I)
+    title_y=wrapped(im,display_title,32,115,w-260 if portrait else w-340,title_size,WHITE,True,4 if scene['kind']=='news' else 3)
+    kind=scene['kind'];m=a['markets'];content_y=max(title_y+28,240 if not portrait else 390)
+    if kind=='outro':
+        panel(im,(40,245,840,490),'#171d28','#3b4657')
+        text(im,(70,273),'Your weekly market briefing',31,WHITE,True)
+        d.rounded_rectangle((70,335,310,392),radius=24,fill='#ed334b')
+        text(im,(190,350),'Subscribe',28,WHITE,True,'mt')
+        text(im,(70,420),'@MarketMindTradingBasics',29,GOLD,True)
+        text(im,(70,463),'Education only · Not a recommendation to buy or sell',17,GRAY)
+    elif kind=='hero':
         text(im,(35,content_y+25),'WEEK IN REVIEW',24,GOLD,True)
         text(im,(35,content_y+74),'OCT 5–9, 2026',34,WHITE,True)
         text(im,(35,content_y+132),'NEXT WEEK',24,GOLD,True)
@@ -114,8 +190,7 @@ def frame(a,scene,t,portrait=False,sources=None):
         r=m[scene['symbol']]
         # Intercut chart detail and typographic information rather than holding one slide.
         if kind=='chart' or int(t/7)%2:
-            chart(im,r,t%7,(52,content_y+12,w-155,330 if portrait else 190))
-            wrapped(im,f'RSI {r["rsi"]:.1f} • ATR {r["atr"]:.2f} • CCI {r["cci"]:.1f}\nMA20 cyan | MA50 green | MA150 red | MA200 gold',40,content_y+(405 if portrait else 242),w-80,15,GRAY,maxlines=3)
+            chart(im,r,t,(52,content_y+12,w-155,330 if portrait else 250))
         else:
             wrapped(im,f'${r["close"]:,.2f}',40,content_y,w-80,67,GOLD,True,2)
             wrapped(im,f'{r["weekly_pct"]:+.2f}% this week',40,content_y+100,w-80,34,GREEN if r['weekly_pct']>=0 else RED,True,2)
@@ -165,6 +240,9 @@ def frame(a,scene,t,portrait=False,sources=None):
                 text(im,(40,yy),'OCT '+e['date'][-2:],23,GOLD,True)
                 label=e.get('event') or e.get('symbol','')+' • est.'
                 wrapped(im,label,165,yy,w-200,24,WHITE,True,2)
+    elif kind=='scenarios' and portrait and t<12:
+        chart(im,m['SPY'],t,(50,content_y+20,w-145,390))
+        text(im,(40,content_y+460),'Price · participation · volatility',25,GOLD,True)
     elif kind=='scenarios':
         entries=[('CONSTRUCTIVE',GREEN,'Support holds • Participation improves'),('RISK',RED,'Support breaks • Yields or volatility rise')]
         for k,(label,col,body) in enumerate(entries):
@@ -175,8 +253,20 @@ def frame(a,scene,t,portrait=False,sources=None):
     caption=next((c['text'] for c in scene['captions'] if c['start']<=t<c['end']),'')
     ch=150 if portrait else 112;cy=h-ch-50
     d.rectangle((0,cy-8,w,h),fill='#101317')
-    lines=fit(caption,w-80,27 if portrait else 25)
-    for k,line in enumerate(lines):text(im,(w/2,cy+10+k*35),line,27 if portrait else 25,WHITE,False,'mt')
+    caption_size=28 if portrait else 27
+    lines=fit(caption,w-116,caption_size)
+    if caption:
+        d.rounded_rectangle((24,cy-3,w-24,cy+20+len(lines)*35),radius=22,fill='#1c2330',outline='#354052',width=1)
+    for k,line in enumerate(lines):
+        xx=(w-font(caption_size).getlength(line))/2
+        for token in line.split(' '):
+            text(im,(xx,cy+12+k*35),token,caption_size,CYAN if any(c.isdigit() for c in token) else WHITE)
+            xx+=font(caption_size).getlength(token+' ')
+    if portrait and t>=scene['duration']-9:
+        panel(im,(32,915,w-32,1042),'#192330','#52627a')
+        text(im,(w/2,934),'Watch the full weekly review',25,WHITE,True,'mt')
+        text(im,(w/2,972),'on our YouTube channel',23,WHITE,False,'mt')
+        text(im,(w/2,1005),'@MarketMindTradingBasics',21,GOLD,True,'mt')
     footer='Not financial advice · Education only · I am not a licensed advisor'
     if portrait:
         text(im,(w/2,h-48),'Not financial advice · Education only',17,GRAY,anchor='mt');text(im,(w/2,h-26),'I am not a licensed advisor',16,GRAY,anchor='mt')
@@ -191,11 +281,23 @@ def frame(a,scene,t,portrait=False,sources=None):
     # A short gold wipe makes scene changes visible without masking the narration.
     if t<.3:
         xx=round(w*(1-t/.3));d.rectangle((0,60,xx,h-50),fill='#171b21')
+    if portrait and t>=scene['duration']-.75:
+        # The final selectable frame doubles as the Shorts cover in mobile upload.
+        im=cover(a,1 if scene['kind']=='season' else 2).resize((w,h))
     return im
 
 def character_at(a,scene,t):
     """Illustrate the current spoken argument, never imply a price prediction."""
     caption=' '.join(c['text'] for c in scene['captions'] if c['start']<=t<c['end']).lower()
+    if any(s in caption for s in ['youtube','weekly market review','education only','scenarios, not predictions']):return 'debate'
+    if 'risk case' in caption or 'support breaking' in caption:return 'bear'
+    if 'constructive case' in caption:return 'bull'
+    if 'below all four moving averages' in caption:return 'bear'
+    if 'above all four moving averages' in caption:return 'bull'
+    if scene['kind']=='season':
+        if any(s in caption for s in ['worst','negative','losing']):return 'bear'
+        if any(s in caption for s in ['positive','average october']):return 'bull'
+        return 'debate'
     if any(s in caption for s in ['below support','risk scenario','support breaks','structure is weakening','lower for the review']):return 'bear'
     if any(s in caption for s in ['above resistance','constructive scenario','higher for the review']):return 'bull'
     if scene['kind']=='scenarios':
@@ -235,16 +337,19 @@ def render_piece(task):
     try:
         for n in range(round((end-start)*fps)):
             t=start+n/fps;im=frame(a,scene,t,portrait,root.parent/'sources')
-            if not portrait:
-                kind=character_at(a,scene,t)
-                if kind!=active:
-                    if character:character.kill();character.wait();character.stdout.close()
-                    character,size=character_stream(kind,t);active=kind
-                raw=character.stdout.read(size[0]*size[1]*4)
-                assert len(raw)==size[0]*size[1]*4,'Character video decode ended unexpectedly'
-                clip=Image.frombytes('RGBA',size,raw)
-                if kind=='debate':clip=remove_debate_background(clip)
-                im.paste(clip,(w-size[0]-22,72),clip)
+            if portrait and t>=scene['duration']-.75:
+                p.stdin.write(im.tobytes());continue
+            kind=character_at(a,scene,t)
+            if kind!=active:
+                if character:character.kill();character.wait();character.stdout.close()
+                character,size=character_stream(kind,t);active=kind
+            raw=character.stdout.read(size[0]*size[1]*4)
+            assert len(raw)==size[0]*size[1]*4,'Character video decode ended unexpectedly'
+            clip=Image.frombytes('RGBA',size,raw)
+            if kind=='debate':clip=remove_debate_background(clip)
+            if portrait:
+                clip.thumbnail((205,150));im.paste(clip,(w-clip.width-24,205),clip)
+            else:im.paste(clip,(w-size[0]-22,72),clip)
             p.stdin.write(im.tobytes())
         p.stdin.close()
         if p.wait()!=0:raise RuntimeError('FFmpeg encoding failed')
