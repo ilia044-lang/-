@@ -1,0 +1,82 @@
+name: Bitcoin daily Short — Oct 11 at 17-00 Israel
+on:
+  schedule:
+    # 2026-10-11 17:00 Asia/Jerusalem is 14:00 UTC.
+    - cron: '0 14 11 10 *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bitcoin-daily-2026-10-11
+  cancel-in-progress: false
+jobs:
+  produce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONUNBUFFERED: '1'
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '1'
+      BITCOIN_OUTPUT: /tmp/bitcoin-daily-2026-10-11
+    steps:
+      - name: Enforce the requested one-time production window
+        id: gate
+        run: |
+          python - <<'PY'
+          import datetime as dt,os
+          from zoneinfo import ZoneInfo
+          now=dt.datetime.now(dt.timezone.utc)
+          start=dt.datetime(2026,10,11,17,tzinfo=ZoneInfo('Asia/Jerusalem'))
+          run=start<=now<start+dt.timedelta(hours=8)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('run='+str(run).lower()+'\n')
+          print('Authorized production window:',start.isoformat(),'Run:',run)
+          PY
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          ref: codex/bitcoin-daily-2026-10-11
+          path: source
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: source/scripts/weekly_video/requirements.txt
+      - name: Install production dependencies
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core libsndfile1
+          python -m pip install -r source/scripts/weekly_video/requirements.txt
+          python -m pip check
+      - uses: actions/cache@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          path: ~/.cache/stock-video
+          key: kokoro-onnx-model-files-v1-0
+      - name: Fetch fresh Bitcoin data and the last completed UTC candle
+        if: steps.gate.outputs.run == 'true'
+        run: python source/scripts/bitcoin_video/collect.py
+      - name: Render moving daily analysis, voice, captions and cover
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python source/scripts/bitcoin_video/produce.py
+          python source/scripts/bitcoin_video/publishing_text.py
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.gate.outputs.run == 'true'
+        with:
+          name: Bitcoin-2026-10-11-${{ github.run_id }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: |
+            /tmp/bitcoin-daily-2026-10-11/**
+            !/tmp/bitcoin-daily-2026-10-11/**/chunks/**
+      - uses: actions/checkout@v4
+        if: success() && steps.gate.outputs.run == 'true'
+        with:
+          path: publish
+      - name: Save the validated video and publishing kit to GitHub
+        if: success() && steps.gate.outputs.run == 'true'
+        env:
+          PUBLISH_REPO: ${{ github.workspace }}/publish
+        run: python source/scripts/bitcoin_video/publish.py
