@@ -321,7 +321,7 @@ def remove_debate_background(clip):
     # Remove only near-black pixels connected to the outer background;
     # preserve enclosed dark suit details rather than keying every black pixel.
     rgb=np.asarray(clip)[:,:,:3]
-    dark=Image.fromarray(np.where(rgb.max(axis=2)<42,255,0).astype(np.uint8)).copy()
+    dark=Image.fromarray(np.where(rgb.max(axis=2)<12,255,0).astype(np.uint8)).copy()
     for point in [(0,0),(clip.width-1,0),(0,clip.height-1),(clip.width-1,clip.height-1)]:
         if dark.getpixel(point)==255:ImageDraw.floodfill(dark,point,128)
     alpha=Image.fromarray(np.where(np.asarray(dark)==128,0,255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(.45))
