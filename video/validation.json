@@ -22,8 +22,8 @@
       "duration": 452.041667,
       "audio_duration": 452.042,
       "fps": 24,
-      "sha256": "02c6f4aef5e6048f482206567995c96f7aa3c14f561b559504ee6226203d641e",
-      "bytes": 49663366,
+      "sha256": "201fd12e2962f4b4bbd507c2a5f236446441445fb3044f12a3ec309d5a580a9c",
+      "bytes": 49036836,
       "motion_mean_absolute_difference": 6.040667679398148,
       "caption_segments": 113
     },
@@ -37,9 +37,9 @@
       "duration": 33.25,
       "audio_duration": 33.25,
       "fps": 24,
-      "sha256": "00101d3f5a216412c5d2460aaa1218c408e6a19da09e4e19319356e79169eebd",
-      "bytes": 1976526,
-      "motion_mean_absolute_difference": 5.321303891782407,
+      "sha256": "4eaa1182f93a7f4c830caeb24c6cda85e88124e80177147b1218227618cd5ca3",
+      "bytes": 1967085,
+      "motion_mean_absolute_difference": 5.339809027777778,
       "caption_segments": 8
     },
     {
@@ -58,5 +58,5 @@
       "caption_segments": 8
     }
   ],
-  "completed_utc": "2026-10-09T20:48:48.387414+00:00"
+  "completed_utc": "2026-10-10T08:25:55.034045+00:00"
 }

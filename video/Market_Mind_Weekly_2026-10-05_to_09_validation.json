@@ -7,8 +7,8 @@
   "duration": 452.041667,
   "audio_duration": 452.042,
   "fps": 24,
-  "sha256": "02c6f4aef5e6048f482206567995c96f7aa3c14f561b559504ee6226203d641e",
-  "bytes": 49663366,
+  "sha256": "201fd12e2962f4b4bbd507c2a5f236446441445fb3044f12a3ec309d5a580a9c",
+  "bytes": 49036836,
   "motion_mean_absolute_difference": 6.040667679398148,
   "caption_segments": 113
 }
