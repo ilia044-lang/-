@@ -97,7 +97,7 @@ def frame(a,scene,t,portrait=False,sources=None):
     d.rectangle((0,0,w,58),fill='#101317');text(im,(28,16),'MARKET MIND',24,GOLD,True);text(im,(w-28,20),'WEEKLY BRIEFING',14,GRAY,anchor='rt')
     text(im,(32,81),scene['kicker'],16,GOLD,True)
     title_size=35 if portrait else 43
-    title_y=wrapped(im,scene['title'],32,115,w-64,title_size,WHITE,True,4 if scene['kind']=='news' else 3)
+    title_y=wrapped(im,scene['title'],32,115,w-64 if portrait else w-340,title_size,WHITE,True,4 if scene['kind']=='news' else 3)
     kind=scene['kind'];m=a['markets'];content_y=max(title_y+28,240 if not portrait else 350)
     if kind=='hero':
         text(im,(35,content_y+25),'WEEK IN REVIEW',24,GOLD,True)
@@ -109,18 +109,18 @@ def frame(a,scene,t,portrait=False,sources=None):
     elif kind=='season':
         season(im,a,scene['symbol'],t,(40,content_y,w-92,360 if portrait else 230))
         s=next(x for x in a['seasonality'] if x['symbol']==scene['symbol'])
-        wrapped(im,f'Best {s["best"]:+.2f}%  •  Worst {s["worst"]:+.2f}%\n2026 excluded • Past performance is not a forecast',40,content_y+(435 if portrait else 283),w-80,20,GRAY,maxlines=3)
+        wrapped(im,f'Best {s["best"]:+.2f}%  •  Worst {s["worst"]:+.2f}%\n2026 excluded • Past performance is not a forecast',40,content_y+(435 if portrait else 253),w-80,17,GRAY,maxlines=3)
     elif kind in ['chart','stock']:
         r=m[scene['symbol']]
         # Intercut chart detail and typographic information rather than holding one slide.
         if kind=='chart' or int(t/7)%2:
-            chart(im,r,t%7,(52,content_y+12,w-155,330 if portrait else 215))
-            wrapped(im,f'RSI {r["rsi"]:.1f} • ATR {r["atr"]:.2f} • CCI {r["cci"]:.1f}\nMA20 cyan | MA50 green | MA150 red | MA200 gold',40,content_y+(405 if portrait else 285),w-80,17,GRAY,maxlines=3)
+            chart(im,r,t%7,(52,content_y+12,w-155,330 if portrait else 190))
+            wrapped(im,f'RSI {r["rsi"]:.1f} • ATR {r["atr"]:.2f} • CCI {r["cci"]:.1f}\nMA20 cyan | MA50 green | MA150 red | MA200 gold',40,content_y+(405 if portrait else 242),w-80,15,GRAY,maxlines=3)
         else:
             wrapped(im,f'${r["close"]:,.2f}',40,content_y,w-80,67,GOLD,True,2)
             wrapped(im,f'{r["weekly_pct"]:+.2f}% this week',40,content_y+100,w-80,34,GREEN if r['weekly_pct']>=0 else RED,True,2)
             wrapped(im,f'SUPPORT  {r["support"]:,.2f}\nRESISTANCE  {r["resistance"]:,.2f}',40,content_y+170,w-80,27,WHITE,True,3)
-            wrapped(im,'Scenarios, not predictions',40,content_y+270,w-80,22,GRAY,False,2)
+            wrapped(im,'Scenarios, not predictions',40,content_y+245,w-80,22,GRAY,False,2)
     elif kind=='scoreboard':
         syms=scene['symbols'];limit=max(abs(m[s]['weekly_pct']) for s in syms)+.5
         for k,sym in enumerate(syms):
@@ -161,7 +161,7 @@ def frame(a,scene,t,portrait=False,sources=None):
         if not entries:wrapped(im,'Specific dates could not be verified.\nCheck the original calendar before the event.',40,content_y,w-80,32,WHITE,True,4)
         else:
             for k,e in enumerate(entries[:6]):
-                yy=content_y+k*(100 if portrait else 59)
+                yy=content_y+k*(100 if portrait else 48)
                 text(im,(40,yy),'OCT '+e['date'][-2:],23,GOLD,True)
                 label=e.get('event') or e.get('symbol','')+' • est.'
                 wrapped(im,label,165,yy,w-200,24,WHITE,True,2)
@@ -193,15 +193,51 @@ def frame(a,scene,t,portrait=False,sources=None):
         xx=round(w*(1-t/.3));d.rectangle((0,60,xx,h-50),fill='#171b21')
     return im
 
+def character_at(a,scene,t):
+    """Illustrate the current spoken argument, never imply a price prediction."""
+    caption=' '.join(c['text'] for c in scene['captions'] if c['start']<=t<c['end']).lower()
+    if any(s in caption for s in ['below support','risk scenario','support breaks','structure is weakening','lower for the review']):return 'bear'
+    if any(s in caption for s in ['above resistance','constructive scenario','higher for the review']):return 'bull'
+    if scene['kind']=='scenarios':
+        risk=next((c['start'] for c in scene['captions'] if 'risk scenario' in c['text'].lower()),None)
+        if risk is not None:return 'bull' if t<risk else 'bear'
+        return 'debate'
+    if scene['kind'] in ['stock','scoreboard','chart']:
+        change=a['markets'][scene.get('symbol','SPY')]['weekly_pct']
+        return 'bull' if change>.15 else 'bear' if change<-.15 else 'debate'
+    return 'debate'
+
+def character_stream(kind,start):
+    crop='crop=1120:720:80:0' if kind=='debate' else 'crop=760:720:440:0'
+    size=(250,160) if kind=='debate' else (169,160)
+    key='colorkey=0x0dcc43:0.24:0.08,' if kind!='debate' else ''
+    filters=f'{key}{crop},scale={size[0]}:{size[1]},setpts=(PTS-STARTPTS)/0.90,fps=24,format=rgba'
+    proc=subprocess.Popen(['ffmpeg','-v','error','-stream_loop','-1','-ss',str(start*.90%60),'-i',str(ASSETS/('user-'+kind+'.mp4')),'-an','-vf',filters,'-f','rawvideo','-pix_fmt','rgba','-threads','1','-'],stdout=subprocess.PIPE)
+    return proc,size
+
 def render_piece(task):
     root,scene_index,start,end,portrait,index=task;root=Path(root);a=json.loads((root/'analysis.json').read_text());scenes=json.loads((root/'timing.json').read_text());scene=scenes[scene_index]
     w,h=(720,1280) if portrait else (1280,720);outw,outh=(1080,1920) if portrait else (1920,1080);fps=24
     dest=root/'chunks'/f'{index:04d}.mp4';dest.parent.mkdir(exist_ok=True)
     p=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{w}x{h}','-r',str(fps),'-i','-','-an','-vf',f'scale={outw}:{outh}:flags=lanczos','-c:v','libx264','-preset','veryfast','-crf','25','-pix_fmt','yuv420p','-threads','2',str(dest)],stdin=subprocess.PIPE)
+    character=None;active=None
     try:
-        for n in range(round((end-start)*fps)):p.stdin.write(frame(a,scene,start+n/fps,portrait,root.parent/'sources').tobytes())
+        for n in range(round((end-start)*fps)):
+            t=start+n/fps;im=frame(a,scene,t,portrait,root.parent/'sources')
+            if not portrait:
+                kind=character_at(a,scene,t)
+                if kind!=active:
+                    if character:character.kill();character.wait();character.stdout.close()
+                    character,size=character_stream(kind,t);active=kind
+                raw=character.stdout.read(size[0]*size[1]*4)
+                assert len(raw)==size[0]*size[1]*4,'Character video decode ended unexpectedly'
+                clip=Image.frombytes('RGBA',size,raw)
+                im.paste(clip,(w-size[0]-22,72),clip)
+            p.stdin.write(im.tobytes())
         p.stdin.close()
         if p.wait()!=0:raise RuntimeError('FFmpeg encoding failed')
     except BaseException:
         p.kill();p.wait();raise
+    finally:
+        if character:character.kill();character.wait();character.stdout.close()
     return str(dest)

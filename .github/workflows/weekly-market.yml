@@ -84,7 +84,13 @@ jobs:
           TRADE_DATE: ${{ steps.plan.outputs.date }}
         run: |
           set -euo pipefail
-          python source/scripts/weekly_video/run.py --date "$TRADE_DATE" --out "$OUTPUT_DIR" --attempts 12 --data-only
+          # This edit changes visuals only: retain the verified October 9 snapshot.
+          git -C source fetch origin deliveries/WEEKLY-2026-10-09
+          mkdir -p /tmp/weekly-verified-inputs "$OUTPUT_DIR"
+          git -C source archive FETCH_HEAD video/analysis.json video/sources | tar -x -C /tmp/weekly-verified-inputs
+          cp /tmp/weekly-verified-inputs/video/analysis.json "$OUTPUT_DIR/analysis.json"
+          cp -R /tmp/weekly-verified-inputs/video/sources "$OUTPUT_DIR/sources"
+          python source/scripts/weekly_video/run.py --date "$TRADE_DATE" --out "$OUTPUT_DIR" --reuse-data --data-only
       - uses: actions/checkout@v4
         if: success() && steps.plan.outputs.run == 'true'
         with:
