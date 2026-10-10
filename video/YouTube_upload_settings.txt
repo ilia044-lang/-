@@ -18,6 +18,7 @@
 weekly stock market review, October 2026, SPY, QQQ, VIX, MSTR, IREN, AVGO, CIFR, Market Mind, stock market education
 
 שני השורטים
+- קאברים נפרדים: Short_1_cover.png ו-Short_2_cover.png. ביוטיוב שורטס, אפשרות העלאת קאבר חיצוני אינה זמינה בכל ממשק; באפליקציית YouTube בחר את פריים הקאבר בסוף הסרטון. בטיקטוק בחר Cover מתוך פריימי הסרטון או השתמש בקובץ הנפרד אם הממשק מאפשר זאת.
 - העלה כל קובץ בנפרד; שניהם בפורמט 9:16.
 - כותרת Short 1: Is October Really Profitable? 15 Years of SPY Data #Shorts
 - כותרת Short 2: Next Week's Market: 3 Signals to Watch | Oct 12–16 #Shorts

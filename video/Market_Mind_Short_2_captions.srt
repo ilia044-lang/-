@@ -1,31 +1,35 @@
 1
-00:00:00,000 --> 00:00:02,417
-Before next week, connect three signals.
+00:00:00,000 --> 00:00:04,166
+Before next week, connect price, participation and volatility.
 
 2
-00:00:02,417 --> 00:00:11,105
-First, S P Y support near 762.04 and resistance near 779.37.
+00:00:04,166 --> 00:00:12,705
+S P Y support is near 762.04 and resistance near 779.37.
 
 3
-00:00:11,105 --> 00:00:13,906
-Second, whether more stocks participate in the move.
+00:00:12,705 --> 00:00:17,149
+The constructive case is support holding while participation improves.
 
 4
-00:00:13,906 --> 00:00:19,587
-Third, the reaction in yields and volatility around economic releases and earnings.
+00:00:17,149 --> 00:00:20,909
+The risk case is support breaking as volatility rises.
 
 5
-00:00:19,587 --> 00:00:24,905
-Our technical watchlist includes Strategy, IREN, Broadcom and Cipher Digital.
+00:00:20,909 --> 00:00:24,691
+Watch the reaction around economic releases and earnings.
 
 6
-00:00:24,905 --> 00:00:27,279
-A level is a reference, not a promise.
+00:00:24,691 --> 00:00:30,009
+Our technical watchlist includes Strategy, IREN, Broadcom and Cipher Digital.
 
 7
-00:00:27,279 --> 00:00:31,231
-Watch the full weekly review for context and both scenarios.
+00:00:30,009 --> 00:00:32,426
+These are scenarios, not predictions.
 
 8
-00:00:31,231 --> 00:00:34,331
+00:00:32,426 --> 00:00:38,341
+For the full weekly market review, visit our YouTube channel, Market Mind Trading Basics.
+
+9
+00:00:38,341 --> 00:00:41,441
 Education only, not financial advice.

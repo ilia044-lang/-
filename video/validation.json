@@ -1,4 +1,5 @@
 {
+  "revision": "typography-charts-cta-v2",
   "passed": true,
   "smoke": false,
   "preview": false,
@@ -19,12 +20,12 @@
         1920,
         1080
       ],
-      "duration": 452.041667,
-      "audio_duration": 452.042,
+      "duration": 452.083333,
+      "audio_duration": 452.083,
       "fps": 24,
-      "sha256": "af8cfb6462114a04e164108d153d8cf325a606c090789d304175e5772f95d073",
-      "bytes": 52863931,
-      "motion_mean_absolute_difference": 6.040667679398148,
+      "sha256": "09b3496f9726f899d59fcaab08f2a055466f5760cbfdcb334ef8f21c42296e84",
+      "bytes": 54122873,
+      "motion_mean_absolute_difference": 9.014233579282408,
       "caption_segments": 113
     },
     {
@@ -34,13 +35,13 @@
         1080,
         1920
       ],
-      "duration": 33.25,
-      "audio_duration": 33.25,
+      "duration": 34.583333,
+      "audio_duration": 34.583,
       "fps": 24,
-      "sha256": "993f8a439591b0913d92e1cc55618369b487e8a50ff20f1f008b0b2f65da2538",
-      "bytes": 1966139,
-      "motion_mean_absolute_difference": 5.339809027777778,
-      "caption_segments": 8
+      "sha256": "ce54252a146dba42524b193b3ae92ae56203ca9c7e78ed4b8ede17876241a613",
+      "bytes": 2636554,
+      "motion_mean_absolute_difference": 7.382828414351851,
+      "caption_segments": 10
     },
     {
       "path": "Market_Mind_Short_2/Market_Mind_Short_2.mp4",
@@ -49,14 +50,14 @@
         1080,
         1920
       ],
-      "duration": 34.583333,
-      "audio_duration": 34.583,
+      "duration": 41.666667,
+      "audio_duration": 41.667,
       "fps": 24,
-      "sha256": "d136d871ff96253c9c7761ea89e1cb2f33935425dbdea9d0cc0d9694d4f98fa9",
-      "bytes": 3606383,
-      "motion_mean_absolute_difference": 5.311341869212963,
-      "caption_segments": 8
+      "sha256": "f1d546d84b72fe8b7ceb025ab87844c8287d7e5d69a55cb632dc1f4513367ef1",
+      "bytes": 4139261,
+      "motion_mean_absolute_difference": 4.270561342592592,
+      "caption_segments": 9
     }
   ],
-  "completed_utc": "2026-10-10T08:38:27.566872+00:00"
+  "completed_utc": "2026-10-10T13:49:09.940574+00:00"
 }

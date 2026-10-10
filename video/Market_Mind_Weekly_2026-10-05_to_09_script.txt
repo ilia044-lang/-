@@ -6,7 +6,7 @@ WHAT CHANGED THIS WEEK
 The S and P five hundred fund, S P Y, finished 1.16 percent higher. Q Q Q was 0.23 percent higher, while the Dow Jones was 0.93 percent higher. These returns compare the review close with the previous Friday, October second.
 
 SPY: THE MARKET REFERENCE
-S P Y closed at 778.57. The fifty day average is 767.57 and the two hundred day is 722.93. An observed support reference is 762.04, with resistance near 779.37. Moving averages describe trends; they do not guarantee support.
+S P Y closed at 778.57. The fifty day average is 767.57 and the two hundred day is 722.93. An observed support reference is 762.04, with resistance near 779.37. The twenty and fifty day averages are only 0.40 points apart, a tight cluster.
 
 QQQ: CHECK THE LEADERSHIP
 Q Q Q closed at 751.27. Its fourteen day R S I reads 60.9. Support is referenced near 731.63, and resistance near 762.86. Compare its weekly change with the broad index before calling the move broad based. A strong technology index can coexist with weaker individual stocks.
@@ -39,19 +39,19 @@ EARNINGS ON THE RADAR
 GS, October 13. JNJ, October 13. JPM, October 13. UNH, October 13. ASML, October 14. BAC, October 14. These dates are calendar estimates unless an issuer announcement confirms them. For earnings, listen beyond the headline profit number: revenue quality, margins, demand and forward guidance often shape the next conversation. An overnight earnings gap can jump across a chart level.
 
 MSTR: LEVELS, NOT PROMISES
-Strategy closed at 154.34 dollars, 3.54 percent lower for the review week. Bitcoin sensitivity and the company capital structure can amplify moves. The observed support reference is 152.02, with resistance near 170.17. R S I is 55.4. Volume was 0.70 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+Strategy closed at 154.34 dollars, 3.54 percent lower for the review week. Price is above all four moving averages, despite this week's decline. The observed support reference is 152.02, with resistance near 170.17. R S I is 55.4. Volume was 0.70 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
 
 IREN: LEVELS, NOT PROMISES
-IREN closed at 35.19 dollars, 15.73 percent lower for the review week. Watch operating execution and funding disclosures alongside the digital infrastructure theme. The observed support reference is 34.81, with resistance near 42.24. R S I is 33.9. Volume was 1.00 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+IREN closed at 35.19 dollars, 15.73 percent lower for the review week. Price is below all four moving averages, showing a weaker daily structure. The observed support reference is 34.81, with resistance near 42.24. R S I is 33.9. Volume was 1.00 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
 
 AVGO: LEVELS, NOT PROMISES
-Broadcom closed at 361.54 dollars, 1.80 percent higher for the review week. Semiconductor demand and infrastructure spending are the business context; the chart alone cannot confirm either. The observed support reference is 357.80, with resistance near 361.86. R S I is 50.1. Volume was 0.68 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+Broadcom closed at 361.54 dollars, 1.80 percent higher for the review week. Price is above the twenty day average, but below the fifty, one fifty and two hundred. The observed support reference is 357.80, with resistance near 361.86. R S I is 50.1. Volume was 0.68 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
 
 CIFR: LEVELS, NOT PROMISES
-Cipher Digital closed at 13.52 dollars, 13.94 percent lower for the review week. This is Cipher Digital, ticker C I F R. Infrastructure execution and financing remain relevant context. The observed support reference is 12.88, with resistance near 17.47. R S I is 34.2. Volume was 0.54 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
+Cipher Digital closed at 13.52 dollars, 13.94 percent lower for the review week. Price is below all four moving averages, showing a weaker daily structure. The observed support reference is 12.88, with resistance near 17.47. R S I is 34.2. Volume was 0.54 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.
 
 TWO PATHS. ONE CHECKLIST.
 For the constructive scenario, look for the major indexes to hold their support references, breadth to improve, and volatility to remain contained. For the risk scenario, watch support breaks accompanied by weaker participation or rising yields and volatility. Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly. None of these conditions guarantees a move.
 
 READY FOR NEXT WEEK
-That is the weekly map: price, participation, cross asset signals and the calendar. Follow Market Mind for clear chart education and the next weekly briefing. This program is education only, not financial advice. I am not a licensed financial advisor. This is not a recommendation to take any investment action.
+That is the weekly map: price, participation, cross asset signals and the calendar. Subscribe to Market Mind Trading Basics on YouTube for clear chart education and our next weekly market review. This program is education only, not financial advice. I am not a licensed financial advisor. This is not a recommendation to take any investment action.

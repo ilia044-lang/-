@@ -1,0 +1,925 @@
+[
+  {
+    "kind": "hero",
+    "title": "THE WEEK.\nTHE NEXT MOVE.",
+    "kicker": "WEEK OF OCT 5\u20139, 2026",
+    "voice": "Welcome to Market Mind. This is your weekly market briefing for October fifth through ninth, with the road map for October twelfth through sixteenth. We will connect stocks, bonds, oil, the dollar and Bitcoin, examine fifteen Octobers, and put four stocks on a technical watchlist.",
+    "duration": 14.916666666666666,
+    "start": 4,
+    "end": 18.916666666666664,
+    "captions": [
+      {
+        "text": "Welcome to Market Mind.",
+        "start": 0.0,
+        "end": 1.4329145142857145
+      },
+      {
+        "text": "This is your weekly market briefing for October fifth through ninth, with the road",
+        "start": 1.4329145142857145,
+        "end": 5.224903161904762
+      },
+      {
+        "text": "map for October twelfth through sixteenth.",
+        "start": 5.224903161904762,
+        "end": 7.371487161904762
+      },
+      {
+        "text": "We will connect stocks, bonds, oil, the dollar and Bitcoin, examine fifteen Octobers, and",
+        "start": 7.371487161904762,
+        "end": 12.352924952380953
+      },
+      {
+        "text": "put four stocks on a technical watchlist.",
+        "start": 12.352924952380953,
+        "end": 14.677926323809523
+      }
+    ]
+  },
+  {
+    "kind": "scoreboard",
+    "title": "WHAT CHANGED THIS WEEK",
+    "kicker": "PERFORMANCE \u2022 PREVIOUS FRIDAY TO REVIEW DATE",
+    "voice": "The S and P five hundred fund, S P Y, finished 1.16 percent higher. Q Q Q was 0.23 percent higher, while the Dow Jones was 0.93 percent higher. These returns compare the review close with the previous Friday, October second.",
+    "symbols": [
+      "SPY",
+      "QQQ",
+      "^DJI"
+    ],
+    "duration": 15.666666666666666,
+    "start": 18.916666666666664,
+    "end": 34.58333333333333,
+    "captions": [
+      {
+        "text": "The S and P five hundred fund, S P Y, finished 1.16 percent higher.",
+        "start": 0.0,
+        "end": 4.74359994719472
+      },
+      {
+        "text": "Q Q Q was 0.23 percent higher, while the Dow Jones was 0.93 percent",
+        "start": 4.74359994719472,
+        "end": 10.537891485148515
+      },
+      {
+        "text": "higher.",
+        "start": 10.537891485148515,
+        "end": 11.257144396039605
+      },
+      {
+        "text": "These returns compare the review close with the previous Friday, October second.",
+        "start": 11.257144396039605,
+        "end": 15.425837623762378
+      }
+    ]
+  },
+  {
+    "kind": "chart",
+    "title": "SPY: THE MARKET REFERENCE",
+    "kicker": "DAILY PRICE \u2022 OBSERVED LEVELS",
+    "voice": "S P Y closed at 778.57. The fifty day average is 767.57 and the two hundred day is 722.93. An observed support reference is 762.04, with resistance near 779.37. The twenty and fifty day averages are only 0.40 points apart, a tight cluster.",
+    "symbol": "SPY",
+    "duration": 24.125,
+    "start": 34.58333333333333,
+    "end": 58.70833333333333,
+    "captions": [
+      {
+        "text": "S P Y closed at 778.57.",
+        "start": 0.0,
+        "end": 3.3772294608788855
+      },
+      {
+        "text": "The fifty day average is 767.57 and the two hundred day is 722.93.",
+        "start": 3.3772294608788855,
+        "end": 10.641774608788854
+      },
+      {
+        "text": "An observed support reference is 762.04, with resistance near 779.37.",
+        "start": 10.641774608788854,
+        "end": 18.34265110932476
+      },
+      {
+        "text": "The twenty and fifty day averages are only 0.40 points apart, a tight cluster.",
+        "start": 18.34265110932476,
+        "end": 23.88170409003216
+      }
+    ]
+  },
+  {
+    "kind": "chart",
+    "title": "QQQ: CHECK THE LEADERSHIP",
+    "kicker": "TECHNOLOGY \u2022 MOMENTUM \u2022 PARTICIPATION",
+    "voice": "Q Q Q closed at 751.27. Its fourteen day R S I reads 60.9. Support is referenced near 731.63, and resistance near 762.86. Compare its weekly change with the broad index before calling the move broad based. A strong technology index can coexist with weaker individual stocks.",
+    "symbol": "QQQ",
+    "duration": 21.791666666666668,
+    "start": 58.70833333333333,
+    "end": 80.5,
+    "captions": [
+      {
+        "text": "Q Q Q closed at 751.27.",
+        "start": 0.0,
+        "end": 3.416595098457888
+      },
+      {
+        "text": "Its fourteen day R S I reads 60.9.",
+        "start": 3.416595098457888,
+        "end": 6.337402771055753
+      },
+      {
+        "text": "Support is referenced near 731.63, and resistance near 762.86.",
+        "start": 6.337402771055753,
+        "end": 13.165015359430605
+      },
+      {
+        "text": "Compare its weekly change with the broad index before calling the move broad based.",
+        "start": 13.165015359430605,
+        "end": 17.454196327402133
+      },
+      {
+        "text": "A strong technology index can coexist with weaker individual stocks.",
+        "start": 17.454196327402133,
+        "end": 21.52523082799525
+      }
+    ]
+  },
+  {
+    "kind": "breadth",
+    "title": "HOW MANY STOCKS JOINED IN?",
+    "kicker": "INDEPENDENT BREADTH PROXY \u2022 NOT THE OFFICIAL S5FI PRINT",
+    "voice": "Our independently calculated breadth proxy is 35.06 percent, covering 502 of 503 listed constituents. This is not the official S five F I print. This measure asks how many index members are above their fifty day average. Meanwhile, VIX reads 14.84, 3.07 percent lower over the review week. VIX measures implied volatility, not the direction of the next move.",
+    "symbol": "^VIX",
+    "duration": 25.833333333333332,
+    "start": 80.5,
+    "end": 106.33333333333333,
+    "captions": [
+      {
+        "text": "Our independently calculated breadth proxy is 35.06 percent, covering 502 of 503 listed constituents.",
+        "start": 0.0,
+        "end": 8.930983783783784
+      },
+      {
+        "text": "This is not the official S five F I print.",
+        "start": 8.930983783783784,
+        "end": 11.396007207207209
+      },
+      {
+        "text": "This measure asks how many index members are above their fifty day average.",
+        "start": 11.396007207207209,
+        "end": 15.566774774774775
+      },
+      {
+        "text": "Meanwhile, VIX reads 14.84, 3.07 percent lower over the review week.",
+        "start": 15.566774774774775,
+        "end": 21.403618018018015
+      },
+      {
+        "text": "VIX measures implied volatility, not the direction of the next move.",
+        "start": 21.403618018018015,
+        "end": 25.59421981981982
+      }
+    ]
+  },
+  {
+    "kind": "rates",
+    "title": "THE PRICE OF MONEY",
+    "kicker": "US TREASURY YIELDS \u2022 10 / 20 / 30 YEARS",
+    "voice": "The ten year yield reads 5.244 percent and the thirty year 5.600 percent in the market feed. The official Treasury series puts the twenty year yield at 5.64 percent, dated 2026-10-08. Yield changes and bond price changes are different things: rising yields generally mean falling bond prices. Higher long term yields can pressure equity valuations and financing costs.",
+    "symbols": [
+      "^TNX",
+      "^TYX"
+    ],
+    "duration": 26.458333333333332,
+    "start": 106.33333333333333,
+    "end": 132.79166666666666,
+    "captions": [
+      {
+        "text": "The ten year yield reads 5.244 percent and the thirty year 5.600 percent in",
+        "start": 0.0,
+        "end": 6.094825972629521
+      },
+      {
+        "text": "the market feed.",
+        "start": 6.094825972629521,
+        "end": 7.191312003910069
+      },
+      {
+        "text": "The official Treasury series puts the twenty year yield at 5.64 percent, dated 2026-10-08.",
+        "start": 7.191312003910069,
+        "end": 15.051424701857282
+      },
+      {
+        "text": "Yield changes and bond price changes are different things: rising yields generally mean falling",
+        "start": 15.051424701857282,
+        "end": 20.571044887585533
+      },
+      {
+        "text": "bond prices.",
+        "start": 20.571044887585533,
+        "end": 21.707200283479963
+      },
+      {
+        "text": "Higher long term yields can pressure equity valuations and financing costs.",
+        "start": 21.707200283479963,
+        "end": 26.195416989247313
+      }
+    ]
+  },
+  {
+    "kind": "crossasset",
+    "title": "OIL. DOLLAR. BITCOIN.",
+    "kicker": "THREE DIFFERENT TRANSMISSION CHANNELS",
+    "voice": "WTI futures read 91.74 dollars per barrel. The dollar index is 102.227. Bitcoin is around 82,318.45 dollars at the captured snapshot. Bitcoin trades around the clock, so this is not an equity market closing print. Oil can affect inflation expectations, while the dollar influences global financial conditions.",
+    "symbols": [
+      "CL=F",
+      "DX-Y.NYB",
+      "BTC-USD"
+    ],
+    "duration": 22.791666666666668,
+    "start": 132.79166666666666,
+    "end": 155.58333333333331,
+    "captions": [
+      {
+        "text": "WTI futures read 91.74 dollars per barrel.",
+        "start": 0.0,
+        "end": 4.031602817460318
+      },
+      {
+        "text": "The dollar index is 102.227.",
+        "start": 4.031602817460318,
+        "end": 7.230234968253968
+      },
+      {
+        "text": "Bitcoin is around 82,318.45 dollars at the captured snapshot.",
+        "start": 7.230234968253968,
+        "end": 12.80878330952381
+      },
+      {
+        "text": "Bitcoin trades around the clock, so this is not an equity market closing print.",
+        "start": 12.80878330952381,
+        "end": 16.999047206349207
+      },
+      {
+        "text": "Oil can affect inflation expectations, while the dollar influences global financial conditions.",
+        "start": 16.999047206349207,
+        "end": 22.53793027777778
+      }
+    ]
+  },
+  {
+    "kind": "season",
+    "title": "SPY: 15 OCTOBERS",
+    "kicker": "2011\u20132025 \u2022 ADJUSTED MONTH-END RETURNS",
+    "voice": "Now the October question. Over fifteen completed Octobers, from twenty eleven through twenty twenty five, S P Y was positive in 9 years and negative in 6. The average October return was 2.17 percent; the median was 2.36. The best was 10.91 percent, and the worst -6.91. Adjusted prices reflect the provider dividend adjustments. October twenty twenty six is incomplete and excluded.",
+    "symbol": "SPY",
+    "duration": 26.0,
+    "start": 155.58333333333331,
+    "end": 181.58333333333331,
+    "captions": [
+      {
+        "text": "Now the October question.",
+        "start": 0.0,
+        "end": 1.6518392846497765
+      },
+      {
+        "text": "Over fifteen completed Octobers, from twenty eleven through twenty twenty five, S P Y",
+        "start": 1.6518392846497765,
+        "end": 6.794544929955291
+      },
+      {
+        "text": "was positive in 9 years and negative in 6.",
+        "start": 6.794544929955291,
+        "end": 9.5967833561848
+      },
+      {
+        "text": "The average October return was 2.17 percent; the median was 2.36.",
+        "start": 9.5967833561848,
+        "end": 14.917999213114754
+      },
+      {
+        "text": "The best was 10.91 percent, and the worst -6.91.",
+        "start": 14.917999213114754,
+        "end": 19.326829543964234
+      },
+      {
+        "text": "Adjusted prices reflect the provider dividend adjustments.",
+        "start": 19.326829543964234,
+        "end": 22.684433073025335
+      },
+      {
+        "text": "October twenty twenty six is incomplete and excluded.",
+        "start": 22.684433073025335,
+        "end": 25.784188518628913
+      }
+    ]
+  },
+  {
+    "kind": "season",
+    "title": "QQQ: 15 OCTOBERS",
+    "kicker": "2011\u20132025 \u2022 ADJUSTED MONTH-END RETURNS",
+    "voice": "Now the October question. Over fifteen completed Octobers, from twenty eleven through twenty twenty five, Q Q Q was positive in 9 years and negative in 6. The average October return was 2.25 percent; the median was 4.00. The best was 11.37 percent, and the worst -8.60. Adjusted prices reflect the provider dividend adjustments. October twenty twenty six is incomplete and excluded.",
+    "symbol": "QQQ",
+    "duration": 26.041666666666668,
+    "start": 181.58333333333331,
+    "end": 207.62499999999997,
+    "captions": [
+      {
+        "text": "Now the October question.",
+        "start": 0.0,
+        "end": 1.6518214632936508
+      },
+      {
+        "text": "Over fifteen completed Octobers, from twenty eleven through twenty twenty five, Q Q Q",
+        "start": 1.6518214632936508,
+        "end": 6.774637371031745
+      },
+      {
+        "text": "was positive in 9 years and negative in 6.",
+        "start": 6.774637371031745,
+        "end": 9.576845564484127
+      },
+      {
+        "text": "The average October return was 2.25 percent; the median was 4.00.",
+        "start": 9.576845564484127,
+        "end": 15.13601505952381
+      },
+      {
+        "text": "The best was 11.37 percent, and the worst -8.60.",
+        "start": 15.13601505952381,
+        "end": 19.366289538690477
+      },
+      {
+        "text": "Adjusted prices reflect the provider dividend adjustments.",
+        "start": 19.366289538690477,
+        "end": 22.72385684325397
+      },
+      {
+        "text": "October twenty twenty six is incomplete and excluded.",
+        "start": 22.72385684325397,
+        "end": 25.82357884623016
+      }
+    ]
+  },
+  {
+    "kind": "news",
+    "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+    "kicker": "MT NEWSWIRES \u2022 2026-10-09",
+    "voice": "In the reported news, MT Newswires published this headline: Exchange-Traded Funds Rise as US Equities Advance After Midday. Reported headlines do not establish price causation.",
+    "news": {
+      "title": "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-us-171521828.html",
+      "published": "2026-10-09T17:15:21+00:00",
+      "symbol": "QQQ",
+      "image_url": null,
+      "verification": "Sourced headline metadata; not independent verification of the full article"
+    },
+    "duration": 11.041666666666666,
+    "start": 207.62499999999997,
+    "end": 218.66666666666663,
+    "captions": [
+      {
+        "text": "In the reported news, MT Newswires published this headline: Exchange-Traded Funds Rise as US",
+        "start": 0.0,
+        "end": 6.009018175438596
+      },
+      {
+        "text": "Equities Advance After Midday.",
+        "start": 6.009018175438596,
+        "end": 7.837419069005848
+      },
+      {
+        "text": "Reported headlines do not establish price causation.",
+        "start": 7.837419069005848,
+        "end": 10.795181029239766
+      }
+    ]
+  },
+  {
+    "kind": "news",
+    "title": "$50B? $70B? How OpenAI\u2019s Accounting Confusion Wrecked the AI Trade",
+    "kicker": "BARRONS.COM \u2022 2026-10-09",
+    "voice": "In the reported news, Barrons.com published this headline: $50B? $70B? How OpenAI\u2019s Accounting Confusion Wrecked the AI Trade. Reported headlines do not establish price causation.",
+    "news": {
+      "title": "$50B? $70B? How OpenAI\u2019s Accounting Confusion Wrecked the AI Trade",
+      "publisher": "Barrons.com",
+      "url": "https://finance.yahoo.com/m/5b1b0d95-fc06-3130-815e-05ab50b8e9eb/%2450b%3F-%2470b%3F-how-openai%E2%80%99s.html",
+      "published": "2026-10-09T14:57:00+00:00",
+      "symbol": "AVGO",
+      "image_url": "https://media.zenfs.com/en/Barrons.com/1f002a00308e5ebb86b23253274e4e08.jpg",
+      "verification": "Sourced headline metadata; not independent verification of the full article",
+      "image_file": "news-image-1.jpg"
+    },
+    "duration": 12.0,
+    "start": 218.66666666666663,
+    "end": 230.66666666666663,
+    "captions": [
+      {
+        "text": "In the reported news, Barrons.com published this headline: $50B? $70B?",
+        "start": 0.0,
+        "end": 5.296918110032363
+      },
+      {
+        "text": "How OpenAI\u2019s Accounting Confusion Wrecked the AI Trade.",
+        "start": 5.296918110032363,
+        "end": 8.790419227615965
+      },
+      {
+        "text": "Reported headlines do not establish price causation.",
+        "start": 8.790419227615965,
+        "end": 11.748840578209277
+      }
+    ]
+  },
+  {
+    "kind": "calendar",
+    "title": "NEXT WEEK: OCTOBER 12\u201316",
+    "kicker": "ECONOMIC RELEASES \u2022 EXPECTATIONS VS ACTUALS",
+    "voice": "On October 14, the economic calendar lists Consumer Price Index. On October 15, the economic calendar lists Producer Price Index. On October 15, the economic calendar lists Retail sales. On October 15, the economic calendar lists Initial jobless claims. On October 16, the economic calendar lists Industrial production. The important distinction is the release versus the consensus expectation. Watch the reaction in yields, the dollar and equity breadth together. Economic calendars can change; recheck the original source before the event.",
+    "events": [
+      {
+        "date": "2026-10-14",
+        "event": "Consumer Price Index",
+        "family": "CPI",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "CPI MM, SA"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Producer Price Index",
+        "family": "PPI",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "PPI Final Demand MM"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Retail sales",
+        "family": "Retail Sales",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "Retail Sales MM"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Initial jobless claims",
+        "family": "Jobless",
+        "time": "08:30 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "Initial Jobless Clm *"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Industrial production",
+        "family": "Industrial",
+        "time": "09:15 ET",
+        "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&economicEventsHighImportanceOnly=false&economicEventsRegionFilter=US&endDate=1792209600000&modules=economicEvents&startDate=1791777600000&lang=en-US&region=US",
+        "status": "Yahoo economic calendar; schedule subject to change",
+        "source_event": "Industrial Production MM*"
+      }
+    ],
+    "duration": 32.666666666666664,
+    "start": 230.66666666666663,
+    "end": 263.3333333333333,
+    "captions": [
+      {
+        "text": "On October 14, the economic calendar lists Consumer Price Index.",
+        "start": 0.0,
+        "end": 4.151515052589956
+      },
+      {
+        "text": "On October 15, the economic calendar lists Producer Price Index.",
+        "start": 4.151515052589956,
+        "end": 8.203845035982601
+      },
+      {
+        "text": "On October 15, the economic calendar lists Retail sales.",
+        "start": 8.203845035982601,
+        "end": 11.918945784104388
+      },
+      {
+        "text": "On October 15, the economic calendar lists Initial jobless claims.",
+        "start": 11.918945784104388,
+        "end": 16.129971878212732
+      },
+      {
+        "text": "On October 16, the economic calendar lists Industrial production.",
+        "start": 16.129971878212732,
+        "end": 20.261649916963226
+      },
+      {
+        "text": "The important distinction is the release versus the consensus expectation.",
+        "start": 20.261649916963226,
+        "end": 24.552024066429418
+      },
+      {
+        "text": "Watch the reaction in yields, the dollar and equity breadth together.",
+        "start": 24.552024066429418,
+        "end": 28.04891766231712
+      },
+      {
+        "text": "Economic calendars can change; recheck the original source before the event.",
+        "start": 28.04891766231712,
+        "end": 32.41863986714116
+      }
+    ]
+  },
+  {
+    "kind": "calendar",
+    "title": "EARNINGS ON THE RADAR",
+    "kicker": "OCTOBER 12\u201316 \u2022 CALENDAR DATES ARE ESTIMATES",
+    "voice": "GS, October 13. JNJ, October 13. JPM, October 13. UNH, October 13. ASML, October 14. BAC, October 14. These dates are calendar estimates unless an issuer announcement confirms them. For earnings, listen beyond the headline profit number: revenue quality, margins, demand and forward guidance often shape the next conversation. An overnight earnings gap can jump across a chart level.",
+    "earnings": [
+      {
+        "date": "2026-10-13",
+        "symbol": "GS",
+        "name": "The Goldman Sachs Group, Inc.",
+        "time": "time-pre-market",
+        "market_cap": "$256,984,973,000",
+        "source": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13",
+        "status": "est. \u2014 Nasdaq calendar; issuer confirmation not independently checked"
+      },
+      {
+        "date": "2026-10-13",
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "time": "time-pre-market",
+        "market_cap": "$618,090,790,000",
+        "source": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13",
+        "status": "est. \u2014 Nasdaq calendar; issuer confirmation not independently checked"
+      },
+      {
+        "date": "2026-10-13",
+        "symbol": "JPM",
+        "name": "J P Morgan Chase & Co",
+        "time": "time-pre-market",
+        "market_cap": "$880,976,070,000",
+        "source": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13",
+        "status": "est. \u2014 Nasdaq calendar; issuer confirmation not independently checked"
+      },
+      {
+        "date": "2026-10-13",
+        "symbol": "UNH",
+        "name": "UnitedHealth Group Incorporated",
+        "time": "time-pre-market",
+        "market_cap": "$332,962,824,000",
+        "source": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-13",
+        "status": "est. \u2014 Nasdaq calendar; issuer confirmation not independently checked"
+      },
+      {
+        "date": "2026-10-14",
+        "symbol": "ASML",
+        "name": "ASML Holding N.V.",
+        "time": "time-pre-market",
+        "market_cap": "$682,108,320,000",
+        "source": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-14",
+        "status": "est. \u2014 Nasdaq calendar; issuer confirmation not independently checked"
+      },
+      {
+        "date": "2026-10-14",
+        "symbol": "BAC",
+        "name": "Bank of America Corporation",
+        "time": "time-pre-market",
+        "market_cap": "$374,881,255,000",
+        "source": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-14",
+        "status": "est. \u2014 Nasdaq calendar; issuer confirmation not independently checked"
+      }
+    ],
+    "duration": 26.291666666666668,
+    "start": 263.3333333333333,
+    "end": 289.625,
+    "captions": [
+      {
+        "text": "GS, October 13.",
+        "start": 0.0,
+        "end": 1.7113258977384465
+      },
+      {
+        "text": "JNJ, October 13.",
+        "start": 1.7113258977384465,
+        "end": 3.660663075712881
+      },
+      {
+        "text": "JPM, October 13.",
+        "start": 3.660663075712881,
+        "end": 5.610000253687316
+      },
+      {
+        "text": "UNH, October 13.",
+        "start": 5.610000253687316,
+        "end": 7.16265196460177
+      },
+      {
+        "text": "ASML, October 14.",
+        "start": 7.16265196460177,
+        "end": 8.893812135693215
+      },
+      {
+        "text": "BAC, October 14.",
+        "start": 8.893812135693215,
+        "end": 10.466298119960667
+      },
+      {
+        "text": "These dates are calendar estimates unless an issuer announcement confirms them.",
+        "start": 10.466298119960667,
+        "end": 14.637073913470992
+      },
+      {
+        "text": "For earnings, listen beyond the headline profit number: revenue quality, margins, demand and forward",
+        "start": 14.637073913470992,
+        "end": 20.493762941986233
+      },
+      {
+        "text": "guidance often shape the next conversation.",
+        "start": 20.493762941986233,
+        "end": 22.919122680432647
+      },
+      {
+        "text": "An overnight earnings gap can jump across a chart level.",
+        "start": 22.919122680432647,
+        "end": 26.038681986234025
+      }
+    ]
+  },
+  {
+    "kind": "stock",
+    "title": "MSTR: LEVELS, NOT PROMISES",
+    "kicker": "STRATEGY \u2022 TECHNICAL WATCHLIST",
+    "voice": "Strategy closed at 154.34 dollars, 3.54 percent lower for the review week. Price is above all four moving averages, despite this week's decline. The observed support reference is 152.02, with resistance near 170.17. R S I is 55.4. Volume was 0.70 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.",
+    "symbol": "MSTR",
+    "duration": 30.333333333333332,
+    "start": 289.625,
+    "end": 319.9583333333333,
+    "captions": [
+      {
+        "text": "Strategy closed at 154.34 dollars, 3.54 percent lower for the review week.",
+        "start": 0.0,
+        "end": 6.392846705882353
+      },
+      {
+        "text": "Price is above all four moving averages, despite this week's decline.",
+        "start": 6.392846705882353,
+        "end": 10.524362588235295
+      },
+      {
+        "text": "The observed support reference is 152.02, with resistance near 170.17.",
+        "start": 10.524362588235295,
+        "end": 17.492460117647056
+      },
+      {
+        "text": "R S I is 55.4.",
+        "start": 17.492460117647056,
+        "end": 19.719697411764706
+      },
+      {
+        "text": "Volume was 0.70 times its twenty session average.",
+        "start": 19.719697411764706,
+        "end": 23.23629
+      },
+      {
+        "text": "Above resistance, watch for a sustained hold and participation.",
+        "start": 23.23629,
+        "end": 26.990917411764705
+      },
+      {
+        "text": "Below support, reassess whether the structure is weakening.",
+        "start": 26.990917411764705,
+        "end": 30.090949058823533
+      }
+    ]
+  },
+  {
+    "kind": "stock",
+    "title": "IREN: LEVELS, NOT PROMISES",
+    "kicker": "IREN \u2022 TECHNICAL WATCHLIST",
+    "voice": "IREN closed at 35.19 dollars, 15.73 percent lower for the review week. Price is below all four moving averages, showing a weaker daily structure. The observed support reference is 34.81, with resistance near 42.24. R S I is 33.9. Volume was 1.00 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.",
+    "symbol": "IREN",
+    "duration": 28.708333333333332,
+    "start": 319.9583333333333,
+    "end": 348.66666666666663,
+    "captions": [
+      {
+        "text": "IREN closed at 35.19 dollars, 15.73 percent lower for the review week.",
+        "start": 0.0,
+        "end": 5.7977646036036035
+      },
+      {
+        "text": "Price is below all four moving averages, showing a weaker daily structure.",
+        "start": 5.7977646036036035,
+        "end": 9.909447765765766
+      },
+      {
+        "text": "The observed support reference is 34.81, with resistance near 42.24.",
+        "start": 9.909447765765766,
+        "end": 15.647703612612611
+      },
+      {
+        "text": "R S I is 33.9.",
+        "start": 15.647703612612611,
+        "end": 17.7955978018018
+      },
+      {
+        "text": "Volume was 1.00 times its twenty session average.",
+        "start": 17.7955978018018,
+        "end": 21.589900927927925
+      },
+      {
+        "text": "Above resistance, watch for a sustained hold and participation.",
+        "start": 21.589900927927925,
+        "end": 25.344531549549547
+      },
+      {
+        "text": "Below support, reassess whether the structure is weakening.",
+        "start": 25.344531549549547,
+        "end": 28.444565846846842
+      }
+    ]
+  },
+  {
+    "kind": "stock",
+    "title": "AVGO: LEVELS, NOT PROMISES",
+    "kicker": "BROADCOM \u2022 TECHNICAL WATCHLIST",
+    "voice": "Broadcom closed at 361.54 dollars, 1.80 percent higher for the review week. Price is above the twenty day average, but below the fifty, one fifty and two hundred. The observed support reference is 357.80, with resistance near 361.86. R S I is 50.1. Volume was 0.68 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.",
+    "symbol": "AVGO",
+    "duration": 31.0,
+    "start": 348.66666666666663,
+    "end": 379.66666666666663,
+    "captions": [
+      {
+        "text": "Broadcom closed at 361.54 dollars, 1.80 percent higher for the review week.",
+        "start": 0.0,
+        "end": 6.1352905075
+      },
+      {
+        "text": "Price is above the twenty day average, but below the fifty, one fifty and",
+        "start": 6.1352905075,
+        "end": 10.108320401666667
+      },
+      {
+        "text": "two hundred.",
+        "start": 10.108320401666667,
+        "end": 11.066087789166666
+      },
+      {
+        "text": "The observed support reference is 357.80, with resistance near 361.86.",
+        "start": 11.066087789166666,
+        "end": 18.371776243333333
+      },
+      {
+        "text": "R S I is 50.1.",
+        "start": 18.371776243333333,
+        "end": 20.28173179083333
+      },
+      {
+        "text": "Volume was 0.68 times its twenty session average.",
+        "start": 20.28173179083333,
+        "end": 23.91752837833333
+      },
+      {
+        "text": "Above resistance, watch for a sustained hold and participation.",
+        "start": 23.91752837833333,
+        "end": 27.672348485833332
+      },
+      {
+        "text": "Below support, reassess whether the structure is weakening.",
+        "start": 27.672348485833332,
+        "end": 30.772539233333333
+      }
+    ]
+  },
+  {
+    "kind": "stock",
+    "title": "CIFR: LEVELS, NOT PROMISES",
+    "kicker": "CIPHER DIGITAL \u2022 TECHNICAL WATCHLIST",
+    "voice": "Cipher Digital closed at 13.52 dollars, 13.94 percent lower for the review week. Price is below all four moving averages, showing a weaker daily structure. The observed support reference is 12.88, with resistance near 17.47. R S I is 34.2. Volume was 0.54 times its twenty session average. Above resistance, watch for a sustained hold and participation. Below support, reassess whether the structure is weakening.",
+    "symbol": "CIFR",
+    "duration": 28.708333333333332,
+    "start": 379.66666666666663,
+    "end": 408.37499999999994,
+    "captions": [
+      {
+        "text": "Cipher Digital closed at 13.52 dollars, 13.94 percent lower for the review week.",
+        "start": 0.0,
+        "end": 6.214325900900901
+      },
+      {
+        "text": "Price is below all four moving averages, showing a weaker daily structure.",
+        "start": 6.214325900900901,
+        "end": 10.326009063063063
+      },
+      {
+        "text": "The observed support reference is 12.88, with resistance near 17.47.",
+        "start": 10.326009063063063,
+        "end": 15.846066135135136
+      },
+      {
+        "text": "R S I is 34.2.",
+        "start": 15.846066135135136,
+        "end": 17.894779063063062
+      },
+      {
+        "text": "Volume was 0.54 times its twenty session average.",
+        "start": 17.894779063063062,
+        "end": 21.58990092792793
+      },
+      {
+        "text": "Above resistance, watch for a sustained hold and participation.",
+        "start": 21.58990092792793,
+        "end": 25.34453154954955
+      },
+      {
+        "text": "Below support, reassess whether the structure is weakening.",
+        "start": 25.34453154954955,
+        "end": 28.444565846846846
+      }
+    ]
+  },
+  {
+    "kind": "scenarios",
+    "title": "TWO PATHS. ONE CHECKLIST.",
+    "kicker": "SCENARIOS, NOT PREDICTIONS",
+    "voice": "For the constructive scenario, look for the major indexes to hold their support references, breadth to improve, and volatility to remain contained. For the risk scenario, watch support breaks accompanied by weaker participation or rising yields and volatility. Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly. None of these conditions guarantees a move.",
+    "symbols": [
+      "SPY",
+      "QQQ"
+    ],
+    "duration": 22.916666666666668,
+    "start": 408.37499999999994,
+    "end": 431.29166666666663,
+    "captions": [
+      {
+        "text": "For the constructive scenario, look for the major indexes to hold their support references,",
+        "start": 0.0,
+        "end": 4.864405575860125
+      },
+      {
+        "text": "breadth to improve, and volatility to remain contained.",
+        "start": 4.864405575860125,
+        "end": 8.023263420191766
+      },
+      {
+        "text": "For the risk scenario, watch support breaks accompanied by weaker participation or rising yields",
+        "start": 8.023263420191766,
+        "end": 13.6809470107163
+      },
+      {
+        "text": "and volatility.",
+        "start": 13.6809470107163,
+        "end": 14.836777868020306
+      },
+      {
+        "text": "Surprise inflation, earnings guidance and geopolitical developments can change the picture quickly.",
+        "start": 14.836777868020306,
+        "end": 20.236646103778906
+      },
+      {
+        "text": "None of these conditions guarantees a move.",
+        "start": 20.236646103778906,
+        "end": 22.66172178454597
+      }
+    ]
+  },
+  {
+    "kind": "outro",
+    "title": "READY FOR NEXT WEEK",
+    "kicker": "MARKET MIND | TRADING BASICS",
+    "voice": "That is the weekly map: price, participation, cross asset signals and the calendar. Subscribe to Market Mind Trading Basics on YouTube for clear chart education and our next weekly market review. This program is education only, not financial advice. I am not a licensed financial advisor. This is not a recommendation to take any investment action.",
+    "duration": 20.791666666666668,
+    "start": 431.29166666666663,
+    "end": 452.0833333333333,
+    "captions": [
+      {
+        "text": "That is the weekly map: price, participation, cross asset signals and the calendar.",
+        "start": 0.0,
+        "end": 4.606204213930348
+      },
+      {
+        "text": "Subscribe to Market Mind Trading Basics on YouTube for clear chart education and our",
+        "start": 4.606204213930348,
+        "end": 9.509862756218904
+      },
+      {
+        "text": "next weekly market review.",
+        "start": 9.509862756218904,
+        "end": 11.101863109452736
+      },
+      {
+        "text": "This program is education only, not financial advice.",
+        "start": 11.101863109452736,
+        "end": 14.597571164179106
+      },
+      {
+        "text": "I am not a licensed financial advisor.",
+        "start": 14.597571164179106,
+        "end": 17.121595079601992
+      },
+      {
+        "text": "This is not a recommendation to take any investment action.",
+        "start": 17.121595079601992,
+        "end": 20.51815169154229
+      }
+    ]
+  }
+]
