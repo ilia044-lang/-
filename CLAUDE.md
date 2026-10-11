@@ -117,3 +117,8 @@ COVER_THEME=sunshine python3 build_cover.py --art ./art --out output/cover.pdf
 
 Stop hook דוחף אוטומטית בסוף כל תשובה, לענף ול-`main`.
 שורת הסטטוס מראה 🟣 כשהכל מגובה. ידנית: `./backup.sh`.
+
+---
+
+# Studio — ערוצי סרטונים (נוסף 11.10.2026)
+בנוסף ל-KDP, הריפו הזה הוא גם הזיכרון של ערוצי הסרטונים. **כשאילייה מדבר על סרטון, ערוץ, Era Mirror, BubiPop או TikTok מסחר — לקרוא קודם `studio/README.md` ו-`studio/STUDIO.md`, ואת הדף של הערוץ ב-`studio/channels/`.**
