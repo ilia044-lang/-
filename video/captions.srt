@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:02,865
+Bitcoin closed 0.44 percent higher.
+
+2
+00:00:02,865 --> 00:00:08,417
+This October eleventh edition analyzes the completed October 10 U T C candle.
+
+3
+00:00:08,417 --> 00:00:10,599
+The current snapshot is shown separately.
+
+4
+00:00:10,833 --> 00:00:14,701
+The completed close was 82,912 dollars.
+
+5
+00:00:14,701 --> 00:00:21,768
+The twenty day average is 84,373, and the fifty day is 80,810.
+
+6
+00:00:21,768 --> 00:00:23,843
+All four averages are on screen.
+
+7
+00:00:24,083 --> 00:00:26,820
+The candle closed 71 percent up its range.
+
+8
+00:00:26,820 --> 00:00:28,362
+R S I is 52.
+
+9
+00:00:28,362 --> 00:00:31,888
+Volume was 0.39 times its twenty day average.
+
+10
+00:00:32,125 --> 00:00:37,123
+The upside reference is resistance near 87,146.
+
+11
+00:00:37,123 --> 00:00:42,633
+A break below the recent low near 80,337 would weaken the structure.
+
+12
+00:00:42,633 --> 00:00:44,260
+Scenarios, not predictions.
+
+13
+00:00:44,500 --> 00:00:49,839
+I B I T is a spot Bitcoin E T F, offering exposure through a brokerage account.
+
+14
+00:00:49,839 --> 00:00:56,395
+It seeks to track Bitcoin, but fees, tracking differences and exchange trading hours mean the match is not exact.
+
+15
+00:00:56,395 --> 00:00:59,707
+Bitcoin trades all weekend; I B I T does not.
+
+16
+00:00:59,958 --> 00:01:02,546
+Subscribe to Market Mind Trading Basics.
+
+17
+00:01:02,546 --> 00:01:03,917
+Education only.
+
+18
+00:01:03,917 --> 00:01:09,256
+I am not a licensed advisor, and this is not a recommendation to take investment action.

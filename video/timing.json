@@ -1,0 +1,164 @@
+[
+  {
+    "kind": "daily_hook",
+    "title": "Bitcoin: the daily map",
+    "kicker": "OCT 11 EDITION \u00b7 DATA: OCT 10 UTC",
+    "actor": "bull",
+    "voice": "Bitcoin closed 0.44 percent higher. This October eleventh edition analyzes the completed October 10 U T C candle. The current snapshot is shown separately.",
+    "duration": 10.833333333333334,
+    "start": 0,
+    "end": 10.833333333333334,
+    "captions": [
+      {
+        "text": "Bitcoin closed 0.44 percent higher.",
+        "start": 0,
+        "end": 2.8646666666666665
+      },
+      {
+        "text": "This October eleventh edition analyzes the completed October 10 U T C candle.",
+        "start": 2.8646666666666665,
+        "end": 8.417333333333334
+      },
+      {
+        "text": "The current snapshot is shown separately.",
+        "start": 8.417333333333334,
+        "end": 10.599333333333334
+      }
+    ]
+  },
+  {
+    "kind": "daily_chart",
+    "title": "The daily structure",
+    "kicker": "BITCOIN / USD \u00b7 1 DAY",
+    "actor": "debate",
+    "voice": "The completed close was 82,912 dollars. The twenty day average is 84,373, and the fifty day is 80,810. All four averages are on screen.",
+    "duration": 13.25,
+    "start": 10.833333333333334,
+    "end": 24.083333333333336,
+    "captions": [
+      {
+        "text": "The completed close was 82,912 dollars.",
+        "start": 0,
+        "end": 3.8673333333333333
+      },
+      {
+        "text": "The twenty day average is 84,373, and the fifty day is 80,810.",
+        "start": 3.8673333333333333,
+        "end": 10.934666666666667
+      },
+      {
+        "text": "All four averages are on screen.",
+        "start": 10.934666666666667,
+        "end": 13.01
+      }
+    ]
+  },
+  {
+    "kind": "daily_candle",
+    "title": "The completed candle",
+    "kicker": "BODY \u00b7 WICKS \u00b7 MOMENTUM",
+    "actor": "debate",
+    "voice": "The candle closed 71 percent up its range. R S I is 52. Volume was 0.39 times its twenty day average.",
+    "duration": 8.041666666666666,
+    "start": 24.083333333333336,
+    "end": 32.125,
+    "captions": [
+      {
+        "text": "The candle closed 71 percent up its range.",
+        "start": 0,
+        "end": 2.736666666666667
+      },
+      {
+        "text": "R S I is 52.",
+        "start": 2.736666666666667,
+        "end": 4.278666666666667
+      },
+      {
+        "text": "Volume was 0.39 times its twenty day average.",
+        "start": 4.278666666666667,
+        "end": 7.804666666666667
+      }
+    ]
+  },
+  {
+    "kind": "daily_scenarios",
+    "title": "Two levels to watch",
+    "kicker": "SCENARIOS, NOT PREDICTIONS",
+    "actor": "debate",
+    "voice": "The upside reference is resistance near 87,146. A break below the recent low near 80,337 would weaken the structure. Scenarios, not predictions.",
+    "duration": 12.375,
+    "start": 32.125,
+    "end": 44.5,
+    "captions": [
+      {
+        "text": "The upside reference is resistance near 87,146.",
+        "start": 0,
+        "end": 4.998
+      },
+      {
+        "text": "A break below the recent low near 80,337 would weaken the structure.",
+        "start": 4.998,
+        "end": 10.508
+      },
+      {
+        "text": "Scenarios, not predictions.",
+        "start": 10.508,
+        "end": 12.135333333333332
+      }
+    ]
+  },
+  {
+    "kind": "daily_ibit",
+    "title": "Bitcoin exposure\nthrough IBIT",
+    "kicker": "ISHARES BITCOIN TRUST ETF",
+    "actor": "debate",
+    "voice": "I B I T is a spot Bitcoin E T F, offering exposure through a brokerage account. It seeks to track Bitcoin, but fees, tracking differences and exchange trading hours mean the match is not exact. Bitcoin trades all weekend; I B I T does not.",
+    "duration": 15.458333333333334,
+    "start": 44.5,
+    "end": 59.958333333333336,
+    "captions": [
+      {
+        "text": "I B I T is a spot Bitcoin E T F, offering exposure through a brokerage account.",
+        "start": 0,
+        "end": 5.339333333333333
+      },
+      {
+        "text": "It seeks to track Bitcoin, but fees, tracking differences and exchange trading hours mean the match is not exact.",
+        "start": 5.339333333333333,
+        "end": 11.894666666666666
+      },
+      {
+        "text": "Bitcoin trades all weekend; I B I T does not.",
+        "start": 11.894666666666666,
+        "end": 15.207333333333333
+      }
+    ]
+  },
+  {
+    "kind": "daily_end",
+    "title": "Follow the daily chart",
+    "kicker": "MARKET MIND \u00b7 TRADING BASICS",
+    "actor": "debate",
+    "voice": "Subscribe to Market Mind Trading Basics. Education only. I am not a licensed advisor, and this is not a recommendation to take investment action.",
+    "duration": 9.541666666666666,
+    "start": 59.958333333333336,
+    "end": 69.5,
+    "captions": [
+      {
+        "text": "Subscribe to Market Mind Trading Basics.",
+        "start": 0,
+        "end": 2.5873333333333335
+      },
+      {
+        "text": "Education only.",
+        "start": 2.5873333333333335,
+        "end": 3.958666666666667
+      },
+      {
+        "text": "I am not a licensed advisor, and this is not a recommendation to take investment action.",
+        "start": 3.958666666666667,
+        "end": 9.298
+      }
+    ]
+  }
+]
