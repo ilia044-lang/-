@@ -1,0 +1,69 @@
+{
+  "ticker": "IREN",
+  "company": "IREN Limited",
+  "exchange": "NasdaqGS",
+  "date": "2026-10-09",
+  "analysis_date": "2026-10-12",
+  "last": {
+    "open": 36.2599983215332,
+    "high": 36.290000915527344,
+    "low": 34.63999938964844,
+    "close": 35.189998626708984,
+    "volume": 38317000.0,
+    "ma20": 42.41874980926514,
+    "ma50": 41.724799957275394,
+    "ma150": 45.34839998881022,
+    "ma200": 45.59010004043579,
+    "rsi": 33.89940439795102,
+    "atr": 2.6300046948535227,
+    "cci": -157.9410758627447,
+    "vol20": 37481860.0
+  },
+  "change": -0.5200004577636719,
+  "change_pct": -1.4561760601942364,
+  "above_count": 0,
+  "volume_ratio": 1.0222811781485763,
+  "anchor": 449,
+  "anchor_price": 28.93000030517578,
+  "anchor_date": "2026-07-29",
+  "advance_pct": 21.638431577939677,
+  "advance_dollars": 6.259998321533203,
+  "resistance": [
+    36.29,
+    37.26
+  ],
+  "support": 34.63999938964844,
+  "trend": {
+    "a": 494,
+    "b": 500,
+    "ya": 39.33000183105469,
+    "yb": 39.33000183105469,
+    "rising": false
+  },
+  "gap": {
+    "low": 38.060001373291016,
+    "high": 38.34000015258789,
+    "index": 499,
+    "direction": "down"
+  },
+  "anatomy": {
+    "body": 1.0699996948242188,
+    "range": 1.6500015258789062,
+    "upper_wick": 0.030002593994140625,
+    "lower_wick": 0.5499992370605469,
+    "body_pct": 64.84840638279181,
+    "close_position": 33.33325626881338
+  },
+  "price_source": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=2y&interval=1d",
+  "retrieved_utc": "2026-10-12T07:03:21.090391+00:00",
+  "news": {
+    "positive": {
+      "headline": "Stocktwits reports speculation linking IREN to Anthropic; no confirmed deal verified.",
+      "publisher": "Stocktwits via Yahoo Finance headline feed",
+      "url": "https://finance.yahoo.com/technology/ai/articles/irens-mystery-customer-anthropic-fresh-015734164.html",
+      "published": "2026-10-12T01:57:34+00:00"
+    },
+    "risk": null,
+    "limitation": "Headline metadata verified; full article unavailable. Anthropic customer identity and deal unconfirmed. No earnings date asserted."
+  }
+}
