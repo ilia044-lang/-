@@ -1,0 +1,15 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "reserved_band": [
+    0,
+    0,
+    1080,
+    240
+  ],
+  "coin_and_character_inside_reserved_band": true,
+  "full_size_snapshot_inspected": true,
+  "cli_motion_viewport_limitation": "staysInFrame audit incorrectly reports 800x600 on this host"
+}
