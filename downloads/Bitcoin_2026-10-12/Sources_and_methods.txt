@@ -4,5 +4,5 @@ MA20/50/150/200 calculated from complete daily closes. RSI14 and ATR14 use Wilde
 IBIT reference: https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf
 No current ETF fee amount or company news asserted.
 Michael is local Kokoro synthetic English speech, not a real person's voice clone. Pitch-preserving playback adjustment: 1.04x. Narration and captions start immediately.
-HyperFrames renders the final HTML composition, combining the dated chart video, local GSAP animation and transparent AI-generated editorial cartoon. Coin has front/back faces and layered 3D thickness. No claim that a political figure endorses the video.
+HyperFrames rendered the underlying chart composition and the revised Three.js 3D cartoon chase. FFmpeg composites the seamless 3D chase loop inside the dedicated top-right band. The procedural character has independently animated shoulders, elbows, hips, knees, head and tie. The Bitcoin coin is a rotating 3D cylinder with face geometry. No claim that a political figure endorses the video.
 Scenario paths are illustrative directions, not price targets.
