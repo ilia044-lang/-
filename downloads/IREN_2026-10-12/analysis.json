@@ -55,7 +55,7 @@
     "close_position": 33.33325626881338
   },
   "price_source": "https://query2.finance.yahoo.com/v8/finance/chart/IREN?range=2y&interval=1d",
-  "retrieved_utc": "2026-10-12T07:03:21.090391+00:00",
+  "retrieved_utc": "2026-10-12T07:34:59.348031+00:00",
   "news": {
     "positive": {
       "headline": "Stocktwits reports speculation linking IREN to Anthropic; no confirmed deal verified.",
