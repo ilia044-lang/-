@@ -1,0 +1,11 @@
+Market data: https://query2.finance.yahoo.com/v8/finance/chart/WFC?range=2y&interval=1d
+Retrieved: 2026-10-12T20:22:33.365963+00:00
+Completed trade date: October 12, 2026.
+Calendar: https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=250&modules=earnings&startDate=1791864000000&endDate=1791950399000&lang=en-US&region=US
+All 222 records were retrieved for October 13. US-primary bank issuers were deduplicated from international cross-listings: JPM, GS, C, WFC, FBK. OTC foreign issuers are outside this US-bank series.
+Provider dateIsEstimate: False. Issuer announcements could not be separately accessed. Consensus EPS figures in the calendar are forecasts and were deliberately omitted from narration.
+Logo asset: https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/WFC.png
+Brand mark is a sourced image, not redrawn by image AI. JPM uses the Chase brand mark belonging to JPMorgan Chase; FBK uses the supplied FB/FirstBank group mark. The plaque is rendered with perspective and real layered depth in HyperFrames.
+MA20/50/150/200: arithmetic means of complete daily closes. RSI14/ATR14: Wilder smoothing. CCI14: typical price, mean absolute deviation. Volume ratio: 20 sessions including the completed session.
+Michael: synthetic Kokoro voice; no cloning. Pitch-preserved playback rate: 1.00000. Charts and captions rendered from fixed reviewed data; only drawing tools and camera animate. Logo animation stays in a separate header band.
+Earnings timing is not an assertion of a trading outcome.

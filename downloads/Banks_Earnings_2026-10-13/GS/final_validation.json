@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ticker": "GS",
+  "company": "Goldman Sachs",
+  "duration": 173.566667,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "narrator": "Michael",
+  "data_date": "2026-10-12",
+  "report_date": "2026-10-13",
+  "report_timing": "BMO per Yahoo calendar",
+  "logo_3d": true,
+  "sha256": "5f5f24383dc30dc3f8c73a7e57eb7597bc4f65bde694c340f05cc732a4774ed7"
+}

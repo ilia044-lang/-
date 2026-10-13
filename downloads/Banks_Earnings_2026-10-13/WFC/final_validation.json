@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ticker": "WFC",
+  "company": "Wells Fargo",
+  "duration": 172.933333,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "narrator": "Michael",
+  "data_date": "2026-10-12",
+  "report_date": "2026-10-13",
+  "report_timing": "BMO per Yahoo calendar",
+  "logo_3d": true,
+  "sha256": "33e6a3a7685d897897ef99add26598fca89ce501d8e3dab0137f4568e83fd229"
+}

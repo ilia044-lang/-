@@ -1,0 +1,13 @@
+{
+  "earnings": true,
+  "ticker": "GS",
+  "companyShortName": "The Goldman Sachs Group, Inc.",
+  "dateIsEstimate": false,
+  "startDateTime": 1791894600000,
+  "startDateTimeType": "BMO",
+  "fiscalYear": "2026",
+  "quarter": "Q3",
+  "epsEstimate": 13.09,
+  "rank": 47387,
+  "gmtOffsetMilliSeconds": -14400000
+}

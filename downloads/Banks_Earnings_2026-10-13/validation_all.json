@@ -1,0 +1,87 @@
+[
+  {
+    "passed": true,
+    "ticker": "JPM",
+    "company": "JPMorgan Chase",
+    "duration": 177.2,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "narrator": "Michael",
+    "data_date": "2026-10-12",
+    "report_date": "2026-10-13",
+    "report_timing": "BMO per Yahoo calendar",
+    "logo_3d": true,
+    "sha256": "c543ccbc11ec729e0e9aeaf21b4fe73c546eaadd145d5395be534db3eb31715e"
+  },
+  {
+    "passed": true,
+    "ticker": "WFC",
+    "company": "Wells Fargo",
+    "duration": 172.933333,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "narrator": "Michael",
+    "data_date": "2026-10-12",
+    "report_date": "2026-10-13",
+    "report_timing": "BMO per Yahoo calendar",
+    "logo_3d": true,
+    "sha256": "33e6a3a7685d897897ef99add26598fca89ce501d8e3dab0137f4568e83fd229"
+  },
+  {
+    "passed": true,
+    "ticker": "GS",
+    "company": "Goldman Sachs",
+    "duration": 173.566667,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "narrator": "Michael",
+    "data_date": "2026-10-12",
+    "report_date": "2026-10-13",
+    "report_timing": "BMO per Yahoo calendar",
+    "logo_3d": true,
+    "sha256": "5f5f24383dc30dc3f8c73a7e57eb7597bc4f65bde694c340f05cc732a4774ed7"
+  },
+  {
+    "passed": true,
+    "ticker": "C",
+    "company": "Citigroup",
+    "duration": 174.666667,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "narrator": "Michael",
+    "data_date": "2026-10-12",
+    "report_date": "2026-10-13",
+    "report_timing": "BMO per Yahoo calendar",
+    "logo_3d": true,
+    "sha256": "b01ab0722cc43a400f710c090a666e661d7a19abc36df883811f9f4dfcb8c39a"
+  },
+  {
+    "passed": true,
+    "ticker": "FBK",
+    "company": "FB Financial / FirstBank",
+    "duration": 174.7,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "narrator": "Michael",
+    "data_date": "2026-10-12",
+    "report_date": "2026-10-13",
+    "report_timing": "BMO per Yahoo calendar",
+    "logo_3d": true,
+    "sha256": "5526c499e6cf5791bfc99119317ac65572aece248ea166aa13942a883ecb79f0"
+  }
+]

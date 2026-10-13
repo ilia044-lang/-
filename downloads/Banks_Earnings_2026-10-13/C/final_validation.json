@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ticker": "C",
+  "company": "Citigroup",
+  "duration": 174.666667,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "narrator": "Michael",
+  "data_date": "2026-10-12",
+  "report_date": "2026-10-13",
+  "report_timing": "BMO per Yahoo calendar",
+  "logo_3d": true,
+  "sha256": "b01ab0722cc43a400f710c090a666e661d7a19abc36df883811f9f4dfcb8c39a"
+}

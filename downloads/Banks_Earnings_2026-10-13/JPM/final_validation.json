@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ticker": "JPM",
+  "company": "JPMorgan Chase",
+  "duration": 177.2,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "narrator": "Michael",
+  "data_date": "2026-10-12",
+  "report_date": "2026-10-13",
+  "report_timing": "BMO per Yahoo calendar",
+  "logo_3d": true,
+  "sha256": "c543ccbc11ec729e0e9aeaf21b4fe73c546eaadd145d5395be534db3eb31715e"
+}

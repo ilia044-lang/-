@@ -1,0 +1,13 @@
+{
+  "earnings": true,
+  "ticker": "WFC",
+  "companyShortName": "Wells Fargo & Company",
+  "dateIsEstimate": false,
+  "startDateTime": 1791894600000,
+  "startDateTimeType": "BMO",
+  "fiscalYear": "2026",
+  "quarter": "Q3",
+  "epsEstimate": 1.86,
+  "rank": 38790,
+  "gmtOffsetMilliSeconds": -14400000
+}

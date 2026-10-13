@@ -1,0 +1,14 @@
+{
+  "earnings": true,
+  "ticker": "FBK",
+  "companyShortName": "FB Financial Corporation",
+  "dateIsEstimate": false,
+  "startDateTime": 1791894600000,
+  "startDateTimeType": "BMO",
+  "fiscalYear": "2026",
+  "quarter": "Q3",
+  "epsEstimate": 1.21,
+  "surprisePercent": 0.0,
+  "rank": 20304,
+  "gmtOffsetMilliSeconds": -14400000
+}

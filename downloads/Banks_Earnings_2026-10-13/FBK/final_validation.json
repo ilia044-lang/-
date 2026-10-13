@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ticker": "FBK",
+  "company": "FB Financial / FirstBank",
+  "duration": 174.7,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "narrator": "Michael",
+  "data_date": "2026-10-12",
+  "report_date": "2026-10-13",
+  "report_timing": "BMO per Yahoo calendar",
+  "logo_3d": true,
+  "sha256": "5526c499e6cf5791bfc99119317ac65572aece248ea166aa13942a883ecb79f0"
+}

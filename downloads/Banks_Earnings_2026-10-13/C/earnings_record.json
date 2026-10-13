@@ -1,0 +1,13 @@
+{
+  "earnings": true,
+  "ticker": "C",
+  "companyShortName": "Citigroup Inc.",
+  "dateIsEstimate": false,
+  "startDateTime": 1791894600000,
+  "startDateTimeType": "BMO",
+  "fiscalYear": "2026",
+  "quarter": "Q3",
+  "epsEstimate": 2.62,
+  "rank": 43592,
+  "gmtOffsetMilliSeconds": -14400000
+}
