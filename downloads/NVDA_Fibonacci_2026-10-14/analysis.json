@@ -1,0 +1,74 @@
+{
+  "ticker": "NVDA",
+  "company": "NVIDIA",
+  "exchange": "NasdaqGS",
+  "date": "2026-10-13",
+  "analysis_date": "2026-10-14",
+  "last": {
+    "open": 224.33999633789062,
+    "high": 228.63999938964844,
+    "low": 223.05999755859375,
+    "close": 228.52000427246094,
+    "volume": 83846800.0,
+    "ma20": 228.3195007324219,
+    "ma50": 223.02640075683593,
+    "ma150": 208.1195332845052,
+    "ma200": 202.53915000915526,
+    "rsi": 51.97373978889673,
+    "atr": 5.593056788422784,
+    "cci": -72.5584495164891,
+    "vol20": 105570825.0
+  },
+  "change": 2.1999969482421875,
+  "change_pct": 0.9720735582561923,
+  "above_count": 4,
+  "volume_ratio": 0.794223214604982,
+  "anchor": 479,
+  "anchor_price": 208.92999267578125,
+  "anchor_date": "2026-09-14",
+  "advance_pct": 9.376352023847323,
+  "advance_dollars": 19.590011596679688,
+  "resistance": [
+    228.64,
+    228.86
+  ],
+  "support": 223.05999755859375,
+  "trend": {
+    "a": 465,
+    "b": 479,
+    "ya": 207.25,
+    "yb": 208.92999267578125,
+    "rising": true
+  },
+  "gap": {
+    "low": 228.86000061035156,
+    "high": 229.11000061035156,
+    "index": 499,
+    "direction": "down"
+  },
+  "anatomy": {
+    "body": 4.1800079345703125,
+    "range": 5.5800018310546875,
+    "upper_wick": 0.1199951171875,
+    "lower_wick": 1.279998779296875,
+    "body_pct": 74.91051188024862,
+    "close_position": 97.84955057685313
+  },
+  "price_source": "https://query2.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d",
+  "retrieved_utc": "2026-10-14T03:55:27.116080+00:00",
+  "news": {
+    "positive": null,
+    "risk": null,
+    "limitation": "No independently verified fresh company news or earnings date asserted."
+  },
+  "fibonacci": {
+    "low": 208.92999267578125,
+    "high": 243.3699951171875,
+    "low_index": 479,
+    "high_index": 495,
+    "level618": 222.08607360839844,
+    "low_retrace_pct": 58.97211416621623,
+    "distance_above618": 0.9739239501953136,
+    "next_resistance": 229.98
+  }
+}
