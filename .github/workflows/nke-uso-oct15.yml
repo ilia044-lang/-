@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true'
         with:
-          ref: acb8968c7082021b1fbe698f92e4c6fdf44899d5
+          ref: 46d20cd41b38b482c0f9844dbb7a4bb9b353957c
           path: source
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
