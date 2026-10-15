@@ -1,0 +1,78 @@
+{
+  "ticker": "NKE",
+  "company": "Nike",
+  "exchange": "NYSE",
+  "date": "2026-10-15",
+  "analysis_date": "2026-10-15",
+  "last": {
+    "open": 35.9900016784668,
+    "high": 37.72999954223633,
+    "low": 35.939998626708984,
+    "close": 37.13999938964844,
+    "volume": 46280216.0,
+    "ma20": 35.382499885559085,
+    "ma50": 37.64299980163574,
+    "ma150": 42.473666458129884,
+    "ma200": 47.52419982910156,
+    "rsi": 58.07937677430296,
+    "atr": 1.157921824083951,
+    "cci": 159.90544409886374,
+    "vol20": 47437760.8
+  },
+  "change": 1.8400001525878906,
+  "change_pct": 5.212465134152522,
+  "above_count": 1,
+  "volume_ratio": 0.9755986627429515,
+  "anchor": 491,
+  "anchor_price": 31.969999313354492,
+  "anchor_date": "2026-10-02",
+  "advance_pct": 16.171411283497704,
+  "advance_dollars": 5.170000076293945,
+  "resistance": [
+    37.16,
+    37.41
+  ],
+  "support": 31.96999931335449,
+  "trend": {
+    "a": 491,
+    "b": 500,
+    "ya": 31.969999313354492,
+    "yb": 31.969999313354492,
+    "rising": false
+  },
+  "gap": {
+    "low": 35.560001373291016,
+    "high": 35.939998626708984,
+    "index": 500,
+    "direction": "up"
+  },
+  "anatomy": {
+    "body": 1.1499977111816406,
+    "range": 1.7900009155273438,
+    "upper_wick": 0.5900001525878906,
+    "lower_wick": 0.0500030517578125,
+    "body_pct": 64.2456493293382,
+    "close_position": 67.03911447921949
+  },
+  "price_source": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?range=2y&interval=1d",
+  "retrieved_utc": "2026-10-15T20:33:00.964393+00:00",
+  "news": {
+    "positive": {
+      "headline": "Nike, FC Barcelona Launch Tyler, The Creator, Collaboration Ahead of El Clasico",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/media-advertising/articles/nike-fc-barcelona-launch-tyler-192259475.html",
+      "published": "2026-10-15T19:22:59+00:00",
+      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=NKE&newsCount=50",
+      "full_article_verified": false
+    },
+    "risk": {
+      "headline": "Why Nike Stock Was Climbing Today",
+      "publisher": "Motley Fool",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-nike-stock-climbing-today-174641328.html",
+      "published": "2026-10-15T17:46:41+00:00",
+      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=NKE&newsCount=50",
+      "full_article_verified": false
+    },
+    "limitation": "Feed headlines are attributed; full article text not independently verified."
+  }
+}
