@@ -1,6 +1,22 @@
 {
-  "retrieved_utc": "2026-10-15T20:38:09.492278+00:00",
+  "retrieved_utc": "2026-10-15T23:16:57.267089+00:00",
   "items": [
+    {
+      "headline": "Energy Substantiation Brings Physically Backed Crude Oil to Institutional Markets with WTIC Listing on LMAX Digital",
+      "publisher": "PR Newswire",
+      "url": "https://finance.yahoo.com/energy/articles/energy-substantiation-brings-physically-backed-212300480.html",
+      "published": "2026-10-15T21:23:00+00:00",
+      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
+      "full_article_verified": false
+    },
+    {
+      "headline": "TD Cowen raises oil forecasts, sees Canadian producers gain as WCS discounts widen",
+      "publisher": "Investing.com",
+      "url": "https://finance.yahoo.com/energy/articles/td-cowen-raises-oil-forecasts-205010150.html",
+      "published": "2026-10-15T20:50:10+00:00",
+      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
+      "full_article_verified": false
+    },
     {
       "headline": "Chevron (CVX) Stock Gets Fair Value Bump As Analysts Lift Oil And Project Views",
       "publisher": "Simply Wall St.",
@@ -30,6 +46,14 @@
       "publisher": "The Wall Street Journal",
       "url": "https://finance.yahoo.com/m/618387de-08e3-358f-a069-87a0d64582c7/u.s.-crude-oil-stockpiles.html",
       "published": "2026-10-15T16:53:00+00:00",
+      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
+      "full_article_verified": false
+    },
+    {
+      "headline": "Tightness in Global Supplies Pushes Crude Oil Prices Sharply Higher",
+      "publisher": "Barchart",
+      "url": "https://finance.yahoo.com/energy/articles/tightness-global-supplies-pushes-crude-163333638.html",
+      "published": "2026-10-15T16:33:33+00:00",
       "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
       "full_article_verified": false
     },
@@ -86,30 +110,6 @@
       "publisher": "Investor's Business Daily",
       "url": "https://finance.yahoo.com/m/fc126964-ef89-3476-a6bd-a57f1d3d90eb/israel-elections%3A-ai-stocks%2C.html",
       "published": "2026-10-15T12:00:44+00:00",
-      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
-      "full_article_verified": false
-    },
-    {
-      "headline": "Oil prices drop by 2% as US considers easing Russian tanker sanctions",
-      "publisher": "Offshore Technology",
-      "url": "https://finance.yahoo.com/news/oil-prices-drop-2-us-113805031.html",
-      "published": "2026-10-15T11:38:05+00:00",
-      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
-      "full_article_verified": false
-    },
-    {
-      "headline": "Current price of oil as of October 15, 2026",
-      "publisher": "Fortune",
-      "url": "https://finance.yahoo.com/energy/articles/current-price-oil-october-15-113000707.html",
-      "published": "2026-10-15T11:30:00+00:00",
-      "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
-      "full_article_verified": false
-    },
-    {
-      "headline": "3 Oil And Gas Stocks For Higher Crude Prices After The Saudi Aramco Attack",
-      "publisher": "Simply Wall St.",
-      "url": "https://finance.yahoo.com/energy/articles/3-oil-gas-stocks-higher-111253514.html",
-      "published": "2026-10-15T11:12:53+00:00",
       "source_query": "https://query1.finance.yahoo.com/v1/finance/search?q=CL%3DF&newsCount=50",
       "full_article_verified": false
     }

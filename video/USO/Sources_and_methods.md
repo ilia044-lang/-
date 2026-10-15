@@ -1,9 +1,9 @@
 # Sources and methods
 
-Trade date: 2026-10-15. Analysis date: 2026-10-15.
+Trade date: 2026-10-15. Analysis date: 2026-10-16.
 
 Market source: https://query1.finance.yahoo.com/v8/finance/chart/USO?range=2y&interval=1d
-Retrieved: 2026-10-15T20:38:08.267450+00:00
+Retrieved: 2026-10-15T23:16:55.987327+00:00
 
 The required dated historical daily bar is used consistently for OHLCV. SMA20/50/150/200 are arithmetic means of complete daily closes. RSI14 and ATR14 use Wilder smoothing initialized by 14-period arithmetic averages. CCI14 uses typical price and mean absolute deviation with scale constant 0.015. All calculations use two years of history. The candle body, wicks and close position are computed directly from OHLC. Relative volume uses the last 20 sessions including this session. Confirmed swings compare three bars on each side. A rising support line is shown only if observed subsequent lows do not cross below it; otherwise a labelled horizontal historical-low reference is used.
 

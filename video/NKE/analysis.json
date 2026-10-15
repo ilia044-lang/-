@@ -3,13 +3,13 @@
   "company": "Nike",
   "exchange": "NYSE",
   "date": "2026-10-15",
-  "analysis_date": "2026-10-15",
+  "analysis_date": "2026-10-16",
   "last": {
     "open": 35.9900016784668,
     "high": 37.72999954223633,
     "low": 35.939998626708984,
     "close": 37.13999938964844,
-    "volume": 46280216.0,
+    "volume": 46357580.0,
     "ma20": 35.382499885559085,
     "ma50": 37.64299980163574,
     "ma150": 42.473666458129884,
@@ -17,12 +17,12 @@
     "rsi": 58.07937677430296,
     "atr": 1.157921824083951,
     "cci": 159.90544409886374,
-    "vol20": 47437760.8
+    "vol20": 47441629.0
   },
   "change": 1.8400001525878906,
   "change_pct": 5.212465134152522,
   "above_count": 1,
-  "volume_ratio": 0.9755986627429515,
+  "volume_ratio": 0.9771498360648619,
   "anchor": 491,
   "anchor_price": 31.969999313354492,
   "anchor_date": "2026-10-02",
@@ -55,7 +55,7 @@
     "close_position": 67.03911447921949
   },
   "price_source": "https://query1.finance.yahoo.com/v8/finance/chart/NKE?range=2y&interval=1d",
-  "retrieved_utc": "2026-10-15T20:33:00.964393+00:00",
+  "retrieved_utc": "2026-10-15T23:11:42.528116+00:00",
   "news": {
     "positive": {
       "headline": "Nike, FC Barcelona Launch Tyler, The Creator, Collaboration Ahead of El Clasico",
