@@ -25,6 +25,7 @@ def collect_news(ticker,out):
                 if not any(w in lower for w in (['nike','nke'] if ticker=='NKE' else ['oil','crude','opec','hormuz','iran','petroleum'])):continue
                 if not item.get('link') or not item.get('publisher'):continue
                 if len(title)<18 or title.startswith('BC-'):continue
+                if any(w in lower for w in ['high school','basketball scores','which stock is the better value','earnings preview']):continue
                 if any(w in lower for w in ['should you buy','stocks to buy','best stocks','price prediction']):continue
                 r={'headline':title,'publisher':item['publisher'],'url':item['link'],'published':dt.datetime.fromtimestamp(stamp,dt.timezone.utc).isoformat(),'source_query':url,'full_article_verified':False}
                 if not any(x['headline']==title for x in records):records.append(r)
@@ -35,6 +36,9 @@ def collect_news(ticker,out):
     if len(records)<2:raise RuntimeError('Fewer than two dated relevant headlines; refusing a news-free edition')
     reliable=['Reuters','Associated Press','The Wall Street Journal','MT Newswires','CNBC','Bloomberg','Barrons.com','Business Wire']
     chosen=sorted(records,key=lambda x:(x['publisher'] in reliable,x['published']),reverse=True)
+    if ticker=='NKE':
+        others=[x for x in records if x['publisher']!=chosen[0]['publisher']]
+        if others:chosen=[chosen[0],others[0]]
     if ticker=='USO':
         geopolitical=[x for x in chosen if any(w in x['headline'].lower() for w in ['iran','hormuz','middle east','fighting','attack','sanction','houthi'])]
         if geopolitical and geopolitical[0]!=chosen[0]:chosen=[chosen[0],geopolitical[0]]
