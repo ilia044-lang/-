@@ -1,0 +1,22 @@
+Data cutoff: US market close October 16, 2026. Published analysis October 17. Prices and weekly returns use Yahoo daily bars; weekly return is October 9 close to October 16 close. Adjusted SPY close is used only for the historical return study. Futures contract conventions can affect comparisons.
+
+Event study: October 17, 2011 through October 16, 2026; SPY adjusted daily return <= -1% and VIX close-to-close change >= +20%. 75 signal dates, 74 with completed forward observations. Forward horizons 1, 5 and 20 trading sessions. 20-session positive frequency 70.27% versus 69.27% across 3,752 eligible dates; event mean +1.50%, worst -30.44%. Overlapping events are not independent. A sensitivity sample spaces signals more than 20 sessions apart: 46 completed observations, 71.74% positive. These are descriptive associations, not a strategy backtest or evidence of algorithmic buying. No transaction costs or causal flow identification.
+
+Fear & Greed: score 17.9383 at October 16 23:59:49 UTC. One-year API history is deduplicated by UTC calendar date, retaining the last observation: 250 dates, 41 below 25. Dated October 15 history is 30.3429. The API's previous_close metadata says 31.5429 and conflicts with that dated history; the video explicitly uses dated history. Fear & Greed history is NOT represented as a 15-year series.
+
+News: full Reuters articles were read. Intraday index values in articles were not substituted for final daily bars. Reports of losses/de-grossing do not establish bankruptcy; no named fund insolvency is asserted.
+
+Calendar: Yahoo per-day earnings queries October 19–23, and economic-events query. Listings are attributed, subject to change, and not separately confirmed with issuers. Recheck before an event.
+
+Tesla: viewer-supplied 41.7-second recording; manufacturer descriptions and Reuters reporting attributed. Conceptual physics diagram is not an engineering drawing. Performance and road-approval claims are not independently verified. Original recording audio is not used.
+
+Production: Michael synthetic voice; English burned-in captions and SRT. Existing user bull/bear videos keyed/composited; Remotion phone animation. Alerts expressly illustrative. Background music generated in code. Timing is approximately phrase-aligned; no claim of word-perfect forced alignment.
+
+Yahoo Finance daily charts and adjusted SPY history: https://finance.yahoo.com/quote/SPY/history/
+CNN Fear & Greed: https://www.cnn.com/markets/fear-and-greed
+CNN data: https://production.dataviz.cnn.io/index/fearandgreed/graphdata
+Reuters, market sell-off: https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-mixed-tech-110701262.html
+Reuters, hedge fund losses: https://finance.yahoo.com/markets/stocks/articles/ai-selloff-hammers-hedge-funds-020957793.html
+Tesla Roadster manufacturer description: https://www.tesla.com/roadster
+Yahoo earnings calendar: https://finance.yahoo.com/calendar/earnings/
+Yahoo economic calendar: https://finance.yahoo.com/calendar/economic/

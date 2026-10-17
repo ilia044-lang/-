@@ -1,0 +1,47 @@
+{
+  "videos": [
+    {
+      "file": "Fear_Short_With_Cover.mp4",
+      "duration_seconds": 65.541667,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "cover_first_second_verified": true,
+      "cover_mean_pixel_difference": 1.880352527006173,
+      "full_decode_passed": true,
+      "bytes": 2899670,
+      "sha256": "d5cad323230c3660bda3e4b0fe84e23e26e63497eb3bc6f56cc3464bac6f285b"
+    },
+    {
+      "file": "Tesla_Short_With_Cover.mp4",
+      "duration_seconds": 67.75,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "cover_first_second_verified": true,
+      "cover_mean_pixel_difference": 1.866188593106996,
+      "full_decode_passed": true,
+      "bytes": 4139812,
+      "sha256": "9bddd28addea4d1b18cefdc9130a1f92021b10bfc32fbb29271415c66c397871"
+    },
+    {
+      "file": "Weekly_Review_With_Cover.mp4",
+      "duration_seconds": 631.041667,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "cover_first_second_verified": true,
+      "cover_mean_pixel_difference": 1.214536394032922,
+      "full_decode_passed": true,
+      "bytes": 27777923,
+      "sha256": "a2937e28aa2b40fd818075c46be29b03240bfb092a7cb662d3ea0fe61736186f"
+    }
+  ],
+  "youtube_upload": "blocked: browser sign-in alone does not expose browser control or OAuth upload permission in this session"
+}

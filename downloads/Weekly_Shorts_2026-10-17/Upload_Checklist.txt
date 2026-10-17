@@ -1,0 +1,15 @@
+TARGET CHANNEL: @MarketMindTradingBasics
+UPLOAD STATUS: Not uploaded. No browser-control or YouTube OAuth upload connection is available in this cloud session. Signing in to a separate browser does not provide access here.
+
+Three final videos, all with a cover embedded from 00:00 to 00:01:
+1. Weekly_Review_With_Cover.mp4 — 16:9 regular video.
+2. Fear_Short_With_Cover.mp4 — 9:16 Short.
+3. Tesla_Short_With_Cover.mp4 — 9:16 Short.
+
+Use each matching title/description file. Language English; audience not made for kids; category Education. Captions burned in; matching SRT supplied. Shorts call viewers to the full review. If available in Studio, attach the uploaded long video as each Short’s Related video.
+
+An embedded first-second cover does not force YouTube to use it as the listing thumbnail. Select the first frame if the YouTube mobile cover selector is available. Otherwise YouTube may choose another automatic thumbnail.
+
+Synthetic narration is used. The long video contains realistic simulated notifications explicitly labeled illustrative; disclose altered/synthetic content as appropriate in Studio. The Tesla event recording may be subject to rights claims; review Studio’s checks before publication.
+
+No upload, scheduling or public publication is represented as completed.
