@@ -1,0 +1,387 @@
+{
+  "finance": {
+    "result": {
+      "economicEvents": [
+        {
+          "timestamp": 1792382400000,
+          "timestampString": "2026-10-19",
+          "timezone": "America/New_York",
+          "count": 1,
+          "totalCount": 1,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "NAHB Housing Market Indx",
+              "countryCode": "US",
+              "eventTime": 1792418400000,
+              "period": "Oct",
+              "prior": "32",
+              "description": "The HMI is derived from a monthly survey of builders that NAHB has been conducting for nearly 20 years. Home builders are asked to rate current sales of single-family homes and sales expectations for the next six months as \"good,\" \"fair\" or \"poor.\" They are also asked to rate traffic of prospective buyers as either \"high to very high,\" \"average\" or \"low to very low.\" Scores for responses to each component are used to calculate a seasonally adjusted overall index, where any number over 50 indicates more builders view sales conditions as good than poor. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792468800000,
+          "timestampString": "2026-10-20",
+          "timezone": "America/New_York",
+          "count": 7,
+          "totalCount": 7,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Pending Sales Change MM",
+              "countryCode": "US",
+              "eventTime": 1792504800000,
+              "period": "Sep",
+              "prior": "0.3",
+              "description": "The Pending Home Sales Index is based on a large national sample, typically representing about 20 percent of transactions for existing-home sales. In developing the model for the index, it was demonstrated that the level of monthly sales-contract activity from 2001 through 2004 closely parallels the level of closed existing-home sales in the following two months. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Pending Homes Index",
+              "countryCode": "US",
+              "eventTime": 1792504800000,
+              "period": "Sep",
+              "prior": "71.2",
+              "description": "The Pending Home Sales Index is based on a large national sample, typically representing about 20 percent of transactions for existing-home sales. In developing the model for the index, it was demonstrated that the level of monthly sales-contract activity from 2001 through 2004 closely parallels the level of closed existing-home sales in the following two months. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Redbook YY *",
+              "countryCode": "US",
+              "eventTime": 1792500900000,
+              "prior": "10.4",
+              "description": "About Johnson Redbook Index 1. The Johnson Redbook Index is a sales-weighted of year-over-year same-store sales growth in a sample of large US general merchandise retailers representing about 9,000 stores. By dollar value, the Index represents over 80% of the equivalent 'official' retail sales series collected and published by the US Department of Commerce. 2. Redbook compiles the Index by collecting and interpreting performance estimates from retailers. The Index and its sub-groups are sales-weighted aggregates of these estimates. Weeks are retail weeks(Sunday to Saturday). Months are retail fiscal months on the National Retail Federation's 4-5-4 calendar,& may start and end on different days than equivalent calendar months. 3. Seasonally adjusted month-to-month changes are derived from dollar sales estimates, which are the product of the Index and a base of seasonally adjusted department store sales in US dollars (excluding leased departments) reported by the US Department of Commerce for the equivalent year-ago month. The Commerce Department's frequent revisions to this series are not incorporated into the Index except for the annual benchmark revision, which may affect historic monthly changes. 4. Retailer targets are sales-weighted of individual retailers' sales growth "
+            },
+            {
+              "economicEvents": true,
+              "event": "Building Permits: Number",
+              "countryCode": "US",
+              "eventTime": 1792499400000,
+              "period": "Sep",
+              "prior": "1.4",
+              "description": "Building permits-quantity of formal approvals of building plans by the designated government agency as meeting the requirements of prescribed codes.It is an authorization to proceed with the construction or reconfiguration of a specific structure at a particular site, in accordance with the approved drawings & specifications.Quantity of received Building Permits is used as the earliest indicator for developments in the housing market.Additionally,because of the high outlays needed to begin construction projects;an increase in Building Permits implies an increase in investment & corporate optimism. Finally,the figure gives insight into consumer activity, since new home purchases are associated with an increase in sales of durable goods.These series provide building permit statistics on new privately-owned residential construction. The statistics are based upon reports submitted by local building permit officials in response to a mail survey.There is a sample of 8,500 permit- issuing places, selected from a universe of approximately 19,000 places.The types of structures reported within Residential Housekeeping Buildings are defined below: A)Single Family Houses - Excludes mobile homes,(B)Two-Family Buildings,(C)Three- and Four-Family Buildings & (D)Five-or-More Family Buildings "
+            },
+            {
+              "economicEvents": true,
+              "event": "Build Permits: Change MM",
+              "countryCode": "US",
+              "eventTime": 1792499400000,
+              "period": "Sep",
+              "prior": "-2.1",
+              "description": "Building permits-quantity of formal approvals of building plans by the designated government agency as meeting the requirements of prescribed codes.It is an authorization to proceed with the construction or reconfiguration of a specific structure at a particular site, in accordance with the approved drawings & specifications.Quantity of received Building Permits is used as the earliest indicator for developments in the housing market.Additionally,because of the high outlays needed to begin construction projects;an increase in Building Permits implies an increase in investment & corporate optimism. Finally,the figure gives insight into consumer activity, since new home purchases are associated with an increase in sales of durable goods.These series provide building permit statistics on new privately-owned residential construction. The statistics are based upon reports submitted by local building permit officials in response to a mail survey.There is a sample of 8,500 permit- issuing places, selected from a universe of approximately 19,000 places.The types of structures reported within Residential Housekeeping Buildings are defined below: A)Single Family Houses - Excludes mobile homes,(B)Two-Family Buildings,(C)Three- and Four-Family Buildings & (D)Five-or-More Family Buildings "
+            },
+            {
+              "economicEvents": true,
+              "event": "House Starts MM: Change",
+              "countryCode": "US",
+              "eventTime": 1792499400000,
+              "period": "Sep",
+              "prior": "-2.6",
+              "description": "Construction industry provides information on construction output and activity. Such information gives an insight into the supply on the housing and construction market. Rising number of new construction starts or value of construction completed reflects higher consumer and business optimism. Expanding construction indicates growth in the housing market and predicts an increase in the overall economy. However, an excessive supply of new buildings may result in a drop in housing prices. The construction industry is one of the first to go into a recession when the economy declines but also to recover as conditions improve. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Housing Starts Number",
+              "countryCode": "US",
+              "eventTime": 1792499400000,
+              "period": "Sep",
+              "prior": "1.27",
+              "description": "Construction industry provides information on construction output and activity. Such information gives an insight into the supply on the housing and construction market. Rising number of new construction starts or value of construction completed reflects higher consumer and business optimism. Expanding construction indicates growth in the housing market and predicts an increase in the overall economy. However, an excessive supply of new buildings may result in a drop in housing prices. The construction industry is one of the first to go into a recession when the economy declines but also to recover as conditions improve. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792555200000,
+          "timestampString": "2026-10-21",
+          "timezone": "America/New_York",
+          "count": 16,
+          "totalCount": 16,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Crude Cushing*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "1.86"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Crude Stk*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "-8.56"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Crude Runs*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "0.14"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Crude Imports*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "-0.6"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Dist Output*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "-0.1"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Dist. Stk*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "-2.53"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Rfg Stocks*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "0.01"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Prods Imports*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "0.06"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Heatoil Stock*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "-0.45"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Weekly Gasoline O/P*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "-0.12"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Gsln Stk*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "3.52"
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA Wkly Refn Util*",
+              "countryCode": "US",
+              "eventTime": 1792593000000,
+              "prior": "0.8"
+            },
+            {
+              "economicEvents": true,
+              "event": "MBA Purchase Index",
+              "countryCode": "US",
+              "eventTime": 1792580400000,
+              "prior": "139.3",
+              "description": "MBA - Mortgage Bankers Association of America. The Purchase Index includes all mortgages applications for the purchase of a single-family home. It covers the entire market, both conventional and government loans, and all products. The Purchase Index has proven to be a reliable indicator of impending home sales "
+            },
+            {
+              "economicEvents": true,
+              "event": "Mortgage Market Index",
+              "countryCode": "US",
+              "eventTime": 1792580400000,
+              "prior": "199.2",
+              "description": "MBA - Mortgage Bankers Association of America. The Market Index covers all mortgage applications during the week. This includes all conventional and government applications, all fixed-rate mortgages (FRMs), all adjustable-rate mortgages (ARMs), whether for a purchase or to refinance. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Mortgage Refinance Index",
+              "countryCode": "US",
+              "eventTime": 1792580400000,
+              "prior": "513.5",
+              "description": "MBA - Mortgage Bankers Association of America. The Refinance Index covers all mortgage applications to refinance an existing mortgage. It is the best overall gauge of mortgage refinancing activity. The Refinance Index includes conventional and government refinances, regardless of product (FRM or ARM) or coupon rate refinanced into or out of.Seasonal factors are less significant in refinances than in home sales, however holiday effects are considerable. "
+            },
+            {
+              "economicEvents": true,
+              "event": "MBA 30-Yr Mortgage Rate",
+              "countryCode": "US",
+              "eventTime": 1792580400000,
+              "prior": "7.5",
+              "description": "United States, Mortgage Lending Rates, FRM 30-Year Contract Rate (MBA Sourced) For 80% loan-to-value Mortgage. Sourced through Mortgage Banking Association of America. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792641600000,
+          "timestampString": "2026-10-22",
+          "timezone": "America/New_York",
+          "count": 7,
+          "totalCount": 7,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "KC Fed Manufacturing*",
+              "countryCode": "US",
+              "eventTime": 1792681200000,
+              "period": "Oct",
+              "prior": "20",
+              "description": "The Federal Reserve Bank of Kansas City quarterly Survey of Manufacturers provides information on current manufacturing activity in the Tenth District (Colorado, Kansas, Nebraska, Oklahoma, Wyoming, northern New Mexico, and western Missouri). The accumulated results also help trace longer term trends. The survey monitors about 300 manufacturing plants selected according to geographic distribution, industry mix, and size. Survey results reveal changes in several indicators of manufacturing activity, including production and shipments, and identify changes in prices of raw materials and finished products. The survey is conducted during the first month of each quarter. "
+            },
+            {
+              "economicEvents": true,
+              "event": "KC Fed Composite Index*",
+              "countryCode": "US",
+              "eventTime": 1792681200000,
+              "period": "Oct",
+              "prior": "14",
+              "description": "The index is calculated by subtracting the percentage of total respondents reporting decreases from the percentage reporting increases. Index values greater than zero generally suggest expansion, while values less than zero indicate contraction. "
+            },
+            {
+              "economicEvents": true,
+              "event": "EIA-Nat Gas Chg Bcf*",
+              "countryCode": "US",
+              "eventTime": 1792679400000,
+              "prior": "67"
+            },
+            {
+              "economicEvents": true,
+              "event": "Leading Index Chg MM",
+              "countryCode": "US",
+              "eventTime": 1792677600000,
+              "period": "Sep",
+              "prior": "-0.1",
+              "description": "The Leading Indicator is a composite of prior indicators such as new orders, jobless claims, money supply, average workweek, building permits, stock prices, etc.Leading indicators have by their very nature, less than perfect historical recording and because of its components being known beforehand, are highly predictable. However they are used as a fairly good indicator of overall strength of country s economy. Leading Indicator is a summery measure designed to signal changes in the direction of aggregate economic activity. (Aggregate economic activity cannot be defined precisely, and no single time series measure it adequately; however, a varity of statistical series measure some of its major aspects). The index measure the average behavior of a group of economic time series that show similar timing at business cycle turns but represent widely differing activities or sector of the economy. Because the combination of prompt availability and reasonable accuracy is an especially importent requirement, only monthly series that are available with short lags and are not subject to large revisions are considered when selecting components of the leading indicator, because the components coverage is diversified with a minimum of duplication, leading indicator tend to be more reliable as cyclical indicator than any of the "
+            },
+            {
+              "economicEvents": true,
+              "event": "Initial Jobless Clm *",
+              "countryCode": "US",
+              "eventTime": 1792672200000,
+              "prior": "199",
+              "description": "U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. Initial claims - Any notice of unemployment filed: (1) to request a determination of entitlement to and eligibility for compensation or (2) to begin a second or subsequent period of eligibility within a benefit year or period of eligibility. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Jobless Clm 4Wk Avg *",
+              "countryCode": "US",
+              "eventTime": 1792672200000,
+              "prior": "198.5",
+              "description": "U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. Initial claims - Any notice of unemployment filed (1) to request a determination of entitlement to and eligibility for compensation or (2) to begin a second or subsequent period of eligibility within a benefit year or period of eligibility. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Cont Jobless Clm *",
+              "countryCode": "US",
+              "eventTime": 1792672200000,
+              "prior": "1.71",
+              "description": "Continued claims are reported one week after initial claims. U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1792728000000,
+          "timestampString": "2026-10-23",
+          "timezone": "America/New_York",
+          "count": 11,
+          "totalCount": 11,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Cold Pork Belly Stocks*",
+              "countryCode": "US",
+              "eventTime": 1792782000000,
+              "period": "Sep",
+              "prior": "23.68"
+            },
+            {
+              "economicEvents": true,
+              "event": "USDA-Cattle Placed On Fd*",
+              "countryCode": "US",
+              "eventTime": 1792782000000,
+              "period": "Sep",
+              "prior": "91"
+            },
+            {
+              "economicEvents": true,
+              "event": "Cold Storage- FCOJ Stock*",
+              "countryCode": "US",
+              "eventTime": 1792782000000,
+              "period": "Sep",
+              "prior": "0.5"
+            },
+            {
+              "economicEvents": true,
+              "event": "USDA-Cattle On Feed*",
+              "countryCode": "US",
+              "eventTime": 1792782000000,
+              "period": "Oct",
+              "prior": "101"
+            },
+            {
+              "economicEvents": true,
+              "event": "Cold Storage-Beef Stocks*",
+              "countryCode": "US",
+              "eventTime": 1792782000000,
+              "period": "Sep",
+              "prior": "407.11"
+            },
+            {
+              "economicEvents": true,
+              "event": "USDA-Cattle Marketed*",
+              "countryCode": "US",
+              "eventTime": 1792782000000,
+              "period": "Sep",
+              "prior": "97"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich 5-Yr Inf Final*",
+              "countryCode": "US",
+              "eventTime": 1792764000000,
+              "period": "Oct",
+              "prior": "3.5"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich Expectations Final*",
+              "countryCode": "US",
+              "eventTime": 1792764000000,
+              "period": "Oct",
+              "prior": "47.3"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich Sentiment Final*",
+              "countryCode": "US",
+              "eventTime": 1792764000000,
+              "period": "Oct",
+              "prior": "46.3"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich Conditions Final*",
+              "countryCode": "US",
+              "eventTime": 1792764000000,
+              "period": "Oct",
+              "prior": "44.7"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich 1Yr Inf Final*",
+              "countryCode": "US",
+              "eventTime": 1792764000000,
+              "period": "Oct",
+              "prior": "4.7"
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  }
+}
