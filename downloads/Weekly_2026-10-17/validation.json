@@ -5,10 +5,11 @@
     1920,
     1080
   ],
-  "sha256": "9d065c63f5e18c828a27b4c0973f25191b34b890ad2c8a3b91cf1f5bd5e7561b",
-  "bytes": 27637150,
+  "sha256": "b599d129a55dcd4ab09d5cd22e663c3430024cd719246ca059a45d7c93ad33f5",
+  "bytes": 27646286,
   "tempo_factor": 1.1463624338624339,
   "trade_date": "2026-10-16",
   "phone": "Rendered with Remotion; illustrative alerts",
-  "tesla": "Viewer-supplied event recording; manufacturer claims attributed"
+  "tesla": "Viewer-supplied event recording; manufacturer claims attributed",
+  "audio": "Loudness normalized; final peak limiter"
 }
