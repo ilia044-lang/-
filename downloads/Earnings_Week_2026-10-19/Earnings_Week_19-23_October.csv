@@ -1,0 +1,11 @@
+symbol,company,report_date,session_US_Eastern,issuer_date_verified,approx_last_trade_premium_pct,reason,options_expiry,stock_close_Oct16
+STLD,"Steel Dynamics, Inc.",2026-10-19,AMC,False,,No Oct 23 weekly expiration available,2026-10-23,
+NFLX,"Netflix, Inc.",2026-10-20,AMC,False,9.57,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,70.53
+GM,General Motors Company,2026-10-20,BMO,False,6.61,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,83.96
+TSLA,"Tesla, Inc.",2026-10-21,AMC,True,7.434,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,354.72
+META,"Meta Platforms, Inc.",2026-10-21,AMC,False,7.204,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,709.325
+IBM,International Business Machines Corporation,2026-10-21,AMC,False,7.711,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,232.14
+LRCX,Lam Research Corporation,2026-10-21,AMC,False,8.388,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,263.94
+PG,The Procter & Gamble Company,2026-10-22,BMO,False,3.677,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,159.35
+BE,Bloom Energy Corporation,2026-10-22,AMC,False,12.381,"Both legs traded in final hour; last-trade proxy, no usable bid/ask",2026-10-23,221.31
+AXP,American Express Company,2026-10-23,BMO,False,,Option trades not sufficiently synchronized near the close,2026-10-23,313.59

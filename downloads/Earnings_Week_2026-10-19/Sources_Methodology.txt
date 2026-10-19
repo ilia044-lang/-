@@ -1,0 +1,16 @@
+Coverage: 10 selected US-listed companies, not the complete worldwide earnings calendar. Yahoo per-day calendar records fetched October 19, 2026. Provider records mark dates non-estimated; video conservatively labels non-Tesla dates est. because issuer confirmation was not independently obtained. Tesla IR calendar confirms Oct 21.
+
+Source and quality checks: per-contract option chains via yfinance/Yahoo. Required same underlying, same Oct23 expiry, identical call/put strike nearest the stock close. Strike distance must be less than 2.5% of spot. Both last trades must fall in the final hour of Oct16 regular trading, and their timestamps must differ by at most 45 minutes. Eight snapshots pass those limited checks. All bid/ask fields are zero, so NONE is a verified current executable market midpoint. Quotes are last transactions, may be asynchronous, and can differ from the actual closing fair value.
+
+Formula: (call last + put last) / Oct16 regular-market stock price × 100. Display range: spot ± total premium. This is a symmetric premium-based reference centered on spot, not the exact straddle breakevens (which are centered on the strike), not a model confidence interval and not an isolated earnings move. It includes all risk through Oct23 expiry. No 0.85 factor is applied. The word expected is avoided in numeric labels in favor of proxy.
+
+Exclusions: STLD lacks the comparable Oct23 weekly expiration. AXP has a put last trade earlier in the session; its calculated raw number is retained in reviewed.json for audit but not presented as usable in the video. Missing values are not zero-filled. Price data are Friday Oct16 because collection occurred before the Oct19 US session.
+
+Company icons: existing corporate artwork from nvstly/icons ticker_icons on GitHub; references in Logos_Sources.json. Logos identify coverage and do not imply endorsement. Icons are displayed on animated plaques without redrawing their marks. Michael synthetic narration, English captions, one-second embedded cover, and user-supplied bull/bear animation. Caption timing is phrase-based rather than word-perfect forced alignment.
+
+URLs:
+https://finance.yahoo.com/calendar/earnings/
+https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events
+https://finance.yahoo.com/quote/TSLA/options/
+https://ir.tesla.com/
+https://github.com/nvstly/icons/tree/main/ticker_icons
