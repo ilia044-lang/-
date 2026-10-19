@@ -1,0 +1,16 @@
+{
+  "duration": 97.25,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "cover_first_second_verified": true,
+  "cover_mean_pixel_error": 1.9296756044238683,
+  "full_decode_passed": true,
+  "bytes": 4751472,
+  "sha256": "2639a5862b5edc6014e575887e93dc1c975cda1a0d8d985464ed037e62ee6474",
+  "companies": 9,
+  "usable_last_trade_proxies": 8,
+  "live_bid_ask_ranges": 0
+}

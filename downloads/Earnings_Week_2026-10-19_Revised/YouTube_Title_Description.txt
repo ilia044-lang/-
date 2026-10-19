@@ -1,0 +1,25 @@
+TITLE
+Earnings This Week: Netflix, Tesla, Meta & Options Ranges | Oct 19–23 #Shorts
+
+DESCRIPTION
+Nine selected earnings reports for October 19–23, 2026, with company icons and approximate weekly option-premium ranges.
+
+TUE 20: GM before open (~±6.6%); Netflix after close (~±9.6%).
+WED 21: Tesla (~±7.4%), Meta (~±7.2%), IBM (~±7.7%) and Lam Research (~±8.4%) — after close.
+THU 22: Procter & Gamble before open (~±3.7%); Bloom Energy after close (~±12.4%).
+FRI 23: American Express — before open; range unverified because option trades were not synchronized near the close.
+
+These percentages are ROUGH LAST-TRADE PREMIUM PROXIES, not live bid/ask-implied moves. We add the nearest common strike call and put's last traded prices for Oct 23 expiry, then divide by the Oct 16 stock close. Both legs must have traded in the final hour with no more than 45 minutes between trades. All usable snapshot bid/ask fields were zero, so a current executable straddle midpoint could not be verified.
+
+The expiration includes ordinary weekly risk plus earnings. These are neither isolated earnings-gap forecasts nor confidence intervals, and they do not predict direction. Actual moves may exceed the displayed range. Calendar listings may change; dates other than Tesla are labeled estimated because they were not separately issuer-verified.
+
+Sources:
+Yahoo earnings calendar: https://finance.yahoo.com/calendar/earnings/
+Yahoo options chains: https://finance.yahoo.com/quote/TSLA/options/
+Tesla issuer calendar: https://ir.tesla.com/
+Data retrieved Oct 19, 2026, before the US open; option trades and stock closes dated Oct 16.
+
+Follow @MarketMindTradingBasics for market and earnings breakdowns.
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell, or take investment action.
+
+#Shorts #Earnings #Tesla #Netflix #StockMarket
