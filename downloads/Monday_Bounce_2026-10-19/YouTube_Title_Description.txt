@@ -1,0 +1,25 @@
+TITLE
+Dead Cat Bounce? Monday’s Rally: The Bull & Bear Case | Oct 19 #Shorts
+
+DESCRIPTION
+SPY and QQQ finished Monday higher—but both printed red daily candles. Was October 19, 2026 a dead cat bounce, or the beginning of a more durable recovery?
+
+Bearish evidence: QQQ recovered only about 47% of Friday’s dollar loss; SPY and QQQ closed below their opens, near the bottom of their ranges, and below their 20- and 50-day averages. Equal-weight RSP fell 0.32% while QQQ rose 1.21%, suggesting uneven participation.
+
+Constructive evidence: VIX fell from 19.99 to 18.44, Monday’s SPY/QQQ lows held above Friday’s lows, and both remained above their 200-day averages. QQQ volume was about 103% of the previous 20-session average, despite being lower than Friday.
+
+QQQ reference levels: reclaim area 724.55–728.00; Monday low 716.57; Friday low 707.23. These are scenarios and historical references, not targets or predictions.
+
+Conclusion: a possible relief bounce with weak participation. A confirmed dead cat bounce requires subsequent failure; Monday alone cannot establish that. Above the 200-day average does not guarantee a reversal either.
+
+Sources: Yahoo Finance daily OHLCV, through the October 19 US regular-session close. Data and calculations included in the download package.
+https://finance.yahoo.com/quote/SPY/history/
+https://finance.yahoo.com/quote/QQQ/history/
+https://finance.yahoo.com/quote/RSP/history/
+https://finance.yahoo.com/quote/IWM/history/
+https://finance.yahoo.com/quote/%5EVIX/history/
+
+Follow @MarketMindTradingBasics for the next session’s breakdown.
+I am not a licensed financial advisor. Education only. Not financial advice or a recommendation to buy, sell, or take investment action.
+
+#Shorts #StockMarket #DeadCatBounce #SPY #QQQ

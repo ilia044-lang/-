@@ -1,0 +1,15 @@
+Analysis cutoff: US regular-session close October 19, 2026. Created October 20. Yahoo daily OHLCV fetched from v8/finance/chart; exact source URLs and raw/derived data are supplied.
+
+Definition: Dead cat bounce describes a temporary rebound during a decline that subsequently fails. It is not established merely by a positive session, and no deterministic formal classifier is claimed here. The current evidence is mixed and future follow-through is unknown.
+
+Daily return = Monday close / Friday close - 1. Red candle = Monday close below Monday open; it can coexist with a positive daily return due to an opening gap. Both SPY and QQQ satisfy those conditions.
+
+QQQ recovery of Friday’s dollar loss = (718.36 - 709.80) / (728.00 - 709.80) = 47.03%. This is based on price points, not an invalid subtraction of percentage returns. SPY recovery is 37.82%. Daily close position = (close-low)/(high-low): SPY 14.22%; QQQ 22.43% of their ranges.
+
+SMA20/50/200 includes Monday’s unadjusted daily close. Price-return comparisons do not include cash distributions. RSP and IWM are participation proxies, not advance/decline statistics or proof of individual-stock breadth. A price-based proxy can reflect sector weights and distributions as well as breadth. No causal claim about short covering or algorithmic orders is made.
+
+Volume baseline: arithmetic mean of the prior 20 completed sessions, excluding Monday. QQQ Monday volume 36,961,500; Friday 66,926,700; Monday/prior20 = approximately 1.027. A smaller total than Friday does not by itself establish weak volume relative to normal. VIX has no relevant traded-volume measure here; missing ratio is null, not zero.
+
+QQQ reclaim area combines Monday high 724.55, SMA50 726.68, and Thursday close 728.00. Support references are actual Monday low 716.57 and Friday low 707.23. Chart contains 26 daily sessions with MA20/50 and level lines. Labels remain below the plot. The conceptual decline/bounce/failure diagram is expressly not actual prices.
+
+Production: Michael synthetic voice, English phrase-timed captions, one-second embedded cover and animated original user bull/bear assets with keyed backgrounds. No claim of word-perfect forced alignment. Background music generated in code. News headlines were checked, but the video does not attribute the session to unverified headlines; the analytical claims are price/volume based.
