@@ -1,0 +1,12 @@
+YouTube / TikTok publishing package
+
+File: Market_Close_Apple_BullBear.mp4
+Format: 1080×1920 vertical, 24 fps, H.264 + AAC; suitable for a YouTube Short / TikTok.
+Language: English. YouTube category: Education. Audience: not made for kids (general financial education, not directed at children).
+Use the supplied title/description and captions. All captions are already visible in the MP4; an SRT is supplied for optional native subtitles. Avoid enabling a second burned-in caption layer.
+The opening cover is embedded for exactly one second. If the mobile app permits selecting a video frame as cover, choose a frame within that second. Embedding a cover does not force YouTube's automatic thumbnail choice.
+The date and news timestamp are part of the analysis. If publishing later, retain them and do not present the video as a fresh live quote.
+You can describe the narration as AI-generated. Graphics and synthetic narration do not impersonate a real presenter or depict an actual incident.
+This package was prepared for upload. No YouTube or TikTok publication is represented as completed.
+
+Updated cover: recognizable channel bull and bear redesigned in pearl white / titanium with glass-city details. Embedded exactly in the first second; no separate image upload is necessary.

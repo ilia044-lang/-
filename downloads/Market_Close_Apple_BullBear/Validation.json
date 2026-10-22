@@ -1,0 +1,19 @@
+{
+  "duration": 117.041667,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "cover_exactly_first_24_frames": true,
+  "frame_errors": {
+    "0": 1.9583251350308641,
+    "0.5": 1.9513840663580246,
+    "0.958333": 1.9515372620884774,
+    "1.0": 54.15826195987654
+  },
+  "later_content_unchanged": true,
+  "audio_unchanged": true,
+  "full_decode_passed": true,
+  "sha256": "c77b0459b882a89c838ef2b28e7857c4e2d192827f1ce3be0645115da85e958f",
+  "bytes": 5058554
+}
