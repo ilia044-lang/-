@@ -1,0 +1,18 @@
+{
+  "duration": 117.041667,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "cover_first_second_verified": true,
+  "cover_frame_error": {
+    "0.5": 0.8087815072016461,
+    "0.958333": 0.8053057484567901,
+    "1.5": 13.20807789994856
+  },
+  "full_decode_passed": true,
+  "market_calculations_verified": true,
+  "sha256": "502fd2b8561ec779abfc5090da6ae4eba8bd8831ff498cf3f4f4d48d0829f4cd",
+  "bytes": 4825544
+}
