@@ -9,13 +9,16 @@
       "fps": 24,
       "full_decode_passed": true,
       "cover_first_second_verified": true,
-      "cover_error": {
-        "0.5": 2.9093537808641976,
-        "0.958333": 2.909049800668724,
-        "1.5": 52.871781764403295
-      },
-      "bytes": 31910437,
-      "sha256": "f325f993fa97cbc3cdceefbf1fc4fd04c5d33503bd8158ce8ba124a1f6ba6bf3"
+      "bytes": 31865062,
+      "sha256": "ec0e95d12b67dd685b3fd063ffd0bbb30bbd48266b836a976745daec8ce8fb88",
+      "revision": "Opaque solid 3D opening bars",
+      "unchanged_audio_hash": "SHA256=06745e6f2233d0f72ce45f72eb39324a1b6eb3dd885051b49e0822a467c74bda",
+      "cover_visually_preserved_and_later_frames_identical": true,
+      "revised_first_49_seconds_decode_passed": true,
+      "cover_encoding_difference_mean_vs_prior": {
+        "0.5": 0.9100917888374486,
+        "0.958333": 0.9096336484053498
+      }
     },
     "Rotation": {
       "duration": 52.208333,
