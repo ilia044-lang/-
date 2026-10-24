@@ -1,0 +1,164 @@
+{
+  "fed_calendar": {
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "bytes": 166918,
+    "fetched_utc": "2026-10-24T07:34:30.360816+00:00"
+  },
+  "bea_calendar": {
+    "url": "https://www.bea.gov/news/schedule",
+    "bytes": 71485,
+    "fetched_utc": "2026-10-24T07:34:35.156434+00:00"
+  },
+  "yahoo_close": {
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
+    "bytes": 1032011,
+    "fetched_utc": "2026-10-24T07:34:35.372912+00:00"
+  },
+  "cyber_investing": {
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-powered-cyber-threats-light-154008889.html",
+    "bytes": 903009,
+    "fetched_utc": "2026-10-24T07:34:30.592332+00:00"
+  },
+  "cyber_banks": {
+    "url": "https://finance.yahoo.com/technology/ai/articles/window-vulnerability-banks-move-restrict-202731426.html",
+    "bytes": 893961,
+    "fetched_utc": "2026-10-24T07:34:35.322927+00:00"
+  },
+  "cyber_wsj": {
+    "url": "https://finance.yahoo.com/m/2684c6eb-4f48-31fb-9f24-a9b1ec1e3e27/ai-hacks-are-coming-thick-and.html",
+    "bytes": 865315,
+    "fetched_utc": "2026-10-24T07:34:40.456461+00:00"
+  },
+  "oil_goldman": {
+    "url": "https://finance.yahoo.com/energy/articles/goldman-sachs-says-refiners-see-062835732.html",
+    "bytes": 893817,
+    "fetched_utc": "2026-10-24T07:34:40.685508+00:00"
+  },
+  "calendar_ibd": {
+    "url": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
+    "bytes": 884021,
+    "fetched_utc": "2026-10-24T07:34:35.631611+00:00"
+  },
+  "cisa_kev": {
+    "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "google_cyber_rss": {
+    "url": "https://news.google.com/rss/search?q=cyberattack%20breach%20after%3A2026-10-19%20before%3A2026-10-25&hl=en-US&gl=US&ceid=US:en",
+    "error": "HTTP Error 503: "
+  },
+  "x_search_bing": {
+    "url": "https://www.bing.com/search?q=site%3Ax.com%20October%2023%202026%20cyber%20breach",
+    "bytes": 125407,
+    "fetched_utc": "2026-10-24T07:34:40.420017+00:00"
+  },
+  "news_breach": {
+    "url": "https://query1.finance.yahoo.com/v1/finance/search?q=cyberattack&newsCount=30",
+    "bytes": 443,
+    "fetched_utc": "2026-10-24T07:34:45.678035+00:00"
+  },
+  "news_oil": {
+    "url": "https://query1.finance.yahoo.com/v1/finance/search?q=oil&newsCount=60",
+    "bytes": 38753,
+    "fetched_utc": "2026-10-24T07:34:40.950744+00:00"
+  },
+  "news_iran": {
+    "url": "https://query1.finance.yahoo.com/v1/finance/search?q=Iran&newsCount=30",
+    "bytes": 1472,
+    "fetched_utc": "2026-10-24T07:34:45.466784+00:00"
+  },
+  "oil_reuters_friday": {
+    "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html",
+    "bytes": 890568,
+    "fetched_utc": "2026-10-24T07:35:38.319632+00:00"
+  },
+  "global_reuters_friday": {
+    "url": "https://finance.yahoo.com/markets/articles/tech-selloff-relents-oil-five-103308077.html",
+    "bytes": 888048,
+    "fetched_utc": "2026-10-24T07:35:33.682085+00:00"
+  },
+  "ap_index_friday": {
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html",
+    "bytes": 885994,
+    "fetched_utc": "2026-10-24T07:35:38.322239+00:00"
+  },
+  "php_news": {
+    "url": "https://www.php.net/",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "php_changelog": {
+    "url": "https://www.php.net/ChangeLog-8.php",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "wiz_blog": {
+    "url": "https://www.wiz.io/blog",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "openai_news": {
+    "url": "https://openai.com/news/",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "php2shell_search": {
+    "url": "https://www.bing.com/search?q=PHP2Shell+October+2026",
+    "bytes": 534604,
+    "fetched_utc": "2026-10-24T07:35:38.896338+00:00"
+  },
+  "x_php_search": {
+    "url": "https://www.bing.com/search?q=site%3Ax.com+%22PHP2Shell%22",
+    "bytes": 132612,
+    "fetched_utc": "2026-10-24T07:35:43.335232+00:00"
+  },
+  "msft_ir": {
+    "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "google_ir": {
+    "url": "https://abc.xyz/investor/",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "amazon_ir": {
+    "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "apple_ir": {
+    "url": "https://investor.apple.com/investor-relations/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "php_ncsc": {
+    "url": "https://raw.githubusercontent.com/NCSC-NL/php2shell/main/README.md",
+    "bytes": 5925,
+    "fetched_utc": "2026-10-24T07:37:12.421638+00:00"
+  },
+  "php_datadog": {
+    "url": "https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "php_ap_yahoo": {
+    "url": "https://tech.yahoo.com/cybersecurity/articles/know-critical-php-vulnerability-threatening-052457041.html",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "msft_release": {
+    "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "amazon_bing": {
+    "url": "https://www.bing.com/search?q=Amazon+%22October+29%22+%222026%22+%22earnings%22",
+    "bytes": 427663,
+    "fetched_utc": "2026-10-24T07:37:12.474289+00:00"
+  },
+  "alphabet_bing": {
+    "url": "https://www.bing.com/search?q=Alphabet+%22October+28%22+%222026%22+%22conference%22",
+    "bytes": 299531,
+    "fetched_utc": "2026-10-24T07:37:12.474026+00:00"
+  },
+  "apple_bing": {
+    "url": "https://www.bing.com/search?q=Apple+%222026%22+%22November%22+%22fourth+quarter%22+earnings",
+    "bytes": 474819,
+    "fetched_utc": "2026-10-24T07:37:13.169088+00:00"
+  },
+  "php_x_bing2": {
+    "url": "https://www.bing.com/search?q=%22PHP2Shell%22+%22x.com%22",
+    "bytes": 285255,
+    "fetched_utc": "2026-10-24T07:37:17.441726+00:00"
+  }
+}

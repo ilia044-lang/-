@@ -1,0 +1,57 @@
+TITLE
+AI Sold Off, But Not Everything Did | Weekly Review & Fed Week Ahead
+
+ALTERNATIVE TITLES
+One Week, Two Markets: AI, Oil, VIX & the Fed Week Ahead
+Tech Weakness or Market Rotation? The Evidence Before Fed Week
+
+DESCRIPTION
+One week. Two markets.
+A calm, source-backed review of October 19–23, 2026, and the events scheduled for October 26–30.
+
+SPY fell 0.43% for the week, while equal-weight RSP gained 1.14% and small-cap IWM rose 1.96%. Severe losses in selected AI names coexisted with gains elsewhere. Eight of eleven major S&P sector ETFs finished higher. This episode explains the difference between index weighting, sector performance and actual participation.
+
+We cover the late-week technology selloff, the VIX rebound from its Wednesday low, falling weekly Treasury yields, rising oil, verified geopolitical supply risks, and the PHP2Shell security vulnerabilities. A software vulnerability is not proof that every affected website was breached.
+
+NEXT WEEK
+• Fed meeting October 27–28; decision Wednesday October 28.
+• BEA schedules BOTH Q3 advance GDP and September Personal Income and Outlays (including PCE inflation) for Thursday October 29, 08:30 ET.
+• Microsoft and Alphabet: Wednesday after close; Amazon: Thursday after close, according to the current earnings calendar.
+• Selected additional reports: KO/SOFI Tuesday morning, Visa Tuesday after close; CAT/LLY Thursday morning, INTC Thursday after close; XOM/CVX Friday morning. Schedules can change.
+
+The GDP/PCE reports follow the Fed decision. They can reshape future policy expectations; they cannot change the decision already announced.
+
+CHAPTERS
+00:00 One week. Two markets.
+00:48 The same market. Different weights.
+01:22 Eight sectors finished higher.
+01:56 AI was not one trade.
+02:29 The timing changes the story.
+02:56 Bonds sent a different message.
+03:24 VIX fell for the week. Then rebounded.
+04:00 Oil brought inflation back into focus.
+05:37 The cyber story: PHP2Shell.
+06:43 Next week: order matters.
+07:15 Listen beyond the rate decision.
+07:46 Growth and inflation, side by side.
+08:22 The biggest earnings tests.
+09:33 QQQ: what would improve the picture?
+10:33 Your calm checklist.
+
+SOURCES AND AS-OF
+Market prices: Yahoo Finance daily OHLCV through Friday October 23, 2026; weekly changes compare October 16 with October 23 closes. SPY/QQQ are ETF proxies, not the exact S&P 500 or Nasdaq Composite index. News/calendar checks: October 24, 2026.
+https://finance.yahoo.com/quote/SPY/history/
+https://finance.yahoo.com/quote/QQQ/history/
+https://finance.yahoo.com/quote/RSP/history/
+https://finance.yahoo.com/quote/%5EVIX/history/
+Fed official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEA official release schedule: https://www.bea.gov/news/schedule
+Reuters: Friday markets: https://finance.yahoo.com/markets/articles/tech-selloff-relents-oil-five-103308077.html
+Reuters: oil settlements and supply risks: https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html
+NCSC-NL: PHP2Shell advisory: https://raw.githubusercontent.com/NCSC-NL/php2shell/main/README.md
+Cyber market context: https://finance.yahoo.com/technology/ai/articles/ai-powered-cyber-threats-light-154008889.html
+
+Follow @MarketMindTradingBasics for clear market breakdowns. Which report should we explain next?
+I am not a licensed financial advisor. Education only. Not financial advice or a recommendation to buy, sell, or take investment action. Chart levels are conditional references, not forecasts. AI-generated illustrations and a synthetic narrator are used; market figures are independently typeset from the cited data.
+
+#StockMarket #MarketReview #FederalReserve #AI #SPY

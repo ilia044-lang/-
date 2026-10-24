@@ -1,0 +1,67 @@
+1
+00:00:00,040 --> 00:00:01,337
+AI stocks fell hard.
+
+2
+00:00:01,337 --> 00:00:04,743
+But another view of the same market finished green.
+
+3
+00:00:04,743 --> 00:00:06,183
+How can both be true?
+
+4
+00:00:06,373 --> 00:00:12,273
+For October 19–23, SPY fell 0.43%.
+
+5
+00:00:12,273 --> 00:00:17,073
+The equal weight fund, RSP, gained 1.14%,
+
+6
+00:00:17,073 --> 00:00:20,373
+and small caps gained 1.96%.
+
+7
+00:00:20,373 --> 00:00:23,813
+Bigger companies have more influence on the main index.
+
+8
+00:00:23,813 --> 00:00:25,766
+Equal weighting gives a different picture.
+
+9
+00:00:25,957 --> 00:00:32,557
+CoreWeave lost 11.65%, but Palantir gained 5.76%.
+
+10
+00:00:32,557 --> 00:00:35,697
+Eight of eleven major sector funds finished higher.
+
+11
+00:00:35,697 --> 00:00:38,669
+That shows uneven leadership, not a guarantee
+
+12
+00:00:38,669 --> 00:00:40,100
+that the selloff is over.
+
+13
+00:00:40,290 --> 00:00:42,787
+Watch One Week, Two Markets on Market
+
+14
+00:00:42,787 --> 00:00:45,451
+Mind Trading Basics for the charts, oil,
+
+15
+00:00:45,451 --> 00:00:47,830
+the Fed and next week's earnings.
+
+16
+00:00:47,830 --> 00:00:49,330
+Education only.
+
+17
+00:00:49,330 --> 00:00:52,058
+I am not a licensed financial advisor.

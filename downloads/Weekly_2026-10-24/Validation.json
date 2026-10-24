@@ -1,0 +1,91 @@
+{
+  "videos": {
+    "Weekly": {
+      "duration": 686.583333,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true,
+      "cover_first_second_verified": true,
+      "cover_error": {
+        "0.5": 2.9093537808641976,
+        "0.958333": 2.909049800668724,
+        "1.5": 52.871781764403295
+      },
+      "bytes": 31910437,
+      "sha256": "f325f993fa97cbc3cdceefbf1fc4fd04c5d33503bd8158ce8ba124a1f6ba6bf3"
+    },
+    "Rotation": {
+      "duration": 52.208333,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "full_decode_passed": true,
+      "cover_first_second_verified": true,
+      "cover_error": {
+        "0.5": 2.474100758744856,
+        "0.958333": 2.474002700617284,
+        "1.5": 59.55064332561729
+      },
+      "bytes": 2644868,
+      "sha256": "1af63b84baedd1d7205d70eba2af2cd94ae542982beda74e38a2f9ceeab7d514"
+    },
+    "NextWeek": {
+      "duration": 52.375,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "full_decode_passed": true,
+      "cover_first_second_verified": true,
+      "cover_error": {
+        "0.5": 2.577946405606996,
+        "0.958333": 2.577329603909465,
+        "1.5": 58.24908725565844
+      },
+      "bytes": 2776625,
+      "sha256": "b4a8363ba65cd9b00b05fb1a7df02c80add081748e1dd4f1b3d1e830b970c15a"
+    }
+  },
+  "weekly_returns_recomputed": {
+    "SPY": -0.4297,
+    "QQQ": -0.7608,
+    "RSP": 1.1444,
+    "IWM": 1.9635,
+    "^DJI": 0.4091,
+    "^VIX": -2.7013,
+    "^TNX": -2.1577,
+    "CL=F": 1.8341,
+    "BZ=F": 6.2443,
+    "DX-Y.NYB": -0.0295,
+    "BTC-USD": -0.5235,
+    "XLK": -0.1308,
+    "XLF": 0.6844,
+    "XLI": -1.8717,
+    "XLV": 1.4544,
+    "XLE": 1.5973,
+    "XLU": 0.8292,
+    "XLP": 0.7304,
+    "XLY": 0.5691,
+    "XLRE": 0.9725,
+    "XLB": 0.7659,
+    "XLC": -4.36,
+    "NVDA": -1.4804,
+    "SOXX": -3.0787,
+    "CRWV": -11.655,
+    "IREN": -7.7251,
+    "PLTR": 5.7625,
+    "ORCL": -1.6143,
+    "TSLA": 4.9335,
+    "META": -9.4047,
+    "CRWD": 13.2724,
+    "PANW": 11.2719,
+    "NET": 9.9325
+  },
+  "positive_sector_count": 8
+}

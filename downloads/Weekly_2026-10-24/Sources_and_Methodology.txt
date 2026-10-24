@@ -1,0 +1,41 @@
+SCOPE AND EVIDENCE
+Review week: Oct 19–23, 2026. Next week: Oct 26–30. Daily market data cutoff: Oct 23 close. Research undertaken Oct 24. Values are dated snapshots, not live data.
+
+All weekly stock/ETF price returns are (Oct23 close / Oct16 close - 1) × 100, unadjusted daily closes. ETF cash distributions are not included; adjusted closes were checked as a secondary field, not mixed into a displayed price-return series. A sector ETF comparison is not an advance/decline stock count. RSP's weighting differs from SPY and does not isolate an exact causal contribution by stock. The cap/equal-weight cube display is explicitly a concept illustration, not actual index weights.
+
+11 major Select Sector ETFs were checked: XLK, XLC, XLI, XLE, XLV, XLF, XLU, XLRE, XLP, XLY, XLB. Eight were positive. Individual AI examples are selected to show dispersion, not claimed to be an exhaustive sector. CRWV -11.65%, META -9.40%, IREN -7.73% are rounded directly from full-precision returns; no double rounding.
+
+QQQ Thursday move uses Oct21 and Oct22 closes. Friday-to-Friday weekly returns use Oct16 and Oct23. VIX week -2.70%; Wed-to-Fri +16.61%. VIX measures roughly 30-day option-implied annualized S&P 500 volatility, not a guaranteed directional signal or a trading threshold. U.S. 10-year yield moved 5.098% to 4.988%, a decline of 11 basis points; this is not a bond price return.
+
+SMA20 and SMA50 include the Oct23 close. Candle plots use actual OHLCV, with moving-average curves calculated on the full available daily series. Last-32-session overview smoothly zooms toward the final 14 sessions. Weekly low is the minimum daily low during Oct19–23. Labels are kept outside the plot. Support/risk scenarios are conditional, not price targets or individualized trade recommendations.
+
+Oil: use Reuters' dated Friday settlements, WTI $103.27 and Brent $116.72, plus its rounded Brent weekly gain of about 6%. The Yahoo continuous WTI weekly series differs from Reuters' same-contract narrative because contract/roll conventions can differ; its raw weekly return is NOT used on screen. No futures price is represented as an oil-ETF return. The reported UAE spill's cause was unknown; no unverified Israeli strike or specific actor behind that spill is invented.
+
+Calendar: Fed official schedule confirms Oct27–28 and does not mark October as a Summary of Economic Projections meeting. BEA schedule explicitly lists both GDP advance/Q3 and Personal Income and Outlays/September on ThuOct29 08:30 ET. The monthly PCE release is distinguished from quarterly GDP price data. All selected earnings dates appear as non-estimated in Yahoo's calendar; issuer announcement/event listings were additionally found in search results for MSFT, Alphabet and Amazon. Direct issuer pages were inaccessible in this environment, so the video calls the dates scheduled/listed and advises checking updates. No consensus EPS, expected options move or Fed probability is invented. Apple was not inserted into this week's calendar by assumption.
+
+Cyber: NCSC-NL's public operational advisory, updated Oct23, was read in full. It documents critical CVE-2026-109618 and CVE-2026-109619 and fixed releases published Oct21. The video explains remote code execution at a high level and separates exposure, compromise and data theft. No assertion of universal compromise or stolen customer records. Cyber stock moves are calculated from prices, with demand/headline explanations treated as possible contributors, not proven sole causes.
+
+X research: direct X search returned an application shell with no accessible posts. Search indexing exposed a relevant Calif post; it was used only as a research lead. No purported full-post quotation, screenshot, engagement number or claim about platform-wide sentiment is presented. Facts were checked against the official NCSC advisory and readable news sources. Some issuer/CISA/security-provider pages were inaccessible; those are not described as fully reviewed.
+
+PRODUCTION
+The channel's approved white/titanium bull-and-bear Apple-inspired cover direction is retained. Each first second embeds the correct cover; the spoken hook begins immediately. Visuals use deterministic numerical overlays, dimensional graphs, conceptual cubes, an animated oil barrel, an illustrative news phone/shield, glass-card turns, comparison reveals, chart zooms and moving highlights. The opening and scoreboard project animated 3D bars over a blank glass screen in a generated pearl-white studio. The long cover lists the episode topics and both date ranges. Decorative depth does not encode additional data. Original user-supplied bull/bear clips appear with backgrounds removed. Background remains stable; no strobing or shake.
+
+English Michael preset synthetic voice, whole-paragraph generation for natural continuity. Captions preserve the reviewed script, aligned to local Whisper segment timing by text matching and interpolation; word-perfect forced alignment is not claimed. Numerals/acronyms are normalized for readability. Original quiet procedural instrumental bed; no commercial music. Original reference videos preserved unchanged and used only to study technique. Some auxiliary files referenced by the cloud video skills were unavailable; direct FFprobe, temporal frame inspection and local transcription were used instead.
+
+SOURCE LINKS
+Fed official calendar
+https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEA official release schedule
+https://www.bea.gov/news/schedule
+Reuters: Friday markets
+https://finance.yahoo.com/markets/articles/tech-selloff-relents-oil-five-103308077.html
+Reuters: oil settlements and supply risks
+https://finance.yahoo.com/energy/articles/oil-prices-rise-supply-concerns-052617190.html
+NCSC-NL: PHP2Shell advisory
+https://raw.githubusercontent.com/NCSC-NL/php2shell/main/README.md
+Cyber market context
+https://finance.yahoo.com/technology/ai/articles/ai-powered-cyber-threats-light-154008889.html
+Additional AI-agent banking context, researched but not used in narration
+https://finance.yahoo.com/technology/ai/articles/window-vulnerability-banks-move-restrict-202731426.html
+Indexed X research lead, not a verified full-post quotation
+https://x.com/calif_io/status/2112905223929049457
