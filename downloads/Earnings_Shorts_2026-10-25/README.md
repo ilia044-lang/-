@@ -1,6 +1,6 @@
 # Market Mind · Earnings Shorts · October 25, 2026
 
-14 separate videos. Data: Oct23 close. Every cover is embedded in the first second. Each video includes English narration, captions, charts, indicators, news and a Subscribe CTA.
+14 separate videos. Data: Oct23 close. Every cover is embedded in the first second. Each company logo appears beside its ticker throughout the video. Each video includes English narration, captions, charts, indicators, news and a Subscribe CTA.
 
 | Stock | Listed report (ET) | Video | YouTube copy | TikTok copy |
 |---|---|---|---|---|

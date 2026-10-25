@@ -7,16 +7,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5680029,
-      "sha256": "68bf0a5fcd44d0dd287fc85679af81ffd58bac084a8b998eeb4852fd8320e419",
+      "bytes": 6384012,
+      "sha256": "2e7bb596209cdca32aa719ff30b1caae238493dacbd7fe4ee55a9b70a4c676b3",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8271410429526749,
-        "0.958333": 1.8276549639917696,
-        "1.5": 35.68970293209877
+        "0.5": 1.4869610018004116,
+        "0.958333": 1.486759580761317,
+        "1.5": 35.78304928626543
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.1231087323320335,
+      "audio_packets_unchanged": true
     },
     "GOOGL": {
       "duration": 112.791667,
@@ -25,16 +28,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5624397,
-      "sha256": "b6fb411a70e6bfe5b2cb6b16a699afb90af43533bf2f9fa07e843fc7b2893a83",
+      "bytes": 6326084,
+      "sha256": "e0bf203ccc9f0a6196041b6edd27ae40613414d15aae581fce05fb95f586c86d",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8187956532921812,
-        "0.958333": 1.8195707947530864,
-        "1.5": 35.537275591563784
+        "0.5": 1.4809717399691358,
+        "0.958333": 1.4809223894032921,
+        "1.5": 35.227504340277775
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.069994191353415,
+      "audio_packets_unchanged": true
     },
     "AMZN": {
       "duration": 117.083333,
@@ -43,16 +49,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 6075301,
-      "sha256": "a9d976fef710ef43d05777c93121e5b329e477e14c6980d26850b16d16767d6e",
+      "bytes": 6769710,
+      "sha256": "3edac7599a604fa6b8a1501eb8988959e92cafa94268201d2fd1190691bee206",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8528637795781893,
-        "0.958333": 1.8535561342592592,
-        "1.5": 36.785563271604936
+        "0.5": 1.4972786458333334,
+        "0.958333": 1.4968307934670781,
+        "1.5": 38.11147183641975
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.056516748264321,
+      "audio_packets_unchanged": true
     },
     "LLY": {
       "duration": 122.333333,
@@ -61,16 +70,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 6048372,
-      "sha256": "20ca7625d9b55266c18983d9c6d12da92e70d65e4e67a050c4ab055572ea85cb",
+      "bytes": 6626044,
+      "sha256": "d916643a4683f76ed31c8acddc9784f84def24e0716097d6229d4ff7ad9b87a6",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8220394483024691,
-        "0.958333": 1.8225884130658436,
-        "1.5": 35.0165613747428
+        "0.5": 1.4839763374485597,
+        "0.958333": 1.4836995241769548,
+        "1.5": 34.57127700617284
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 1.9610405775454318,
+      "audio_packets_unchanged": true
     },
     "V": {
       "duration": 113.375,
@@ -79,16 +91,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5529411,
-      "sha256": "51cb20602c080241221840868f4efa10ce9b63003aefc8b840151ad6155785cf",
+      "bytes": 6236059,
+      "sha256": "6ef2a9a120df0fbaacff72a29e6c9b21ac5023c27b85dcaad73c0a2860456eaa",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.781337287808642,
-        "0.958333": 1.7823717206790124,
-        "1.5": 33.56185667438272
+        "0.5": 1.4651978845164608,
+        "0.958333": 1.4647210969650206,
+        "1.5": 35.05783387988683
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 1.7945122119879402,
+      "audio_packets_unchanged": true
     },
     "MA": {
       "duration": 118.041667,
@@ -97,16 +112,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5852941,
-      "sha256": "cea1b00a2795348c28f1e5bfc387f0a6c3a2ea3449bc778fbf8efb957b0ce375",
+      "bytes": 6604125,
+      "sha256": "0ca4e2263c3289cff55ab32b723828a3158ed077e92ed77f52801bfc39f2bde7",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8143412422839507,
-        "0.958333": 1.8153729423868312,
-        "1.5": 35.004870434670785
+        "0.5": 1.4768012152777779,
+        "0.958333": 1.4764133230452674,
+        "1.5": 34.7611730002572
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 1.876801371947003,
+      "audio_packets_unchanged": true
     },
     "CAT": {
       "duration": 117.041667,
@@ -115,16 +133,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5842315,
-      "sha256": "fe92897bcfda40d5c21f83b094151e456756963c34a2b5eca6efd1a31b908b01",
+      "bytes": 6522904,
+      "sha256": "5555ceb120c016749063c1f2374bf6aded2d98ff6f5854ba33b20b4a07d6133a",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8162602880658436,
-        "0.958333": 1.8170214441872428,
-        "1.5": 35.072903645833335
+        "0.5": 1.4863794045781893,
+        "0.958333": 1.486131044238683,
+        "1.5": 36.22944733796297
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 1.9423076923076923,
+      "audio_packets_unchanged": true
     },
     "INTC": {
       "duration": 116.083333,
@@ -133,16 +154,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5711925,
-      "sha256": "16047a15511a57d1c6e077f841b4697bc0743f92f2dbdf7df3120a35ffa7a9f0",
+      "bytes": 6403608,
+      "sha256": "de52dc8222b95ae9037e6b1a3208b4d4dbfb0437afd7fc039bc93f969873b6aa",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.7953624935699588,
-        "0.958333": 1.7957021604938272,
-        "1.5": 34.578679108796294
+        "0.5": 1.4625583526234567,
+        "0.958333": 1.4624295910493827,
+        "1.5": 36.09080954218107
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 1.9137900035958288,
+      "audio_packets_unchanged": true
     },
     "XOM": {
       "duration": 110.041667,
@@ -151,16 +175,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5475244,
-      "sha256": "7833711308ec857cd208a48b422c27458b764c55480f4cd01d773e17e8f6a147",
+      "bytes": 6222220,
+      "sha256": "2c1decade9d650a1452717eec0f059e7d07025164dba513608b7519efc9d3e49",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.821697048611111,
-        "0.958333": 1.8221743184156378,
-        "1.5": 35.57205568415638
+        "0.5": 1.482113554526749,
+        "0.958333": 1.4818467078189301,
+        "1.5": 35.34044817386831
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.017419024700578,
+      "audio_packets_unchanged": true
     },
     "CVX": {
       "duration": 110.666667,
@@ -169,16 +196,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5497479,
-      "sha256": "e4690fc09ee198e5bc4923ed42eef9b822ed7d1ad3d25635d3fe9055cfcc5699",
+      "bytes": 6107428,
+      "sha256": "6d1ec10f47ccfb6b50db3c6868c45569179ac7ea057fa9d33b29cc427a8904e7",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.824043370627572,
-        "0.958333": 1.8246322016460905,
-        "1.5": 35.48172228652263
+        "0.5": 1.485638342335391,
+        "0.958333": 1.4854676247427983,
+        "1.5": 35.48310201260288
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.002295798412303,
+      "audio_packets_unchanged": true
     },
     "RBLX": {
       "duration": 113.333333,
@@ -187,16 +217,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5736430,
-      "sha256": "0c0faa4fa8768312d03252e49fe7c82e9f11f0dbd1f5400e69ae969658483de0",
+      "bytes": 6458807,
+      "sha256": "89180e7bd2ca1828d29038c3ab5fd5952624d26bb25329fa7f48fe85ea625a70",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.813936310442387,
-        "0.958333": 1.815036490483539,
-        "1.5": 35.16383632330247
+        "0.5": 1.4724154449588478,
+        "0.958333": 1.4723640046296296,
+        "1.5": 35.978430105452674
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 1.926084972201477,
+      "audio_packets_unchanged": true
     },
     "CVNA": {
       "duration": 112.625,
@@ -205,16 +238,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5638531,
-      "sha256": "828d36221eab77bf6bfc9d67efb61fee66231b6a7c98df5dd91558cb6d633a8a",
+      "bytes": 6336205,
+      "sha256": "f76b1a4ccc3db93a662cac14009d47712e7f44e88faf1d647f20ef91cfe00c83",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.816051311728395,
-        "0.958333": 1.8167706725823045,
-        "1.5": 35.455237268518516
+        "0.5": 1.4840044688786007,
+        "0.958333": 1.4841724537037038,
+        "1.5": 35.35183063271605
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.1072110198323792,
+      "audio_packets_unchanged": true
     },
     "RDDT": {
       "duration": 117.125,
@@ -223,16 +259,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 6031142,
-      "sha256": "ed51e9ee74bbe9b7db412e182e52027e8d3faa5501bc9169a2b1d8ed9563359c",
+      "bytes": 6761678,
+      "sha256": "3319b7b41f66821cece8a817605a57f724a56073fa8341321ff181efe0fbb7de",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.8451546424897118,
-        "0.958333": 1.8454943094135803,
-        "1.5": 36.33388213734568
+        "0.5": 1.49901266718107,
+        "0.958333": 1.4984429655349794,
+        "1.5": 36.358520447530864
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.1649655630238156,
+      "audio_packets_unchanged": true
     },
     "HOOD": {
       "duration": 113.5,
@@ -241,16 +280,19 @@
         1920
       ],
       "fps": 24,
-      "bytes": 5645709,
-      "sha256": "e9cad1f8d0bfaaa7395f6f6041868479ea216f302191e45d916079c65a94d65a",
+      "bytes": 6396098,
+      "sha256": "88efc99179b58be7a4d4ba29d302f144acd44495931662bc4fc43dbda4194b81",
       "full_decode_passed": true,
       "cover_embedded_first_second": true,
       "cover_error": {
-        "0.5": 1.828405028292181,
-        "0.958333": 1.8296661201131688,
-        "1.5": 35.69401089891975
+        "0.5": 1.4875752314814814,
+        "0.958333": 1.4876826131687242,
+        "1.5": 35.43239390432099
       },
-      "caption_layout_passed": true
+      "caption_layout_passed": true,
+      "logo_header_checked_each_second": true,
+      "logo_max_pixel_error": 2.0997773352142284,
+      "audio_packets_unchanged": true
     }
   },
   "data_checks": {

@@ -1,0 +1,100 @@
+{
+  "MSFT": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/MSFT.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "GOOGL": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/GOOGL.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "AMZN": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/AMZN.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "LLY": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/LLY.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "V": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/V.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "MA": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/MA.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "CAT": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/CAT.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "INTC": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/INTC.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "XOM": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/XOM.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "CVX": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/CVX.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "RBLX": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/RBLX.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "CVNA": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/CVNA.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "RDDT": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/RDDT.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  },
+  "HOOD": {
+    "source": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/HOOD.png",
+    "dimensions": [
+      250,
+      250
+    ]
+  }
+}
