@@ -1,0 +1,28 @@
+name: media-fetch
+on:
+  push:
+    branches: [media-fetch]
+    paths: [urls.txt]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p out
+          while IFS='|' read -r name url; do
+            [ -z "$name" ] && continue
+            curl -sSL -A "EraMirrorResearch/1.0 (ilia044@gmail.com)" --retry 3 -o "out/$name" "$url" || echo "FAIL $name" >> out/_failed.txt
+            sleep 1
+          done < urls.txt
+          ls -la out
+      - name: Publish to media-out branch
+        run: |
+          cd out
+          git init -q -b media-out
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          git add -A && git commit -qm "media $(date -u +%FT%T)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" media-out
