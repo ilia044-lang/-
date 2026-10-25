@@ -1,0 +1,356 @@
+{
+  "videos": {
+    "MSFT": {
+      "duration": 113.208333,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5680029,
+      "sha256": "68bf0a5fcd44d0dd287fc85679af81ffd58bac084a8b998eeb4852fd8320e419",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8271410429526749,
+        "0.958333": 1.8276549639917696,
+        "1.5": 35.68970293209877
+      },
+      "caption_layout_passed": true
+    },
+    "GOOGL": {
+      "duration": 112.791667,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5624397,
+      "sha256": "b6fb411a70e6bfe5b2cb6b16a699afb90af43533bf2f9fa07e843fc7b2893a83",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8187956532921812,
+        "0.958333": 1.8195707947530864,
+        "1.5": 35.537275591563784
+      },
+      "caption_layout_passed": true
+    },
+    "AMZN": {
+      "duration": 117.083333,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 6075301,
+      "sha256": "a9d976fef710ef43d05777c93121e5b329e477e14c6980d26850b16d16767d6e",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8528637795781893,
+        "0.958333": 1.8535561342592592,
+        "1.5": 36.785563271604936
+      },
+      "caption_layout_passed": true
+    },
+    "LLY": {
+      "duration": 122.333333,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 6048372,
+      "sha256": "20ca7625d9b55266c18983d9c6d12da92e70d65e4e67a050c4ab055572ea85cb",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8220394483024691,
+        "0.958333": 1.8225884130658436,
+        "1.5": 35.0165613747428
+      },
+      "caption_layout_passed": true
+    },
+    "V": {
+      "duration": 113.375,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5529411,
+      "sha256": "51cb20602c080241221840868f4efa10ce9b63003aefc8b840151ad6155785cf",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.781337287808642,
+        "0.958333": 1.7823717206790124,
+        "1.5": 33.56185667438272
+      },
+      "caption_layout_passed": true
+    },
+    "MA": {
+      "duration": 118.041667,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5852941,
+      "sha256": "cea1b00a2795348c28f1e5bfc387f0a6c3a2ea3449bc778fbf8efb957b0ce375",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8143412422839507,
+        "0.958333": 1.8153729423868312,
+        "1.5": 35.004870434670785
+      },
+      "caption_layout_passed": true
+    },
+    "CAT": {
+      "duration": 117.041667,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5842315,
+      "sha256": "fe92897bcfda40d5c21f83b094151e456756963c34a2b5eca6efd1a31b908b01",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8162602880658436,
+        "0.958333": 1.8170214441872428,
+        "1.5": 35.072903645833335
+      },
+      "caption_layout_passed": true
+    },
+    "INTC": {
+      "duration": 116.083333,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5711925,
+      "sha256": "16047a15511a57d1c6e077f841b4697bc0743f92f2dbdf7df3120a35ffa7a9f0",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.7953624935699588,
+        "0.958333": 1.7957021604938272,
+        "1.5": 34.578679108796294
+      },
+      "caption_layout_passed": true
+    },
+    "XOM": {
+      "duration": 110.041667,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5475244,
+      "sha256": "7833711308ec857cd208a48b422c27458b764c55480f4cd01d773e17e8f6a147",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.821697048611111,
+        "0.958333": 1.8221743184156378,
+        "1.5": 35.57205568415638
+      },
+      "caption_layout_passed": true
+    },
+    "CVX": {
+      "duration": 110.666667,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5497479,
+      "sha256": "e4690fc09ee198e5bc4923ed42eef9b822ed7d1ad3d25635d3fe9055cfcc5699",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.824043370627572,
+        "0.958333": 1.8246322016460905,
+        "1.5": 35.48172228652263
+      },
+      "caption_layout_passed": true
+    },
+    "RBLX": {
+      "duration": 113.333333,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5736430,
+      "sha256": "0c0faa4fa8768312d03252e49fe7c82e9f11f0dbd1f5400e69ae969658483de0",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.813936310442387,
+        "0.958333": 1.815036490483539,
+        "1.5": 35.16383632330247
+      },
+      "caption_layout_passed": true
+    },
+    "CVNA": {
+      "duration": 112.625,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5638531,
+      "sha256": "828d36221eab77bf6bfc9d67efb61fee66231b6a7c98df5dd91558cb6d633a8a",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.816051311728395,
+        "0.958333": 1.8167706725823045,
+        "1.5": 35.455237268518516
+      },
+      "caption_layout_passed": true
+    },
+    "RDDT": {
+      "duration": 117.125,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 6031142,
+      "sha256": "ed51e9ee74bbe9b7db412e182e52027e8d3faa5501bc9169a2b1d8ed9563359c",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.8451546424897118,
+        "0.958333": 1.8454943094135803,
+        "1.5": 36.33388213734568
+      },
+      "caption_layout_passed": true
+    },
+    "HOOD": {
+      "duration": 113.5,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "bytes": 5645709,
+      "sha256": "e9cad1f8d0bfaaa7395f6f6041868479ea216f302191e45d916079c65a94d65a",
+      "full_decode_passed": true,
+      "cover_embedded_first_second": true,
+      "cover_error": {
+        "0.5": 1.828405028292181,
+        "0.958333": 1.8296661201131688,
+        "1.5": 35.69401089891975
+      },
+      "caption_layout_passed": true
+    }
+  },
+  "data_checks": {
+    "MSFT": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "GOOGL": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "AMZN": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "LLY": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "V": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "MA": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "CAT": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "INTC": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "XOM": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "CVX": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "RBLX": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "CVNA": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "RDDT": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    },
+    "HOOD": {
+      "daily_data_date": "2026-10-23",
+      "moving_averages_recomputed": true,
+      "weekly_low_recomputed": true,
+      "option_expiry_and_strike_match": true,
+      "straddle_midpoint_recomputed": true
+    }
+  }
+}

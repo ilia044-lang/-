@@ -1,0 +1,40 @@
+TITLE
+CVNA Earnings: Sales Growth. Weak Chart.
+
+ALTERNATIVE TITLES
+CVNA: The Chart Levels to Watch Before Earnings
+Carvana Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Carvana before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: WED OCT 28 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $57.81. Support reference $56.28, the Oct 19–23 weekly low. Resistance reference $62.07.
+SMA20 $61.14 | SMA50 $66.61 | SMA150 $68.17 | SMA200 $69.92.
+RSI14 37.5 | CCI14 -120.3 | ATR14 $2.99 | Friday volume / 20-day average 0.74x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+More vehicles, but what margin?.
+Watch: Revenue estimate: $7.67B; Units sold • gross profit per unit.
+Quarterly EPS estimate: $0.47, source: Zacks • Oct 23. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±13.6% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $58.00; combined midpoint $7.88. Illustrative spot ± premium references: $49.94 / $65.69.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/CVNA?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/curious-carvana-cvna-q3-performance-121508076.html
+https://finance.yahoo.com/quote/CVNA/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=CVNA
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#CVNA #Earnings #StockMarket #TechnicalAnalysis #Shorts

@@ -1,0 +1,41 @@
+TITLE
+CVX Earnings: Oil Momentum. Report Risk.
+
+ALTERNATIVE TITLES
+CVX: The Chart Levels to Watch Before Earnings
+Chevron Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Chevron before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: FRI OCT 30 • BEFORE OPEN (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $233.21. Support reference $221.56, the Oct 19–23 weekly low. Resistance reference $233.74.
+SMA20 $215.37 | SMA50 $210.42 | SMA150 $195.25 | SMA200 $191.63.
+RSI14 76.9 | CCI14 128.7 | ATR14 $4.78 | Friday volume / 20-day average 1.10x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Earnings growth and one-off items.
+Watch: Zacks EPS estimate: $4.78; Production • Hess integration • cash flow.
+Quarterly EPS estimate: $4.78, source: Zacks • Oct 23. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±3.9% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $232.50; combined midpoint $9.20. Illustrative spot ± premium references: $224.01 / $242.41.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/CVX?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-earnings-expected-grow-130004941.html
+https://finance.yahoo.com/quote/CVX/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=CVX
+https://finance.yahoo.com/energy/articles/chevron-taking-3-billion-4-123500565.html
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#CVX #Earnings #StockMarket #TechnicalAnalysis #Shorts

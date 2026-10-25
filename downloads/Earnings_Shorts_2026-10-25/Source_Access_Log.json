@@ -1,0 +1,50 @@
+{
+  "msft_q4": {
+    "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "msft_outlook": {
+    "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/earnings-call-transcript",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "alphabet": {
+    "url": "https://abc.xyz/investor/",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "amazon": {
+    "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "lilly": {
+    "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-and-raises",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "cat": {
+    "url": "https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Second-Quarter-2026-Results/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "intel": {
+    "url": "https://www.intc.com/news-events/press-releases",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "hood": {
+    "url": "https://investors.robinhood.com/news-releases",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "roblox": {
+    "url": "https://ir.roblox.com/news/news-details/2026/Roblox-Announces-Third-Quarter-2026-Financial-Results-Date/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "cvx": {
+    "url": "https://www.chevron.com/newsroom",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "visa": {
+    "url": "https://investor.visa.com/news/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "mastercard": {
+    "url": "https://investor.mastercard.com/investor-news/default.aspx",
+    "error": "Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  }
+}

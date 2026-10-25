@@ -1,0 +1,40 @@
+TITLE
+RDDT Earnings: Ad Growth. User-Growth Risk.
+
+ALTERNATIVE TITLES
+RDDT: The Chart Levels to Watch Before Earnings
+Reddit Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Reddit before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: THU OCT 29 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $144.25. Support reference $143.92, the Oct 19–23 weekly low. Resistance reference $160.41.
+SMA20 $151.73 | SMA50 $153.81 | SMA150 $160.24 | SMA200 $162.48.
+RSI14 41.1 | CCI14 -166.8 | ATR14 $7.65 | Friday volume / 20-day average 1.00x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Monetization is the key question.
+Watch: Sales guide: $860M–$870M; Advertising • users • search traffic.
+Quarterly EPS estimate: $1.32, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±12.9% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $145.00; combined midpoint $18.60. Illustrative spot ± premium references: $125.65 / $162.85.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/RDDT?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/forget-user-growth-real-reason-151536071.html
+https://finance.yahoo.com/quote/RDDT/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=RDDT
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#RDDT #Earnings #StockMarket #TechnicalAnalysis #Shorts

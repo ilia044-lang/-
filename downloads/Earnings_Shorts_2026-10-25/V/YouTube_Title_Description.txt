@@ -1,0 +1,40 @@
+TITLE
+V Earnings: The Consumer Check
+
+ALTERNATIVE TITLES
+V: The Chart Levels to Watch Before Earnings
+Visa Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Visa before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: TUE OCT 27 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $407.92. Support reference $398.01, the Oct 19–23 weekly low. Resistance reference $414.60.
+SMA20 $385.26 | SMA50 $377.07 | SMA150 $346.85 | SMA200 $340.56.
+RSI14 70.0 | CCI14 87.4 | ATR14 $6.77 | Friday volume / 20-day average 0.85x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Payments, margins and rumors.
+Watch: Payments • cross-border volumes; Client incentives • FY2027 outlook.
+Quarterly EPS estimate: $3.44, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±3.5% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $407.50; combined midpoint $14.32. Illustrative spot ± premium references: $393.60 / $422.25.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/V?range=2y&interval=1d
+https://finance.yahoo.com/markets/crypto/articles/visa-v-rumored-fireblocks-deal-161141974.html
+https://finance.yahoo.com/quote/V/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=V
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#V #Earnings #StockMarket #TechnicalAnalysis #Shorts

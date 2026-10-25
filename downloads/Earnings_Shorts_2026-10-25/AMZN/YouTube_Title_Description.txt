@@ -1,0 +1,40 @@
+TITLE
+AMZN Earnings: AWS Demand. Cash-Flow Test.
+
+ALTERNATIVE TITLES
+AMZN: The Chart Levels to Watch Before Earnings
+Amazon Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Amazon before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: THU OCT 29 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $248.00. Support reference $246.45, the Oct 19–23 weekly low. Resistance reference $259.49.
+SMA20 $254.43 | SMA50 $255.65 | SMA150 $250.77 | SMA200 $243.29.
+RSI14 43.2 | CCI14 -151.1 | ATR14 $6.66 | Friday volume / 20-day average 0.71x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+AWS bookings versus cash flow.
+Watch: Sales guide: $197B–$202B; AWS • roughly $220B annual capex.
+Quarterly EPS estimate: $1.96, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±7.8% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $247.50; combined midpoint $19.45. Illustrative spot ± premium references: $228.55 / $267.45.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=2y&interval=1d
+https://finance.yahoo.com/technology/ai/articles/amazon-aws-already-sold-good-161550901.html
+https://finance.yahoo.com/quote/AMZN/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=AMZN
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#AMZN #Earnings #StockMarket #TechnicalAnalysis #Shorts

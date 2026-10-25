@@ -1,0 +1,41 @@
+TITLE
+GOOGL Earnings: Earnings At Support
+
+ALTERNATIVE TITLES
+GOOGL: The Chart Levels to Watch Before Earnings
+Alphabet Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Alphabet before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: WED OCT 28 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $320.21. Support reference $320.18, the Oct 19–23 weekly low. Resistance reference $344.68.
+SMA20 $343.08 | SMA50 $342.94 | SMA150 $349.09 | SMA200 $341.31.
+RSI14 31.3 | CCI14 -194.9 | ATR14 $8.60 | Friday volume / 20-day average 0.74x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Cloud growth meets capex risk.
+Watch: Cloud growth • search revenue; Capex • margin conversion.
+Quarterly EPS estimate: $3.00, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±6.1% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $320.00; combined midpoint $19.38. Illustrative spot ± premium references: $300.83 / $339.58.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d
+https://finance.yahoo.com/technology/ai/articles/500-billion-google-cloud-massive-153939235.html
+https://finance.yahoo.com/quote/GOOGL/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=GOOGL
+https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#GOOGL #Earnings #StockMarket #TechnicalAnalysis #Shorts

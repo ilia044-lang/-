@@ -1,0 +1,8 @@
+https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=2y&interval=1d
+https://finance.yahoo.com/technology/ai/articles/microsoft-50-billion-gamble-microsoft-154452270.html
+https://finance.yahoo.com/quote/MSFT/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=MSFT
+https://finance.yahoo.com/technology/ai/articles/microsoft-may-only-hyperscaler-stay-153002561.html
+https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+
+Read Sources_and_Methodology.txt at the package root for calculations, source access limitations and estimate differences.

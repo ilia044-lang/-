@@ -1,0 +1,7 @@
+https://query1.finance.yahoo.com/v8/finance/chart/LLY?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-eli-lilly-193700366.html
+https://finance.yahoo.com/quote/LLY/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=LLY
+https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-slip-1-192832664.html
+
+Read Sources_and_Methodology.txt at the package root for calculations, source access limitations and estimate differences.

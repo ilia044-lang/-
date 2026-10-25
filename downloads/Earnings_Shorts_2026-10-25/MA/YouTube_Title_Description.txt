@@ -1,0 +1,40 @@
+TITLE
+MA Earnings: Strong Price. Big Test.
+
+ALTERNATIVE TITLES
+MA: The Chart Levels to Watch Before Earnings
+Mastercard Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Mastercard before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: THU OCT 29 • BEFORE OPEN (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $623.60. Support reference $608.59, the Oct 19–23 weekly low. Resistance reference $633.29.
+SMA20 $590.19 | SMA50 $581.65 | SMA150 $536.66 | SMA200 $534.26.
+RSI14 70.0 | CCI14 82.5 | ATR14 $10.14 | Friday volume / 20-day average 0.87x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+A new travel-payments launch.
+Watch: Cross-border volumes • services; Operating costs • consumer demand.
+Quarterly EPS estimate: $5.17, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±3.8% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $625.00; combined midpoint $23.80. Illustrative spot ± premium references: $599.80 / $647.40.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes. The bid/ask spread is wide, making the midpoint less precise.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/MA?range=2y&interval=1d
+https://finance.yahoo.com/markets/currencies/articles/dashen-bank-shebamiles-launch-platinum-145300581.html
+https://finance.yahoo.com/quote/MA/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=MA
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#MA #Earnings #StockMarket #TechnicalAnalysis #Shorts

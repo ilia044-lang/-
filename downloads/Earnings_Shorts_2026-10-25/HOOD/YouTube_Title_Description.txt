@@ -1,0 +1,41 @@
+TITLE
+HOOD Earnings: Support Meets Earnings
+
+ALTERNATIVE TITLES
+HOOD: The Chart Levels to Watch Before Earnings
+Robinhood Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Robinhood before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: TUE OCT 27 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $95.07. Support reference $94.77, the Oct 19–23 weekly low. Resistance reference $100.35.
+SMA20 $106.64 | SMA50 $108.87 | SMA150 $95.05 | SMA200 $93.25.
+RSI14 36.5 | CCI14 -107.2 | ATR14 $5.62 | Friday volume / 20-day average 0.75x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Dubai expansion, later revenue.
+Watch: Deposits • trading volumes; Event contracts • interest income.
+Quarterly EPS estimate: $0.55, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±10.2% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $95.00; combined midpoint $9.68. Illustrative spot ± premium references: $85.39 / $104.74.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/HOOD?range=2y&interval=1d
+https://finance.yahoo.com/markets/crypto/articles/robinhood-wins-dubai-approval-crypto-191306953.html
+https://finance.yahoo.com/quote/HOOD/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=HOOD
+https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#HOOD #Earnings #StockMarket #TechnicalAnalysis #Shorts

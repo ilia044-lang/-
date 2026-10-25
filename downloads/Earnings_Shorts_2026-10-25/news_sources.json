@@ -1,0 +1,1216 @@
+{
+  "MSFT_0": {
+    "uuid": "cdb9c13b-db57-3551-acd0-7507e9d69b5a",
+    "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings In Doom-And-Bloom Market",
+    "publisher": "Investor's Business Daily",
+    "link": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
+    "providerPublishTime": 1792900844,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/ibd.com/b58b0397f919efc9e42b0a784c0ae763.jpg",
+          "width": 1000,
+          "height": 511,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/A64149068A2FE553FBAF087E2F73B71DD24A17263C8A825849D725A9F598891D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fb58b0397f919efc9e42b0a784c0ae763.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "MSFT",
+      "GOOG",
+      "AMZN",
+      "^DJI",
+      "^GSPC",
+      "^IXIC",
+      "SNDK",
+      "LLY",
+      "META"
+    ],
+    "symbol": "MSFT",
+    "file": "MSFT_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:04.382417+00:00",
+    "characters": 514
+  },
+  "MSFT_1": {
+    "uuid": "62f70983-f890-3029-96d0-43ed3d9e8596",
+    "title": "Microsoft\u2019s $50 Billion Gamble: Can Microsoft\u2019s Azure Growth Justify Its Exploding AI Budget?",
+    "publisher": "24/7 Wall St.",
+    "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-50-billion-gamble-microsoft-154452270.html",
+    "providerPublishTime": 1792856692,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/24_7_wall_st__718/b2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
+          "width": 2560,
+          "height": 1707,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/78677DDDB36F3F9E1E2CAF9F02B978D6224A3EFD096BC36A2CDBE04D3ED8B00F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fb2f9c7cb89d5cc4e471bfce65db4b79d.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "MSFT"
+    ],
+    "symbol": "MSFT",
+    "file": "MSFT_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:04.347945+00:00",
+    "characters": 5053
+  },
+  "MSFT_2": {
+    "uuid": "e3461400-d891-3f07-8a33-cbebf544edf1",
+    "title": "Microsoft May Be the Only Hyperscaler to Stay Cash-Flow Positive. What It Means for MSFT Stock",
+    "publisher": "Barchart",
+    "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-may-only-hyperscaler-stay-153002561.html",
+    "providerPublishTime": 1792855802,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/barchart_com_477/91294aaacdd7339f5d87cfb430fbeba2.jpg",
+          "width": 1600,
+          "height": 1067,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/3105C77017B863F1258511509C3F6EF9E8FAD403578C14557C69648657A1059D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F91294aaacdd7339f5d87cfb430fbeba2.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "MSFT",
+      "GOOG",
+      "AMZN",
+      "META"
+    ],
+    "symbol": "MSFT",
+    "file": "MSFT_2_article.txt",
+    "retrieved_utc": "2026-10-25T07:16:59.457453+00:00",
+    "characters": 8300
+  },
+  "GOOGL_0": {
+    "uuid": "cdb9c13b-db57-3551-acd0-7507e9d69b5a",
+    "title": "Dow Jones Futures: Microsoft, Google, Amazon Lead Earnings In Doom-And-Bloom Market",
+    "publisher": "Investor's Business Daily",
+    "link": "https://finance.yahoo.com/m/cdb9c13b-db57-3551-acd0-7507e9d69b5a/dow-jones-futures%3A-microsoft%2C.html",
+    "providerPublishTime": 1792900844,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/ibd.com/b58b0397f919efc9e42b0a784c0ae763.jpg",
+          "width": 1000,
+          "height": 511,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/A64149068A2FE553FBAF087E2F73B71DD24A17263C8A825849D725A9F598891D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fb58b0397f919efc9e42b0a784c0ae763.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "MSFT",
+      "GOOG",
+      "AMZN",
+      "^DJI",
+      "^GSPC",
+      "^IXIC",
+      "SNDK",
+      "LLY",
+      "META"
+    ],
+    "symbol": "GOOGL",
+    "file": "GOOGL_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:04.347726+00:00",
+    "characters": 514
+  },
+  "GOOGL_1": {
+    "uuid": "4511c68b-8527-3843-8c77-08f37448f063",
+    "title": "The $500 Billion Question: Can Google Cloud\u2019s Massive AI Backlog Outrun Its Mind-Boggling CapEx Boom on Oct. 28?",
+    "publisher": "24/7 Wall St.",
+    "link": "https://finance.yahoo.com/technology/ai/articles/500-billion-google-cloud-massive-153939235.html",
+    "providerPublishTime": 1792856379,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/24_7_wall_st__718/991daf26957198f3f12f2c940780603c.jpg",
+          "width": 1366,
+          "height": 767,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/EC239CEEEDEC5B2E83BD4D3B922FCDBD8DC2E22FB76B91A00ADFFD0983AB35BA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F991daf26957198f3f12f2c940780603c.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "GOOG",
+      "GOOG"
+    ],
+    "symbol": "GOOGL",
+    "file": "GOOGL_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:04.381874+00:00",
+    "characters": 5112
+  },
+  "AMZN_0": {
+    "uuid": "7d9e63a1-0e1b-37ce-8e93-e50d687d8850",
+    "title": "Amazon.com (AMZN) Cancels $427 Million Loudoun County Data Center Project",
+    "publisher": "Simply Wall St.",
+    "link": "https://finance.yahoo.com/technology/articles/amazon-com-amzn-cancels-427-221154816.html",
+    "providerPublishTime": 1792879914,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/simply_wall_st__316/2292b802eaf1e7d4ac12a1e00159451c.jpg",
+          "width": 1600,
+          "height": 900,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/BF8473C8D4F6E9369EBC576FBDAB5C13B7B865A830431B9AB7DAB4DE4A084AD0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F2292b802eaf1e7d4ac12a1e00159451c.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "AMZN",
+      "ANTH.PVT"
+    ],
+    "symbol": "AMZN",
+    "file": "AMZN_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:09.636818+00:00",
+    "characters": 4450
+  },
+  "AMZN_1": {
+    "uuid": "7c55e09d-1029-3a61-9b60-9445afaee00d",
+    "title": "Amazon\u2019s AWS Has Already Sold \u201ca Good Chunk\u201d of 2028 Capacity",
+    "publisher": "24/7 Wall St.",
+    "link": "https://finance.yahoo.com/technology/ai/articles/amazon-aws-already-sold-good-161550901.html",
+    "providerPublishTime": 1792858550,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/24_7_wall_st__718/81e640587f70ba6b184851e229e0447b.jpg",
+          "width": 1500,
+          "height": 843,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/8F19D580C65A15EBB87CDA97A624B2BA1E0B491262B7FDE27FA5E8A03DBDD132/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F81e640587f70ba6b184851e229e0447b.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "AMZN"
+    ],
+    "symbol": "AMZN",
+    "file": "AMZN_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:04.785915+00:00",
+    "characters": 6683
+  },
+  "LLY_0": {
+    "uuid": "b904d5d8-a280-30dd-aad7-171770150cc5",
+    "title": "Stock Market Action Plan: A Preelection Week Primer",
+    "publisher": "Investor's Business Daily",
+    "link": "https://finance.yahoo.com/m/b904d5d8-a280-30dd-aad7-171770150cc5/stock-market-action-plan%3A-a.html",
+    "providerPublishTime": 1792852122,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/ibd.com/8bfa347c13f9caddff39273d6c81fdf4.jpg",
+          "width": 5824,
+          "height": 3264,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/4547ED9C9E4D7BAC53D7B7BEBC8D9AC95EE80D261BB4DC1BBAE4BE6C42C25154/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F8bfa347c13f9caddff39273d6c81fdf4.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "^IXIC",
+      "^DJI",
+      "TSLA",
+      "SPCX",
+      "^GSPC",
+      "AMZN",
+      "GOOG",
+      "INTC",
+      "MSFT",
+      "LLY",
+      "BA",
+      "META"
+    ],
+    "symbol": "LLY",
+    "file": "LLY_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:04.723984+00:00",
+    "characters": 451
+  },
+  "LLY_1": {
+    "uuid": "df8fd47e-de49-3e3b-9127-c20c124ba43c",
+    "title": "Lilly presents first clinical data in platinum-sensitive ovarian cancer for its investigational, next-generation, FR\u03b1-targeting ADC at ESMO 2026",
+    "publisher": "PR Newswire",
+    "link": "https://finance.yahoo.com/healthcare/articles/lilly-presents-first-clinical-data-063000212.html",
+    "providerPublishTime": 1792823400,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/prnewswire.com/e18a108020afbb8bb0ab0f6fd152b6cd.jpg",
+          "width": 399,
+          "height": 219,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/C0BDF26C86A1022D607D49A1A97608F659705CEE0346DA5BEC0A0F09ECF8A622/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2Fe18a108020afbb8bb0ab0f6fd152b6cd.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "LLY"
+    ],
+    "symbol": "LLY",
+    "file": "LLY_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:09.629245+00:00",
+    "characters": 20923
+  },
+  "LLY_2": {
+    "uuid": "f9739692-fa4e-362e-81c6-fafec253c360",
+    "title": "Q2 earnings highs and lows: Eli Lilly (NYSE:LLY) vs the rest of the branded pharmaceuticals stocks",
+    "publisher": "StockStory",
+    "link": "https://finance.yahoo.com/healthcare/articles/q2-earnings-highs-lows-eli-012039792.html",
+    "providerPublishTime": 1792804839,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/stockstory_922/5f65896d16761e84572c11408f739f1b.jpg",
+          "width": 1400,
+          "height": 700,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/425B5E5980FE3FEA79B769E9C85AEF8E9DA6EF0E9C5777B440C4251798A2CD04/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F5f65896d16761e84572c11408f739f1b.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "LLY"
+    ],
+    "symbol": "LLY",
+    "file": "LLY_2_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:09.613037+00:00",
+    "characters": 6783
+  },
+  "V_0": {
+    "uuid": "3828a5ec-6827-3483-9c87-f0d143853a4e",
+    "title": "Visa (V) Rumored Fireblocks Deal Denied As Digital Asset Push Keeps Building",
+    "publisher": "Simply Wall St.",
+    "link": "https://finance.yahoo.com/markets/crypto/articles/visa-v-rumored-fireblocks-deal-161141974.html",
+    "providerPublishTime": 1792858301,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/simply_wall_st__316/536b2c9c60d99497e560934f2ca8a9d6.jpg",
+          "width": 1600,
+          "height": 900,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/D1E99BAA3776577012A6C5EC447446F63E41F569501F5D20F057C34111DF62EA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F536b2c9c60d99497e560934f2ca8a9d6.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "V"
+    ],
+    "symbol": "V",
+    "file": "V_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:14.804250+00:00",
+    "characters": 3810
+  },
+  "V_1": {
+    "uuid": "5d5dbaad-ca01-342c-bf15-5ce712c6b926",
+    "title": "Dividends, Crypto, and Margin Wars: The 3 Battlelines for Visa for Q4 Earnings on Oct. 27",
+    "publisher": "24/7 Wall St.",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/dividends-crypto-margin-wars-3-132309118.html",
+    "providerPublishTime": 1792848189,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/24_7_wall_st__718/70ba4be6a8d983122f900c74ecab6bdc.jpg",
+          "width": 1500,
+          "height": 1000,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/4EE2C057FBEFDD8EE9B439DA7643D321FDB602A8BD1E91B8AAA10A9599B3BC91/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F70ba4be6a8d983122f900c74ecab6bdc.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "V"
+    ],
+    "symbol": "V",
+    "file": "V_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:14.866176+00:00",
+    "characters": 4763
+  },
+  "MA_0": {
+    "uuid": "8795d515-0b5f-350d-a1c3-0bd006b13c9a",
+    "title": "Mastercard Stock And China Market Access Why Financial Shares Are Back On Watch",
+    "publisher": "Simply Wall St.",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stock-china-market-access-051700162.html",
+    "providerPublishTime": 1792819020,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/simply_wall_st__316/2812f5a1ac00d6190c7ae7ee28a57bfd.jpg",
+          "width": 1600,
+          "height": 900,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/B822A11DCD3B2B3646FADC5F196C07654C3D219F8C4001CFE8E90D25BDDD23A1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F2812f5a1ac00d6190c7ae7ee28a57bfd.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "MA",
+      "TIGR",
+      "FUTU"
+    ],
+    "symbol": "MA",
+    "file": "MA_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:10.012255+00:00",
+    "characters": 6098
+  },
+  "MA_1": {
+    "uuid": "20eddc6e-cb72-346a-bbb9-ed529955b2f5",
+    "title": "Dashen Bank and ShebaMiles Launch Platinum Co-Branded Mastercard Debit Card to Unlock Premium Travel Benefits for Customers in Ethiopia",
+    "publisher": "Business Wire",
+    "link": "https://finance.yahoo.com/markets/currencies/articles/dashen-bank-shebamiles-launch-platinum-145300581.html",
+    "providerPublishTime": 1792767180,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/business-wire.com/3f6101235e4053638464716f708350ad.jpg",
+          "width": 480,
+          "height": 320,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/1616D3EE4CDB5BBC60B43BF2F8B17DED26ED92AE11D9FFA34ED88D4D9D496B71/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness-wire.com%2F3f6101235e4053638464716f708350ad.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "MA"
+    ],
+    "symbol": "MA",
+    "file": "MA_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:09.953174+00:00",
+    "characters": 6851
+  },
+  "CAT_0": {
+    "uuid": "fe81e300-58bd-3e9d-9342-044f5c09f11b",
+    "title": "Caterpillar Is Quietly Becoming an AI Stock. Here's the Segment Growing 72% That Proves It.",
+    "publisher": "Motley Fool",
+    "link": "https://finance.yahoo.com/technology/ai/articles/caterpillar-quietly-becoming-ai-stock-105700171.html",
+    "providerPublishTime": 1792839420,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/motleyfool.com/ade30672390bd6ba3617ed7f3a20304d.jpg",
+          "width": 1400,
+          "height": 757,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/E7602B842A78CAD487CD769E0760CB93597CE9B8FCFF4DE27F35DB5329DA55EB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fade30672390bd6ba3617ed7f3a20304d.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CAT",
+      "NVDA",
+      "GOOG",
+      "MU"
+    ],
+    "symbol": "CAT",
+    "file": "CAT_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:14.706617+00:00",
+    "characters": 4753
+  },
+  "CAT_1": {
+    "uuid": "2237f2fa-af78-3f8f-ba0e-6d62d311fb17",
+    "title": "Caterpillar Stock Fell Nearly 5% as Power-Equipment Stocks Slid a Week Before Its Q3 Report. Here\u2019s Where the Stock Could Go",
+    "publisher": "TIKR",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-fell-nearly-5-211101431.html",
+    "providerPublishTime": 1792789861,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/tikr_258/d5a0c0295501e82c15705ae5092bf741",
+          "width": 1280,
+          "height": 720,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/92B1DD24E8F18740292B3040F1E4E3CAC0748C8CC35F4525EB39024A275BB8C4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Fd5a0c0295501e82c15705ae5092bf741",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CAT",
+      "GEV",
+      "^GSPC"
+    ],
+    "symbol": "CAT",
+    "file": "CAT_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:20.023344+00:00",
+    "characters": 4841
+  },
+  "CAT_2": {
+    "uuid": "afe9184a-0368-32eb-9322-e7c49e8785bb",
+    "title": "Caterpillar (CAT) On Its $1b North Carolina Expansion And The Undervalued Narrative",
+    "publisher": "Simply Wall St.",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-1b-north-carolina-171431339.html",
+    "providerPublishTime": 1792775671,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/simply_wall_st__316/0e180ca238c46cf2bf4e95889e087e7c.jpg",
+          "width": 1600,
+          "height": 900,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/8A8FE6681F497F58B27EE0295C2723320691EA0FA7BD2FF400AD540164B67B84/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F0e180ca238c46cf2bf4e95889e087e7c.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CAT"
+    ],
+    "symbol": "CAT",
+    "file": "CAT_2_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:20.084027+00:00",
+    "characters": 5308
+  },
+  "INTC_0": {
+    "uuid": "a220fa51-ed96-397d-9acd-cb610c2a3718",
+    "title": "Intel Stock Is Up 121% This Year. Here\u2019s the Number to Watch on October 29",
+    "publisher": "TIKR",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-121-number-watch-184248016.html",
+    "providerPublishTime": 1792867368,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/tikr_258/76eb7463246d1cfbf067cd43098abd28.png",
+          "width": 1280,
+          "height": 720,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/2D6DE3898EF138BA644D28BD647BB947AD9A47916D8D98187E9EA181ED57406B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F76eb7463246d1cfbf067cd43098abd28.png",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "INTC"
+    ],
+    "symbol": "INTC",
+    "file": "INTC_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:15.227144+00:00",
+    "characters": 6427
+  },
+  "INTC_1": {
+    "uuid": "6a6cd130-f23a-3369-9521-e5f77bad28cd",
+    "title": "What Investors Overlooked Before Intel's 127% Run",
+    "publisher": "Simply Wall St.",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/investors-overlooked-intels-127-run-141028501.html",
+    "providerPublishTime": 1792851028,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/simply_wall_st__316/d56b808aabb924bbac0805a3a17ead0a.jpg",
+          "width": 1600,
+          "height": 900,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/85DBA6766CD74A7EEBC0FDC8834965C962BC327B11FE2BA4D17BC73C3118A852/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fd56b808aabb924bbac0805a3a17ead0a.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "INTC",
+      "TSLA",
+      "GOOG"
+    ],
+    "symbol": "INTC",
+    "file": "INTC_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:15.298611+00:00",
+    "characters": 4976
+  },
+  "INTC_2": {
+    "uuid": "4d71d9c9-ddfc-3e6c-a1be-55ac7761876c",
+    "title": "Intel Stock Has Moved an Average of 16% the Day After Its Last 3 Reports. Should You Buy Before the Next One?",
+    "publisher": "Motley Fool",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-moved-average-16-193702188.html",
+    "providerPublishTime": 1792784222,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/motleyfool.com/888ec1cc9cb1fbea71b6772e75d19b07.jpg",
+          "width": 1400,
+          "height": 840,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/84DCDBC0164389E37530B4BFB7F0D91E5EBD2B132706DEA3F63CB89900C672C7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F888ec1cc9cb1fbea71b6772e75d19b07.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "INTC",
+      "NVDA"
+    ],
+    "symbol": "INTC",
+    "file": "INTC_2_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:19.929235+00:00",
+    "characters": 6089
+  },
+  "XOM_0": {
+    "uuid": "7f3910b2-f759-3ab8-911e-7421bc4a5576",
+    "title": "Chevron vs. ExxonMobil: Which Stock Has the Edge at 52-Week Highs?",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/chevron-vs-exxonmobil-stock-edge-134300230.html",
+    "providerPublishTime": 1792762980,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/78a0ec752509b76c2df6cfb41d863a35.jpg",
+          "width": 619,
+          "height": 249,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/53E0216A6C60D756417A7BCD2B936BDA10DBB333E74761572561189E0305F7F6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F78a0ec752509b76c2df6cfb41d863a35.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CL=F",
+      "CVX",
+      "XOM"
+    ],
+    "symbol": "XOM",
+    "file": "XOM_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:20.354568+00:00",
+    "characters": 7068
+  },
+  "XOM_1": {
+    "uuid": "aa96252b-4938-32a1-90da-4fae4be0ff06",
+    "title": "Exxon Mobil Holdings (XOM) Reports Next Week: Wall Street Expects Earnings Growth",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-reports-130008430.html",
+    "providerPublishTime": 1792760408,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/ace7df31c7fcb10255abe7c990ea373a.jpg",
+          "width": 900,
+          "height": 476,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/E04CECF97FE8C2080E2007199C14BE7AD76332BA415BF54098C4120E73312B70/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Face7df31c7fcb10255abe7c990ea373a.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "XOM"
+    ],
+    "symbol": "XOM",
+    "file": "XOM_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:25.416380+00:00",
+    "characters": 5654
+  },
+  "CVX_0": {
+    "uuid": "e2caa79a-b367-32d6-8102-d6b8668d73ad",
+    "title": "Chevron Is Taking a $3 Billion to $4 Billion Loss on Hess Midstream. Should You Buy the Stock Anyway?",
+    "publisher": "Motley Fool",
+    "link": "https://finance.yahoo.com/energy/articles/chevron-taking-3-billion-4-123500565.html",
+    "providerPublishTime": 1792845300,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/motleyfool.com/36350b9a117c54e8ba423eeeab5201b1.jpg",
+          "width": 1280,
+          "height": 853,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/8BFD6424F9C83C77D44870EDC4CAA7E985ABA1FF073EACAE5FA9DA0ADD6C0750/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F36350b9a117c54e8ba423eeeab5201b1.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CVX",
+      "HESM",
+      "NVDA"
+    ],
+    "symbol": "CVX",
+    "file": "CVX_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:20.279984+00:00",
+    "characters": 5707
+  },
+  "CVX_1": {
+    "uuid": "282ea7f8-c7b8-3a2e-bf4b-099cccde8aae",
+    "title": "Market Chatter: Chevron Plans to Up Drilling Rigs in Argentina's El Trapial Block to 3 From 1",
+    "publisher": "MT Newswires",
+    "link": "https://finance.yahoo.com/energy/articles/market-chatter-chevron-plans-drilling-171605382.html",
+    "providerPublishTime": 1792775765,
+    "type": "STORY",
+    "relatedTickers": [
+      "CVX",
+      "CL=F"
+    ],
+    "symbol": "CVX",
+    "file": "CVX_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:25.090905+00:00",
+    "characters": 540
+  },
+  "CVX_2": {
+    "uuid": "3b7fa95c-74c9-35df-a27b-ea44d62c2b1f",
+    "title": "Market Chatter: Chevron Plans to Boost Argentina Oil Output With $13.8 Billion Investment",
+    "publisher": "MT Newswires",
+    "link": "https://finance.yahoo.com/energy/articles/market-chatter-chevron-plans-boost-110704799.html",
+    "providerPublishTime": 1792753624,
+    "type": "STORY",
+    "relatedTickers": [
+      "CVX"
+    ],
+    "symbol": "CVX",
+    "file": "CVX_2_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:25.156416+00:00",
+    "characters": 522
+  },
+  "RBLX_0": {
+    "uuid": "38a41233-8c06-3ab1-a690-f79e4634e32d",
+    "title": "Roblox Users Hold Up, Spending Likely Lower-Than-Expected, Wedbush Securities Says",
+    "publisher": "MT Newswires",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/roblox-users-hold-spending-likely-162829149.html",
+    "providerPublishTime": 1792772909,
+    "type": "STORY",
+    "relatedTickers": [
+      "RBLX"
+    ],
+    "symbol": "RBLX",
+    "file": "RBLX_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:25.400708+00:00",
+    "characters": 518
+  },
+  "CVNA_0": {
+    "uuid": "41393001-f14a-3a08-9475-723c26ff3a04",
+    "title": "Curious about Carvana (CVNA) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/curious-carvana-cvna-q3-performance-121508076.html",
+    "providerPublishTime": 1792757708,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/432476d296d64c50172213c0415587c9.jpg",
+          "width": 1000,
+          "height": 603,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/B430F4F8704F65AC312D3B207F27372F4C2B1F12C5EDCA7E98116F40362195BF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F432476d296d64c50172213c0415587c9.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CVNA"
+    ],
+    "symbol": "CVNA",
+    "file": "CVNA_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:30.537496+00:00",
+    "characters": 4469
+  },
+  "CVNA_1": {
+    "uuid": "18b01e9c-fd19-3bac-8ce9-9812fa508a53",
+    "title": "What to Expect From Carvana\u2019s Q3 2026 Earnings Report",
+    "publisher": "Barchart",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/expect-carvana-q3-2026-earnings-111125659.html",
+    "providerPublishTime": 1792753885,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/barchart_com_477/44bc1dd41655063bdfc3589c474fa807.jpg",
+          "width": 1600,
+          "height": 1067,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/C62FF8A01AF3CAB63717066EEC324994E6ECC7EEC3AAC36076596B9EC0B19F5D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F44bc1dd41655063bdfc3589c474fa807.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CVNA"
+    ],
+    "symbol": "CVNA",
+    "file": "CVNA_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:25.559848+00:00",
+    "characters": 3353
+  },
+  "RDDT_0": {
+    "uuid": "a60f62aa-d41a-3251-8948-8d31c327c490",
+    "title": "Reddit's Q3 DAU Pressure Offset by Strong Ad Trends, Wedbush Says",
+    "publisher": "MT Newswires",
+    "link": "https://finance.yahoo.com/media-advertising/articles/reddit-apos-q3-dau-pressure-160204616.html",
+    "providerPublishTime": 1792771324,
+    "type": "STORY",
+    "relatedTickers": [
+      "RDDT",
+      "GOOG"
+    ],
+    "symbol": "RDDT",
+    "file": "RDDT_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:25.501640+00:00",
+    "characters": 512
+  },
+  "HOOD_0": {
+    "uuid": "712991c2-d588-3972-bdd5-a4c00d4b5d79",
+    "title": "Robinhood Wins Dubai Approval as Crypto Rivals Race Ahead",
+    "publisher": "BeInCrypto",
+    "link": "https://finance.yahoo.com/markets/crypto/articles/robinhood-wins-dubai-approval-crypto-191306953.html",
+    "providerPublishTime": 1792696386,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/beincrypto_us_662/9d511096d8339f2b6cddb4993242420b.jpg",
+          "width": 1200,
+          "height": 675,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/695604F4C461132D427C9BD1DF451F0B44DE6B97230E32554CD67ADF85409B28/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F9d511096d8339f2b6cddb4993242420b.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "HOOD35566-USD",
+      "HOOD"
+    ],
+    "symbol": "HOOD",
+    "file": "HOOD_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:30.589059+00:00",
+    "characters": 3279
+  },
+  "HOOD_1": {
+    "uuid": "6a759b8c-eae4-3566-918f-4c3d78ef33e1",
+    "title": "Robinhood\u2019s Crypto Revenue Fell 38% Last Quarter. Can It Bounce Back in Q3?",
+    "publisher": "24/7 Wall St.",
+    "link": "https://finance.yahoo.com/markets/crypto/articles/robinhood-crypto-revenue-fell-38-154833625.html",
+    "providerPublishTime": 1792684113,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/24_7_wall_st__718/d6102aff1ef3b89852c465fc2e733fae",
+          "width": 1536,
+          "height": 864,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/B71F657E526171861885E28315CD8239016C2659D19E92CA36EF851B2B09F65F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fd6102aff1ef3b89852c465fc2e733fae",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "HOOD",
+      "SOFI",
+      "BTC-USD"
+    ],
+    "symbol": "HOOD",
+    "file": "HOOD_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:17:30.581741+00:00",
+    "characters": 6949
+  },
+  "LLY_extra_0": {
+    "uuid": "c85c5965-7982-3db0-a43a-2ea7b2404e2e",
+    "title": "Goldman Sachs resets Eli Lilly 12-month stock price target before earnings",
+    "publisher": "TheStreet",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-eli-lilly-193700366.html",
+    "providerPublishTime": 1792784220,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/thestreet_881/429851f28588485e6af48fce915b97f2.jpg",
+          "width": 3840,
+          "height": 2560,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/D49023C9375A101D433B0FAB99351A1342E683E49B8DAB9C13D004E75B7CB3C2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F429851f28588485e6af48fce915b97f2.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "LLY"
+    ],
+    "symbol": "LLY",
+    "file": "LLY_extra_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:36.181313+00:00",
+    "characters": 6020
+  },
+  "LLY_extra_1": {
+    "uuid": "188a9ef6-91cd-3b95-b6be-747a5b29fc60",
+    "title": "Eli Lilly Stocks Slip 1.7% Ahead of Earnings After 48% Revenue Growth",
+    "publisher": "GuruFocus.com",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-slip-1-192832664.html",
+    "providerPublishTime": 1792783712,
+    "type": "STORY",
+    "relatedTickers": [
+      "LLY"
+    ],
+    "symbol": "LLY",
+    "file": "LLY_extra_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:31.472273+00:00",
+    "characters": 1373
+  },
+  "CAT_extra_0": {
+    "uuid": "f0046ef5-6b24-3f0f-b0d4-c73eb6b5ac28",
+    "title": "Caterpillar (CAT) Reports Next Week: Wall Street Expects Earnings Growth",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-reports-next-week-130021104.html",
+    "providerPublishTime": 1792674021,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/0c6f98f4bf655bec3b199bc1a71b8b85.jpg",
+          "width": 900,
+          "height": 636,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/2203A569644F11794E1807BA547372CC7B162E1EC2F6C757C819BF882C4BDBB3/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F0c6f98f4bf655bec3b199bc1a71b8b85.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CAT"
+    ],
+    "symbol": "CAT",
+    "file": "CAT_extra_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:31.633925+00:00",
+    "characters": 6450
+  },
+  "XOM_extra_0": {
+    "uuid": "aa96252b-4938-32a1-90da-4fae4be0ff06",
+    "title": "Exxon Mobil Holdings (XOM) Reports Next Week: Wall Street Expects Earnings Growth",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-reports-130008430.html",
+    "providerPublishTime": 1792760408,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/ace7df31c7fcb10255abe7c990ea373a.jpg",
+          "width": 900,
+          "height": 476,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/E04CECF97FE8C2080E2007199C14BE7AD76332BA415BF54098C4120E73312B70/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Face7df31c7fcb10255abe7c990ea373a.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "XOM"
+    ],
+    "symbol": "XOM",
+    "file": "XOM_extra_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:36.181792+00:00",
+    "characters": 5654
+  },
+  "CVX_extra_0": {
+    "uuid": "27ec2ed8-fb48-3249-bca0-e094c6c1ef35",
+    "title": "Chevron (CVX) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/chevron-cvx-earnings-expected-grow-130004941.html",
+    "providerPublishTime": 1792760404,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/21b1f011539d3e31c28282071d344177.jpg",
+          "width": 900,
+          "height": 598,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/BDCB2954220B466B3BCBE292EE89D5063C65038252D3CFA44B4821D006EA32A2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F21b1f011539d3e31c28282071d344177.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "CVX"
+    ],
+    "symbol": "CVX",
+    "file": "CVX_extra_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:41.586971+00:00",
+    "characters": 5623
+  },
+  "RBLX_extra_0": {
+    "uuid": "f39ac52f-0a5f-3ed8-930c-c0b6cec93326",
+    "title": "Roblox (RBLX) Expected to Beat Earnings Estimates: Should You Buy?",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-expected-beat-earnings-130015838.html",
+    "providerPublishTime": 1792674015,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/ac90b3d74679f6d01a122aa033d8a9a4.jpg",
+          "width": 900,
+          "height": 600,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/7C1393AF7F47D9D26ECB42BD011CB28C48CB65C0975C0F3EFEC0BCF819444619/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fac90b3d74679f6d01a122aa033d8a9a4.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "RBLX",
+      "CHDN"
+    ],
+    "symbol": "RBLX",
+    "file": "RBLX_extra_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:41.717105+00:00",
+    "characters": 6471
+  },
+  "RBLX_extra_1": {
+    "uuid": "1356e6a1-870e-35da-abc0-af0dacd4715e",
+    "title": "Roblox engagement rebounds slightly despite annual declines",
+    "publisher": "Proactive",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/roblox-engagement-rebounds-slightly-despite-152000638.html",
+    "providerPublishTime": 1792164000,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/proactive_us_504/9b979dd5ec36970bca0e527afedd8a1e.jpg",
+          "width": 1280,
+          "height": 720,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/131ABA4D5417BFC642F0C57EE5735924E2BDCFE7B88E23F2A35F44FD06D91500/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2F9b979dd5ec36970bca0e527afedd8a1e.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "RBLX"
+    ],
+    "symbol": "RBLX",
+    "file": "RBLX_extra_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:36.640755+00:00",
+    "characters": 2074
+  },
+  "RDDT_extra_0": {
+    "uuid": "566537e6-2383-3a5c-b122-9d2afddc48bb",
+    "title": "Reddit Inc. (RDDT) Stock Dips While Market Gains: Key Facts",
+    "publisher": "Zacks",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-inc-rddt-stock-dips-204504875.html",
+    "providerPublishTime": 1792615504,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/zacks.com/2a50596f066181e48e4ae0ad6be00462.jpg",
+          "width": 900,
+          "height": 600,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/15635756E90F6F7DD931138848248412D377F01B24DCF7F178D2629FDE689C37/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F2a50596f066181e48e4ae0ad6be00462.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "RDDT",
+      "^GSPC",
+      "^DJI"
+    ],
+    "symbol": "RDDT",
+    "file": "RDDT_extra_0_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:36.449708+00:00",
+    "characters": 3743
+  },
+  "RDDT_extra_1": {
+    "uuid": "43e056ae-a867-314c-a6b8-f604179c6937",
+    "title": "Forget User Growth: Here\u2019s the Real Reason Reddit\u2019s Revenue Is Exploding",
+    "publisher": "Insider Monkey",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/forget-user-growth-real-reason-151536071.html",
+    "providerPublishTime": 1792595736,
+    "type": "STORY",
+    "thumbnail": {
+      "resolutions": [
+        {
+          "url": "https://media.zenfs.com/en/insidermonkey.com/cddd538f45bd268ff511e86703ae51ff.jpg",
+          "width": 1456,
+          "height": 816,
+          "tag": "original"
+        },
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/35B48F81D9671EE515D6831EFAAABC9510A7EC60806979739FCFE15470DE9A31/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fcddd538f45bd268ff511e86703ae51ff.jpg",
+          "width": 140,
+          "height": 140,
+          "tag": "140x140"
+        }
+      ]
+    },
+    "relatedTickers": [
+      "RDDT"
+    ],
+    "symbol": "RDDT",
+    "file": "RDDT_extra_1_article.txt",
+    "retrieved_utc": "2026-10-25T07:20:41.564000+00:00",
+    "characters": 5051
+  }
+}

@@ -1,0 +1,6 @@
+https://query1.finance.yahoo.com/v8/finance/chart/CVNA?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/curious-carvana-cvna-q3-performance-121508076.html
+https://finance.yahoo.com/quote/CVNA/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=CVNA
+
+Read Sources_and_Methodology.txt at the package root for calculations, source access limitations and estimate differences.

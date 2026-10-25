@@ -1,0 +1,41 @@
+TITLE
+RBLX Earnings: At The 200-Day Ceiling
+
+ALTERNATIVE TITLES
+RBLX: The Chart Levels to Watch Before Earnings
+Roblox Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Roblox before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: THU OCT 29 • AFTER CLOSE (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $52.89. Support reference $49.36, the Oct 19–23 weekly low. Resistance reference $54.13.
+SMA20 $47.62 | SMA50 $45.03 | SMA150 $47.99 | SMA200 $52.99.
+RSI14 62.8 | CCI14 111.2 | ATR14 $2.27 | Friday volume / 20-day average 0.52x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Engagement versus monetization.
+Watch: Bookings • engagement; Revenue per user • guidance.
+Quarterly EPS estimate: -$0.42, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±14.4% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $52.00; combined midpoint $7.60. Illustrative spot ± premium references: $45.29 / $60.49.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/RBLX?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/roblox-engagement-rebounds-slightly-despite-152000638.html
+https://finance.yahoo.com/quote/RBLX/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=RBLX
+https://finance.yahoo.com/markets/stocks/articles/roblox-users-hold-spending-likely-162829149.html
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#RBLX #Earnings #StockMarket #TechnicalAnalysis #Shorts

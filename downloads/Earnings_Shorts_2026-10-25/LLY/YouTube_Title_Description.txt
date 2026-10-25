@@ -1,0 +1,41 @@
+TITLE
+LLY Earnings: Strong Trend. High Bar.
+
+ALTERNATIVE TITLES
+LLY: The Chart Levels to Watch Before Earnings
+Eli Lilly Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Eli Lilly before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: THU OCT 29 • BEFORE OPEN (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $1273.46. Support reference $1239.10, the Oct 19–23 weekly low. Resistance reference $1292.65.
+SMA20 $1204.94 | SMA50 $1186.60 | SMA150 $1105.01 | SMA200 $1084.94.
+RSI14 62.2 | CCI14 79.0 | ATR14 $38.23 | Friday volume / 20-day average 0.98x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Drug volumes versus pricing.
+Watch: Annual sales guide: $85B–$87B; Mounjaro • Zepbound • pricing.
+Quarterly EPS estimate: $6.67, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±6.6% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $1275.00; combined midpoint $83.53. Illustrative spot ± premium references: $1189.93 / $1356.98.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes. The bid/ask spread is wide, making the midpoint less precise.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/LLY?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-eli-lilly-193700366.html
+https://finance.yahoo.com/quote/LLY/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=LLY
+https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-slip-1-192832664.html
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#LLY #Earnings #StockMarket #TechnicalAnalysis #Shorts

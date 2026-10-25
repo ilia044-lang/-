@@ -1,0 +1,40 @@
+TITLE
+CAT Earnings: Oversold. Not A Bottom.
+
+ALTERNATIVE TITLES
+CAT: The Chart Levels to Watch Before Earnings
+Caterpillar Earnings: What Could Change the Picture?
+
+DESCRIPTION
+Caterpillar before earnings: the business question, daily chart and options snapshot.
+
+Listed earnings: THU OCT 29 • BEFORE OPEN (U.S. Eastern time). Schedules can change.
+Data: Friday October 23, 2026 close. Analysis and quote retrieval: October 25, 2026.
+
+CHART
+Close $687.00. Support reference $681.23, the Oct 19–23 weekly low. Resistance reference $745.00.
+SMA20 $781.05 | SMA50 $799.74 | SMA150 $845.47 | SMA200 $808.62.
+RSI14 26.7 | CCI14 -116.8 | ATR14 $27.38 | Friday volume / 20-day average 1.14x.
+A support reference is not a guaranteed floor. A reclaim of resistance or a break of support must be evaluated with volume and the news reaction.
+
+EARNINGS WATCH
+Factory expansion meets weak tape.
+Watch: Backlog • data-center power; Margins • tariff costs.
+Quarterly EPS estimate: $7.03, source: Yahoo calendar • Oct 25. This is a forecast, not a reported result; provider estimates and earnings adjustments can differ.
+
+OPTIONS SNAPSHOT
+Approximately ±7.1% from the Oct 30 same-strike ATM call-and-put midpoint, divided by the Oct 23 stock close. Strike $685.00; combined midpoint $48.62. Illustrative spot ± premium references: $638.38 / $735.62.
+This covers all risk through expiry, not only earnings. It predicts neither direction nor a guaranteed range and is not a confidence interval. Actual moves can be larger. These are weekend snapshots, not live executable quotes. The bid/ask spread is wide, making the midpoint less precise.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+SOURCES
+https://query1.finance.yahoo.com/v8/finance/chart/CAT?range=2y&interval=1d
+https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-1b-north-carolina-171431339.html
+https://finance.yahoo.com/quote/CAT/options/
+https://finance.yahoo.com/calendar/earnings/?symbol=CAT
+
+Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action. Synthetic Michael narration, original motion graphics and illustrative generated cover artwork.
+
+#CAT #Earnings #StockMarket #TechnicalAnalysis #Shorts
