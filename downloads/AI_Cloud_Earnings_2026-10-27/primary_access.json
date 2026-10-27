@@ -1,0 +1,34 @@
+{
+  "microsoft": {
+    "url": "https://www.microsoft.com/en-us/Investor/events/FY-2027/earnings-fy-2027-q1",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "alphabet": {
+    "url": "https://abc.xyz/investor/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "iren": {
+    "url": "https://iren.com/investors/news-and-events/press-releases",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "nebius": {
+    "url": "https://nebius.com/newsroom",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "coreweave": {
+    "url": "https://investors.coreweave.com/news/default.aspx",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "yahoo_api": {
+    "url": "https://query1.finance.yahoo.com/v1/finance/content?uuid=ad20e9c8-6594-4774-b9c3-0354cc9e455d",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "yahoo_newspath": {
+    "url": "https://finance.yahoo.com/news/coreweave-ai-landlord-stocks-sink-to-lowest-levels-in-more-than-a-year-as-the-price-of-insuring-coreweaves-debt-doubles-140909005.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "reuters": {
+    "url": "https://www.reuters.com/technology/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+}

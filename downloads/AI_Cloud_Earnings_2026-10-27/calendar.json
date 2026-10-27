@@ -1,0 +1,47 @@
+{
+  "MSFT": {
+    "earnings": true,
+    "ticker": "MSFT",
+    "companyShortName": "Microsoft Corporation",
+    "dateIsEstimate": false,
+    "startDateTime": 1793217600000,
+    "startDateTimeType": "AMC",
+    "fiscalYear": "2027",
+    "quarter": "Q1",
+    "epsEstimate": 4.72,
+    "rank": 294946,
+    "gmtOffsetMilliSeconds": -14400000,
+    "date": "2026-10-28",
+    "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&modules=earnings&startDate=1793073600000&endDate=1793419199999&lang=en-US&region=US"
+  },
+  "GOOGL": {
+    "earnings": true,
+    "ticker": "GOOGL",
+    "companyShortName": "Alphabet Inc.",
+    "dateIsEstimate": false,
+    "startDateTime": 1793217600000,
+    "startDateTimeType": "AMC",
+    "fiscalYear": "2026",
+    "quarter": "Q3",
+    "epsEstimate": 3.0,
+    "rank": 185993,
+    "gmtOffsetMilliSeconds": -14400000,
+    "date": "2026-10-28",
+    "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&modules=earnings&startDate=1793073600000&endDate=1793419199999&lang=en-US&region=US"
+  },
+  "AMZN": {
+    "earnings": true,
+    "ticker": "AMZN",
+    "companyShortName": "Amazon.com, Inc.",
+    "dateIsEstimate": false,
+    "startDateTime": 1793304000000,
+    "startDateTimeType": "AMC",
+    "fiscalYear": "2026",
+    "quarter": "Q3",
+    "epsEstimate": 1.96,
+    "rank": 268952,
+    "gmtOffsetMilliSeconds": -14400000,
+    "date": "2026-10-29",
+    "source": "https://query1.finance.yahoo.com/ws/screeners/v1/finance/calendar-events?countPerDay=100&modules=earnings&startDate=1793073600000&endDate=1793419199999&lang=en-US&region=US"
+  }
+}

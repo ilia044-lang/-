@@ -1,0 +1,207 @@
+1
+00:00:00,040 --> 00:00:03,263
+Can two earnings calls rescue five battered
+
+2
+00:00:03,263 --> 00:00:05,180
+AI infrastructure stocks?
+
+3
+00:00:05,180 --> 00:00:08,276
+Microsoft and Alphabet could change the mood.
+
+4
+00:00:08,276 --> 00:00:10,794
+But more spending is not automatically more
+
+5
+00:00:10,794 --> 00:00:12,475
+revenue for these companies.
+
+6
+00:00:12,665 --> 00:00:16,045
+The calendar lists Microsoft and Alphabet for
+
+7
+00:00:16,045 --> 00:00:18,645
+Wednesday, October 28, after the U.S.
+
+8
+00:00:18,645 --> 00:00:19,645
+close.
+
+9
+00:00:19,645 --> 00:00:21,865
+Amazon follows Thursday.
+
+10
+00:00:21,865 --> 00:00:24,333
+For Wednesday, focus on Azure and Google
+
+11
+00:00:24,333 --> 00:00:27,331
+Cloud: growth, bookings, and what management says
+
+12
+00:00:27,331 --> 00:00:28,933
+about future capacity.
+
+13
+00:00:29,123 --> 00:00:32,350
+Listen for three things: paid demand, capital
+
+14
+00:00:32,350 --> 00:00:34,342
+spending, and delivery dates.
+
+15
+00:00:34,342 --> 00:00:37,243
+Are customers actually using the capacity?
+
+16
+00:00:37,243 --> 00:00:40,043
+Is new investment backed by cash flow?
+
+17
+00:00:40,043 --> 00:00:43,083
+And when will new data centers start earning revenue?
+
+18
+00:00:43,083 --> 00:00:46,308
+A bigger budget without better economics is not enough.
+
+19
+00:00:46,498 --> 00:00:48,916
+At Monday's close, all five stocks were
+
+20
+00:00:48,916 --> 00:00:51,307
+below their twenty day moving averages.
+
+21
+00:00:51,307 --> 00:00:55,580
+IREN, Cipher, CoreWeave and Nebius also had
+
+22
+00:00:55,580 --> 00:00:56,838
+RSI below thirty.
+
+23
+00:00:56,838 --> 00:01:01,178
+That signals weak recent momentum, not a confirmed bottom.
+
+24
+00:01:01,178 --> 00:01:03,555
+These charts use the October twenty sixth
+
+25
+00:01:03,555 --> 00:01:06,308
+close, not unfinished Tuesday trading.
+
+26
+00:01:06,498 --> 00:01:09,931
+CoreWeave and Nebius sell AI cloud computing.
+
+27
+00:01:09,931 --> 00:01:13,721
+IREN combines data center infrastructure, AI cloud
+
+28
+00:01:13,721 --> 00:01:15,351
+and bitcoin mining.
+
+29
+00:01:15,351 --> 00:01:18,518
+Cipher and TeraWulf have exposure to power,
+
+30
+00:01:18,518 --> 00:01:20,418
+data centers and hosting.
+
+31
+00:01:20,418 --> 00:01:22,898
+More Big Tech spending could help demand,
+
+32
+00:01:22,898 --> 00:01:26,398
+but building in house can bypass outside providers.
+
+33
+00:01:26,398 --> 00:01:29,100
+A sector headline is not a signed contract.
+
+34
+00:01:29,290 --> 00:01:32,150
+A Yahoo Finance headline on October twenty
+
+35
+00:01:32,150 --> 00:01:36,250
+sixth flagged rising costs to insure CoreWeave's debt.
+
+36
+00:01:36,250 --> 00:01:39,110
+That puts funding risk beside the growth story.
+
+37
+00:01:39,110 --> 00:01:42,521
+For these companies, watch debt, potential share
+
+38
+00:01:42,521 --> 00:01:46,823
+dilution, customer concentration, and whether announced capacity
+
+39
+00:01:46,823 --> 00:01:48,475
+gets delivered and paid for.
+
+40
+00:01:48,665 --> 00:01:51,269
+The constructive case is strong cloud demand,
+
+41
+00:01:51,269 --> 00:01:55,045
+credible funding, and a price recovery with volume.
+
+42
+00:01:55,045 --> 00:01:57,812
+The risk case is project delays, weaker
+
+43
+00:01:57,812 --> 00:02:00,665
+growth, or spending that hurts cash flow.
+
+44
+00:02:00,665 --> 00:02:03,885
+A bounce can happen while business risks remain.
+
+45
+00:02:03,885 --> 00:02:05,975
+These are scenarios, not predictions.
+
+46
+00:02:06,165 --> 00:02:08,805
+So yes, Wednesday can be a catalyst.
+
+47
+00:02:08,805 --> 00:02:10,845
+It cannot guarantee a rescue.
+
+48
+00:02:10,845 --> 00:02:13,885
+Compare the forecasts with the actual reaction.
+
+49
+00:02:13,885 --> 00:02:16,690
+Subscribe to Market Mind Trading Basics for
+
+50
+00:02:16,690 --> 00:02:18,325
+more market breakdowns.
+
+51
+00:02:18,325 --> 00:02:20,685
+I am not a licensed advisor.
+
+52
+00:02:20,685 --> 00:02:23,725
+Education only, not financial advice.

@@ -1,0 +1,15 @@
+{
+  "duration": 143.875,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "full_decode_passed": true,
+  "cover_errors": {
+    "0.0": 1.9536529063786008,
+    "0.958333": 1.9479769483024691,
+    "1.083333": 41.04782503858025
+  },
+  "caption_layout_passed": true,
+  "indicator_and_dates_checked": true,
+  "sha256": "85509493845777cc5f9d71d23d06595ecfe0267e19dd82028319f9660ad7f18e"
+}

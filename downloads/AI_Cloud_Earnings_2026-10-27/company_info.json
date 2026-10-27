@@ -1,0 +1,47 @@
+{
+  "IREN": {
+    "symbol": "IREN",
+    "longName": "IREN Limited",
+    "longBusinessSummary": "IREN Limited operates as a vertically integrated AI cloud services platform in Australia and Canada. It develops, owns, and operate data centers, including the associated land, grid connections, and substations, as well as buildings and cooling. The company also owns and operates compute layers, such as GPUs, CPUs, storage, servers, and networking deployed within that data center infrastructure; and software layers comprising managed services and enterprise support that enables customers to deploy, operate, and manage AI workloads. In addition, it is involved in Bitcoin mining. The company was formerly known as Iris Energy Limited and changed its name to IREN Limited in November 2024. IREN Limited was incorporated in 2018 and is based in Sydney, Australia.",
+    "website": "https://iren.com",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "regularMarketTime": 1793127958
+  },
+  "CIFR": {
+    "symbol": "CIFR",
+    "longName": "Cipher Digital Inc.",
+    "longBusinessSummary": "Cipher Digital Inc., together with its subsidiaries, develops and operates industrial-scale data centers for bitcoin mining and high-performance compute (HPC) hosting in the United States. It develops HPC data center facilities across various sites for hyperscaler tenants; operates power at one bitcoin mining data center; and maintains a pipeline across various sites. The company was formerly known as Cipher Mining Inc. and change its name to Cipher Digital Inc. in February 2026. The company was founded in 2021 and is headquartered in New York, New York.",
+    "website": "https://www.cipherdigital.com",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "regularMarketTime": 1793127956
+  },
+  "CRWV": {
+    "symbol": "CRWV",
+    "longName": "CoreWeave, Inc.",
+    "longBusinessSummary": "CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; infrastructure control solutions, including CoreWeave Kubernetes service; mission control services, including node, rack, and fleet lifecycle management; model and agent development tools comprising Weights & Biases, an AI developer platform; and runtime acceleration. In addition, the company offers graphics processing unit compute, CPU compute, networking services, managed services, and virtual and bare metal servers. Its services also include visual effects rendering, machine learning, pixel streaming, and batch processing. It has a collaboration with AdaniConneX to operate a data center in India. The company was formerly known as Atlantic Crypto Corporation and changed its name to CoreWeave, Inc. in December 2019. CoreWeave, Inc. was incorporated in 2017 and is based in Livingston, New Jersey.",
+    "website": "https://www.coreweave.com",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "regularMarketTime": 1793127960
+  },
+  "WULF": {
+    "symbol": "WULF",
+    "longName": "TeraWulf Inc.",
+    "longBusinessSummary": "TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.",
+    "website": "https://www.terawulf.com",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "regularMarketTime": 1793127959
+  },
+  "NBIS": {
+    "symbol": "NBIS",
+    "longName": null,
+    "longBusinessSummary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
+    "website": "https://nebius.com",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "regularMarketTime": 1793127959
+  }
+}

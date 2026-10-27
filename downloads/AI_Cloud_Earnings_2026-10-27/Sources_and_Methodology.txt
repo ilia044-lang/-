@@ -1,0 +1,22 @@
+SOURCE AND METHOD NOTES — OCTOBER 27, 2026
+
+Scope: A 2–3 minute English vertical earnings-catalyst explainer, not five independent stock recommendations. User clarified CRWV/WULF along with IREN/CIFR/NBIS. U.S. Eastern time applies to earnings sessions.
+
+Calendar: Yahoo calendar retrieved Oct27 lists MSFT/GOOGL Oct28 AMC and AMZN Oct29 AMC, dateIsEstimate=false. Direct issuer IR pages were inaccessible in this environment; the video accurately says calendar-listed, not independently issuer-confirmed. Meta was not listed in the selected period and is not presented as a Wednesday reporter.
+
+Price and indicator evidence: Yahoo Finance daily OHLCV, filtered to Oct26, the most recent completed U.S. session at the start of production. Oct27 intraday bars were excluded. SMA20 is the arithmetic mean of the latest 20 closes; RSI14 uses Wilder smoothing seeded with the first 14 changes. The daily source CSVs are preserved. No implied return, upside target or guaranteed support is invented. A full 30-session daily candle chart is shown for each stock; price and momentum are descriptive.
+
+Business models: Yahoo Finance company longBusinessSummary fields retrieved Oct27. CRWV/NBIS provide AI cloud infrastructure; IREN combines vertically integrated data centers/AI cloud with bitcoin mining; CIFR develops industrial-scale data centers for mining and HPC hosting; WULF develops digital infrastructure/mining and HPC capacity. The grouping is a simplified educational comparison, not a claim about precise revenue segment weights.
+
+News: Yahoo Finance search returned this original Yahoo Finance headline, published Oct26 at 20:55:18 UTC:
+CoreWeave, AI landlord stocks sink to lowest levels in more than a year as the price of insuring CoreWeave's debt doubles
+https://finance.yahoo.com/markets/article/coreweave-ai-landlord-stocks-sink-to-lowest-levels-in-more-than-a-year-as-the-price-of-insuring-coreweaves-debt-doubles-140909005.html
+The full article and attempted direct primary sources returned access errors. The video says HEADLINE and only paraphrases the fact in the visible headline: debt-insurance costs rose. It does not supply an unverified CDS spread, claim a default, or invent details from the inaccessible body. Other retrieved headlines were not used as verified article facts.
+
+Analysis: Stronger cloud demand, funding and delivery could support sentiment, while in-house capex can bypass external providers. No direct contracts with MSFT/GOOGL are asserted. Financing costs, dilution, concentration and delays are risk factors, not allegations that all five face the same issue. A rebound does not prove fundamental risks are resolved. Other macro events can also move prices.
+
+Production: 1080x1920 H.264/AAC,24fps; exactly one-second embedded cover; hook begins immediately; Michael authorized synthetic preset; English captions aligned using local Whisper segments/interpolation; stable bright pearl/glass style with code-drawn solid dimensional servers and actual dated candles. No copied social-group promotion. Subscribe CTA and education-only disclaimer included.
+
+Logos: Stock-logo assets from nvstly/icons; CRWV from gilbarbara/logos (coreweave-icon.svg). The IREN library asset is the archived Iris Energy mark; current ticker is explicitly IREN. No generated company logos. Logo source paths are included. Brand marks identify the subjects, not sponsorship.
+
+No upload or schedule to social platforms has been performed. The cover's presence in the first second does not force YouTube's automatic thumbnail choice.

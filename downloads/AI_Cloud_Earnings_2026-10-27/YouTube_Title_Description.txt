@@ -1,0 +1,43 @@
+TITLE
+Can Microsoft & Google Rescue IREN, CIFR, CRWV, WULF & NBIS?
+
+ALTERNATIVE TITLES
+Big Tech Earnings: AI Cloud Rescue or False Hope?
+Wednesday’s Cloud Test: Five AI Stocks to Watch
+
+DESCRIPTION
+Two earnings calls. Five AI infrastructure stocks. Could Wednesday's cloud commentary change the picture for IREN, Cipher Digital, CoreWeave, TeraWulf and Nebius?
+
+Microsoft (MSFT) and Alphabet (GOOGL) are calendar-listed for Wednesday, October 28, 2026, after the U.S. close. Amazon (AMZN) follows Thursday, October 29. Dates can change; this is an earnings preview, not a report of results.
+
+WHAT TO WATCH
+Cloud growth and paid demand; capital-spending guidance and funding; delivery dates and capacity utilization. More hyperscaler capex does not automatically create a new contract for these five companies, especially when spending goes to internal capacity.
+
+CHART SNAPSHOT — OCTOBER 26 CLOSE
+IREN: close $25.43 | SMA20 $33.58 | RSI14 26.4
+CIFR: close $7.71 | SMA20 $12.01 | RSI14 20.1
+CRWV: close $55.19 | SMA20 $74.37 | RSI14 27.4
+WULF: close $11.98 | SMA20 $13.29 | RSI14 39.9
+NBIS: close $153.27 | SMA20 $202.50 | RSI14 28.8
+All five closed below their 20-day simple moving averages. Four had RSI14 below 30. Weak momentum or an oversold reading does not confirm a bottom. Charts show 30 actual daily candles; the blue line is SMA20. Tuesday October 27 was still trading when these close-based charts were prepared.
+
+THE OTHER SIDE
+A Yahoo Finance headline published October 26 highlighted higher costs to insure CoreWeave's debt. The video explicitly uses the headline, not unseen article details. Demand, financing costs, potential dilution, concentration and execution can all affect outcomes. Constructive and adverse scenarios are educational frameworks, not price predictions or trading instructions.
+
+Subscribe to Market Mind Trading Basics for more market breakdowns.
+https://www.youtube.com/@MarketMindTradingBasics
+
+Sources:
+https://finance.yahoo.com/markets/article/coreweave-ai-landlord-stocks-sink-to-lowest-levels-in-more-than-a-year-as-the-price-of-insuring-coreweaves-debt-doubles-140909005.html
+https://finance.yahoo.com/calendar/earnings/?from=2026-10-28&to=2026-10-29
+https://query1.finance.yahoo.com/v8/finance/chart/IREN?range=2y&interval=1d
+https://query1.finance.yahoo.com/v8/finance/chart/CIFR?range=2y&interval=1d
+https://query1.finance.yahoo.com/v8/finance/chart/CRWV?range=2y&interval=1d
+https://query1.finance.yahoo.com/v8/finance/chart/WULF?range=2y&interval=1d
+https://query1.finance.yahoo.com/v8/finance/chart/NBIS?range=2y&interval=1d
+Business descriptions: Yahoo Finance company profiles for IREN, CIFR, CRWV, WULF and NBIS. Detailed source and access notes are in the package.
+
+Analysis prepared October 27, 2026. Education only. I am not a licensed financial advisor. Not financial advice or a recommendation to buy, sell or take investment action.
+Synthetic Michael narration; original code-rendered charts and motion graphics; illustrative generated cover background. Company marks identify the companies and do not imply endorsement.
+
+#IREN #CIFR #CRWV #WULF #NBIS #Earnings #AICloud #Shorts

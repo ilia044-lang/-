@@ -1,0 +1,26 @@
+{
+  "MSFT": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/MSFT.png"
+  },
+  "GOOGL": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/GOOGL.png"
+  },
+  "AMZN": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/AMZN.png"
+  },
+  "IREN": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/IREN.png"
+  },
+  "CIFR": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/CIFR.png"
+  },
+  "CRWV": {
+    "url": "https://github.com/gilbarbara/logos/blob/main/logos/coreweave-icon.svg"
+  },
+  "WULF": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/WULF.png"
+  },
+  "NBIS": {
+    "url": "https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/NBIS.png"
+  }
+}
