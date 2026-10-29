@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-10-29T22:18:44.813049+02:00",
+  "retrieved_at": "2026-10-29T22:19:30.433427+02:00",
   "daily_data_date": "2026-10-29",
   "full_reports_reviewed": false,
   "calls_reviewed": false,
@@ -10,14 +10,14 @@
         "regularMarketPrice": 243.79,
         "regularMarketTime": 1793304001,
         "regularMarketPreviousClose": 254.6,
-        "postMarketPrice": 229.89,
-        "postMarketTime": 1793305123,
+        "postMarketPrice": 228.81,
+        "postMarketTime": 1793305169,
         "preMarketPrice": null,
         "preMarketTime": null
       },
       "extended": [
-        229.89,
-        1793305123,
+        228.81,
+        1793305169,
         "מסחר מאוחר"
       ],
       "metrics": {
@@ -39,7 +39,7 @@
           "title": "Amazon earnings live: Q3 earnings miss sending shares lower",
           "publisher": "Yahoo Finance",
           "link": "https://finance.yahoo.com/markets/stocks/live/amazon-earnings-live-q3-earnings-miss-sending-shares-lower-200714632.html",
-          "providerPublishTime": 1793305036,
+          "providerPublishTime": 1793305037,
           "type": "STORY",
           "thumbnail": {
             "resolutions": [
@@ -95,14 +95,14 @@
         "regularMarketPrice": 92.07,
         "regularMarketTime": 1793304001,
         "regularMarketPreviousClose": 95.53,
-        "postMarketPrice": 76.38,
-        "postMarketTime": 1793305124,
+        "postMarketPrice": 76.98,
+        "postMarketTime": 1793305171,
         "preMarketPrice": null,
         "preMarketTime": null
       },
       "extended": [
-        76.38,
-        1793305124,
+        76.98,
+        1793305171,
         "מסחר מאוחר"
       ],
       "metrics": {
