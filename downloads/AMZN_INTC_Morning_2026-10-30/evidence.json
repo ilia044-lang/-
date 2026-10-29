@@ -1,0 +1,177 @@
+{
+  "retrieved_at": "2026-10-29T22:18:44.813049+02:00",
+  "daily_data_date": "2026-10-29",
+  "full_reports_reviewed": false,
+  "calls_reviewed": false,
+  "companies": {
+    "AMZN": {
+      "symbol": "AMZN",
+      "quote": {
+        "regularMarketPrice": 243.79,
+        "regularMarketTime": 1793304001,
+        "regularMarketPreviousClose": 254.6,
+        "postMarketPrice": 229.89,
+        "postMarketTime": 1793305123,
+        "preMarketPrice": null,
+        "preMarketTime": null
+      },
+      "extended": [
+        229.89,
+        1793305123,
+        "מסחר מאוחר"
+      ],
+      "metrics": {
+        "close": 243.7899932861328,
+        "previous_close": 254.60000610351562,
+        "regular_change_pct": -4.245880816274472,
+        "sma": {
+          "20": 254.9490005493164,
+          "50": 254.67419982910155,
+          "200": 243.3820999145508
+        },
+        "low20": 241.24000549316406,
+        "high20": 265.3399963378906,
+        "volume_ratio": 1.9945983970406558
+      },
+      "news": [
+        {
+          "uuid": "0d844872-9e16-40d5-abbf-5ae2379af8bd",
+          "title": "Amazon earnings live: Q3 earnings miss sending shares lower",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/markets/stocks/live/amazon-earnings-live-q3-earnings-miss-sending-shares-lower-200714632.html",
+          "providerPublishTime": 1793305036,
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/7f72d662-c2c5-489a-9b1b-6a2a80a27b1d",
+                "width": 3000,
+                "height": 2000,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/lo/mysterio/api/280E2C0A2632A008E84B3C521E3E8F2D423A13D6D990DC37E3335AC5DAA03665/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F7f72d662-c2c5-489a-9b1b-6a2a80a27b1d",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "AMZN",
+            "GOOG",
+            "MSFT"
+          ]
+        },
+        {
+          "uuid": "97302812-ac8c-32be-83e0-13b8063f659b",
+          "title": "Amazon Q3 Earnings Fall, Revenue Rises; Q4 Revenue Guidance Set",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-q3-earnings-fall-revenue-200629227.html",
+          "providerPublishTime": 1793304389,
+          "type": "STORY",
+          "relatedTickers": [
+            "AMZN",
+            "FDS"
+          ]
+        },
+        {
+          "uuid": "7125a528-d63c-3890-90d1-d909fda96dab",
+          "title": "Amazon Traders Brace for Massive Earnings Move",
+          "publisher": "GuruFocus.com",
+          "link": "https://finance.yahoo.com/markets/options/articles/amazon-traders-brace-massive-earnings-200106195.html",
+          "providerPublishTime": 1793304066,
+          "type": "STORY",
+          "relatedTickers": [
+            "AMZN"
+          ]
+        }
+      ],
+      "news_errors": []
+    },
+    "INTC": {
+      "symbol": "INTC",
+      "quote": {
+        "regularMarketPrice": 92.07,
+        "regularMarketTime": 1793304001,
+        "regularMarketPreviousClose": 95.53,
+        "postMarketPrice": 76.38,
+        "postMarketTime": 1793305124,
+        "preMarketPrice": null,
+        "preMarketTime": null
+      },
+      "extended": [
+        76.38,
+        1793305124,
+        "מסחר מאוחר"
+      ],
+      "metrics": {
+        "close": 92.06999969482422,
+        "previous_close": 95.52999877929688,
+        "regular_change_pct": -3.6218979678480867,
+        "sma": {
+          "20": 99.06800003051758,
+          "50": 101.63340026855468,
+          "200": 86.77979997634888
+        },
+        "low20": 84.6500015258789,
+        "high20": 126.0,
+        "volume_ratio": 1.0052976822562683
+      },
+      "news": [
+        {
+          "uuid": "5c2f31ec-324a-34ae-ad78-c493bc123a14",
+          "title": "Intel: Q3 Earnings Snapshot",
+          "publisher": "Associated Press",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-q3-earnings-snapshot-200746164.html",
+          "providerPublishTime": 1793304466,
+          "type": "STORY",
+          "relatedTickers": [
+            "INTC"
+          ]
+        },
+        {
+          "uuid": "223059e0-ff37-3b13-af19-7b1151fe027c",
+          "title": "Intel Q3 Adjusted Earnings, Revenue Rise; Issues Q4 Guidance; Shares Fall After Hours",
+          "publisher": "MT Newswires",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-q3-adjusted-earnings-revenue-200705564.html",
+          "providerPublishTime": 1793304425,
+          "type": "STORY",
+          "relatedTickers": [
+            "INTC",
+            "FDS"
+          ]
+        },
+        {
+          "uuid": "0751c4ac-c79e-4670-9954-1f1ab309a419",
+          "title": "Intel tops Q3 earnings estimates, but falls short of Q4 outlook on sluggish PC sales as stock plunges 20%",
+          "publisher": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/technology/article/intel-tops-q3-earnings-estimates-but-falls-short-of-q4-outlook-on-sluggish-pc-sales-as-stock-plunges-20-200949548.html",
+          "providerPublishTime": 1793304074,
+          "type": "STORY",
+          "thumbnail": {
+            "resolutions": [
+              {
+                "url": "https://d29szjachogqwa.cloudfront.net/images/2026-06/8b296bcb-fbb6-4c4c-80e5-8d63a7c374b8",
+                "width": 5500,
+                "height": 3667,
+                "tag": "original"
+              },
+              {
+                "url": "https://s.yimg.com/lo/mysterio/api/65265B0738DE2B7D9CEEF4BB268CDA6F98944F2C8C55CD4DA05C708F7D82DC69/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-06%2F8b296bcb-fbb6-4c4c-80e5-8d63a7c374b8",
+                "width": 140,
+                "height": 140,
+                "tag": "140x140"
+              }
+            ]
+          },
+          "relatedTickers": [
+            "INTC",
+            "MSFT"
+          ]
+        }
+      ],
+      "news_errors": []
+    }
+  }
+}

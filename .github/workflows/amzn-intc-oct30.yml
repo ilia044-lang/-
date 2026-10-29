@@ -1,0 +1,63 @@
+name: AMZN INTC morning data briefing - Oct 30 2026
+on:
+  schedule:
+    # 08:00 Asia/Jerusalem = 06:00 UTC on Oct 30, 2026.
+    - cron: '0 6 30 10 *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/amzn-intc-oct30.yml'
+      - 'scripts/earnings_morning/report.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: amzn-intc-oct30-briefing
+  cancel-in-progress: false
+jobs:
+  briefing:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: One-time date guard
+        id: gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import datetime as d,os
+          now=d.datetime.now(d.timezone.utc)
+          morning=d.datetime(2026,10,30,6,tzinfo=d.timezone.utc)
+          scheduled=morning<=now<morning+d.timedelta(hours=6)
+          initial=now.date()==d.date(2026,10,29) and os.environ['EVENT_NAME']=='push'
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('run='+str(scheduled or initial).lower()+'\n')
+          PY
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+      - name: Install
+        if: steps.gate.outputs.run == 'true'
+        run: python -m pip install 'yfinance==1.7.0' 'pandas==3.0.6' 'curl_cffi==0.16.3' 'Markdown==3.9'
+      - name: Refresh verified prices and source headlines
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/earnings_morning/report.py --output downloads/AMZN_INTC_Morning_2026-10-30
+      - name: Save report
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- downloads/AMZN_INTC_Morning_2026-10-30
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh AMZN INTC timestamped earnings briefing'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.gate.outputs.run == 'true'
+        with:
+          name: AMZN-INTC-briefing-${{ github.run_id }}
+          path: downloads/AMZN_INTC_Morning_2026-10-30/
+          retention-days: 30
