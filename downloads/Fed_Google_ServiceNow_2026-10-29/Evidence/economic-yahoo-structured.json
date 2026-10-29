@@ -1,0 +1,212 @@
+{
+  "finance": {
+    "result": {
+      "economicEvents": [
+        {
+          "timestamp": 1793246400000,
+          "timestampString": "2026-10-29",
+          "timezone": "America/New_York",
+          "count": 18,
+          "totalCount": 18,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "EIA-Nat Gas Chg Bcf*",
+              "countryCode": "US",
+              "eventTime": 1793284200000,
+              "prior": "77"
+            },
+            {
+              "economicEvents": true,
+              "event": "Dallas Fed PCE*",
+              "countryCode": "US",
+              "eventTime": 1793282400000,
+              "period": "Sep",
+              "prior": "1.9",
+              "description": "In any given month, the rate of inflation in a price index like the Consumer Price Index or Personal Consumption Expenditures (PCE) can be thought of as a weighted average, or mean, of the rates of change in the prices of all the goods and services that make up the index. Calculating the trimmed-mean PCE inflation rate for a given month involves looking at the price changes for each of the individual components of personal consumption expenditures. The individual price changes are sorted in ascending order from fell the most to rose the most, and a certain fraction of the most extreme observations at both ends of the spectrum are like a skaters best and worst marks thrown out, or trimmed. The inflation rate is then calculated as a weighted average of the remaining components. For the series presented here, 19.4 percent of the weight from the lower tail and 25.4 percent of the weight in the upper tail are trimmed. Those proportions have been chosen, based on historical data, to give the best fit between the trimmed-mean inflation rate and proxies for the true core PCE inflation rate. The resulting inflation measure has been shown to outperform the more conventional excluding food and energy measure as a gauge of core inflation. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Core PCE Prices Advance",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Q3",
+              "prior": "3.3"
+            },
+            {
+              "economicEvents": true,
+              "event": "GDP Deflator Advance",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Q3",
+              "prior": "6.1"
+            },
+            {
+              "economicEvents": true,
+              "event": "GDP Advance",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Q3",
+              "prior": "2.2"
+            },
+            {
+              "economicEvents": true,
+              "event": "GDP Sales Advance",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Q3",
+              "prior": "2.8"
+            },
+            {
+              "economicEvents": true,
+              "event": "Core PCE Price Index YY*",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "3",
+              "description": "The personal outlay account shows the uses of income of individuals, enterprises that are owned by households, and nonprofit institutions that serve households. Personal outlays is the sum of personal consumption expenditures, personal interest payments and personal current transfer payments. Personal consumption expenditures is the largest component of GDP as households are the largest consumer of U.S. final product. Personal consumption expenditures measures purchases of goods and services by households and by nonprofit institutions serving households (NPISHs) from private business. It also includes purchases of certain goods and services provided by general government and government enterprises, such as tuition payments for higher education, charges for medical care, and charges for water and other sanitary services. In addition, PCE includes imputed expenditures on items such as the services of housing by a homeowner (the equivalent of rent), financial and insurance services for which there is no explicit charge, and medical care provided to individuals and financed by government or by private insurance. The goods and services purchased by the personal sector. In the NIPA's, the personal sector consists of individuals (and nonprofit institutions serving "
+            },
+            {
+              "economicEvents": true,
+              "event": "Core PCE Price Index MM *",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "0.2",
+              "description": "The personal outlay account shows the uses of income of individuals, enterprises that are owned by households, and nonprofit institutions that serve households. Personal outlays is the sum of personal consumption expenditures, personal interest payments and personal current transfer payments. Personal consumption expenditures is the largest component of GDP as households are the largest consumer of U.S. final product. Personal consumption expenditures measures purchases of goods and services by households and by nonprofit institutions serving households (NPISHs) from private business. It also includes purchases of certain goods and services provided by general government and government enterprises, such as tuition payments for higher education, charges for medical care, and charges for water and other sanitary services. In addition, PCE includes imputed expenditures on items such as the services of housing by a homeowner (the equivalent of rent), financial and insurance services for which there is no explicit charge, and medical care provided to individuals and financed by government or by private insurance. The goods and services purchased by the personal sector. In the NIPA's, the personal sector consists of individuals (and nonprofit institutions serving "
+            },
+            {
+              "economicEvents": true,
+              "event": "Consumption, Adjusted MM*",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "0.9",
+              "description": "Personal income measures total pretax income earned by individuals, non-profit organizations, and private trust funds, expressed at an annual rate. Wages and salaries are the largest component of personal income. Other income categories include personal interest income, transfer payments (social security, state unemployment insurance benefits etc), proprietors' income (both farm and non- farm), dividend income and rental income. From the total of these income categories, the value of personal contributions for social insurance is subtracted to arrive at personal income. Disposable personal income measures personal income less personal tax and non-tax payments. Personal saving is calculated by subtracting personal outlays (personal consumption expenditures plus interest payments and net transfers to foreigners) from personal income. Personal Consumption Expenditures measures consumer spending for all goods and services. "
+            },
+            {
+              "economicEvents": true,
+              "event": "GDP Cons Spending Advance",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Q3",
+              "prior": "3.8"
+            },
+            {
+              "economicEvents": true,
+              "event": "Personal Income MM*",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "0.2",
+              "description": "The personal income account shows the sources of income of individuals, enterprises that are owned by households, and nonprofit institutions that serve households. Personal income is the current income received by persons from all sources, that is, from their contributions to production which is compensation of employees received for their labor, from transfers from government and businesses, and from the ownership of financial assets (such as interest and dividends). Contributions for government social insurance is deducted from the measurement of personal income. The largest source of income for individuals is compensation which they receive for their labor. It includes employee and employer contributions to retirement and pension plans. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Personal Consump Real MM*",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "0.6",
+              "description": "The personal outlay account shows the uses of income of individuals, enterprises that are owned by households, and nonprofit institutions that serve households. Personal outlays is the sum of personal consumption expenditures, personal interest payments and personal current transfer payments. Personal consumption expenditures is the largest component of GDP as households are the largest consumer of U.S. final product. Personal consumption expenditures measures purchases of goods and services by households and by nonprofit institutions serving households (NPISHs) from private business. It also includes purchases of certain goods and services provided by general government and government enterprises, such as tuition payments for higher education, charges for medical care, and charges for water and other sanitary services. In addition, PCE includes imputed expenditures on items such as the services of housing by a homeowner (the equivalent of rent), financial and insurance services for which there is no explicit charge, and medical care provided to individuals and financed by government or by private insurance. "
+            },
+            {
+              "economicEvents": true,
+              "event": "PCE Price Index MM*",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "0.3",
+              "description": "The personal income account shows the sources of income of individuals, enterprises that are owned by households, and nonprofit institutions that serve households. Personal income is the current income received by persons from all sources, that is, from their contributions to production which is compensation of employees received for their labor, from transfers from government and businesses, and from the ownership of financial assets (such as interest and dividends). Contributions for government social insurance is deducted from the measurement of personal income. The largest source of income for individuals is compensation which they receive for their labor. It includes employee and employer contributions to retirement and pension plans. "
+            },
+            {
+              "economicEvents": true,
+              "event": "PCE Price Index YY *",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Sep",
+              "prior": "3.4",
+              "description": "The personal outlay account shows the uses of income of individuals, enterprises that are owned by households, and nonprofit institutions that serve households. Personal outlays is the sum of personal consumption expenditures, personal interest payments and personal current transfer payments. Personal consumption expenditures is the largest component of GDP as households are the largest consumer of U.S. final product. Personal consumption expenditures measures purchases of goods and services by households and by nonprofit institutions serving households (NPISHs) from private business. It also includes purchases of certain goods and services provided by general government and government enterprises, such as tuition payments for higher education, charges for medical care, and charges for water and other sanitary services. In addition, PCE includes imputed expenditures on items such as the services of housing by a homeowner (the equivalent of rent), financial and insurance services for which there is no explicit charge, and medical care provided to individuals and financed by government or by private insurance. "
+            },
+            {
+              "economicEvents": true,
+              "event": "PCE Prices Advance",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "period": "Q3",
+              "prior": "5"
+            },
+            {
+              "economicEvents": true,
+              "event": "Cont Jobless Clm *",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "prior": "1.73",
+              "description": "Continued claims are reported one week after initial claims. U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Initial Jobless Clm *",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "prior": "194",
+              "description": "U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. Initial claims - Any notice of unemployment filed: (1) to request a determination of entitlement to and eligibility for compensation or (2) to begin a second or subsequent period of eligibility within a benefit year or period of eligibility. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Jobless Clm 4Wk Avg *",
+              "countryCode": "US",
+              "eventTime": 1793277000000,
+              "prior": "197.75",
+              "description": "U.S Labor Department report of initial state jobless benefit claims. Unemployment insurance data for regular state programs. Initial claims - Any notice of unemployment filed (1) to request a determination of entitlement to and eligibility for compensation or (2) to begin a second or subsequent period of eligibility within a benefit year or period of eligibility. "
+            }
+          ]
+        },
+        {
+          "timestamp": 1793332800000,
+          "timestampString": "2026-10-30",
+          "timezone": "America/New_York",
+          "count": 4,
+          "totalCount": 4,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Chicago PMI*",
+              "countryCode": "US",
+              "eventTime": 1793367900000,
+              "period": "Oct",
+              "prior": "58.8",
+              "description": "The monthly survey of business activities by the National Association of Purchasing Management-Chicago provides a unique measure of U.S.A.economic activity.With the insights of a panel of purchasing professionals,this report provides a \"first look\" at the breadth of U.S.economic activity.The respondents firms are local,national and pan-national in scope and analysts find the report provides an excellent, early, and reliable view of the economic activity of the United States as a whole. The NAPM-Chicago monthly Business Report consists of seven major component series (+, same,-raw and seasonally adjusted indices): Production, New Orders, Order Backlog, Employment Inventories, Prices Paid, Supplier Deliveries. It is computed based on raw indexes and then seasonally adjusted to support month-to-month comparisons: Production       0.25 New Orders       0.35 Order Backlog      0.15 Employment       0.10 "
+            },
+            {
+              "economicEvents": true,
+              "event": "Employment Wages QQ",
+              "countryCode": "US",
+              "eventTime": 1793363400000,
+              "period": "Q3",
+              "prior": "0.9"
+            },
+            {
+              "economicEvents": true,
+              "event": "Employment Costs",
+              "countryCode": "US",
+              "eventTime": 1793363400000,
+              "period": "Q3",
+              "prior": "0.9",
+              "description": "The Employment Cost Index (ECI) is a quarterly measure of the rate of change in compensation per worked hour and includes wages, salaries, and employer costs of employee benefits. It uses a fixed basket of labor- similar in concept to the consumer price indexs fixed market basket of goods and services- to measure change over time in employer costs of employing labor. The ECI provides data for the civilian economy, which includes the total private economy, excluding farms and households, and the public sector, excluding the Federal government. The private industry series and the state and local government series provide data for the two sectors separately. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Employment Benefits QQ",
+              "countryCode": "US",
+              "eventTime": 1793363400000,
+              "period": "Q3",
+              "prior": "1"
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  }
+}

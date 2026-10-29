@@ -1,0 +1,17 @@
+{
+  "duration": 128.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "cover_errors": {
+    "0": 1.8722733410493828,
+    "0.958333": 1.8682386509773663,
+    "1.083333": 34.41394097222222
+  },
+  "full_decode_passed": true,
+  "caption_layout_passed": true,
+  "dated_price_checks_passed": true,
+  "sha256": "8be3678581aa31c8ab9af7891b9b87b82ff5765204601bc3f43fbf7f30ce22bb"
+}

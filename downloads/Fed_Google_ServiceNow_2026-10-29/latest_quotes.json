@@ -1,0 +1,18 @@
+{
+  "GOOGL": {
+    "regularMarketPrice": 324.89,
+    "regularMarketTime": 1793217601,
+    "preMarketPrice": 290.1241,
+    "preMarketTime": 1793272267,
+    "change_pct": -10.700821816614848,
+    "israel_time": "2026-10-29T13:11:07+02:00"
+  },
+  "NOW": {
+    "regularMarketPrice": 150.13,
+    "regularMarketTime": 1793217602,
+    "preMarketPrice": 120.3,
+    "preMarketTime": 1793272266,
+    "change_pct": -19.869446479717578,
+    "israel_time": "2026-10-29T13:11:06+02:00"
+  }
+}
