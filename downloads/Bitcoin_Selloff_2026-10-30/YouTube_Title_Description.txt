@@ -1,0 +1,43 @@
+TITLE
+Bitcoin Dropped Almost 7%: Should You Sell Everything?
+
+ALTERNATIVES
+Bitcoin Selloff: The Levels That Matter Before You React
+Bitcoin Crash or Temporary Drop? Facts Before Fear
+
+DESCRIPTION
+Bitcoin dropped almost 7% from its October 29 local high to the October 30 overnight low. Does that mean every holder should sell? This short separates the price action, an unverified claim and the levels to watch.
+
+DATED SNAPSHOT: October 30, 2026, 06:13 UTC / 08:13 Israel.
+Local high: approximately $81,879.
+Overnight low: approximately $76,325.
+Snapshot: approximately $78,474.
+The 6.78% decline is LOCAL HIGH TO OVERNIGHT LOW, not a daily or 24-hour return. The subsequent rebound does not confirm a bottom.
+
+LEVELS TO WATCH
+$76.3k–$76.5k: overnight-low area, not guaranteed support.
+$79k–$80k: potential reclaim area; watch whether a retest holds.
+$81.8k–$82k: prior local-high area.
+These are conditional scenarios, not predictions or price targets.
+
+CHARTS
+Actual hourly BTC/USD candles, with the 20-hour simple moving average in blue. The last completed candle starts at 05:00 UTC on October 30. The current incomplete candle is excluded. Dollar labels are drawn separately from the candles.
+
+WHAT IS AND IS NOT VERIFIED
+QQQ closed October 29 down approximately 1.42%, consistent with broader risk pressure. This does not establish the cause of every Bitcoin sale. No verified liquidation total is claimed.
+A current Binance hack claim could not be verified in the sources accessible for this review. This video does not report that a hack occurred or that it caused the price move. An exchange security incident would not automatically imply a breach of the Bitcoin network.
+
+The daily BTC feed was missing the October 29 OHLC bar when checked. The analysis uses the separately retrieved, continuous hourly series and does not publish potentially misleading daily RSI or daily moving averages.
+
+Subscribe for clear market breakdowns:
+https://www.youtube.com/@MarketMindTradingBasics
+
+Sources: Yahoo Finance BTC/USD hourly market data and QQQ daily prices. Timestamped raw evidence and methodology are included in the download package.
+https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?interval=60m&range=5d
+https://finance.yahoo.com/quote/QQQ/history/
+
+Education only. I am not a licensed advisor. Not financial advice or a recommendation to buy or sell. Decisions depend on exposure, leverage, liquidity needs and time horizon.
+
+Production disclosure: synthetic Michael narration, AI-generated illustrative Bitcoin cover art, code-rendered graphics and original background music. The artwork does not depict an actual hack.
+
+#Bitcoin #BTC #Crypto #RiskManagement #Shorts

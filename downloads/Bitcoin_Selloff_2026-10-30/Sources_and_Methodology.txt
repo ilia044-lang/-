@@ -1,0 +1,12 @@
+BITCOIN SELLOFF — OCTOBER 30, 2026
+
+Source: Yahoo Finance chart API, interval 60m, range5d, retrieved around06:13 UTC. Raw hourly JSON is retained in Evidence. Incomplete06:00 candle and final instantaneous duplicate quote are excluded from candles. Completed-hour timestamps were checked for continuous3600-second spacing. SMA20 uses20 consecutive hourly closes; no daily RSI is shown.
+Local high$81,879.359375; overnight low$76,324.921875; measured decline6.783684609%. Snapshot$78,474.09375. Prices are rounded for narration. Daily quote low differed slightly and the Oct29 daily OHLC record was null; the hourly series is explicitly used. No fabricated daily candle fills the gap.
+QQQ October29 close$715.34, previous close$725.61, approximately-1.42%. Shared weakness does not establish causal attribution. No liquidation total or confirmed exchange hack is asserted. Network access did not permit a firsthand review of Binance announcements or full news articles. The user raised the hack claim; the video labels it unverified rather than amplifying it as fact.
+
+Interpretive levels: overnight low is an observation, not guaranteed support.79–80k reclaim zone references recent trading and a round-number area.81.8–82k references the local high. Scenario paths have no probabilistic claim or forecast calibration. The chart uses solid filled candles with consistent prices; price labels occupy a separate gutter. Opening visual uses actual hourly candles, not arbitrary percentage bars.
+
+Production: English Michael preset synthetic voice, original procedural quiet music, subtitles aligned to speech, 8 scenes, stable light backgrounds and smoothly rotating dimensional Bitcoin coin. User specifically requested a completely different Bitcoin-only cover: generated gold coin/navy/crimson composition with code-typeset headline and date. No bull/bear template on the cover. Cover remains exactlyfirst1second while narration begins. Source background contains no numeric market data. No YouTube or TikTok publication occurred.
+
+Learner takeaway: distinguish a price decline, an unverified claim and a conditional stabilization signal. Practice: mark the overnight low and watch whether a reclaimed area holds a retest instead of deciding from a headline alone.
+Retention metric to evaluate after posting: opening3-second retention relative to this channel's recent Shorts. No viral-performance guarantee.
