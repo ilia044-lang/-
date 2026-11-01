@@ -1,0 +1,535 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "PCX",
+      "shortname": "State Street SPDR S&P 500 ETF T",
+      "quoteType": "ETF",
+      "symbol": "SPY",
+      "index": "quotes",
+      "score": 129258496.0,
+      "typeDisp": "ETF",
+      "longname": "State Street SPDR S&P 500 ETF Trust",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "State Street SPDR Portfolio S&P",
+      "quoteType": "ETF",
+      "symbol": "SPYM",
+      "index": "quotes",
+      "score": 32239.0,
+      "typeDisp": "ETF",
+      "longname": "State Street SPDR Portfolio S&P 500 ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "NEOS S&P 500 High Income ETF",
+      "quoteType": "ETF",
+      "symbol": "SPYI",
+      "index": "quotes",
+      "score": 29564.0,
+      "typeDisp": "ETF",
+      "longname": "Neos S&P 500(R) High Income ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "State Street SPDR Portfolio S&P",
+      "quoteType": "ETF",
+      "symbol": "SPYD",
+      "index": "quotes",
+      "score": 22690.0,
+      "typeDisp": "ETF",
+      "longname": "State Street SPDR Portfolio S&P 500 High Dividend ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "State Street SPDR Portfolio S&P",
+      "quoteType": "ETF",
+      "symbol": "SPYG",
+      "index": "quotes",
+      "score": 22688.0,
+      "typeDisp": "ETF",
+      "longname": "State Street SPDR Portfolio S&P 500 Growth ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "TappAlpha S&P 500 Growth & Dail",
+      "quoteType": "ETF",
+      "symbol": "TSPY",
+      "index": "quotes",
+      "score": 21449.0,
+      "typeDisp": "ETF",
+      "longname": "ETF Opportunities Trust - TappAlpha SPY Growth & Daily Income ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "MAX S&P 500 4X Leveraged ETNs d",
+      "quoteType": "ETF",
+      "symbol": "SPYU",
+      "index": "quotes",
+      "score": 20585.0,
+      "typeDisp": "ETF",
+      "longname": "MAX S&P 500 4X Leveraged ETN",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "17576756-48d2-30f6-aec7-3db923f3922e",
+      "title": "Housing and Food Now Take Nearly Half of What Americans Spend, the Most in 15 Years",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/real-estate/articles/housing-food-now-nearly-half-152653814.html",
+      "providerPublishTime": 1793460413,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/92c786940d4288d0320b85e97a67abbc.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/54F8D1D87F3B5BAA53116A18A0382ACCC2B6D4003D94E6FDE5A17E6A26DB4BB9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F92c786940d4288d0320b85e97a67abbc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "WMT",
+        "SPY",
+        "COST",
+        "XLP"
+      ]
+    },
+    {
+      "uuid": "a25df830-814c-328c-bcbc-6ec5a4edbef1",
+      "title": "Two Fed Officials Just Called for More Rate Hikes, Starting Soon",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/economy/policy/articles/two-fed-officials-just-called-142756281.html",
+      "providerPublishTime": 1793456876,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/f9fa6a691c9b11484258064ed7acd942.jpg",
+            "width": 2560,
+            "height": 1707,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B343A6884D432D33C60C4121C61E01388F0CBEE769B379AB75CF8A9173182FF8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ff9fa6a691c9b11484258064ed7acd942.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RSP",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "44be5ed4-6eab-3b79-8b7d-061bd1221cf2",
+      "title": "Investors Have Poured a Record $2.24 Trillion Into ETFs This Year. Three Firms Collected Nearly Half of It",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-poured-record-2-24-000347530.html",
+      "providerPublishTime": 1793405027,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/473ecb32a469b144441447e5672174c0",
+            "width": 2560,
+            "height": 1440,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E5A4C18E3E675C96E5F03A206CA7BB91AE97C0307B507A6A9F1C9EA97BA05989/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F473ecb32a469b144441447e5672174c0",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "IVV",
+        "SPY",
+        "VFFSX"
+      ]
+    },
+    {
+      "uuid": "e0bfc6db-fc64-3c17-be70-e42bfb09aa47",
+      "title": "5,500 ETFs and Counting: Where the Market Goes Next",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-500-etfs-counting-where-203901351.html",
+      "providerPublishTime": 1793392741,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/indexuniverse.com/d17f3e71c21d401dd3a063ff72700d6c.png",
+            "width": 2336,
+            "height": 1502,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/57A11C92977D1C57EE10397B38F54CA6FB2542ECABD947D9298AE8C98472BE26/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Findexuniverse.com%2Fd17f3e71c21d401dd3a063ff72700d6c.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSCI",
+        "SPY",
+        "VFFSX",
+        "AGG"
+      ]
+    },
+    {
+      "uuid": "a774a480-6359-3802-9cab-467576e39471",
+      "title": "8 Months Ago, A Major Wall Street Bank Said Buy Marvell. It\u2019s Up More Than 150%. Here\u2019s Where We See the Stock Going",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/8-months-ago-major-wall-201736681.html",
+      "providerPublishTime": 1793391456,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/8034e7e57f2d2ffed838fb0a553b0ba0.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2310E6CA6A711DAE7BB93CC5C61C047F883C90853C1FB2897CC7CB47DBFC33CD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8034e7e57f2d2ffed838fb0a553b0ba0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MRVL",
+        "SPY",
+        "INTC",
+        "LITE",
+        "GOOG"
+      ]
+    },
+    {
+      "uuid": "109a57a9-3d14-38c4-ad1d-c02f5ce4de82",
+      "title": "$1,000 in UPS Stock 10 Years Ago: Did the Dividends Offset the Decline?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/1-000-ups-stock-10-191724722.html",
+      "providerPublishTime": 1793387844,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ac812cae65b9ba6861164ddecfe0e996.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D156D480DE99C07DA340B83A9654E678CA6EBF36E94883814DC4A7E8055FBC91/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fac812cae65b9ba6861164ddecfe0e996.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UPS",
+        "^GSPC",
+        "AMZN",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "1fbf0b56-1dff-32f9-8b3f-2ffb9890c333",
+      "title": "They Called This Stock a Winner in the AI Coding Boom. A Year Later, It\u2019s Up 94%.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/called-stock-winner-ai-coding-164921139.html",
+      "providerPublishTime": 1793378961,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/985fe7db835c20d3b029eb65a8d46a34.jpg",
+            "width": 1500,
+            "height": 843,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B969E3EB69FA3030915659C3736E267657A0B0CEAD6C25AB9AC590218594A8EB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F985fe7db835c20d3b029eb65a8d46a34.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "FROG",
+        "SPY",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "29c52a9e-17b3-3aae-b0c4-ac5f26a08ec3",
+      "title": "Intel\u2019s Earnings Fallout Is Hitting Your Index Funds Too",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html",
+      "providerPublishTime": 1793377271,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/42c586a82a19a2e1486b850d753df65b.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B8D2B757B936D71D720E05ACA3D69DCCB597D56EAD0B2CDB60E83174D0B8E6B1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F42c586a82a19a2e1486b850d753df65b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "QQQ",
+        "NVDA",
+        "SMH",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "226e800f-da98-37b7-876b-db9cd907d390",
+      "title": "Coinbase Tumbles 11% as Record Binance Hack Hits Crypto and Trading Revenue Slides; Strategy Sinks 12%, Robinhood Plunges 10%, Circle Drops 9%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-tumbles-11-record-binance-135440656.html",
+      "providerPublishTime": 1793368480,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/a1360e9751ca5c8e790b4098b9c03f7e.jpg",
+            "width": 1500,
+            "height": 996,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/31A4630CA6ABD7DA55F3DC73790EE7EEF026279FE3CFC12CBA0271ADAABAD5F8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fa1360e9751ca5c8e790b4098b9c03f7e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN",
+        "CRCL",
+        "MSTR",
+        "HOOD35566-USD",
+        "BITO",
+        "SPY",
+        "USDC-USD",
+        "BTC-USD",
+        "HOOD",
+        "USDT-USD"
+      ]
+    },
+    {
+      "uuid": "ee9d0adf-a22b-389e-92e4-dadd4637071d",
+      "title": "Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/tom-lee-sees-big-beats-133007421.html",
+      "providerPublishTime": 1793367007,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/benzinga_79/16e2275585900ebfd5acfec092f19a8b.jpg",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C289CD670E67A8F9FF6F503B772B962A57CCC1E0942748247DE9E321A3264E08/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F16e2275585900ebfd5acfec092f19a8b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "95caf56c-09f6-37b8-a638-d1507c6faf65",
+      "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday Amid Steep Tech Decline",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131734005.html",
+      "providerPublishTime": 1793366254,
+      "type": "STORY",
+      "relatedTickers": [
+        "BTC-USD",
+        "QQQ",
+        "BKR",
+        "SPY",
+        "BITO",
+        "^GSPC",
+        "^DJI",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "c0654b3c-58af-350d-b512-0d173f32cbee",
+      "title": "Sandisk Sinks 9% Despite Earnings Beat, Raised Guidance and 8-for-1 Split; Western Digital Tumbles 8%, Seagate Slides 7%, Micron Falls 6%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sinks-9-despite-earnings-131724006.html",
+      "providerPublishTime": 1793366244,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/0b4bc36eca336ee2323794f659a74294.jpg",
+            "width": 2848,
+            "height": 1600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D1EAAF702DC71CC2D1495D52F29164A55AA0CD76E883122EA1BFD0B47E421D2C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0b4bc36eca336ee2323794f659a74294.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SNDK",
+        "WDC",
+        "STX",
+        "MU",
+        "SMH",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "b46cae11-52fc-3288-9e24-353944fa7285",
+      "title": "Intel Dropped 20% Over The Last Month: This Pro Analyst Says It\u2019s Going to Gain 70% Soon",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-dropped-20-over-last-124559573.html",
+      "providerPublishTime": 1793364359,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/6a93eeaf8230a38b89be6d0f0003189f.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CBA00F824CFC8576D2B350E810E8745185FF1149285E2B84B782D5D65A75FE68/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F6a93eeaf8230a38b89be6d0f0003189f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "a7a8d8b3-c16b-3f2b-bf6e-fd1ba846c45e",
+      "title": "Broadcom\u2019s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-63b-anthropic-deal-could-111557230.html",
+      "providerPublishTime": 1793358957,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/2703963e5dbd90703b11e8e2fbbc501e.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F42B3D92BD1EE8AC1A06C36EFE23228EB12A6B775BB7DC4E2BCFFDD3C30EAA86/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F2703963e5dbd90703b11e8e2fbbc501e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AVGO",
+        "ANTH.PVT",
+        "SPY",
+        "MORN"
+      ]
+    },
+    {
+      "uuid": "ee8ff0a7-8649-3623-a3ac-27f1d23ea4bd",
+      "title": "SPDR S&P 500 ETF (SPY) Buys $105.5 Million More NVIDIA on Oct. 28",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110356029.html",
+      "providerPublishTime": 1793358236,
+      "type": "STORY",
+      "relatedTickers": [
+        "SPY",
+        "NVDA",
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "AMZN"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 191,
+  "timeTakenForQuotes": 416,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

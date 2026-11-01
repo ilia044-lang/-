@@ -1,0 +1,535 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "PayPal Holdings, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "PYPL",
+      "index": "quotes",
+      "score": 19095000.0,
+      "typeDisp": "Equity",
+      "longname": "PayPal Holdings, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Credit Services",
+      "industryDisp": "Credit Services",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax PYPL Option Income Str",
+      "quoteType": "ETF",
+      "symbol": "PYPY",
+      "index": "quotes",
+      "score": 20050.0,
+      "typeDisp": "ETF",
+      "longname": "Yieldmax PYPL Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NEO",
+      "shortname": "PAYPAL CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "PYPL.NE",
+      "index": "quotes",
+      "score": 20028.0,
+      "typeDisp": "Equity",
+      "longname": "PayPal Holdings, Inc.",
+      "exchDisp": "NEO",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Credit Services",
+      "industryDisp": "Credit Services",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Leverage Shares 2X Long PYPL Da",
+      "quoteType": "ETF",
+      "symbol": "PYPG",
+      "index": "quotes",
+      "score": 20025.0,
+      "typeDisp": "ETF",
+      "longname": "Leverage Shares 2X Long PYPL Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "Direxion Daily PYPL Bull 2X ETF",
+      "quoteType": "ETF",
+      "symbol": "PYPU",
+      "index": "quotes",
+      "score": 20006.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "MEX",
+      "shortname": "PAYPAL HOLDINGS INC",
+      "quoteType": "EQUITY",
+      "symbol": "PYPL.MX",
+      "index": "quotes",
+      "score": 20012.0,
+      "typeDisp": "Equity",
+      "longname": "PayPal Holdings, Inc.",
+      "exchDisp": "Mexico",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Credit Services",
+      "industryDisp": "Credit Services",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "OPR",
+      "shortname": "PYPL Oct 2026 61.000 call",
+      "quoteType": "OPTION",
+      "symbol": "PYPL261030C00061000",
+      "index": "quotes",
+      "score": 20010.0,
+      "typeDisp": "Option",
+      "exchDisp": "OPR",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "8422336b-1bf1-3a9f-a086-0765e6afbcda",
+      "title": "What Could PayPal Holdings (PYPL) Gain From Its New Creator Payout Push?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/could-paypal-holdings-pypl-gain-042347122.html",
+      "providerPublishTime": 1793420627,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/8a4455c6939f19b32c24be59b8a5455a.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5FA07958EBBF35639E3AC50F3AC829B285FD035AE439E7C731E2A677CDC8204C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F8a4455c6939f19b32c24be59b8a5455a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "0178e50c-d7a7-3e2f-929f-585bcde93314",
+      "title": "PYPL Q3 deep dive: diversification in financial services and Venmo offsets margin pressures",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pypl-q3-deep-dive-diversification-033129756.html",
+      "providerPublishTime": 1793417489,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/f19d6a76600d736b3aa3484e6b80cce2.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B63C5E2C6D1F558916C2617904CC45A9EF099340746548E986EA96BD6A2E8058/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Ff19d6a76600d736b3aa3484e6b80cce2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "a092b00f-587b-313e-8aff-43e3ed8b1303",
+      "title": "Stocktwits Fintech Pulse: US Fintech Weekly Briefing & Market Drivers",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-fintech-pulse-us-fintech-000208099.html",
+      "providerPublishTime": 1793404928,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/bf41f0233726dc4080bcc5d601803230",
+            "width": 1000,
+            "height": 750,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7653E2EFEEA63A1F0927479C0F9E311AB75A40A9DCEFEBBA1E10151BFA18883D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fbf41f0233726dc4080bcc5d601803230",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MA",
+        "SOFI",
+        "COIN",
+        "HOOD35566-USD",
+        "V",
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "edc3f307-0004-33e4-8db0-b98a0b6aee38",
+      "title": "Americans Are Buying Now And Paying Later More Often. Many Households Now Have Bills Topping $500 a Month.",
+      "publisher": "International Business Times",
+      "link": "https://finance.yahoo.com/economy/articles/americans-buying-now-paying-later-190845136.html",
+      "providerPublishTime": 1793387325,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/international_business_times_990/5984fc040823fc947a4bdd2f5f18da5a.jpg",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/EBBFCADD9B327AFC474675715CA6456E22D0E3F8A62A0A6F63B7FBB65A6DFFF7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finternational_business_times_990%2F5984fc040823fc947a4bdd2f5f18da5a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "KLAR",
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "65c1393f-543a-3e11-87b5-502f8174b214",
+      "title": "Global Payments Soars 11% on Report of Potential $40 Billion Buyout",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/global-payments-soars-11-report-185310036.html",
+      "providerPublishTime": 1793386390,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/73f3ffc65dedde205988acd63caead05",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2116263AE48D2A7E4C162257643AE0ECD6175DF5F5AC1BB68F235E7D00B9DA89/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F73f3ffc65dedde205988acd63caead05",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GPN",
+        "PYPL",
+        "FISV"
+      ]
+    },
+    {
+      "uuid": "ba411047-27c3-3423-aacb-6a41f49b9b63",
+      "title": "5 Financial Transaction Stocks to Watch Amid Cost and Inflation Pressure",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-financial-transaction-stocks-watch-165200091.html",
+      "providerPublishTime": 1793379120,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/8e13e9f086aa9c1bb3bdbdb41ab2923b.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CD06373FBE0E23D73EE8B28593DDF6BEEF9A23C01EFB7F7839B93CB1ED7B8C5F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F8e13e9f086aa9c1bb3bdbdb41ab2923b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL",
+        "WEX",
+        "V",
+        "MA",
+        "GPN"
+      ]
+    },
+    {
+      "uuid": "2bba5a0e-858b-38b7-b13e-f1fa42355504",
+      "title": "3 low-volatility stocks we find risky",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-low-volatility-stocks-risky-145929172.html",
+      "providerPublishTime": 1793372369,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/4a07ba75adf3d0a6071ba4162294f56c.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/03ADADE437485523354B084B44F042CFA31256013175A45D9A9299241E40C488/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F4a07ba75adf3d0a6071ba4162294f56c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "YELP",
+        "PYPL",
+        "CVGI",
+        "DOV"
+      ]
+    },
+    {
+      "uuid": "ea2bf601-e758-39c0-b62a-eee474bcee0b",
+      "title": "What Could PayPal Stock Be Worth In Three Years?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/could-paypal-stock-worth-three-123225395.html",
+      "providerPublishTime": 1793363545,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/63553f0ea661ac1be1aca1cf4801946e.png",
+            "width": 1280,
+            "height": 919,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/BFEE399AE731EB4CECA093E535B3D480E5C4AD58F87D3E635EB2ED44A5350C60/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F63553f0ea661ac1be1aca1cf4801946e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL",
+        "V",
+        "MA",
+        "SHOP",
+        "AFRM",
+        "SOFI"
+      ]
+    },
+    {
+      "uuid": "72675295-aeb2-3fe7-a155-6f9c60ac451c",
+      "title": "The 5 most interesting analyst questions from PayPal\u2019s Q3 earnings call",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-121929532.html",
+      "providerPublishTime": 1793362769,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/f19d6a76600d736b3aa3484e6b80cce2.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B63C5E2C6D1F558916C2617904CC45A9EF099340746548E986EA96BD6A2E8058/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Ff19d6a76600d736b3aa3484e6b80cce2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "340fcac2-0f96-3af3-aa59-fbd19b06d9b4",
+      "title": "BILL Holdings (BILL) vs. INTU and PYPL: Can Its Financial Workflow Platform Become a Long-Term Compounder?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-vs-intu-171956676.html",
+      "providerPublishTime": 1793294396,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/762da21e384ca7471d7f0e80814995c0.jpg",
+            "width": 847,
+            "height": 565,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/BCAC0228A1F91CC5BE5AD4F9C199F9ACA4C4395D7089202143F6F91B079897D8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F762da21e384ca7471d7f0e80814995c0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BILL",
+        "INTU",
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "f5654a8b-fce7-3066-b5ef-102811b600c3",
+      "title": "Barclays lowers PayPal stock to Underweight on slowing fundamentals",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-lowers-paypal-stock-underweight-135028587.html",
+      "providerPublishTime": 1793281828,
+      "type": "STORY",
+      "relatedTickers": [
+        "PYPL",
+        "STRI.PVT"
+      ]
+    },
+    {
+      "uuid": "d66284f8-2713-35a5-9431-db421146d882",
+      "title": "Alphabet downgraded, eBay upgraded: Wall Street's top analyst calls",
+      "publisher": "The Fly",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-downgraded-ebay-upgraded-wall-134755938.html",
+      "providerPublishTime": 1793281675,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec.jpg",
+            "width": 1200,
+            "height": 628,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/642CDFEE919EFF0E7BE8CE4C397FF979B63E6E95E893CD70CA17E6D591D4B803/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_fly_169%2F5039a5ccc6ec98e1b92bc672330bfcec.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EBAY",
+        "GOOG",
+        "BIIB",
+        "PDD",
+        "GOOG",
+        "PYPL",
+        "WEN",
+        "SFM",
+        "VFC",
+        "HLT",
+        "BSX",
+        "PLTR",
+        "ORA",
+        "MSGR",
+        "CVX",
+        "XOM",
+        "COP"
+      ]
+    },
+    {
+      "uuid": "243ba24d-b0fa-37d4-89ee-d701c4b4677b",
+      "title": "2 profitable stocks on our watchlist and 1 we question",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-watchlist-1-105925395.html",
+      "providerPublishTime": 1793271565,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/eae6fdec1deebf47daf71ed192c3c19d.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4FDC70C76425C2A42DEE17BCC18F09C9304A6C7C8F3B51F6FCE2B19F682667C6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Feae6fdec1deebf47daf71ed192c3c19d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL",
+        "EBAY",
+        "CAVA",
+        "URI"
+      ]
+    },
+    {
+      "uuid": "ad0bfde7-15ac-3cf1-b84e-ad32417cb35e",
+      "title": "Barclays Downgrades PayPal to Underweight From Equalweight, Price Target is $53",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/barclays-downgrades-paypal-underweight-equalweight-094344894.html",
+      "providerPublishTime": 1793267024,
+      "type": "STORY",
+      "relatedTickers": [
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "d05dd717-7066-34b6-b7ce-d8911e06f364",
+      "title": "Is PayPal Stock a Value or a Value Trap?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-stock-value-value-trap-090500396.html",
+      "providerPublishTime": 1793264700,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/7781354f1e9a398bd39fa68dadf9a7cb.png",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/11F1F50F3CE1B901751D4C9A62E65BB61C8D9849E0A0B56277006C49929317E4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F7781354f1e9a398bd39fa68dadf9a7cb.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PYPL",
+        "BAC"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 187,
+  "timeTakenForQuotes": 415,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

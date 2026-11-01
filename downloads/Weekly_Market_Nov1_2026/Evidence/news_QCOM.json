@@ -1,0 +1,510 @@
+{
+  "explains": [],
+  "count": 21,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "QUALCOMM Incorporated",
+      "quoteType": "EQUITY",
+      "symbol": "QCOM",
+      "index": "quotes",
+      "score": 42623000.0,
+      "typeDisp": "Equity",
+      "longname": "QUALCOMM Incorporated",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long QCOM Dail",
+      "quoteType": "ETF",
+      "symbol": "QCML",
+      "index": "quotes",
+      "score": 20161.0,
+      "typeDisp": "ETF",
+      "longname": "GraniteShares 2x Long QCOM Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily QCOM Bull 2X ETF",
+      "quoteType": "ETF",
+      "symbol": "QCMU",
+      "index": "quotes",
+      "score": 20152.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TOR",
+      "shortname": "QUALCOMM CDR (CAD HEDGED)",
+      "quoteType": "ETF",
+      "symbol": "QCOM.TO",
+      "index": "quotes",
+      "score": 20040.0,
+      "typeDisp": "ETF",
+      "longname": "QUALCOMM Incorporated",
+      "exchDisp": "Toronto",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "OPR",
+      "shortname": "QCOM Oct 2026 165.000 put",
+      "quoteType": "OPTION",
+      "symbol": "QCOM261030P00165000",
+      "index": "quotes",
+      "score": 20023.0,
+      "typeDisp": "Option",
+      "exchDisp": "OPR",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily QCOM Bear 1X ETF",
+      "quoteType": "ETF",
+      "symbol": "QCMD",
+      "index": "quotes",
+      "score": 20018.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily QCOM Bear 1X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "OPR",
+      "shortname": "QCOM Jan 2027 200.000 call",
+      "quoteType": "OPTION",
+      "symbol": "QCOM270115C00200000",
+      "index": "quotes",
+      "score": 20009.0,
+      "typeDisp": "Option",
+      "longname": "QCOM Jan 2027 200.000 call",
+      "exchDisp": "OPR",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d5365530-18ce-3ff8-b38d-925afe7a71bf",
+      "title": "Intel Is Down 45% in October, Its Worst Month Ever",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-down-45-october-worst-111852927.html",
+      "providerPublishTime": 1793445532,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/b0dcb6467e27a108b7a5f12632e7cdd2.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/450930EBA2C7B2FA2864A4144B6CA0908147D8BA03EB197A2C5CF7BDF2D02143/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fb0dcb6467e27a108b7a5f12632e7cdd2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "^GSPC",
+        "AMD",
+        "QCOM",
+        "DELL",
+        "HPQ"
+      ]
+    },
+    {
+      "uuid": "23a137fe-e62b-3e0e-a5a9-a83c5b6894e6",
+      "title": "Qualcomm Stock Fell 11% in a Day on Intel\u2019s PC Warning. Here\u2019s Why November 4 Tests Its Claim That Phones Have Bottomed",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-fell-11-day-064448014.html",
+      "providerPublishTime": 1793429088,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/f9fea4e1bd90cc3f2372a3883e118d16",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FFE2CB1C33C67F4DC3241C4121BCDFDB9AA861831DDEDFC0BE54E3E16B22B061/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Ff9fea4e1bd90cc3f2372a3883e118d16",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "QCOM",
+        "INTC",
+        "^IXIC",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "98a2ffba-5873-3fc4-ae08-a48d0c606dbd",
+      "title": "Qualcomm Is Teaming Up With Anduril to Produce U.S.-Made Laptops. Don\u2019t Expect It to Move the Needle for QCOM Stock.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/articles/qualcomm-teaming-anduril-produce-u-214454685.html",
+      "providerPublishTime": 1793396694,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/5b248407b52bb8b1864e5ac051ae36db.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7EFAF3D5AC2E41F36B2E1936568015B9E0F052C7FC92844412DEE31683622005/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F5b248407b52bb8b1864e5ac051ae36db.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "QCOM",
+        "ANIN.PVT"
+      ]
+    },
+    {
+      "uuid": "53ec4742-8869-3ee8-bba5-3af4ea91e718",
+      "title": "Cracks are emerging in the AI spending boom",
+      "publisher": "TechCrunch",
+      "link": "https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html",
+      "providerPublishTime": 1793395060,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/techcrunch_finance_785/6d6ea2844c9e25b2153dfb075f988a43",
+            "width": 5472,
+            "height": 3648,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AF7D83C01741D8CB5EAC85EA89D5F22621FDB57F16C44B24E4873564DA7BB8ED/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftechcrunch_finance_785%2F6d6ea2844c9e25b2153dfb075f988a43",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "^IXIC",
+        "AMZN",
+        "META",
+        "MSFT",
+        "NVDA",
+        "AVGO",
+        "QCOM"
+      ]
+    },
+    {
+      "uuid": "d3f5c21f-4e32-3453-958c-cf7f5f4a7e1f",
+      "title": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-falls-5-despite-da-145649063.html",
+      "providerPublishTime": 1793372209,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/995986a50b6d699d2d0452cc5e2d4bea.jpg",
+            "width": 1500,
+            "height": 840,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2FB03263AB5FD297209C8201B1994BE40F0FD092A4C13681A69DB674B92FEF54/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F995986a50b6d699d2d0452cc5e2d4bea.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AVGO",
+        "MRVL",
+        "QCOM",
+        "ANTH.PVT",
+        "LITE",
+        "OPAI.PVT",
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "75ff5862-a8af-31bc-8be6-9e23a8c1c04b",
+      "title": "Can Marvell Stock Hit $310?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-hit-310-143525243.html",
+      "providerPublishTime": 1793370925,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/819c7c9a1e17ab2ee1c33e599bcc2465.jpg",
+            "width": 1280,
+            "height": 853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/626CC36730E228060235FB8E6390C3A3659BD5CEE938C595AAE06EFDC3574530/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F819c7c9a1e17ab2ee1c33e599bcc2465.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MRVL",
+        "^GSPC",
+        "LITE",
+        "AVGO",
+        "NVDA",
+        "AMD",
+        "QCOM",
+        "INTC",
+        "SPGI"
+      ]
+    },
+    {
+      "uuid": "bfb712da-d683-35d6-90f2-3b29382df251",
+      "title": "Can You Make Money Off NVIDIA Stock Now?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/money-off-nvidia-stock-now-134203577.html",
+      "providerPublishTime": 1793367723,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/e3747e025f02436585790aa5aaf0940d.jpg",
+            "width": 1280,
+            "height": 960,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3DC8232B430831F2B97AE3591CC4CADAEF62C272E86DE529BBA8486ABE19FE2D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2Fe3747e025f02436585790aa5aaf0940d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "QCOM",
+        "MRVL"
+      ]
+    },
+    {
+      "uuid": "36377243-1495-3448-b14f-24c8d7dec864",
+      "title": "Is Broadcom Stock Priced Right Against Its Peers?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-priced-against-peers-133953972.html",
+      "providerPublishTime": 1793367593,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/d5bd3a797b2bf4044dc13c40aa660f13.jpg",
+            "width": 1280,
+            "height": 848,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CC547C3FF3E5CDB9C6B334CAC39A25423E594E7C241C67117A9CFA905D27E163/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2Fd5bd3a797b2bf4044dc13c40aa660f13.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AVGO",
+        "TXN",
+        "NVDA",
+        "QCOM",
+        "MRVL",
+        "AMD"
+      ]
+    },
+    {
+      "uuid": "61c45946-5577-35b8-a947-c90af9e7408b",
+      "title": "Curious about Qualcomm (QCOM) Q4 Performance? Explore Wall Street Estimates for Key Metrics",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/curious-qualcomm-qcom-q4-performance-121507387.html",
+      "providerPublishTime": 1793362507,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/46ebfcbff417ac1bbde85ad33fa0d4be.jpg",
+            "width": 900,
+            "height": 594,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/92907F0E93FF4CDA447CF05D6CC885AA6C3A74F62ECA7689E87A7DA6AC74CEB5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F46ebfcbff417ac1bbde85ad33fa0d4be.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "QCOM"
+      ]
+    },
+    {
+      "uuid": "0215a141-4e6a-3d85-a2bc-22a22fca6726",
+      "title": "Management Set A Higher Bar For Micron Stock; Does The Chart Agree?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/management-set-higher-bar-micron-111602118.html",
+      "providerPublishTime": 1793358962,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/e3747e025f02436585790aa5aaf0940d.jpg",
+            "width": 1280,
+            "height": 960,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3DC8232B430831F2B97AE3591CC4CADAEF62C272E86DE529BBA8486ABE19FE2D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2Fe3747e025f02436585790aa5aaf0940d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MU",
+        "^GSPC",
+        "WDC",
+        "INTC",
+        "NVDA",
+        "AMD",
+        "QCOM",
+        "SPGI"
+      ]
+    },
+    {
+      "uuid": "2cfc15b6-110e-3150-9038-07dfde80d16c",
+      "title": "Avantis U.S. Large Cap Value ETF (AVLV) Buys $26.5 Million More Sandisk on Wednesday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110414956.html",
+      "providerPublishTime": 1793358254,
+      "type": "STORY",
+      "relatedTickers": [
+        "SNDK",
+        "QCOM",
+        "CAT",
+        "WMT",
+        "JPM",
+        "AVLV"
+      ]
+    },
+    {
+      "uuid": "69c6c1b1-2541-37c4-8bda-cc3c0b303c55",
+      "title": "Arm Is Up 99% in 2026: Take Profits, or Buy More?",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-99-2026-profits-buy-104806301.html",
+      "providerPublishTime": 1793357286,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/00262f80536ab609ee31ad82777e5fce",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AE37A05DA1E0B415900F10F4F79D441072A8E25E33910757AF95DC4C59E3F275/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F00262f80536ab609ee31ad82777e5fce",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ARM",
+        "QCOM",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "ed6b4909-ee93-4d7b-9575-0009ed2a7d6b",
+      "title": "[PREVIEW] AI is taking on more. How will it be powered?",
+      "publisher": "Preview US Finance",
+      "link": "https://finance.yahoo.com/news/preview-ai-is-taking-on-more-how-will-it-be-powered-202855227.html",
+      "providerPublishTime": 1793305735,
+      "type": "STORY",
+      "relatedTickers": [
+        "QCOM"
+      ]
+    },
+    {
+      "uuid": "b77c0031-016a-3094-8286-44646f9b54c4",
+      "title": "QUALCOMM (QCOM) Offers AI, Automotive, and Edge-Computing Growth Potential, Ariel Global Fund Says",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-offers-ai-automotive-165510772.html",
+      "providerPublishTime": 1793292910,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/057a3297dfc52f37efe172590946f432.jpg",
+            "width": 4132,
+            "height": 2755,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AD98AD0720D8521DBD5DF51DCB65E592AEA6E03D20146D3B02C33CB58CF652F0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F057a3297dfc52f37efe172590946f432.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "QCOM",
+        "CL=F"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 204,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

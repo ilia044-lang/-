@@ -1,0 +1,589 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Amazon.com, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "AMZN",
+      "index": "quotes",
+      "score": 415607008.0,
+      "typeDisp": "Equity",
+      "longname": "Amazon.com, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "industryDisp": "Internet Retail",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily AMZN Bull 2X ETF",
+      "quoteType": "ETF",
+      "symbol": "AMZU",
+      "index": "quotes",
+      "score": 24824.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily AMZN Bull 2X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax AMZN Option Income Str",
+      "quoteType": "ETF",
+      "symbol": "AMZY",
+      "index": "quotes",
+      "score": 20690.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax AMZN Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TOR",
+      "shortname": "AMAZON.COM CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "AMZN.TO",
+      "index": "quotes",
+      "score": 20560.0,
+      "typeDisp": "Equity",
+      "longname": "Amazon.com, Inc.",
+      "exchDisp": "Toronto",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "industryDisp": "Internet Retail",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long AMZN Dail",
+      "quoteType": "ETF",
+      "symbol": "AMZZ",
+      "index": "quotes",
+      "score": 20343.0,
+      "typeDisp": "ETF",
+      "longname": "GraniteShares 2x Long AMZN Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Tradr 2X Short AMZN Daily ETF",
+      "quoteType": "ETF",
+      "symbol": "AMZO",
+      "index": "quotes",
+      "score": 20293.0,
+      "typeDisp": "ETF",
+      "longname": "Tradr 2X Short AMZN Daily ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily AMZN Bear 1X ETF",
+      "quoteType": "ETF",
+      "symbol": "AMZD",
+      "index": "quotes",
+      "score": 20226.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily AMZN Bear 1X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "f7964834-07d4-3d02-8bab-78baae418997",
+      "title": "AMZN Q3 deep dive: cloud surge and AI investments drive mixed market reception",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amzn-q3-deep-dive-cloud-043500791.html",
+      "providerPublishTime": 1793507700,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/084ad1d9599232631bc7157498f2c621.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1AA4B7C35057707EA8ED0A9542AF9A0762501DEC31963A504922B951B39E5EA4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F084ad1d9599232631bc7157498f2c621.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "15ef3470-caaa-3368-97d6-c28279ee4c35",
+      "title": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/technology/ai/articles/andy-jassy-says-west-very-233005253.html",
+      "providerPublishTime": 1793489405,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/benzinga_79/6a805cf1f40ec560a61865a9851161a4.jpg",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9504E2181C9A8099BCAC96E1EAF922F5F0D68DC33206165181E44A9AE5F3F01B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F6a805cf1f40ec560a61865a9851161a4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "ANTH.PVT",
+        "OPAI.PVT",
+        "SPCX"
+      ]
+    },
+    {
+      "uuid": "0586d845-51fd-3071-8f38-6e469a4ce340",
+      "title": "5 Most Profitable Stocks of the Past 5 Years",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-profitable-stocks-past-202256304.html",
+      "providerPublishTime": 1793478176,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FE63E18CAFD6A439FD6E98876C7FB6C495A7E168AC07274D982BEF86AE0B689B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "MU",
+        "SKHY",
+        "TSM",
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "BRK-B",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "3c4c3b18-7cd1-3b27-b158-7964bfc37d5d",
+      "title": "France Wants a 5.5-Cent-per-Gigabyte Tax on Netflix, Google and Meta",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/economy/policy/articles/france-wants-5-5-cent-170701445.html",
+      "providerPublishTime": 1793466421,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/8f6fe2ca9f6555b049312459a0c46b7b.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/47EAF43F3F089F742F41F531241F47F27D32752131AF31A40A176D3E715B3D92/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8f6fe2ca9f6555b049312459a0c46b7b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "META",
+        "AMZN",
+        "AKAM",
+        "GOOG",
+        "NFLX"
+      ]
+    },
+    {
+      "uuid": "c5775743-10eb-35c4-9840-ef0008fb6cb4",
+      "title": "The daunting economic decision on data centers",
+      "publisher": "Axios",
+      "link": "https://finance.yahoo.com/economy/policy/articles/daunting-economic-decision-data-centers-170007492.html",
+      "providerPublishTime": 1793466007,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/axios_527/847e2977f1cc8431cfe2bedef8f62350.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F62C9C110AA1D1E8203810ADF9E285E4BF42CEB3570B299F6E228D15B867304C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Faxios_527%2F847e2977f1cc8431cfe2bedef8f62350.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "META",
+        "GOOG",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "46eba9ba-a579-3e58-a301-b9e19a7025f6",
+      "title": "Amazon Is Borrowing Against Its Own Data Center Gear to Fund More Data Centers",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-borrowing-against-own-data-154804374.html",
+      "providerPublishTime": 1793461684,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ce0fed9736ed9eb9189715cdd9caee0f.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1FC48209B6C0D0B387CE0FDD9137EB84EC4A3C9B8FBE269238180B3E2D14E305/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fce0fed9736ed9eb9189715cdd9caee0f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "00ba42f4-d9e8-30a7-acb3-3f50d57fe152",
+      "title": "The AI Red Queen Effect: Why Big Tech Can\u2019t Afford to Stop Spending",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-red-queen-effect-why-153003906.html",
+      "providerPublishTime": 1793460603,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/0eec48aa19bd8939739b4615831b5272.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/ACD3079372AC12F2F1FB24ABD6FF20DF952703CC02629E6B4D4F1F0F3A2E53F0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F0eec48aa19bd8939739b4615831b5272.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "8b0c9387-4b4e-34dc-8509-fabf7f1e6588",
+      "title": "Amazon (AMZN) Stock Slips As Q3 Earnings Reflect Profit Reset",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-stock-slips-q3-151326000.html",
+      "providerPublishTime": 1793459606,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/2292b802eaf1e7d4ac12a1e00159451c.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/BF8473C8D4F6E9369EBC576FBDAB5C13B7B865A830431B9AB7DAB4DE4A084AD0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F2292b802eaf1e7d4ac12a1e00159451c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "5ef538d7-9ed0-3c5a-b7f5-2c465e859f9d",
+      "title": "Big Tech Now Spends More on AI Than It Brings In From Operations",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-now-spends-more-150803781.html",
+      "providerPublishTime": 1793459283,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/236da781249f4a6e8388fd8f103e3f1d.jpg",
+            "width": 1500,
+            "height": 844,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/EC3242EE7FA8713A1115BC0B4D0951E8C151DBDF5AA163418FB5149C9AECF8C0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F236da781249f4a6e8388fd8f103e3f1d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "MSFT",
+        "ORCL",
+        "AMZN",
+        "GOOG",
+        "META"
+      ]
+    },
+    {
+      "uuid": "515301d4-63dc-3c8f-b093-4bacf7a00cc5",
+      "title": "The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-briefly-fell-correction-145406645.html",
+      "providerPublishTime": 1793458446,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/217303467a4890483ac937323e14d81c.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0C7792071142066F1F49C5856CE6292D74A04760209ED376E4B68A50E47F6F45/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F217303467a4890483ac937323e14d81c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "INTC",
+        "^NDX",
+        "AAPL",
+        "QQQ",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "c87c1f67-7e8d-3e32-a321-55370038842a",
+      "title": "Yes, Alphabet Stock Got Hammered. No, We\u2019re Not Selling.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/c87c1f67-7e8d-3e32-a321-55370038842a/yes%2C-alphabet-stock-got.html",
+      "providerPublishTime": 1793457780,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6682AF5A36ECF35D30CD4AE1A9F6BFE1DDF4CC0E42B6117334B7EBA7EC6A0F0C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "OPAI.PVT",
+        "AAPL",
+        "AMZN",
+        "ANT.CN",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "d427e113-6b2f-307f-b14a-8e1535ac1075",
+      "title": "Big Tech\u2019s Capex Needs \u201ca Trillion Dollars of Revenue\u201d by 2028. Barclays Sees About $400 Billion",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-capex-needs-trillion-134500221.html",
+      "providerPublishTime": 1793454300,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/1a9fdd9bd31a241170288420b8fe0b90",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D05398B3B4C221520D34D84237052F16FF1D9B992756A80B507E223A51003B10/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F1a9fdd9bd31a241170288420b8fe0b90",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BCS",
+        "AMZN",
+        "GOOG",
+        "MSFT",
+        "META",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "62610623-413a-3dd3-beaf-7301ecfecfbb",
+      "title": "3 Capital Efficient Software Stocks For Steady Cash Flow",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-capital-efficient-software-stocks-131117371.html",
+      "providerPublishTime": 1793452277,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/871af692fc2d5847de076172309213fa.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9455D1221EB4EB923A0AC66D942C6E46FDA159A85C2E2990AFE5A0C195FA574C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F871af692fc2d5847de076172309213fa.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RSYSTEMS.NS",
+        "AMZN",
+        "INTC",
+        "SONATSOFTW.BO",
+        "PACT.ST"
+      ]
+    },
+    {
+      "uuid": "9f64f875-35a4-3cac-86e3-a7d06eb54605",
+      "title": "OpenAI Cuts Funding Target Amid Meta, Microsoft Offerings, Anthropic IPO",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/9f64f875-35a4-3cac-86e3-a7d06eb54605/openai-cuts-funding-target.html",
+      "providerPublishTime": 1793451424,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/44892cb8220c12848179d7e5dcf9e584.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1FCCF5100711CF429EAEBFF4F1007C7FF899D20A9232663D30981F66E11BC323/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F44892cb8220c12848179d7e5dcf9e584.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT",
+        "SPCX"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 45,
+  "timeTakenForQuotes": 413,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

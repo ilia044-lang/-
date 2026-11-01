@@ -1,0 +1,51 @@
+Intel lost almost twenty nine percent in one day. ServiceNow lost a third of its value in a week. Reuters reported a $6.3 billion theft at Binance. Yet most market sectors finished higher. Let's separate the damage, the evidence, and next week's biggest tests.
+
+We're reviewing October 26–30, and looking ahead to November 2–6. For the week, SPY lost zero point five six percent, QQQ fell one point nine eight, and the Dow lost zero point eight five. Friday alone was worse: QQQ dropped three point four seven percent.
+
+Equal weight stocks, measured by RSP, gained zero point eight two percent for the week. Small caps, represented by IWM, rose one point three zero. Both declined Friday but retained weekly gains. Large technology companies dominate capitalization weighted indexes, so their losses can hide resilience elsewhere.
+
+Nine of eleven major sector funds finished higher. Healthcare gained three point one percent, materials two point eight, and utilities two percent. Communication services lost five point three percent; technology fell two percent. Eli Lilly gained more than eleven percent. This was dispersion, not proof that every stock outside technology was safe.
+
+Intel is the clearest earnings shock. The stock closed Friday at sixty five dollars seventy six, down twenty eight point six percent that day. Reporting described a weak outlook, PC challenges, and supply constraints despite strength in data centers. The lesson is that a company can report growth and still disappoint. Investors are pricing the future, not simply grading the quarter that just ended.
+
+Intel's weekly low was sixty three dollars twenty. The two hundred day average was around eighty seven dollars, far above Friday's close. Former support can become overhead resistance after a gap. Before calling this a reversal, look for a base, a higher low, and a level reclaimed with participation. A lower share price does not, by itself, repair margins, cash flow, or the outlook.
+
+ServiceNow deserves its own discussion. It closed at one hundred five dollars twelve, down thirty three point nine percent for the week. Thursday's earnings reaction was followed by another four percent decline on Friday. Reporting said revenue beat expectations, earnings missed, and the subscription outlook raised concerns. For recurring revenue software, confidence in future growth and monetization can matter more than a headline revenue beat.
+
+The weekly low near one hundred three dollars fifty one is an observation, not a guaranteed floor. ServiceNow also ended below its two hundred day average near one hundred fifteen dollars. Watch whether selling slows and a reclaim survives a retest. For a longer term assessment, examine subscription growth, renewals, margins, and cash generation. A thirty percent decline is not automatically a thirty percent bargain.
+
+Alphabet lost twelve point six percent for the week. Amazon lost three point one percent, but its Friday close was well above that day's low. That difference matters: the worst overnight quote is not the final result. Reuters linked the broader selloff to concerns about AI cash burn. The question is whether enormous investment produces profitable demand quickly enough to support expectations.
+
+Separate three milestones in AI: signed contracts, operational capacity, and cash collected after investment. They are not interchangeable. Large capital spending can support suppliers while reducing the buyer's free cash flow and raising financing needs. Check execution and returns. An announced data center does not benefit every cloud stock equally.
+
+The macro picture was mixed. Reporting said the Fed left rates unchanged. The economic calendar recorded third quarter GDP growth at three point four percent annualized, while September core PCE inflation was three point one percent from a year earlier. Those are different measures and time periods. Resilient growth alongside persistent inflation does not automatically create room for rapid interest rate cuts.
+
+VIX closed at nineteen point four two, almost unchanged for the week. But it rose nearly thirteen percent Friday and touched twenty three point nine three intraday. The ten year yield ended near four point nine three percent. Neither a volatility spike nor falling yields proves a bottom or guarantees automated buying.
+
+West Texas oil futures finished near one hundred four dollars a barrel. Reuters linked Friday's strength to fears of escalation involving Iran. Watch verified developments involving Iran, the United States, Israel, and shipping routes. Sustained disruption can raise costs and inflation; de escalation can remove a risk premium. Neither outcome is guaranteed.
+
+Now to the crypto story. Reuters reported on October 30 that Binance was trying to restore confidence after a record $6.3 billion heist. The Financial Times also reported other exchanges tightening security. That is stronger evidence than an unsupported social media claim. But the headline amount does not establish that all stolen assets were Bitcoin, and it does not establish a breach of Bitcoin's underlying network.
+
+Custody risk concerns where assets are held. Price risk concerns their market value. An exchange incident can affect both. Check official notices and withdrawal status through trusted channels, and avoid recovery scams. The attack method, stolen asset breakdown, and recoveries are not independently verified here. Selling every Bitcoin is not a universal answer.
+
+Bitcoin's Friday UTC close was around seventy seven thousand two hundred dollars, down about four point eight percent from the previous Friday. The week's low was near seventy six thousand two hundred. Watch that area and the $79,000 to $80,000 reclaim zone. A recovery that holds is more meaningful than a brief spike. These are dated levels, not live weekend prices or a prediction.
+
+Next week's calendar lists Apple and Palantir Monday after the close. Tuesday brings AMD and Super Micro after the close, and Shopify before the open. Wednesday includes Uber, Qualcomm, and Arm. Thursday includes Iren and Airbnb. These dates are calendar listed; confirm issuer updates before relying on timing.
+
+Apple enters its Monday report near three hundred forty five dollars, still above its twenty and fifty day averages. That is a stronger position than several battered chip stocks, but it does not remove earnings risk. Watch iPhone demand, services growth, margins, and the holiday outlook. The calendar's earnings consensus is about one dollar ninety eight per share. Compare results on the same accounting basis.
+
+Palantir reports Monday after the close, according to the calendar. It finished near one hundred eighty four dollars, below its fifty day average near one hundred eighty seven. Revenue consensus was around two point one eight billion dollars. Watch commercial growth, government demand, and cash flow. Strong growth can still disappoint elevated expectations.
+
+AMD fell nearly eleven percent on Friday, before its own Tuesday report. That is important: Intel's warning can affect sentiment, but it is not AMD's result. Watch data center revenue, accelerator demand, gross margin, and guidance. Friday's close was near five hundred five dollars, below the fifty day average near five hundred forty eight. The weekly low near four hundred ninety two is a reference, not protection.
+
+Qualcomm and Arm are listed for Wednesday after the close. For Qualcomm, watch handset demand, automotive growth, and diversification. For Arm, watch licensing, royalties, and customer demand. Both fell sharply Friday. They are not interchangeable: their business models and routes from AI demand to earnings are different.
+
+For the infrastructure names, Cipher is listed for Monday before the open and Iren for Thursday after the close. Watch energized power, customer commitments, construction timelines, financing, and revenue actually delivered. Iren finished the week near twenty four dollars after a sharp Friday decline. A hyperscaler's spending announcement is not automatically a contract for these companies. Keep mining economics and cloud infrastructure economics separate.
+
+Tuesday brings U.S. midterm electionS&Potential policy uncertainty. Manufacturing ISM is listed Monday, services ISM Wednesday, and Friday's jobs report at 8:30 ET. Read payrolls, unemployment, wages, and revisions together. Strong hiring with hot wages can change rate expectations differently from a broad slowdown.
+
+For the broad indexes, SPY closed near seven hundred fifty six, with the week's low around seven hundred fifty. Its fifty day average was near seven hundred sixty seven. QQQ closed near six hundred ninety, with the weekly low around six hundred eighty three and the two hundred day average near six hundred eighty. These areas organize observation; they do not guarantee a bounce.
+
+A constructive scenario would combine stabilizing earnings expectations, reclaimed levels, broader participation, and calmer volatility. A weaker scenario would combine fresh lows, disappointing guidance, and stress spreading beyond the hardest hit groups. For a position held through earnings, remember that gaps can jump past a stop. Size and time horizon matter. Do not confuse a rebound with a repaired business, or a good business with a good entry price.
+
+The takeaway: selective damage, real event risk, and a busy week ahead. Follow the facts and manage exposure. Subscribe to Market Mind Trading Basics for the next breakdown. I am not a licensed advisor. Education only, not financial advice or a recommendation to buy or sell.

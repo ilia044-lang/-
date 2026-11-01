@@ -1,0 +1,62 @@
+TITLE
+Intel & ServiceNow Crash, Binance Heist: What Comes Next? | Weekly Market Review
+
+DESCRIPTION
+Intel fell 28.6% on Friday. ServiceNow lost 33.9% over the week. Reuters reported a $6.3 billion Binance heist. Yet nine of eleven major sector ETFs finished the week higher. What does that split mean for the next trading week?
+
+Review: October 26–30, 2026. Preview: November 2–6, 2026.
+Prices: October 30 closes. Weekly changes compare October 23 and October 30 closes; they are price returns, not dividend-inclusive total returns. Bitcoin uses the October 30 UTC daily bar, not a live weekend quote.
+
+We cover Intel and ServiceNow earnings reactions, Google and Amazon, AI spending, the Fed, GDP, core PCE, VIX, oil and Iran risk. Then: Apple, Palantir, AMD, Qualcomm, Arm, IREN and CIFR, alongside the next earnings calendar, midterms, ISM and payrolls.
+
+DAILY CHARTS
+Actual OHLC candles, volume, SMA20 / SMA50 / SMA200 and Wilder RSI14. Recent lows and moving averages are observation areas, not guaranteed support or price targets. Scenario paths are illustrative, not predictions. No options-implied earnings move is asserted.
+
+BINANCE REPORTING
+Reuters and the Financial Times reported a $6.3B heist. This does not mean all stolen assets were Bitcoin, or that Bitcoin’s underlying network was breached. We have not independently verified the attack method, stolen-asset breakdown or recoveries. Exchange custody risk and market-price risk are different. This review updates the earlier October 30 morning snapshot with subsequently published reporting.
+
+CHAPTERS
+00:00 Tech shock and a crypto heist
+00:18 The weekly scoreboard
+01:25 Intel: earnings shock and chart
+02:15 ServiceNow: outlook and key levels
+03:10 Google, Amazon and AI returns
+03:58 Fed, GDP, inflation and VIX
+04:46 Oil and Iran risk
+05:10 Binance theft reporting and Bitcoin
+06:27 Next week’s earnings calendar
+06:48 Apple and Palantir
+07:37 AMD, Qualcomm and Arm
+08:25 IREN and CIFR
+08:53 Midterms, ISM and the jobs report
+09:17 SPY, QQQ and two scenarios
+10:10 Takeaway
+
+KEY SOURCES
+Daily market data and earnings/economic calendars: Yahoo Finance.
+https://finance.yahoo.com/quote/INTC/history/
+https://finance.yahoo.com/quote/NOW/history/
+https://finance.yahoo.com/calendar/earnings?day=2026-11-02
+Reuters: Binance confidence after reported $6.3B heist
+https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html
+Financial Times: exchanges tighten security
+https://finance.yahoo.com/markets/crypto/articles/crypto-exchanges-rush-tighten-security-103818914.html
+StockStory: Intel outlook / supply constraints
+https://finance.yahoo.com/markets/stocks/articles/intc-q3-deep-dive-strong-175529416.html
+IBD: ServiceNow earnings miss / revenue beat
+https://finance.yahoo.com/m/37e281c1-6700-3d40-83b5-b40e3b589016/servicenow-earnings-miss-amid.html
+Barron’s: ServiceNow subscription outlook
+https://finance.yahoo.com/m/3192ef65-f4c6-34b3-ad53-e2b293c3cbdc/servicenow-fans-ai-fears-on.html
+Reuters: oil and Iran escalation fears
+https://finance.yahoo.com/news/oil-rises-supply-concerns-houthis-022725347.html
+
+Research scope: market prices and structured calendars were retrieved directly. News summaries are limited to attributed headline metadata accessible through Yahoo Finance; full articles, issuer releases and earnings-call transcripts were not available for a firsthand review. Dates and estimates may change. This is not a full transcript-based earnings review.
+
+Subscribe for the next breakdown:
+https://www.youtube.com/@MarketMindTradingBasics
+
+Education only. I am not a licensed advisor. Not financial advice or a recommendation to buy or sell. Earnings gaps can move beyond a stop.
+
+Production: synthetic Michael narration, illustrative AI studio artwork and character assets, code-rendered charts, captions and original music. Phone graphics illustrate a news briefing, not an actual exchange alert.
+
+#StockMarket #Intel #ServiceNow #Bitcoin #Earnings

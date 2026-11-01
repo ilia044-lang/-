@@ -1,0 +1,548 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Arm Holdings plc",
+      "quoteType": "EQUITY",
+      "symbol": "ARM",
+      "index": "quotes",
+      "score": 35944500.0,
+      "typeDisp": "Equity",
+      "longname": "Arm Holdings plc",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Semiconductors",
+      "industryDisp": "Semiconductors",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NYQ",
+      "shortname": "ARMOUR Residential REIT, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "ARR",
+      "index": "quotes",
+      "score": 23499.0,
+      "typeDisp": "Equity",
+      "longname": "ARMOUR Residential REIT, Inc.",
+      "exchDisp": "NYSE",
+      "sector": "Real Estate",
+      "sectorDisp": "Real Estate",
+      "industry": "REIT\u2014Mortgage",
+      "industryDisp": "REIT\u2014Mortgage",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NYQ",
+      "shortname": "Under Armour, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "UA",
+      "index": "quotes",
+      "score": 21439.0,
+      "typeDisp": "Equity",
+      "longname": "Under Armour, Inc.",
+      "exchDisp": "NYSE",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Apparel Manufacturing",
+      "industryDisp": "Apparel Manufacturing",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NYQ",
+      "shortname": "Under Armour, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "UAA",
+      "index": "quotes",
+      "score": 21203.0,
+      "typeDisp": "Equity",
+      "longname": "Under Armour, Inc.",
+      "exchDisp": "NYSE",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Apparel Manufacturing",
+      "industryDisp": "Apparel Manufacturing",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Leverage Shares 2X Long ARM Dai",
+      "quoteType": "ETF",
+      "symbol": "ARMG",
+      "index": "quotes",
+      "score": 20770.0,
+      "typeDisp": "ETF",
+      "longname": "Leverage Shares 2X Long ARM Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NYQ",
+      "shortname": "Aramark",
+      "quoteType": "EQUITY",
+      "symbol": "ARMK",
+      "index": "quotes",
+      "score": 20285.0,
+      "typeDisp": "Equity",
+      "longname": "Aramark",
+      "exchDisp": "NYSE",
+      "sector": "Industrials",
+      "sectorDisp": "Industrials",
+      "industry": "Specialty Business Services",
+      "industryDisp": "Specialty Business Services",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Roundhill ARM WeeklyPay ETF",
+      "quoteType": "ETF",
+      "symbol": "ARMW",
+      "index": "quotes",
+      "score": 20275.0,
+      "typeDisp": "ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "b4748259-0cd7-39bb-bcf7-d20d6c18b5be",
+      "title": "Why Arm Holdings Stock Plummeted by Nearly 10% Today",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-arm-holdings-stock-plummeted-234418702.html",
+      "providerPublishTime": 1793403858,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/ca420552cfb74a19eb05aead8f2b6c06.jpg",
+            "width": 1365,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/11DAEBF9F48DE45FFE2CE9CF7868212E200A17051A46EFE783813D1E6793E887/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fca420552cfb74a19eb05aead8f2b6c06.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ARM",
+        "INTC",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "d3f5c21f-4e32-3453-958c-cf7f5f4a7e1f",
+      "title": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-falls-5-despite-da-145649063.html",
+      "providerPublishTime": 1793372209,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/995986a50b6d699d2d0452cc5e2d4bea.jpg",
+            "width": 1500,
+            "height": 840,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2FB03263AB5FD297209C8201B1994BE40F0FD092A4C13681A69DB674B92FEF54/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F995986a50b6d699d2d0452cc5e2d4bea.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AVGO",
+        "MRVL",
+        "QCOM",
+        "ANTH.PVT",
+        "LITE",
+        "OPAI.PVT",
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "69c6c1b1-2541-37c4-8bda-cc3c0b303c55",
+      "title": "Arm Is Up 99% in 2026: Take Profits, or Buy More?",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-99-2026-profits-buy-104806301.html",
+      "providerPublishTime": 1793357286,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/00262f80536ab609ee31ad82777e5fce",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AE37A05DA1E0B415900F10F4F79D441072A8E25E33910757AF95DC4C59E3F275/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F00262f80536ab609ee31ad82777e5fce",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ARM",
+        "QCOM",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "4f70e0f5-1d24-3be7-b8ea-439c5f81a10d",
+      "title": "Nasdaq Futures Plummet as Disappointing Amazon and Intel Earnings Deepen Tech Rout",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-plummet-disappointing-amazon-103110269.html",
+      "providerPublishTime": 1793356270,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/4b47a41dc88e63cb86d3bf03257ec07c.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/02D159A018E9F3DA1E9AA71DC11694AAD071917A5E8F9C882FE455FC9F813FFE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F4b47a41dc88e63cb86d3bf03257ec07c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "INTC",
+        "ARM",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "b74cab9d-6e9a-3123-a60a-3305d0872e76",
+      "title": "Why Arm\u2019s Q2 Earnings Could Spur a Recovery in Its Stock",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-arm-q2-earnings-could-172533294.html",
+      "providerPublishTime": 1793208333,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/83e80e5e52a52b8a6e584bb2edd6a950.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/853FEF0AE654A85EBBED28BA091A6FDBF9A79AF8FA0469492F417BB227983523/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F83e80e5e52a52b8a6e584bb2edd6a950.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "0e70ceb2-de3c-3590-a8d3-cd9e7da1864d",
+      "title": "Coherent vs. Arm Holdings: Which Tech Stock Offers More Upside Now?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coherent-vs-arm-holdings-tech-160500693.html",
+      "providerPublishTime": 1793117100,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/0c13229c146404a19f2947c78d13a2e1.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B9E7DD1E6ABEF0AC15B5E15970265E199FD71A08F7C78E8895DA6400A7DE1879/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F0c13229c146404a19f2947c78d13a2e1.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COHR",
+        "ARM",
+        "GOOG",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "29897bc0-c46d-362e-ac7f-2c0beabf38dc",
+      "title": "Arm vs. Western Digital: Which Tech Stock Is the Better Buy in November?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-vs-western-digital-tech-145501508.html",
+      "providerPublishTime": 1793112901,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/419bb38ebdbd032785db7ef0c0265d1e.jpg",
+            "width": 4000,
+            "height": 2667,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/09C0BE9EE7D08146B8BED75FD6510B37F2347201FFBB87EEF6EA3870732605E4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F419bb38ebdbd032785db7ef0c0265d1e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "WDC",
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "a63adc50-f39e-3659-97f4-ea11fc109c83",
+      "title": "These 2 Chip Stocks Are Piper Sandler\u2019s Top Picks Into 2027",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/articles/2-chip-stocks-piper-sandler-144408499.html",
+      "providerPublishTime": 1793112248,
+      "type": "STORY",
+      "relatedTickers": [
+        "PIPR",
+        "AVGO",
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "6a069d5a-aaef-3638-aea8-cbb7187c0c77",
+      "title": "Qualcomm Just Dropped 13% in a Month. Is It Time to Sell, or Load Up?",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-just-dropped-13-month-112344655.html",
+      "providerPublishTime": 1793100224,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/11f7cc51511a42b2af58026d274f7b0b",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/ABA567D5C633289466E9522EC380E16191A4D0C3DC1DBCB7F10DABF70C75F261/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F11f7cc51511a42b2af58026d274f7b0b",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "QCOM",
+        "ARM",
+        "^NDX",
+        "AAPL"
+      ]
+    },
+    {
+      "uuid": "5641d947-3f0f-3843-b938-769ecafd4636",
+      "title": "Oracle, IBM and Intel Have Opted Out of OKX-ICE Stock Tokens, Venue\u2019s Own Notice Shows",
+      "publisher": "Unchained",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/oracle-ibm-intel-opted-okx-100013966.html",
+      "providerPublishTime": 1793095213,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/unchained_510/b7d0682589d8dfa47b293e2c18301ce8.png",
+            "width": 1536,
+            "height": 864,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DBB4EE9F0F04038E853B3FC01CA085247B959FEB44B30F667C068405437F3669/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Funchained_510%2Fb7d0682589d8dfa47b293e2c18301ce8.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ORCL",
+        "IBM",
+        "INTC",
+        "MRNA",
+        "CSCO",
+        "MRVL",
+        "IONQ",
+        "INTU",
+        "MSFT",
+        "GOOG",
+        "AVGO",
+        "VZ",
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "23cf914e-6be3-3eb1-83e1-cedff7639482",
+      "title": "Arm Holdings (ARM) Faces Jury Breach Ruling As It Unveils Server Security Tie Up",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-faces-jury-221537202.html",
+      "providerPublishTime": 1793052937,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/fc46ba7d1d4d74969ce5b97f2a125b29.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4BB302A96295E6D2C2BD55F48718B2241D2F6F5F1702E059BC5610E88747E8E2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Ffc46ba7d1d4d74969ce5b97f2a125b29.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ARM",
+        "QCOM"
+      ]
+    },
+    {
+      "uuid": "9f97d30f-24d7-3018-837a-0e394bf1debe",
+      "title": "Marvell Stock Is Bouncing Back From a Near 9% Drop. Its COO Says It Has \u201cAll the Demand and the Supply\u201d to Hit $20 Billion in Revenue Next Year",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-bouncing-back-near-204017326.html",
+      "providerPublishTime": 1793047217,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/20b9823868a078214b9e11a580db8c7c",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/52698C759E6462ABBFEFCF8CA07FA5E23A289202DE20C7F145FE339A45421BE7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F20b9823868a078214b9e11a580db8c7c",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MRVL",
+        "META",
+        "^SOX",
+        "AMD",
+        "LRCX",
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "e7ee97a5-6158-3e63-af03-92a3338c8509",
+      "title": "Arm Stocks Rise 5.84% as Agentic AI Tests Its Silicon Expansion",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arm-stocks-rise-5-84-200830241.html",
+      "providerPublishTime": 1793045310,
+      "type": "STORY",
+      "relatedTickers": [
+        "ARM"
+      ]
+    },
+    {
+      "uuid": "3d950a71-67ab-30e0-a479-60b7a1e8eb0c",
+      "title": "Bulls Insist Arm\u2019s Trio of Multipliers Justify Its Sky High Valuation",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bulls-insist-arm-trio-multipliers-124541668.html",
+      "providerPublishTime": 1793018741,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/8f4f2a4ef9ffd24869a793f5da2e0441.jpg",
+            "width": 2560,
+            "height": 1706,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0699DE6F270E55ADA645C3270C0487D9F1BC00C7E4EB5BF9F5CB150B29E8F534/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8f4f2a4ef9ffd24869a793f5da2e0441.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ARM",
+        "META",
+        "QCOM",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "615b138b-f092-3c65-9a0b-cfec44d21805",
+      "title": "Wells Fargo, Arm Holdings And Intuit Object To Stock Tokenization Trading Platform",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-arm-holdings-intuit-073830973.html",
+      "providerPublishTime": 1793000310,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/5ebfc8cc6abb4298b84e84f67621af57",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6E093123AA0D66517BAEE29A4E178AC93023DCBB35419CF0B6E60FE30A072C83/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F5ebfc8cc6abb4298b84e84f67621af57",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "WFC",
+        "ARM",
+        "INTU",
+        "MSFT",
+        "GOOG"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 325,
+  "timeTakenForQuotes": 425,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

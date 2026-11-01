@@ -1,0 +1,531 @@
+{
+  "explains": [],
+  "count": 21,
+  "quotes": [
+    {
+      "exchange": "NYQ",
+      "shortname": "Uber Technologies, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "UBER",
+      "index": "quotes",
+      "score": 24955000.0,
+      "typeDisp": "Equity",
+      "longname": "Uber Technologies, Inc.",
+      "exchDisp": "NYSE",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long UBER Dail",
+      "quoteType": "ETF",
+      "symbol": "UBRL",
+      "index": "quotes",
+      "score": 20091.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TOR",
+      "shortname": "UBER CDR (CAD HEDGED)",
+      "quoteType": "ETF",
+      "symbol": "UBER.TO",
+      "index": "quotes",
+      "score": 20025.0,
+      "typeDisp": "ETF",
+      "longname": "Uber Technologies, Inc.",
+      "exchDisp": "Toronto",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Roundhill UBER WeeklyPay ETF",
+      "quoteType": "ETF",
+      "symbol": "UBEW",
+      "index": "quotes",
+      "score": 20014.0,
+      "typeDisp": "ETF",
+      "longname": "Roundhill UBER WeeklyPay ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "GER",
+      "shortname": "Uber Technologies Inc.        R",
+      "quoteType": "EQUITY",
+      "symbol": "UT8.DE",
+      "index": "quotes",
+      "score": 20014.0,
+      "typeDisp": "Equity",
+      "longname": "Uber Technologies, Inc.",
+      "exchDisp": "XETRA",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "MEX",
+      "shortname": "UBER TECHNOLOGIES INC",
+      "quoteType": "EQUITY",
+      "symbol": "UBER.MX",
+      "index": "quotes",
+      "score": 20010.0,
+      "typeDisp": "Equity",
+      "longname": "Uber Technologies, Inc.",
+      "exchDisp": "Mexico",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NEO",
+      "shortname": "UBER CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "UBER.NE",
+      "index": "quotes",
+      "score": 20010.0,
+      "typeDisp": "Equity",
+      "longname": "Uber Technologies, Inc.",
+      "exchDisp": "NEO",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "c303494d-20c5-32e5-acc3-832cf0fff037",
+      "title": "Why Dumping Uber Stock Before Q3 Earnings May Not Be the Smartest Move",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-dumping-uber-stock-q3-224427583.html",
+      "providerPublishTime": 1793400267,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/c2306eece5c5e3e647aa1b511b2a8342.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/431E490A0ABBCFDF5485B4190DB06B498E7C7EF68E2B4978EBC8342B8A54EC93/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fc2306eece5c5e3e647aa1b511b2a8342.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "348a6469-0729-4c4c-aed2-14b0125ca22a",
+      "title": "Amex Platinum's $600 hotel credit now comes with a catch starting in 2027",
+      "publisher": "Yahoo Personal Finance",
+      "link": "https://finance.yahoo.com/personal-finance/credit-cards/article/amex-platinums-benefits-updates-2027-181143354.html",
+      "providerPublishTime": 1793385523,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/os/creatr-uploaded-images/2025-05/d1bef150-29d5-11f0-b2fd-8ff1695e71ad",
+            "width": 4500,
+            "height": 3000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/93B1E94C1E73287499E814A16D258531C0E94A8C18CBD9DB9AE53C6992823762/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-05%2Fd1bef150-29d5-11f0-b2fd-8ff1695e71ad",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AXP",
+        "DAL",
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "d47672ca-1797-3d90-9775-0adfc1728bd9",
+      "title": "How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html",
+      "providerPublishTime": 1793380483,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/92bcde4ee40ed436afd630773d9ad7ae.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D463AFEBF68731D9E73D64741F48A44FDD49E71DA676131434605F812949A7BB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F92bcde4ee40ed436afd630773d9ad7ae.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER",
+        "COST"
+      ]
+    },
+    {
+      "uuid": "f46a9eea-6d20-3ca0-a5a9-bc1015e505a9",
+      "title": "UBER Stock: Here\u2019s What to Expect From Uber's Q3 Earnings Report",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-expect-ubers-q3-152155585.html",
+      "providerPublishTime": 1793373715,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/c2306eece5c5e3e647aa1b511b2a8342.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/431E490A0ABBCFDF5485B4190DB06B498E7C7EF68E2B4978EBC8342B8A54EC93/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fc2306eece5c5e3e647aa1b511b2a8342.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "03429e1d-7167-34fe-a10c-e9ede43f909c",
+      "title": "The Friday Checkout: Instacart dashes toward the exit",
+      "publisher": "Grocery Dive",
+      "link": "https://finance.yahoo.com/small-business/articles/friday-checkout-instacart-dashes-toward-150200012.html",
+      "providerPublishTime": 1793372520,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/grocery_dive_266/41ff598390cf1714822956d7508f0258.jpg",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/052D55D8A5C8EDC474B16115993919D78C88E5D2D550F6C7451E02399735A876/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fgrocery_dive_266%2F41ff598390cf1714822956d7508f0258.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CART",
+        "DASH",
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "568dd53a-341d-3937-bcff-e76a0039071e",
+      "title": "Rivian Soars 4% on R2-Driven Beat and Raised Guidance, CEO \u201cVery Confident\u201d on Uber Milestone",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rivian-soars-4-r2-driven-133621790.html",
+      "providerPublishTime": 1793367381,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/d64f1e3820669292c242d4f4802c1aca",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/115577371E4ABE35D73B2BC0D109DB5E7760E4FAEB4868E965FFEB94BB0A77F6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Fd64f1e3820669292c242d4f4802c1aca",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RIVN",
+        "UBER",
+        "TSLA",
+        "LCID"
+      ]
+    },
+    {
+      "uuid": "7fba4d5d-e71b-36e7-a8f9-a2c273fcb7b3",
+      "title": "Ahead of Uber (UBER) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ahead-uber-uber-q3-earnings-121505723.html",
+      "providerPublishTime": 1793362505,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/39dfb058875b6e691de9136bc97a47b4.jpg",
+            "width": 900,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2A17BD33B7C5EDC357308D6E6E4EC2C7DD0668B4723837425DE9D3A19D42D714/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F39dfb058875b6e691de9136bc97a47b4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "10bda14d-2511-35f3-8635-31008c1c868b",
+      "title": "Uber Technologies, Inc. (UBER) Is a Trending Stock: Facts to Know Before Betting on It",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-inc-uber-trending-120004355.html",
+      "providerPublishTime": 1793361604,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/1154d43aaeb65735a640003549116295.jpg",
+            "width": 900,
+            "height": 506,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/316B816C661BDC439A083B13FA3ED793B37F69A255D31656B849B3A1D2AB5A2B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F1154d43aaeb65735a640003549116295.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "d1f1107a-d778-361c-a5b7-2657f724a74e",
+      "title": "Uber Slips 21% This Year as DoorDash Wins the $17 Billion Instacart Deal",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/uber-slips-21-doordash-wins-105753966.html",
+      "providerPublishTime": 1793357873,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/7d73c1a086a0d575f2faf146e99bf6eb",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/15D11329E6660B6C4A74D8CCC3D7D7CC9AB975911549BAC61E035E14510BB5BD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F7d73c1a086a0d575f2faf146e99bf6eb",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER",
+        "DASH",
+        "CART",
+        "DHER.DE"
+      ]
+    },
+    {
+      "uuid": "0332de60-11f1-36c5-a86e-73ad48c3bdf8",
+      "title": "Why Is Rivian Automotive Stock Surging 7.2% Today?",
+      "publisher": "InvestorsHub",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-rivian-automotive-stock-surging-104640200.html",
+      "providerPublishTime": 1793357200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/investorshub_458/b5c44d52ae2b8353eeadaa5ffb9c599c.png",
+            "width": 1200,
+            "height": 659,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F410D69649FC10D63F2C8ADEFE27C9197640F009B9D5F64FAB854DA8A4BDCEDD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fb5c44d52ae2b8353eeadaa5ffb9c599c.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RIVN",
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "dc854f1c-50ee-31e0-bf8c-6ad558aa28fe",
+      "title": "The Zacks Analyst Blog Highlights Uber, WeRide and Costco",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-uber-101700158.html",
+      "providerPublishTime": 1793355420,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/23dcdd8291ffdfbea5afd5ca4837da08.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0AC09A5E0205B690C20B2DE7439ABFAD69CD0CEA2BDA1AA32B9AEC7851FDA60C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F23dcdd8291ffdfbea5afd5ca4837da08.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UBER",
+        "COST",
+        "WRD",
+        "WRD"
+      ]
+    },
+    {
+      "uuid": "f70cc875-394a-3846-9117-2ac75ba119c0",
+      "title": "Walmart and Target face FTC inquiry over dynamic pricing and worker pay",
+      "publisher": "Retail Insight Network",
+      "link": "https://finance.yahoo.com/news/walmart-target-face-ftc-inquiry-100138096.html",
+      "providerPublishTime": 1793354498,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/retail_insight_network_724/3c89b7c83c8db643a09da0b7bd8836b1.jpg",
+            "width": 1440,
+            "height": 810,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/445E692C61650565DCFA7FAA5B314ACD96C8816F121517D02B28F1D2F2D9753B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fretail_insight_network_724%2F3c89b7c83c8db643a09da0b7bd8836b1.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "WMT",
+        "TGT",
+        "LYFT",
+        "DASH",
+        "CART",
+        "JBLU",
+        "UBER"
+      ]
+    },
+    {
+      "uuid": "923de86d-b223-34f0-b018-a76762f44a83",
+      "title": "DoorDash Puts a $17 Billion Price Tag on Instacart",
+      "publisher": "The Daily Upside",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-puts-17-billion-price-040100035.html",
+      "providerPublishTime": 1793332860,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/the_daily_upside_435/876331796c658abd6876e2344fda479a.jpg",
+            "width": 1600,
+            "height": 901,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/BF3D97407428DBBB7666E58D3B90D04F9F0A1C3E202D32B5B56C580E7410A949/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_daily_upside_435%2F876331796c658abd6876e2344fda479a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DASH",
+        "CART",
+        "UBER",
+        "AMZN",
+        "KR",
+        "WMT"
+      ]
+    },
+    {
+      "uuid": "2e9af62b-554e-3545-aeb8-7035a25315d6",
+      "title": "What Rivian Automotive (RIVN) Said on Its Q3 Earnings Call",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rivian-automotive-rivn-said-q3-011406782.html",
+      "providerPublishTime": 1793322846,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/marketbeat_955/22e9e513b44e18e4c1e8afa95c1c6b70.png",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A2AA2AE5C85DF08224FB9567E981329AFA838AD9B2E583FA56442EA307692A06/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F22e9e513b44e18e4c1e8afa95c1c6b70.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RIVN",
+        "VOW.DE",
+        "UBER"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 250,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

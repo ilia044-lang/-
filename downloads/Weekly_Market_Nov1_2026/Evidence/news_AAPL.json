@@ -1,0 +1,592 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Apple Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "AAPL",
+      "index": "quotes",
+      "score": 155378000.0,
+      "typeDisp": "Equity",
+      "longname": "Apple Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Consumer Electronics",
+      "industryDisp": "Consumer Electronics",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily AAPL Bull 2X ETF",
+      "quoteType": "ETF",
+      "symbol": "AAPU",
+      "index": "quotes",
+      "score": 21437.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily AAPL Bull 2X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily AAPL Bear 1X ETF",
+      "quoteType": "ETF",
+      "symbol": "AAPD",
+      "index": "quotes",
+      "score": 20282.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily AAPL Bear 1X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax AAPL Option Income Str",
+      "quoteType": "ETF",
+      "symbol": "APLY",
+      "index": "quotes",
+      "score": 20134.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax AAPL Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TOR",
+      "shortname": "APPLE CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "AAPL.TO",
+      "index": "quotes",
+      "score": 20132.0,
+      "typeDisp": "Equity",
+      "longname": "Apple Inc.",
+      "exchDisp": "Toronto",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Consumer Electronics",
+      "industryDisp": "Consumer Electronics",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Roundhill AAPL WeeklyPay ETF",
+      "quoteType": "ETF",
+      "symbol": "AAPW",
+      "index": "quotes",
+      "score": 20098.0,
+      "typeDisp": "ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "MEX",
+      "shortname": "APPLE INC",
+      "quoteType": "EQUITY",
+      "symbol": "AAPL.MX",
+      "index": "quotes",
+      "score": 20050.0,
+      "typeDisp": "Equity",
+      "longname": "Apple Inc.",
+      "exchDisp": "Mexico",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Consumer Electronics",
+      "industryDisp": "Consumer Electronics",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "7ff2c045-3c0d-4843-84de-bd966fb83d9a",
+      "title": "Apple is taking Wall Street's top spot back from Nvidia \u2014 for the fifth time",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html",
+      "providerPublishTime": 1793490974,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/9a19aa3a-dfbd-4993-9149-21f6e18a77dd",
+            "width": 5184,
+            "height": 3018,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7D3F8DE8843B255AF6A5269CA7B95EA52189A7349F90EA3FEA43D0C539D47856/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F9a19aa3a-dfbd-4993-9149-21f6e18a77dd",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "NVDA",
+        "^SOX"
+      ]
+    },
+    {
+      "uuid": "d2e6fbb8-64b7-31a1-988c-030daffbea6f",
+      "title": "5 Best High Growth Stocks Outside Big Tech",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-high-growth-stocks-213926607.html",
+      "providerPublishTime": 1793482766,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/6b387f7579ea72de12d87dfa20e703ea.jpg",
+            "width": 1536,
+            "height": 1024,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9ECC1DE505E8B502CBC550A9520BB35F54EA1BC9634C1430D5B50FC7D068A700/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F6b387f7579ea72de12d87dfa20e703ea.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "^GSPC",
+        "AAPL",
+        "MSFT",
+        "ALNY",
+        "BA",
+        "RDDT",
+        "PSX",
+        "VALE"
+      ]
+    },
+    {
+      "uuid": "0586d845-51fd-3071-8f38-6e469a4ce340",
+      "title": "5 Most Profitable Stocks of the Past 5 Years",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-profitable-stocks-past-202256304.html",
+      "providerPublishTime": 1793478176,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FE63E18CAFD6A439FD6E98876C7FB6C495A7E168AC07274D982BEF86AE0B689B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "MU",
+        "SKHY",
+        "TSM",
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "BRK-B",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "e1bcc19d-0970-37eb-b3f9-d699a7de1e92",
+      "title": "Is Apple a Top Tech Stock to Buy Now?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-top-tech-stock-buy-175000874.html",
+      "providerPublishTime": 1793469000,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/fe127eaa8ed871e2ad3cc4a6ba2c6be7.png",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/07CD00FBD5138507D2B96470D885F8A50AE3AED864BEC2152486AB6397414257/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Ffe127eaa8ed871e2ad3cc4a6ba2c6be7.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "e4499094-e485-35ae-b104-cb2c618c77b2",
+      "title": "MKBHD drops a blunt verdict on Apple's touchscreen MacBook Pro",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/technology/articles/mkbhd-drops-blunt-verdict-apples-151700098.html",
+      "providerPublishTime": 1793459820,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/7e2ebefc535cbf8ec618db07fb4fc2bc.jpg",
+            "width": 3840,
+            "height": 2560,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5CE674846384A56317BAB4E2087D6E06CED80D120C7730DDB81B9F0F0C9BE38F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F7e2ebefc535cbf8ec618db07fb4fc2bc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL"
+      ]
+    },
+    {
+      "uuid": "515301d4-63dc-3c8f-b093-4bacf7a00cc5",
+      "title": "The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-briefly-fell-correction-145406645.html",
+      "providerPublishTime": 1793458446,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/217303467a4890483ac937323e14d81c.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0C7792071142066F1F49C5856CE6292D74A04760209ED376E4B68A50E47F6F45/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F217303467a4890483ac937323e14d81c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "INTC",
+        "^NDX",
+        "AAPL",
+        "QQQ",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "c87c1f67-7e8d-3e32-a321-55370038842a",
+      "title": "Yes, Alphabet Stock Got Hammered. No, We\u2019re Not Selling.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/c87c1f67-7e8d-3e32-a321-55370038842a/yes%2C-alphabet-stock-got.html",
+      "providerPublishTime": 1793457780,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6682AF5A36ECF35D30CD4AE1A9F6BFE1DDF4CC0E42B6117334B7EBA7EC6A0F0C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "OPAI.PVT",
+        "AAPL",
+        "AMZN",
+        "ANT.CN",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "91d18411-4684-31ef-b443-f2c50dd174a2",
+      "title": "Jim Cramer flags Netflix's 'biggest problem,' and it isn't price",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-flags-netflixs-biggest-143700114.html",
+      "providerPublishTime": 1793457420,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/b79c0ca5f2caf75265716cc0318154ad.jpg",
+            "width": 3000,
+            "height": 2011,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B2525CDD4EAB7860BEA9ABC522CDA2878A6CE1E1B27FB1DE8013CE09081860FD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2Fb79c0ca5f2caf75265716cc0318154ad.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NFLX",
+        "AAPL"
+      ]
+    },
+    {
+      "uuid": "fdb9853d-60b3-3eff-82ff-d93d70a0ad26",
+      "title": "Texas Instruments Has Raised Its Dividend for 23 Years. Here Are 3 More Tech Income Stocks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-raised-dividend-23-124736910.html",
+      "providerPublishTime": 1793450856,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/4606206ec68e130b309a25d56899fafa.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F803FC6B4D2BC8F81F8E408ADE5542034D47F7330B71DE077ABE29F945BECAB7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F4606206ec68e130b309a25d56899fafa.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "TXN",
+        "AVGO",
+        "AAPL",
+        "CSCO"
+      ]
+    },
+    {
+      "uuid": "b6826e5e-1487-3f94-9b6c-2bf8e66b919a",
+      "title": "What Apple Doubters Got Wrong",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-doubters-got-wrong-080821562.html",
+      "providerPublishTime": 1793434101,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/e310d00bc0394cb83a4f9bd140ba5422.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/96A3C6FF47D768996D205EA7CDD6DF4E359579AE582AD39245B352E27D7D1546/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fe310d00bc0394cb83a4f9bd140ba5422.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL"
+      ]
+    },
+    {
+      "uuid": "f636d0f4-54fc-3ca7-b3d8-cf0bc852eebd",
+      "title": "Apple\u2019s Biggest Threat Isn\u2019t Android \u2014 It\u2019s AAPL's Own Devices, Analyst Says Ahead Of Q4 Earnings",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-biggest-threat-isn-t-071507277.html",
+      "providerPublishTime": 1793430907,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/92c63d0e21100b93ea14f49784f898e3.jpg",
+            "width": 1280,
+            "height": 853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4EFF8F07C11450F61158AEEF247A6F83546484F58A6E4CA1D2283399D4DCC32F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F92c63d0e21100b93ea14f49784f898e3.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL"
+      ]
+    },
+    {
+      "uuid": "9aa518a9-bace-3e02-a215-82b14364d8d4",
+      "title": "Big Homes, Big Loans",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+      "providerPublishTime": 1793400660,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/e43f969c277a5f2670912e9c72e683bf.png",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/98EFDB7C8990B17F4706799E6B2839F1D594E6BECCFE9680C52ED967B2A9D7CE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2Fe43f969c277a5f2670912e9c72e683bf.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "AMD",
+        "AMGN",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "54867d7c-2e81-3065-ad54-cf2acf42ac65",
+      "title": "What Are Dell Investors Betting On?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html",
+      "providerPublishTime": 1793399617,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/e105eb3be0bf5179099a86144d95cb2a.png",
+            "width": 1280,
+            "height": 1083,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E133B2A34009E5DD36A8768E3C7D0C7FAA296D6F3466B5B10D80199AFA5ABE13/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2Fe105eb3be0bf5179099a86144d95cb2a.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DELL",
+        "HPQ",
+        "HPE",
+        "IBM",
+        "CSCO",
+        "AAPL"
+      ]
+    },
+    {
+      "uuid": "a26d460f-f3f7-3fa6-8c28-e8c634e266bc",
+      "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+      "providerPublishTime": 1793398440,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/68c9409b72fd9a7aad93bc9653422406.jpg",
+            "width": 620,
+            "height": 464,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/16DCE35D51243EA77979DABA08BF1E547A6227EF73DFE4E811593538C91ADA59/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F68c9409b72fd9a7aad93bc9653422406.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EXPE",
+        "AAPL",
+        "MU",
+        "NVDA",
+        "GOOGL",
+        "AMD",
+        "PLTR",
+        "DD",
+        "MCD"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 29,
+  "timeTakenForQuotes": 413,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

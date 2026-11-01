@@ -1,0 +1,458 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NGM",
+      "shortname": "Invesco QQQ Trust, Series 1",
+      "quoteType": "ETF",
+      "symbol": "QQQ",
+      "index": "quotes",
+      "score": 202076992.0,
+      "typeDisp": "ETF",
+      "longname": "Invesco QQQ Trust",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "ProShares UltraPro QQQ",
+      "quoteType": "ETF",
+      "symbol": "TQQQ",
+      "index": "quotes",
+      "score": 133428.0,
+      "typeDisp": "ETF",
+      "longname": "ProShares UltraPro QQQ",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Invesco NASDAQ 100 ETF",
+      "quoteType": "ETF",
+      "symbol": "QQQM",
+      "index": "quotes",
+      "score": 72984.0,
+      "typeDisp": "ETF",
+      "longname": "Invesco NASDAQ 100 ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "ProShares UltraPro Short QQQ",
+      "quoteType": "ETF",
+      "symbol": "SQQQ",
+      "index": "quotes",
+      "score": 59546.0,
+      "typeDisp": "ETF",
+      "longname": "ProShares UltraPro Short QQQ",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "NEOS Nasdaq 100 High Income ETF",
+      "quoteType": "ETF",
+      "symbol": "QQQI",
+      "index": "quotes",
+      "score": 44678.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "ProShares Ultra QQQ",
+      "quoteType": "ETF",
+      "symbol": "QLD",
+      "index": "quotes",
+      "score": 27858.0,
+      "typeDisp": "ETF",
+      "longname": "ProShares Ultra QQQ",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "ProShares UltraShort QQQ",
+      "quoteType": "ETF",
+      "symbol": "QID",
+      "index": "quotes",
+      "score": 22819.0,
+      "typeDisp": "ETF",
+      "longname": "ProShares UltraShort QQQ",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "515301d4-63dc-3c8f-b093-4bacf7a00cc5",
+      "title": "The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-briefly-fell-correction-145406645.html",
+      "providerPublishTime": 1793458446,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/217303467a4890483ac937323e14d81c.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0C7792071142066F1F49C5856CE6292D74A04760209ED376E4B68A50E47F6F45/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F217303467a4890483ac937323e14d81c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "INTC",
+        "^NDX",
+        "AAPL",
+        "QQQ",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "96f93906-eeee-3353-ab05-51faac619364",
+      "title": "Oil's Latest Surge Threatens Another Shock to American Budgets",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/energy/articles/oils-latest-surge-threatens-another-184050140.html",
+      "providerPublishTime": 1793385650,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "QQQ"
+      ]
+    },
+    {
+      "uuid": "5b33fa72-e970-3006-a80a-e71d8c61e764",
+      "title": "Analyst Drops Sharp Take on Fed Rate Hikes",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/economy/policy/articles/analyst-drops-sharp-fed-rate-183724596.html",
+      "providerPublishTime": 1793385444,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ"
+      ]
+    },
+    {
+      "uuid": "143881e9-7c9d-34ef-a508-84944a44a7cb",
+      "title": "Critical Metals Sinks 11% as European Lithium Deal Nears New Share Issuance; USA Rare Earth Tumbles 10%, MP Materials Falls 6%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/critical-metals-sinks-11-european-180824555.html",
+      "providerPublishTime": 1793383704,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/cc482095c236db1f51575655031366e6.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/86B6CDB8738DC253FA9E7173EAB9F76DB5C69DFF2E7BAA7C157FC9F0E965E418/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fcc482095c236db1f51575655031366e6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MP",
+        "CRML",
+        "EUR.AX",
+        "QQQ",
+        "USAR"
+      ]
+    },
+    {
+      "uuid": "806cceab-fbc3-309f-b211-a4e1042cd34a",
+      "title": "FuelCell Energy Sinks 12% Despite Completing $49 Million Export-Import Bank Financing; Bloom Energy Tumbles 10%, Plug Power Falls 4%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/fuelcell-energy-sinks-12-despite-180454738.html",
+      "providerPublishTime": 1793383494,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/9b6e6b3ff10949984e0e26b56b65cd1b.jpg",
+            "width": 2970,
+            "height": 1600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/270EC0EBA4B8903204AC7261811E60039933BC2E89BDC51470E65DB25D40769D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F9b6e6b3ff10949984e0e26b56b65cd1b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "FCEL",
+        "PLUG",
+        "BE",
+        "QQQ",
+        "NBIS"
+      ]
+    },
+    {
+      "uuid": "adf9beda-e17b-3114-9211-f4ad896d828e",
+      "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday Friday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html",
+      "providerPublishTime": 1793380949,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "INTC",
+        "IVV",
+        "XLK",
+        "IYW",
+        "XLF",
+        "FAS",
+        "USO",
+        "XLE",
+        "IGM",
+        "FAZ",
+        "CL=F",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "29c52a9e-17b3-3aae-b0c4-ac5f26a08ec3",
+      "title": "Intel\u2019s Earnings Fallout Is Hitting Your Index Funds Too",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html",
+      "providerPublishTime": 1793377271,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/42c586a82a19a2e1486b850d753df65b.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B8D2B757B936D71D720E05ACA3D69DCCB597D56EAD0B2CDB60E83174D0B8E6B1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F42c586a82a19a2e1486b850d753df65b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "QQQ",
+        "NVDA",
+        "SMH",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "7f96b54a-811a-3466-8ed9-4fd5ab698eae",
+      "title": "Spotify Gains 6% on Early 2027 AI Remix Launch Plan and Price Hikes of \u201c$4 to $5 a Month\u201d",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/technology/ai/articles/spotify-gains-6-early-2027-153529494.html",
+      "providerPublishTime": 1793374529,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/014b3b025f80fae4c2e184494e420d48",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/BE26C1B172E5591A955B65A89F4DAB66F964428EF702FD07B3AECDAB9F26F915/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F014b3b025f80fae4c2e184494e420d48",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPOT",
+        "QQQ"
+      ]
+    },
+    {
+      "uuid": "ceea98d5-3f72-3cd8-9b11-6d85f3f78a6c",
+      "title": "Own an S&P 500 Fund? Reddit\u2019s Slide Affects You More Than You Think",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/own-p-500-fund-reddit-153339028.html",
+      "providerPublishTime": 1793374419,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/74dec3ec299156ec382d20490acb927c.jpg",
+            "width": 1760,
+            "height": 990,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0956D9D91B607E458D7CEA3957778F4B3C1F5FA23B8CFF92EC1200E32960EF73/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F74dec3ec299156ec382d20490acb927c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RDDT",
+        "QQQ",
+        "VOO",
+        "IVV",
+        "SOCL"
+      ]
+    },
+    {
+      "uuid": "46b88bad-28f7-38fd-b994-fc528c9a8b52",
+      "title": "This Little-Known ETF Owns QQQ\u2019s Stocks Without the Big Bet on Nvidia",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/little-known-etf-owns-qqq-151446394.html",
+      "providerPublishTime": 1793373286,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/6fd286dc7cd9618d5a60c143391497f9.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CB9DFBBE8BADD50CF792297C9B3F69C3C4A6BCDE2179C81A2FF965F6B70DD419/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F6fd286dc7cd9618d5a60c143391497f9.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "QQQ",
+        "NVDA",
+        "AAPL",
+        "QQQE"
+      ]
+    },
+    {
+      "uuid": "95caf56c-09f6-37b8-a638-d1507c6faf65",
+      "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday Amid Steep Tech Decline",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131734005.html",
+      "providerPublishTime": 1793366254,
+      "type": "STORY",
+      "relatedTickers": [
+        "BTC-USD",
+        "QQQ",
+        "BKR",
+        "SPY",
+        "BITO",
+        "^GSPC",
+        "^DJI",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "686a4050-dc7e-3ecb-a1ba-b6cc90f0afa4",
+      "title": "Amazon Slides 7% as Earnings Miss and AI Spending Turn Free Cash Flow Negative; Meta Falls 2%, Alphabet Dips, Walmart Gains 2%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-slides-7-earnings-miss-131202716.html",
+      "providerPublishTime": 1793365922,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/0690525a454b5f6f30641250e742a388.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AED3E18BEBE7B6EB6F3E7ECF4B59EF5C159751A39AF7D07455D4D3787EAA991F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0690525a454b5f6f30641250e742a388.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "WMT",
+        "META",
+        "GOOG",
+        "QQQ",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "042e152c-1578-3a96-b8ae-72faa524eb57",
+      "title": "Invesco QQQ (QQQ) Buys $346.4 Million More NVIDIA on Oct. 28",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-buys-346-110343919.html",
+      "providerPublishTime": 1793358223,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "MU"
+      ]
+    },
+    {
+      "uuid": "9024e182-3840-386c-a74b-97f66680c9a1",
+      "title": "ETFs Bought $106.4 Million of Palo Alto Networks (PANW) on Oct. 28",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-106-4-million-110210345.html",
+      "providerPublishTime": 1793358130,
+      "type": "STORY",
+      "relatedTickers": [
+        "PANW",
+        "QQQ"
+      ]
+    },
+    {
+      "uuid": "bb87520b-3f07-3bec-bfa6-4304626e949d",
+      "title": "ETFs Bought $108.7 Million of SpaceX (SPCX) on Wednesday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-108-7-million-110206901.html",
+      "providerPublishTime": 1793358126,
+      "type": "STORY",
+      "relatedTickers": [
+        "SPCX",
+        "QQQ",
+        "JEPQ"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 212,
+  "timeTakenForQuotes": 415,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

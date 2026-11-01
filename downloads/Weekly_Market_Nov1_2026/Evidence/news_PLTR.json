@@ -1,0 +1,544 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Palantir Technologies Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "PLTR",
+      "index": "quotes",
+      "score": 81408000.0,
+      "typeDisp": "Equity",
+      "longname": "Palantir Technologies Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "industry": "Software\u2014Infrastructure",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily PLTR Bull 2X ETF",
+      "quoteType": "ETF",
+      "symbol": "PLTU",
+      "index": "quotes",
+      "score": 20961.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long PLTR Dail",
+      "quoteType": "ETF",
+      "symbol": "PTIR",
+      "index": "quotes",
+      "score": 20756.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Defiance Daily Target 2x Short ",
+      "quoteType": "ETF",
+      "symbol": "PLTZ",
+      "index": "quotes",
+      "score": 20630.0,
+      "typeDisp": "ETF",
+      "longname": "Defiance Daily Target 2x Short PLTR ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax PLTR Option Income Str",
+      "quoteType": "ETF",
+      "symbol": "PLTY",
+      "index": "quotes",
+      "score": 20492.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax PLTR Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Roundhill PLTR WeeklyPay ETF",
+      "quoteType": "ETF",
+      "symbol": "PLTW",
+      "index": "quotes",
+      "score": 20420.0,
+      "typeDisp": "ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily PLTR Bear 1X ETF",
+      "quoteType": "ETF",
+      "symbol": "PLTD",
+      "index": "quotes",
+      "score": 20166.0,
+      "typeDisp": "ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "c38b8f8f-25a8-3b8a-8726-c65dd84309db",
+      "title": "Prediction: This Will Be Palantir's Stock Price by the End of 2027",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-palantirs-stock-price-end-235700267.html",
+      "providerPublishTime": 1793491020,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/e7dd72f809d45e44adf908efca150935.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DB8BF3F71823F03664439945EE818B985A6BD323E08B66A85A416C2C643D0550/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe7dd72f809d45e44adf908efca150935.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "d0f053fd-501a-36e9-8b71-178a22ca87c8",
+      "title": "3 AI Stocks With Earnings Growth Over 30%",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-ai-stocks-earnings-growth-221029656.html",
+      "providerPublishTime": 1793484629,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/f3939e1c17355e7702a70a7d2e5ac2e0.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/25F170FE1E3FF1B0565771EFE015B6894B467E29D74BCD3158417F5CB352556B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Ff3939e1c17355e7702a70a7d2e5ac2e0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NOW",
+        "2492.TW",
+        "PLTR"
+      ]
+    },
+    {
+      "uuid": "455e0bea-6c93-376c-8d34-aefda89a42aa",
+      "title": "Are Wall Street Analysts Predicting Palantir Technologies Stock Will Climb or Sink?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-palantir-155626194.html",
+      "providerPublishTime": 1793462186,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/5c98e3c0eea4738348fe5aad65db3d21.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D7DC44825D000357A1CF111DC40B8EDCF4C61167868600F726620B0626005D48/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F5c98e3c0eea4738348fe5aad65db3d21.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "f20da629-da53-3341-be27-f189771b64d5",
+      "title": "3 Low Risk Stocks With At Least 21% ROE",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-low-risk-stocks-least-130955405.html",
+      "providerPublishTime": 1793452195,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/a4e037a9fe39bf1647e97252bbab72b0.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A56425F6A38C6861541F1896FC4A7CAD88829C586CE6030535CF6717E9FEA5AB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fa4e037a9fe39bf1647e97252bbab72b0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPOT",
+        "PLTR",
+        "VRT"
+      ]
+    },
+    {
+      "uuid": "96230dcb-d90d-381b-b36e-c03749ee78a2",
+      "title": "Palantir Called Q2 \u201cOtherworldly.\u201d Monday\u2019s Report Has to Top a $2.18 Billion Consensus",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-called-q2-otherworldly-monday-115314418.html",
+      "providerPublishTime": 1793447594,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/6016bd16a7076b8e31ba385d5f6efbaa",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F25ABFF281C9F8F40A12D6F6687D075FF1148035201BA84D8BB941047FC712C6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F6016bd16a7076b8e31ba385d5f6efbaa",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR"
+      ]
+    },
+    {
+      "uuid": "16ce2c75-ed1c-3730-97e9-d5ca8793de50",
+      "title": "Michael Burry Is Still Short Palantir. Here's What Its Nov. 2 Report Has to Show.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-still-short-palantir-083701640.html",
+      "providerPublishTime": 1793435821,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/99aca307308ea4e43dcafa242e1c8a1e.png",
+            "width": 1290,
+            "height": 860,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/64003BE5765101F05F4A24651567BF092E4EE5163D186A9D277782C2590B18A1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F99aca307308ea4e43dcafa242e1c8a1e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "c3212bba-4b18-3154-927c-112d817e8d61",
+      "title": "Palantir (PLTR) Stock Gets Fair Value Bump After Analysts Lift AI Driven Targets",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-stock-gets-fair-221856049.html",
+      "providerPublishTime": 1793398736,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/43e1667cb7476cb45f84db58a8de8d48.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DB1542F97C23090E57191605CDE778D0A4EBA05AC2E6C0D683A18D0684D9D138/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F43e1667cb7476cb45f84db58a8de8d48.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR"
+      ]
+    },
+    {
+      "uuid": "a26d460f-f3f7-3fa6-8c28-e8c634e266bc",
+      "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+      "providerPublishTime": 1793398440,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/68c9409b72fd9a7aad93bc9653422406.jpg",
+            "width": 620,
+            "height": 464,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/16DCE35D51243EA77979DABA08BF1E547A6227EF73DFE4E811593538C91ADA59/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F68c9409b72fd9a7aad93bc9653422406.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EXPE",
+        "AAPL",
+        "MU",
+        "NVDA",
+        "GOOGL",
+        "AMD",
+        "PLTR",
+        "DD",
+        "MCD"
+      ]
+    },
+    {
+      "uuid": "df0ca211-ade3-3b30-ac08-a37a3fe90905",
+      "title": "Palantir Stocks Decline 4.94% Before an 11.7% Sequential Revenue Growth Test",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-decline-4-94-191343821.html",
+      "providerPublishTime": 1793387623,
+      "type": "STORY",
+      "relatedTickers": [
+        "PLTR"
+      ]
+    },
+    {
+      "uuid": "7ce432a6-f7f1-373d-be60-33e2151bdcd4",
+      "title": "Palantir Stock Tests Key Level As Earnings Loom",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/7ce432a6-f7f1-373d-be60-33e2151bdcd4/palantir-stock-tests-key.html",
+      "providerPublishTime": 1793386456,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/a5a435f78b95f203bc8a8d8e9285bd56.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F52EE4CE7D8141EB998850FFFF073665AF3A27B7C3A9BA2DEF79382AEBB3F4CC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2Fa5a435f78b95f203bc8a8d8e9285bd56.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "d3ec971d-88fe-3b98-aa2c-d71ab16315ff",
+      "title": "Apple, Super Micro, AMD, Palantir Step Up To Earnings Plate After Tech Sell-Off",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d3ec971d-88fe-3b98-aa2c-d71ab16315ff/apple%2C-super-micro%2C-amd%2C.html",
+      "providerPublishTime": 1793382287,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/3466ef5c612e56be40cc67bae4229f0d.jpg",
+            "width": 1000,
+            "height": 511,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/91C32B620F54E88E700DF6B2D625E6573DC99CC4E4C4865D52EBC20914406C08/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F3466ef5c612e56be40cc67bae4229f0d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "AMD",
+        "FTNT",
+        "INTC",
+        "NOW",
+        "SMCI",
+        "PLTR",
+        "HNGE",
+        "LIFE",
+        "SN"
+      ]
+    },
+    {
+      "uuid": "c514fe1d-ab98-3f6b-81a9-a564eab74183",
+      "title": "Will Top-Line Improvement Benefit Palantir in Q3 Earnings?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-line-improvement-benefit-palantir-171100939.html",
+      "providerPublishTime": 1793380260,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/d43cb7b76527c97c59494165d3dffeae.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7FA0558518BA1CCA136F4B4C85B19A230A7905FB19C08E10833D74CB28F4C4B3/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fd43cb7b76527c97c59494165d3dffeae.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "AI",
+        "SNOW"
+      ]
+    },
+    {
+      "uuid": "3f980deb-3e99-3c79-973e-16a1edf42bb8",
+      "title": "Should Palantir Stock Be in Your Portfolio Before Q3 Earnings?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-portfolio-q3-earnings-165300648.html",
+      "providerPublishTime": 1793379180,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/0c13229c146404a19f2947c78d13a2e1.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B9E7DD1E6ABEF0AC15B5E15970265E199FD71A08F7C78E8895DA6400A7DE1879/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F0c13229c146404a19f2947c78d13a2e1.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "MSFT",
+        "ORCL"
+      ]
+    },
+    {
+      "uuid": "255f86ad-cc57-3cd3-b6bb-707a79b6acd6",
+      "title": "Should You Buy Palantir Stock Before Nov. 2?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/buy-palantir-stock-nov-2-151500158.html",
+      "providerPublishTime": 1793373300,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/7f8dc5659d52c95098b8e2d3247d3dee.png",
+            "width": 720,
+            "height": 441,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6E4CBC03BCE7CE4C88CC981FCCFDDBCC691697C4EA54A39EAE4B2D7402CD717A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F7f8dc5659d52c95098b8e2d3247d3dee.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "NVDA"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 73,
+  "timeTakenForQuotes": 413,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

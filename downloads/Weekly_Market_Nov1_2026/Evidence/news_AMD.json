@@ -1,0 +1,583 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Advanced Micro Devices, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "AMD",
+      "index": "quotes",
+      "score": 233712992.0,
+      "typeDisp": "Equity",
+      "longname": "Advanced Micro Devices, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Semiconductors",
+      "industryDisp": "Semiconductors",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCY",
+      "shortname": "USD/AMD",
+      "quoteType": "CURRENCY",
+      "symbol": "AMD=X",
+      "index": "quotes",
+      "score": 30218.0,
+      "typeDisp": "Currency",
+      "longname": "USD/AMD",
+      "exchDisp": "CCY",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCY",
+      "shortname": "XAU/AMD",
+      "quoteType": "CURRENCY",
+      "symbol": "XAUAMD=X",
+      "index": "quotes",
+      "score": 30024.0,
+      "typeDisp": "Currency",
+      "longname": "XAU/AMD",
+      "exchDisp": "CCY",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCY",
+      "shortname": "XAG/AMD",
+      "quoteType": "CURRENCY",
+      "symbol": "XAGAMD=X",
+      "index": "quotes",
+      "score": 30019.0,
+      "typeDisp": "Currency",
+      "longname": "XAG/AMD",
+      "exchDisp": "CCY",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCY",
+      "shortname": "EUR/AMD",
+      "quoteType": "CURRENCY",
+      "symbol": "EURAMD=X",
+      "index": "quotes",
+      "score": 30005.0,
+      "typeDisp": "Currency",
+      "longname": "EUR/AMD",
+      "exchDisp": "CCY",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCY",
+      "shortname": "RUB/AMD",
+      "quoteType": "CURRENCY",
+      "symbol": "RUBAMD=X",
+      "index": "quotes",
+      "score": 30005.0,
+      "typeDisp": "Currency",
+      "longname": "RUB/AMD",
+      "exchDisp": "CCY",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCY",
+      "shortname": "BYN/AMD",
+      "quoteType": "CURRENCY",
+      "symbol": "BYNAMD=X",
+      "index": "quotes",
+      "score": 30004.0,
+      "typeDisp": "Currency",
+      "longname": "BYN/AMD",
+      "exchDisp": "CCY",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "dd2de0f9-b305-3e6a-96f6-f73814bcff7d",
+      "title": "Intel Has a Massive Warning for AMD Stock Investors. Is It Time to Book Profits Before Nov. 3?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-massive-warning-amd-stock-154201733.html",
+      "providerPublishTime": 1793461321,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/ce31616aa849f2857750f7208e998780.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1795B610F59E27AAC938D3D8DE2C9D1CA394CC4E3085F7916DEF5549B218BF67/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fce31616aa849f2857750f7208e998780.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "AMD",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "daa1d4d3-f6e9-39b1-a96b-1b8a8ef743df",
+      "title": "What to Expect From AMD\u2019s Q3 Earnings",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/expect-amd-q3-earnings-130003415.html",
+      "providerPublishTime": 1793451603,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/fa55004840141999980cf909890c1654.jpg",
+            "width": 1600,
+            "height": 1065,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7260FA5070A905151D5E878F2781BE4C520D8DB3C6E2F496D75EA8D74D80DF2B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Ffa55004840141999980cf909890c1654.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMD"
+      ]
+    },
+    {
+      "uuid": "10b4c85b-3a4f-30a2-8854-66f08c4fe464",
+      "title": "AMD Just Dropped 11% in a Day as Intel\u2019s PC Warning Rattles Chips. Is It Time to Sell, or Load Up?",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-just-dropped-11-day-114403268.html",
+      "providerPublishTime": 1793447043,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/e4fbd52999e49b365f0e21db3e4846c7",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E4F71D4013A47F8E5828956A3D15799789EA3E13A8074F2039FFD7B2E4BCB49D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Fe4fbd52999e49b365f0e21db3e4846c7",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMD",
+        "INTC",
+        "META"
+      ]
+    },
+    {
+      "uuid": "d5365530-18ce-3ff8-b38d-925afe7a71bf",
+      "title": "Intel Is Down 45% in October, Its Worst Month Ever",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-down-45-october-worst-111852927.html",
+      "providerPublishTime": 1793445532,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/b0dcb6467e27a108b7a5f12632e7cdd2.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/450930EBA2C7B2FA2864A4144B6CA0908147D8BA03EB197A2C5CF7BDF2D02143/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fb0dcb6467e27a108b7a5f12632e7cdd2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "^GSPC",
+        "AMD",
+        "QCOM",
+        "DELL",
+        "HPQ"
+      ]
+    },
+    {
+      "uuid": "383f4089-93a7-3d48-a8fe-d82c580161a5",
+      "title": "AMD Stock Fell 11% in a Day Ahead of Its November 3 Report. Here\u2019s Why Intel\u2019s 78% Data Center Jump Matters More to AMD Than Its PC Warning",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-fell-11-day-063927845.html",
+      "providerPublishTime": 1793428767,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/406ba7dd81927c90a2fd9c0c7101f0da",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/42D28C4B12389DCD4863998E6CB2B898CEAAF583AB27DE5BB229D576510C70AC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F406ba7dd81927c90a2fd9c0c7101f0da",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMD",
+        "INTC",
+        "NVDA",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "6186ae53-3be6-35b7-94af-387c946fbb7f",
+      "title": "Prediction: 2 Under $1 Trillion Stocks That Will Be Worth More Than Micron 5 Years From Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-2-under-1-trillion-062000759.html",
+      "providerPublishTime": 1793427600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/b271ad3b566f57babe682ab442a1bef4.jpg",
+            "width": 1400,
+            "height": 787,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F37B0DE216054DA5666FADC5436D02EBF508B2BA9E3B911976C5D4B560FC18A2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fb271ad3b566f57babe682ab442a1bef4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MU",
+        "SKHY",
+        "AMD",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "d0982429-2092-3701-8014-7c1b1324ee36",
+      "title": "Intel Drags Down CPU Rivals. Is it a Buying Opportunity for AMD and Arm?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-drags-down-cpu-rivals-032001662.html",
+      "providerPublishTime": 1793416801,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/a9e7eff5c8b69513733ae086a2f9fb78.jpg",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8BAD55F454A7B3451D38A54ED576443FDC18275938AA549DF2BD5E59260C3595/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fa9e7eff5c8b69513733ae086a2f9fb78.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "AMD",
+        "SMH",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "2b779142-656d-3ec0-8d6d-9fab4b523967",
+      "title": "Cathie Wood Shifts From AI Chips to Robinhood and Air Taxis in Latest ARK Trades",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-shifts-ai-chips-230947279.html",
+      "providerPublishTime": 1793401787,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/e44a852a0068b3e84fb72c772f0f3ded.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8558547306702068CC426C6ECA4E9961629E2897230E32486BDBEE0A69D490B1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fe44a852a0068b3e84fb72c772f0f3ded.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "HOOD",
+        "AMD",
+        "TSM",
+        "ACHR",
+        "JOBY",
+        "TSM"
+      ]
+    },
+    {
+      "uuid": "9aa518a9-bace-3e02-a215-82b14364d8d4",
+      "title": "Big Homes, Big Loans",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html",
+      "providerPublishTime": 1793400660,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/e43f969c277a5f2670912e9c72e683bf.png",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/98EFDB7C8990B17F4706799E6B2839F1D594E6BECCFE9680C52ED967B2A9D7CE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2Fe43f969c277a5f2670912e9c72e683bf.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "AMD",
+        "AMGN",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "a26d460f-f3f7-3fa6-8c28-e8c634e266bc",
+      "title": "Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html",
+      "providerPublishTime": 1793398440,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/68c9409b72fd9a7aad93bc9653422406.jpg",
+            "width": 620,
+            "height": 464,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/16DCE35D51243EA77979DABA08BF1E547A6227EF73DFE4E811593538C91ADA59/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F68c9409b72fd9a7aad93bc9653422406.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EXPE",
+        "AAPL",
+        "MU",
+        "NVDA",
+        "GOOGL",
+        "AMD",
+        "PLTR",
+        "DD",
+        "MCD"
+      ]
+    },
+    {
+      "uuid": "aec4ace9-69e7-3373-bdcd-dd3c2dbc6b36",
+      "title": "Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html",
+      "providerPublishTime": 1793395202,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/82e33b5963f90ef72feeea2abd26bb53.jpg",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B3D84AADA037C9D9B5AF969241A26E1CFA5B7046BF7AA96902027ED7153661D5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F82e33b5963f90ef72feeea2abd26bb53.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "AMD",
+        "NVDA",
+        "^GSPC",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "95b6ad82-c4ae-342d-a355-e178f7f7c8df",
+      "title": "Former SEC Chair: Broadcom\u2019s $63 Billion Package Feels Like \u201cThat 08 Off-Balance Sheet Craze\u201d",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html",
+      "providerPublishTime": 1793393536,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/515ab6b6144d2ad101e1b50643297cdc",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7E27B4D536CC35BC403339E3EFE056FBC495E70CB18C280DB5A322E512688B14/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F515ab6b6144d2ad101e1b50643297cdc",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AVGO",
+        "ANTH.PVT",
+        "NVDA",
+        "AMD"
+      ]
+    },
+    {
+      "uuid": "4357fff6-3da0-3e17-a036-787a54179d50",
+      "title": "Wall Street closes sharply lower as AI cash burn fears spark tech\u00a0selloff",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html",
+      "providerPublishTime": 1793391825,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/a5b9c2b056aa7c2c5ba9429384216c66.jpg",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A956FECC8282E52CBAF83632F8A34563BF3C1FDAC4DBD7C2539D852D117FEEB0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Fa5b9c2b056aa7c2c5ba9429384216c66.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "INTC",
+        "DELL",
+        "^IXIC",
+        "NVDA",
+        "AMD"
+      ]
+    },
+    {
+      "uuid": "219d84e6-8bed-3b3e-8c50-2e085c192b16",
+      "title": "Chip Stocks Plunge After Intel's Q4 Warning",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/219d84e6-8bed-3b3e-8c50-2e085c192b16/chip-stocks-plunge-after.html",
+      "providerPublishTime": 1793391268,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/38b264dc772e45a3984efcff8061d8a9.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1DAEADB1112DA2D49C10B8475893216A5F2A5C2F9726D9AD569BABDB8F741038/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F38b264dc772e45a3984efcff8061d8a9.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "AMD"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 216,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

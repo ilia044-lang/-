@@ -1,0 +1,1262 @@
+MARKET MIND WEEKLY — NOVEMBER 1, 2026
+
+PRICE DATA
+Direct Yahoo chart API retrieval on November 1. Review Oct26–30; reference close Oct23. See analysis.json and Evidence for raw JSON/CSV. Equity dates use exchange sessions; BTC uses UTC days. All charts end Oct30 and exclude weekend bars. Weekly return=100*(Oct30close/Oct23close-1). Friday return uses previous trading close. Ordinary close, not adjusted-close total return, is used consistently. SMA20/50/200 use consecutive daily closes; RSI14 uses Wilder smoothing seeded with first14 price changes. Each displayed bar is actual OHLC; filled extruded bodies retain correct open/close orientation, wicks and consistent price axis. Volume is daily reported volume. The current-bar pulse is decorative; it is not a live quote.
+
+DATA CHECKS AND CAUTIONS
+Most recent dates, valid OHLC ordering, weekly return arithmetic, moving-average calculations and RSI construction were checked. Yahoo front-month oil quotes should not be read as a fully roll-adjusted total-return series. The stock references in this episode are observations, not backtested support probabilities. No options-implied move, liquidation total or automatic algorithmic-buying claim is made. The Fed calendar contained ambiguous target-rate fields, so no exact rate-band/change is inferred from that field; the hold is attributed to reporting. GDP3.4% is annualized Q3 advance; core PCE3.1% is September year-over-year. They are distinct measures/periods.
+
+REPORTING SCOPE
+Only exact publisher/headline/link/date metadata was accessible for news through Yahoo. Full Reuters/FT articles, issuer releases, primary Fed statements and earnings-call transcripts could not be opened under the cloud network policy. We do not claim to have listened to calls or reviewed full transcripts. Summary language stays within the attributed headlines. Primary-source confirmation of attack forensics, recovered sums, detailed management claims and issuer calendar changes remains outstanding. The reported Binance event is NOT called a Bitcoin protocol compromise and the reported total is NOT labeled all Bitcoin. Reuters and FT headlines independently name the reported $6.3B event. Earlier Oct30morning content labeled a hack claim unverified; this episode updates that status based on later reporting.
+
+NEXT WEEK
+AAPL/PLTR Mondayafterclose; CIFR Mondaybeforeopen; AMD/SMCI Tuesdayafterclose, SHOP Tuesdaybeforeopen; QCOM/ARM Wednesdayafterclose, UBER Wednesdaybeforeopen; IREN/ABNB Thursdayafterclose. Yahoo lists these dates as non-estimated, but issuer pages were inaccessible, so video says calendar-listed and advises checking issuer updates. Consensus is not a promise; accounting basis must match reported results. No certainty is implied about market reactions. USmidtermsNov3, ISMmanufacturingMon10ET, servicesWed10ET, jobsFri08:30ET. November2–6Israel=ET+7h.
+
+PRODUCTION
+26scenes, English synthetic Michael preset am_michael, original quiet procedural music, stable pearl-white/titanium background, filled dimensional candles and bars, animated bull/bear accents without rectangular backgrounds. Company marks are sourced/cached public logos; IREN asset is an archived Iris Energy mark. No affiliation is implied. Art and phone UI are illustrative; no fabricated actual notification or screenshot. Cover embedded exactlyfirst1second; narration begins immediately. Captions use canonical narration text aligned to ASR; four omitted ASR tails were separately re-transcribed and restored. User-requested discussion includes NOW in addition to Intel, Bitcoin and next-week earnings. No social upload performed.
+
+SOURCE REGISTER
+Investing.com | AI investors rush to hedge against potential tech market downturn - WSJ
+https://finance.yahoo.com/markets/options/articles/ai-investors-rush-hedge-against-030211499.html
+
+Investor's Business Daily | Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus
+https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html
+
+Motley Fool | Prediction: This Will Be Intel's Stock Price by Year-End 2027
+https://finance.yahoo.com/markets/stocks/articles/prediction-intels-stock-price-end-022000943.html
+
+Simply Wall St. | Intel (INTC) Stock Fair Value Falls After Mixed Analyst Reactions To Weak Guidance
+https://finance.yahoo.com/markets/stocks/articles/intel-intc-stock-fair-value-231012483.html
+
+TheStreet | Jim Cramer issues 'falling knife' warning on top chip stock after Intel's outlook
+https://finance.yahoo.com/markets/stocks/articles/jim-cramer-issues-falling-knife-220700322.html
+
+Barchart | SK hynix's Solidigm Is Mulling a $45 Billion Chip Plant Investment. What This Means for SKHY Stock.
+https://finance.yahoo.com/technology/articles/sk-hynixs-solidigm-mulling-45-183003072.html
+
+StockStory | INTC Q3 deep dive: strong data center growth offsets PC challenges, outlook pressured by supply constraints
+https://finance.yahoo.com/markets/stocks/articles/intc-q3-deep-dive-strong-175529416.html
+
+StockStory | Why Dell (DELL) shares are getting obliterated today
+https://finance.yahoo.com/markets/stocks/articles/why-dell-dell-shares-getting-161929339.html
+
+Motley Fool | Intel Has a Massive Warning for AMD Stock Investors. Is It Time to Book Profits Before Nov. 3?
+https://finance.yahoo.com/markets/stocks/articles/intel-massive-warning-amd-stock-154201733.html
+
+StockStory | Why Intel (INTC) stock is trading lower today
+https://finance.yahoo.com/markets/stocks/articles/why-intel-intc-stock-trading-151529235.html
+
+Barchart | If Taiwan Semi Raises Prices, It Could Be Bad News for Intel Stock. Here’s Why.
+https://finance.yahoo.com/markets/stocks/articles/taiwan-semi-raises-prices-could-150839245.html
+
+24/7 Wall St. | The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks
+https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-briefly-fell-correction-145406645.html
+
+Barrons.com | Yes, Alphabet Stock Got Hammered. No, We’re Not Selling.
+https://finance.yahoo.com/m/c87c1f67-7e8d-3e32-a321-55370038842a/yes%2C-alphabet-stock-got.html
+
+Barchart | ORCL Stock Has a Solid Base to Build on After Q1, Especially as Oracle Announces Key AI Partnerships
+https://finance.yahoo.com/technology/ai/articles/orcl-stock-solid-build-q1-142757072.html
+
+TIKR | Marvell Sinks 14% in a Week on Lumentum Talks: Chipmakers Like It “Don’t Have a Choice”
+https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-14-week-lumentum-140756545.html
+
+24/7 Wall St. | OpenAI’s CEO Thinks Your Laptop’s Memory Should Be in a Data Center
+https://finance.yahoo.com/technology/articles/openai-ceo-thinks-laptop-memory-134957989.html
+
+BeInCrypto | Tom Lee Thinks One Investor Might Be Behind Nasdaq’s Stock Crash
+https://finance.yahoo.com/markets/stocks/articles/tom-lee-thinks-one-investor-133123590.html
+
+Yahoo Finance | Wall Street's favorite stocks are in their worst slump since 2010: Chart of the Day
+https://finance.yahoo.com/markets/article/wall-streets-favorite-stocks-are-in-their-worst-slump-since-2010-chart-of-the-day-124436147.html
+
+Simply Wall St. | 3 Capital Efficient Software Stocks For Steady Cash Flow
+https://finance.yahoo.com/markets/stocks/articles/3-capital-efficient-software-stocks-131117371.html
+
+Investor's Business Daily | EBay Leads Five Stocks Near Buy Points From Resilient Sectors
+https://finance.yahoo.com/m/4b4a36ef-aafb-35f1-9224-e8262bfa6459/ebay-leads-five-stocks-near.html
+
+TIKR | AMD Just Dropped 11% in a Day as Intel’s PC Warning Rattles Chips. Is It Time to Sell, or Load Up?
+https://finance.yahoo.com/markets/stocks/articles/amd-just-dropped-11-day-114403268.html
+
+TIKR | Broadcom Sinks 5.5% as Its $43 Billion Anthropic Backstop Meets an Intel-Led Chip Rout
+https://finance.yahoo.com/technology/ai/articles/broadcom-sinks-5-5-43-113805765.html
+
+24/7 Wall St. | Intel Is Down 45% in October, Its Worst Month Ever
+https://finance.yahoo.com/markets/stocks/articles/intel-down-45-october-worst-111852927.html
+
+StockStory | AppLovin, 8x8, Elastic, Shopify, and F5 shares are falling, what you need to know
+https://finance.yahoo.com/markets/stocks/articles/applovin-8x8-elastic-shopify-f5-095529415.html
+
+StockStory | Zeta Global and Commerce stocks trade down, what you need to know
+https://finance.yahoo.com/markets/stocks/articles/zeta-global-commerce-stocks-trade-093129865.html
+
+StockStory | Cloudflare, Fastly, Oracle, JFrog, and Okta shares plummet, what you need to know
+https://finance.yahoo.com/markets/stocks/articles/cloudflare-fastly-oracle-jfrog-okta-092329601.html
+
+StockStory | MongoDB, Datadog, Snowflake, Bandwidth, and DigitalOcean stocks trade down, what you need to know
+https://finance.yahoo.com/markets/stocks/articles/mongodb-datadog-snowflake-bandwidth-digitalocean-091529883.html
+
+TIKR | Nvidia Just Dropped 11% in a Month. Is It Time to Sell, or Load Up?
+https://finance.yahoo.com/markets/stocks/articles/nvidia-just-dropped-11-month-080657559.html
+
+TIKR | TSMC Just Dropped 11% in a Month. Is It Time to Sell, or Load Up?
+https://finance.yahoo.com/markets/stocks/articles/tsmc-just-dropped-11-month-074208718.html
+
+TIKR | Datadog Stock Fell Nearly 12% as AI Spending Fears Hit Cloud Stocks. Its Earnings Estimates Didn’t Move
+https://finance.yahoo.com/markets/stocks/articles/datadog-stock-fell-nearly-12-071819615.html
+
+TIKR | Coherent Stock Fell 11% as Intel and Amazon Earnings Hit AI Hardware Stocks. Here’s Where the Stock Could Go
+https://finance.yahoo.com/markets/stocks/articles/coherent-stock-fell-11-intel-071512326.html
+
+TIKR | Nvidia Drew DOJ Questions and Weighed Backing Debt for an Anthropic Data Center in One Week. Here’s Why Its Cash Flow Matters More
+https://finance.yahoo.com/markets/stocks/articles/nvidia-drew-doj-questions-weighed-071222223.html
+
+TIKR | Qualcomm Stock Fell 11% in a Day on Intel’s PC Warning. Here’s Why November 4 Tests Its Claim That Phones Have Bottomed
+https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-fell-11-day-064448014.html
+
+TIKR | AMD Stock Fell 11% in a Day Ahead of Its November 3 Report. Here’s Why Intel’s 78% Data Center Jump Matters More to AMD Than Its PC Warning
+https://finance.yahoo.com/markets/stocks/articles/amd-stock-fell-11-day-063927845.html
+
+Motley Fool | Vanguard's Tech ETF Is About 10% Below Its Record. History Says What Usually Comes Next.
+https://finance.yahoo.com/markets/stocks/articles/vanguards-tech-etf-10-below-034602332.html
+
+BeInCrypto | Why Did the US Stock Market Crash? $2 Trillion Wiped Out
+https://finance.yahoo.com/markets/stocks/articles/why-did-us-stock-market-034408618.html
+
+Motley Fool | Intel Drags Down CPU Rivals. Is it a Buying Opportunity for AMD and Arm?
+https://finance.yahoo.com/markets/stocks/articles/intel-drags-down-cpu-rivals-032001662.html
+
+Motley Fool | Why Intel Stock Crashed on Friday
+https://finance.yahoo.com/markets/stocks/articles/why-intel-stock-crashed-friday-024146893.html
+
+TIKR | D-Wave Sinks 9% in a Week to a New Low as AI Spending Fears Hit Quantum Stocks
+https://finance.yahoo.com/markets/stocks/articles/d-wave-sinks-9-week-021322659.html
+
+Stocktwits | Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week
+https://finance.yahoo.com/markets/currencies/articles/stocktwits-weekly-spread-shaped-treasury-005438925.html
+
+Stocktwits | S&P 500, Nasdaq End Third Straight Week Lower As Investors Move Away From Tech, AI —  AMZN, INTC, LLY, RBLX In Focus
+https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-end-third-000539225.html
+
+Barrons.com | Review & Preview: Ending on a Down Note
+https://finance.yahoo.com/m/b0499f52-933b-3c3a-a9fe-a4d478f02828/review-%26-preview%3A-ending-on-a.html
+
+Motley Fool | Why Arm Holdings Stock Plummeted by Nearly 10% Today
+https://finance.yahoo.com/markets/stocks/articles/why-arm-holdings-stock-plummeted-234418702.html
+
+Motley Fool | Is Intel Stock a Buy After Its Post-Earnings Plunge?
+https://finance.yahoo.com/markets/stocks/articles/intel-stock-buy-post-earnings-233402630.html
+
+TheStreet | Nvidia has a stake in SpaceX that came from an unexpected place
+https://finance.yahoo.com/technology/ai/articles/nvidia-stake-spacex-came-unexpected-223300497.html
+
+TheStreet | Intel CEO reveals a PC problem as Goldman cuts stock target
+https://finance.yahoo.com/markets/stocks/articles/intel-ceo-reveals-pc-problem-220700996.html
+
+The Wall Street Journal | U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling
+https://finance.yahoo.com/m/cb045e66-4bc5-37ac-a9c9-6aa145bb0e21/u.s.-stocks-slide-as-amazon%2C.html
+
+TechCrunch | Intel’s stock crashes, knocking $12B from government’s stake
+https://finance.yahoo.com/markets/stocks/articles/intel-stock-crashes-knocking-12b-215434820.html
+
+Axios | The PC industry's painful path to an AI future
+https://finance.yahoo.com/technology/ai/articles/pc-industrys-painful-path-ai-214933271.html
+
+Investing.com | Apple overtakes Nvidia to become world’s most valuable company amid tech selloff
+https://finance.yahoo.com/markets/stocks/articles/apple-overtakes-nvidia-become-world-214753575.html
+
+Simply Wall St. | 3 AI Stocks With Earnings Growth Over 30%
+https://finance.yahoo.com/markets/stocks/articles/3-ai-stocks-earnings-growth-221029656.html
+
+Simply Wall St. | Cisco Systems (CSCO) Became A Founding Member Of An Enterprise AI Governance Alliance
+https://finance.yahoo.com/technology/ai/articles/cisco-systems-csco-became-founding-210818829.html
+
+StockStory | 5 must-read analyst questions from Everforth’s Q3 earnings call
+https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-173129417.html
+
+StockStory | Stocks making big moves this week: Watsco, Universal Display, Chipotle, Teladoc, and ServiceNow
+https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-week-145929462.html
+
+Simply Wall St. | 3 Cybersecurity Stocks Investors May Revisit After The Binance Hack
+https://finance.yahoo.com/markets/stocks/articles/3-cybersecurity-stocks-investors-may-111130400.html
+
+GuruFocus.com | InfoBeans Technologies Ltd (NSE:INFOBEAN) (Q2 2027) Earnings Call Highlights: 22% Constant ...
+https://finance.yahoo.com/markets/stocks/articles/infobeans-technologies-ltd-nse-infobean-110803888.html
+
+TIKR | Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks
+https://finance.yahoo.com/markets/stocks/articles/cloudflare-sinks-14-datadog-13-104409899.html
+
+Motley Fool | Axon Enterprise vs. ServiceNow: Which Industrials Stock Is a Better Buy in 2026?
+https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-vs-servicenow-industrials-024201805.html
+
+Motley Fool | IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?
+https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html
+
+Barrons.com | AI Selloff Goes From Bad to Worse in Market's Biggest Loss Since June
+https://finance.yahoo.com/m/271f9c34-4dd6-3322-93d4-ff7b4ccad30a/ai-selloff-goes-from-bad-to.html
+
+TheStreet | ServiceNow CEO makes striking 'unicorn' claim after $3M bet
+https://finance.yahoo.com/markets/stocks/articles/servicenow-ceo-makes-striking-unicorn-174700750.html
+
+Investor's Business Daily | Apple, Super Micro, AMD, Palantir Step Up To Earnings Plate After Tech Sell-Off
+https://finance.yahoo.com/m/d3ec971d-88fe-3b98-aa2c-d71ab16315ff/apple%2C-super-micro%2C-amd%2C.html
+
+Investor's Business Daily | Stock Market: Google, Amazon, Intel, ServiceNow Trigger Tech Wreck, But Other Sectors Solid: Weekly Review
+https://finance.yahoo.com/m/c973bd42-cf7d-3348-8775-1be2b557b758/stock-market%3A-google%2C-amazon%2C.html
+
+GuruFocus.com | ServiceNow Plunges as Slower Growth Exposes Valuation Risk
+https://finance.yahoo.com/markets/stocks/articles/servicenow-plunges-slower-growth-exposes-172555894.html
+
+Investing.com | As ServiceNow plunges 31%, this mid-cap software stock is surging
+https://finance.yahoo.com/markets/stocks/articles/servicenow-plunges-31-mid-cap-150204019.html
+
+Trefis | How Risky Is ServiceNow Stock?
+https://finance.yahoo.com/markets/stocks/articles/risky-servicenow-stock-144200811.html
+
+MT Newswires | BNP Paribas Adjusts ServiceNow Price Target to $143 From $160
+https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-adjusts-servicenow-price-143019156.html
+
+CNW Group | BDO Canada partners with ServiceNow to help organizations govern AI and simplify operations
+https://finance.yahoo.com/technology/ai/articles/bdo-canada-partners-servicenow-help-130000969.html
+
+Motley Fool | Why ServiceNow Stock Plunged This Week
+https://finance.yahoo.com/markets/stocks/articles/why-servicenow-stock-plunged-week-123701842.html
+
+Zacks | Brokers Suggest Investing in ServiceNow (NOW): Read This Before Placing a Bet
+https://finance.yahoo.com/markets/stocks/articles/brokers-suggest-investing-servicenow-now-123001090.html
+
+Moby | Rimini Street, Inc. Q3 2026 Earnings Call Summary
+https://finance.yahoo.com/markets/stocks/articles/rimini-street-inc-q3-2026-123000242.html
+
+Simply Wall St. | US Stock Market Today: S&P 500 Futures Drop On Energy Inflation And Wage Risks
+https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-121018878.html
+
+Investor's Business Daily | Dow Jones Futures: Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive
+https://finance.yahoo.com/m/0a5ce393-a6df-312b-af64-1893a264d0df/dow-jones-futures%3A-nasdaq.html
+
+Trefis | What Is Behind The Move In ServiceNow Stock?
+https://finance.yahoo.com/markets/stocks/articles/behind-move-servicenow-stock-105006494.html
+
+Motley Fool | ServiceNow Stock Just Plunged More Than 20% in a Single Day. Here's What It Did After Its Other Biggest Drops.
+https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-just-plunged-more-011201701.html
+
+Barrons.com | Review & Preview: Don’t Call It a Tech Wreck
+https://finance.yahoo.com/m/e95a0bef-0959-3cd2-acd2-e0018ddb54df/review-%26-preview%3A-don%E2%80%99t-call.html
+
+Barrons.com | ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short
+https://finance.yahoo.com/m/5f9750f9-b04e-3830-9f5a-d06f079281de/servicenow-stock-is-worst-in.html
+
+MarketBeat | What Stagwell (STGW) Said on Its Q3 Earnings Call
+https://finance.yahoo.com/media-advertising/articles/stagwell-stgw-said-q3-earnings-221512288.html
+
+Barrons.com | Alphabet, Marvell, ServiceNow, Fortinet, Caterpillar, Lilly, and More Stocks That Explain Today’s Market
+https://finance.yahoo.com/m/08395f4a-75cb-3ebd-a312-7385b765b680/alphabet%2C-marvell%2C.html
+
+StockStory | Why ServiceNow (NOW) stock is nosediving
+https://finance.yahoo.com/markets/stocks/articles/why-servicenow-now-stock-nosediving-211234146.html
+
+Yahoo Finance | ServiceNow stock sinks in worst day ever, Fortinet shares drop as Q3 earnings reports send software sector lower
+https://finance.yahoo.com/markets/stocks/article/fortinet-drags-down-cybersecurity-stocks-as-the-companys-service-revenue-forecast-misses-estimates-124146969.html
+
+MT Newswires | Sector Update: Tech Stocks Fall Late Afternoon
+https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195046089.html
+
+Moby | Wall Street Is Done Giving AI Software a Pass
+https://finance.yahoo.com/markets/stocks/articles/wall-street-done-giving-ai-185415907.html
+
+MT Newswires | ServiceNow's AI Momentum Still Too Small to Inflect Overall Growth, Truist Says
+https://finance.yahoo.com/technology/ai/articles/servicenow-apos-ai-momentum-still-184514842.html
+
+Motley Fool | ServiceNow: 3 Key Takeaways for Long-Term Investors
+https://finance.yahoo.com/markets/stocks/articles/servicenow-3-key-takeaways-long-184501429.html
+
+Fortune | ‘It was just a fight that we decided to pick’: Serval raises $150 million at a $3 billion valuation to take on ServiceNow
+https://finance.yahoo.com/technology/articles/just-fight-decided-pick-serval-183421442.html
+
+MT Newswires | Sector Update: Tech Stocks Fall Thursday Afternoon
+https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-thursday-175421195.html
+
+MT Newswires | Top Midday Decliners
+https://finance.yahoo.com/markets/stocks/articles/top-midday-decliners-174734945.html
+
+Motley Fool | ServiceNow Guides to Slower Backlog Growth: Rapid Earnings Reaction
+https://finance.yahoo.com/markets/stocks/articles/servicenow-guides-slower-backlog-growth-174610669.html
+
+TIKR | ServiceNow Sinks 19% on EPS Miss and Slower Backlog Outlook Despite “Unicorn Growth Company” Pitch
+https://finance.yahoo.com/markets/stocks/articles/servicenow-sinks-19-eps-miss-170202552.html
+
+Zacks | NOW Q3 Earnings Lag Estimates, Revenues Rise on Subscription Growth
+https://finance.yahoo.com/markets/stocks/articles/now-q3-earnings-lag-estimates-170100941.html
+
+StockStory | AMZN Q3 deep dive: cloud surge and AI investments drive mixed market reception
+https://finance.yahoo.com/markets/stocks/articles/amzn-q3-deep-dive-cloud-043500791.html
+
+Benzinga | Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock
+https://finance.yahoo.com/technology/ai/articles/andy-jassy-says-west-very-233005253.html
+
+Insider Monkey | 5 Most Profitable Stocks of the Past 5 Years
+https://finance.yahoo.com/markets/stocks/articles/5-most-profitable-stocks-past-202256304.html
+
+24/7 Wall St. | France Wants a 5.5-Cent-per-Gigabyte Tax on Netflix, Google and Meta
+https://finance.yahoo.com/economy/policy/articles/france-wants-5-5-cent-170701445.html
+
+Axios | The daunting economic decision on data centers
+https://finance.yahoo.com/economy/policy/articles/daunting-economic-decision-data-centers-170007492.html
+
+24/7 Wall St. | Amazon Is Borrowing Against Its Own Data Center Gear to Fund More Data Centers
+https://finance.yahoo.com/markets/stocks/articles/amazon-borrowing-against-own-data-154804374.html
+
+Barchart | The AI Red Queen Effect: Why Big Tech Can’t Afford to Stop Spending
+https://finance.yahoo.com/technology/ai/articles/ai-red-queen-effect-why-153003906.html
+
+Simply Wall St. | Amazon (AMZN) Stock Slips As Q3 Earnings Reflect Profit Reset
+https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-stock-slips-q3-151326000.html
+
+24/7 Wall St. | Big Tech Now Spends More on AI Than It Brings In From Operations
+https://finance.yahoo.com/technology/ai/articles/big-tech-now-spends-more-150803781.html
+
+TIKR | Big Tech’s Capex Needs “a Trillion Dollars of Revenue” by 2028. Barclays Sees About $400 Billion
+https://finance.yahoo.com/technology/ai/articles/big-tech-capex-needs-trillion-134500221.html
+
+Investor's Business Daily | OpenAI Cuts Funding Target Amid Meta, Microsoft Offerings, Anthropic IPO
+https://finance.yahoo.com/m/9f64f875-35a4-3cac-86e3-a7d06eb54605/openai-cuts-funding-target.html
+
+TheStreet | Amazon CEO Andy Jassy makes a strong prediction on Amazon stock
+https://finance.yahoo.com/markets/stocks/articles/amazon-ceo-andy-jassy-makes-120300536.html
+
+TIKR | Amazon Is 16% Off Its High After a Record Quarter: Take Profits, or Buy More?
+https://finance.yahoo.com/markets/stocks/articles/amazon-16-off-high-record-112756615.html
+
+GuruFocus.com | United Parcel Service Inc (UPS) (Q3 2026) Earnings Call Highlights: Revenue Climbs 6. ...
+https://finance.yahoo.com/markets/stocks/articles/united-parcel-inc-ups-q3-110135814.html
+
+Fortune | Fears over $828 billion AI capex spending spree help erase $1 trillion in market value
+https://finance.yahoo.com/technology/ai/articles/fears-over-828-billion-ai-104400351.html
+
+Moneywise | Jeff Bezos' father fled Cuba at 16 with three shirts — then invested $245,573 in life savings to help launch Amazon
+https://finance.yahoo.com/small-business/articles/jeff-bezos-father-fled-cuba-093000674.html
+
+Motley Fool | Amazon Plans to Spend More on AI. Here’s Why the Stock is a Once-in-a-Decade Buy Hiding in Plain Sight.
+https://finance.yahoo.com/markets/stocks/articles/amazon-plans-spend-more-ai-083002169.html
+
+GuruFocus.com | Apar Industries Ltd (BOM:532259) (Q2 2027) Earnings Call Highlights: Profit Jumps 78% as Order ...
+https://finance.yahoo.com/markets/stocks/articles/apar-industries-ltd-bom-532259-070942934.html
+
+Stocktwits | Amazon's AWS Just Gave Investors A Big Growth Signal — And Gene Munster Thinks It's Only The Beginning
+https://finance.yahoo.com/markets/stocks/articles/amazons-aws-just-gave-investors-062557001.html
+
+Motley Fool | Amazon: 3 Key Takeaways for Long-Term Investors
+https://finance.yahoo.com/markets/stocks/articles/amazon-3-key-takeaways-long-054403756.html
+
+Stocktwits | Elon Musk Warns Of AI Shakeout, While Zuckerberg, Pichai, Nadella, Jassy Discuss The Costs: MAG 7 Voices This Week
+https://finance.yahoo.com/technology/ai/articles/elon-musk-warns-ai-shakeout-024516691.html
+
+Benzinga | ‘Hard to Know If We’re in an AI Bubble’ Jeff Bezos Says, But Should a Retiree Buy AI Stocks? — ‘I Would Usually Tell a Retiree to Buy the S&P 500’
+https://finance.yahoo.com/markets/stocks/articles/hard-know-ai-bubble-jeff-013019732.html
+
+GuruFocus.com | Creative Newtech Ltd (NSE:CNL) (Q2 2027) Earnings Call Highlights: Rs 3,195 Crore BSNL Order, ...
+https://finance.yahoo.com/markets/stocks/articles/creative-newtech-ltd-nse-cnl-011213972.html
+
+TheStreet | ‘Big Short’ trader says Anthropic slowdown tests AI boom
+https://finance.yahoo.com/technology/ai/articles/big-short-trader-says-anthropic-003700392.html
+
+Motley Fool | Amazon Just Lost $42 Billion in Free Cash Flow. Is It a Red Flag for Investors?
+https://finance.yahoo.com/markets/stocks/articles/amazon-just-lost-42-billion-235001609.html
+
+MT Newswires | Big Tech Shareholder Returns Hit 15-Year Low as AI Spending Surges
+https://finance.yahoo.com/technology/ai/articles/big-tech-shareholder-returns-hit-222115523.html
+
+Simply Wall St. | Learn Why The Bull Case For Verizon Communications (VZ) Could Change Following Raised Outlook
+https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-verizon-221305487.html
+
+Motley Fool | Stock Market Today, Oct. 30: Amazon Misses Revenue and Earnings Expectations
+https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-213502210.html
+
+Reuters | Stocks fall on AI cash burn worries while bonds rally with oil
+https://finance.yahoo.com/markets/stocks/articles/stocks-slump-bonds-leap-ai-024810978.html
+
+The Wall Street Journal | Stocks to Watch Recap: Amazon, Intel, Exxon, Reddit
+https://finance.yahoo.com/m/d33b98c2-6f58-3506-b779-e84c0c72e9a3/stocks-to-watch-recap%3A.html
+
+TechCrunch | Cracks are emerging in the AI spending boom
+https://finance.yahoo.com/technology/ai/articles/cracks-emerging-ai-spending-boom-211740864.html
+
+Yahoo Finance | Stock market today: Nasdaq, Dow, S&P 500 clobbered as October closes with brutal sell-off
+https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html
+
+StockStory | The 5 most interesting analyst questions from Alphabet’s Q3 earnings call
+https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-213100472.html
+
+Yahoo Finance | 'The Fed put is very much back': Wall Street strategists weigh central bank's next move
+https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html
+
+Barchart | Is Wall Street Bullish or Bearish on Alphabet Stock?
+https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-alphabet-152252824.html
+
+Barchart | What Are Wall Street Analysts' Target Price for Alphabet Stock?
+https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-152156277.html
+
+24/7 Wall St. | Prediction: This Under-the-Radar AI Stock Could Have a Big 2030 Ahead
+https://finance.yahoo.com/technology/ai/articles/prediction-under-radar-ai-stock-143355570.html
+
+TheStreet | Reddit stock plunges 29.2% as Google AI cuts US traffic
+https://finance.yahoo.com/markets/stocks/articles/reddit-stock-plunges-28-google-140700166.html
+
+Barchart | Alphabet's Earnings Horror Show Continues, But GOOG Stock Is a Buy Below $300
+https://finance.yahoo.com/markets/stocks/articles/alphabets-earnings-horror-show-continues-134857479.html
+
+Barchart | Reddit Sinks as Google's AI Shift Takes a Bite Out of Search Traffic. What's Next for RDDT Stock.
+https://finance.yahoo.com/markets/stocks/articles/reddit-sinks-googles-ai-shift-134502251.html
+
+Simply Wall St. | Alphabet (GOOGL) Stock Sees Fair Value Cut After Q3 Miss And Higher AI Spending
+https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-stock-sees-fair-131300291.html
+
+24/7 Wall St. | Trumpflation Is Getting Worse and It Could Trigger a Wall Street Nightmare
+https://finance.yahoo.com/economy/policy/articles/trumpflation-getting-worse-could-trigger-131028217.html
+
+Barchart | How Investors Should View the Launch of Alphabet's Gemini 4 Carbon
+https://finance.yahoo.com/technology/ai/articles/investors-view-launch-alphabets-gemini-130003634.html
+
+Simply Wall St. | 3 AI Infrastructure Stocks Retail Investors Are Watching After Google Search Shift
+https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-retail-121029257.html
+
+Axios | The AI trade's trick-or-treat earnings season
+https://finance.yahoo.com/technology/ai/articles/ai-trades-trick-treat-earnings-104506055.html
+
+Fortune | Goldman Sachs CEO David Solomon says the best advice he ever got came from his grandmother in his 20s: ‘Don’t be in a hurry’
+https://finance.yahoo.com/small-business/articles/goldman-sachs-ceo-david-solomon-102600733.html
+
+Yahoo Finance | Reddit (and everyone else) faces a bleak internet without Google traffic
+https://finance.yahoo.com/technology/article/reddit-and-everyone-else-faces-a-bleak-internet-without-google-traffic-100000669.html
+
+Motley Fool | 2 Stocks Billionaires Can't Stop Buying
+https://finance.yahoo.com/markets/stocks/articles/2-stocks-billionaires-cant-stop-090400460.html
+
+Simply Wall St. | Broadcom Heads These 3 Top Undervalued Stocks To Watch
+https://finance.yahoo.com/markets/stocks/articles/broadcom-heads-3-top-undervalued-021202308.html
+
+GuruFocus.com | Tom Gayner's Top Q3 2026 Move: Zoetis Inc at a 0.19% Portfolio Impact
+https://finance.yahoo.com/markets/stocks/articles/tom-gayners-top-q3-2026-230649092.html
+
+TheStreet | Veteran fund manager revamps Alphabet stock price target after brutal sell-off
+https://finance.yahoo.com/markets/stocks/articles/veteran-fund-manager-revamps-alphabet-222551042.html
+
+Zacks | Strong Growth Momentum and Rising Revisions Fuel Bright Earnings Outlook
+https://finance.yahoo.com/markets/stocks/articles/strong-growth-momentum-rising-revisions-221400708.html
+
+24/7 Wall St. | The SEC Chair Says Most Crypto Assets Are Not Securities. What Does That Mean for XRP After Its 5-Year Fight?
+https://finance.yahoo.com/markets/crypto/articles/sec-chair-says-most-crypto-202727583.html
+
+StockStory | Why Coinbase (COIN) shares are falling today
+https://finance.yahoo.com/markets/crypto/articles/why-coinbase-coin-shares-falling-153129126.html
+
+TIKR | Circle Sinks 12% in a Week After Binance Hack: “We Have Frozen More Than 800M USDC”
+https://finance.yahoo.com/markets/crypto/articles/circle-sinks-12-week-binance-151214565.html
+
+TIKR | Strategy Sinks 11% in a Week on Binance Hack, CFO Exit: “Returning STRC to Health”
+https://finance.yahoo.com/markets/crypto/articles/strategy-sinks-11-week-binance-134936666.html
+
+TIKR | Coinbase Slips 11% as a $6.3 Billion Binance Heist Rattles Crypto Stocks
+https://finance.yahoo.com/markets/crypto/articles/coinbase-slips-11-6-3-133816773.html
+
+Financial Times | Crypto exchanges rush to tighten security after $6.3bn Binance heist
+https://finance.yahoo.com/markets/crypto/articles/crypto-exchanges-rush-tighten-security-103818914.html
+
+TIKR | Circle Stock Fell 9% in a Day as the Binance Hack Hit Crypto Stocks. Here’s Where the Stock Could Go by 2030
+https://finance.yahoo.com/markets/crypto/articles/circle-stock-fell-9-day-064736494.html
+
+24/7 Wall St. | Crypto ETFs Already Go Far Beyond Bitcoin. The SEC Wants to Know If Its Rules Have Kept Up
+https://finance.yahoo.com/markets/crypto/articles/crypto-etfs-already-far-beyond-013300136.html
+
+CryptoProwl | Coinbase and Kraken Ramp Up Security After Massive Binance Hack
+https://finance.yahoo.com/markets/crypto/articles/coinbase-kraken-ramp-security-massive-004600667.html
+
+BeInCrypto | 7 Banks Change Their Coinbase Stock Price Targets After Q3 Earnings
+https://finance.yahoo.com/markets/stocks/articles/7-banks-change-coinbase-stock-004455508.html
+
+Reuters | Crypto exchanges call for quick moves to bolster defenses after Binance heist
+https://finance.yahoo.com/news/crypto-exchanges-call-quick-moves-002558558.html
+
+Stocktwits | Stocktwits Fintech Pulse: US Fintech Weekly Briefing & Market Drivers
+https://finance.yahoo.com/markets/stocks/articles/stocktwits-fintech-pulse-us-fintech-000208099.html
+
+Reuters | Binance seeks to shore up confidence after record $6.3 billion heist
+https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html
+
+BeInCrypto | Hyperliquid Makes Money in a Bear Market Without Anyone Trading, Grayscale Says
+https://finance.yahoo.com/markets/crypto/articles/hyperliquid-makes-money-bear-market-220000304.html
+
+TheStreet | Wall Street analyst recommends buying opportunity after Binance hack
+https://finance.yahoo.com/markets/crypto/articles/wall-street-analyst-recommends-buying-212710173.html
+
+TIKR | Could Coinbase Actually Climb 94%? Or Is Canaccord Totally Wrong?
+https://finance.yahoo.com/markets/stocks/articles/could-coinbase-actually-climb-94-203319542.html
+
+decrypt | Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms
+https://finance.yahoo.com/markets/crypto/articles/worried-crypto-hacks-buy-bitcoin-200603005.html
+
+Yahoo Finance | Binance hacked for record $6.3 billion, withdrawals suspended after "complex attack"
+https://finance.yahoo.com/markets/article/bitcoin-drops-to-76000-as-binance-hack-spooks-investors-tether-circle-freeze-assets-083406383.html
+
+Barrons.com | Billions of Dollars In Cryptocurrency Was Just Stolen. Should Investors Be Worried?
+https://finance.yahoo.com/m/5fca5436-e17f-3286-9998-a50d689e2363/billions-of-dollars-in.html
+
+Yahoo Finance | 'Sentiment will take a hit': Binance $6.3 billion hack rattles bitcoin, crypto market
+https://finance.yahoo.com/markets/article/copy-intel-amazon-lead-tech-lower-bitcoin-falls-on-suspected-biggest-crypto-hack-in-history-alphacheck-190920999.html
+
+24/7 Wall St. | Coinbase Is Down 26% in October: Hold On to COIN Stock, or Drop It Like a Hot Potato?
+https://finance.yahoo.com/markets/crypto/articles/coinbase-down-26-october-hold-185120361.html
+
+Investopedia | Bitcoin Drops as Markets Digest Multbillion-Dollar Binance Hack
+https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-markets-digest-multbillion-184920368.html
+
+Zacks | COIN Q3 Earnings Beat on Prediction Markets, Lower Costs
+https://finance.yahoo.com/markets/crypto/articles/coin-q3-earnings-beat-prediction-173400583.html
+
+GuruFocus.com | Coinbase's Profit Beat Comes With a Major Catch
+https://finance.yahoo.com/markets/crypto/articles/coinbases-profit-beat-comes-major-172507382.html
+
+The Wall Street Journal | Crypto Markets Aren’t Freaking Out That Much About the Binance Hack
+https://finance.yahoo.com/m/c3b01a6e-cfec-3c94-95e9-03311ca68cc5/crypto-markets-aren%E2%80%99t.html
+
+TheStreet | Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever
+https://finance.yahoo.com/markets/crypto/articles/coinbase-microstrategy-robinhood-tumble-largest-170626784.html
+
+Barrons.com | Coinbase Stock, Strategy, and Circle Aren’t Binance. Crypto Investors Should Still Worry.
+https://finance.yahoo.com/m/bc695a5a-bf8d-36cb-8d76-6dac8be49e73/coinbase-stock%2C-strategy%2C-and.html
+
+Barrons.com | Binance’s $6.3 Billion Crypto Hack Strikes at Heart of Bitcoin’s Trillion Dollar Industry
+https://finance.yahoo.com/m/f7cab1c8-6f26-365a-adea-8e8d8ddb6654/binance%E2%80%99s-%246.3-billion-crypto.html
+
+Motley Fool | Coinbase: 3 Key Takeaways for Long-Term Investors
+https://finance.yahoo.com/markets/crypto/articles/coinbase-3-key-takeaways-long-161701717.html
+
+Exec Edge | After Q3 2026, What Coinbase’s Revenue Mix Says About Its Valuation
+https://finance.yahoo.com/markets/crypto/articles/q3-2026-coinbase-revenue-mix-155136793.html
+
+Stocktwits | COIN Stock Sinks To Over 2-Year Low As Bitcoin Sinks Below $77K, Wall Street Cuts Price Targets
+https://finance.yahoo.com/markets/crypto/articles/coin-stock-sinks-over-2-154445585.html
+
+MT Newswires | US Tiger Securities Adjusts Price Target on Coinbase Global to $230 From $250
+https://finance.yahoo.com/markets/stocks/articles/us-tiger-securities-adjusts-price-151911693.html
+
+Proactive | Crypto stocks slide as $6.3 billion Binance hack rattles market
+https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-slide-6-3-150900382.html
+
+Motley Fool | Coinbase (COIN) Q3 2026 Earnings Call Transcript
+https://finance.yahoo.com/markets/crypto/articles/coinbase-coin-q3-2026-earnings-144430888.html
+
+Yahoo Finance | Coinbase reports Q3 revenue decline amid crypto slump
+https://finance.yahoo.com/markets/article/coinbase-reports-q3-revenue-decline-amid-crypto-slump-205353220.html
+
+GuruFocus.com | Crypto Stocks Slide After Record $6.3 Billion Binance Hack
+https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-slide-record-6-142308500.html
+
+Simply Wall St. | What Does Coinbase Global (COIN) Joining The RLUSD Rollout Mean For Users?
+https://finance.yahoo.com/markets/crypto/articles/does-coinbase-global-coin-joining-141327975.html
+
+TIKR | “Next Bitcoin Bull Market”? Hardly.
+https://finance.yahoo.com/markets/crypto/articles/next-bitcoin-bull-market-hardly-141102314.html
+
+Proactive | Coinbase shares slide 11% despite earnings beat as Binance hack weighs on crypto stocks
+https://finance.yahoo.com/markets/crypto/articles/coinbase-shares-slide-11-despite-140500088.html
+
+InvestorsHub | Crypto Stocks Slide After Reported Record $6.36 Billion Binance Hack
+https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-slide-reported-record-140425759.html
+
+Yahoo Finance | Intel, Amazon lead tech lower, crypto markets rattled amid $6.3 billion Binance hack: AlphaCheck
+https://finance.yahoo.com/markets/article/intel-amazon-lead-tech-lower-bitcoin-falls-on-suspected-biggest-crypto-hack-in-history-alphacheck-135624242.html
+
+24/7 Wall St. | Coinbase Tumbles 11% as Record Binance Hack Hits Crypto and Trading Revenue Slides; Strategy Sinks 12%, Robinhood Plunges 10%, Circle Drops 9%
+https://finance.yahoo.com/markets/crypto/articles/coinbase-tumbles-11-record-binance-135440656.html
+
+Zacks | Coinbase Q3 Earnings Call Highlights Push Beyond Crypto Trading
+https://finance.yahoo.com/markets/crypto/articles/coinbase-q3-earnings-call-highlights-134700998.html
+
+Investor's Business Daily | Binance Suffers Record $6.3 Billion Crypto Hack, Bitcoin Price Plunges
+https://finance.yahoo.com/m/aa204c53-0491-3e9d-8231-deba99a3afd6/binance-suffers-record-%246.3.html
+
+MT Newswires | Monness, Crespi, Hardt Adjusts Price Target on Coinbase Global to $100 From $85
+https://finance.yahoo.com/markets/stocks/articles/monness-crespi-hardt-adjusts-price-133042443.html
+
+Trefis | What Should Robinhood Stock Investors Be Watching Now?
+https://finance.yahoo.com/markets/stocks/articles/robinhood-stock-investors-watching-now-132816136.html
+
+MT Newswires | Oppenheimer Adjusts Price Target on Coinbase Global to $207 From $193, Keeps Outperform Rating
+https://finance.yahoo.com/markets/stocks/articles/oppenheimer-adjusts-price-target-coinbase-124814792.html
+
+Motley Fool | Coinbase Global vs. Morningstar: Which Financial Stock Is a Better Buy in 2026?
+https://finance.yahoo.com/markets/stocks/articles/coinbase-global-vs-morningstar-financial-123501638.html
+
+Benzinga Prediction Markets | Binance's $6.3 Billion Hack Could Be Coinbase's Chance to Win Over Crypto Investors
+https://finance.yahoo.com/markets/crypto/articles/binances-6-3-billion-hack-123449549.html
+
+Moby | Coinbase Global, Inc. Q3 2026 Earnings Call Summary
+https://finance.yahoo.com/markets/crypto/articles/coinbase-global-inc-q3-2026-123000640.html
+
+Simply Wall St. | 3 Integrated Oil Majors Whose Cash Flow Outlook Just Got Clearer
+https://finance.yahoo.com/energy/articles/3-integrated-oil-majors-whose-041824843.html
+
+Investing.com | OPEC+ set to hold December oil output steady, Reuters reports
+https://finance.yahoo.com/energy/articles/opec-set-hold-december-oil-211425680.html
+
+Simply Wall St. | Saturn Oil & Gas (TSX:SOIL) Stock May Trade Below Fair Value Despite Corex Deal
+https://finance.yahoo.com/markets/stocks/articles/saturn-oil-gas-tsx-soil-210820495.html
+
+PR Newswire | NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day
+https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-193200516.html
+
+PR Newswire | NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day
+https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-152100373.html
+
+CNW Group | NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day
+https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-152100044.html
+
+Simply Wall St. | BW Energy (OB:BWE) Stock Catches A Q3 Earnings Squeeze
+https://finance.yahoo.com/markets/stocks/articles/bw-energy-ob-bwe-stock-151625884.html
+
+Simply Wall St. | Imperial Oil Stock Record Downstream Earnings What's Changed
+https://finance.yahoo.com/markets/stocks/articles/imperial-oil-stock-record-downstream-141302765.html
+
+Simply Wall St. | 3 Oil Stocks Investors Are Screening As Brent Forecasts Move Higher
+https://finance.yahoo.com/energy/articles/3-oil-stocks-investors-screening-141203630.html
+
+Simply Wall St. | Chevron Leads 3 Top Energy Stocks To Watch
+https://finance.yahoo.com/energy/articles/chevron-leads-3-top-energy-080922894.html
+
+TIKR | ExxonMobil Plans $20 Billion of 2027 Buybacks. Here’s How Its CEO Answered the $60 Oil Question
+https://finance.yahoo.com/markets/stocks/articles/exxonmobil-plans-20-billion-2027-071811893.html
+
+MarketBeat | What YPF Sociedad Anónima (YPF) Said on Its Q3 Earnings Call
+https://finance.yahoo.com/energy/articles/ypf-sociedad-nima-ypf-said-071405303.html
+
+Investing.com | Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts
+https://finance.yahoo.com/energy/articles/oil-hits-six-month-highs-063746684.html
+
+StockStory | EXE Q3 deep dive: Integration, new CEO, and commercial expansion define the quarter
+https://finance.yahoo.com/markets/stocks/articles/exe-q3-deep-dive-integration-031529843.html
+
+AFP | US oil companies aim to squeeze more out of refineries
+https://finance.yahoo.com/energy/articles/us-oil-companies-aim-squeeze-011348682.html
+
+Simply Wall St. | 3 Oil Stocks Retail Investors Are Watching As Brent Crude Nears $120
+https://finance.yahoo.com/energy/articles/3-oil-stocks-retail-investors-001817462.html
+
+Odessa American, Texas | Rig count unchanged as prices climb
+https://finance.yahoo.com/energy/articles/rig-count-unchanged-prices-climb-000200456.html
+
+Simply Wall St. | 3 Australian Penny Stocks With Revenue Over 250 Million
+https://finance.yahoo.com/markets/stocks/articles/3-australian-penny-stocks-revenue-231147762.html
+
+Simply Wall St. | Mitani Is Just One Of Our 3 Top Hydrogen Stocks Picks
+https://finance.yahoo.com/energy/articles/mitani-just-one-3-top-231046623.html
+
+Simply Wall St. | Indian Founder Led Growth Stocks To Watch In October 2026
+https://finance.yahoo.com/markets/stocks/articles/indian-founder-led-growth-stocks-221708852.html
+
+GlobeNewswire | As Winter Energy Costs Climb, More Canadians Turn to Solar Generators for Home Power
+https://finance.yahoo.com/energy/articles/winter-energy-costs-climb-more-221600327.html
+
+The Wall Street Journal | Basic Materials Roundup: Market Talk
+https://finance.yahoo.com/m/8280952b-4c59-37a5-8d70-e9ca7d6f969f/basic-materials-roundup%3A.html
+
+The Wall Street Journal | Energy & Utilities Roundup: Market Talk
+https://finance.yahoo.com/m/b20ac0d4-9b4a-35b4-a655-d01357a062b8/energy-%26-utilities-roundup%3A.html
+
+Benzinga | Boeing CEO Says High Oil Prices Could Actually Boost Jet Orders — Here's Why
+https://finance.yahoo.com/energy/articles/boeing-ceo-says-high-oil-213007769.html
+
+Moby | Imperial Oil Limited Q3 2026 Earnings Call Summary
+https://finance.yahoo.com/energy/articles/imperial-oil-limited-q3-2026-212729120.html
+
+Barchart | Soybeans Close Friday with Mixed Trade, Falling from Early Highs
+https://finance.yahoo.com/markets/commodities/articles/soybeans-close-friday-mixed-trade-212522276.html
+
+Barchart | Stocks Fall Sharply on Intel and Amazon Sell-offs and Crypto Heist
+https://finance.yahoo.com/markets/stocks/articles/stocks-fall-sharply-intel-amazon-210709918.html
+
+TMX Newsfile | Dune Oil to Present the M47 Oil Block at Market Bridge Live in London and the Oil & Gas Virtual Investor Conference
+https://finance.yahoo.com/energy/articles/dune-oil-present-m47-oil-203000597.html
+
+Associated Press | How major US stock indexes fared Friday 10/30/2026
+https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202111310.html
+
+AFP | Markets lashed by tech rout as earnings fan AI fears
+https://finance.yahoo.com/technology/ai/articles/tech-firms-fresh-hit-earnings-024928854.html
+
+MT Newswires | US Equity Markets End Lower After Sell-Off in Technology Stocks
+https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201952161.html
+
+The Wall Street Journal | Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries
+https://finance.yahoo.com/m/2f471065-c19a-3464-9403-f0f421a5d9cc/oil-prices-rise-as-middle.html
+
+Simply Wall St. | Is Shell (LSE:SHEL) Reasonable After Stronger Cash Flow And Buybacks?
+https://finance.yahoo.com/energy/articles/shell-lse-shel-reasonable-stronger-201809340.html
+
+Simply Wall St. | Enbridge (TSX:ENB) Stock May Trade At A Premium Despite Gas Demand Growth News
+https://finance.yahoo.com/markets/stocks/articles/enbridge-tsx-enb-stock-may-201410206.html
+
+MT Newswires | TSX Closer: The Index Drops More Than 600 Points as Base Metals, Technology Stocks Slide
+https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-drops-more-201353120.html
+
+MT Newswires | Sector Update: Energy Stocks Gain Late Afternoon
+https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195710565.html
+
+BeInCrypto | Gold Price Just Hit a Yearly Low. What Are Analysts Saying?
+https://finance.yahoo.com/markets/commodities/articles/gold-price-just-hit-yearly-195453224.html
+
+24/7 Wall St. | Chevron and Exxon Have Rallied Nearly 60%. Here’s What $100,000 Pays in Dividends
+https://finance.yahoo.com/energy/articles/chevron-exxon-rallied-nearly-60-194700029.html
+
+Barchart | Crude Oil Prices Rally as Concerns Continue About Possible Post-Election US Attack on Iran
+https://finance.yahoo.com/energy/articles/crude-oil-prices-rally-concerns-193610982.html
+
+MT Newswires | Sector Update: Energy
+https://finance.yahoo.com/energy/articles/sector-energy-193402762.html
+
+Reuters | Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran
+https://finance.yahoo.com/news/oil-rises-supply-concerns-houthis-022725347.html
+
+First for Money | US Oil Industry Earned Billions More in Profits Than During the Same Period in 2025 Amid Iran War
+https://finance.yahoo.com/energy/articles/us-oil-industry-earned-billions-191930856.html
+
+GuruFocus.com | Exxon Refining Profits Overtake Oil Production for First Time in 6 Years
+https://finance.yahoo.com/energy/articles/exxon-refining-profits-overtake-oil-190933154.html
+
+GuruFocus.com | SK Innovation Co Ltd (XKRX:096770) (Q3 2026) Earnings Call Highlights: Record Lubricant Profit ...
+https://finance.yahoo.com/markets/stocks/articles/sk-innovation-co-ltd-xkrx-190352641.html
+
+Associated Press | BC-OILS
+https://finance.yahoo.com/markets/commodities/articles/bc-oils-190018066.html
+
+GuruFocus.com | Oil's Latest Surge Threatens Another Shock to American Budgets
+https://finance.yahoo.com/energy/articles/oils-latest-surge-threatens-another-184050140.html
+
+The Wall Street Journal | Gold and Silver Futures Fall to 1-Year Lows
+https://finance.yahoo.com/m/5dcf998d-21c7-3395-9d43-2a07378da7fe/gold-and-silver-futures-fall.html
+
+Insider Monkey | 5 Best High Growth Stocks Outside Big Tech
+https://finance.yahoo.com/markets/stocks/articles/5-best-high-growth-stocks-213926607.html
+
+Insider Monkey | 5 Best Biotech Stocks Under $10 to Buy
+https://finance.yahoo.com/healthcare/articles/5-best-biotech-stocks-under-213041975.html
+
+Insider Monkey | 5 Best Defense Stocks to Buy According to Hedge Funds
+https://finance.yahoo.com/markets/stocks/articles/5-best-defense-stocks-buy-203829039.html
+
+Motley Fool | Better iShares Emerging Markets ETF: IEMG vs. EEM
+https://finance.yahoo.com/markets/stocks/articles/better-ishares-emerging-markets-etf-200930883.html
+
+Motley Fool | A Stock Market Correction Could Be Coming. Here's Why I'm Still Investing.
+https://finance.yahoo.com/markets/stocks/articles/stock-market-correction-could-coming-174900897.html
+
+Simply Wall St. | 3 Underowned S&P 500 Stocks as Investors Rotate Beyond AI
+https://finance.yahoo.com/markets/stocks/articles/3-underowned-p-500-stocks-171435079.html
+
+Yahoo Finance | Tech stock meltdown could get a lot of worse if history is any guide
+https://finance.yahoo.com/markets/article/tech-stock-meltdown-could-get-a-lot-of-worse-if-history-is-any-guide-161226786.html
+
+Motley Fool | 3 Unstoppable S&P 500 Stocks to Buy in November
+https://finance.yahoo.com/markets/stocks/articles/3-unstoppable-p-500-stocks-160500926.html
+
+Barchart | Are Wall Street Analysts Predicting Palantir Technologies Stock Will Climb or Sink?
+https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-palantir-155626194.html
+
+Barchart | Is Wall Street Bullish or Bearish on Starbucks’ Stock?
+https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-starbucks-150614839.html
+
+Barchart | Are Wall Street Analysts Bullish on Comcast Stock?
+https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-comcast-150005939.html
+
+Barchart | Carnival Corporation Stock: Is Wall Street Bullish or Bearish?
+https://finance.yahoo.com/markets/stocks/articles/carnival-corporation-stock-wall-street-145509862.html
+
+Trefis | What Should Boeing Stock Holders Take From Its Latest Report?
+https://finance.yahoo.com/markets/stocks/articles/boeing-stock-holders-latest-report-143047647.html
+
+Trefis | What Just Happened To Vulcan Stock?
+https://finance.yahoo.com/markets/stocks/articles/just-happened-vulcan-stock-142452987.html
+
+Trefis | What Just Happened To Smurfit WestRock Stock?
+https://finance.yahoo.com/markets/stocks/articles/just-happened-smurfit-westrock-stock-141936654.html
+
+Trefis | What Sent Honeywell Aerospace Stock Lower?
+https://finance.yahoo.com/markets/stocks/articles/sent-honeywell-aerospace-stock-lower-135717998.html
+
+Trefis | What Did It Take To Hold Novanta Stock?
+https://finance.yahoo.com/markets/stocks/articles/did-hold-novanta-stock-134741933.html
+
+Trefis | Is Paychex's Dividend Enough To Make Up For Its Lagging Stock?
+https://finance.yahoo.com/markets/stocks/articles/paychexs-dividend-enough-lagging-stock-133646390.html
+
+Barchart | Are Wall Street Analysts Bullish on Bloom Energy Stock?
+https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-bloom-132651510.html
+
+24/7 Wall St. | America’s Greatest Dividend Posts Strong Earnings
+https://finance.yahoo.com/markets/stocks/articles/america-greatest-dividend-posts-strong-124754954.html
+
+Investing.com | Tech risk-reward turns favorable after rout, Deutsche Bank says
+https://finance.yahoo.com/markets/stocks/articles/tech-risk-reward-turns-favorable-113238995.html
+
+Motley Fool | Schwab International Equity ETF vs. Vanguard Total International Stock ETF: Two Low-Cost International ETFs, but One Offers More Growth Potential for the Next Decade
+https://finance.yahoo.com/markets/stocks/articles/schwab-international-equity-etf-vs-102002811.html
+
+Motley Fool | Down 33.3% This Year, Is Netflix the Best Value Stock to Buy in November?
+https://finance.yahoo.com/markets/stocks/articles/down-33-3-netflix-best-102000095.html
+
+Motley Fool | President Donald Trump Claims, "Tariffs Are Making Us Much Richer," but Economists Show They Have Unintended Consequences
+https://finance.yahoo.com/economy/policy/articles/president-donald-trump-claims-tariffs-082602556.html
+
+Motley Fool | If I Could Only Buy and Hold 1 Dividend Stock Heading Into the Eye of a Stock Market Storm, This Would Be It
+https://finance.yahoo.com/markets/stocks/articles/could-only-buy-hold-1-081500431.html
+
+StockStory | 3 Reasons COO is risky and 1 stock to buy instead
+https://finance.yahoo.com/markets/stocks/articles/3-reasons-coo-risky-1-045129621.html
+
+StockStory | Mission Produce (AVO): buy, sell, or hold post Q2 earnings?
+https://finance.yahoo.com/markets/stocks/articles/mission-produce-avo-buy-sell-043529131.html
+
+Motley Fool | Why Merck Stock Flew Higher on Friday
+https://finance.yahoo.com/markets/stocks/articles/why-merck-stock-flew-higher-001827564.html
+
+Trefis | What Sent FTAI Aviation Stock Higher?
+https://finance.yahoo.com/markets/stocks/articles/sent-ftai-aviation-stock-higher-224254437.html
+
+Trefis | Was There Any Sign ADT Stock Would Run?
+https://finance.yahoo.com/markets/stocks/articles/sign-adt-stock-run-222559743.html
+
+Barrons.com | Okta Stock Can Find More Buyers as It Joins the S&P 500
+https://finance.yahoo.com/m/9caa5bbe-db77-33ed-aec8-9298712adc25/okta-stock-can-find-more.html
+
+Investing.com | Okta jumps after-hours following tapped inclusion in the S&P 500
+https://finance.yahoo.com/markets/stocks/articles/okta-jumps-hours-following-tapped-215908289.html
+
+PR Newswire | Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600
+https://finance.yahoo.com/markets/stocks/articles/okta-set-join-p-500-215100402.html
+
+Trefis | Did The Market Read AppLovin Stock Right?
+https://finance.yahoo.com/markets/stocks/articles/did-market-read-applovin-stock-214117967.html
+
+Motley Fool | SPDW vs VWO: Two International ETFs Face Off, but One Offers a Better Mix of Income and Growth for Long-Term Investors
+https://finance.yahoo.com/markets/stocks/articles/spdw-vs-vwo-two-international-213502631.html
+
+Motley Fool | A Tale of Two Energy ETFs: How EMLP and TAN Are Worlds Apart
+https://finance.yahoo.com/energy/articles/tale-two-energy-etfs-emlp-213501086.html
+
+CNN Business | Nasdaq suffers worst month in over a year as AI nerves roil markets
+https://finance.yahoo.com/markets/stocks/articles/wall-street-sell-off-continues-120803903.html
+
+The Wall Street Journal | Tech, Media & Telecom Roundup: Market Talk
+https://finance.yahoo.com/m/5ba2daa7-e9f4-38ba-a2ba-0f1b84efd4fa/tech%2C-media-%26-telecom.html
+
+Motley Fool | These 3 Big Risks Could Cause the Next Bear Market. I'm Investing Anyway.
+https://finance.yahoo.com/markets/stocks/articles/3-big-risks-could-cause-212200306.html
+
+Motley Fool | Prediction: This Will Be Palantir's Stock Price by the End of 2027
+https://finance.yahoo.com/markets/stocks/articles/prediction-palantirs-stock-price-end-235700267.html
+
+Simply Wall St. | 3 Low Risk Stocks With At Least 21% ROE
+https://finance.yahoo.com/markets/stocks/articles/3-low-risk-stocks-least-130955405.html
+
+TIKR | Palantir Called Q2 “Otherworldly.” Monday’s Report Has to Top a $2.18 Billion Consensus
+https://finance.yahoo.com/markets/stocks/articles/palantir-called-q2-otherworldly-monday-115314418.html
+
+Motley Fool | Michael Burry Is Still Short Palantir. Here's What Its Nov. 2 Report Has to Show.
+https://finance.yahoo.com/markets/stocks/articles/michael-burry-still-short-palantir-083701640.html
+
+Simply Wall St. | Palantir (PLTR) Stock Gets Fair Value Bump After Analysts Lift AI Driven Targets
+https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-stock-gets-fair-221856049.html
+
+GuruFocus.com | Palantir Stocks Decline 4.94% Before an 11.7% Sequential Revenue Growth Test
+https://finance.yahoo.com/markets/stocks/articles/palantir-stocks-decline-4-94-191343821.html
+
+Investor's Business Daily | Palantir Stock Tests Key Level As Earnings Loom
+https://finance.yahoo.com/m/7ce432a6-f7f1-373d-be60-33e2151bdcd4/palantir-stock-tests-key.html
+
+Zacks | Will Top-Line Improvement Benefit Palantir in Q3 Earnings?
+https://finance.yahoo.com/markets/stocks/articles/top-line-improvement-benefit-palantir-171100939.html
+
+Zacks | Should Palantir Stock Be in Your Portfolio Before Q3 Earnings?
+https://finance.yahoo.com/markets/stocks/articles/palantir-stock-portfolio-q3-earnings-165300648.html
+
+Motley Fool | Should You Buy Palantir Stock Before Nov. 2?
+https://finance.yahoo.com/markets/stocks/articles/buy-palantir-stock-nov-2-151500158.html
+
+24/7 Wall St. | Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%
+https://finance.yahoo.com/markets/stocks/articles/broadcom-falls-5-despite-da-145649063.html
+
+TIKR | Arm Is Up 99% in 2026: Take Profits, or Buy More?
+https://finance.yahoo.com/markets/stocks/articles/arm-99-2026-profits-buy-104806301.html
+
+Barchart | Nasdaq Futures Plummet as Disappointing Amazon and Intel Earnings Deepen Tech Rout
+https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-plummet-disappointing-amazon-103110269.html
+
+Barchart | Why Arm’s Q2 Earnings Could Spur a Recovery in Its Stock
+https://finance.yahoo.com/markets/stocks/articles/why-arm-q2-earnings-could-172533294.html
+
+Zacks | Coherent vs. Arm Holdings: Which Tech Stock Offers More Upside Now?
+https://finance.yahoo.com/markets/stocks/articles/coherent-vs-arm-holdings-tech-160500693.html
+
+Motley Fool | Arm vs. Western Digital: Which Tech Stock Is the Better Buy in November?
+https://finance.yahoo.com/markets/stocks/articles/arm-vs-western-digital-tech-145501508.html
+
+Investing.com | These 2 Chip Stocks Are Piper Sandler’s Top Picks Into 2027
+https://finance.yahoo.com/technology/articles/2-chip-stocks-piper-sandler-144408499.html
+
+TIKR | Qualcomm Just Dropped 13% in a Month. Is It Time to Sell, or Load Up?
+https://finance.yahoo.com/markets/stocks/articles/qualcomm-just-dropped-13-month-112344655.html
+
+Unchained | Oracle, IBM and Intel Have Opted Out of OKX-ICE Stock Tokens, Venue’s Own Notice Shows
+https://finance.yahoo.com/markets/crypto/articles/oracle-ibm-intel-opted-okx-100013966.html
+
+Simply Wall St. | Arm Holdings (ARM) Faces Jury Breach Ruling As It Unveils Server Security Tie Up
+https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-faces-jury-221537202.html
+
+TIKR | Marvell Stock Is Bouncing Back From a Near 9% Drop. Its COO Says It Has “All the Demand and the Supply” to Hit $20 Billion in Revenue Next Year
+https://finance.yahoo.com/markets/stocks/articles/marvell-stock-bouncing-back-near-204017326.html
+
+GuruFocus.com | Arm Stocks Rise 5.84% as Agentic AI Tests Its Silicon Expansion
+https://finance.yahoo.com/markets/stocks/articles/arm-stocks-rise-5-84-200830241.html
+
+24/7 Wall St. | Bulls Insist Arm’s Trio of Multipliers Justify Its Sky High Valuation
+https://finance.yahoo.com/markets/stocks/articles/bulls-insist-arm-trio-multipliers-124541668.html
+
+TIKR | Wells Fargo, Arm Holdings And Intuit Object To Stock Tokenization Trading Platform
+https://finance.yahoo.com/markets/stocks/articles/wells-fargo-arm-holdings-intuit-073830973.html
+
+Simply Wall St. | What Could PayPal Holdings (PYPL) Gain From Its New Creator Payout Push?
+https://finance.yahoo.com/markets/stocks/articles/could-paypal-holdings-pypl-gain-042347122.html
+
+StockStory | PYPL Q3 deep dive: diversification in financial services and Venmo offsets margin pressures
+https://finance.yahoo.com/markets/stocks/articles/pypl-q3-deep-dive-diversification-033129756.html
+
+International Business Times | Americans Are Buying Now And Paying Later More Often. Many Households Now Have Bills Topping $500 a Month.
+https://finance.yahoo.com/economy/articles/americans-buying-now-paying-later-190845136.html
+
+TIKR | Global Payments Soars 11% on Report of Potential $40 Billion Buyout
+https://finance.yahoo.com/markets/stocks/articles/global-payments-soars-11-report-185310036.html
+
+Zacks | 5 Financial Transaction Stocks to Watch Amid Cost and Inflation Pressure
+https://finance.yahoo.com/markets/stocks/articles/5-financial-transaction-stocks-watch-165200091.html
+
+StockStory | 3 low-volatility stocks we find risky
+https://finance.yahoo.com/markets/stocks/articles/3-low-volatility-stocks-risky-145929172.html
+
+Trefis | What Could PayPal Stock Be Worth In Three Years?
+https://finance.yahoo.com/markets/stocks/articles/could-paypal-stock-worth-three-123225395.html
+
+StockStory | The 5 most interesting analyst questions from PayPal’s Q3 earnings call
+https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-121929532.html
+
+Insider Monkey | BILL Holdings (BILL) vs. INTU and PYPL: Can Its Financial Workflow Platform Become a Long-Term Compounder?
+https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-vs-intu-171956676.html
+
+Investing.com | Barclays lowers PayPal stock to Underweight on slowing fundamentals
+https://finance.yahoo.com/markets/stocks/articles/barclays-lowers-paypal-stock-underweight-135028587.html
+
+The Fly | Alphabet downgraded, eBay upgraded: Wall Street's top analyst calls
+https://finance.yahoo.com/markets/stocks/articles/alphabet-downgraded-ebay-upgraded-wall-134755938.html
+
+StockStory | 2 profitable stocks on our watchlist and 1 we question
+https://finance.yahoo.com/markets/stocks/articles/2-profitable-stocks-watchlist-1-105925395.html
+
+MT Newswires | Barclays Downgrades PayPal to Underweight From Equalweight, Price Target is $53
+https://finance.yahoo.com/markets/stocks/articles/barclays-downgrades-paypal-underweight-equalweight-094344894.html
+
+Motley Fool | Is PayPal Stock a Value or a Value Trap?
+https://finance.yahoo.com/markets/stocks/articles/paypal-stock-value-value-trap-090500396.html
+
+Motley Fool | I Graded Microsoft's Latest Report on 3 Things. Here's My Verdict on the Stock.
+https://finance.yahoo.com/markets/stocks/articles/graded-microsofts-latest-report-3-014601589.html
+
+Simply Wall St. | Microsoft (MSFT) Lands $25 Billion Bond Deal As AI Push Deepens
+https://finance.yahoo.com/technology/ai/articles/microsoft-msft-lands-25-billion-011021686.html
+
+TheStreet | Microsoft just gave Nvidia shareholders a reason to pay attention
+https://finance.yahoo.com/markets/stocks/articles/microsoft-just-gave-nvidia-shareholders-193700527.html
+
+StockStory | 5 insightful analyst questions from Microsoft’s Q3 earnings call
+https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-microsoft-182729596.html
+
+24/7 Wall St. | Microsoft Offers Voluntary Exits to 60,000 Workers. After 37 Years, He Risks Losing a 401(k) Tax Break With One IRA Rollover
+https://finance.yahoo.com/markets/options/articles/microsoft-offers-voluntary-exits-60-133351629.html
+
+Simply Wall St. | Volkswagen (XTRA:VOW3) Puts New Vehicle Software And AV Data Partnerships To Work
+https://finance.yahoo.com/technology/articles/volkswagen-xtra-vow3-puts-vehicle-100801350.html
+
+Barchart | Qualcomm Is Teaming Up With Anduril to Produce U.S.-Made Laptops. Don’t Expect It to Move the Needle for QCOM Stock.
+https://finance.yahoo.com/technology/articles/qualcomm-teaming-anduril-produce-u-214454685.html
+
+Trefis | Can Marvell Stock Hit $310?
+https://finance.yahoo.com/markets/stocks/articles/marvell-stock-hit-310-143525243.html
+
+Trefis | Can You Make Money Off NVIDIA Stock Now?
+https://finance.yahoo.com/markets/stocks/articles/money-off-nvidia-stock-now-134203577.html
+
+Trefis | Is Broadcom Stock Priced Right Against Its Peers?
+https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-priced-against-peers-133953972.html
+
+Zacks | Curious about Qualcomm (QCOM) Q4 Performance? Explore Wall Street Estimates for Key Metrics
+https://finance.yahoo.com/markets/stocks/articles/curious-qualcomm-qcom-q4-performance-121507387.html
+
+Trefis | Management Set A Higher Bar For Micron Stock; Does The Chart Agree?
+https://finance.yahoo.com/markets/stocks/articles/management-set-higher-bar-micron-111602118.html
+
+GuruFocus.com | Avantis U.S. Large Cap Value ETF (AVLV) Buys $26.5 Million More Sandisk on Wednesday
+https://finance.yahoo.com/markets/stocks/articles/avantis-u-large-cap-value-110414956.html
+
+Preview US Finance | [PREVIEW] AI is taking on more. How will it be powered?
+https://finance.yahoo.com/news/preview-ai-is-taking-on-more-how-will-it-be-powered-202855227.html
+
+Insider Monkey | QUALCOMM (QCOM) Offers AI, Automotive, and Edge-Computing Growth Potential, Ariel Global Fund Says
+https://finance.yahoo.com/technology/ai/articles/qualcomm-qcom-offers-ai-automotive-165510772.html
+
+GuruFocus.com | Analyst Drops Sharp Take on Fed Rate Hikes
+https://finance.yahoo.com/economy/policy/articles/analyst-drops-sharp-fed-rate-183724596.html
+
+24/7 Wall St. | Critical Metals Sinks 11% as European Lithium Deal Nears New Share Issuance; USA Rare Earth Tumbles 10%, MP Materials Falls 6%
+https://finance.yahoo.com/markets/stocks/articles/critical-metals-sinks-11-european-180824555.html
+
+24/7 Wall St. | FuelCell Energy Sinks 12% Despite Completing $49 Million Export-Import Bank Financing; Bloom Energy Tumbles 10%, Plug Power Falls 4%
+https://finance.yahoo.com/markets/stocks/articles/fuelcell-energy-sinks-12-despite-180454738.html
+
+MT Newswires | Exchange-Traded Funds Lower as US Equities Decline After Midday Friday
+https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html
+
+24/7 Wall St. | Intel’s Earnings Fallout Is Hitting Your Index Funds Too
+https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html
+
+TIKR | Spotify Gains 6% on Early 2027 AI Remix Launch Plan and Price Hikes of “$4 to $5 a Month”
+https://finance.yahoo.com/technology/ai/articles/spotify-gains-6-early-2027-153529494.html
+
+24/7 Wall St. | Own an S&P 500 Fund? Reddit’s Slide Affects You More Than You Think
+https://finance.yahoo.com/markets/stocks/articles/own-p-500-fund-reddit-153339028.html
+
+24/7 Wall St. | This Little-Known ETF Owns QQQ’s Stocks Without the Big Bet on Nvidia
+https://finance.yahoo.com/markets/stocks/articles/little-known-etf-owns-qqq-151446394.html
+
+MT Newswires | Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday Amid Steep Tech Decline
+https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131734005.html
+
+24/7 Wall St. | Amazon Slides 7% as Earnings Miss and AI Spending Turn Free Cash Flow Negative; Meta Falls 2%, Alphabet Dips, Walmart Gains 2%
+https://finance.yahoo.com/markets/stocks/articles/amazon-slides-7-earnings-miss-131202716.html
+
+GuruFocus.com | Invesco QQQ (QQQ) Buys $346.4 Million More NVIDIA on Oct. 28
+https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-buys-346-110343919.html
+
+GuruFocus.com | ETFs Bought $106.4 Million of Palo Alto Networks (PANW) on Oct. 28
+https://finance.yahoo.com/markets/stocks/articles/etfs-bought-106-4-million-110210345.html
+
+GuruFocus.com | ETFs Bought $108.7 Million of SpaceX (SPCX) on Wednesday
+https://finance.yahoo.com/markets/stocks/articles/etfs-bought-108-7-million-110206901.html
+
+Stocktwits | Bitcoin Looks Like A 'Relative Dud' Against Gold And US Treasuries, Says Bloomberg's Mike McGlone
+https://finance.yahoo.com/markets/crypto/articles/bitcoin-looks-relative-dud-against-164921773.html
+
+BeInCrypto | Investors Pull $643 Million From Bitcoin ETFs After the Biggest Crypto Hack in History
+https://finance.yahoo.com/markets/crypto/articles/investors-pull-643-million-bitcoin-112943098.html
+
+24/7 Wall St. | Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?
+https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-today-btc-fell-145319074.html
+
+Associated Press | BC-Most Active Stocks
+https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143026463.html
+
+24/7 Wall St. | Franklin Templeton Just Launched ETFs That Turn Stock Dividends Into Bitcoin. Is That a Smarter Way to Own BTC?
+https://finance.yahoo.com/markets/crypto/articles/franklin-templeton-just-launched-etfs-210332077.html
+
+Motley Fool | 3 Reasons Why Bitcoin Is Worth Buying Right Now
+https://finance.yahoo.com/markets/crypto/articles/3-reasons-why-bitcoin-worth-232900539.html
+
+24/7 Wall St. | Bitcoin Fell Five Days in a Row While Nearly 15,000 BTC Left Exchanges. Is a Bounce Coming?
+https://finance.yahoo.com/markets/crypto/articles/bitcoin-fell-five-days-row-223737304.html
+
+etf.com | The ETF Industry Is About to Get Weird
+https://finance.yahoo.com/markets/options/articles/etf-industry-weird-173435817.html
+
+Barrons.com | The Rise of the New Actively Managed Crypto ETFs
+https://finance.yahoo.com/m/6023ee77-e633-36fd-9bea-09f345902aa4/the-rise-of-the-new-actively.html
+
+24/7 Wall St. | Hyperliquid’s Biggest Traders Are Shorting Bitcoin for the First Time Since March. Could BTC Drop Below $75,000?
+https://finance.yahoo.com/markets/crypto/articles/hyperliquid-biggest-traders-shorting-bitcoin-221947426.html
+
+CCN | Tom Lee Sees ‘One of the Biggest Rallies of Our Lifetime’ as $10.8B Bitcoin Options Expiry Looms
+https://finance.yahoo.com/markets/crypto/articles/tom-lee-sees-one-biggest-123215921.html
+
+Motley Fool | BlackRock Just Announced a New Bitcoin ETF. Should You Buy it?
+https://finance.yahoo.com/markets/crypto/articles/blackrock-just-announced-bitcoin-etf-102500453.html
+
+99bitcoins | Bitcoin ETFs Own Just 8.5% of BTC as IBIT Ends a Two-Day Outflow Run: Can BTC USD Hold $79,200?
+https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-own-just-8-084359650.html
+
+Motley Fool | Do Bitcoin ETF Flows Really Predict Future Bitcoin Price Moves? This New Research Has Important Implications for BTC Investors.
+https://finance.yahoo.com/markets/crypto/articles/bitcoin-etf-flows-really-predict-030700297.html
+
+Barchart | What to Expect From AMD’s Q3 Earnings
+https://finance.yahoo.com/markets/stocks/articles/expect-amd-q3-earnings-130003415.html
+
+Motley Fool | Prediction: 2 Under $1 Trillion Stocks That Will Be Worth More Than Micron 5 Years From Now
+https://finance.yahoo.com/markets/stocks/articles/prediction-2-under-1-trillion-062000759.html
+
+24/7 Wall St. | Cathie Wood Shifts From AI Chips to Robinhood and Air Taxis in Latest ARK Trades
+https://finance.yahoo.com/markets/stocks/articles/cathie-wood-shifts-ai-chips-230947279.html
+
+Barrons.com | Big Homes, Big Loans
+https://finance.yahoo.com/m/9aa518a9-bace-3e02-a215-82b14364d8d4/big-homes%2C-big-loans.html
+
+Motley Fool | Stock Market Today, Oct. 30: Intel Plunges Nearly 29% as Weak Outlook Rattles Wall Street
+https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-30-212002526.html
+
+TIKR | Former SEC Chair: Broadcom’s $63 Billion Package Feels Like “That 08 Off-Balance Sheet Craze”
+https://finance.yahoo.com/markets/stocks/articles/former-sec-chair-broadcom-63-205216871.html
+
+Reuters | Wall Street closes sharply lower as AI cash burn fears spark tech selloff
+https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html
+
+Investor's Business Daily | Chip Stocks Plunge After Intel's Q4 Warning
+https://finance.yahoo.com/m/219d84e6-8bed-3b3e-8c50-2e085c192b16/chip-stocks-plunge-after.html
+
+ACCESS Newswire | Raydyn, Inc. Publishes Early Reliability Metrics for Satya, an Attention-Continuity Interface Built on Felt Intelligence
+https://finance.yahoo.com/technology/ai/articles/raydyn-inc-publishes-early-reliability-031500646.html
+
+Barrons.com | Gold Is Not Acting Like a Safe Haven Asset—These Stocks Are
+https://finance.yahoo.com/m/a08bee86-3503-3a1c-84ff-13a8be12adbc/gold-is-not-acting-like-a.html
+
+Schaeffer's Investment Research | How Varying VIX Ranges Can Impact SPY Returns
+https://finance.yahoo.com/markets/options/articles/varying-vix-ranges-impact-returns-120006948.html
+
+Simply Wall St. | Australian Stock Market Today: ASX Futures Slip As Traders Eye Fed And CPI
+https://finance.yahoo.com/markets/stocks/articles/australian-stock-market-today-asx-210945843.html
+
+MT Newswires | Update: US Equity Indexes Mixed as Investors Rotate From AI Trade to Government Bonds; Crude Oil Surges
+https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-211833642.html
+
+MT Newswires | Update: US Equity Indexes Retreat as AI Trade Falters, Crude Oil Surges Amid Iran's Invasion Warning to Mid-East Neighbors
+https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-ai-195251093.html
+
+MT Newswires | Update: US Equity Indexes Drop as AI Trade Loses Shine After Meta's Results While Crude Oil Jumps as Iran Warns of Invasion
+https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-ai-174130917.html
+
+Zacks | Don't Get Spooked: Stocks Could Still Soar in Q4
+https://finance.yahoo.com/markets/stocks/articles/dont-spooked-stocks-could-still-130800326.html
+
+Zacks | 5 Top-Performing ETF Areas of Last Week
+https://finance.yahoo.com/markets/stocks/articles/5-top-performing-etf-areas-120000254.html
+
+Investing.com | Dow Jones, Nasdaq, S&P 500 preview: All eyes on Meta, Tesla, SpaceX earnings
+https://finance.yahoo.com/markets/stocks/articles/dow-jones-nasdaq-p-500-112417890.html
+
+BeInCrypto | Tom Lee Says Last Week's Stock Selloff Sets Up a Buy in Crypto, Semis
+https://finance.yahoo.com/markets/crypto/articles/tom-lee-says-last-weeks-055500464.html
+
+Bloomberg | US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap
+https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-ahead-220725997.html
+
+Barrons.com | Nasdaq Suffers Worst Week Since June. AI Fears Are Shaking Markets.
+https://finance.yahoo.com/m/b02b5386-7105-3fa7-98c4-4b9a5802ac58/nasdaq-suffers-worst-week.html
+
+Barrons.com | Wall Street’s Fear Gauge Flashes Red as Stocks Tumble, Oil Surges, and Tech Reels
+https://finance.yahoo.com/m/dfedd9ee-a683-3b39-bb56-71b9086f7021/wall-street%E2%80%99s-fear-gauge.html
+
+Barchart | Why Dumping Uber Stock Before Q3 Earnings May Not Be the Smartest Move
+https://finance.yahoo.com/markets/stocks/articles/why-dumping-uber-stock-q3-224427583.html
+
+Yahoo Personal Finance | Amex Platinum's $600 hotel credit now comes with a catch starting in 2027
+https://finance.yahoo.com/personal-finance/credit-cards/article/amex-platinums-benefits-updates-2027-181143354.html
+
+Simply Wall St. | How New Rules And Robotaxi Pressure At Uber Technologies (UBER) Has Changed Its Investment Story
+https://finance.yahoo.com/markets/stocks/articles/rules-robotaxi-pressure-uber-technologies-171443609.html
+
+Barchart | UBER Stock: Here’s What to Expect From Uber's Q3 Earnings Report
+https://finance.yahoo.com/markets/stocks/articles/uber-stock-expect-ubers-q3-152155585.html
+
+Grocery Dive | The Friday Checkout: Instacart dashes toward the exit
+https://finance.yahoo.com/small-business/articles/friday-checkout-instacart-dashes-toward-150200012.html
+
+TIKR | Rivian Soars 4% on R2-Driven Beat and Raised Guidance, CEO “Very Confident” on Uber Milestone
+https://finance.yahoo.com/markets/stocks/articles/rivian-soars-4-r2-driven-133621790.html
+
+Zacks | Ahead of Uber (UBER) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics
+https://finance.yahoo.com/markets/stocks/articles/ahead-uber-uber-q3-earnings-121505723.html
+
+Zacks | Uber Technologies, Inc. (UBER) Is a Trending Stock: Facts to Know Before Betting on It
+https://finance.yahoo.com/markets/stocks/articles/uber-technologies-inc-uber-trending-120004355.html
+
+TIKR | Uber Slips 21% This Year as DoorDash Wins the $17 Billion Instacart Deal
+https://finance.yahoo.com/markets/stocks/articles/uber-slips-21-doordash-wins-105753966.html
+
+InvestorsHub | Why Is Rivian Automotive Stock Surging 7.2% Today?
+https://finance.yahoo.com/markets/stocks/articles/why-rivian-automotive-stock-surging-104640200.html
+
+Zacks | The Zacks Analyst Blog Highlights Uber, WeRide and Costco
+https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-uber-101700158.html
+
+Retail Insight Network | Walmart and Target face FTC inquiry over dynamic pricing and worker pay
+https://finance.yahoo.com/news/walmart-target-face-ftc-inquiry-100138096.html
+
+The Daily Upside | DoorDash Puts a $17 Billion Price Tag on Instacart
+https://finance.yahoo.com/markets/stocks/articles/doordash-puts-17-billion-price-040100035.html
+
+MarketBeat | What Rivian Automotive (RIVN) Said on Its Q3 Earnings Call
+https://finance.yahoo.com/markets/stocks/articles/rivian-automotive-rivn-said-q3-011406782.html
+
+Yahoo Finance | Apple is taking Wall Street's top spot back from Nvidia — for the fifth time
+https://finance.yahoo.com/markets/article/apple-is-taking-wall-streets-top-spot-back-from-nvidia--for-the-fifth-time-142810503.html
+
+Motley Fool | Is Apple a Top Tech Stock to Buy Now?
+https://finance.yahoo.com/markets/stocks/articles/apple-top-tech-stock-buy-175000874.html
+
+TheStreet | MKBHD drops a blunt verdict on Apple's touchscreen MacBook Pro
+https://finance.yahoo.com/technology/articles/mkbhd-drops-blunt-verdict-apples-151700098.html
+
+TheStreet | Jim Cramer flags Netflix's 'biggest problem,' and it isn't price
+https://finance.yahoo.com/markets/stocks/articles/jim-cramer-flags-netflixs-biggest-143700114.html
+
+24/7 Wall St. | Texas Instruments Has Raised Its Dividend for 23 Years. Here Are 3 More Tech Income Stocks
+https://finance.yahoo.com/markets/stocks/articles/texas-instruments-raised-dividend-23-124736910.html
+
+Simply Wall St. | What Apple Doubters Got Wrong
+https://finance.yahoo.com/markets/stocks/articles/apple-doubters-got-wrong-080821562.html
+
+Stocktwits | Apple’s Biggest Threat Isn’t Android — It’s AAPL's Own Devices, Analyst Says Ahead Of Q4 Earnings
+https://finance.yahoo.com/markets/stocks/articles/apple-biggest-threat-isn-t-071507277.html
+
+Trefis | What Are Dell Investors Betting On?
+https://finance.yahoo.com/markets/stocks/articles/dell-investors-betting-223337133.html
+
+24/7 Wall St. | Housing and Food Now Take Nearly Half of What Americans Spend, the Most in 15 Years
+https://finance.yahoo.com/real-estate/articles/housing-food-now-nearly-half-152653814.html
+
+24/7 Wall St. | Two Fed Officials Just Called for More Rate Hikes, Starting Soon
+https://finance.yahoo.com/economy/policy/articles/two-fed-officials-just-called-142756281.html
+
+24/7 Wall St. | Investors Have Poured a Record $2.24 Trillion Into ETFs This Year. Three Firms Collected Nearly Half of It
+https://finance.yahoo.com/markets/stocks/articles/investors-poured-record-2-24-000347530.html
+
+etf.com | 5,500 ETFs and Counting: Where the Market Goes Next
+https://finance.yahoo.com/markets/stocks/articles/5-500-etfs-counting-where-203901351.html
+
+24/7 Wall St. | 8 Months Ago, A Major Wall Street Bank Said Buy Marvell. It’s Up More Than 150%. Here’s Where We See the Stock Going
+https://finance.yahoo.com/markets/stocks/articles/8-months-ago-major-wall-201736681.html
+
+24/7 Wall St. | $1,000 in UPS Stock 10 Years Ago: Did the Dividends Offset the Decline?
+https://finance.yahoo.com/markets/stocks/articles/1-000-ups-stock-10-191724722.html
+
+24/7 Wall St. | They Called This Stock a Winner in the AI Coding Boom. A Year Later, It’s Up 94%.
+https://finance.yahoo.com/markets/stocks/articles/called-stock-winner-ai-coding-164921139.html
+
+Benzinga | Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'
+https://finance.yahoo.com/technology/ai/articles/tom-lee-sees-big-beats-133007421.html
+
+24/7 Wall St. | Sandisk Sinks 9% Despite Earnings Beat, Raised Guidance and 8-for-1 Split; Western Digital Tumbles 8%, Seagate Slides 7%, Micron Falls 6%
+https://finance.yahoo.com/markets/stocks/articles/sandisk-sinks-9-despite-earnings-131724006.html
+
+24/7 Wall St. | Intel Dropped 20% Over The Last Month: This Pro Analyst Says It’s Going to Gain 70% Soon
+https://finance.yahoo.com/markets/stocks/articles/intel-dropped-20-over-last-124559573.html
+
+24/7 Wall St. | Broadcom’s $63B Anthropic Deal Could Be The One That Finally Gets it Into Gear
+https://finance.yahoo.com/markets/stocks/articles/broadcom-63b-anthropic-deal-could-111557230.html
+
+GuruFocus.com | SPDR S&P 500 ETF (SPY) Buys $105.5 Million More NVIDIA on Oct. 28
+https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110356029.html

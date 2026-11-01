@@ -1,0 +1,130 @@
+{
+  "finance": {
+    "result": {
+      "economicEvents": [
+        {
+          "timestamp": 1793941200000,
+          "timestampString": "2026-11-06",
+          "timezone": "America/New_York",
+          "count": 13,
+          "totalCount": 13,
+          "records": [
+            {
+              "economicEvents": true,
+              "event": "Consumer Credit*",
+              "countryCode": "US",
+              "eventTime": 1793995200000,
+              "period": "Sep",
+              "prior": "8.28",
+              "description": "Covers most short- and intermediate-term credit extended to individuals, excluding loans secured by real estate. "
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich 5-Yr Inf Prelim",
+              "countryCode": "US",
+              "eventTime": 1793977200000,
+              "period": "Nov",
+              "prior": "3.5"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich Sentiment Prelim",
+              "countryCode": "US",
+              "eventTime": 1793977200000,
+              "period": "Nov",
+              "prior": "48"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich Expectations Prelim",
+              "countryCode": "US",
+              "eventTime": 1793977200000,
+              "period": "Nov",
+              "prior": "48.8"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich Conditions Prelim",
+              "countryCode": "US",
+              "eventTime": 1793977200000,
+              "period": "Nov",
+              "prior": "46.7"
+            },
+            {
+              "economicEvents": true,
+              "event": "U Mich 1Yr Inf Prelim",
+              "countryCode": "US",
+              "eventTime": 1793977200000,
+              "period": "Nov",
+              "prior": "4.7"
+            },
+            {
+              "economicEvents": true,
+              "event": "Unemployment Rate",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "4.2",
+              "description": "The unemployment rate represents the number of unemployed persons expressed as a percentage of the labour force. The unemployment rate for a particular age/sex group is the number of unemployed in that group expressed as a percentage of the labour force for that group. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Private Payrolls",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "46",
+              "description": " Employment is the total number of persons above a specified age, who in a short reference period (e.g. a week or a day), were in paid employment or self-employment. Paid employment includes persons who worked in the reference period or who had a job but were temporarily absent from work. Self-employment includes persons who either worked in the reference period or were temporarily absent from work. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Non-Farm Payrolls",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "29",
+              "description": "Employees on Nonagricultural Payrolls measures the number people employed in all activities except agriculture.Employment data, except those for the Federal Government, refer to persons on establishment payrolls who received pay for any part of the pay period which includes the 12th of the month. For Federal Government establishments,employment figures represent the number of persons who occupied positions on the last day of the calendar month. Intermittent workers are counted if they performed any service during the month. The data exclude proprietors, the self-employed, unpaid volunteer or family workers, farm workers, and domestic workers. Salaried officers of corporations are included. Government employment covers only civilian employees; military personnel are excluded. Employees of the Central Intelligence Agency and the National Security Agency also are excluded. Persons on establishment payrolls who are on paid sick leave (when pay is received directly from the firm), on paid holiday, on paid vacation, or work during a part of the pay period even though they are unemployed or on strike during the rest of the period are counted as employed. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Average Earnings MM",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "0.1",
+              "description": "Average hourly earnings reflect not only changes in basic hourly and incentive wage rates but also such variable factors as premium pay for overtime and late- shift work and changes in input of workers paid on incentive plan. They also reflect shifts in the number of employees between relatively high-paid and low- paid work and changes in workers_ earnings in individual establishments. Averages of hourly earnings differ from wage rates. Earnings are the actual return to the worker for a stated period of time; rates are the amount stipulated for a given unit of work time. The earnings series do not measure the level of total labor costs on the part of the employer since the following are excluded: Irregular bonuses, retroactive items, payments of various welfare benefits, payroll taxes paid by employers, and earnings for those employees not covered under production worker, construction worker, or nonsupervisory employee definitions. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Government Payrolls",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "-17",
+              "description": " In a company, payroll is the sum of all financial records of salaries for an employee, wages, bonuses and deductions. In accounting, payroll refers to the amount paid to employees for services they provided during a certain period of time. Payroll plays a major role in a company for several reasons. From an accounting point of view, payroll is crucial because payroll and payroll taxes considerably affect the net income of most companies and they are subject to laws and regulations (e.g. in the US payroll is subject to federal and state regulations). From an ethics in business viewpoint payroll is a critical department as employees are responsive to payroll errors and irregularities: good employee morale requires payroll to be paid timely and accurately. The primary mission of the payroll department is to ensure that all employees are paid accurately and timely with the correct withholdings and deductions, and to ensure the withholdings and deductions are remitted in a timely manner. This includes salary payments, tax withholdings, and deductions from a paycheck. "
+            },
+            {
+              "economicEvents": true,
+              "event": "Manufacturing Payrolls",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "9",
+              "description": "Employment data, except those for the Federal Government, refer to persons on establishment payrolls who received pay for any part of the pay period which includes the 12th of the month. For Federal Government establishments, employment figures represent the number of persons who occupied positions on the last day of the calendar month. Intermittent workers are counted if they performed any service during the month.The data exclude proprietors, the self-employed, unpaid volunteer or family workers, farm workers, and domestic workers. Salaried officers of corporations are included. Government employment covers only civilian employees; military personnel are excluded. Employees of the Central Intelligence Agency and the National Security Agency also are excluded.Persons on establishment payrolls who are on paid sick leave (when pay is received directly from the firm), on paid holiday, on paid vacation, or work during a part of the pay period even though they are unemployed or on strike during the rest of the period are counted as employed. Not counted as employed are persons who are on layoff, on leave without pay, on strike for the entire period, or who were hired but have not yet reported during "
+            },
+            {
+              "economicEvents": true,
+              "event": "Average Workweek Hrs",
+              "countryCode": "US",
+              "eventTime": 1793971800000,
+              "period": "Oct",
+              "prior": "34.4",
+              "description": "The workweek information relates to average hours for which pay was received and is different from standard or scheduled hours. Such factors as unpaid absenteeism, labor turnover, part-time work, and stoppages cause average weekly hours to be lower than scheduled hours of work for an establishment. "
+            }
+          ]
+        }
+      ]
+    },
+    "error": null
+  }
+}

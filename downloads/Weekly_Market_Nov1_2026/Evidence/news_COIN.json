@@ -1,0 +1,555 @@
+{
+  "explains": [],
+  "count": 23,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Coinbase Global, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "COIN",
+      "index": "quotes",
+      "score": 53355000.0,
+      "typeDisp": "Equity",
+      "longname": "Coinbase Global, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Financial Services",
+      "industry": "Financial Data & Stock Exchanges",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long COIN Dail",
+      "quoteType": "ETF",
+      "symbol": "CONL",
+      "index": "quotes",
+      "score": 26245.0,
+      "typeDisp": "ETF",
+      "longname": "GraniteShares 2x Long COIN Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax COIN Option Income Str",
+      "quoteType": "ETF",
+      "symbol": "CONY",
+      "index": "quotes",
+      "score": 21501.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax COIN Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "CoinShares Bitcoin Mining and D",
+      "quoteType": "ETF",
+      "symbol": "WGMI",
+      "index": "quotes",
+      "score": 20640.0,
+      "typeDisp": "ETF",
+      "longname": "CoinShares Bitcoin Mining and Digital Power ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Short COIN Dai",
+      "quoteType": "ETF",
+      "symbol": "CONI",
+      "index": "quotes",
+      "score": 20407.0,
+      "typeDisp": "ETF",
+      "longname": "GraniteShares 2x Short COIN Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Roundhill COIN WeeklyPay ETF",
+      "quoteType": "ETF",
+      "symbol": "COIW",
+      "index": "quotes",
+      "score": 20400.0,
+      "typeDisp": "ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax Short COIN Option Inco",
+      "quoteType": "ETF",
+      "symbol": "FIAT",
+      "index": "quotes",
+      "score": 20259.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax Short COIN Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "e2a39849-2192-3605-9246-c99224f7c9c7",
+      "title": "The SEC Chair Says Most Crypto Assets Are Not Securities. What Does That Mean for XRP After Its 5-Year Fight?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/sec-chair-says-most-crypto-202727583.html",
+      "providerPublishTime": 1793478447,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/10dbca7af9f20dbfe0d45323cfc85576.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C244BBAF8A91DEDBA58F467D965FA8026662725AC609C515F9A72672A6784984/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F10dbca7af9f20dbfe0d45323cfc85576.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XRP-USD",
+        "SOFI",
+        "BK",
+        "COIN",
+        "CRCL",
+        "HOOD"
+      ]
+    },
+    {
+      "uuid": "c203ba9d-f484-3d23-8be3-23286794c2c6",
+      "title": "Why Coinbase (COIN) shares are falling today",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/why-coinbase-coin-shares-falling-153129126.html",
+      "providerPublishTime": 1793460689,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/733dd65c84ea4a3d27418a89e99ebea2.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/91F8F8E91F062B14913B7EF18D60CB020AF06E25DDBA8D16C99378224142CD19/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F733dd65c84ea4a3d27418a89e99ebea2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "7890b131-3fd1-3f1b-8b7e-d76c69c41c3d",
+      "title": "Circle Sinks 12% in a Week After Binance Hack: \u201cWe Have Frozen More Than 800M USDC\u201d",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/circle-sinks-12-week-binance-151214565.html",
+      "providerPublishTime": 1793459534,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/70cb0c37785322265158251c55764234",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3F3989F4CAA5BB156C0EDF5AAC2818EA18D6B7682A1B31ED059F0422FD98B1CB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F70cb0c37785322265158251c55764234",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CRCL",
+        "USDC-USD",
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "6e3bc04a-81a4-3d2c-813e-29dd0d43c602",
+      "title": "Strategy Sinks 11% in a Week on Binance Hack, CFO Exit: \u201cReturning STRC to Health\u201d",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-sinks-11-week-binance-134936666.html",
+      "providerPublishTime": 1793454576,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/9e38f17c0901039188c56e430e9fed28",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A4510119DD67DC640212F87FFB14D8669825D3762F8BFDC305C2833E36251467/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F9e38f17c0901039188c56e430e9fed28",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSTR",
+        "BTC-USD",
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "6cd7d231-d796-3b13-a351-900ee35168e5",
+      "title": "Coinbase Slips 11% as a $6.3 Billion Binance Heist Rattles Crypto Stocks",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-slips-11-6-3-133816773.html",
+      "providerPublishTime": 1793453896,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/eedbca247df4b77cbabec65c8c99e2d4",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F5527970002166ABFF5FE9C51637C0128B6C101E19CCFF6D262E35B8B76DF7C2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2Feedbca247df4b77cbabec65c8c99e2d4",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "4cf90ad7-62c6-32d5-b075-e2600c3dbb32",
+      "title": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+      "publisher": "Financial Times",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-exchanges-rush-tighten-security-103818914.html",
+      "providerPublishTime": 1793443098,
+      "type": "STORY",
+      "relatedTickers": [
+        "KRAK.PVT",
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "8c80a975-8fc8-36b1-9ac5-8690a57cc1e6",
+      "title": "Circle Stock Fell 9% in a Day as the Binance Hack Hit Crypto Stocks. Here\u2019s Where the Stock Could Go by 2030",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/circle-stock-fell-9-day-064736494.html",
+      "providerPublishTime": 1793429256,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/1a0a7e4c10433e3135dc97cdbdeaa530",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/23AA413ACC638334E19E55EA866549D842B035112766667387B3341AAFAF20F9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F1a0a7e4c10433e3135dc97cdbdeaa530",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CRCL",
+        "USDC-USD",
+        "^IXIC",
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "0c08e606-62dd-3117-8796-d9666a8ece10",
+      "title": "Crypto ETFs Already Go Far Beyond Bitcoin. The SEC Wants to Know If Its Rules Have Kept Up",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-etfs-already-far-beyond-013300136.html",
+      "providerPublishTime": 1793410380,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/2c8b37bc65a3e8323a2ba95347c32475.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/201F10A9A0C12BCAA6C74A1621FA727694D1D93283DB737CCC02B6E77EF04E47/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F2c8b37bc65a3e8323a2ba95347c32475.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "ETH-USD",
+        "SOL-USD",
+        "XRP-USD",
+        "SOFI",
+        "BLK",
+        "CME",
+        "COIN",
+        "CRCL",
+        "GLXY",
+        "AVAX-USD",
+        "DOGE-USD",
+        "LINK-USD",
+        "SUI-USD",
+        "ZCASH-USD"
+      ]
+    },
+    {
+      "uuid": "ef623dc8-3989-31b5-9075-2f47b0b33cab",
+      "title": "Coinbase and Kraken Ramp Up Security After Massive Binance Hack",
+      "publisher": "CryptoProwl",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-kraken-ramp-security-massive-004600667.html",
+      "providerPublishTime": 1793407560,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cryptoprowl_304/42a22bfdd01238e087141ba6a305d7ac.jpg",
+            "width": 1000,
+            "height": 600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8FDFDCF7F2603EDC7D3717B4565C1C4A453B889CE45043C8FC05D616CD48C48D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptoprowl_304%2F42a22bfdd01238e087141ba6a305d7ac.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN",
+        "KRAK.PVT",
+        "BEN",
+        "CRCL",
+        "TSLA",
+        "SPCX"
+      ]
+    },
+    {
+      "uuid": "24e71631-326c-396d-b4e3-8b7cccdc898c",
+      "title": "7 Banks Change Their Coinbase Stock Price Targets After Q3 Earnings",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/7-banks-change-coinbase-stock-004455508.html",
+      "providerPublishTime": 1793407495,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/beincrypto_us_662/5aaf1d82eeaa56ec85339e68ecdc0844.jpg",
+            "width": 5120,
+            "height": 2880,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1419B3DA7A2423BAF8F96DE75924613EDDDBDF1B41887C9702AD665CA9CCDA7A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F5aaf1d82eeaa56ec85339e68ecdc0844.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN"
+      ]
+    },
+    {
+      "uuid": "3201d4a7-012e-3741-bbf1-e14ebd960286",
+      "title": "Crypto exchanges call for quick moves to bolster defenses after Binance heist",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/news/crypto-exchanges-call-quick-moves-002558558.html",
+      "providerPublishTime": 1793406548,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/c1698d02c114b963ece748fced3db300.jpg",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0E40D50C5FE3423E68091DB4FFCEA58DF5E64C5B4687E96D9D8E97F7B03C4650/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Fc1698d02c114b963ece748fced3db300.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN",
+        "KRAK.PVT"
+      ]
+    },
+    {
+      "uuid": "a092b00f-587b-313e-8aff-43e3ed8b1303",
+      "title": "Stocktwits Fintech Pulse: US Fintech Weekly Briefing & Market Drivers",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-fintech-pulse-us-fintech-000208099.html",
+      "providerPublishTime": 1793404928,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/bf41f0233726dc4080bcc5d601803230",
+            "width": 1000,
+            "height": 750,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7653E2EFEEA63A1F0927479C0F9E311AB75A40A9DCEFEBBA1E10151BFA18883D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fbf41f0233726dc4080bcc5d601803230",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MA",
+        "SOFI",
+        "COIN",
+        "HOOD35566-USD",
+        "V",
+        "PYPL"
+      ]
+    },
+    {
+      "uuid": "fc04fddc-b43e-3263-8902-d7289003c093",
+      "title": "Binance seeks to shore up confidence after record $6.3 billion heist",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html",
+      "providerPublishTime": 1793397607,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/0d8b84e20dd3e379fb1cfa6f44d64c71.jpg",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/43551BA983CC18E84B6AD0A3D4002F69A32644E174E2070604A2F7D6A7D074E1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F0d8b84e20dd3e379fb1cfa6f44d64c71.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN",
+        "MSTR",
+        "HOOD35566-USD"
+      ]
+    },
+    {
+      "uuid": "1e0a1874-15b0-311f-a1ea-d0b6f02d78c0",
+      "title": "Hyperliquid Makes Money in a Bear Market Without Anyone Trading, Grayscale Says",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/hyperliquid-makes-money-bear-market-220000304.html",
+      "providerPublishTime": 1793397600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/beincrypto_us_662/5aaf1d82eeaa56ec85339e68ecdc0844.jpg",
+            "width": 5120,
+            "height": 2880,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1419B3DA7A2423BAF8F96DE75924613EDDDBDF1B41887C9702AD665CA9CCDA7A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F5aaf1d82eeaa56ec85339e68ecdc0844.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "COIN",
+        "HYPE32196-USD",
+        "USDC-USD"
+      ]
+    },
+    {
+      "uuid": "057bcaa7-c410-3db7-a2ca-4586cbcd796d",
+      "title": "Wall Street analyst recommends buying opportunity after Binance hack",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/wall-street-analyst-recommends-buying-212710173.html",
+      "providerPublishTime": 1793395630,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/20ed919907a565f6c032f05b6bf9322b.jpg",
+            "width": 3840,
+            "height": 2561,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6FCEA048432CC46A872C4C39B2B8070A47A14A2FC7B93CBC441C49DC52050046/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F20ed919907a565f6c032f05b6bf9322b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CHAA.PVT",
+        "COIN",
+        "MSTR"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [
+    {
+      "index": "5b57b545-6564-4b36-ac2b-35199a0e5ced",
+      "id": "5b57b545-6564-4b36-ac2b-35199a0e5ced",
+      "title": "Top Cryptocurrencies From Coinbase",
+      "canonicalName": "TOP_CRYPTOCURRENCIES_COINBASE",
+      "score": 1.0,
+      "type": "PREDEFINED_SCREENER",
+      "total": 4,
+      "isPremium": false,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/9782d52afaa70fa4e9cd4fc0fc418564abc9f354a5a396756d9b62198121aa04/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/predefined_screeners/trendingUp.png"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 174,
+  "timeTakenForQuotes": 415,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

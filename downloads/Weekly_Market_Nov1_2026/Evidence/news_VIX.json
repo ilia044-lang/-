@@ -1,0 +1,476 @@
+{
+  "explains": [],
+  "count": 21,
+  "quotes": [
+    {
+      "exchange": "CXI",
+      "shortname": "CBOE Volatility Index",
+      "quoteType": "INDEX",
+      "symbol": "^VIX",
+      "index": "quotes",
+      "score": 46846500.0,
+      "typeDisp": "Index",
+      "longname": "CBOE Volatility Index",
+      "exchDisp": "CXI",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "WCB",
+      "shortname": "CBOE S&P 500 3-Month Volatility",
+      "quoteType": "INDEX",
+      "symbol": "^VIX3M",
+      "index": "quotes",
+      "score": 10223500.0,
+      "typeDisp": "Index",
+      "longname": "CBOE S&P 500 3-Month Volatility",
+      "exchDisp": "Chicago Board Options Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "WCB",
+      "shortname": "Cboe 1-Day Volatility Index",
+      "quoteType": "INDEX",
+      "symbol": "^VIX1D",
+      "index": "quotes",
+      "score": 10139500.0,
+      "typeDisp": "Index",
+      "longname": "Cboe 1-Day Volatility Index",
+      "exchDisp": "Chicago Board Options Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "WCB",
+      "shortname": "CBOE S&P 500 9 Day Volatility I",
+      "quoteType": "INDEX",
+      "symbol": "^VIX9D",
+      "index": "quotes",
+      "score": 10035000.0,
+      "typeDisp": "Index",
+      "longname": "CBOE S&P 500 9 Day Volatility I",
+      "exchDisp": "Chicago Board Options Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "WCB",
+      "shortname": "Northern Trust ESG & Climate In",
+      "quoteType": "INDEX",
+      "symbol": "^VIXEQ",
+      "index": "quotes",
+      "score": 10024500.0,
+      "typeDisp": "Index",
+      "longname": "Northern Trust ESG & Climate In",
+      "exchDisp": "Chicago Board Options Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "WCB",
+      "shortname": "Cboe S&P 500 One Year Volatilit",
+      "quoteType": "INDEX",
+      "symbol": "^VIX1Y",
+      "index": "quotes",
+      "score": 10012500.0,
+      "typeDisp": "Index",
+      "longname": "Cboe S&P 500 One Year Volatilit",
+      "exchDisp": "Chicago Board Options Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "WCB",
+      "shortname": "CBOE S&P 500 6 Month Volatility",
+      "quoteType": "INDEX",
+      "symbol": "^VIX6M",
+      "index": "quotes",
+      "score": 10012000.0,
+      "typeDisp": "Index",
+      "longname": "CBOE S&P 500 6 Month Volatility",
+      "exchDisp": "Chicago Board Options Exchange",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "5bed9253-2c06-3e7d-8a19-430d4c4ac796",
+      "title": "Raydyn, Inc. Publishes Early Reliability Metrics for Satya, an Attention-Continuity Interface Built on Felt Intelligence",
+      "publisher": "ACCESS Newswire",
+      "link": "https://finance.yahoo.com/technology/ai/articles/raydyn-inc-publishes-early-reliability-031500646.html",
+      "providerPublishTime": 1793502900,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/accesswire.ca/4301bc746a4ddf4d6a89fa59b90e561e.png",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B28277EAA83A6D3A05161EFAEA05CD2C3FFE4EB253B6D60D2729B9888FF6B4FB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Faccesswire.ca%2F4301bc746a4ddf4d6a89fa59b90e561e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^VIX"
+      ]
+    },
+    {
+      "uuid": "a08bee86-3503-3a1c-84ff-13a8be12adbc",
+      "title": "Gold Is Not Acting Like a Safe Haven Asset\u2014These Stocks Are",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/a08bee86-3503-3a1c-84ff-13a8be12adbc/gold-is-not-acting-like-a.html",
+      "providerPublishTime": 1793375835,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 320,
+            "height": 65,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A61DB0D21C441898D8CB18C6380DF9F52A0B6BB72E0CE53D0ED3B5DFB91EF0F4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "^VIX",
+        "DX-Y.NYB",
+        "SI=F",
+        "G=F"
+      ]
+    },
+    {
+      "uuid": "9bd078c6-33e0-3f81-8ddc-47fab49fbc24",
+      "title": "How Varying VIX Ranges Can Impact SPY Returns",
+      "publisher": "Schaeffer's Investment Research",
+      "link": "https://finance.yahoo.com/markets/options/articles/varying-vix-ranges-impact-returns-120006948.html",
+      "providerPublishTime": 1793188806,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/schaeffers_investment_research_24/57f1ca6758f38cf91ee2ad8c9ac6f63c.jpg",
+            "width": 567,
+            "height": 423,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D02E1E61427B1F5F44559A5F0FA6F38C8D6AD89E37DC5214F896FDCF601F3FFF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fschaeffers_investment_research_24%2F57f1ca6758f38cf91ee2ad8c9ac6f63c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^VIX",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "9ab5cf55-ac6c-323d-8e27-9cdaf15ed453",
+      "title": "Australian Stock Market Today: ASX Futures Slip As Traders Eye Fed And CPI",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/australian-stock-market-today-asx-210945843.html",
+      "providerPublishTime": 1793135385,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/ff8a8ed6d509870cfa9395a2a8d9aa6c.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/31855087B8650013C4DC6C555EACBA62422F992C2D629B99E6B77C5A7CCDC4B3/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fff8a8ed6d509870cfa9395a2a8d9aa6c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^VIX",
+        "AUD=X",
+        "GNG.AX",
+        "APE.AX",
+        "TNE.AX"
+      ]
+    },
+    {
+      "uuid": "b2ec2b57-e51e-3a8d-98e9-b3ff4d194122",
+      "title": "Update: US Equity Indexes Mixed as Investors Rotate From AI Trade to Government Bonds; Crude Oil Surges",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-211833642.html",
+      "providerPublishTime": 1792703913,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "^DJI",
+        "^GSPC",
+        "^VIX",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "abd9292a-5fed-3eba-826c-55089266569d",
+      "title": "Update: US Equity Indexes Retreat as AI Trade Falters, Crude Oil Surges Amid Iran's Invasion Warning to Mid-East Neighbors",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-ai-195251093.html",
+      "providerPublishTime": 1792698771,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "^VIX",
+        "^GSPC",
+        "^DJI",
+        "^IXIC",
+        "META",
+        "TSLA"
+      ]
+    },
+    {
+      "uuid": "94b8b75b-aaf8-367e-9940-7f50b20859bd",
+      "title": "Update: US Equity Indexes Drop as AI Trade Loses Shine After Meta's Results While Crude Oil Jumps as Iran Warns of Invasion",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-ai-174130917.html",
+      "providerPublishTime": 1792690890,
+      "type": "STORY",
+      "relatedTickers": [
+        "META",
+        "CL=F",
+        "^VIX",
+        "^GSPC",
+        "^DJI",
+        "^IXIC",
+        "TSLA"
+      ]
+    },
+    {
+      "uuid": "f7445d25-a86b-3cd1-9071-829a4f180616",
+      "title": "Don't Get Spooked: Stocks Could Still Soar in Q4",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dont-spooked-stocks-could-still-130800326.html",
+      "providerPublishTime": 1792588080,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/b8d785c2ddd31bf28040abb458b75d90.jpg",
+            "width": 619,
+            "height": 324,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/255C6C9E4BD35A1F928AECBCACCD1AE3FED93CF8CD0FBD2FEFB47212018E6070/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fb8d785c2ddd31bf28040abb458b75d90.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CRWV",
+        "^VIX",
+        "NVDA",
+        "DIA"
+      ]
+    },
+    {
+      "uuid": "7a0ff64f-a086-3e0d-934d-50c0572df7c6",
+      "title": "5 Top-Performing ETF Areas of Last Week",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-top-performing-etf-areas-120000254.html",
+      "providerPublishTime": 1792411200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/ec93e4a47652cf9206c52a690222a4bc.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C67EF6F2FBF725E4C5959A5A784A02DF9B993192411332815DF817B089F1757A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fec93e4a47652cf9206c52a690222a4bc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^IXIC",
+        "^RUT",
+        "^DJI",
+        "^VIX",
+        "^GSPC",
+        "SMH",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "5f3d4bb7-31fa-3762-b23f-d963f6583bc2",
+      "title": "Dow Jones, Nasdaq, S&P 500 preview: All eyes on Meta, Tesla, SpaceX earnings",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dow-jones-nasdaq-p-500-112417890.html",
+      "providerPublishTime": 1792409057,
+      "type": "STORY",
+      "relatedTickers": [
+        "^DJI",
+        "^GSPC",
+        "^VIX",
+        "^IXIC",
+        "SOXX",
+        "CL=F",
+        "META",
+        "TSLA",
+        "SPCX"
+      ]
+    },
+    {
+      "uuid": "6945d271-6486-336e-8af3-428f9401cb00",
+      "title": "Tom Lee Says Last Week's Stock Selloff Sets Up a Buy in Crypto, Semis",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-says-last-weeks-055500464.html",
+      "providerPublishTime": 1792389300,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/beincrypto_us_662/1c02a1328f988ff3d2b37774f1397d8c.jpg",
+            "width": 2368,
+            "height": 1332,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/36C074A4FA4371C7CABF999F8625276676970C73CD1E3B6213F822E7DF4289E5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F1c02a1328f988ff3d2b37774f1397d8c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^VIX",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "6cb62348-cf25-3acb-9bfd-48bb3b70d2ed",
+      "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-ahead-220725997.html",
+      "providerPublishTime": 1792361245,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/bloomberg_holding_pen_162/f1000155030e08becb1c0cadf8013993.jpg",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/86D4D1EAA51C776DCD6243351EDF3A7BAE911FB63644C456FE9CDA0C1144CDB6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2Ff1000155030e08becb1c0cadf8013993.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^GSPC",
+        "^VIX",
+        "DX-Y.NYB",
+        "TSLA",
+        "CL=F",
+        "META"
+      ]
+    },
+    {
+      "uuid": "b02b5386-7105-3fa7-98c4-4b9a5802ac58",
+      "title": "Nasdaq Suffers Worst Week Since June. AI Fears Are Shaking Markets.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/b02b5386-7105-3fa7-98c4-4b9a5802ac58/nasdaq-suffers-worst-week.html",
+      "providerPublishTime": 1792180940,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 320,
+            "height": 65,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A61DB0D21C441898D8CB18C6380DF9F52A0B6BB72E0CE53D0ED3B5DFB91EF0F4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^IXIC",
+        "^GSPC",
+        "SOXX",
+        "^VIX",
+        "TMUBMUSD02Y"
+      ]
+    },
+    {
+      "uuid": "dfedd9ee-a683-3b39-bb56-71b9086f7021",
+      "title": "Wall Street\u2019s Fear Gauge Flashes Red as Stocks Tumble, Oil Surges, and Tech Reels",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/dfedd9ee-a683-3b39-bb56-71b9086f7021/wall-street%E2%80%99s-fear-gauge.html",
+      "providerPublishTime": 1792172716,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 320,
+            "height": 65,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A61DB0D21C441898D8CB18C6380DF9F52A0B6BB72E0CE53D0ED3B5DFB91EF0F4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^GSPC",
+        "^VIX",
+        "^IXIC"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 197,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

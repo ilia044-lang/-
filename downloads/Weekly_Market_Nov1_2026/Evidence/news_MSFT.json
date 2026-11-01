@@ -1,0 +1,557 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Microsoft Corporation",
+      "quoteType": "EQUITY",
+      "symbol": "MSFT",
+      "index": "quotes",
+      "score": 135111504.0,
+      "typeDisp": "Equity",
+      "longname": "Microsoft Corporation",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "industry": "Software\u2014Infrastructure",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily MSFT Bull 2X ETF",
+      "quoteType": "ETF",
+      "symbol": "MSFU",
+      "index": "quotes",
+      "score": 21112.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily MSFT Bull 2X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TOR",
+      "shortname": "MICROSOFT CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "MSFT.TO",
+      "index": "quotes",
+      "score": 20282.0,
+      "typeDisp": "Equity",
+      "longname": "Microsoft Corporation",
+      "exchDisp": "Toronto",
+      "sector": "Technology",
+      "industry": "Software\u2014Infrastructure",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long MSFT Dail",
+      "quoteType": "ETF",
+      "symbol": "MSFL",
+      "index": "quotes",
+      "score": 20207.0,
+      "typeDisp": "ETF",
+      "longname": "GraniteShares 2x Long MSFT Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax MSFT Option Income Str",
+      "quoteType": "ETF",
+      "symbol": "MSFO",
+      "index": "quotes",
+      "score": 20080.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax MSFT Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily MSFT Bear 1X ETF",
+      "quoteType": "ETF",
+      "symbol": "MSFD",
+      "index": "quotes",
+      "score": 20057.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily MSFT Bear 1X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NEO",
+      "shortname": "MICROSOFT CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "MSFT.NE",
+      "index": "quotes",
+      "score": 20047.0,
+      "typeDisp": "Equity",
+      "longname": "Microsoft Corporation",
+      "exchDisp": "NEO",
+      "sector": "Technology",
+      "industry": "Software\u2014Infrastructure",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "4ef25fcb-b5f1-3bce-829e-26a4c969a43b",
+      "title": "AI investors rush to hedge against potential tech market downturn - WSJ",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/options/articles/ai-investors-rush-hedge-against-030211499.html",
+      "providerPublishTime": 1793502131,
+      "type": "STORY",
+      "relatedTickers": [
+        "CRWV",
+        "^IXIC",
+        "CBOE",
+        "INTC",
+        "MSFT",
+        "ORCL"
+      ]
+    },
+    {
+      "uuid": "27a024ca-82c2-30b2-87b7-c8f6653d49d5",
+      "title": "I Graded Microsoft's Latest Report on 3 Things. Here's My Verdict on the Stock.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/graded-microsofts-latest-report-3-014601589.html",
+      "providerPublishTime": 1793497561,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/2d6387568c0e241d80f2396c2957439e.png",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/165B65AF1387ACED9D982757832AB865BDC9298B1A5BE662DF2719F5322C40B9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F2d6387568c0e241d80f2396c2957439e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "729db8a0-841e-3b54-9542-8f179920dade",
+      "title": "Microsoft (MSFT) Lands $25 Billion Bond Deal As AI Push Deepens",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-lands-25-billion-011021686.html",
+      "providerPublishTime": 1793495421,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/2fb89ed01f3911d46e18d848163ce4ef.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7E9970430EEB669FFBEEA78C2D980607B14F5C343F015863698279B03BDF26CB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F2fb89ed01f3911d46e18d848163ce4ef.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSFT",
+        "EL"
+      ]
+    },
+    {
+      "uuid": "d2e6fbb8-64b7-31a1-988c-030daffbea6f",
+      "title": "5 Best High Growth Stocks Outside Big Tech",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-high-growth-stocks-213926607.html",
+      "providerPublishTime": 1793482766,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/6b387f7579ea72de12d87dfa20e703ea.jpg",
+            "width": 1536,
+            "height": 1024,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9ECC1DE505E8B502CBC550A9520BB35F54EA1BC9634C1430D5B50FC7D068A700/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F6b387f7579ea72de12d87dfa20e703ea.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "^GSPC",
+        "AAPL",
+        "MSFT",
+        "ALNY",
+        "BA",
+        "RDDT",
+        "PSX",
+        "VALE"
+      ]
+    },
+    {
+      "uuid": "0586d845-51fd-3071-8f38-6e469a4ce340",
+      "title": "5 Most Profitable Stocks of the Past 5 Years",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-profitable-stocks-past-202256304.html",
+      "providerPublishTime": 1793478176,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FE63E18CAFD6A439FD6E98876C7FB6C495A7E168AC07274D982BEF86AE0B689B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "MU",
+        "SKHY",
+        "TSM",
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "BRK-B",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "0efc8601-84f4-3b27-9ea0-7357ac9a498f",
+      "title": "Microsoft just gave Nvidia shareholders a reason to pay attention",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-just-gave-nvidia-shareholders-193700527.html",
+      "providerPublishTime": 1793475420,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/620967222709523038546f66997f2d20.jpg",
+            "width": 3840,
+            "height": 2560,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4FA86BB9D55AD94ED373E48B15DDE4FAFC43D2B76EDE1CBB26C1B24C926D11A9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F620967222709523038546f66997f2d20.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "54843cda-0938-3ac9-ad40-11fb1515d92c",
+      "title": "5 insightful analyst questions from Microsoft\u2019s Q3 earnings call",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-microsoft-182729596.html",
+      "providerPublishTime": 1793471249,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/dd28cbc3224ded9da0138b4f73454422.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/21D9E9E4FBDD438E5E559E4758A040C95C44EB66C724DB2EBC62033F79912E9C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Fdd28cbc3224ded9da0138b4f73454422.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "00ba42f4-d9e8-30a7-acb3-3f50d57fe152",
+      "title": "The AI Red Queen Effect: Why Big Tech Can\u2019t Afford to Stop Spending",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-red-queen-effect-why-153003906.html",
+      "providerPublishTime": 1793460603,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/0eec48aa19bd8939739b4615831b5272.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/ACD3079372AC12F2F1FB24ABD6FF20DF952703CC02629E6B4D4F1F0F3A2E53F0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F0eec48aa19bd8939739b4615831b5272.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "5ef538d7-9ed0-3c5a-b7f5-2c465e859f9d",
+      "title": "Big Tech Now Spends More on AI Than It Brings In From Operations",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-now-spends-more-150803781.html",
+      "providerPublishTime": 1793459283,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/236da781249f4a6e8388fd8f103e3f1d.jpg",
+            "width": 1500,
+            "height": 844,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/EC3242EE7FA8713A1115BC0B4D0951E8C151DBDF5AA163418FB5149C9AECF8C0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F236da781249f4a6e8388fd8f103e3f1d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "MSFT",
+        "ORCL",
+        "AMZN",
+        "GOOG",
+        "META"
+      ]
+    },
+    {
+      "uuid": "d0c46275-4544-3dda-bf64-c6f628a12f65",
+      "title": "OpenAI\u2019s CEO Thinks Your Laptop\u2019s Memory Should Be in a Data Center",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/articles/openai-ceo-thinks-laptop-memory-134957989.html",
+      "providerPublishTime": 1793454597,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/e2cebdccf82bd8bc766d22fc56cf4dcc.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E0125B1FF9FAA14500BFCD54EBDCFCF0B2059BB6924F146DFAFDDF2020E50D19/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fe2cebdccf82bd8bc766d22fc56cf4dcc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MU",
+        "OPAI.PVT",
+        "MSFT",
+        "INTC",
+        "STRI.PVT"
+      ]
+    },
+    {
+      "uuid": "d427e113-6b2f-307f-b14a-8e1535ac1075",
+      "title": "Big Tech\u2019s Capex Needs \u201ca Trillion Dollars of Revenue\u201d by 2028. Barclays Sees About $400 Billion",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-capex-needs-trillion-134500221.html",
+      "providerPublishTime": 1793454300,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/1a9fdd9bd31a241170288420b8fe0b90",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D05398B3B4C221520D34D84237052F16FF1D9B992756A80B507E223A51003B10/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F1a9fdd9bd31a241170288420b8fe0b90",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BCS",
+        "AMZN",
+        "GOOG",
+        "MSFT",
+        "META",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "9939da20-d8ad-3397-bd76-55edeeee302d",
+      "title": "Microsoft Offers Voluntary Exits to 60,000 Workers. After 37 Years, He Risks Losing a 401(k) Tax Break With One IRA Rollover",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/options/articles/microsoft-offers-voluntary-exits-60-133351629.html",
+      "providerPublishTime": 1793453631,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/e56c3bfce31ad517669746072e964121.jpg",
+            "width": 1500,
+            "height": 791,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/96825CAFED37864858F3D242D5A449DD626DA45E08F43A444DB4B42C8EEAA926/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fe56c3bfce31ad517669746072e964121.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "9f64f875-35a4-3cac-86e3-a7d06eb54605",
+      "title": "OpenAI Cuts Funding Target Amid Meta, Microsoft Offerings, Anthropic IPO",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/9f64f875-35a4-3cac-86e3-a7d06eb54605/openai-cuts-funding-target.html",
+      "providerPublishTime": 1793451424,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/44892cb8220c12848179d7e5dcf9e584.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1FCCF5100711CF429EAEBFF4F1007C7FF899D20A9232663D30981F66E11BC323/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F44892cb8220c12848179d7e5dcf9e584.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT",
+        "SPCX"
+      ]
+    },
+    {
+      "uuid": "3e7d3348-7abc-35ee-a802-348f1448bfa7",
+      "title": "Fears over $828 billion AI capex spending spree help erase $1 trillion in market value",
+      "publisher": "Fortune",
+      "link": "https://finance.yahoo.com/technology/ai/articles/fears-over-828-billion-ai-104400351.html",
+      "providerPublishTime": 1793443440,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/fortune_175/9035abc5e702966c9c08b96b1a3f1d23.jpg",
+            "width": 2048,
+            "height": 1365,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A9B77D657F92AAF22D9BD4571E4528695E21D22716779C594788B1F51DBA395B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ffortune_175%2F9035abc5e702966c9c08b96b1a3f1d23.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPCX",
+        "AMZN",
+        "GOOG",
+        "MSFT",
+        "META"
+      ]
+    },
+    {
+      "uuid": "496fc71b-97fa-3047-8de5-3ef3085e6746",
+      "title": "Volkswagen (XTRA:VOW3) Puts New Vehicle Software And AV Data Partnerships To Work",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/articles/volkswagen-xtra-vow3-puts-vehicle-100801350.html",
+      "providerPublishTime": 1793441281,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/5a014d82aec2fff95707fc7879db27c7.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DB7D1D1EB284D36D654F5DE5AD664065A8BD867072A392AD8507FDA68EFEEA89/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F5a014d82aec2fff95707fc7879db27c7.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "VOW.DE",
+        "NXPI",
+        "P911.DE",
+        "NVDA",
+        "MSFT"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 73,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

@@ -1,0 +1,561 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Intel Corporation",
+      "quoteType": "EQUITY",
+      "symbol": "INTC",
+      "index": "quotes",
+      "score": 1414709.0,
+      "typeDisp": "Equity",
+      "longname": "Intel Corporation",
+      "exchDisp": "NASDAQ",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Semiconductors",
+      "industryDisp": "Semiconductors",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CME",
+      "shortname": "Intel Corp Stock Futures,Dec-20",
+      "quoteType": "FUTURE",
+      "symbol": "SINTC=F",
+      "index": "quotes",
+      "score": 30305.0,
+      "typeDisp": "Futures",
+      "exchDisp": "Chicago Mercantile Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CME",
+      "shortname": "Micro Intel Corp Stock Futures,",
+      "quoteType": "FUTURE",
+      "symbol": "XINTC=F",
+      "index": "quotes",
+      "score": 30024.0,
+      "typeDisp": "Futures",
+      "exchDisp": "Chicago Mercantile Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Intellia Therapeutics, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "NTLA",
+      "index": "quotes",
+      "score": 23950.0,
+      "typeDisp": "Equity",
+      "longname": "Intellia Therapeutics, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Healthcare",
+      "sectorDisp": "Healthcare",
+      "industry": "Biotechnology",
+      "industryDisp": "Biotechnology",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Global X Artificial Intelligenc",
+      "quoteType": "ETF",
+      "symbol": "AIQ",
+      "index": "quotes",
+      "score": 23893.0,
+      "typeDisp": "ETF",
+      "longname": "Global X Artificial Intelligence & Technology ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NMS",
+      "shortname": "Neighborhood Intelligence, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "NXH",
+      "index": "quotes",
+      "score": 23374.0,
+      "typeDisp": "Equity",
+      "longname": "Neighborhood Intelligence, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "industryDisp": "Internet Retail",
+      "isYahooFinance": true,
+      "prevName": "Overstock.com, Inc.",
+      "nameChangeDate": "2026-10-31"
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "VistaShares Artificial Intellig",
+      "quoteType": "ETF",
+      "symbol": "AIS",
+      "index": "quotes",
+      "score": 22062.0,
+      "typeDisp": "ETF",
+      "longname": "VistaShares Artificial Intelligence Supercycle ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "4ef25fcb-b5f1-3bce-829e-26a4c969a43b",
+      "title": "AI investors rush to hedge against potential tech market downturn - WSJ",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/options/articles/ai-investors-rush-hedge-against-030211499.html",
+      "providerPublishTime": 1793502131,
+      "type": "STORY",
+      "relatedTickers": [
+        "CRWV",
+        "^IXIC",
+        "CBOE",
+        "INTC",
+        "MSFT",
+        "ORCL"
+      ]
+    },
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "394c77e1-0889-36ac-b753-385c50deb99f",
+      "title": "Prediction: This Will Be Intel's Stock Price by Year-End 2027",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-intels-stock-price-end-022000943.html",
+      "providerPublishTime": 1793499600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/f0ffcb10c6782e618cc64e07a75c0839.jpg",
+            "width": 1244,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0F2F49C05048B21F576E069A2E8EB7C256AE1361A0D96DFC8FD6DDF038FEC6F9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Ff0ffcb10c6782e618cc64e07a75c0839.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "NVDA",
+        "9984.T"
+      ]
+    },
+    {
+      "uuid": "5a356646-68ac-38f8-83a0-4e0cd51135db",
+      "title": "Intel (INTC) Stock Fair Value Falls After Mixed Analyst Reactions To Weak Guidance",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-stock-fair-value-231012483.html",
+      "providerPublishTime": 1793488212,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/d56b808aabb924bbac0805a3a17ead0a.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/85DBA6766CD74A7EEBC0FDC8834965C962BC327B11FE2BA4D17BC73C3118A852/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fd56b808aabb924bbac0805a3a17ead0a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "536e5bd5-7788-34d8-8c3d-ac5d954f5fb2",
+      "title": "Jim Cramer issues 'falling knife' warning on top chip stock after Intel's outlook",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-issues-falling-knife-220700322.html",
+      "providerPublishTime": 1793484420,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/491520840751749ca4e3a4da7aa634e9.jpg",
+            "width": 3600,
+            "height": 2396,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B3817E0CB56A6C8A6EFAD018F4CED7753D5BE75454BCF716E3E04019299E133E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F491520840751749ca4e3a4da7aa634e9.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LRCX",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "4f0bfbbb-e48c-3b79-9d5d-f02ff6403b00",
+      "title": "SK hynix's Solidigm Is Mulling a $45 Billion Chip Plant Investment. What This Means for SKHY Stock.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/articles/sk-hynixs-solidigm-mulling-45-183003072.html",
+      "providerPublishTime": 1793471403,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/a1794bcbaf46be57626a255efeebee29.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E159CB3BEF847E5591BDB0E916DB7E105A36AE8469EFB09B90D4027CD7D3E65A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fa1794bcbaf46be57626a255efeebee29.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SKHY",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "32deeb3c-7571-3f05-ac63-07b5b88e08a8",
+      "title": "INTC Q3 deep dive: strong data center growth offsets PC challenges, outlook pressured by supply constraints",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intc-q3-deep-dive-strong-175529416.html",
+      "providerPublishTime": 1793469329,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/1ac706b13316f5f802d5c45a44056507.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5D61B9A5C5C17B1EA54B3D732F8407DCC60E525229E5F0C2142CBA4F3D4B8BC2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F1ac706b13316f5f802d5c45a44056507.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "aa7c7fc3-3068-32b4-8178-38277e75f99b",
+      "title": "Why Dell (DELL) shares are getting obliterated today",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-dell-dell-shares-getting-161929339.html",
+      "providerPublishTime": 1793463569,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/0a7c619d5110bd6dc4c76e71aa652fdf.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0E7B82AFDBB964E8C1D73DC848A4EE155D6F9D5E55CD8BEBC8BCB63175D934BC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F0a7c619d5110bd6dc4c76e71aa652fdf.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DELL",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "dd2de0f9-b305-3e6a-96f6-f73814bcff7d",
+      "title": "Intel Has a Massive Warning for AMD Stock Investors. Is It Time to Book Profits Before Nov. 3?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-massive-warning-amd-stock-154201733.html",
+      "providerPublishTime": 1793461321,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/ce31616aa849f2857750f7208e998780.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1795B610F59E27AAC938D3D8DE2C9D1CA394CC4E3085F7916DEF5549B218BF67/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fce31616aa849f2857750f7208e998780.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC",
+        "AMD",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "08bbbab6-507d-3a09-90da-31630d90d31b",
+      "title": "Why Intel (INTC) stock is trading lower today",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-intel-intc-stock-trading-151529235.html",
+      "providerPublishTime": 1793459729,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/1ac706b13316f5f802d5c45a44056507.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5D61B9A5C5C17B1EA54B3D732F8407DCC60E525229E5F0C2142CBA4F3D4B8BC2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F1ac706b13316f5f802d5c45a44056507.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "2363b626-95df-3c05-864b-87b85a30d4b5",
+      "title": "If Taiwan Semi Raises Prices, It Could Be Bad News for Intel Stock. Here\u2019s Why.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semi-raises-prices-could-150839245.html",
+      "providerPublishTime": 1793459319,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/03263d1eeb676e7f1fb7c073ff6dc90f.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9B939A51D41A7AB838D90E9FD567E739DBB45B17ABC8F5DABD0FD23E6EC1B8BC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F03263d1eeb676e7f1fb7c073ff6dc90f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "TSM",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "515301d4-63dc-3c8f-b093-4bacf7a00cc5",
+      "title": "The Nasdaq 100 Briefly Fell Into a Correction as the AI Trade Cracks",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-briefly-fell-correction-145406645.html",
+      "providerPublishTime": 1793458446,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/217303467a4890483ac937323e14d81c.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0C7792071142066F1F49C5856CE6292D74A04760209ED376E4B68A50E47F6F45/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F217303467a4890483ac937323e14d81c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "INTC",
+        "^NDX",
+        "AAPL",
+        "QQQ",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "c87c1f67-7e8d-3e32-a321-55370038842a",
+      "title": "Yes, Alphabet Stock Got Hammered. No, We\u2019re Not Selling.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/c87c1f67-7e8d-3e32-a321-55370038842a/yes%2C-alphabet-stock-got.html",
+      "providerPublishTime": 1793457780,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6682AF5A36ECF35D30CD4AE1A9F6BFE1DDF4CC0E42B6117334B7EBA7EC6A0F0C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "OPAI.PVT",
+        "AAPL",
+        "AMZN",
+        "ANT.CN",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "a4ef90a4-5bec-330e-ad8d-4483ab939798",
+      "title": "ORCL Stock Has a Solid Base to Build on After Q1, Especially as Oracle Announces Key AI Partnerships",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/orcl-stock-solid-build-q1-142757072.html",
+      "providerPublishTime": 1793456877,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/e6270eaced21baa42d87300c42cfa807.jpg",
+            "width": 1254,
+            "height": 836,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AFC1A5AC9CBCCEA2F3B1B7845FD293F158261CDE02A8E25C10862CC8D40B2CAF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fe6270eaced21baa42d87300c42cfa807.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ORCL",
+        "GOOG",
+        "NVDA",
+        "OPAI.PVT",
+        "CBRS",
+        "SNOW",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "ccedb809-a252-30e3-a512-055b0ef189f1",
+      "title": "Marvell Sinks 14% in a Week on Lumentum Talks: Chipmakers Like It \u201cDon\u2019t Have a Choice\u201d",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-14-week-lumentum-140756545.html",
+      "providerPublishTime": 1793455676,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/8e5fe7786480220af4ad9996976bdbff",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D2A03DEE8D87CA549719ADB9ED6947CD76E24DB324B12E21A89D53FB4A629A7A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F8e5fe7786480220af4ad9996976bdbff",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MRVL",
+        "LITE",
+        "INTC",
+        "AVGO",
+        "COHR"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 169,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

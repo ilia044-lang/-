@@ -1,0 +1,555 @@
+{
+  "explains": [],
+  "count": 21,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Alphabet Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "GOOGL",
+      "index": "quotes",
+      "score": 177991008.0,
+      "typeDisp": "Equity",
+      "longname": "Alphabet Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Communication Services",
+      "sectorDisp": "Communication Services",
+      "industry": "Internet Content & Information",
+      "industryDisp": "Internet Content & Information",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Direxion Daily GOOGL Bull 2X ET",
+      "quoteType": "ETF",
+      "symbol": "GGLL",
+      "index": "quotes",
+      "score": 30868.0,
+      "typeDisp": "ETF",
+      "longname": "Direxion Daily GOOGL Bull 2X Shares",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "YieldMax GOOGL Option Income St",
+      "quoteType": "ETF",
+      "symbol": "GOOY",
+      "index": "quotes",
+      "score": 20810.0,
+      "typeDisp": "ETF",
+      "longname": "YieldMax GOOGL Option Income Strategy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Leverage Shares 2X Long GOOGL D",
+      "quoteType": "ETF",
+      "symbol": "GOOL",
+      "index": "quotes",
+      "score": 20614.0,
+      "typeDisp": "ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Roundhill GOOGL WeeklyPay ETF",
+      "quoteType": "ETF",
+      "symbol": "GOOW",
+      "index": "quotes",
+      "score": 20611.0,
+      "typeDisp": "ETF",
+      "longname": "Roundhill GOOGL WeeklyPay ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "GraniteShares 2x Long GOOGL Dai",
+      "quoteType": "ETF",
+      "symbol": "GOU",
+      "index": "quotes",
+      "score": 20504.0,
+      "typeDisp": "ETF",
+      "longname": "GraniteShares 2x Long GOOGL Daily ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Corgi GOOGL 2x Daily ETF",
+      "quoteType": "ETF",
+      "symbol": "GOGL",
+      "index": "quotes",
+      "score": 20396.0,
+      "typeDisp": "ETF",
+      "longname": "Corgi GOOGL 2x Daily ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "4a53ceb9-7b58-3603-8e86-73784adba2c8",
+      "title": "The 5 most interesting analyst questions from Alphabet\u2019s Q3 earnings call",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-interesting-analyst-questions-213100472.html",
+      "providerPublishTime": 1793482260,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/7d12109e1bcde00a68f678c373503f26.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A9311D5925AEB0FD0A59ED2652900D8F83C75B77BD2692068156FD8F9CFFF7C7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F7d12109e1bcde00a68f678c373503f26.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG"
+      ]
+    },
+    {
+      "uuid": "0586d845-51fd-3071-8f38-6e469a4ce340",
+      "title": "5 Most Profitable Stocks of the Past 5 Years",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-most-profitable-stocks-past-202256304.html",
+      "providerPublishTime": 1793478176,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/insidermonkey.com/85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 1456,
+            "height": 816,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FE63E18CAFD6A439FD6E98876C7FB6C495A7E168AC07274D982BEF86AE0B689B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F85a3e9577fbf418d83d9f6f5a5267f0b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "MU",
+        "SKHY",
+        "TSM",
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "BRK-B",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "3c4c3b18-7cd1-3b27-b158-7964bfc37d5d",
+      "title": "France Wants a 5.5-Cent-per-Gigabyte Tax on Netflix, Google and Meta",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/economy/policy/articles/france-wants-5-5-cent-170701445.html",
+      "providerPublishTime": 1793466421,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/8f6fe2ca9f6555b049312459a0c46b7b.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/47EAF43F3F089F742F41F531241F47F27D32752131AF31A40A176D3E715B3D92/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8f6fe2ca9f6555b049312459a0c46b7b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "META",
+        "AMZN",
+        "AKAM",
+        "GOOG",
+        "NFLX"
+      ]
+    },
+    {
+      "uuid": "c5775743-10eb-35c4-9840-ef0008fb6cb4",
+      "title": "The daunting economic decision on data centers",
+      "publisher": "Axios",
+      "link": "https://finance.yahoo.com/economy/policy/articles/daunting-economic-decision-data-centers-170007492.html",
+      "providerPublishTime": 1793466007,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/axios_527/847e2977f1cc8431cfe2bedef8f62350.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F62C9C110AA1D1E8203810ADF9E285E4BF42CEB3570B299F6E228D15B867304C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Faxios_527%2F847e2977f1cc8431cfe2bedef8f62350.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "META",
+        "GOOG",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "5496de61-b02e-4743-b296-24deb70ad944",
+      "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html",
+      "providerPublishTime": 1793462033,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/9cdd90a4-03f9-4644-ab85-fedf8428b225",
+            "width": 5616,
+            "height": 3744,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2BE2ADAC51000169B11631707BB92AD711239B70534361FBCB174EC009F27E52/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F9cdd90a4-03f9-4644-ab85-fedf8428b225",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOGL",
+        "^GSPC",
+        "^IXIC",
+        "XLK",
+        "XLF",
+        "XLRE",
+        "XLV",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "00ba42f4-d9e8-30a7-acb3-3f50d57fe152",
+      "title": "The AI Red Queen Effect: Why Big Tech Can\u2019t Afford to Stop Spending",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-red-queen-effect-why-153003906.html",
+      "providerPublishTime": 1793460603,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/0eec48aa19bd8939739b4615831b5272.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/ACD3079372AC12F2F1FB24ABD6FF20DF952703CC02629E6B4D4F1F0F3A2E53F0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F0eec48aa19bd8939739b4615831b5272.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "GOOG",
+        "META",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "9ee3c739-21ac-327f-b6a8-9196ed591810",
+      "title": "Is Wall Street Bullish or Bearish on Alphabet Stock?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-alphabet-152252824.html",
+      "providerPublishTime": 1793460172,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/57a031a4ce51cf3be8b2914f759b8ca6.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8427C22064A74BC4B817F5692257A3B60C38563796226E31583E1C914CBAF0FC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F57a031a4ce51cf3be8b2914f759b8ca6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "XLC",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "f479b834-7784-3594-99e8-b2cd8c5dcce5",
+      "title": "What Are Wall Street Analysts' Target Price for Alphabet Stock?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-152156277.html",
+      "providerPublishTime": 1793460116,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/92ef183c42026825f0de825fd26975b4.jpg",
+            "width": 1600,
+            "height": 1067,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0E93359F9914E61450088B8D3980D65AE527C63B65B45FDE0C700A872ACC1497/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F92ef183c42026825f0de825fd26975b4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "XLC",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "5ef538d7-9ed0-3c5a-b7f5-2c465e859f9d",
+      "title": "Big Tech Now Spends More on AI Than It Brings In From Operations",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/big-tech-now-spends-more-150803781.html",
+      "providerPublishTime": 1793459283,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/236da781249f4a6e8388fd8f103e3f1d.jpg",
+            "width": 1500,
+            "height": 844,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/EC3242EE7FA8713A1115BC0B4D0951E8C151DBDF5AA163418FB5149C9AECF8C0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F236da781249f4a6e8388fd8f103e3f1d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "MSFT",
+        "ORCL",
+        "AMZN",
+        "GOOG",
+        "META"
+      ]
+    },
+    {
+      "uuid": "c87c1f67-7e8d-3e32-a321-55370038842a",
+      "title": "Yes, Alphabet Stock Got Hammered. No, We\u2019re Not Selling.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/c87c1f67-7e8d-3e32-a321-55370038842a/yes%2C-alphabet-stock-got.html",
+      "providerPublishTime": 1793457780,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6682AF5A36ECF35D30CD4AE1A9F6BFE1DDF4CC0E42B6117334B7EBA7EC6A0F0C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F04aa37907e8bb9e322f2ae71fef92b55.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOG",
+        "OPAI.PVT",
+        "AAPL",
+        "AMZN",
+        "ANT.CN",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "452a668b-2bb2-34b9-960c-564d779c9632",
+      "title": "Prediction: This Under-the-Radar AI Stock Could Have a Big 2030 Ahead",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/prediction-under-radar-ai-stock-143355570.html",
+      "providerPublishTime": 1793457235,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/7988387abe247447186e7611e1e75107.jpg",
+            "width": 1500,
+            "height": 843,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D5F24A46ADD514FA326D565E03C2AD2BA7ADFBE30F2E17F8B9CA4FFAD0445E56/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F7988387abe247447186e7611e1e75107.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MRVL",
+        "GOOG"
+      ]
+    },
+    {
+      "uuid": "a4ef90a4-5bec-330e-ad8d-4483ab939798",
+      "title": "ORCL Stock Has a Solid Base to Build on After Q1, Especially as Oracle Announces Key AI Partnerships",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/orcl-stock-solid-build-q1-142757072.html",
+      "providerPublishTime": 1793456877,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/e6270eaced21baa42d87300c42cfa807.jpg",
+            "width": 1254,
+            "height": 836,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AFC1A5AC9CBCCEA2F3B1B7845FD293F158261CDE02A8E25C10862CC8D40B2CAF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fe6270eaced21baa42d87300c42cfa807.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ORCL",
+        "GOOG",
+        "NVDA",
+        "OPAI.PVT",
+        "CBRS",
+        "SNOW",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "63f424bd-1be1-3b4a-be07-178245baf04e",
+      "title": "Reddit stock plunges 29.2% as Google AI cuts US traffic",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-stock-plunges-28-google-140700166.html",
+      "providerPublishTime": 1793455620,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/4db381a8e1610771178e60cc866e9152.jpg",
+            "width": 3840,
+            "height": 2458,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/96D774E452E069DE417AD76E480F83DCDBBA16706CA1AF311DF6982CB1128273/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F4db381a8e1610771178e60cc866e9152.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RDDT",
+        "GOOG"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 33,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

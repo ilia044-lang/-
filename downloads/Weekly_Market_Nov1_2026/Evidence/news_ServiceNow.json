@@ -1,0 +1,597 @@
+{
+  "explains": [],
+  "count": 22,
+  "quotes": [
+    {
+      "exchange": "NYQ",
+      "shortname": "ServiceNow, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "NOW",
+      "index": "quotes",
+      "score": 184528.0,
+      "typeDisp": "Equity",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "NYSE",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TOR",
+      "shortname": "SERVICENOW CDR (CAD HEDGED)",
+      "quoteType": "ETF",
+      "symbol": "NOWS.TO",
+      "index": "quotes",
+      "score": 20147.0,
+      "typeDisp": "ETF",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "Toronto",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "FRA",
+      "shortname": "ServiceNow Inc.               R",
+      "quoteType": "EQUITY",
+      "symbol": "4S0.F",
+      "index": "quotes",
+      "score": 20053.0,
+      "typeDisp": "Equity",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "Frankfurt",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "GER",
+      "shortname": "ServiceNow Inc.               R",
+      "quoteType": "EQUITY",
+      "symbol": "4S0.DE",
+      "index": "quotes",
+      "score": 20034.0,
+      "typeDisp": "Equity",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "XETRA",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NEO",
+      "shortname": "SERVICENOW CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "NOWS.NE",
+      "index": "quotes",
+      "score": 20020.0,
+      "typeDisp": "Equity",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "NEO",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "MEX",
+      "shortname": "SERVICENOW INC",
+      "quoteType": "EQUITY",
+      "symbol": "NOWW.MX",
+      "index": "quotes",
+      "score": 20015.0,
+      "typeDisp": "Equity",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "Mexico",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Software\u2014Application",
+      "industryDisp": "Software\u2014Application",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "LSE",
+      "shortname": "SERVICENOW INC SERVICENOW ORD S",
+      "quoteType": "EQUITY",
+      "symbol": "0L5N.L",
+      "index": "quotes",
+      "score": 20004.0,
+      "typeDisp": "Equity",
+      "longname": "ServiceNow, Inc.",
+      "exchDisp": "London",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d0bc23d0-115b-314d-8989-07ca797bebfa",
+      "title": "Dow Jones Futures Loom After Stock Market Sell-Off; Apple, Palantir, Midterm Elections In Focus",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/d0bc23d0-115b-314d-8989-07ca797bebfa/dow-jones-futures-loom-after.html",
+      "providerPublishTime": 1793501054,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1561B3B7EE4E444E240FC52C59993BE6EFC0D19309178513EC4DE9BE75204059/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F07e170a2a884f954a52a470b9f3d86fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "^GSPC",
+        "^DJI",
+        "PLTR",
+        "LIFE",
+        "^IXIC",
+        "TSLA",
+        "GOOG",
+        "AMZN",
+        "NOW",
+        "INTC",
+        "FTNT",
+        "NET",
+        "AMGN",
+        "SPCX",
+        "AMD",
+        "SHOP",
+        "LITE",
+        "ANET"
+      ]
+    },
+    {
+      "uuid": "d0f053fd-501a-36e9-8b71-178a22ca87c8",
+      "title": "3 AI Stocks With Earnings Growth Over 30%",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-ai-stocks-earnings-growth-221029656.html",
+      "providerPublishTime": 1793484629,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/f3939e1c17355e7702a70a7d2e5ac2e0.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/25F170FE1E3FF1B0565771EFE015B6894B467E29D74BCD3158417F5CB352556B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Ff3939e1c17355e7702a70a7d2e5ac2e0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NOW",
+        "2492.TW",
+        "PLTR"
+      ]
+    },
+    {
+      "uuid": "1e39815f-d06e-3219-aee5-9ddebf67ddd5",
+      "title": "Cisco Systems (CSCO) Became A Founding Member Of An Enterprise AI Governance Alliance",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/cisco-systems-csco-became-founding-210818829.html",
+      "providerPublishTime": 1793480898,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/1c255d20731295daa30f844fecdb8657.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E511FFA45B6BFACAD99B6F2395B15248BCFD57431954BD7ADEAE51EF2CEDC1DF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F1c255d20731295daa30f844fecdb8657.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CSCO",
+        "NOW"
+      ]
+    },
+    {
+      "uuid": "95a7a736-def8-3a87-9874-d5d7a6e20b21",
+      "title": "5 must-read analyst questions from Everforth\u2019s Q3 earnings call",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-173129417.html",
+      "providerPublishTime": 1793467889,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/40042978831ba9e0b6d8517be3031bdb.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/95B5038D8B5778F30B4E7096CAF7B41C7F093F7F166B44A424EF744356456DDA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F40042978831ba9e0b6d8517be3031bdb.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EFOR",
+        "WDAY",
+        "CRM",
+        "NOW"
+      ]
+    },
+    {
+      "uuid": "a6018390-ca7d-39cd-98a9-c67b69ab676e",
+      "title": "Stocks making big moves this week: Watsco, Universal Display, Chipotle, Teladoc, and ServiceNow",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-week-145929462.html",
+      "providerPublishTime": 1793458769,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/c2fed7bd7ceace92b3c015506cfce25a.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7240DFEA704B5D457BE48A4170315A75021E23E34F9062E4E54EFF04C2A92E8D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Fc2fed7bd7ceace92b3c015506cfce25a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "WSO",
+        "TDOC",
+        "NOW",
+        "CMG",
+        "OLED"
+      ]
+    },
+    {
+      "uuid": "56575231-c863-3194-93af-e5ec301bfe18",
+      "title": "3 Cybersecurity Stocks Investors May Revisit After The Binance Hack",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-cybersecurity-stocks-investors-may-111130400.html",
+      "providerPublishTime": 1793445090,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/43e1667cb7476cb45f84db58a8de8d48.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DB1542F97C23090E57191605CDE778D0A4EBA05AC2E6C0D683A18D0684D9D138/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F43e1667cb7476cb45f84db58a8de8d48.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NOW",
+        "PEXIP.OL",
+        "TXT.MI"
+      ]
+    },
+    {
+      "uuid": "54e29573-fd6b-3ba3-a458-b2d881e81e78",
+      "title": "InfoBeans Technologies Ltd (NSE:INFOBEAN) (Q2 2027) Earnings Call Highlights: 22% Constant ...",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/infobeans-technologies-ltd-nse-infobean-110803888.html",
+      "providerPublishTime": 1793444883,
+      "type": "STORY",
+      "relatedTickers": [
+        "INFOBEAN.NS",
+        "NOW",
+        "INFOBEAN.BO"
+      ]
+    },
+    {
+      "uuid": "faafeec9-9ca0-38cc-b912-7f693bf5310b",
+      "title": "Cloudflare Sinks 14% and Datadog 13% in a Week as Software Selloff Hits Cloud Stocks",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-sinks-14-datadog-13-104409899.html",
+      "providerPublishTime": 1793443449,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/39812edee24df238a0fc1a47f1b4d574",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9AC8FA3B05E7EDCB9F578341DD5A985E03DB939A2BA1FA7EE0DC070E62E6D4EF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F39812edee24df238a0fc1a47f1b4d574",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DDOG",
+        "NET",
+        "NOW",
+        "FTNT"
+      ]
+    },
+    {
+      "uuid": "2d0fe49c-9ab7-3ec7-9c7b-a58dc8dc0eef",
+      "title": "AppLovin, 8x8, Elastic, Shopify, and F5 shares are falling, what you need to know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/applovin-8x8-elastic-shopify-f5-095529415.html",
+      "providerPublishTime": 1793440529,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/c477d1b16ce8a5eefc2188e65436b9e6.png",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E8870E21D3C533CD6D2698A9407ACA1D0AC332C7CE98891068E2589202425745/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Fc477d1b16ce8a5eefc2188e65436b9e6.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "INTC",
+        "APP",
+        "GOOG",
+        "NOW",
+        "EGHT",
+        "SHOP",
+        "FFIV",
+        "ESTC"
+      ]
+    },
+    {
+      "uuid": "1a66ec93-e33a-3e83-abb9-9f4a0faccb39",
+      "title": "Zeta Global and Commerce stocks trade down, what you need to know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zeta-global-commerce-stocks-trade-093129865.html",
+      "providerPublishTime": 1793439089,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/a1d065bac3605d595b782bb5513dbb1e.png",
+            "width": 732,
+            "height": 343,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B08FED48176785CD02DF12EAF0F183DE50F156CD0BB3AC7B36898E404AB9C447/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2Fa1d065bac3605d595b782bb5513dbb1e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "INTC",
+        "GOOG",
+        "NOW",
+        "ZETA",
+        "CMRC"
+      ]
+    },
+    {
+      "uuid": "1d5af00c-5283-3ec2-b608-f2726cd69fd1",
+      "title": "Cloudflare, Fastly, Oracle, JFrog, and Okta shares plummet, what you need to know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-fastly-oracle-jfrog-okta-092329601.html",
+      "providerPublishTime": 1793438609,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/6f99408f467d055925cdfc483d595e5f.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2C9AA314445290D79033ED1590CBE636AA2F3B33EC4018987F058FC9D3B14F76/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F6f99408f467d055925cdfc483d595e5f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "INTC",
+        "GOOG",
+        "NOW",
+        "NET",
+        "FSLY",
+        "ORCL",
+        "FROG",
+        "OKTA"
+      ]
+    },
+    {
+      "uuid": "b58685cc-6710-3bba-88eb-080719137f23",
+      "title": "MongoDB, Datadog, Snowflake, Bandwidth, and DigitalOcean stocks trade down, what you need to know",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mongodb-datadog-snowflake-bandwidth-digitalocean-091529883.html",
+      "providerPublishTime": 1793438129,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/0a92ec5509ed201424cb09286b6a3f4b.jpg",
+            "width": 1400,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9C8AA37B23CD5B23EDEAC0A57C3B83D9768A1B01C9CE4A7E16167B1BB4ED74FA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F0a92ec5509ed201424cb09286b6a3f4b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AMZN",
+        "INTC",
+        "MDB",
+        "DDOG",
+        "SNOW",
+        "GOOG",
+        "NOW",
+        "BAND",
+        "DOCN"
+      ]
+    },
+    {
+      "uuid": "63a31cb9-1fa6-3d96-88d1-3a748ce2633f",
+      "title": "Datadog Stock Fell Nearly 12% as AI Spending Fears Hit Cloud Stocks. Its Earnings Estimates Didn\u2019t Move",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-stock-fell-nearly-12-071819615.html",
+      "providerPublishTime": 1793431099,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/7f2220157d87ada729d33e728fd1b776",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0D98813CEEC4E70E4D917D1CC7318384EC859E32F940E8D7EE2AB42B6FD814C5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F7f2220157d87ada729d33e728fd1b776",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DDOG",
+        "AMZN",
+        "SNOW",
+        "INTC",
+        "GOOG",
+        "NOW"
+      ]
+    },
+    {
+      "uuid": "c8e990f3-6f0d-3316-9ee5-f800d69590dd",
+      "title": "Axon Enterprise vs. ServiceNow: Which Industrials Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-vs-servicenow-industrials-024201805.html",
+      "providerPublishTime": 1793414521,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/a857474c5227667e1c9f49be31d078c2.png",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3FDC24792AEE39BF0F0730C3385F1D5453E08F38222AA83A06BB2EC5A8F2EC99/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fa857474c5227667e1c9f49be31d078c2.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AXON",
+        "NOW"
+      ]
+    },
+    {
+      "uuid": "37fc2a3f-dded-31c5-ac12-5a15eb3434aa",
+      "title": "IBM vs. ServiceNow: Which Technology Stock Is a Better Buy in 2026?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-servicenow-technology-stock-203501226.html",
+      "providerPublishTime": 1793392501,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/4feddcfa14b32f2b74cecabb9ae86fc2.jpg",
+            "width": 1290,
+            "height": 860,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4758FE4888FD2A49E6216617BB6C64F8496F31C2FC0AFE78D32DB578D438D1A6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F4feddcfa14b32f2b74cecabb9ae86fc2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "IBM",
+        "NOW",
+        "ADBE",
+        "AMZN",
+        "MSFT",
+        "ORCL",
+        "PANW",
+        "005930.KS",
+        "CRM",
+        "SAP"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 205,
+  "timeTakenForQuotes": 413,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

@@ -1,0 +1,811 @@
+1
+00:00:00,040 --> 00:00:03,737
+Intel lost almost twenty nine percent in one day.
+
+2
+00:00:03,737 --> 00:00:06,840
+ServiceNow lost a third of its value in a week.
+
+3
+00:00:06,840 --> 00:00:11,480
+Reuters reported a $6.3 billion theft at Binance.
+
+4
+00:00:11,480 --> 00:00:13,880
+Yet most market sectors finished higher.
+
+5
+00:00:13,880 --> 00:00:17,509
+Let's separate the damage, the evidence, and next week's biggest
+
+6
+00:00:17,509 --> 00:00:17,933
+tests.
+
+7
+00:00:18,123 --> 00:00:24,003
+We're reviewing October 26–30, and looking ahead to November 2–6.
+
+8
+00:00:24,003 --> 00:00:28,281
+For the week, SPY lost zero point five six percent,
+
+9
+00:00:28,281 --> 00:00:32,645
+QQQ fell one point nine eight, and the Dow lost
+
+10
+00:00:32,645 --> 00:00:33,843
+zero point eight five.
+
+11
+00:00:33,843 --> 00:00:38,607
+Friday alone was worse: QQQ dropped three point four seven
+
+12
+00:00:38,607 --> 00:00:39,016
+percent.
+
+13
+00:00:39,207 --> 00:00:43,326
+Equal weight stocks, measured by RSP, gained zero point eight
+
+14
+00:00:43,326 --> 00:00:45,407
+two percent for the week.
+
+15
+00:00:45,407 --> 00:00:51,047
+Small caps, represented by IWM, rose one point three zero.
+
+16
+00:00:51,047 --> 00:00:54,767
+Both declined Friday but retained weekly gains.
+
+17
+00:00:54,767 --> 00:00:59,939
+Large technology companies dominate capitalization weighted indexes, so their losses
+
+18
+00:00:59,939 --> 00:01:01,850
+can hide resilience elsewhere.
+
+19
+00:01:02,040 --> 00:01:05,320
+Nine of eleven major sector funds finished higher.
+
+20
+00:01:05,320 --> 00:01:09,367
+Healthcare gained three point one percent, materials two point eight,
+
+21
+00:01:09,367 --> 00:01:11,320
+and utilities two percent.
+
+22
+00:01:11,320 --> 00:01:16,882
+Communication services lost five point three percent; technology fell two
+
+23
+00:01:16,882 --> 00:01:17,228
+percent.
+
+24
+00:01:17,228 --> 00:01:19,760
+Eli Lilly gained more than eleven percent.
+
+25
+00:01:19,760 --> 00:01:24,276
+This was dispersion, not proof that every stock outside technology
+
+26
+00:01:24,276 --> 00:01:24,933
+was safe.
+
+27
+00:01:25,123 --> 00:01:27,683
+Intel is the clearest earnings shock.
+
+28
+00:01:27,683 --> 00:01:31,283
+The stock closed Friday at sixty five dollars seventy six,
+
+29
+00:01:31,283 --> 00:01:34,003
+down twenty eight point six percent that day.
+
+30
+00:01:34,003 --> 00:01:39,151
+Reporting described a weak outlook, PC challenges, and supply constraints
+
+31
+00:01:39,151 --> 00:01:41,263
+despite strength in data centers.
+
+32
+00:01:41,263 --> 00:01:44,123
+The lesson is that a company can report growth and
+
+33
+00:01:44,123 --> 00:01:45,523
+still disappoint.
+
+34
+00:01:45,523 --> 00:01:49,452
+Investors are pricing the future, not simply grading the quarter
+
+35
+00:01:49,452 --> 00:01:50,350
+that just ended.
+
+36
+00:01:50,540 --> 00:01:53,860
+Intel's weekly low was sixty three dollars twenty.
+
+37
+00:01:53,860 --> 00:01:57,120
+The two hundred day average was around eighty seven dollars,
+
+38
+00:01:57,120 --> 00:01:59,220
+far above Friday's close.
+
+39
+00:01:59,220 --> 00:02:02,800
+Former support can become overhead resistance after a gap.
+
+40
+00:02:02,800 --> 00:02:06,017
+Before calling this a reversal, look for a base, a
+
+41
+00:02:06,017 --> 00:02:09,540
+higher low, and a level reclaimed with participation.
+
+42
+00:02:09,540 --> 00:02:13,535
+A lower share price does not, by itself, repair margins,
+
+43
+00:02:13,535 --> 00:02:15,475
+cash flow, or the outlook.
+
+44
+00:02:15,665 --> 00:02:18,285
+ServiceNow deserves its own discussion.
+
+45
+00:02:18,285 --> 00:02:21,340
+It closed at one hundred five dollars twelve, down thirty
+
+46
+00:02:21,340 --> 00:02:23,925
+three point nine percent for the week.
+
+47
+00:02:23,925 --> 00:02:28,128
+Thursday's earnings reaction was followed by another four percent decline
+
+48
+00:02:28,128 --> 00:02:29,045
+on Friday.
+
+49
+00:02:29,045 --> 00:02:34,131
+Reporting said revenue beat expectations, earnings missed, and the subscription
+
+50
+00:02:34,131 --> 00:02:35,725
+outlook raised concerns.
+
+51
+00:02:35,725 --> 00:02:40,398
+For recurring revenue software, confidence in future growth and monetization
+
+52
+00:02:40,398 --> 00:02:43,017
+can matter more than a headline revenue beat.
+
+53
+00:02:43,207 --> 00:02:45,427
+The weekly low near one hundred three dollars fifty one
+
+54
+00:02:45,427 --> 00:02:49,433
+is an observation, not a guaranteed floor.
+
+55
+00:02:49,433 --> 00:02:53,848
+ServiceNow also ended below its two hundred day average near
+
+56
+00:02:53,848 --> 00:02:54,487
+one hundred fifteen dollars.
+
+57
+00:02:54,487 --> 00:02:58,407
+Watch whether selling slows and a reclaim survives a retest.
+
+58
+00:02:58,407 --> 00:03:04,114
+For a longer term assessment, examine subscription growth, renewals, margins,
+
+59
+00:03:04,114 --> 00:03:05,607
+and cash generation.
+
+60
+00:03:05,607 --> 00:03:09,039
+A thirty percent decline is not automatically a thirty percent
+
+61
+00:03:09,039 --> 00:03:09,850
+bargain.
+
+62
+00:03:10,040 --> 00:03:13,160
+Alphabet lost twelve point six percent for the week.
+
+63
+00:03:13,160 --> 00:03:16,840
+Amazon lost three point one percent, but its Friday close
+
+64
+00:03:16,840 --> 00:03:18,920
+was well above that day's low.
+
+65
+00:03:18,920 --> 00:03:22,824
+That difference matters: the worst overnight quote is not the
+
+66
+00:03:22,824 --> 00:03:23,720
+final result.
+
+67
+00:03:23,720 --> 00:03:27,570
+Reuters linked the broader selloff to concerns about AI cash
+
+68
+00:03:27,570 --> 00:03:28,040
+burn.
+
+69
+00:03:28,040 --> 00:03:32,478
+The question is whether enormous investment produces profitable demand quickly
+
+70
+00:03:32,478 --> 00:03:34,475
+enough to support expectations.
+
+71
+00:03:34,665 --> 00:03:40,265
+Separate three milestones in AI: signed contracts, operational capacity, and
+
+72
+00:03:40,265 --> 00:03:42,505
+cash collected after investment.
+
+73
+00:03:42,505 --> 00:03:44,385
+They are not interchangeable.
+
+74
+00:03:44,385 --> 00:03:48,750
+Large capital spending can support suppliers while reducing the buyer's
+
+75
+00:03:48,750 --> 00:03:51,905
+free cash flow and raising financing needs.
+
+76
+00:03:51,905 --> 00:03:54,145
+Check execution and returns.
+
+77
+00:03:54,145 --> 00:03:57,661
+An announced data center does not benefit every cloud stock
+
+78
+00:03:57,661 --> 00:03:58,267
+equally.
+
+79
+00:03:58,457 --> 00:04:00,317
+The macro picture was mixed.
+
+80
+00:04:00,317 --> 00:04:03,257
+Reporting said the Fed left rates unchanged.
+
+81
+00:04:03,257 --> 00:04:06,959
+The economic calendar recorded third quarter GDP growth at three
+
+82
+00:04:06,959 --> 00:04:12,069
+point four percent annualized, while September core PCE inflation was
+
+83
+00:04:12,069 --> 00:04:14,837
+three point one percent from a year earlier.
+
+84
+00:04:14,837 --> 00:04:17,637
+Those are different measures and time periods.
+
+85
+00:04:17,637 --> 00:04:23,057
+Resilient growth alongside persistent inflation does not automatically create room
+
+86
+00:04:23,057 --> 00:04:24,767
+for rapid interest rate cuts.
+
+87
+00:04:24,957 --> 00:04:28,772
+VIX closed at nineteen point four two, almost unchanged for
+
+88
+00:04:28,772 --> 00:04:29,582
+the week.
+
+89
+00:04:29,582 --> 00:04:33,155
+But it rose nearly thirteen percent Friday and touched twenty
+
+90
+00:04:33,155 --> 00:04:36,077
+three point nine three intraday.
+
+91
+00:04:36,077 --> 00:04:39,706
+The ten year yield ended near four point nine three
+
+92
+00:04:39,706 --> 00:04:39,877
+percent.
+
+93
+00:04:39,877 --> 00:04:44,090
+Neither a volatility spike nor falling yields proves a bottom
+
+94
+00:04:44,090 --> 00:04:46,309
+or guarantees automated buying.
+
+95
+00:04:46,498 --> 00:04:49,995
+West Texas oil futures finished near one hundred four dollars
+
+96
+00:04:49,995 --> 00:04:50,818
+a barrel.
+
+97
+00:04:50,818 --> 00:04:55,498
+Reuters linked Friday's strength to fears of escalation involving Iran.
+
+98
+00:04:55,498 --> 00:05:00,605
+Watch verified developments involving Iran, the United States, Israel, and
+
+99
+00:05:00,605 --> 00:05:01,858
+shipping routes.
+
+100
+00:05:01,858 --> 00:05:06,633
+Sustained disruption can raise costs and inflation; de escalation can
+
+101
+00:05:06,633 --> 00:05:08,218
+remove a risk premium.
+
+102
+00:05:08,218 --> 00:05:10,183
+Neither outcome is guaranteed.
+
+103
+00:05:10,373 --> 00:05:12,293
+Now to the crypto story.
+
+104
+00:05:12,293 --> 00:05:15,944
+Reuters reported on October 30 that Binance was trying to
+
+105
+00:05:15,944 --> 00:05:20,473
+restore confidence after a record $6.3 billion heist.
+
+106
+00:05:20,473 --> 00:05:25,213
+The Financial Times also reported other exchanges tightening security.
+
+107
+00:05:25,213 --> 00:05:29,273
+That is stronger evidence than an unsupported social media claim.
+
+108
+00:05:29,273 --> 00:05:32,517
+But the headline amount does not establish that all stolen
+
+109
+00:05:32,517 --> 00:05:35,693
+assets were Bitcoin, and it does not establish a breach
+
+110
+00:05:35,693 --> 00:05:37,766
+of Bitcoin's underlying network.
+
+111
+00:05:37,957 --> 00:05:40,886
+Custody risk concerns where assets are held.
+
+112
+00:05:40,886 --> 00:05:43,499
+Price risk concerns their market value.
+
+113
+00:05:43,499 --> 00:05:45,672
+An exchange incident can affect both.
+
+114
+00:05:45,672 --> 00:05:50,393
+Check official notices and withdrawal status through trusted channels, and
+
+115
+00:05:50,393 --> 00:05:52,317
+avoid recovery scams.
+
+116
+00:05:52,317 --> 00:05:56,479
+The attack method, stolen asset breakdown, and recoveries are not
+
+117
+00:05:56,479 --> 00:05:58,458
+independently verified here.
+
+118
+00:05:58,458 --> 00:06:02,017
+Selling every Bitcoin is not a universal answer.
+
+119
+00:06:02,207 --> 00:06:06,401
+Bitcoin's Friday UTC close was around seventy seven thousand two
+
+120
+00:06:06,401 --> 00:06:09,100
+hundred dollars, down about four point eight percent from the
+
+121
+00:06:09,100 --> 00:06:10,887
+previous Friday.
+
+122
+00:06:10,887 --> 00:06:14,447
+The week's low was near seventy six thousand two hundred.
+
+123
+00:06:14,447 --> 00:06:18,807
+Watch that area and the $79,000 to $80,000 reclaim zone.
+
+124
+00:06:18,807 --> 00:06:22,415
+A recovery that holds is more meaningful than a brief
+
+125
+00:06:22,415 --> 00:06:22,807
+spike.
+
+126
+00:06:22,807 --> 00:06:26,020
+These are dated levels, not live weekend prices or a
+
+127
+00:06:26,020 --> 00:06:26,934
+prediction.
+
+128
+00:06:27,123 --> 00:06:31,028
+Next week's calendar lists Apple and Palantir Monday after the
+
+129
+00:06:31,028 --> 00:06:31,403
+close.
+
+130
+00:06:31,403 --> 00:06:35,390
+Tuesday brings AMD and Super Micro after the close, and
+
+131
+00:06:35,390 --> 00:06:37,123
+Shopify before the open.
+
+132
+00:06:37,123 --> 00:06:40,443
+Wednesday includes Uber, Qualcomm, and Arm.
+
+133
+00:06:40,443 --> 00:06:43,283
+Thursday includes Iren and Airbnb.
+
+134
+00:06:43,283 --> 00:06:47,809
+These dates are calendar listed; confirm issuer updates before relying
+
+135
+00:06:47,809 --> 00:06:48,558
+on timing.
+
+136
+00:06:48,748 --> 00:06:52,329
+Apple enters its Monday report near three hundred forty five
+
+137
+00:06:52,329 --> 00:06:55,948
+dollars, still above its twenty and fifty day averages.
+
+138
+00:06:55,948 --> 00:06:59,524
+That is a stronger position than several battered chip stocks,
+
+139
+00:06:59,524 --> 00:07:01,548
+but it does not remove earnings risk.
+
+140
+00:07:01,548 --> 00:07:07,188
+Watch iPhone demand, services growth, margins, and the holiday outlook.
+
+141
+00:07:07,188 --> 00:07:11,138
+The calendar's earnings consensus is about one dollar ninety eight
+
+142
+00:07:11,138 --> 00:07:11,948
+per share.
+
+143
+00:07:11,948 --> 00:07:14,725
+Compare results on the same accounting basis.
+
+144
+00:07:14,915 --> 00:07:19,255
+Palantir reports Monday after the close, according to the calendar.
+
+145
+00:07:19,255 --> 00:07:22,832
+It finished near one hundred eighty four dollars, below its
+
+146
+00:07:22,832 --> 00:07:25,635
+fifty day average near one hundred eighty seven.
+
+147
+00:07:25,635 --> 00:07:28,970
+Revenue consensus was around two point one eight billion dollars.
+
+148
+00:07:28,970 --> 00:07:32,550
+Watch commercial growth, government demand, and cash flow.
+
+149
+00:07:32,550 --> 00:07:37,600
+Strong growth can still disappoint elevated expectations.
+
+150
+00:07:37,790 --> 00:07:41,375
+AMD fell nearly eleven percent on Friday, before its own
+
+151
+00:07:41,375 --> 00:07:42,670
+Tuesday report.
+
+152
+00:07:42,670 --> 00:07:46,858
+That is important: Intel's warning can affect sentiment, but it
+
+153
+00:07:46,858 --> 00:07:48,150
+is not AMD's result.
+
+154
+00:07:48,150 --> 00:07:53,670
+Watch data center revenue, accelerator demand, gross margin, and guidance.
+
+155
+00:07:53,670 --> 00:07:57,533
+Friday's close was near five hundred five dollars, below the
+
+156
+00:07:57,533 --> 00:08:00,083
+fifty day average near five hundred forty eight.
+
+157
+00:08:00,083 --> 00:08:02,169
+The weekly low near four hundred ninety two is a
+
+158
+00:08:02,169 --> 00:08:04,308
+reference, not protection.
+
+159
+00:08:04,498 --> 00:08:08,018
+Qualcomm and Arm are listed for Wednesday after the close.
+
+160
+00:08:08,018 --> 00:08:13,298
+For Qualcomm, watch handset demand, automotive growth, and diversification.
+
+161
+00:08:13,298 --> 00:08:17,858
+For Arm, watch licensing, royalties, and customer demand.
+
+162
+00:08:17,858 --> 00:08:19,898
+Both fell sharply Friday.
+
+163
+00:08:19,898 --> 00:08:23,593
+They are not interchangeable: their business models and routes from
+
+164
+00:08:23,593 --> 00:08:25,516
+AI demand to earnings are different.
+
+165
+00:08:25,707 --> 00:08:29,152
+For the infrastructure names, Cipher is listed for Monday before
+
+166
+00:08:29,152 --> 00:08:32,387
+the open and Iren for Thursday after the close.
+
+167
+00:08:32,387 --> 00:08:37,867
+Watch energized power, customer commitments, construction timelines, financing, and revenue
+
+168
+00:08:37,867 --> 00:08:39,481
+actually delivered.
+
+169
+00:08:39,481 --> 00:08:42,592
+Iren finished the week near twenty four dollars after a
+
+170
+00:08:42,592 --> 00:08:44,147
+sharp Friday decline.
+
+171
+00:08:44,147 --> 00:08:48,783
+A hyperscaler's spending announcement is not automatically a contract for
+
+172
+00:08:48,783 --> 00:08:49,782
+these companies.
+
+173
+00:08:49,782 --> 00:08:53,517
+Keep mining economics and cloud infrastructure economics separate.
+
+174
+00:08:53,707 --> 00:08:54,932
+Tuesday brings U.S.
+
+175
+00:08:54,932 --> 00:08:58,607
+midterm electionS&Potential policy uncertainty.
+
+176
+00:08:58,607 --> 00:09:04,542
+Manufacturing ISM is listed Monday, services ISM Wednesday, and Friday's
+
+177
+00:09:04,542 --> 00:09:06,827
+jobs report at 8:30 ET.
+
+178
+00:09:06,827 --> 00:09:11,707
+Read payrolls, unemployment, wages, and revisions together.
+
+179
+00:09:11,707 --> 00:09:16,125
+Strong hiring with hot wages can change rate expectations differently
+
+180
+00:09:16,125 --> 00:09:17,809
+from a broad slowdown.
+
+181
+00:09:17,998 --> 00:09:21,932
+For the broad indexes, SPY closed near seven hundred fifty
+
+182
+00:09:21,932 --> 00:09:24,998
+six, with the week's low around seven hundred fifty.
+
+183
+00:09:24,998 --> 00:09:28,998
+Its fifty day average was near seven hundred sixty seven.
+
+184
+00:09:28,998 --> 00:09:33,297
+QQQ closed near six hundred ninety, with the weekly low
+
+185
+00:09:33,297 --> 00:09:36,117
+around six hundred eighty three and the two hundred day
+
+186
+00:09:36,117 --> 00:09:37,998
+average near six hundred eighty.
+
+187
+00:09:37,998 --> 00:09:42,600
+These areas organize observation; they do not guarantee a bounce.
+
+188
+00:09:42,790 --> 00:09:48,128
+A constructive scenario would combine stabilizing earnings expectations, reclaimed levels,
+
+189
+00:09:48,128 --> 00:09:51,190
+broader participation, and calmer volatility.
+
+190
+00:09:51,190 --> 00:09:55,297
+A weaker scenario would combine fresh lows, disappointing guidance, and
+
+191
+00:09:55,297 --> 00:09:57,790
+stress spreading beyond the hardest hit groups.
+
+192
+00:09:57,790 --> 00:10:01,619
+For a position held through earnings, remember that gaps can
+
+193
+00:10:01,619 --> 00:10:02,670
+jump past a stop.
+
+194
+00:10:02,670 --> 00:10:05,270
+Size and time horizon matter.
+
+195
+00:10:05,270 --> 00:10:08,369
+Do not confuse a rebound with a repaired business, or
+
+196
+00:10:08,369 --> 00:10:10,767
+a good business with a good entry price.
+
+197
+00:10:10,957 --> 00:10:15,168
+The takeaway: selective damage, real event risk, and a busy
+
+198
+00:10:15,168 --> 00:10:15,957
+week ahead.
+
+199
+00:10:15,957 --> 00:10:18,517
+Follow the facts and manage exposure.
+
+200
+00:10:18,517 --> 00:10:22,477
+Subscribe to Market Mind Trading Basics for the next breakdown.
+
+201
+00:10:22,477 --> 00:10:24,757
+I am not a licensed advisor.
+
+202
+00:10:24,757 --> 00:10:29,473
+Education only, not financial advice or a recommendation to buy
+
+203
+00:10:29,473 --> 00:10:30,142
+or sell.

@@ -1,0 +1,575 @@
+{
+  "explains": [],
+  "count": 26,
+  "quotes": [
+    {
+      "exchange": "NYM",
+      "shortname": "Crude Oil Dec 26",
+      "quoteType": "FUTURE",
+      "symbol": "CL=F",
+      "index": "quotes",
+      "score": 48901000.0,
+      "typeDisp": "Futures",
+      "exchDisp": "NY Mercantile",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "American Balanced Fund Class F-",
+      "quoteType": "MUTUALFUND",
+      "symbol": "AMBFX",
+      "index": "quotes",
+      "score": 20129.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds American Balanced F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "ASX",
+      "shortname": "CLINUVEL FPO [CUV]",
+      "quoteType": "EQUITY",
+      "symbol": "CUV.AX",
+      "index": "quotes",
+      "score": 20120.0,
+      "typeDisp": "Equity",
+      "longname": "Clinuvel Pharmaceuticals Limited",
+      "exchDisp": "Australian",
+      "sector": "Healthcare",
+      "sectorDisp": "Healthcare",
+      "industry": "Biotechnology",
+      "industryDisp": "Biotechnology",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "New World Fund, Inc., Class F-2",
+      "quoteType": "MUTUALFUND",
+      "symbol": "NFFFX",
+      "index": "quotes",
+      "score": 20088.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds New World F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Invesco AAA CLO Floating Rate N",
+      "quoteType": "ETF",
+      "symbol": "ICLO",
+      "index": "quotes",
+      "score": 20077.0,
+      "typeDisp": "ETF",
+      "longname": "Invesco AAA CLO Floating Rate Note ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "Fundamental Investors, Class F-",
+      "quoteType": "MUTUALFUND",
+      "symbol": "FINFX",
+      "index": "quotes",
+      "score": 20077.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds Fundamental Invs F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "Capital Income Builder Cl F-2 S",
+      "quoteType": "MUTUALFUND",
+      "symbol": "CAIFX",
+      "index": "quotes",
+      "score": 20076.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds Capital Inc Bldr F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "81333500-f62c-30fc-9386-b70dd5e4330b",
+      "title": "3 Integrated Oil Majors Whose Cash Flow Outlook Just Got Clearer",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/3-integrated-oil-majors-whose-041824843.html",
+      "providerPublishTime": 1793506704,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/cdadae800d691074bea5587f34f15a32.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2752EC7D2E1E7ABF1A6E97AB04DA208F357B0B635739E56E38EBB222ACDE4AF0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fcdadae800d691074bea5587f34f15a32.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EC",
+        "CL=F",
+        "LKOH",
+        "EC",
+        "SU"
+      ]
+    },
+    {
+      "uuid": "1f2c2804-0f12-33dc-acbf-d28ea9888860",
+      "title": "OPEC+ set to hold December oil output steady, Reuters reports",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/energy/articles/opec-set-hold-december-oil-211425680.html",
+      "providerPublishTime": 1793481265,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "LCO",
+        "CL"
+      ]
+    },
+    {
+      "uuid": "1da612e2-7d0f-3071-a8ed-31f45ab88c67",
+      "title": "Saturn Oil & Gas (TSX:SOIL) Stock May Trade Below Fair Value Despite Corex Deal",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/saturn-oil-gas-tsx-soil-210820495.html",
+      "providerPublishTime": 1793480900,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/b21972f90d07f1bd1c37f988bf08e67d.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7929FD00E6444F845BB653BA78C1FF7D26D2B773DE6B0ACA940F5F45449277DC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fb21972f90d07f1bd1c37f988bf08e67d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SOIL.TO",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "28f7b83f-6176-3726-92d3-2ffb0b1f3284",
+      "title": "NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-193200516.html",
+      "providerPublishTime": 1793475120,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/prnewswire.com/0caf166f0445274a0998bbea05faf8cd.jpg",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/55F2273FD790EEACD45CF9415D0440C0FEBF6A8E1183EADD8AAEE2A8CFDF6084/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F0caf166f0445274a0998bbea05faf8cd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "5496de61-b02e-4743-b296-24deb70ad944",
+      "title": "'The Fed put is very much back': Wall Street strategists weigh central bank's next move",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/the-fed-put-is-very-much-back-wall-street-strategists-weigh-central-banks-next-move-155353732.html",
+      "providerPublishTime": 1793462033,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/9cdd90a4-03f9-4644-ab85-fedf8428b225",
+            "width": 5616,
+            "height": 3744,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2BE2ADAC51000169B11631707BB92AD711239B70534361FBCB174EC009F27E52/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F9cdd90a4-03f9-4644-ab85-fedf8428b225",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOOGL",
+        "^GSPC",
+        "^IXIC",
+        "XLK",
+        "XLF",
+        "XLRE",
+        "XLV",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "2e491d5b-2964-31e6-89a0-fd235629b295",
+      "title": "NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-152100373.html",
+      "providerPublishTime": 1793460060,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/prnewswire.com/b790e1b089d74078b86017e94daa6e7d.jpg",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8C920C80B473FBADFBB385EA5AB5C041807EBE0866C5FBA8FF4335D9AF5FCFA9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2Fb790e1b089d74078b86017e94daa6e7d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "d676e1fa-3447-329b-be10-5eb1fff6dcec",
+      "title": "NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/energy/articles/nabep-rig-fleet-grows-41-152100044.html",
+      "providerPublishTime": 1793460060,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cnwgroup.com/b790e1b089d74078b86017e94daa6e7d.jpg",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7862567E11F70257AE9EFEA47CF48A6E3B3726E056C41E781B2D1C096C68DAEC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcnwgroup.com%2Fb790e1b089d74078b86017e94daa6e7d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "0b53fb1a-5fd2-35f6-a9f1-f06f0dbdcd9c",
+      "title": "BW Energy (OB:BWE) Stock Catches A Q3 Earnings Squeeze",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bw-energy-ob-bwe-stock-151625884.html",
+      "providerPublishTime": 1793459785,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/04f4d884213644d02409dfe16895b12d.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D08EB9EB9EC8649A7EEAD0A52DBF753CBEDCCEADE1A73214DA5DA7B0DC422085/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F04f4d884213644d02409dfe16895b12d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BWE.OL",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "686280c1-154a-37f7-9b80-a3ab8ce0ec35",
+      "title": "Imperial Oil Stock Record Downstream Earnings What's Changed",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/imperial-oil-stock-record-downstream-141302765.html",
+      "providerPublishTime": 1793455982,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/cdadae800d691074bea5587f34f15a32.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2752EC7D2E1E7ABF1A6E97AB04DA208F357B0B635739E56E38EBB222ACDE4AF0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fcdadae800d691074bea5587f34f15a32.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "IMO",
+        "CL=F",
+        "IMO"
+      ]
+    },
+    {
+      "uuid": "55abbd3f-08f0-3b67-b43c-fdd484f74a5e",
+      "title": "3 Oil Stocks Investors Are Screening As Brent Forecasts Move Higher",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/3-oil-stocks-investors-screening-141203630.html",
+      "providerPublishTime": 1793455923,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/145dc6175435ab190da5675afb44a2b3.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A49BA7BAB3B77841AB5153917271205CC1A08F98EFC513D08AB7AF3FF593F7BF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F145dc6175435ab190da5675afb44a2b3.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "NG=F",
+        "HINDPETRO.NS",
+        "SNP.RO",
+        "A267250"
+      ]
+    },
+    {
+      "uuid": "3d73b03b-cc19-3ea2-acd7-5530227e56d6",
+      "title": "Chevron Leads 3 Top Energy Stocks To Watch",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/chevron-leads-3-top-energy-080922894.html",
+      "providerPublishTime": 1793434162,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/1ea5b1d9f0560070bd8a3f6e95339b25.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/75A5A38FFE94A09DDD2A013FB966774AD4063DDE94CC7F03116989C069A3E35C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F1ea5b1d9f0560070bd8a3f6e95339b25.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CVX",
+        "CL=F",
+        "XOM",
+        "DVN",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "ccbdcc54-44c1-3a8a-b0ed-e5281a370ac5",
+      "title": "ExxonMobil Plans $20 Billion of 2027 Buybacks. Here\u2019s How Its CEO Answered the $60 Oil Question",
+      "publisher": "TIKR",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-plans-20-billion-2027-071811893.html",
+      "providerPublishTime": 1793431091,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/tikr_258/8b18d07de2c8cd83bd91b94347aa2850",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8FA8ABCF4DB1070F737FF69BB073FD20E503A019C263D5F339CA192F9CFDAE1D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftikr_258%2F8b18d07de2c8cd83bd91b94347aa2850",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XOM",
+        "CL=F",
+        "CVX",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "07f531e5-de25-38a1-b1f8-a2a9340b50df",
+      "title": "What YPF Sociedad An\u00f3nima (YPF) Said on Its Q3 Earnings Call",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/energy/articles/ypf-sociedad-nima-ypf-said-071405303.html",
+      "providerPublishTime": 1793430845,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/marketbeat_955/d873d86306346e038b83960e38a22d5d.jpg",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9A3B55D624193EB82704AA6DB3924576E7CB7710E266518695D3FF34A9D6FDE4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2Fd873d86306346e038b83960e38a22d5d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "YPF",
+        "CL=F",
+        "YPF"
+      ]
+    },
+    {
+      "uuid": "1997a16c-b7b2-3039-9305-b458e02486f4",
+      "title": "Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/energy/articles/oil-hits-six-month-highs-063746684.html",
+      "providerPublishTime": 1793428666,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "LCO",
+        "CL"
+      ]
+    },
+    {
+      "uuid": "b0cc4c68-aed4-39b4-aba5-082c2ce595c3",
+      "title": "EXE Q3 deep dive: Integration, new CEO, and commercial expansion define the quarter",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exe-q3-deep-dive-integration-031529843.html",
+      "providerPublishTime": 1793416529,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stockstory_922/2332b7722ecc932fd4a3c259f55ce8ac.jpg",
+            "width": 1092,
+            "height": 700,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2E79A0034F4FF02BEA420F5F49EED72A0E231BAE25390CA4D95CDB07201D4757/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstockstory_922%2F2332b7722ecc932fd4a3c259f55ce8ac.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EXE",
+        "CL=F",
+        "NG=F"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [
+    {
+      "slug": "most-bought-by-activist-hedge-funds",
+      "name": "Most Bought By Activist Hedge Funds",
+      "index": "most-bought-by-activist-hedge-funds",
+      "score": 12.0673,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_bought_by_activist_hedge_funds",
+      "symbolCount": 30,
+      "dailyPercentGain": -0.6369230769230769,
+      "followerCount": 57371,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/110f1012357c7b3e87d14912e7023f819b61278e7f0e90a3825821d2ef3c427c/finance/resizefill_w96_h96/https://s.yimg.com/uc/fin/img/most-bought-activist.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "slug": "most-bought-by-hedge-funds",
+      "name": "Most Bought By Hedge Funds",
+      "index": "most-bought-by-hedge-funds",
+      "score": 8.414782,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_bought_by_hedge_funds",
+      "symbolCount": 30,
+      "dailyPercentGain": -3.3193195110990166,
+      "followerCount": 38920,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/f1b1a50dcfdddcf42a67d2da1bb1c341e6f65992b3d89154b9020ae8a9ffa004/finance/resizefill_w96_h96/https://s.yimg.com/uc/fin/img/mostboughtHedgeFunds.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "slug": "most-watched",
+      "name": "Most Watched by Yahoo Finance Users",
+      "index": "most-watched",
+      "score": 5.74433,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_watched",
+      "symbolCount": 30,
+      "dailyPercentGain": -2.290859277309813,
+      "followerCount": 27310,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/9f2d41c327a5d20c8062b14f526038441141d5644b2b3a0efee2e12d9be1efe0/finance/resizefill_w96_h96/https://s.yimg.com/uc/finance/social/portfolio/most-watched.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "slug": "the-fight-against-covid19",
+      "name": "The Fight Against COVID19",
+      "index": "the-fight-against-covid19",
+      "score": 4.7694297,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "trea",
+      "pfId": "the_fight_against_covid19",
+      "symbolCount": 13,
+      "dailyPercentGain": 1.3228428960342782,
+      "followerCount": 21444,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/3c7c7b592c7aba2beee72abb1e520b85d6241aee639ea2e8033b96962ad2e126/finance/resizefill_w96_h96/https://s.yimg.com/uc/fin/img/iStock-476433472.png",
+      "userId": "X3NJ2A7VDSABUI4URBWME2PZNM"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 220,
+  "timeTakenForQuotes": 425,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}
