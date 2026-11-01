@@ -1,0 +1,31 @@
+TITLE
+Binance’s Reported $6.3B Heist: Was Bitcoin Itself Hacked?
+
+ALTERNATIVE
+Bitcoin: Custody Risk vs Price Risk After the Binance Reports
+
+DESCRIPTION
+FULL WEEKLY EPISODE (video link):
+https://raw.githubusercontent.com/ilia044-lang/-/edf250f6d8e26840bef310516a13be007d6f122c/downloads/Weekly_Market_Nov1_2026/Market_Mind_Weekly_Oct26_30_2026.mp4
+
+Reuters and the Financial Times reported a $6.3B Binance heist. That does not establish a breach of Bitcoin’s underlying network or mean every stolen asset was Bitcoin. Attack details, the asset breakdown and recoveries were not independently verified in this review.
+
+Custody risk concerns where assets are held; price risk concerns their market value. Check official notices through trusted channels and avoid recovery scams.
+
+Bitcoin’s October 30 UTC daily close was approximately $77,198; the weekly low was $76,190. The $79k–$80k reclaim area is a conditional observation, not a forecast. These are dated levels, not live weekend prices.
+
+Review: October 26–30, 2026. Ahead: November 2–6. Prices compare October 23 and October 30 closes. Equity weekly returns exclude dividends; Bitcoin daily dates use UTC.
+
+Subscribe: https://www.youtube.com/@MarketMindTradingBasics
+
+Sources and scope:
+Reuters and FT publisher/headline metadata accessible via Yahoo Finance; full articles were unavailable for a firsthand review. Yahoo BTC/USD daily OHLCV, SMA20/50/200 and Wilder RSI14.
+https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html
+https://finance.yahoo.com/markets/crypto/articles/crypto-exchanges-rush-tighten-security-103818914.html
+https://finance.yahoo.com/quote/BTC-USD/history/
+
+Education only. I am not a licensed advisor. Not financial advice or a recommendation to buy or sell.
+
+Production: synthetic Michael narration, illustrative AI artwork and character assets, code-rendered market charts and original music. Cover is embedded in the first second.
+
+#Bitcoin #Binance #Crypto #RiskManagement #Shorts

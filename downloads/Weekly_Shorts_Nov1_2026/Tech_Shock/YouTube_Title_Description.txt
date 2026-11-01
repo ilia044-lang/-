@@ -1,0 +1,29 @@
+TITLE
+Intel Crashed 29%, But 9 Sectors Rose. How?
+
+ALTERNATIVE
+Intel and ServiceNow Crashed: What the Index Hides
+
+DESCRIPTION
+FULL WEEKLY EPISODE (video link):
+https://raw.githubusercontent.com/ilia044-lang/-/edf250f6d8e26840bef310516a13be007d6f122c/downloads/Weekly_Market_Nov1_2026/Market_Mind_Weekly_Oct26_30_2026.mp4
+
+Intel fell 28.6% on Friday, while ServiceNow lost 33.9% for the full week. Yet nine of eleven major sector ETFs rose. Index weights can hide a very different market underneath.
+
+Weekly price returns: QQQ -1.98%, RSP +0.82%, IWM +1.30%. INTC closed at $65.76; NOW at $105.12. Recent lows and moving averages are observation areas, not guaranteed support. Look for stabilization and a reclaim that holds. Earnings gaps can jump a stop.
+
+Review: October 26–30, 2026. Ahead: November 2–6. Prices compare October 23 and October 30 closes. Equity weekly returns exclude dividends; Bitcoin daily dates use UTC.
+
+Subscribe: https://www.youtube.com/@MarketMindTradingBasics
+
+Sources and scope:
+Yahoo Finance daily OHLCV; SMA20/50/200 and Wilder RSI14 calculated from daily closes.
+https://finance.yahoo.com/quote/INTC/history/
+https://finance.yahoo.com/quote/NOW/history/
+https://finance.yahoo.com/quote/RSP/history/
+
+Education only. I am not a licensed advisor. Not financial advice or a recommendation to buy or sell.
+
+Production: synthetic Michael narration, illustrative AI artwork and character assets, code-rendered market charts and original music. Cover is embedded in the first second.
+
+#Intel #ServiceNow #StockMarket #TradingEducation #Shorts
