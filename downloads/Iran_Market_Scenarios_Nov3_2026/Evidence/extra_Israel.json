@@ -1,0 +1,182 @@
+{
+  "explains": [],
+  "count": 9,
+  "quotes": [
+    {
+      "exchange": "CME",
+      "shortname": "Israeli Shekel Futures,Dec-2026",
+      "quoteType": "FUTURE",
+      "symbol": "ILS=F",
+      "index": "quotes",
+      "score": 30025.0,
+      "typeDisp": "Futures",
+      "exchDisp": "Chicago Mercantile Exchange",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "iShares MSCI Israel ETF",
+      "quoteType": "ETF",
+      "symbol": "EIS",
+      "index": "quotes",
+      "score": 20347.0,
+      "typeDisp": "ETF",
+      "longname": "iShares MSCI Israel ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TLV",
+      "shortname": "BK LEUMI LE ISRAEL",
+      "quoteType": "EQUITY",
+      "symbol": "LUMI.TA",
+      "index": "quotes",
+      "score": 20128.0,
+      "typeDisp": "Equity",
+      "longname": "Bank Leumi le-Israel B.M.",
+      "exchDisp": "Tel Aviv",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Banks\u2014Regional",
+      "industryDisp": "Banks\u2014Regional",
+      "isYahooFinance": true,
+      "prevName": "Bank Leumi le- Israel B.M.",
+      "nameChangeDate": "2026-11-03"
+    },
+    {
+      "exchange": "TLV",
+      "shortname": "EL AL ISRAEL AIRLI",
+      "quoteType": "EQUITY",
+      "symbol": "ELAL.TA",
+      "index": "quotes",
+      "score": 20125.0,
+      "typeDisp": "Equity",
+      "longname": "El Al Israel Airlines Ltd.",
+      "exchDisp": "Tel Aviv",
+      "sector": "Industrials",
+      "sectorDisp": "Industrials",
+      "industry": "Airlines",
+      "industryDisp": "Airlines",
+      "isYahooFinance": true,
+      "prevName": "El Al Israel Airlines Ltd",
+      "nameChangeDate": "2026-11-03"
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "ARK Israel Innovative Technolog",
+      "quoteType": "ETF",
+      "symbol": "IZRL",
+      "index": "quotes",
+      "score": 20076.0,
+      "typeDisp": "ETF",
+      "longname": "ARK Israel Innovative Technology ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "VanEck Israel ETF",
+      "quoteType": "ETF",
+      "symbol": "ISRA",
+      "index": "quotes",
+      "score": 20075.0,
+      "typeDisp": "ETF",
+      "longname": "VanEck Israel ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "TLV",
+      "shortname": "BEZEQ ISRAEL TELCM",
+      "quoteType": "EQUITY",
+      "symbol": "BEZQ.TA",
+      "index": "quotes",
+      "score": 20037.0,
+      "typeDisp": "Equity",
+      "longname": "Bezeq The Israel Telecommunication Corp. Ltd",
+      "exchDisp": "Tel Aviv",
+      "sector": "Communication Services",
+      "sectorDisp": "Communication Services",
+      "industry": "Telecom Services",
+      "industryDisp": "Telecom Services",
+      "isYahooFinance": true,
+      "prevName": "Bezeq The Israel Telecommunication Corporation Limited",
+      "nameChangeDate": "2026-11-03"
+    }
+  ],
+  "news": [
+    {
+      "uuid": "cd6ee186-49f2-3726-aeff-ebd8c21a649a",
+      "title": "One Country, One Index: The Defiance KSM Israel 120 ETF Explained",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/one-country-one-index-defiance-034720666.html",
+      "providerPublishTime": 1790394440,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/13241ce3c87a731112a89ad91f3413cd.jpg",
+            "width": 1500,
+            "height": 1001,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FD5EC458A7FE78A517D522D4C4D4260F0E8D7378619D5E0E5A055B39E37BB5D5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F13241ce3c87a731112a89ad91f3413cd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EIS",
+        "ISRA",
+        "ISRL"
+      ]
+    },
+    {
+      "uuid": "52e067f6-5f89-3922-a578-cc1291bf5928",
+      "title": "Single Country Funds Cut Both Ways. What ISRL Investors Should Track",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/single-country-funds-cut-both-202606400.html",
+      "providerPublishTime": 1790367966,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/c2633cc1e834a34a795bcc023eba57b5.jpg",
+            "width": 1500,
+            "height": 1001,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/AB4FE794AEE90988C6B161D3BBEB07B486452BC15BF0B7CBE62CC1F413741B10/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fc2633cc1e834a34a795bcc023eba57b5.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "EIS",
+        "ISRL"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 234,
+  "timeTakenForQuotes": 414,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

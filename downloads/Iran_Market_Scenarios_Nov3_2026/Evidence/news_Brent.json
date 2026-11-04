@@ -1,0 +1,1010 @@
+{
+  "explains": [],
+  "count": 30,
+  "quotes": [],
+  "news": [
+    {
+      "uuid": "d78eac10-6c59-3472-a438-3ae7c3860f61",
+      "title": "OPEC+ Holds Output Steady, Maintains 2M BPD Cuts: ETFs in Focus",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/opec-holds-output-steady-maintains-152300233.html",
+      "providerPublishTime": 1793719380,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/1cd28967a7d6f4466c574ed1142aaffa.jpg",
+            "width": 620,
+            "height": 423,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E932A6EBDEBB602152EBA5C15A000AE593240070D72960E643FDAA0DFD8FAD5E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F1cd28967a7d6f4466c574ed1142aaffa.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "USO",
+        "BNO",
+        "OIH"
+      ]
+    },
+    {
+      "uuid": "116b69fc-e70c-4bc6-b64e-f83664f2fdf9",
+      "title": "Gas prices likely to drop below $4 a gallon in the next week if oil prices keep declining, analyst says",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/gasoline-could-fall-below-4-in-the-next-week-as-oil-prices-drop-says-analyst-171201913.html",
+      "providerPublishTime": 1793639521,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/2852701a-a319-40ed-8779-2b20a00f945b",
+            "width": 7081,
+            "height": 4721,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3AAF305A78D22E176B4E13CA12B58DA9A84B1807BCCD7C0035F9FACA2F39073C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F2852701a-a319-40ed-8779-2b20a00f945b",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RB=F",
+        "BZ=F",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "b93b1a3b-5e25-4b72-8b21-e86ee0809e6a",
+      "title": "Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/stocks-rebound-as-oil-prices-ease-anthropic-releases-3rd-quarter-financials-alphacheck-150044554.html",
+      "providerPublishTime": 1793631644,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-11/498eb675-16af-473d-a5cf-30cf8e649c01",
+            "width": 7140,
+            "height": 4760,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CB1CADB70A6736184BBD3E1CE1D4F609B29F7F8D18E3563B55528AABAC2ADE00/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F498eb675-16af-473d-a5cf-30cf8e649c01",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ANTH.PVT",
+        "BZ=F",
+        "CL=F",
+        "TECH",
+        "LITE",
+        "MRVL"
+      ]
+    },
+    {
+      "uuid": "dae94e31-583e-31cd-be33-e38ca98f3504",
+      "title": "Will Oil Prices Slump on Peace Hopes? ETFs in Focus",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/oil-prices-slump-peace-hopes-145900484.html",
+      "providerPublishTime": 1793372340,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLB",
+        "IYT",
+        "XLY",
+        "BNO"
+      ]
+    },
+    {
+      "uuid": "a04a4ee2-ec5c-4d12-a8a5-80e1720495f7",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed holds rates steady, Big Tech earnings loom",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html",
+      "providerPublishTime": 1793219991,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/16473067-4808-42a7-a274-e84d7b520911",
+            "width": 5526,
+            "height": 3684,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7DEBAB0C8A0AB5DABB1D1CDA3129D77196C8B29D439D60C175F4EE04E777BF2F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F16473067-4808-42a7-a274-e84d7b520911",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^GSPC",
+        "^IXIC",
+        "ORCL",
+        "SKHY",
+        "BZ=F",
+        "CL=F",
+        "^DJI",
+        "MSFT",
+        "GOOG"
+      ]
+    },
+    {
+      "uuid": "e7805ee8-ca40-4fb7-ba3f-ae2f0c23ec4a",
+      "title": "Tech rises for third day in a row ahead of Microsoft, Alphabet earnings, Fed decision in focus: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tech-rises-for-third-day-in-a-row-ahead-of-microsoft-alphabet-earnings-fed-decision-in-focus-alphacheck-134910290.html",
+      "providerPublishTime": 1793195350,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/ec2ed6f0-8614-4fe3-a330-d591efdc193a",
+            "width": 7820,
+            "height": 5216,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7009292D4D224F0D5C947D103EB3F6FF5B94A36265056D3345CFAC356C1711FE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fec2ed6f0-8614-4fe3-a330-d591efdc193a",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MSFT",
+        "BZ=F",
+        "CL=F",
+        "XLK",
+        "HOOD",
+        "F",
+        "GEV",
+        "SKHY",
+        "GOOG",
+        "GOOGL",
+        "AVGO",
+        "AMD",
+        "NVDA",
+        "SKHY"
+      ]
+    },
+    {
+      "uuid": "e0ac9719-bd76-4b20-9578-f9c1f870165c",
+      "title": "Tech rises for second day in a row as chip stocks gain: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tech-rises-for-2nd-day-in-a-row-as-chip-stocks-gain-alphacheck-134531476.html",
+      "providerPublishTime": 1793108731,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-09/1170e069-c032-4591-982d-9c84dc0d2880",
+            "width": 8160,
+            "height": 6144,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A4DA53BA9937B51EC37F9E172FA7BD7418E4E80088D48B5C909328BACDA06C5C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F1170e069-c032-4591-982d-9c84dc0d2880",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GLW",
+        "SOFI",
+        "UPS",
+        "XLK",
+        "AVGO",
+        "AMD",
+        "NVDA",
+        "META",
+        "CL=F",
+        "BZ=F",
+        "MSFT",
+        "ANTH.PVT",
+        "GOOG"
+      ]
+    },
+    {
+      "uuid": "34d683b2-e543-4604-8d0c-94022be19551",
+      "title": "Tech stocks rise after Anthropic IPO filing: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tech-rise-after-anthropic-ipo-filing-alphacheck-140040601.html",
+      "providerPublishTime": 1793023240,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/f3ce8245-5bae-4d54-a16a-f5678d127fcf",
+            "width": 5000,
+            "height": 3335,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5D729E2D50F611283A52F303DC02B66E6C925FCE0D9641248DDE6B242CD257A0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Ff3ce8245-5bae-4d54-a16a-f5678d127fcf",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ANTH.PVT",
+        "META",
+        "BZ=F",
+        "CL=F",
+        "AVGO",
+        "MELI",
+        "NBIS",
+        "NU",
+        "NVDA",
+        "AMD"
+      ]
+    },
+    {
+      "uuid": "3f3b6cdc-2123-47e5-8bb4-f5ea84cc7921",
+      "title": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html",
+      "providerPublishTime": 1792788176,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/os/creatr-uploaded-images/2024-10/694ca160-8d29-11ef-bcce-ad17821c92a2",
+            "width": 8000,
+            "height": 5333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7AA12C5AF3AEA2415230DE9E2F820CBBC1EE2FC6F15B0B6FB845C626CCEE3668/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2024-10%2F694ca160-8d29-11ef-bcce-ad17821c92a2",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NES=F",
+        "YM=F",
+        "NQ=F",
+        "PANW",
+        "NET",
+        "SAIL",
+        "^IXIC",
+        "SPCX",
+        "BZ=F",
+        "CL=F",
+        "^DJI",
+        "CRWV",
+        "^GSPC",
+        "^TNX",
+        "NVDA",
+        "AMD",
+        "TSLA"
+      ]
+    },
+    {
+      "uuid": "0e0f2986-eff2-4fbc-9239-af6d9295eb5c",
+      "title": "Brent crude tops $116 as traders price escalating Middle East conflict",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/brent-crude-tops-116-as-traders-price-in-middle-east-escalation-192101547.html",
+      "providerPublishTime": 1792783680,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/0dad1e2a-8f25-434e-bc5d-7dc11b73d72f",
+            "width": 5489,
+            "height": 3660,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C0A5B51B67970B82A7159E0AA3CC85E7651D1981CDCA7AE816A7251837EE5B41/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F0dad1e2a-8f25-434e-bc5d-7dc11b73d72f",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "BZ=F"
+      ]
+    },
+    {
+      "uuid": "5528f70f-eb23-42e6-b2e9-099f5c7640e3",
+      "title": "As oil edges higher, Trump floats letting Iran 'wither,' possibility of protracted war grows",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/energy/article/as-oil-edges-higher-trump-floats-letting-iran-wither-possibility-of-protracted-war-grows-165415963.html",
+      "providerPublishTime": 1792774455,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/dcc2b2f4-ebf2-4252-8766-03a4c805d983",
+            "width": 3915,
+            "height": 2610,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7035D2CA0FFB9B9C72B26DB604BEC15256E869229E49F2C763271F27F9A3614E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fdcc2b2f4-ebf2-4252-8766-03a4c805d983",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "BZ=F"
+      ]
+    },
+    {
+      "uuid": "f14b84bc-ab75-4661-b4fc-7dd0016151e9",
+      "title": "Stocks extend declines, 10-year Treasury holds below 5%: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tech-extends-decline-10-year-treasury-holds-below-5-alphacheck-134224473.html",
+      "providerPublishTime": 1792762944,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/43021747-808f-4770-9942-760efd2df45e",
+            "width": 8256,
+            "height": 5504,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/69AA09AB22FE378E38C48E9D773F45A8073F5CC50F968BFC56ED70F8BAD8336C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F43021747-808f-4770-9942-760efd2df45e",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XLK",
+        "^TNX",
+        "BZ=F",
+        "AXP",
+        "WDC",
+        "BE",
+        "CL=F",
+        "MRNA",
+        "MU",
+        "SKHY",
+        "NVDA",
+        "AMD"
+      ]
+    },
+    {
+      "uuid": "3c99b1cc-5589-4c1e-ab8a-bc0ade05e0d5",
+      "title": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
+      "providerPublishTime": 1792710658,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/28f0a79d-8b85-40c7-961e-c1875244cb32",
+            "width": 5884,
+            "height": 3949,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E89FD0D93EFFF3C818AA53C95438CF74F8D2FE65D56FA97D493E94EA70DB2C93/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F28f0a79d-8b85-40c7-961e-c1875244cb32",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "TSLA",
+        "META",
+        "SPCX",
+        "BX",
+        "CRWV",
+        "^DJI",
+        "^GSPC",
+        "^IXIC",
+        "BZ=F",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "cce72b0a-ca85-4d87-bd10-7771e74dcf08",
+      "title": "Oil prices top $113 on worries of Iran-US escalations after midterms",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/oil-price-gains-on-possible-escalation-of-iran-us-tensions-after-midterms-120738560.html",
+      "providerPublishTime": 1792699476,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/e4d66753-eb1d-4a3d-a303-375d5cefd8ab",
+            "width": 5770,
+            "height": 3847,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FF1ADB3711B9ACD0ED0FEA9BC1087F8AC7B258692136A6C6C4181C16018C9A76/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fe4d66753-eb1d-4a3d-a303-375d5cefd8ab",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BZ=F",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "d4498e71-52e8-4171-b249-110fe62f0b2f",
+      "title": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/meta-and-chip-stocks-decline-as-ai-trade-comes-under-pressure-alphacheck-140107733.html",
+      "providerPublishTime": 1792683547,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/fdc154a1-f44d-4f26-9b97-796ffcf69122",
+            "width": 7000,
+            "height": 4667,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/70827E3E73184FBF1FF13AD939C953FAD345F695B8908EB18F8D81FCF54EF744/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Ffdc154a1-f44d-4f26-9b97-796ffcf69122",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "META",
+        "TSLA",
+        "XLK",
+        "NVDA",
+        "CL=F",
+        "BZ=F",
+        "LRCX",
+        "AMD",
+        "MU",
+        "SKHY"
+      ]
+    },
+    {
+      "uuid": "c902b481-dd5b-3933-a765-674f86cb2156",
+      "title": "Oil ETFs to Benefit as Oil Prices Rally Due to Geopolitical Tensions",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/oil-etfs-benefit-oil-prices-125900838.html",
+      "providerPublishTime": 1792673940,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "BNO",
+        "OIH"
+      ]
+    },
+    {
+      "uuid": "448dd843-f946-49d9-ad35-7ae4ee326fa6",
+      "title": "Stock market today: Dow, S&P 500 rise, Nasdaq slips as investors await SpaceX, Netflix earnings",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-nasdaq-climb-as-dip-buying-resumes-165236471.html",
+      "providerPublishTime": 1792538389,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/594e0e08-dcf5-445d-a071-5434225ae7be",
+            "width": 3704,
+            "height": 2469,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DF7E36B4E66DFE4C1282306503CE3E47280C874D7919679C832840B0C778EE18/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F594e0e08-dcf5-445d-a071-5434225ae7be",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^DJI",
+        "^IXIC",
+        "^GSPC",
+        "BZ=F",
+        "META",
+        "NFLX",
+        "GM",
+        "TSLA",
+        "CL=F",
+        "UAL",
+        "0158S0.KQ",
+        "SPCX"
+      ]
+    },
+    {
+      "uuid": "44429938-0cf7-3225-9f2e-0e1375337b2b",
+      "title": "Energy ETFs: How to Play the Sector's Surge",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/energy-etfs-play-sectors-surge-180900131.html",
+      "providerPublishTime": 1792519740,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "USO",
+        "CVX",
+        "XOM",
+        "XLE",
+        "IEO",
+        "BNO",
+        "CRAK"
+      ]
+    },
+    {
+      "uuid": "edc161a7-c1e1-4e70-b045-b0ff7a25634c",
+      "title": "Chips lead Nasdaq lower, oil tops 5-month high: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/chips-lead-nasdaq-lower-oil-tops-5-month-high-alphacheck-134325052.html",
+      "providerPublishTime": 1792503805,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/748df620-13df-452d-b7fe-114485eadd92",
+            "width": 6500,
+            "height": 4333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F510207083C3CCD76259E07F414EDF317188949AE19A1D8DA4D96D39DD6B66DC/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F748df620-13df-452d-b7fe-114485eadd92",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XLK",
+        "BZ=F",
+        "CL=F",
+        "AMD",
+        "GM",
+        "GE",
+        "RTX",
+        "NVDA",
+        "^TNX",
+        "MU",
+        "SKHY",
+        "CRWV"
+      ]
+    },
+    {
+      "uuid": "a969d1f8-77bd-4e4c-8189-b9994f2f4a62",
+      "title": "Trump announces $8 billion for farmers to offset soaring diesel costs",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/trump-announces-8-billion-for-farmers-to-offset-soaring-diesel-costs-111330890.html",
+      "providerPublishTime": 1792494810,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/bbf37b29-1336-4558-85a3-69f7e43a24d4",
+            "width": 4500,
+            "height": 3000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E5B606B393A1AEB4313B2C304717F5377D52D9AE219ED5A1F3465188665763E8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fbbf37b29-1336-4558-85a3-69f7e43a24d4",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BZ=F",
+        "CL=F",
+        "HO=F",
+        "RB=F"
+      ]
+    },
+    {
+      "uuid": "e272d7c6-6afa-458b-8a63-a5788663a9d4",
+      "title": "Stock market today: Dow slips, S&P 500, Nasdaq rise as tech stocks rebound",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html",
+      "providerPublishTime": 1792442928,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/5bf89749-ad5c-4761-98f6-d7bfb6518fd3",
+            "width": 8265,
+            "height": 5510,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FD4076A5E4743EDEB2295D854534279380A8AE02C78619DF90488BB1E5A9F6C6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F5bf89749-ad5c-4761-98f6-d7bfb6518fd3",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "YM=F",
+        "NQ=F",
+        "NES=F",
+        "TSLA",
+        "CRWV",
+        "CL=F",
+        "BZ=F",
+        "NVDA",
+        "^DJI",
+        "^IXIC",
+        "^GSPC",
+        "META",
+        "AMD",
+        "INTC"
+      ]
+    },
+    {
+      "uuid": "2c1007e0-fb36-49e5-9e7f-d70b7d446f3d",
+      "title": "Tech rebounds as semiconductor stocks jump: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tech-rebounds-as-semiconductor-stocks-jump-alphacheck-135003909.html",
+      "providerPublishTime": 1792417803,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/os/creatr-uploaded-images/2025-11/8f3e5870-cbf1-11f0-a5fb-bc791a747c22",
+            "width": 3748,
+            "height": 2480,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/03C9D9333D8413F2875B15DC18F36051D704F16662BDDA0FA9572614A27555D3/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-11%2F8f3e5870-cbf1-11f0-a5fb-bc791a747c22",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^TNX",
+        "XLK",
+        "CL=F",
+        "BZ=F",
+        "META",
+        "NFLX",
+        "TSLA",
+        "NBIS",
+        "NVDA",
+        "AVGO",
+        "INTC",
+        "CRWV",
+        "SPCX",
+        "AMD",
+        "MU",
+        "SKHY"
+      ]
+    },
+    {
+      "uuid": "8382449d-6c2e-4b12-9d77-e0e0c2c518ef",
+      "title": "Why oil prices could be poised for a 'super spike': Analyst",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/energy/article/why-oil-prices-could-be-poised-for-a-super-spike-analyst-115927231.html",
+      "providerPublishTime": 1792238367,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/9fb01c0c-838f-44c2-94d7-a52399bcd448_c076444122c1d258770ed6efda0764ee1426fa4fefb762e9d9634c6b3f71ceae.jpg",
+            "width": 6410,
+            "height": 3605,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F3EC4DCF5D359FA627D35FBEE0AAE46704998AD28269FA33D038D8A612754F92/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F9fb01c0c-838f-44c2-94d7-a52399bcd448_c076444122c1d258770ed6efda0764ee1426fa4fefb762e9d9634c6b3f71ceae.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "BZ=F",
+        "HO=F"
+      ]
+    },
+    {
+      "uuid": "c43e9ead-3b76-468b-ae7d-3dbda0d58349",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq sink as tech sell-off caps volatile week",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html",
+      "providerPublishTime": 1792183708,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/0c0e059e-11ee-4209-b2c3-df83ab9b84d1",
+            "width": 6986,
+            "height": 4657,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/87CBABB35764DF7A15BD894E703BCBD15A61C4E5110795645E335B5D69CB46F2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F0c0e059e-11ee-4209-b2c3-df83ab9b84d1",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CRWV",
+        "TSLA",
+        "META",
+        "NFLX",
+        "BZ=F",
+        "CL=F",
+        "^GSPC",
+        "^IXIC",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "e13da74d-ceb7-474e-a2ee-4f14f3945b9b",
+      "title": "Tesla pops, tech heads for losing week: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tesla-pops-tech-heads-for-losing-week-alphacheck-135820459.html",
+      "providerPublishTime": 1792159100,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/89e08f63-c333-4f35-ab88-9179e0ab33fe",
+            "width": 3846,
+            "height": 2614,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B478AC4D75EDC055BD8FC67AAA7BAA82EA38A274E3A125C27709C7B305A34401/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F89e08f63-c333-4f35-ab88-9179e0ab33fe",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "TSLA",
+        "NVDA",
+        "AMD",
+        "MU",
+        "^TNX",
+        "XLV",
+        "XLE",
+        "CL=F",
+        "BZ=F",
+        "SNDK",
+        "CRWV",
+        "SKHY"
+      ]
+    },
+    {
+      "uuid": "a53fb480-9a69-44a1-b82e-fb49f1578c2e",
+      "title": "Gas has now topped $4 a gallon for a record 158 days: Chart of the Day",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/gas-has-now-topped-4-a-gallon-for-a-record-158-days-chart-of-the-day-100000942.html",
+      "providerPublishTime": 1791982361,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-05/61d85172-d3c4-4417-b198-e5268d0775d9",
+            "width": 6199,
+            "height": 4133,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F229EAF97B9A1DCA48B91C875ED40BD30D7955924C4BAFE3ABFE8666F262BC24/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-05%2F61d85172-d3c4-4417-b198-e5268d0775d9",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RB=F",
+        "HO=F",
+        "BZ=F",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "b8c0d7cf-c406-49c5-a99a-a5c107a0cac8",
+      "title": "Bank stocks rise on JPMorgan, Goldman earnings as chip stocks fall: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/bank-stocks-rise-on-jpmorgan-goldman-earnings-as-chip-stocks-fall-alphacheck-135541160.html",
+      "providerPublishTime": 1791899741,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/f1886d5a-0de1-4e4e-aafc-1dc739d2f358",
+            "width": 5022,
+            "height": 3348,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A08A9E5C81E11488C3B76DE744477A79D9BBA4E76EBC638EB25AF8993871E8A9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Ff1886d5a-0de1-4e4e-aafc-1dc739d2f358",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XLK",
+        "AMD",
+        "NVDA",
+        "MU",
+        "CL=F",
+        "BZ=F",
+        "^TNX",
+        "UNH",
+        "JNJ",
+        "WFC",
+        "GS",
+        "JPM",
+        "SKHY",
+        "^DJI",
+        "SKHY",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "d4e3f91e-b913-42af-bd19-8940e0a89f04",
+      "title": "Gas prices on track to break record for most days above $4 a gallon: Chart of the Day",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/gas-prices-on-track-to-break-record-for-most-days-above-4-a-gallon-chart-of-the-day-172053108.html",
+      "providerPublishTime": 1791825653,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/647b58a3-6764-4962-9da6-ba1e25d1d2f4",
+            "width": 3474,
+            "height": 2316,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CFC0B29C9483C493C1801E08A0C4D72BD597C626C148C70AAFEAE1EDBF2B77E0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F647b58a3-6764-4962-9da6-ba1e25d1d2f4",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RB=F",
+        "HO=F",
+        "BZ=F",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "d4eedb7b-a7e7-4cd7-8780-8bc565fb2d23",
+      "title": "Tech slumps as oil prices rise, focus turns to earnings season kickoff: AlphaCheck",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tech-slumps-as-oil-prices-rise-focus-turns-to-earnings-season-kickoff-alphacheck-134202547.html",
+      "providerPublishTime": 1791812522,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-05/93ad50a5-9e5f-4b18-813a-e54b9e6dc36b",
+            "width": 6000,
+            "height": 4000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/28306CF21C97F8FE2B35CEC4C34146D075D59287989E9A1729C1A52F99E82855/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-05%2F93ad50a5-9e5f-4b18-813a-e54b9e6dc36b",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BZ=F",
+        "CL=F",
+        "MRNA",
+        "XLK",
+        "WFC",
+        "C",
+        "JPM",
+        "SKHY",
+        "IREN",
+        "AMD",
+        "CRM",
+        "MSFT",
+        "MU",
+        "^TNX",
+        "SKHY"
+      ]
+    },
+    {
+      "uuid": "808721c3-1703-43e2-908c-6acda1b4fe73",
+      "title": "Oil gains on Middle East tensions, growing doubts of 'energy ceasefire' between Russia and Ukraine",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/oil-gains-on-middle-east-tensions-growing-doubts-of-energy-ceasefire-between-russia-and-ukraine-134049071.html",
+      "providerPublishTime": 1791812449,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/2026-10/5a4bf558-7e58-42b4-8356-24171c1acff4",
+            "width": 5061,
+            "height": 3374,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DAF8914AEE6E2DED190D5584A106EA0F8D664CD810DD40E29E6888A1843CC772/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F5a4bf558-7e58-42b4-8356-24171c1acff4",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BZ=F",
+        "CL=F"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 353,
+  "timeTakenForQuotes": 413,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

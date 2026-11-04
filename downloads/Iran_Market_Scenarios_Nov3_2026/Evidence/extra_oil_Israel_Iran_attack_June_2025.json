@@ -1,0 +1,42 @@
+{
+  "explains": [],
+  "count": 2,
+  "quotes": [],
+  "news": [],
+  "nav": [
+    {
+      "navName": "Oil & Gas E&P",
+      "navUrl": "https://finance.yahoo.com/sectors/energy/oil-gas-e-p"
+    }
+  ],
+  "lists": [
+    {
+      "slug": "oil-and-gas-stocks",
+      "name": "Oil and Gas Stocks",
+      "index": "oil-and-gas-stocks",
+      "score": 6.4450846,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "oil_and_gas_stocks",
+      "symbolCount": 30,
+      "dailyPercentGain": 0.03691134100952518,
+      "followerCount": 11734,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/bdb7dc68bf0332db7497411b678d48af8846bb325b56e10d03d1a4be517278fb/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/watchlist/oil-and-gas-stocks.jpg",
+      "userId": "X3NJ2A7VDSABUI4URBWME2PZNM"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 45,
+  "timeTakenForQuotes": 416,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

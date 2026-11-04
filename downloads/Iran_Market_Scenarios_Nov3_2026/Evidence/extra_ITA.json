@@ -1,0 +1,867 @@
+{
+  "explains": [],
+  "count": 33,
+  "quotes": [
+    {
+      "exchange": "BTS",
+      "shortname": "iShares U.S. Aerospace & Defens",
+      "quoteType": "ETF",
+      "symbol": "ITA",
+      "index": "quotes",
+      "score": 11991500.0,
+      "typeDisp": "ETF",
+      "longname": "iShares U.S. Aerospace & Defense ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NYQ",
+      "shortname": "Itau Unibanco Banco Holding SA",
+      "quoteType": "EQUITY",
+      "symbol": "ITUB",
+      "index": "quotes",
+      "score": 22408.0,
+      "typeDisp": "Equity",
+      "longname": "Ita\u00fa Unibanco Holding S.A.",
+      "exchDisp": "NYSE",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Banks\u2014Regional",
+      "industryDisp": "Banks\u2014Regional",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "SAO",
+      "shortname": "ITAUUNIBANCOPN      N1",
+      "quoteType": "EQUITY",
+      "symbol": "ITUB4.SA",
+      "index": "quotes",
+      "score": 20294.0,
+      "typeDisp": "Equity",
+      "longname": "Ita\u00fa Unibanco Holding S.A.",
+      "exchDisp": "S\u00e3o Paulo",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Banks\u2014Regional",
+      "industryDisp": "Banks\u2014Regional",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "MIL",
+      "shortname": "POSTE ITALIANE",
+      "quoteType": "EQUITY",
+      "symbol": "PST.MI",
+      "index": "quotes",
+      "score": 20167.0,
+      "typeDisp": "Equity",
+      "longname": "Poste Italiane S.p.A.",
+      "exchDisp": "Milan",
+      "sector": "Industrials",
+      "sectorDisp": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "industryDisp": "Integrated Freight & Logistics",
+      "isYahooFinance": true,
+      "prevName": "Poste Italiane SpA",
+      "nameChangeDate": "2026-11-03"
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "iShares MSCI Italy ETF",
+      "quoteType": "ETF",
+      "symbol": "EWI",
+      "index": "quotes",
+      "score": 20124.0,
+      "typeDisp": "ETF",
+      "longname": "iShares MSCI Italy ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "SAO",
+      "shortname": "ITAUSA      PN      N1",
+      "quoteType": "EQUITY",
+      "symbol": "ITSA4.SA",
+      "index": "quotes",
+      "score": 20121.0,
+      "typeDisp": "Equity",
+      "longname": "Ita\u00fasa S.A.",
+      "exchDisp": "S\u00e3o Paulo",
+      "sector": "Industrials",
+      "sectorDisp": "Industrials",
+      "industry": "Conglomerates",
+      "industryDisp": "Conglomerates",
+      "isYahooFinance": true,
+      "prevName": "Ita\u00fasa - Investimentos Ita\u00fa S.A.",
+      "nameChangeDate": "2026-11-03"
+    },
+    {
+      "exchange": "MIL",
+      "shortname": "ITALGAS",
+      "quoteType": "EQUITY",
+      "symbol": "IG.MI",
+      "index": "quotes",
+      "score": 20075.0,
+      "typeDisp": "Equity",
+      "longname": "Italgas S.p.A.",
+      "exchDisp": "Milan",
+      "sector": "Utilities",
+      "sectorDisp": "Utilities",
+      "industry": "Utilities\u2014Regulated Gas",
+      "industryDisp": "Utilities\u2014Regulated Gas",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d16e23ae-fc12-3257-9340-7b8ee4d1e1f1",
+      "title": "Lockheed Stock Has 40% Upside, Analyst Says. Is the Worst Over for Defense?",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/d16e23ae-fc12-3257-9340-7b8ee4d1e1f1/lockheed-stock-has-40%25.html",
+      "providerPublishTime": 1793024280,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/c581c61096470d5d312b8231270eb49a.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6D3F6DB17A29904A033AB863D8A798E8AF817E4BA8B0C7468EAABD4C58D53492/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2Fc581c61096470d5d312b8231270eb49a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LMT",
+        "NOC",
+        "ITA",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "4fc89f3b-b2fb-3260-8a43-b1f547f829e9",
+      "title": "ETFs to Buy as Lockheed Shares Jump Post Q3 Earnings Beat, Record Backlog",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buy-lockheed-shares-jump-111400137.html",
+      "providerPublishTime": 1793013240,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/a2d56289c022f67cb3e103699fa3c435.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/160E32C09FF4974A4A969A9EC97390A2694DAFA8559E336AEA9D07551E273A65/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fa2d56289c022f67cb3e103699fa3c435.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LMT",
+        "SHLD",
+        "ITA",
+        "PPA",
+        "DUTY"
+      ]
+    },
+    {
+      "uuid": "a9014308-9d4b-3812-b2bb-ff34ce57fa88",
+      "title": "Lockheed Martin Rises 9% as Record Backlog Lifts Outlook; RTX Gains 2%, Northrop Grumman Advances 3%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-rises-9-record-134755072.html",
+      "providerPublishTime": 1792676875,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/26599cfeadef8894b1fb89ed51548644.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/81B9426FE78F4EB5B9607F57704E41E550E8B9A8954DAA546A98FC1B0F859D41/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F26599cfeadef8894b1fb89ed51548644.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LMT",
+        "NOC",
+        "RTX",
+        "ITA",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "fd683a4e-08c2-3e1d-b44d-c37c3c8d72e7",
+      "title": "Defense Stocks Are Tumbling as Wall Street Bets on a Democratic Sweep",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/defense-stocks-tumbling-wall-street-144833423.html",
+      "providerPublishTime": 1792507713,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/3ba62a02d3ab4cb93e3df47c85a0108f.jpg",
+            "width": 1500,
+            "height": 854,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/16BF2DB00745851517B43EF529E6150BC3DC3F838D4AB97D13B0B8B28B730E70/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F3ba62a02d3ab4cb93e3df47c85a0108f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RTX",
+        "NOC",
+        "POLA.PVT",
+        "LMT",
+        "ITA"
+      ]
+    },
+    {
+      "uuid": "c79e82af-9178-33a5-ae4f-23a6d86223fc",
+      "title": "GE Aerospace Falls 4% Despite Earnings Beat and Raised Outlook as Costs Climb; RTX Edges Higher, Boeing Barely Moves",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-falls-4-despite-134228428.html",
+      "providerPublishTime": 1792503748,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/88dfe2dd726f20337518e63c65d7612a.jpg",
+            "width": 2560,
+            "height": 1440,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9F35148C270D7108B92DE4769D60C77ABC61C2F9A788134D6B24BF9CB2E6BF0D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F88dfe2dd726f20337518e63c65d7612a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GE",
+        "RTX",
+        "BA",
+        "ITA",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "fa19b347-47f4-3a7d-bea0-9a8b5b786c9c",
+      "title": "How to Play the Retreat in Defense Stocks",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/fa19b347-47f4-3a7d-bea0-9a8b5b786c9c/how-to-play-the-retreat-in.html",
+      "providerPublishTime": 1792488600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/ea086b0e8edb3756673e75f03ca9325f.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/11EEFF9D56500919202B02FBC57C602ED3D308AFA7A89124A3689614324270ED/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2Fea086b0e8edb3756673e75f03ca9325f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ITA",
+        "KRMN",
+        "MRCY",
+        "XAR"
+      ]
+    },
+    {
+      "uuid": "c9fafec2-6555-3ea7-a4d8-6b9b7cd0f58e",
+      "title": "Palantir Rises 5% on Knox Partnership for Federal Cloud Software; Leidos Edges Higher, Booz Allen Hamilton Slips",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-rises-5-knox-partnership-155706910.html",
+      "providerPublishTime": 1792425426,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/8d1bc14b9a9148b650a594cf7925e031.jpg",
+            "width": 2560,
+            "height": 1920,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A536927AF8845B170AC6F5CA0C27151262D00C01922FBBB613DF8A95CC1BDF9C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8d1bc14b9a9148b650a594cf7925e031.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "LDOS",
+        "BAH",
+        "ITA",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "19bb16b7-189f-30b0-9efc-cf7bcb0be1b7",
+      "title": "Defense ETFs in Spotlight Ahead of Q3 Earnings Season",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/defense-etfs-spotlight-ahead-q3-111300111.html",
+      "providerPublishTime": 1792149180,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/07408d5dcf9fd1f965d23e73a218f78f.jpg",
+            "width": 620,
+            "height": 413,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4C50C6213253AC1A89D787886F6BF0719A93BB630FE2CBCC613E04C6F0B8BC9A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F07408d5dcf9fd1f965d23e73a218f78f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RTX",
+        "SHLD",
+        "ITA",
+        "PPA",
+        "XAR",
+        "LMT",
+        "GE",
+        "PLTR"
+      ]
+    },
+    {
+      "uuid": "e21540b4-8488-3338-af13-863ed1742494",
+      "title": "Bet on These Defense ETFs Amid Escalating Yemen War",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bet-defense-etfs-amid-escalating-132300300.html",
+      "providerPublishTime": 1791552180,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/4bd1256130a5e901b3c5ac1f32c5266a.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E95E9353E432CA1320128AB9514BE5F811B3E508FDA953420FF85DCD65372597/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F4bd1256130a5e901b3c5ac1f32c5266a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BA",
+        "LMT",
+        "BAESF",
+        "ITA",
+        "XAR",
+        "RTX",
+        "NATO"
+      ]
+    },
+    {
+      "uuid": "226ab60e-a57e-3312-9eff-9092dadf35af",
+      "title": "Billion-Dollar Contract, Zero Rally: Why RTX Stock Is Stuck",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/226ab60e-a57e-3312-9eff-9092dadf35af/billion-dollar-contract%2C-zero.html",
+      "providerPublishTime": 1790951100,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/4f4d15d460bfecd5a356a18938f15d5a.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B9DB1FC8A0E8FB8847A2451BB5D7421FDCF601ADE28EA22CC3E974CCE405E082/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F4f4d15d460bfecd5a356a18938f15d5a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RTX",
+        "^GSPC",
+        "NOC",
+        "ITA"
+      ]
+    },
+    {
+      "uuid": "b8bcb1de-5d2b-3046-8377-714a1efa9fdc",
+      "title": "Boeing Lands $20B Navy Deal for Next-Gen Fighter Jet: ETFs to Watch",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-lands-20b-navy-deal-144400436.html",
+      "providerPublishTime": 1790865840,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/0f71f7d46b723bf612b871cd753b1222.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3BC1917EF0BCB03785B78612071E7F9564E694D50CEFA311DCF8B789A33795E9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F0f71f7d46b723bf612b871cd753b1222.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BA",
+        "NOC",
+        "MISL",
+        "ITA",
+        "PPA",
+        "FOWF",
+        "NATO"
+      ]
+    },
+    {
+      "uuid": "bb78af36-3d89-3305-82cc-87dc51d7dcc9",
+      "title": "Positioning Portfolios for the Midterm Elections",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/positioning-portfolios-midterm-elections-201500921.html",
+      "providerPublishTime": 1790626500,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/40dc7627f5e588025aa9154bd84b5291.jpg",
+            "width": 900,
+            "height": 600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CE51D9032A81563A7FD278E22CC6B74BD3FA81195FA8DB3B1BFD8CD80A9FF0D0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F40dc7627f5e588025aa9154bd84b5291.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SOXX",
+        "ITA",
+        "XAR",
+        "SPYM",
+        "QNDX",
+        "NVDA"
+      ]
+    },
+    {
+      "uuid": "f6bc090c-27f3-3316-be27-1a0e6f297c76",
+      "title": "Boeing Drops 3% as 737 MAX Landing Software Glitch Draws Regulator Review; GE Aerospace Eases, RTX Treads Water",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-drops-3-737-max-130009478.html",
+      "providerPublishTime": 1790600409,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/f45aa5aee752ee48b8e78946003ffbf0.jpg",
+            "width": 2560,
+            "height": 1631,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B300398CE7086CD2A344ED02F0757B764DD6A6F54BC8077C7091C6CB70C40D9B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ff45aa5aee752ee48b8e78946003ffbf0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BA",
+        "GE",
+        "SPY",
+        "ITA",
+        "RTX",
+        "LMT"
+      ]
+    },
+    {
+      "uuid": "852a6205-4798-3bad-8365-24fbac04ec5e",
+      "title": "Why Is a Stock Down 97% This Year Paying to Appear Next to Palantir?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-stock-down-97-paying-190842158.html",
+      "providerPublishTime": 1790363322,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/77083e98a9895447f66efc59927f4158.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/48D98FBFF7334097F2EA23E30B8DC413E30C5F09A83815AA3E6D8F1500C9E77A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F77083e98a9895447f66efc59927f4158.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "VWAV",
+        "PLTR",
+        "ITA",
+        "GD",
+        "TXT"
+      ]
+    },
+    {
+      "uuid": "693be8b2-e8bc-33f4-8f20-0a5d2a0d0029",
+      "title": "Defense Stocks Fall While Oil Slides on Hormuz Reopening Report: Lockheed Martin and RTX Drop 3%, Boeing Dips",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/defense-stocks-fall-while-oil-155213753.html",
+      "providerPublishTime": 1790092333,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/88dfe2dd726f20337518e63c65d7612a.jpg",
+            "width": 2560,
+            "height": 1440,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9F35148C270D7108B92DE4769D60C77ABC61C2F9A788134D6B24BF9CB2E6BF0D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F88dfe2dd726f20337518e63c65d7612a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BA",
+        "RTX",
+        "LMT",
+        "ITA",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "8a52cad7-4a69-3d9f-8eab-dc10921a33e9",
+      "title": "Should You Invest in the iShares U.S. Aerospace & Defense ETF (ITA)?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/invest-ishares-u-aerospace-defense-102002161.html",
+      "providerPublishTime": 1790072402,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/7853de8d69faeccb7d1ad6ebba40b8a2.jpg",
+            "width": 900,
+            "height": 741,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CECF64CA2AA010E384A8FE6A8F08085D12FD48245EFAC9327FEF304A8CD519D6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F7853de8d69faeccb7d1ad6ebba40b8a2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ITA"
+      ]
+    },
+    {
+      "uuid": "45d97367-15cd-3393-9556-72badd4b9952",
+      "title": "Defense ETFs Stand to Gain as Trump Administration Signs JATM Deal",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/defense-etfs-stand-gain-trump-191700914.html",
+      "providerPublishTime": 1789759020,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/60225e4b561af730cee927dd61f32697.jpg",
+            "width": 620,
+            "height": 361,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4FB09C0347838A6EE1066FE087F391BE84477ACB22B46EE4977BC538DB77AA75/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F60225e4b561af730cee927dd61f32697.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NOC",
+        "PPA",
+        "XAR",
+        "BA",
+        "RTX",
+        "LMT",
+        "ITA",
+        "GD"
+      ]
+    },
+    {
+      "uuid": "eab9d8a6-19de-340e-bbf0-6bcdb274eca3",
+      "title": "Thiel, Andreessen-backed Defense Startup Promises Cheap Missiles as US Rebuilds Arsenal",
+      "publisher": "The Daily Upside",
+      "link": "https://finance.yahoo.com/technology/articles/thiel-andreessen-backed-defense-startup-040100451.html",
+      "providerPublishTime": 1789012860,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/the_daily_upside_435/b69d8eb713bccbbd45f3fd489fc7501e.jpg",
+            "width": 1155,
+            "height": 650,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C58E245E62EDC9073B644688F120146672E398BD8591DB987B7E7EE41FCF664E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_daily_upside_435%2Fb69d8eb713bccbbd45f3fd489fc7501e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ITA",
+        "LMT"
+      ]
+    },
+    {
+      "uuid": "67822d45-50fd-374c-af2f-9e1c18f2117c",
+      "title": "Palantir Falls 7% Despite Army TITAN Production Award, Salesforce Slips",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-falls-7-despite-army-163009716.html",
+      "providerPublishTime": 1788366609,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/0863cf51673406817292ac5634f0c195.jpg",
+            "width": 1024,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B3A608988DB62729F04D2556A6BA9CEACE7426F239B7020103CE1122D6C33B35/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0863cf51673406817292ac5634f0c195.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "CRM",
+        "ITA",
+        "IGV"
+      ]
+    },
+    {
+      "uuid": "9cc2e18f-efe7-3f50-a79d-ab1f370f54b0",
+      "title": "The Zacks Analyst Blog Highlights Lockheed Martin, RTX, Northrop Grumman, ITA, PPA and XAR",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-lockheed-131100072.html",
+      "providerPublishTime": 1788268260,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/e96a84c87c2343aec490ae649947fc9c.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1BC0FF0B1A9BEB68F997CB54CC371775A8D0D76BDDEDC7911380E46771196561/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fe96a84c87c2343aec490ae649947fc9c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LMT",
+        "NOC",
+        "RTX",
+        "PPA",
+        "XAR",
+        "ITA"
+      ]
+    },
+    {
+      "uuid": "ecb1630a-4aad-361e-88cb-e5c2240f8885",
+      "title": "Bet on These Defense ETFs Amid Renewed US-Iran Tensions",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bet-defense-etfs-amid-renewed-182900885.html",
+      "providerPublishTime": 1788200940,
+      "type": "STORY",
+      "relatedTickers": [
+        "ITA",
+        "RTX",
+        "LMT",
+        "NOC",
+        "XAR",
+        "PPA"
+      ]
+    },
+    {
+      "uuid": "d90df9b4-f9c1-3cc8-b05c-d5fe7af89547",
+      "title": "Which Aerospace and Defense Stock Has Dominated in 2026: GE Aerospace, Boeing, or RTX?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/aerospace-defense-stock-dominated-2026-193940631.html",
+      "providerPublishTime": 1787600380,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/0ca01cd699deac58d3f6eca7be0d1ced.jpg",
+            "width": 1366,
+            "height": 976,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9513C9373AB29E9427C3B6D32C1F569596FDAAA4123F6EDB529FDA32244980BF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0ca01cd699deac58d3f6eca7be0d1ced.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RTX",
+        "GE",
+        "BA",
+        "NVDA",
+        "ITA"
+      ]
+    },
+    {
+      "uuid": "4e1e26c1-b3ca-396f-b7f8-7f1594f8df31",
+      "title": "Drone Stocks See Limited Losses Tuesday During Nasdaq Sell-Off: Red Cat, Ondas Flat While AeroVironment Tumbles",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/drone-stocks-see-limited-losses-004654665.html",
+      "providerPublishTime": 1787100414,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/2d7e05ca213e027c433de7a643002495.jpg",
+            "width": 2844,
+            "height": 1600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/251B705EB595D0AA799681F17AF6DBF011015618A406816DBA846554E09B416B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F2d7e05ca213e027c433de7a643002495.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AVAV",
+        "RCAT",
+        "NVDA",
+        "ONDS",
+        "SOXX",
+        "ITA"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [
+    {
+      "index": "46677e46-895d-4c5c-a938-577d80df2180",
+      "id": "46677e46-895d-4c5c-a938-577d80df2180",
+      "title": "Day Losers - Italy",
+      "canonicalName": "DAY_LOSERS_IT",
+      "score": 1.0,
+      "type": "PREDEFINED_SCREENER",
+      "total": 10017,
+      "isPremium": false,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/ebf1af9e717729befe6bcdc1092819612dd99b1e48d869f4e000e4a110375639/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/predefined_screeners/trendingDown.png"
+    },
+    {
+      "index": "9c86c7ac-c474-40d9-8912-1906cfc6cc1c",
+      "id": "9c86c7ac-c474-40d9-8912-1906cfc6cc1c",
+      "title": "Day Gainers - Italy",
+      "canonicalName": "DAY_GAINERS_IT",
+      "score": 1.0,
+      "type": "PREDEFINED_SCREENER",
+      "total": 8789,
+      "isPremium": false,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/9782d52afaa70fa4e9cd4fc0fc418564abc9f354a5a396756d9b62198121aa04/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/predefined_screeners/trendingUp.png"
+    },
+    {
+      "index": "2ec96414-6fb7-4da4-8600-cf6f82d0e6d8",
+      "id": "2ec96414-6fb7-4da4-8600-cf6f82d0e6d8",
+      "title": "Most Actives - Italy",
+      "canonicalName": "MOST_ACTIVES_IT",
+      "score": 1.0,
+      "type": "PREDEFINED_SCREENER",
+      "total": 30393,
+      "isPremium": false,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/f041b4d17c09d0aa6923ce2533c3d27f341dd1600e3f8325b72e09010c455a87/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/predefined_screeners/analytics.png"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 424,
+  "timeTakenForQuotes": 426,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

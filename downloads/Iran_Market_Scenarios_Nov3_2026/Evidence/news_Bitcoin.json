@@ -1,0 +1,953 @@
+{
+  "explains": [],
+  "count": 30,
+  "quotes": [],
+  "news": [
+    {
+      "uuid": "87567ff1-5984-3d2d-8b9a-6ee37092e70e",
+      "title": "Tether Says It Holds 150,000 Bitcoin, 50,000 More Than Its Reserve Report Showed. What Does That Mean for BTC?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/tether-says-holds-150-000-174751694.html",
+      "providerPublishTime": 1793728071,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ed23e0e70e7e2cca573ffe1a6e18ee21.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B2FC8009C69E658DD94403A9AC0E4D23B99DB044886DD57BCF1EC63F639B43BB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fed23e0e70e7e2cca573ffe1a6e18ee21.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "USDT-USD",
+        "BTC-USD",
+        "SOFI",
+        "MSTR",
+        "IBIT",
+        "MARA"
+      ]
+    },
+    {
+      "uuid": "394a1bf2-d6f1-36d3-b883-0cc2d192ed2e",
+      "title": "Bitcoin ETFs Lose $1 Billion as Midterms, Binance Hack Weigh on Sentiment",
+      "publisher": "Bloomberg",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-lose-1-billion-151858654.html",
+      "providerPublishTime": 1793719138,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/bloomberg_holding_pen_162/0c937ebf7f7936640cf1345b36805a8e.jpg",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/3764C49B6EFFDE248FE273D83F8B39E1D9FAA6EE54389578E950613D2D8C325E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2F0c937ebf7f7936640cf1345b36805a8e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "IBIT",
+        "BLK"
+      ]
+    },
+    {
+      "uuid": "117e3d5f-7e0f-37a4-88f7-229a9562bee9",
+      "title": "Crypto Market Today, Nov. 2: Crypto Market Today, Nov. 2: Bitcoin and Altcoins Retreat as Binance Withdrawals Spark Fresh Concerns",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-nov-2-223501665.html",
+      "providerPublishTime": 1793658901,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/09f0c89efccc5e5f65b002e85fb8dbc4.jpg",
+            "width": 1200,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2DC884ACCD6536C67FE8A1DEA1FE42DAEAEB7C9DE736F7CE6C5B40533A9F83BB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F09f0c89efccc5e5f65b002e85fb8dbc4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "ETH-USD",
+        "SOL-USD",
+        "IBIT",
+        "ETHA",
+        "MSTR"
+      ]
+    },
+    {
+      "uuid": "482e7227-3cc0-3c76-9421-b9e3a90a85f9",
+      "title": "Bitcoin Steadies Near $78,000 as Binance Withdrawals Resume",
+      "publisher": "Unchained",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-steadies-near-78-000-111556505.html",
+      "providerPublishTime": 1793618156,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/unchained_510/e0a74c13d55764d30130f2f2cf968153.png",
+            "width": 1536,
+            "height": 864,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/ACFBBED4B145E2CD8BA996DC55F50E4C77DC014A296CB310025D783F36BC33AE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Funchained_510%2Fe0a74c13d55764d30130f2f2cf968153.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "ETH-USD",
+        "SOSO-USD",
+        "IBIT",
+        "COIN",
+        "BLK",
+        "CHAA.PVT"
+      ]
+    },
+    {
+      "uuid": "a051fe20-0ce4-34e3-b696-6704643676aa",
+      "title": "BTC USD Holds $78,000 As OneKey\u2019s Founder Warns North Korean Hackers May Already Have BlackRock\u2019s IBIT on Their List",
+      "publisher": "99bitcoins",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/btc-usd-holds-78-000-092425362.html",
+      "providerPublishTime": 1793611465,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/99bitcoins_us_315/d185fc11921c8d9c13371f1b3bdd8cf6.jpg",
+            "width": 1024,
+            "height": 718,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C9983A8FC11F132D755ECAE9C7809FBE23E6A57974F192883CF0700B349DA895/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F99bitcoins_us_315%2Fd185fc11921c8d9c13371f1b3bdd8cf6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "IBIT",
+        "BLK"
+      ]
+    },
+    {
+      "uuid": "8cf6c1fa-2aaa-3be3-9710-735d77cdcf55",
+      "title": "Bitcoin Looks Like A 'Relative Dud' Against Gold And US Treasuries, Says Bloomberg's Mike McGlone",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-looks-relative-dud-against-164921773.html",
+      "providerPublishTime": 1793465361,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/1520d90d5bbb05e84b1f45c246cdd93a.jpg",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2A09E6DE5D76017DEFD474D98EE09E14A6BCB70C3E5FBC460F3302EB357712D9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F1520d90d5bbb05e84b1f45c246cdd93a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "GC=F",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "5f11e4e8-8418-3427-abfe-a1565ceada8a",
+      "title": "Investors Pull $643 Million From Bitcoin ETFs After the Biggest Crypto Hack in History",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/investors-pull-643-million-bitcoin-112943098.html",
+      "providerPublishTime": 1793446183,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/beincrypto_us_662/1806c0da2a5a78790467470de854956a.jpg",
+            "width": 2368,
+            "height": 1332,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/09BA47B7424DEAD23CA753D5244701222F7794F4C1C9DBF9678C18B4D2125C1E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbeincrypto_us_662%2F1806c0da2a5a78790467470de854956a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "IBIT",
+        "ETH-USD",
+        "SOSO-USD",
+        "BLK"
+      ]
+    },
+    {
+      "uuid": "5fca5436-e17f-3286-9998-a50d689e2363",
+      "title": "Billions of Dollars In Cryptocurrency Was Just Stolen. Should Investors Be Worried?",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/5fca5436-e17f-3286-9998-a50d689e2363/billions-of-dollars-in.html",
+      "providerPublishTime": 1793390040,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/98366263c78746565ff21896f04c2288.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/71751E9CBBEADA6CC49374C53539EE437DAD6B57BF9098D6F81EEB6A52A34634/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F98366263c78746565ff21896f04c2288.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "CHAA.PVT",
+        "FBTC",
+        "BLK",
+        "COIN",
+        "GBTC",
+        "IBIT",
+        "ETH-USD",
+        "USDC-USD",
+        "USDT-USD"
+      ]
+    },
+    {
+      "uuid": "8f6f7e1f-8832-3fdd-8b23-7a522cdfc402",
+      "title": "Bitcoin Price Today: BTC Fell to a 5-Week Low After $1.3 Billion in Longs Were Liquidated. Can It Hold $76,600?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-today-btc-fell-145319074.html",
+      "providerPublishTime": 1793371999,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/880aa438b7dab4591efdaaca4d9f823d.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/21BFCA84B9FE70040B394DB900D24553CF037D6DD1B421D1256D958575188CB5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F880aa438b7dab4591efdaaca4d9f823d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "ETH-USD",
+        "BITB",
+        "FBTC",
+        "IBIT",
+        "XRP-USD",
+        "SOL-USD"
+      ]
+    },
+    {
+      "uuid": "4715ba14-c863-3a07-87c8-aca3606d277f",
+      "title": "BC-Most Active Stocks",
+      "publisher": "Associated Press",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143026463.html",
+      "providerPublishTime": 1793370626,
+      "type": "STORY",
+      "relatedTickers": [
+        "INTC",
+        "SLGB",
+        "HUBC",
+        "NVDA",
+        "ONEG",
+        "IBIT",
+        "AMZN",
+        "^IXIC",
+        "ABOS",
+        "SOFI",
+        "GOOG",
+        "RIVN",
+        "FNGR",
+        "SHFS",
+        "CIFR"
+      ]
+    },
+    {
+      "uuid": "e2ecde2a-f25f-38dc-8f9c-2e8f998fd67d",
+      "title": "Franklin Templeton Just Launched ETFs That Turn Stock Dividends Into Bitcoin. Is That a Smarter Way to Own BTC?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/franklin-templeton-just-launched-etfs-210332077.html",
+      "providerPublishTime": 1793307812,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ee9ccb86d93222f4ef48276d7d7d6a9a.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/6093511C545DBC7794A72A15CCCA4034DF01C35550D0CC7B4B2AA8C472CDE2E7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fee9ccb86d93222f4ef48276d7d7d6a9a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BEN",
+        "BTC-USD",
+        "IBIT",
+        "FBTC"
+      ]
+    },
+    {
+      "uuid": "10b7bf55-fc3e-3c64-94db-f8a76137762b",
+      "title": "3 Reasons Why Bitcoin Is Worth Buying Right Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/3-reasons-why-bitcoin-worth-232900539.html",
+      "providerPublishTime": 1793230140,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/1edf887f5ce714c6c14adcebf276e1fa.jpg",
+            "width": 1400,
+            "height": 934,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/37AE4011A9F8D48986E7EE4694BD8A518593C832D8293E8B8FA228AFFC08E402/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F1edf887f5ce714c6c14adcebf276e1fa.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "NVDA",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "6fdd7561-0800-3dd6-8ea2-8f7163b39878",
+      "title": "Bitcoin Fell Five Days in a Row While Nearly 15,000 BTC Left Exchanges. Is a Bounce Coming?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-fell-five-days-row-223737304.html",
+      "providerPublishTime": 1793227057,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/909991c829a93477ef4a8a8b666e6cdd.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0C78357C4055C177DF93A56737D9F418658338A06A6722CDF2FBCF2F7CA7E384/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F909991c829a93477ef4a8a8b666e6cdd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "COIN",
+        "BTGO",
+        "IBIT",
+        "MARA"
+      ]
+    },
+    {
+      "uuid": "637e4023-ea13-33f0-9e4f-ea148a8516b9",
+      "title": "The ETF Industry Is About to Get Weird",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/markets/options/articles/etf-industry-weird-173435817.html",
+      "providerPublishTime": 1793208875,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/indexuniverse.com/c1c69d5b231b1da60dce473474f8d2a3.jpg",
+            "width": 1254,
+            "height": 836,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/82CB8A79B994A6BC317B22A7D9ACACFB0C602D05F113A3860A306E8B9E4EB851/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Findexuniverse.com%2Fc1c69d5b231b1da60dce473474f8d2a3.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "VFFSX",
+        "SPY",
+        "IBIT",
+        "AGG"
+      ]
+    },
+    {
+      "uuid": "6023ee77-e633-36fd-9bea-09f345902aa4",
+      "title": "The Rise of the New Actively Managed Crypto ETFs",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/6023ee77-e633-36fd-9bea-09f345902aa4/the-rise-of-the-new-actively.html",
+      "providerPublishTime": 1793174400,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/d9e56f7b9429a070ac8b1306d255a0a4.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2012F10385707E9C2B46AE9F7506DDEBFC1556671B0CE57A0E848FD5FDE6A444/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2Fd9e56f7b9429a070ac8b1306d255a0a4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "MSFT",
+        "AVAX-USD",
+        "SOL-USD",
+        "BTCUSD=X",
+        "BLOX",
+        "IBIT",
+        "TKNZ",
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "532c99df-3311-3b2c-ad69-fb034050ca72",
+      "title": "Hyperliquid\u2019s Biggest Traders Are Shorting Bitcoin for the First Time Since March. Could BTC Drop Below $75,000?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/hyperliquid-biggest-traders-shorting-bitcoin-221947426.html",
+      "providerPublishTime": 1793139587,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/909991c829a93477ef4a8a8b666e6cdd.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0C78357C4055C177DF93A56737D9F418658338A06A6722CDF2FBCF2F7CA7E384/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F909991c829a93477ef4a8a8b666e6cdd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "HYPE32196-USD",
+        "MSTR",
+        "BTC",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "0f916ed6-8c7d-3475-98f8-28d40765d799",
+      "title": "Tom Lee Sees \u2018One of the Biggest Rallies of Our Lifetime\u2019 as $10.8B Bitcoin Options Expiry Looms",
+      "publisher": "CCN",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/tom-lee-sees-one-biggest-123215921.html",
+      "providerPublishTime": 1793104335,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ccn_928/c4459c4802250f1cfe2bee8801280d0d.png",
+            "width": 1586,
+            "height": 992,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/20311BE9874B041CC6AE80D364C8D7ECCDD8D81B0D423C1D0BE37208C8B4625C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fccn_928%2Fc4459c4802250f1cfe2bee8801280d0d.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "IBIT",
+        "BLK"
+      ]
+    },
+    {
+      "uuid": "07490eeb-367b-32b6-b576-9c7377a9a1dd",
+      "title": "BlackRock Just Announced a New Bitcoin ETF. Should You Buy it?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-just-announced-bitcoin-etf-102500453.html",
+      "providerPublishTime": 1793096700,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/7e1370e0b4b8d6f8cf65c0f30582dbad.jpg",
+            "width": 1400,
+            "height": 933,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/38A3AFDDE244D56257C85C3FF4651F55384F11A6319B8208A18EAB477F866C6D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F7e1370e0b4b8d6f8cf65c0f30582dbad.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "BLK",
+        "NVDA",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "fc99b4d0-1c2d-3b69-89ec-d5c8094e502a",
+      "title": "Bitcoin ETFs Own Just 8.5% of BTC as IBIT Ends a Two-Day Outflow Run: Can BTC USD Hold $79,200?",
+      "publisher": "99bitcoins",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-own-just-8-084359650.html",
+      "providerPublishTime": 1793090639,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/99bitcoins_us_315/438713014779b45337c6218c761a5fcd.jpg",
+            "width": 1024,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/562B3403AD160931D8B748D92AF2BD265E86C16BA693D21CE8B990364291642E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F99bitcoins_us_315%2F438713014779b45337c6218c761a5fcd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "IBIT",
+        "BLK"
+      ]
+    },
+    {
+      "uuid": "ed2e5873-b10c-3b22-bf44-469f3b2866e1",
+      "title": "Do Bitcoin ETF Flows Really Predict Future Bitcoin Price Moves? This New Research Has Important Implications for BTC Investors.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etf-flows-really-predict-030700297.html",
+      "providerPublishTime": 1793070420,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/294068ba184a2b63ce8441b9a2b1637b.jpg",
+            "width": 1400,
+            "height": 926,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/99196BBAB2AAE6D2B13BC997C3BA38E124C07AB19BB48883779DB6E3D4010C72/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F294068ba184a2b63ce8441b9a2b1637b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "IBIT",
+        "NVDA",
+        "BTC-USD"
+      ]
+    },
+    {
+      "uuid": "08177a9b-ad9d-3bbb-8783-1992b7dd77f7",
+      "title": "Bitcoin Holds $79,200 Before the Fed, Coinbase Earnings and a $10.9B Expiry: Which Way Next?",
+      "publisher": "Coinspeaker",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-holds-79-200-fed-133225031.html",
+      "providerPublishTime": 1793021545,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/coinspeaker_us_106/a565174142a9344c04bc97b63d5bf1e6.jpg",
+            "width": 683,
+            "height": 512,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D7CEA52B3A21FD2CEE4B12C4ED3FF806C4A3D15A7F4152D495F0F4F1C473133C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcoinspeaker_us_106%2Fa565174142a9344c04bc97b63d5bf1e6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "COIN",
+        "BLK",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "a83e1543-1675-3e87-8526-d0fb657907cf",
+      "title": "Can Bitcoin Get Back Above $85,000 in November?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-back-above-85-000-214039495.html",
+      "providerPublishTime": 1792878039,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/de1123179865fc534724b1f1efe19a15.jpg",
+            "width": 2560,
+            "height": 1926,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C1477507B47EFA716D00D0A3031DC02870F39CF1F26CEAF515EEA9FD618975B5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fde1123179865fc534724b1f1efe19a15.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "SOFI",
+        "IBIT",
+        "QQQ"
+      ]
+    },
+    {
+      "uuid": "233ca31c-098d-34cc-b0e8-5ab5fcde7f09",
+      "title": "Bitcoin ETFs Just Had Their Biggest Outflow Day Since June. Is the Selling Over?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-just-had-biggest-153742401.html",
+      "providerPublishTime": 1792856262,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/fdffa09d71277da47315fe5eead4daa6.jpg",
+            "width": 1500,
+            "height": 843,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/843F806AEF758B3DD47EA9BDD6ABF6BC2C7F1DAEA2F51E4E84A22DF197AAA520/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ffdffa09d71277da47315fe5eead4daa6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "IBIT",
+        "BLK",
+        "SOSO-USD",
+        "SOFI",
+        "ARKB",
+        "BITB",
+        "FBTC",
+        "GBTC"
+      ]
+    },
+    {
+      "uuid": "2d806e29-f24e-37bc-b40b-af7d1dd39dc9",
+      "title": "Weekly Wrap: Bitcoin Under Pressure As Market Volatility Intensifies",
+      "publisher": "CryptoProwl",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-bitcoin-under-pressure-211200361.html",
+      "providerPublishTime": 1792789920,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cryptoprowl_304/80a3c6958634409ffc4b1d746efb7c7a.jpg",
+            "width": 1000,
+            "height": 600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E7DDBFE066B01937C30F7D9ECF3E2BF59006950AADF92475F66217A0CF622475/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptoprowl_304%2F80a3c6958634409ffc4b1d746efb7c7a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "^DJI",
+        "ETH-USD",
+        "BTC",
+        "ETH",
+        "MSTR",
+        "ZEC",
+        "BTGO",
+        "JPM",
+        "V",
+        "ADA",
+        "BLK",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "f8e727cc-3062-3e11-99ec-fc1e03cad01e",
+      "title": "Where Could Bitcoin End October? We Asked ChatGPT AI",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/where-could-bitcoin-end-october-170028406.html",
+      "providerPublishTime": 1792774828,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/bf70a79fad9462a5ac4aa731deddf528.jpg",
+            "width": 1500,
+            "height": 914,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0FAFA5747979F14AB089682D91D7A7A3BC902ABDCF20BB2883378E5FCDBBFD3C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fbf70a79fad9462a5ac4aa731deddf528.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "BLK",
+        "COIN",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "bc17be2f-13c3-3f0b-aa88-217d203641cd",
+      "title": "Bitcoin News: BlackRock Just Moved $262 Million in Bitcoin to Coinbase. Is More Selling Coming?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-news-blackrock-just-moved-161638981.html",
+      "providerPublishTime": 1792772198,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ca8ed267864c4ecc757a7884189b8f84.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/474D0D26C089FD8D476CB16C6569304A2AFF5729A47BD46AB52F4BD35421A2A6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fca8ed267864c4ecc757a7884189b8f84.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "BLK",
+        "COIN",
+        "ETH-USD",
+        "SOFI",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "5d9e20b6-a850-3eb8-8cbc-49ed4c89be8a",
+      "title": "Bitcoin ETFs See Outflows Return As Market Volatility Worsens",
+      "publisher": "CryptoProwl",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-outflows-return-144700178.html",
+      "providerPublishTime": 1792766820,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cryptoprowl_304/7afdfa06037327a8d18f20c063355949.jpg",
+            "width": 1000,
+            "height": 600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1591CF463112739D0AD895A49FD4E65D4A2E2C01710FBB67A30D2FD79D322126/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcryptoprowl_304%2F7afdfa06037327a8d18f20c063355949.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "^IXIC",
+        "IBIT",
+        "BTC",
+        "BLK"
+      ]
+    },
+    {
+      "uuid": "3b786764-331f-3b28-af1d-ddfbca69f463",
+      "title": "The Floor Is Lava: BlackRock Joins Protected Bitcoin ETF Party",
+      "publisher": "The Daily Upside",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/floor-lava-blackrock-joins-protected-040100859.html",
+      "providerPublishTime": 1792728060,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/the_daily_upside_435/bd86c22ee1122555ce7fb2bacf318423.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2485FF66C6EEC579DA6E48FC640C3F6EB7751CA821147449A3167AE73793169E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_daily_upside_435%2Fbd86c22ee1122555ce7fb2bacf318423.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "BLK",
+        "IBIT"
+      ]
+    },
+    {
+      "uuid": "b1977d5c-673a-38e5-be01-286a2f0e6eaf",
+      "title": "Crypto Market Today, Oct. 22: Bitcoin and Altcoins Slide as Wall Street Fears Spill Into Crypto Markets",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-oct-22-215002279.html",
+      "providerPublishTime": 1792705802,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/motleyfool.com/82e33b5963f90ef72feeea2abd26bb53.jpg",
+            "width": 1200,
+            "height": 800,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B3D84AADA037C9D9B5AF969241A26E1CFA5B7046BF7AA96902027ED7153661D5/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F82e33b5963f90ef72feeea2abd26bb53.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "ETH-USD",
+        "SOL-USD",
+        "IBIT",
+        "CL=F",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "a6054a73-7b20-348c-9258-833005426082",
+      "title": "Bitcoin ETFs Erase October Losses With $1 Billion in Three Days",
+      "publisher": "decrypt",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-erase-october-losses-163107282.html",
+      "providerPublishTime": 1792686667,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/decrypt_157/4cb7083d6ff87b522f9feff7c285d4a0.jpg",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C149E0B8D56879EA201950E6659BC1A437D313CCD8F2DED622A5DEA0D909494B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fdecrypt_157%2F4cb7083d6ff87b522f9feff7c285d4a0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "BTC-USD",
+        "BLK",
+        "IBIT"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 310,
+  "timeTakenForQuotes": 416,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

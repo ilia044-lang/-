@@ -1,0 +1,1 @@
+Final AAC audio check with FFmpeg volumedetect: mean sample level -17.6 dBFS; maximum sample level -2.1 dBFS. No sample clipping observed. Mastering used loudness normalization and limiting. This is an audio-level check, not a claim of human voice performance.

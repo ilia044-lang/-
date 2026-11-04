@@ -1,0 +1,707 @@
+{
+  "explains": [],
+  "count": 37,
+  "quotes": [
+    {
+      "exchange": "PCX",
+      "shortname": "State Street Energy Select Sect",
+      "quoteType": "ETF",
+      "symbol": "XLE",
+      "index": "quotes",
+      "score": 19563500.0,
+      "typeDisp": "ETF",
+      "longname": "State Street Energy Select Sector SPDR ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "State Street Energy Select Sect",
+      "quoteType": "ETF",
+      "symbol": "XLEI",
+      "index": "quotes",
+      "score": 21505.0,
+      "typeDisp": "ETF",
+      "longname": "State Street Energy Select Sector SPDR Premium Income ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PCX",
+      "shortname": "State Street S&P 500 Energy Mar",
+      "quoteType": "ETF",
+      "symbol": "XLEM",
+      "index": "quotes",
+      "score": 20066.0,
+      "typeDisp": "ETF",
+      "longname": "State Street S&P 500 Energy Market Sector SPDR ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "BTS",
+      "shortname": "Corgi U.S. Energy 2x Daily ETF",
+      "quoteType": "ETF",
+      "symbol": "XLEX",
+      "index": "quotes",
+      "score": 20013.0,
+      "typeDisp": "ETF",
+      "exchDisp": "BATS Trading",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "MIL",
+      "shortname": "INVESCO ENERGY S&P US SEL SECT ",
+      "quoteType": "ETF",
+      "symbol": "XLES.MI",
+      "index": "quotes",
+      "score": 20012.0,
+      "typeDisp": "ETF",
+      "longname": "Invesco Energy S&P US Select Sector UCITS ETF",
+      "exchDisp": "Milan",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PNK",
+      "shortname": "XXL ENERGY CORPORATION",
+      "quoteType": "EQUITY",
+      "symbol": "XLEFF",
+      "index": "quotes",
+      "score": 20010.0,
+      "typeDisp": "Equity",
+      "longname": "XXL Energy Corp.",
+      "exchDisp": "OTC Markets",
+      "sector": "Energy",
+      "sectorDisp": "Energy",
+      "industry": "Oil & Gas E&P",
+      "industryDisp": "Oil & Gas E&P",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "OPR",
+      "shortname": "XLE Jan 2027 45.000 put",
+      "quoteType": "OPTION",
+      "symbol": "XLE270115P00045000",
+      "index": "quotes",
+      "score": 20009.0,
+      "typeDisp": "Option",
+      "longname": "XLE Jan 2027 45.000 put",
+      "exchDisp": "OPR",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "d3423e81-d193-3fc4-89e3-4d4327130e5c",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-181444380.html",
+      "providerPublishTime": 1793729684,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "MPC",
+        "NG=F",
+        "XLE",
+        "^DJI",
+        "MPLX",
+        "CVI"
+      ]
+    },
+    {
+      "uuid": "c92ee9a0-8a55-384c-bbd9-64c17d33331e",
+      "title": "Exchange-Traded Funds Higher, US Equities Mixed After Midday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-181052694.html",
+      "providerPublishTime": 1793729452,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "XLK",
+        "IVV",
+        "IYW",
+        "XLF",
+        "FAS",
+        "CL=F",
+        "AAPL",
+        "XLE",
+        "IGM",
+        "FAZ"
+      ]
+    },
+    {
+      "uuid": "d78eac10-6c59-3472-a438-3ae7c3860f61",
+      "title": "OPEC+ Holds Output Steady, Maintains 2M BPD Cuts: ETFs in Focus",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/opec-holds-output-steady-maintains-152300233.html",
+      "providerPublishTime": 1793719380,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/1cd28967a7d6f4466c574ed1142aaffa.jpg",
+            "width": 620,
+            "height": 423,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E932A6EBDEBB602152EBA5C15A000AE593240070D72960E643FDAA0DFD8FAD5E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F1cd28967a7d6f4466c574ed1142aaffa.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "USO",
+        "BNO",
+        "OIH"
+      ]
+    },
+    {
+      "uuid": "269ecf00-d5bd-3196-9307-c056ec9d6590",
+      "title": "Sector Update: Energy Stocks Decline Premarket Tuesday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142438824.html",
+      "providerPublishTime": 1793715878,
+      "type": "STORY",
+      "relatedTickers": [
+        "MPC",
+        "CL=F",
+        "USO",
+        "XLE",
+        "IEP",
+        "CVI",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "2bd3fc4d-4949-3f7d-9e9a-24064a927698",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-140420936.html",
+      "providerPublishTime": 1793714660,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "MPC",
+        "USO",
+        "XLE",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "29923b0e-0869-3bd9-b1d0-1f54b1055dc3",
+      "title": "Stock Market News for Nov 3, 2026",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-3-132100899.html",
+      "providerPublishTime": 1793712060,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/bd614b5b4cd86d012677e26365ef58e3.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5E890EE51D8221C70EF31B2AEF325ADEF4C7CF3677A2FE24633F492843A5A705/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fbd614b5b4cd86d012677e26365ef58e3.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^DJI",
+        "^IXIC",
+        "XLE",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "ffff856a-7660-35e2-ab5f-4e4d930b0f01",
+      "title": "Energy ETFs Returned More Than 62% Over the Past Year. These 3 Charge as Little as 0.08%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/energy-etfs-returned-more-62-233309897.html",
+      "providerPublishTime": 1793662389,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/8dd3e09542c875292a55f9b2a1f51d1e.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D036C2421FF030D806A34CEE781FC2F356D07865FBCD9E2A42ADA98F74C1CFAB/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8dd3e09542c875292a55f9b2a1f51d1e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "VDE",
+        "CL=F",
+        "^GSPC",
+        "XLE",
+        "IVV",
+        "IYE"
+      ]
+    },
+    {
+      "uuid": "f8b5703a-ce28-3630-83ab-d6229a0be2f5",
+      "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-210002413.html",
+      "providerPublishTime": 1793653202,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "^DJI",
+        "XLE"
+      ]
+    },
+    {
+      "uuid": "d1e7c1aa-3403-3136-a330-9e1b90c7b328",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-204505864.html",
+      "providerPublishTime": 1793652305,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "6c1ab49e-9b3b-35e7-820b-fe504505c711",
+      "title": "Sector Update: Energy Stocks Fall Monday Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-monday-184523145.html",
+      "providerPublishTime": 1793645123,
+      "type": "STORY",
+      "relatedTickers": [
+        "XLE",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "13613c9c-16b3-3da6-a0bc-c30a88f966d4",
+      "title": "Exchange-Traded Funds Higher as US Equities Rise After Midday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-182141612.html",
+      "providerPublishTime": 1793643701,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "CL=F",
+        "IVV",
+        "XLF",
+        "FAS",
+        "XLE",
+        "IGM",
+        "FAZ",
+        "USO",
+        "XLK",
+        "IYW"
+      ]
+    },
+    {
+      "uuid": "db1fab9b-60df-3de7-b608-a52dea0a9be9",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-180942089.html",
+      "providerPublishTime": 1793642982,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "KOS",
+        "NG=F",
+        "XLE",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "ef8549ab-647e-3b85-a3d0-7287c5f8f9bc",
+      "title": "Sector Update: Energy Stocks Fall Premarket Monday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-142720676.html",
+      "providerPublishTime": 1793629640,
+      "type": "STORY",
+      "relatedTickers": [
+        "KOS",
+        "CL=F",
+        "XLE",
+        "USO",
+        "VG",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "a9452464-162c-3564-9632-3243b833a342",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-140836314.html",
+      "providerPublishTime": 1793628516,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "KOS",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "469bf0c3-8384-3eb2-925b-049ba846aae5",
+      "title": "Stock Market News for Nov 2, 2026",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-2-132700821.html",
+      "providerPublishTime": 1793626020,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/919154364c00fbf714994a76d78ccb85.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1240CB908CB76E62F7AFB97797AD327D4ED7F61251F24CC31CD54B6F978CB2FF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F919154364c00fbf714994a76d78ccb85.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^DJI",
+        "^GSPC",
+        "^VIX",
+        "^IXIC",
+        "XLK",
+        "XLE"
+      ]
+    },
+    {
+      "uuid": "9953a598-c2da-3e5a-9222-8321fe98dfe1",
+      "title": "What Are Wall Street Analysts' Target Price for Chevron Stock?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-111901665.html",
+      "providerPublishTime": 1793618341,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/4bdb32921d6c8349663bd36b08ea072d.jpg",
+            "width": 1257,
+            "height": 835,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C886D72B3AAA603582F356BEB10637F997A01BE29675CEFCCF3C6F8C50375DFA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F4bdb32921d6c8349663bd36b08ea072d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CVX",
+        "^GSPC",
+        "NG=F",
+        "XLE"
+      ]
+    },
+    {
+      "uuid": "bf514aa9-0876-32c4-b48d-73ba818271e9",
+      "title": "Do Wall Street Analysts Like Kinder Morgan Stock?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-kinder-morgan-110836489.html",
+      "providerPublishTime": 1793617716,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/0cbfbeb76c830e09feb759bed601fd89.jpg",
+            "width": 1254,
+            "height": 836,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D20EF62E3F894D0C30C547B951AEA6E3839903F992F9F15EB950BE7C0831A276/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F0cbfbeb76c830e09feb759bed601fd89.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NG=F",
+        "KMI",
+        "XLE",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "d4a990eb-69f2-3b84-b534-5556fbdb0ca5",
+      "title": "State Street Energy Select Sector SPDR (XLE) Adds Exxon and Chevron on Oct. 29",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/energy/articles/state-street-energy-select-sector-110512229.html",
+      "providerPublishTime": 1793617512,
+      "type": "STORY",
+      "relatedTickers": [
+        "XLE",
+        "XOM",
+        "COP",
+        "CVX",
+        "PSX"
+      ]
+    },
+    {
+      "uuid": "14fd3728-c933-388e-8050-63d1f7e6c919",
+      "title": "Stocks Are Limping Into November. A Santa Rally Would Be a True Gift.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/14fd3728-c933-388e-8050-63d1f7e6c919/stocks-are-limping-into.html",
+      "providerPublishTime": 1793614500,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/5e9876562b50593663e33df8cd4b0018.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8C795DC999E416469B60AE389CEA24E7B07CCD10D7E1E1341AF1936D1BAF8D93/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F5e9876562b50593663e33df8cd4b0018.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "BRN00.L",
+        "MSFT",
+        "XLE",
+        "XLU"
+      ]
+    },
+    {
+      "uuid": "0d5975aa-376e-3910-925c-e485d24dd7ac",
+      "title": "ExxonMobil Stock Outlook: Is Wall Street Bullish or Bearish?",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-outlook-wall-street-051718140.html",
+      "providerPublishTime": 1793510238,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/barchart_com_477/5b3becb3d66a31fb8f8f92a0b35048fd.jpg",
+            "width": 1254,
+            "height": 836,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E9B06A717762ECAEC0AA1354F39CB7A6D54528B5B2319B136B11784F6EF8600C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F5b3becb3d66a31fb8f8f92a0b35048fd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XOM",
+        "^GSPC",
+        "NG=F",
+        "XLE"
+      ]
+    },
+    {
+      "uuid": "928c67f9-bfd3-327d-87e2-3b16b796723d",
+      "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-afternoon-195710565.html",
+      "providerPublishTime": 1793390230,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "^DJI",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "b7aa7fd8-d81e-3cb7-9964-7ea0264090f2",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-193402762.html",
+      "providerPublishTime": 1793388842,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "D",
+        "NG=F",
+        "XLE",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "37ca4b04-18cb-370f-9ccd-b8423e85d37b",
+      "title": "Sector Update: Energy Stocks Gain Friday Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-gain-friday-175824843.html",
+      "providerPublishTime": 1793383104,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "NG=F",
+        "CVX",
+        "XLE",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "808b5937-632e-3017-9e1a-cfb7a8909997",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-173324727.html",
+      "providerPublishTime": 1793381604,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "CVX",
+        "NG=F",
+        "XLE",
+        "^DJI"
+      ]
+    },
+    {
+      "uuid": "adf9beda-e17b-3114-9211-f4ad896d828e",
+      "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday Friday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html",
+      "providerPublishTime": 1793380949,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "INTC",
+        "IVV",
+        "XLK",
+        "IYW",
+        "XLF",
+        "FAS",
+        "USO",
+        "XLE",
+        "IGM",
+        "FAZ",
+        "CL=F",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "260f0b76-c779-304a-914f-b19b66a557dd",
+      "title": "Sector Update: Energy Stocks Rise Pre-Bell Friday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132817325.html",
+      "providerPublishTime": 1793366897,
+      "type": "STORY",
+      "relatedTickers": [
+        "XOM",
+        "CL=F",
+        "XLE",
+        "USO",
+        "CVX",
+        "HESM",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "4a5aed1a-ad51-3747-854c-0ef5c838a3e3",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-131127651.html",
+      "providerPublishTime": 1793365887,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "7b67365a-8aa1-370c-bf2c-e231ac48f767",
+      "title": "Sector Update: Energy Stocks Higher Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-afternoon-195730175.html",
+      "providerPublishTime": 1793303850,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "^DJI",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "5d964405-bb0a-392f-a9d3-4802eaa2c7e2",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-192710202.html",
+      "providerPublishTime": 1793302030,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "NG=F",
+        "XLE",
+        "^DJI",
+        "CVX"
+      ]
+    },
+    {
+      "uuid": "be1fe92b-23cc-346f-9905-bad545fd319c",
+      "title": "Sector Update: Energy Stocks Mixed in Afternoon Trading",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-afternoon-181353108.html",
+      "providerPublishTime": 1793297633,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "^DJI",
+        "NG=F"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 297,
+  "timeTakenForQuotes": 431,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

@@ -1,0 +1,27 @@
+{
+  "explains": [],
+  "count": 1,
+  "quotes": [],
+  "news": [],
+  "nav": [
+    {
+      "navName": "2020 Election",
+      "navUrl": "https://finance.yahoo.com/live/2020-election/"
+    }
+  ],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 72,
+  "timeTakenForQuotes": 410,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

@@ -1,0 +1,657 @@
+{
+  "explains": [],
+  "count": 29,
+  "quotes": [],
+  "news": [
+    {
+      "uuid": "9454e743-5dc6-3eb3-b61b-217d591c100c",
+      "title": "Investors Are Beginning to Say That Meta Is The Best Buy And Hold Stock Through 2030",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-beginning-meta-best-buy-174525004.html",
+      "providerPublishTime": 1793727925,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/a84bb8f6a562101b9d4d45df0778d6c4.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4FC33DBEFD7C76292B16034947B8E253EE745ADEA82EB27097A674F27835114B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fa84bb8f6a562101b9d4d45df0778d6c4.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "META",
+        "^GSPC",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "d4ac0356-bc76-3cc8-acb1-2fdda10a6a2e",
+      "title": "Palantir\u2019s Bookings Worry Is Dragging Down These Widely Held ETFs",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-bookings-worry-dragging-down-163349134.html",
+      "providerPublishTime": 1793723629,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/aaf33288a47bbef8d6ad7f3571e3b502.jpg",
+            "width": 2560,
+            "height": 1727,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/83BB648869CDA559E2D6AD8EB734EBBCFF40AEB520F3472D105EED0BD23F0925/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Faaf33288a47bbef8d6ad7f3571e3b502.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "QQQ",
+        "SPY",
+        "VFFSX",
+        "XLK"
+      ]
+    },
+    {
+      "uuid": "044ffb3f-1a48-3c54-be0e-ffa895693a79",
+      "title": "\u2018Great For Our Farmers, Great For Our Country\u2019: Trump Says \u2018Concept of a Deal\u2019 Reached With Canada",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/economy/policy/articles/great-farmers-great-country-trump-163005769.html",
+      "providerPublishTime": 1793723405,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/benzinga_79/44342c6835f6153ee59e475df137cb7e.jpg",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D67A017CEB68A12D2F6D2CB8D9D7567A62B1E796877E0608009001695ABADBF7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F44342c6835f6153ee59e475df137cb7e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "7d42475d-d7f4-3ee3-afdf-d5d1008510ce",
+      "title": "US Midterm Elections: Dow Falls Nearly 200 Points, S&P 500 And Nasdaq Edge Higher As Polls Begin",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-midterm-elections-dow-falls-145200518.html",
+      "providerPublishTime": 1793717520,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/d61dd750096047f65a042235da1047ea",
+            "width": 1280,
+            "height": 853,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/D5D15719109A91D6ABB897C7FAB8F1AFE5693E69CB55DDBF970E7C0F69AF22B1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fd61dd750096047f65a042235da1047ea",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^GSPC",
+        "^DJI",
+        "3772.T",
+        "SPY",
+        "QQQ",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "b7cd08d8-8a11-3fb5-b7a9-a1537fff038e",
+      "title": "The Average Stock Just Beat the S&P 500 by the Most Since 2009",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/average-stock-just-beat-p-141256534.html",
+      "providerPublishTime": 1793715176,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/7fc34baf2c61ba8f65bb823217c9d5bb",
+            "width": 2560,
+            "height": 1440,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/627AB3D5951E831709FDC4B03B27D5985C98A7D935D98511403B04FFACCF51AA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F7fc34baf2c61ba8f65bb823217c9d5bb",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "RSP",
+        "^GSPC",
+        "SPY",
+        "XLK",
+        "XLP"
+      ]
+    },
+    {
+      "uuid": "6320434e-6865-3bea-b98c-cdad72d29300",
+      "title": "Burry vs Karp: One Year Later, Who Actually Won the Palantir Fight?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/burry-vs-karp-one-later-140603288.html",
+      "providerPublishTime": 1793714763,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/3a8d1bc9e5acf68ff567b4ba44846ead",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/860B2E4458CB85DBA94C879DD661AC0717E73F24525C7066DE03FA3281FAF9CA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F3a8d1bc9e5acf68ff567b4ba44846ead",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "PLTR",
+        "NVDA",
+        "SNOW",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "9cb0c3c3-8f36-3ad7-8520-35f959f10b5a",
+      "title": "More Pain Ahead for Tech & Broader Market ETFs?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/more-pain-ahead-tech-broader-140000330.html",
+      "providerPublishTime": 1793714400,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/0da4bf5604e69c45e41f0ab9c700ad02.jpg",
+            "width": 900,
+            "height": 467,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/54BE8C8FC4982FF549787640ED98A5C2374011B8351E5DC1BC9A27A06956FBD1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F0da4bf5604e69c45e41f0ab9c700ad02.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPY",
+        "TFC",
+        "^IXIC",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "a9cabd52-433d-3b0f-aa95-652dd899e826",
+      "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Tuesday Ahead of US Midterm Election Results",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-135941758.html",
+      "providerPublishTime": 1793714381,
+      "type": "STORY",
+      "relatedTickers": [
+        "BTC-USD",
+        "XLI",
+        "QQQ",
+        "SPY",
+        "^GSPC",
+        "^DJI",
+        "^IXIC",
+        "BITO"
+      ]
+    },
+    {
+      "uuid": "e56e5bae-a0eb-35d2-aada-65893c719d1c",
+      "title": "They Said Micron Could Hit $300. A Year Later, It\u2019s Trading Near $900",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/said-micron-could-hit-300-134703756.html",
+      "providerPublishTime": 1793713623,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/fe9c74e32591894a5bc026151a3a281b.png",
+            "width": 2000,
+            "height": 1200,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F6296DBCEB8A08157034848E268133BB891C3A90BA4AC7B72C978E2FBFD567B6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ffe9c74e32591894a5bc026151a3a281b.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MU",
+        "SPY",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "a9b88ad1-e9d4-3a6a-9115-0455680dafa7",
+      "title": "They Warned This Quantum Stock Had Gone Too Far. A Year Later, It\u2019s Down 75%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/warned-quantum-stock-had-gone-130322623.html",
+      "providerPublishTime": 1793711002,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/bf1e326939f058708d470ac840e869e6.jpg",
+            "width": 3034,
+            "height": 1600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DDCC8476295938E063F0D7B26782A90161C456FCAFA9D3363B065AA1E7A94D99/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fbf1e326939f058708d470ac840e869e6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "RGTI",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "13f7eddb-1f2d-32a1-88cd-b8d09ba2b6b0",
+      "title": "They Thought This Chip Stock Could Hit $120. It Went All the Way to $354",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/thought-chip-stock-could-hit-123210872.html",
+      "providerPublishTime": 1793709130,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/0c6c91469181a6d519cc8eeedfa34211.jpg",
+            "width": 3840,
+            "height": 1600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CE45F45FB87C05F4A3D762362D32CBAD8575529773466D24DCE0D370CEB78EFD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F0c6c91469181a6d519cc8eeedfa34211.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPY",
+        "SIMO"
+      ]
+    },
+    {
+      "uuid": "198f5e63-373e-38be-b864-e526e6c6aa74",
+      "title": "SPDR S&P 500 ETF (SPY) Adds Vylor and Apple on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110350124.html",
+      "providerPublishTime": 1793703830,
+      "type": "STORY",
+      "relatedTickers": [
+        "VYLR",
+        "AAPL",
+        "AMZN",
+        "SPY",
+        "NVDA",
+        "MSFT"
+      ]
+    },
+    {
+      "uuid": "d4fe3283-f90b-3fc0-9e7c-be0cbac17ac6",
+      "title": "ETFs Bought $72.5 Million of Microchip (MCHP) on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-72-5-million-110205590.html",
+      "providerPublishTime": 1793703725,
+      "type": "STORY",
+      "relatedTickers": [
+        "MCHP",
+        "SOXX",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "3ae0bc2b-a952-3e59-8e93-c92ce4ccb227",
+      "title": "35 ETFs Add to Tesla (TSLA) Holdings on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/35-etfs-add-tesla-tsla-110200783.html",
+      "providerPublishTime": 1793703720,
+      "type": "STORY",
+      "relatedTickers": [
+        "TSLA",
+        "SPY",
+        "IVV",
+        "JEPQ"
+      ]
+    },
+    {
+      "uuid": "077a7493-d204-3036-a311-542a2aae8abe",
+      "title": "ETFs Bought $93.7 Million of McDonald's (MCD) on Oct. 30",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-93-7-million-110154318.html",
+      "providerPublishTime": 1793703714,
+      "type": "STORY",
+      "relatedTickers": [
+        "MCD",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "914e989c-4612-3b4e-a2dd-526398cb9089",
+      "title": "ETFs Bought $113.3 Million of Alphabet (GOOGL) on Oct. 30",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-113-3-million-110151241.html",
+      "providerPublishTime": 1793703711,
+      "type": "STORY",
+      "relatedTickers": [
+        "GOOG",
+        "SPY",
+        "IVV"
+      ]
+    },
+    {
+      "uuid": "e1b0d38d-f42a-37f0-9045-442818410be7",
+      "title": "ETFs Bought $114.8 Million of Texas Instruments (TXN) on Oct. 30",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-114-8-million-110144151.html",
+      "providerPublishTime": 1793703704,
+      "type": "STORY",
+      "relatedTickers": [
+        "TXN",
+        "SOXX",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "7403fe9b-5e0e-3828-9ba7-e0fd03367138",
+      "title": "34 ETFs Add to NextEra Energy (NEE) on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/energy/articles/34-etfs-add-nextera-energy-110138512.html",
+      "providerPublishTime": 1793703698,
+      "type": "STORY",
+      "relatedTickers": [
+        "NEE",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "363e473b-4978-3157-a30a-841ad681e555",
+      "title": "Alphabet (GOOG) Sees $127.5 Million in Net ETF Buying on Oct. 30",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-sees-127-5-110129253.html",
+      "providerPublishTime": 1793703689,
+      "type": "STORY",
+      "relatedTickers": [
+        "GOOG",
+        "SPY",
+        "IVV",
+        "JEPQ",
+        "GOOG"
+      ]
+    },
+    {
+      "uuid": "1840d3a4-2b8b-3c56-a50d-2ca41307c6fd",
+      "title": "Meta Platforms (META) Sees $140.6 Million in Net ETF Buying on Oct. 30",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-sees-140-110119509.html",
+      "providerPublishTime": 1793703679,
+      "type": "STORY",
+      "relatedTickers": [
+        "META",
+        "SPY",
+        "IVV"
+      ]
+    },
+    {
+      "uuid": "d89bab9d-eedb-370f-beae-8aa38d6c7995",
+      "title": "ETFs Bought $183.8 Million of Broadcom (AVGO) on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-183-8-million-110102965.html",
+      "providerPublishTime": 1793703662,
+      "type": "STORY",
+      "relatedTickers": [
+        "AVGO",
+        "SPY",
+        "SOXX",
+        "IVV"
+      ]
+    },
+    {
+      "uuid": "1b216945-0d7c-3dab-a0a0-18a22113f710",
+      "title": "Amazon (AMZN) Sees $185.8 Million in Net ETF Buying on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-sees-185-8-110055784.html",
+      "providerPublishTime": 1793703655,
+      "type": "STORY",
+      "relatedTickers": [
+        "AMZN",
+        "SPY",
+        "IVV",
+        "JEPQ"
+      ]
+    },
+    {
+      "uuid": "e3a537a8-905b-314a-834e-24b3ff70c2bb",
+      "title": "ETFs Bought $470.0 Million of Apple (AAPL) on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-470-0-million-110052355.html",
+      "providerPublishTime": 1793703652,
+      "type": "STORY",
+      "relatedTickers": [
+        "AAPL",
+        "SPY",
+        "IVV",
+        "JEPQ"
+      ]
+    },
+    {
+      "uuid": "128149a7-a5aa-37cc-af29-d626eea9ea55",
+      "title": "ETFs Bought $505.7 Million of NVIDIA (NVDA) on Friday",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-505-7-million-110045125.html",
+      "providerPublishTime": 1793703645,
+      "type": "STORY",
+      "relatedTickers": [
+        "NVDA",
+        "IVV",
+        "SOXX",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "2614de9a-badc-39f2-928f-5d4aec94fad6",
+      "title": "ETF Activity: SPY Pulls In $5.73 Billion on Oct. 30",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-pulls-5-110011038.html",
+      "providerPublishTime": 1793703611,
+      "type": "STORY",
+      "relatedTickers": [
+        "SPY",
+        "SOXX",
+        "IVV",
+        "QQQ"
+      ]
+    },
+    {
+      "uuid": "79138d40-ad4d-32a9-a879-7a84f2859b35",
+      "title": "TSLA Stock Slips Overnight: Trump Vows To Shield Musk \u2014 But Influencer Flags \u2018Tougher Than Ever\u2019 SpaceX Merger Vote",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-slips-overnight-trump-081508085.html",
+      "providerPublishTime": 1793693708,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/f3c63f79b76ff9f6c9c63e5930c8910a.jpg",
+            "width": 1280,
+            "height": 838,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4ACD6F826C3ECB43AE038041E33D150C2084A5D0211829B3E7BDAD495A68F95E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Ff3c63f79b76ff9f6c9c63e5930c8910a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "TSLA",
+        "SPCX",
+        "SPY",
+        "QQQ",
+        "AMZN"
+      ]
+    },
+    {
+      "uuid": "abdd6591-784e-3b9d-b10e-c399f33eb4fc",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "publisher": "Benzinga Prediction Markets",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061652788.html",
+      "providerPublishTime": 1793686612,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/benzinga_prediction_markets_613/6961772b6448586a9a4fc05b2ada070d.jpg",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9F9DFD9189D25E0DEA77B12A8A79C7833C81D53EEF61EC097BD75CFCFDE053B0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_prediction_markets_613%2F6961772b6448586a9a4fc05b2ada070d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^DJI",
+        "^GSPC",
+        "^RUT",
+        "POLA.PVT",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "251e612c-a045-3584-a7cc-637e1ead9250",
+      "title": "If You Own SPY, Schwab\u2019s Large-Cap ETF Costs $60 Less a Year on $100K",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/options/articles/own-spy-schwab-large-cap-003334752.html",
+      "providerPublishTime": 1793666014,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/21fc1e5daa13517cacfb4317d3c4595b.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A40412D03329A3B8D8FFBDE54901607712F991549C9DBFCC28792416B49EB196/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F21fc1e5daa13517cacfb4317d3c4595b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "SPY",
+        "SCHX"
+      ]
+    },
+    {
+      "uuid": "46536fb5-2419-37a1-a4d1-5d0e64bd5095",
+      "title": "S&P 500, Nasdaq Drop As Capex Concerns Grip Tech Investors, Outweighing US-Iran Diplomacy Hope \u2014  ORCL, META, PLTR, AAPL In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-drop-capex-002235205.html",
+      "providerPublishTime": 1793665355,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/56bc12731e9d3543f017d0d7dd95be15.jpg",
+            "width": 594,
+            "height": 396,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/01C39DC8F308E5AE83F151C8532150A332D2142DE4522200C920A5B75B64A285/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F56bc12731e9d3543f017d0d7dd95be15.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^GSPC",
+        "ORCL",
+        "META",
+        "ANTH.PVT",
+        "^RUT",
+        "^NDX",
+        "^DJI",
+        "AAPL",
+        "SPY",
+        "DIA",
+        "QQQ",
+        "SMH",
+        "PLTR"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 76,
+  "timeTakenForQuotes": 441,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

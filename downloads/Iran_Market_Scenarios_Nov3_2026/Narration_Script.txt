@@ -1,0 +1,47 @@
+If the United States and Israel launch another major strike on Iran, does the market have to crash? After the American strikes in June twenty twenty five, stocks actually finished the next trading session higher, while Brent oil fell more than seven percent. The key is what happens to supply, retaliation, and expectations.
+
+This is a scenario analysis prepared on November third, twenty twenty six. Market snapshots use completed November second closes. News headlines are dated separately. We are not announcing a new attack or assigning it a probability. We examined twenty eight market proxies and five historical event dates.
+
+A November fourth update: Reuters reports oil falling amid Iran war uncertainty and the U.S. midterm results. Associated Press reports world shares mostly higher. These are attributed headlines, not independently verified diplomatic or military announcements. The historical study and market charts remain dated November third, using November second closes. Elections and earnings also move prices.
+
+A military headline can create an immediate risk premium. A lasting economic shock needs a transmission mechanism: disrupted barrels, damaged infrastructure, higher freight or insurance costs, or a wider conflict. Markets also react to the difference between what happened and what was already feared. Even a serious event can be followed by relief if the outcome is less disruptive than expected.
+
+The Strait of Hormuz links the Persian Gulf with the Gulf of Oman. Oil and liquefied natural gas move through this corridor. The useful questions are whether ships actually transit, what insurers charge, and whether export infrastructure keeps operating. A threat to a route and a verified interruption are different facts. Do not treat an alarming map as proof that supplies have stopped.
+
+Our baseline is the last closing price before the first affected American trading session. Recovery means the first daily close back at or above that level. We count trading sessions after the event session. Same session means no initial closing loss. We also check two consecutive closes. These are price returns, excluding dividends, not a guarantee that a portfolio recovered.
+
+On January third, twenty twenty, the United States killed Qassem Soleimani in Iraq. This was an escalation with Iran, not a strike inside Iran. SPY fell 0.76% that session and first regained its baseline on January ninth, four trading sessions later. QQQ recovered in three.
+
+After the Israeli strike in Iran on April nineteenth, twenty twenty four, SPY closed down zero point eight seven percent. QQQ fell two point zero seven percent. SPY first recovered on the next session, April twenty second; QQQ on April twenty third. Those closing recoveries do not erase intraday volatility or prove that every loss was caused by the strike.
+
+Israel's October twenty sixth strikes occurred over a weekend. On Monday, SPY finished zero point three one percent above its prior close, while Brent's front month price series fell about six percent. There was no initial closing loss to recover in SPY. Stocks did fall below that baseline later, so a green first day was not an all clear signal.
+
+The opening Israeli strikes in June twenty twenty five produced a different pattern. On June thirteenth, SPY fell one point one two percent, QQQ fell one point two six, and Brent rose about seven percent. The VIX rose more than fifteen percent.
+
+SPY first regained its June twelfth closing level on June twenty fourth, six trading sessions after the initial strike session. QQQ briefly regained its baseline on June sixteenth, only one session later, then fell below it again. Its first confirmation with two consecutive closes above baseline arrived on June twenty fifth. The definition changes the answer.
+
+The American strikes on Iranian nuclear facilities came during the following weekend. On Monday, June twenty third, SPY gained about one percent, QQQ gained zero point nine one percent, and Brent fell seven point one eight percent. These observations contradict a mechanical rule that every strike must lower stocks and raise oil. They do not prove that future escalation will be harmless.
+
+The comparison contains fast recoveries and sessions that began with no closing loss at all. It does not provide a reliable average waiting time for the next war. The two June events overlap, so they are not independent experiments. Earnings, inflation, monetary policy, and later developments also affected prices. Twenty session performance measures what happened afterward, not the isolated effect of an attack.
+
+Gold and government bonds do not always move together. On June thirteenth, the gold fund GLD rose about one point three percent, while the long duration Treasury fund TLT fell almost one percent. Higher oil can intensify inflation concerns even when investors want protection.
+
+Sector exposure matters. On that June thirteenth session, the energy fund XLE rose about one point seven percent. The airline fund JETS fell about three point five, while semiconductor stocks in SOXX lost about two point six. The aerospace and defense fund ITA rose only zero point four. A compelling geopolitical story is not a guaranteed profitable trade.
+
+Bitcoin trades during weekends, while American stock funds do not. Around the June twenty second American strike date, Bitcoin's UTC daily close fell about one point two percent, then rebounded about four point six percent the next day. A daily close can hide a much larger intraday move. Keep calendar days separate from trading sessions, and do not assume Bitcoin is a guaranteed crisis hedge.
+
+The November second starting point matters. SPY closed near seven hundred fifty two dollars, QQQ near six hundred eighty one, and the VIX at twenty one point one five. West Texas oil was around ninety six dollars. These are dated closing observations. Valuations, positioning, inflation, and the scale of existing disruption differ from the earlier episodes.
+
+Consider three paths. A limited strike with continued exports could produce a brief risk premium followed by relief. A sustained supply interruption could keep energy costs and inflation pressure elevated. A wider regional conflict could damage confidence, earnings, and credit conditions for longer. No probabilities or guaranteed price targets are assigned here.
+
+The pressure can travel from oil and freight into airline costs, consumer spending, and company margins. Persistent inflation can limit how quickly central banks ease policy. Higher discount rates can pressure long duration growth stocks. But demand destruction can eventually weaken oil itself. That is why the same asset can react differently at the beginning and later in a prolonged conflict.
+
+Track several indicators together: oil prices and verified shipping activity, volatility, the dollar, Treasury yields, credit spreads, and market breadth. A high VIX alone does not tell you the direction of the next session. A high yield bond fund's price is not the same thing as a credit spread.
+
+On the November second snapshot, QQQ's two hundred day average was near six hundred eighty dollars, close to its six hundred eighty one dollar close. SPY's fifty day average was near seven hundred sixty seven, above price. A break or reclaim can help organize observation. It cannot tell us whether diplomacy succeeds.
+
+If markets reopen after a weekend shock, prices can gap past a stop. Leverage and concentration can turn a temporary drawdown into a permanent loss. The relevant questions are your exposure, time horizon, cash needs, and ability to absorb volatility. History is not permission to buy blindly, and a frightening headline is not a universal instruction to sell everything.
+
+Evidence of continued exports, lower insurance stress, and credible de escalation would weaken the prolonged disruption scenario. Confirmed damage to export capacity, sustained shipping interruptions, and wider credit stress would strengthen it. Verify the date and source of each report. Our analysis separates dated observations, attributed reporting, and conditional scenarios.
+
+So how quickly does the market recover? In these examples, the first recovery ranged from the same session to several trading sessions, but that says little about a new, sustained supply shock. Watch what changes in the real economy. Subscribe to Market Mind Trading Basics for the next update. I am not a licensed advisor. Education only, not a recommendation to buy or sell.

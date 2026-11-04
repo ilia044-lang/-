@@ -1,0 +1,67 @@
+TITLE
+If the U.S. & Israel Strike Iran Again: How Markets React and Recover
+
+ALTERNATIVES
+Iran Strike Risk: What History Really Says About Market Recovery
+Oil, Stocks and War Risk: The Recovery Trap Investors Miss
+
+DESCRIPTION
+If the U.S. and Israel launch another major strike on Iran, must stocks crash and oil surge? Historical reactions were very different. This episode compares five event dates across 28 market proxies and explains which real-world developments could turn a short-lived risk premium into a lasting economic shock.
+
+This is CONDITIONAL SCENARIO ANALYSIS, not an announcement of a new strike, an attack-probability estimate or a prediction of prices.
+Prepared November 3, 2026. Market snapshot: completed November 2 closes. News segment updated November 4: Reuters 10:53 UTC and AP 04:13 UTC headline metadata. Historical study remains dated November 3; prices are not live.
+
+WHAT WE COMPARE
+January 3, 2020: U.S. strike on Soleimani in Iraq, a contextual comparison rather than a strike inside Iran.
+April 19, 2024: Israeli strike in Iran.
+October 26, 2024: weekend Israeli strikes; first U.S. cash session October 28.
+June 13, 2025: opening Israeli strikes.
+June 22, 2025: U.S. nuclear-facility strikes; first U.S. cash session June 23. News and strike timing span different time zones.
+
+RECOVERY DEFINITION
+Baseline = last closing price before the first affected U.S. session. First regain = first daily close at or above that baseline. Counts are trading sessions AFTER the event session; zero means same-session regain/no initial closing loss. We also check two consecutive closes. ETF figures use price returns excluding distributions, not portfolio total returns. Bitcoin uses UTC calendar-day bars, which can straddle the first reports.
+
+KEY FINDINGS
+SPY first regained its baseline 4 sessions later in January 2020, 1 later in April 2024, and 6 later after June 13, 2025. It was already above baseline at the first close after the October 2024 and June 22, 2025 weekend events.
+QQQ briefly regained its June 2025 baseline after 1 session, then fell below again; two consecutive closes were confirmed June 25.
+The June events overlap. Five selected observations do not yield a reliable recovery forecast. Returns after 5 or 20 sessions include other news, earnings and policy changes.
+
+CHAPTERS
+00:00 If Iran is hit again
+00:40 November 4 news update
+01:31 The Strait of Hormuz
+01:55 What recovery actually means
+02:19 2020: US strike in Iraq
+02:41 April and October 2024
+03:30 June 2025: initial strikes and recovery
+04:13 After the US strikes: stocks up, oil down
+04:39 The five-event comparison
+05:05 Gold, bonds and sector differences
+05:52 Bitcoin and weekend risk
+06:17 The current starting point
+06:42 Three conditional scenarios
+07:29 The market dashboard and key levels
+08:11 Managing gaps and changing evidence
+09:01 Takeaway
+
+SOURCES AND LIMITATIONS
+Yahoo Finance daily OHLCV for equities, ETFs, futures, VIX, yields, dollar and Bitcoin. Raw timestamped evidence, all 140 asset/event rows, calculations and methodology are in the download package.
+https://finance.yahoo.com/quote/SPY/history/
+https://finance.yahoo.com/quote/QQQ/history/
+https://finance.yahoo.com/quote/BZ=F/history/
+https://finance.yahoo.com/quote/BTC-USD/history/
+Reuters, Nov 4: oil falls amid Iran uncertainty and U.S. midterm results
+https://finance.yahoo.com/news/oil-rises-iran-war-uncertainty-051949081.html
+AP, Nov 4: world shares mostly higher
+https://finance.yahoo.com/markets/world-indices/articles/asian-shares-fall-selling-tech-041350179.html
+Natural Earth geographic data, public domain.
+
+Current full news articles and primary official statements were inaccessible under this research session’s network policy. Current-news summaries are limited to attributed headline metadata. Historical chronology is a predefined case list, not an independently re-verified exhaustive conflict database. One previously retrieved Reuters October 23 article informed dated shipping-risk context; its full text is not redistributed. Futures continuous/front-month series may be affected by contract rolls; they are not buy-and-hold returns. Observed reactions do not isolate the causal impact of an attack.
+
+Subscribe: https://www.youtube.com/@MarketMindTradingBasics
+
+Education only. I am not a licensed advisor. Not financial advice or a recommendation to buy or sell. No guaranteed recovery, support level or stop execution.
+
+Production disclosure: synthetic Michael narration; AI-generated tanker, refinery and asset illustrations; code-rendered charts and stylized map. Images are conceptual artwork, not footage of an actual attack. Quiet original procedural music.
+
+#StockMarket #Iran #Oil #RiskManagement #MarketMind

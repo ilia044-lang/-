@@ -1,0 +1,869 @@
+{
+  "explains": [],
+  "count": 32,
+  "quotes": [],
+  "news": [
+    {
+      "uuid": "4517d88a-b11b-3ab8-b92c-be01728fabdd",
+      "title": "Video - CEO Clips: Erdene Resource Development: Mongolia's Newest Gold Producer Sets Its Sights on Growth",
+      "publisher": "TMX Newsfile",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/video-ceo-clips-erdene-development-181300181.html",
+      "providerPublishTime": 1793729580,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/newsfile_64/908bd2b6a6a574745fe5b416733fdcad.jpg",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/834860A4864D867902BF369BB78CF88689F66FA60CBB0D8E5604CB0D0A1342A2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnewsfile_64%2F908bd2b6a6a574745fe5b416733fdcad.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ERD.TO",
+        "GC=F",
+        "0975.HK",
+        "HG=F",
+        "ERDCF"
+      ]
+    },
+    {
+      "uuid": "41bad987-d85c-3d65-aaca-b671fac230eb",
+      "title": "Kinross Gold (TSX:K) Reported US$4,249 Realized Gold Prices In Q3 2026",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/kinross-gold-tsx-k-reported-180808907.html",
+      "providerPublishTime": 1793729288,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/a804a82b740daf6b6ceae753a2922fc3.jpg",
+            "width": 1600,
+            "height": 900,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E8DAC0E6D9F2E00C7BC19046DB779A37C05AE4AE92998010FED57BFD4880550E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Fa804a82b740daf6b6ceae753a2922fc3.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "KGC",
+        "GC=F",
+        "KGC"
+      ]
+    },
+    {
+      "uuid": "25ed683f-6bf8-3c23-9509-6b9646a2703f",
+      "title": "XAU Resources Announces Planned Soil Sampling Program at the Noseno Gold Project, Guyana, Following Airborne Geophysics Interpretation",
+      "publisher": "TMX Newsfile",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/xau-resources-announces-planned-soil-173400343.html",
+      "providerPublishTime": 1793727240,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/newsfile_64/9ecd77450349b9f523548d9740651ea6.jpg",
+            "width": 550,
+            "height": 357,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/13BC78BF02F44BD3EE86F9877BCD33CB510F33C83107A5F63BA951D46AE21A25/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnewsfile_64%2F9ecd77450349b9f523548d9740651ea6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GIG.V",
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "1c5a1dbf-14ba-33fd-a249-75f7b36a0fe0",
+      "title": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/five-metals-producers-trade-higher-165200576.html",
+      "providerPublishTime": 1793724720,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cnwgroup.com/615543629fab4e6e72cec5e42261e547.jpg",
+            "width": 399,
+            "height": 71,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4686E96BD57A20273CEFCE7ECAFA324920870F2D3F12CFE7FF40E81B4921A0EF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcnwgroup.com%2F615543629fab4e6e72cec5e42261e547.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "HG=F",
+        "SI=F",
+        "CME",
+        "ASTL",
+        "ALI=F",
+        "ERO",
+        "NFGC",
+        "NEXA",
+        "NFGC",
+        "ERO",
+        "CSTM"
+      ]
+    },
+    {
+      "uuid": "45aad073-0511-3a47-9009-6ada8d2c91bd",
+      "title": "North Sky Metals Completes Maiden Drilling Program at the Natlan Project in British Columbia",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/north-sky-metals-completes-maiden-165048229.html",
+      "providerPublishTime": 1793724648,
+      "type": "STORY",
+      "relatedTickers": [
+        "HG=F",
+        "GC=F",
+        "SI=F"
+      ]
+    },
+    {
+      "uuid": "cd2e0ebc-7abb-3e1b-92e0-38f5f06f9afc",
+      "title": "Precious Metals Fall Back Amid Oil Volatility",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/cd2e0ebc-7abb-3e1b-92e0-38f5f06f9afc/precious-metals-fall-back.html",
+      "providerPublishTime": 1793721600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png",
+            "width": 1200,
+            "height": 630,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/69E5E705C465BC982984B87DFBA9D9F27CF4846DAB42AA4539F0CC74879826D7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2F7b2c285183be07ca3c4e8242b25a59a8.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "CL=F",
+        "SI=F"
+      ]
+    },
+    {
+      "uuid": "ab770b93-cd95-3d3f-848f-4683b7705883",
+      "title": "Gold stocks vs. physical gold: Which is the better investment?",
+      "publisher": "USA TODAY",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-stocks-vs-physical-gold-155402131.html",
+      "providerPublishTime": 1793721242,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/usa_today_money_325/ad8b080bddfbcada8ba08a974d939625.jpg",
+            "width": 2121,
+            "height": 1414,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A572562F41932C70E8C8AE93FB27FA384EA436C6B477B015D8CFA55A2D2B922F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_money_325%2Fad8b080bddfbcada8ba08a974d939625.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "49eaccbb-fe8d-38d2-8675-8f0765683ff0",
+      "title": "LODE GOLD IDENTIFIES EXPLORATION POTENTIAL FOR ADDITIONAL HIGHER-GRADE GOLD WITHIN PREVIOUSLY DRILLED AREAS AT FREMONT GOLD MINE",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/lode-gold-identifies-exploration-potential-151900128.html",
+      "providerPublishTime": 1793719140,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/prnewswire.com/44ca633080d4b2365c8937c3f170d559.jpg",
+            "width": 400,
+            "height": 182,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F716FBC65971BABEE51E75542BDCF52F6F7DC37167D33B33D97FD40924F5F32E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F44ca633080d4b2365c8937c3f170d559.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LOD.V",
+        "GC=F",
+        "X27.F",
+        "LODFF"
+      ]
+    },
+    {
+      "uuid": "6a21f1a7-abe0-3993-9ff9-b1db9dd616f0",
+      "title": "LODE GOLD IDENTIFIES EXPLORATION POTENTIAL FOR ADDITIONAL HIGHER-GRADE GOLD WITHIN PREVIOUSLY DRILLED AREAS AT FREMONT GOLD MINE",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/news/lode-gold-identifies-exploration-potential-151900248.html",
+      "providerPublishTime": 1793719140,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cnwgroup.com/44ca633080d4b2365c8937c3f170d559.jpg",
+            "width": 400,
+            "height": 182,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/63F48312992858AE7E54B566E9CAE096C5B08BADF85AD2E34AAD49E16C41E5FD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcnwgroup.com%2F44ca633080d4b2365c8937c3f170d559.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LOD.V",
+        "GC=F",
+        "X27.F",
+        "LODFF"
+      ]
+    },
+    {
+      "uuid": "1d4cd81d-53d9-3225-ba76-4fbe7c293789",
+      "title": "BC-Gold Futures",
+      "publisher": "Associated Press",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-150040657.html",
+      "providerPublishTime": 1793718040,
+      "type": "STORY",
+      "relatedTickers": [
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "722944e4-36a6-3855-99cf-142825db9a46",
+      "title": "i-80 Gold Reports Wider Q3 Loss as Revenue Misses Forecasts Despite Higher Gold Prices",
+      "publisher": "InvestorsHub",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/80-gold-reports-wider-q3-134656102.html",
+      "providerPublishTime": 1793713616,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/investorshub_458/83a827b9848b2b7259c910716a974e20.png",
+            "width": 1200,
+            "height": 659,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/54D52C366453BA05DE33EF5D5937AD812D8FA8DCF2A5712F06FE34BF244DB87C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2F83a827b9848b2b7259c910716a974e20.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "IAUX",
+        "GC=F",
+        "AXP"
+      ]
+    },
+    {
+      "uuid": "da37e58f-b32f-3fa2-80a2-7ed85b98573a",
+      "title": "Is It Worth Investing in Gold.com (GOLD) Based on Wall Street's Bullish Views?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-gold-com-gold-133003746.html",
+      "providerPublishTime": 1793712603,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/d0d4ab152198da2f423d92da8a7d22ee.jpg",
+            "width": 900,
+            "height": 876,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/58B7566B32392CDA8F6B6893AF2C54246BAE0DA3ACE3034C80181C00D24F1179/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fd0d4ab152198da2f423d92da8a7d22ee.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GOLD",
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "9fdaf956-0ace-390e-9a9f-7e2d7af3560f",
+      "title": "CEO.CA's Inside the Boardroom: Gold Producer to Scale Molybdenum & Copper Supply Next to China: Erdene Resource Development",
+      "publisher": "TMX Newsfile",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/ceo-cas-inside-boardroom-gold-133000679.html",
+      "providerPublishTime": 1793712600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/newsfile_64/45c64fe0b402ba12d5d11db6458b186e.jpg",
+            "width": 400,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/16FCB782C3AD780FE4B2627E01C12B4BB8241D755E53070578C09D8E9C87DBB8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnewsfile_64%2F45c64fe0b402ba12d5d11db6458b186e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ERD.TO",
+        "GC=F",
+        "HG=F",
+        "SPOT.V",
+        "ERDCF"
+      ]
+    },
+    {
+      "uuid": "bc5312a0-4f0d-3063-b94f-61b0d198e482",
+      "title": "Is Agnico Eagle Mines Stock A Real Bargain?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/agnico-eagle-mines-stock-real-131816874.html",
+      "providerPublishTime": 1793711896,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/2f1c7dcd200846064a763aea9e1a755a.jpg",
+            "width": 1920,
+            "height": 1440,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/32D728C9894E8A38063625EF641AF9D3C6C83736348E8701B6C90044BF9C6FB7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F2f1c7dcd200846064a763aea9e1a755a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AEM",
+        "^GSPC",
+        "NEM",
+        "GOLD",
+        "FNV",
+        "RGLD",
+        "KGC",
+        "SPGI"
+      ]
+    },
+    {
+      "uuid": "a671b03c-3cfd-3746-aa8f-cea2800d257e",
+      "title": "Why Is Everyone Ignoring Iamgold Stock's High Cash Yield?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-everyone-ignoring-iamgold-stocks-131801678.html",
+      "providerPublishTime": 1793711881,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/58598188c4f24ce0a54a9c175d55945e.jpg",
+            "width": 1280,
+            "height": 960,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9DAD29C366A484110C2B395812C1B64268D64D0984A59B24B1AA866964970DA8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F58598188c4f24ce0a54a9c175d55945e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "IAG",
+        "^GSPC",
+        "IAG",
+        "NEM",
+        "GOLD",
+        "AEM",
+        "KGC",
+        "AGI",
+        "SPGI"
+      ]
+    },
+    {
+      "uuid": "21927a7c-cf0d-3b6f-902a-850d3803bfae",
+      "title": "Lode Gold Identifies Exploration Potential for Additional Higher-Grade Gold Within Previously Drilled Areas at Fremont Gold Mine",
+      "publisher": "TMX Newsfile",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/lode-gold-identifies-exploration-potential-130000126.html",
+      "providerPublishTime": 1793710800,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/newsfile_64/26113d95acc9967cf732d98809b7420f.jpg",
+            "width": 550,
+            "height": 494,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E291DA0FBB92553403FDC55271DE1D7D60F208073DC29D99BC97161DCAF5811A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnewsfile_64%2F26113d95acc9967cf732d98809b7420f.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "LOD.V",
+        "LODFF",
+        "X27.F"
+      ]
+    },
+    {
+      "uuid": "f84b9043-954c-486d-b41e-a39fc1e0514a",
+      "title": "Gold price today, Tuesday, November 3, 2026: Gold prices open below $4,000 for the second straight day",
+      "publisher": "Yahoo Personal Finance",
+      "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-3-2026-gold-prices-open-below-4000-for-the-second-straight-day-123207114.html",
+      "providerPublishTime": 1793709127,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://d29szjachogqwa.cloudfront.net/images/user-uploaded/tuesday.png",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/72ACC34A4EB30DF6AC1293A3F3302609D9394682571B7ECCD958E1E9BFACFB3C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Ftuesday.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "172ac9ce-6b69-3c72-8c67-1147cd3fa44f",
+      "title": "Thunder Gold Intersects Continuous Gold Mineralization Averaging 0.456 g/t Au Over 451.5 Metres at Tower Mountain, Ontario",
+      "publisher": "TMX Newsfile",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/thunder-gold-intersects-continuous-gold-123000095.html",
+      "providerPublishTime": 1793709000,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/newsfile_64/85c9b6199bc0b03f5edf7f73437ac2d5.jpg",
+            "width": 550,
+            "height": 390,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0BEF97C20A734B42ED02079F8D11C83F6061B83F0FB6AF0547CA459B7FE3BDDA/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnewsfile_64%2F85c9b6199bc0b03f5edf7f73437ac2d5.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "TGOL.V",
+        "GC=F",
+        "TGOLF",
+        "Z25.F"
+      ]
+    },
+    {
+      "uuid": "2477432e-20b2-328e-b716-9e8d455aab00",
+      "title": "One Bullion Reports Significant Historical Gold Results and Advances Exploration at Vumba",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/one-bullion-reports-significant-historical-123000064.html",
+      "providerPublishTime": 1793709000,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/globenewswire.com/35689566495205aa697c65aec32279ef.png",
+            "width": 2123,
+            "height": 1238,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F90855A686C732C5E541852F81166E9C2AC4A7A519A78F62C06E7B066CBCC274/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F35689566495205aa697c65aec32279ef.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "OBUL.V",
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "854075eb-f0e1-3e79-93e4-d13d101acbf2",
+      "title": "Kinross Gold's Q3 Earnings Beat Estimates on Higher Gold Prices",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-golds-q3-earnings-beat-121400314.html",
+      "providerPublishTime": 1793708040,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/6f2cab89bf2cbad1966358e04258e202.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/8DC32D125FA284D7E3CDF512E9B418AD15F25C214A1BEF12165446A3301112D6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F6f2cab89bf2cbad1966358e04258e202.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "KGC",
+        "GC=F",
+        "KGC",
+        "ESI",
+        "RS",
+        "ASM"
+      ]
+    },
+    {
+      "uuid": "936e4658-6894-3a6d-bb5d-2a01af6d4848",
+      "title": "JZR Gold Inc. Confirms Delivery to Recuperadora Brasileira de Metal of Additional 15 Tonnes of Gold Concentrate; Processing of 26 Tonnes Underway",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/jzr-gold-inc-confirms-delivery-120200960.html",
+      "providerPublishTime": 1793707320,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/globenewswire.com/e806c0d5eb75f0f78c056c3cde122b6e.png",
+            "width": 238,
+            "height": 127,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/2B72E83DB0845C223114A3CB7CFC7D65BBD1EB926F292D1B9779438C741010B7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2Fe806c0d5eb75f0f78c056c3cde122b6e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "JZR.V",
+        "GC=F",
+        "JZRIF"
+      ]
+    },
+    {
+      "uuid": "6b0a7b30-efd2-3c49-96a0-95abbb50707f",
+      "title": "NexGold Intersects 4.16 g/t Gold over 7.0 Metres, 2.84 g/t Gold over 7.0 Metres and 1.94 g/t Gold over 9.0 Metres in RC Infill Drill Program at the Goldboro Gold Project, Nova Scotia",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/nexgold-intersects-4-16-g-120000431.html",
+      "providerPublishTime": 1793707200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/globenewswire.com/48b8af5f3d5e3a5518abae74ac9c3ff7.jpg",
+            "width": 1834,
+            "height": 1420,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/18D65DB69D960BA4AF738F26F9839D21625CDF4032D3E5CFECE8AD922D60C06E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F48b8af5f3d5e3a5518abae74ac9c3ff7.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NEXG.V",
+        "GC=F",
+        "NXGCF"
+      ]
+    },
+    {
+      "uuid": "8ea69ca7-fab6-3e98-b4a5-573c8f6dd077",
+      "title": "Canagold Drills 79.3 g/t Gold (Au) and 8.76% Antimony (Sb) over 1.96 m; Within 4.62 m Averaging 37.7 g/t Au and 4.57% Sb",
+      "publisher": "TMX Newsfile",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/canagold-drills-79-3-g-120000823.html",
+      "providerPublishTime": 1793707200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/newsfile_64/98c3e7a732d36263c2ef5cb796ffc7d9.jpg",
+            "width": 550,
+            "height": 499,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E562C507A20E707E4D4243FB72F2B3BE3508A44E67A60ECDEF1BD2845AFDDD0C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnewsfile_64%2F98c3e7a732d36263c2ef5cb796ffc7d9.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CCM.TO",
+        "GC=F",
+        "CRCUF",
+        "CANA.F"
+      ]
+    },
+    {
+      "uuid": "e9c3476e-0ffb-3f16-8165-ac02b4394759",
+      "title": "North Sky Metals Completes Maiden Drill Program at the Natlan Project, British Columbia; Assays Pending",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/north-sky-metals-completes-maiden-120000201.html",
+      "providerPublishTime": 1793707200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/globenewswire.com/dc9298904e4c48fae3163430ac2d4bcd.jpg",
+            "width": 1515,
+            "height": 1171,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4B5030A65C238597169ECEB5058C19CA9F50688C14704D2B8E11A8C3A7CC5784/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2Fdc9298904e4c48fae3163430ac2d4bcd.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "HG=F",
+        "SI=F",
+        "NSKY.V"
+      ]
+    },
+    {
+      "uuid": "1e5306a9-2566-3899-8a18-34c14df27af9",
+      "title": "Fury Intersects 3.88 g/t Gold over 17.8 Metres, including 18.78 g/t Au over 3.30 m, at Three Bluffs, Returning Wide Mineralized Intervals in All Five Holes",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/fury-intersects-3-88-g-115900593.html",
+      "providerPublishTime": 1793707140,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/globenewswire.com/31aff43fdfa92e8de14992d16d7a1b76.png",
+            "width": 1546,
+            "height": 1195,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/34C63D9A7659CBE06AC2426F0A7848FE2F58BEEE125528EBD0762885C58AE502/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F31aff43fdfa92e8de14992d16d7a1b76.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "FURY",
+        "FURY"
+      ]
+    },
+    {
+      "uuid": "7fd73a63-5209-38c8-bcdd-cacd56a2dd89",
+      "title": "Heliostar Metals Stock And The Road To 500,000 Ounces Of Gold",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/heliostar-metals-stock-road-500-115702833.html",
+      "providerPublishTime": 1793707022,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/simply_wall_st__316/0389b4166c685fb76ff5e45b7744cfd9.jpg",
+            "width": 1920,
+            "height": 1080,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/72AA29839061A626F7D54E3A55792052EE739D2F44CA73E0BD86B16F7DA0BBC2/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2F0389b4166c685fb76ff5e45b7744cfd9.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "HSTR.TO",
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "0a2cfc3f-09c4-3d4b-ae16-3b7bcb4e5a4c",
+      "title": "Central Banks Accelerated Gold Buying in Third Quarter",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/0a2cfc3f-09c4-3d4b-ae16-3b7bcb4e5a4c/central-banks-accelerated.html",
+      "providerPublishTime": 1793707020,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/53e1f829491f21ed9d42cf174697e6b9.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/93B5153BFF1D6F493CC222A6EBB94CF80483FC3EEA7B668F7BEC297F2370C2BD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2F53e1f829491f21ed9d42cf174697e6b9.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F"
+      ]
+    },
+    {
+      "uuid": "675e26de-d7b5-343a-9655-755c08d2ed22",
+      "title": "SLV Crashes To Near 52-Week Lows, GLD Falls Pre-Market \u2013 World Gold Council Cuts 2026 Gold Investment Forecast By Half",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/slv-crashes-near-52-week-114150546.html",
+      "providerPublishTime": 1793706110,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/3b8516f92f4375f0c4130e5b716c6ecb",
+            "width": 1280,
+            "height": 848,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B5324180E9273DDABB0DF7A87200B6E75F1D728FCA9CCF2A5013F506C7F412A0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F3b8516f92f4375f0c4130e5b716c6ecb",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "SI=F",
+        "GLD",
+        "CL=F",
+        "SLV"
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "navName": "Gold",
+      "navUrl": "https://finance.yahoo.com/sectors/basic-materials/gold"
+    }
+  ],
+  "lists": [
+    {
+      "slug": "sma-bullish-cross",
+      "name": "Golden Crosses",
+      "index": "sma-bullish-cross",
+      "score": 0.0,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "sma_bullish_cross",
+      "symbolCount": 5,
+      "dailyPercentGain": 0.392100677107983,
+      "followerCount": 0,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/86c3cde85704a8dca2bd8f2fa97d28ef110bfca58bd633f3112b9156e6822519/finance/resizefill_w96_h96/https://s.yimg.com/uc/finance/social/portfolio/golden-crosses.jpeg",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "index": "26ff040e-7287-453c-b29b-3239530a71bd",
+      "id": "26ff040e-7287-453c-b29b-3239530a71bd",
+      "title": "Top Stocks owned by Goldman Sachs",
+      "canonicalName": "TOP_STOCKS_OWNED_BY_GOLDMAN_SACHS",
+      "score": 1.0,
+      "type": "PREDEFINED_SCREENER",
+      "total": 4998,
+      "isPremium": true,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/319326188ab631f219d2c8249304fa9f506bbeaadef6c6d388164ead6b95fcaf/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/predefined_screeners/arrowUp.png"
+    },
+    {
+      "index": "f5d2411d-4fe6-4904-867e-f01ce9b99740",
+      "id": "f5d2411d-4fe6-4904-867e-f01ce9b99740",
+      "title": "Gold",
+      "canonicalName": "GOLD",
+      "score": 1.0,
+      "type": "PREDEFINED_SCREENER",
+      "total": 25,
+      "isPremium": false,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/b241f4b88dcc1439d37ed7dd74c3ee884516f53bc29bc8eece9b9fcf5c850fe8/finance/resizefill_w96_h96/https://s.yimg.com/cv/apiv2/fin/img/assets/predefined_screeners/diamond.png"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 365,
+  "timeTakenForQuotes": 424,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

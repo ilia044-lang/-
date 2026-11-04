@@ -1,0 +1,701 @@
+{
+  "explains": [],
+  "count": 37,
+  "quotes": [
+    {
+      "exchange": "PCX",
+      "shortname": "United States Oil Fund",
+      "quoteType": "ETF",
+      "symbol": "USO",
+      "index": "quotes",
+      "score": 27799000.0,
+      "typeDisp": "ETF",
+      "longname": "United States Oil Fund, LP",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "ETRACS Crude Oil Shares Covered",
+      "quoteType": "ETF",
+      "symbol": "USOI",
+      "index": "quotes",
+      "score": 20998.0,
+      "typeDisp": "ETF",
+      "longname": "UBS ETRACS Crude Oil Shares Covered Call ETN",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NGM",
+      "shortname": "Defiance Oil Enhanced Options I",
+      "quoteType": "ETF",
+      "symbol": "USOY",
+      "index": "quotes",
+      "score": 20559.0,
+      "typeDisp": "ETF",
+      "longname": "Defiance Oil Enhanced Options Income ETF",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCC",
+      "shortname": "U.S Oil USD",
+      "quoteType": "CRYPTOCURRENCY",
+      "symbol": "USOR-USD",
+      "index": "quotes",
+      "score": 20086.0,
+      "typeDisp": "Cryptocurrency",
+      "longname": "U.S Oil USD",
+      "exchDisp": "CCC",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "JPX",
+      "shortname": "USONAR CO LTD",
+      "quoteType": "EQUITY",
+      "symbol": "431A.T",
+      "index": "quotes",
+      "score": 20047.0,
+      "typeDisp": "Equity",
+      "longname": "uSonar Co., Ltd.",
+      "exchDisp": "Tokyo Stock Exchange",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Information Technology Services",
+      "industryDisp": "Information Technology Services",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "SAO",
+      "shortname": "USOIL EQSRV DRE",
+      "quoteType": "EQUITY",
+      "symbol": "BIEZ39.SA",
+      "index": "quotes",
+      "score": 20033.0,
+      "typeDisp": "Equity",
+      "exchDisp": "S\u00e3o Paulo",
+      "sector": "Financial Services",
+      "sectorDisp": "Financial Services",
+      "industry": "Asset Management",
+      "industryDisp": "Asset Management",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "CCC",
+      "shortname": "United States Oil Tokenized Fund (Ondo) USD",
+      "quoteType": "CRYPTOCURRENCY",
+      "symbol": "USOON-USD",
+      "index": "quotes",
+      "score": 20021.0,
+      "typeDisp": "Cryptocurrency",
+      "longname": "United States Oil Tokenized Fund (Ondo) USD",
+      "exchDisp": "CCC",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "b4c4bbd5-36b6-30ef-b321-bab283ba5181",
+      "title": "The U.S. Has Been Striking Iran as Trump Talks Up a Deal",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/u-striking-iran-trump-talks-174724817.html",
+      "providerPublishTime": 1793728044,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ccbfc626274fdd0823808c48e1f69678.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A3FFF24CC3D63B6D5DA608C0775BAE6337AD4C3EB7AFBEF9B68E8B14324B4512/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fccbfc626274fdd0823808c48e1f69678.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "CVX",
+        "USO"
+      ]
+    },
+    {
+      "uuid": "d78eac10-6c59-3472-a438-3ae7c3860f61",
+      "title": "OPEC+ Holds Output Steady, Maintains 2M BPD Cuts: ETFs in Focus",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/opec-holds-output-steady-maintains-152300233.html",
+      "providerPublishTime": 1793719380,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/1cd28967a7d6f4466c574ed1142aaffa.jpg",
+            "width": 620,
+            "height": 423,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E932A6EBDEBB602152EBA5C15A000AE593240070D72960E643FDAA0DFD8FAD5E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F1cd28967a7d6f4466c574ed1142aaffa.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "USO",
+        "BNO",
+        "OIH"
+      ]
+    },
+    {
+      "uuid": "269ecf00-d5bd-3196-9307-c056ec9d6590",
+      "title": "Sector Update: Energy Stocks Decline Premarket Tuesday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142438824.html",
+      "providerPublishTime": 1793715878,
+      "type": "STORY",
+      "relatedTickers": [
+        "MPC",
+        "CL=F",
+        "USO",
+        "XLE",
+        "IEP",
+        "CVI",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "2bd3fc4d-4949-3f7d-9e9a-24064a927698",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-140420936.html",
+      "providerPublishTime": 1793714660,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "MPC",
+        "USO",
+        "XLE",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "13613c9c-16b3-3da6-a0bc-c30a88f966d4",
+      "title": "Exchange-Traded Funds Higher as US Equities Rise After Midday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-182141612.html",
+      "providerPublishTime": 1793643701,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "CL=F",
+        "IVV",
+        "XLF",
+        "FAS",
+        "XLE",
+        "IGM",
+        "FAZ",
+        "USO",
+        "XLK",
+        "IYW"
+      ]
+    },
+    {
+      "uuid": "ef8549ab-647e-3b85-a3d0-7287c5f8f9bc",
+      "title": "Sector Update: Energy Stocks Fall Premarket Monday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-142720676.html",
+      "providerPublishTime": 1793629640,
+      "type": "STORY",
+      "relatedTickers": [
+        "KOS",
+        "CL=F",
+        "XLE",
+        "USO",
+        "VG",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "a9452464-162c-3564-9632-3243b833a342",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-140836314.html",
+      "providerPublishTime": 1793628516,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "KOS",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "adf9beda-e17b-3114-9211-f4ad896d828e",
+      "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday Friday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html",
+      "providerPublishTime": 1793380949,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "INTC",
+        "IVV",
+        "XLK",
+        "IYW",
+        "XLF",
+        "FAS",
+        "USO",
+        "XLE",
+        "IGM",
+        "FAZ",
+        "CL=F",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "260f0b76-c779-304a-914f-b19b66a557dd",
+      "title": "Sector Update: Energy Stocks Rise Pre-Bell Friday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132817325.html",
+      "providerPublishTime": 1793366897,
+      "type": "STORY",
+      "relatedTickers": [
+        "XOM",
+        "CL=F",
+        "XLE",
+        "USO",
+        "CVX",
+        "HESM",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "4a5aed1a-ad51-3747-854c-0ef5c838a3e3",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-131127651.html",
+      "providerPublishTime": 1793365887,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "ead97985-592a-30b3-9a2e-dec8bbcb4edd",
+      "title": "Sector Update: Energy Stocks Rise Pre-Bell Thursday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-132442469.html",
+      "providerPublishTime": 1793280282,
+      "type": "STORY",
+      "relatedTickers": [
+        "SHEL",
+        "CL=F",
+        "USO",
+        "XLE",
+        "LNG",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "69be699e-4f41-3b33-a7e3-d9b9c9052af1",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130702297.html",
+      "providerPublishTime": 1793279222,
+      "type": "STORY",
+      "relatedTickers": [
+        "SHEL",
+        "CL=F",
+        "USO",
+        "XLE",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "e4b71dd9-a974-3e25-aaf5-9fb715f2eba7",
+      "title": "Sector Update: Energy Stocks Mostly Higher Pre-Bell Wednesday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mostly-higher-132249063.html",
+      "providerPublishTime": 1793193769,
+      "type": "STORY",
+      "relatedTickers": [
+        "PSX",
+        "USO",
+        "CL=F",
+        "XLE",
+        "NI",
+        "NG=F",
+        "EQNR"
+      ]
+    },
+    {
+      "uuid": "ddeb9633-93b9-3e34-9754-762271a57faa",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130555970.html",
+      "providerPublishTime": 1793192755,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "PSX",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "fd2b429d-b63a-32d9-abd1-3e78ade17c76",
+      "title": "Trump\u2019s Energy Secretary Says More Russian Diesel Is Coming to America",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/trump-energy-secretary-says-more-125249158.html",
+      "providerPublishTime": 1793191969,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/079e554cbf0dd6cfc90fdfb31471f4d6.jpg",
+            "width": 1500,
+            "height": 1123,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/5EAF27A4464F0D1DDB6B6B2CA8A187D71D7635AEA0BFD8CF0CB28B48B21D8177/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F079e554cbf0dd6cfc90fdfb31471f4d6.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MPC",
+        "VLO",
+        "HO=F",
+        "PSX",
+        "USO"
+      ]
+    },
+    {
+      "uuid": "37b348ea-f056-3058-aa0a-f8e0ab82b8a9",
+      "title": "Sector Update: Energy Stocks Decline Premarket Tuesday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132422153.html",
+      "providerPublishTime": 1793107462,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "TTE",
+        "XLE",
+        "USO",
+        "NE",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "85acbb20-1464-3257-a490-357d1ff4cf4e",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130448622.html",
+      "providerPublishTime": 1793106288,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "TTE",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "4e019d1e-5526-3ca3-bbe1-8dbabda14a2e",
+      "title": "America\u2019s Emergency Oil Reserve Is at a 1982 Low, and Gas Is Costlier Than Under Biden",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/america-emergency-oil-1982-low-114515446.html",
+      "providerPublishTime": 1793101515,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/f39d1f1241e8963fed13c89de4022fa7.jpg",
+            "width": 1500,
+            "height": 779,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/EF7032341093DA76707AB5A79695A534D7BB709844C686873B200F9159342248/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Ff39d1f1241e8963fed13c89de4022fa7.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "XOM",
+        "CL=F",
+        "CVX",
+        "PSX",
+        "USO",
+        "XLE"
+      ]
+    },
+    {
+      "uuid": "dc73094f-cfd5-3965-85c5-1838b94a18f4",
+      "title": "Sector Update: Energy Stocks Fall Premarket Monday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-132735348.html",
+      "providerPublishTime": 1793021255,
+      "type": "STORY",
+      "relatedTickers": [
+        "EQT",
+        "CL=F",
+        "E",
+        "XLE",
+        "USO",
+        "RRC",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "428f0ba6-bbb3-36b2-b393-b5d7706cd070",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130604416.html",
+      "providerPublishTime": 1793019964,
+      "type": "STORY",
+      "relatedTickers": [
+        "EQT",
+        "CL=F",
+        "XLE",
+        "USO",
+        "NG=F",
+        "RRC"
+      ]
+    },
+    {
+      "uuid": "e7d33280-7f1b-31a0-9d2d-d73d14b15b88",
+      "title": "USO Jumps To Over 11-Year High As Brent Tops $116, WTI Crosses $100 Amid Escalating Middle East Tensions",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/energy/articles/uso-jumps-over-11-high-155829640.html",
+      "providerPublishTime": 1792771109,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/stocktwits_383/b79674b9c25f3aaa379c2db889825089",
+            "width": 1000,
+            "height": 750,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/387231750FD5DA595570A8E73C3EA4D79856803C28B39E57802DA34620FFC423/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2Fb79674b9c25f3aaa379c2db889825089",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "USO"
+      ]
+    },
+    {
+      "uuid": "626bc636-df47-3a4c-8f2a-b38677748fe3",
+      "title": "Brent Crude Jumped 4% to $113. Trump Is Throwing $150 Million at Refiners",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/brent-crude-jumped-4-113-151505883.html",
+      "providerPublishTime": 1792768505,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/abf6a12f7b040fad1d2366bb6cb08da0.jpg",
+            "width": 2560,
+            "height": 1707,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/85AEB6354C675FD438A3E040A6BFCCF66E126046D2E52EE94B107B1C5335D40E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fabf6a12f7b040fad1d2366bb6cb08da0.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "VLO",
+        "DK",
+        "USO",
+        "XLE"
+      ]
+    },
+    {
+      "uuid": "13a457fe-30bb-33b0-913b-36916002d637",
+      "title": "Sector Update: Energy Stocks Rise Premarket Friday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-premarket-132537831.html",
+      "providerPublishTime": 1792761937,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "USO",
+        "CVX",
+        "NG=F",
+        "E",
+        "SLB"
+      ]
+    },
+    {
+      "uuid": "66b65d0c-6f35-3fc8-98d4-dbc9920a9052",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130453962.html",
+      "providerPublishTime": 1792760693,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "XLE",
+        "USO",
+        "E",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "9b2ccc93-0401-3304-b22f-9062d322ca07",
+      "title": "Sector Update: Energy Stocks Advance Pre-Bell Thursday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132555231.html",
+      "providerPublishTime": 1792675555,
+      "type": "STORY",
+      "relatedTickers": [
+        "KMI",
+        "VLO",
+        "CL=F",
+        "XLE",
+        "USO",
+        "NG=F",
+        "E"
+      ]
+    },
+    {
+      "uuid": "ae0b620d-3803-3012-903d-3b26ed832f4d",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130555725.html",
+      "providerPublishTime": 1792674355,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "KMI",
+        "XLE",
+        "USO",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "fd2d04d2-2c3a-3f8c-a48d-02f4292ef6c2",
+      "title": "Sector Update: Energy Stocks Lean Lower Premarket Wednesday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lean-lower-132621890.html",
+      "providerPublishTime": 1792589181,
+      "type": "STORY",
+      "relatedTickers": [
+        "SHEL",
+        "EQNR",
+        "CL=F",
+        "XLE",
+        "USO",
+        "E",
+        "NG=F",
+        "SRG.MI"
+      ]
+    },
+    {
+      "uuid": "30a1485f-bbc2-36b3-98b6-f66312519f57",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-130902599.html",
+      "providerPublishTime": 1792588142,
+      "type": "STORY",
+      "relatedTickers": [
+        "SHEL",
+        "CL=F",
+        "USO",
+        "XLE",
+        "EQNR",
+        "NG=F"
+      ]
+    },
+    {
+      "uuid": "44429938-0cf7-3225-9f2e-0e1375337b2b",
+      "title": "Energy ETFs: How to Play the Sector's Surge",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/energy-etfs-play-sectors-surge-180900131.html",
+      "providerPublishTime": 1792519740,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "USO",
+        "CVX",
+        "XOM",
+        "XLE",
+        "IEO",
+        "BNO",
+        "CRAK"
+      ]
+    },
+    {
+      "uuid": "73646546-79a1-33af-be7c-7b15938dfb82",
+      "title": "Exchange-Traded Funds Gain as US Equities Advance After Midday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-gain-us-171124946.html",
+      "providerPublishTime": 1792516284,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "CL=F",
+        "IVV",
+        "USO",
+        "XLE",
+        "XLK",
+        "IYW",
+        "XLF",
+        "FAS",
+        "IGM",
+        "FAZ"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 266,
+  "timeTakenForQuotes": 434,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

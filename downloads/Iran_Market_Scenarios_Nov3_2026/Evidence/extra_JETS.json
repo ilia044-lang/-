@@ -1,0 +1,758 @@
+{
+  "explains": [],
+  "count": 28,
+  "quotes": [
+    {
+      "exchange": "PCX",
+      "shortname": "U.S. Global Jets ETF",
+      "quoteType": "ETF",
+      "symbol": "JETS",
+      "index": "quotes",
+      "score": 10784000.0,
+      "typeDisp": "ETF",
+      "longname": "U.S. Global Jets ETF",
+      "exchDisp": "NYSEArca",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "KLS",
+      "shortname": "JETSON",
+      "quoteType": "EQUITY",
+      "symbol": "9083.KL",
+      "index": "quotes",
+      "score": 20026.0,
+      "typeDisp": "Equity",
+      "longname": "Kumpulan Jetson Berhad",
+      "exchDisp": "Kuala Lumpur Stock Exchange",
+      "sector": "Basic Materials",
+      "sectorDisp": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "industryDisp": "Specialty Chemicals",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "PNK",
+      "shortname": "Star Jets International, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "JETR",
+      "index": "quotes",
+      "score": 20010.0,
+      "typeDisp": "Equity",
+      "longname": "Star Jets International, Inc.",
+      "exchDisp": "OTC Markets",
+      "sector": "Industrials",
+      "sectorDisp": "Industrials",
+      "industry": "Airports & Air Services",
+      "industryDisp": "Airports & Air Services",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "HAM",
+      "shortname": "ETF S.Sol.-U.S.Global Jets ETFR",
+      "quoteType": "ETF",
+      "symbol": "E18G.HM",
+      "index": "quotes",
+      "score": 20009.0,
+      "typeDisp": "ETF",
+      "exchDisp": "Hamburg",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "SHZ",
+      "shortname": "JETSEN",
+      "quoteType": "EQUITY",
+      "symbol": "300182.SZ",
+      "index": "quotes",
+      "score": 20008.0,
+      "typeDisp": "Equity",
+      "longname": "Beijing Jetsen Technology Co., Ltd",
+      "exchDisp": "Shenzhen",
+      "sector": "Technology",
+      "sectorDisp": "Technology",
+      "industry": "Information Technology Services",
+      "industryDisp": "Information Technology Services",
+      "isYahooFinance": true,
+      "prevName": "Beijing Jetsen Technology Co., Ltd.",
+      "nameChangeDate": "2026-11-03"
+    },
+    {
+      "exchange": "STU",
+      "quoteType": "INDEX",
+      "symbol": "DE000SLA0K92.SG",
+      "index": "quotes",
+      "score": 20008.0,
+      "typeDisp": "Index",
+      "longname": "US Global Jets Index - DIVISOR",
+      "exchDisp": "Stuttgart",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "John  Hancock Var Ins Trust Tot",
+      "quoteType": "MUTUALFUND",
+      "symbol": "JETSX",
+      "index": "quotes",
+      "score": 20007.0,
+      "typeDisp": "Fund",
+      "longname": "John Hancock Variable Insurance Trust - Total Stock Market Index Trust",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "b254c396-e452-3dd6-b65e-5a35b36de450",
+      "title": "JetBlue Jumps 11% as Higher Fares Recapture Fuel Costs; Delta and American Airlines Inch Higher",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jetblue-jumps-11-higher-fares-140457672.html",
+      "providerPublishTime": 1793109897,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/e9868e950bbdea960fe604c214984bec.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DC50311515B65CF3F311A00505619EC066D49401E610F7107E45B9C0F6C422B6/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fe9868e950bbdea960fe604c214984bec.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "JBLU",
+        "DAL",
+        "AAL",
+        "JETS",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "184d62ca-4271-3faf-a739-a42790a181be",
+      "title": "JetBlue Airways Tumbles 16% as Creditors Hire Restructuring Advisers; United Airlines Rises 3%, Delta Edges Higher",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jetblue-airways-tumbles-16-creditors-145222014.html",
+      "providerPublishTime": 1793026342,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/746d7a4376bcc5d30ddef8ab9cc57129.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B7CADF631330552E04F5CE7FD92944C8BFC8A68AD5E991E41D4B34012F2C400B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F746d7a4376bcc5d30ddef8ab9cc57129.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "JBLU",
+        "UAL",
+        "TBI",
+        "DAL",
+        "JETS",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "54f9d93b-c763-350f-81d9-be93d685fd93",
+      "title": "American Airlines Sinks 4% as Oil-Price Climb Reverses Post-Earnings Rebound; Delta and United Airlines Slide 3%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-sinks-4-oil-140113755.html",
+      "providerPublishTime": 1792764073,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/331ae8908e3e69f1113769a5b00d8d6b.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/760ABE149B9418DBC6F1F034B94B02D7C2941AC074BF54BF24E8012310995AD9/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F331ae8908e3e69f1113769a5b00d8d6b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DAL",
+        "UAL",
+        "AAL",
+        "CL=F",
+        "JETS",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "85c81abd-6e7b-3497-8644-f3d62a3539e7",
+      "title": "American Airlines Sinks 4% as Fuel Costs Push Outlook to Full-Year Loss; Delta and United Airlines Drop 3%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-sinks-4-fuel-133540991.html",
+      "providerPublishTime": 1792676140,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/1b369674c689a239f849aa0b309684e2.jpg",
+            "width": 1368,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/902BDD8726D0EFA5350FD57DA998FDACB0AF69858777021B41A6750EDABB7EDF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F1b369674c689a239f849aa0b309684e2.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAL",
+        "DAL",
+        "UAL",
+        "SPY",
+        "JETS"
+      ]
+    },
+    {
+      "uuid": "2e65a466-1d0a-38e1-8257-d6c0988058c3",
+      "title": "United Airlines Jumps 6% as Record Revenue Forecast Outweighs Fuel-Cost Squeeze; American Airlines Climbs 4%, Delta Rises 3%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/news/united-airlines-jumps-6-record-185718859.html",
+      "providerPublishTime": 1792609038,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/b22ebe061d6c69590158128503758879.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/88D1126FE78D70DAD79BD6F01ADBBB6CB8BD983FCBA01E6CB9C3D468EC0D11B8/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fb22ebe061d6c69590158128503758879.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UAL",
+        "DAL",
+        "AAL",
+        "JETS",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "c52df643-f203-32c0-8839-bb00cd7206c1",
+      "title": "American Airlines Rises 5% Ahead of Earnings as Oil Prices Ease; United Airlines and Delta Climb 3%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-rises-5-ahead-154928305.html",
+      "providerPublishTime": 1792511368,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ab3adfd7f150a39eed702c1c784846ad.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A55584BF469C83B1D09518D402241F41AB7BD1D85952CA86CCCC75C4EA4B7DCE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fab3adfd7f150a39eed702c1c784846ad.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "UAL",
+        "AAL",
+        "DAL",
+        "^GSPC",
+        "JETS",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "5be362ef-d17a-30ac-bce1-0dd63c6ae271",
+      "title": "American Airlines Is Now Down 23% This Year: Is AAL Stock Dead Money or Due for a Bounce?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-now-down-23-185109361.html",
+      "providerPublishTime": 1792435869,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ab3adfd7f150a39eed702c1c784846ad.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A55584BF469C83B1D09518D402241F41AB7BD1D85952CA86CCCC75C4EA4B7DCE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fab3adfd7f150a39eed702c1c784846ad.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAL",
+        "UAL",
+        "DAL",
+        "JETS",
+        "SPY"
+      ]
+    },
+    {
+      "uuid": "4e9faaf3-b9dc-3eb6-990b-835d57b2aae3",
+      "title": "Airlines Stocks Hit Turbulence. Sticker Shock Is Hitting Home.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/4e9faaf3-b9dc-3eb6-990b-835d57b2aae3/airlines-stocks-hit.html",
+      "providerPublishTime": 1792006140,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/4c2d6b34c1fba98b31a6dffa554be6fc.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DEACDEA3DB049B7619DD3E66464133207613D511B4EBDAE2E0D1B3F85AA6169F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F4c2d6b34c1fba98b31a6dffa554be6fc.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "JBLU",
+        "DAL",
+        "EXPE",
+        "BA",
+        "AIR.PA",
+        "AAL",
+        "UAL",
+        "JETS"
+      ]
+    },
+    {
+      "uuid": "9a7dd58e-e254-3414-b850-7aed9b3571f2",
+      "title": "Should You Invest in the U.S. Global Jets ETF (JETS)?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/invest-u-global-jets-etf-092002362.html",
+      "providerPublishTime": 1791969602,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/03fca48475577988aa4e0db94f484b4e.jpg",
+            "width": 900,
+            "height": 600,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DAF3B1090E828E2657568B69DA8A59ABCF0241C780D5CFAE7871E22821F1A96B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F03fca48475577988aa4e0db94f484b4e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "JETS"
+      ]
+    },
+    {
+      "uuid": "dadd28f3-831a-3d9b-87ff-1ec6704b8fba",
+      "title": "Finnair\u2019s Recovery Gets Another Upgrade",
+      "publisher": "Moby",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/finnair-recovery-gets-another-upgrade-144912634.html",
+      "providerPublishTime": 1791902952,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/moby_896/26f828aecaf7b3d042de00b6cf249e66.jpg",
+            "width": 928,
+            "height": 1152,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4E8F0515F21E2C4BAB312381D6DAF95C6459F7EFF62BFFBC24E80D0C42EBC47D/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2F26f828aecaf7b3d042de00b6cf249e66.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "FIA1S.HE",
+        "NVDA",
+        "JETS"
+      ]
+    },
+    {
+      "uuid": "5e18c5f4-faaa-3c48-8f9a-7dd3e4b93e15",
+      "title": "Delta Falls 3% on Cut Full-Year Profit Outlook as Fuel Costs Jump 62%; United and American Airlines Slip",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/delta-falls-3-cut-full-133513245.html",
+      "providerPublishTime": 1791552913,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/5a6d74c06873178dacb3f2b20ad27d02.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7087815B3A64477015B2834B5F95F5CE3B6CB37529C7DDAF406AE2EFF367465A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F5a6d74c06873178dacb3f2b20ad27d02.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DAL",
+        "AAL",
+        "JETS",
+        "SPY",
+        "UAL"
+      ]
+    },
+    {
+      "uuid": "20b878f4-22f6-3fef-9600-5ed34d5e1245",
+      "title": "Which Airline Stock Dominated in September: American, United, or Delta?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/airline-stock-dominated-september-american-190340765.html",
+      "providerPublishTime": 1790795020,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/5a6d74c06873178dacb3f2b20ad27d02.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7087815B3A64477015B2834B5F95F5CE3B6CB37529C7DDAF406AE2EFF367465A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F5a6d74c06873178dacb3f2b20ad27d02.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DAL",
+        "UAL",
+        "SPY",
+        "AAL",
+        "JETS"
+      ]
+    },
+    {
+      "uuid": "39fbe0dc-344d-35ca-b140-b3ef327c1c70",
+      "title": "Iran \u201cOffered\u201d to Reopen the Strait of Hormuz. These Stocks Could Be the Biggest Winners",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/iran-offered-reopen-strait-hormuz-160757064.html",
+      "providerPublishTime": 1790179677,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/beaee8a0b7f4e1b3a557b2bb8b6010cf.jpg",
+            "width": 1376,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/E86583FE2F967293FFBB645A9A74F572A131ACF335798203B7F03AE54245DD48/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fbeaee8a0b7f4e1b3a557b2bb8b6010cf.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DAL",
+        "RCL",
+        "UAL",
+        "JETS",
+        "AAL",
+        "CCL"
+      ]
+    },
+    {
+      "uuid": "e68b866e-3d26-3c6d-bd8c-4b9f7509c6e8",
+      "title": "Clearance to Climb: Why Allegiant Has Room to Fly",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/clearance-climb-why-allegiant-room-121000960.html",
+      "providerPublishTime": 1789474200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/marketbeat_955/0f99fcccac16a515efafb777813b5334.png",
+            "width": 1200,
+            "height": 514,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/78E91B5E93A3FDCC91BADF8ED38F10E21DEEC8062A35943D7637AB8D70823972/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F0f99fcccac16a515efafb777813b5334.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "ALGT",
+        "JETS",
+        "forecast",
+        "financials",
+        "DAL",
+        "UAL"
+      ]
+    },
+    {
+      "uuid": "e7ae0ec2-aae4-3458-9aa5-688e644e245d",
+      "title": "3 ETFs Well-Positioned to Benefit From Labor Day Weekend Travel",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-etfs-well-positioned-benefit-130000053.html",
+      "providerPublishTime": 1788526800,
+      "type": "STORY",
+      "relatedTickers": [
+        "JETS",
+        "XTN",
+        "PEZ"
+      ]
+    },
+    {
+      "uuid": "fd85f5f4-b358-3592-ae11-10b44f93070e",
+      "title": "U.S. Global Investors Reports $3.1 Million in Net Income for Fiscal Year 2026",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/u-global-investors-reports-3-200500110.html",
+      "providerPublishTime": 1788465900,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/globenewswire.com/f13953e9024e8939f8c25d46313f7620.png",
+            "width": 904,
+            "height": 904,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7A4FCE89E7903929E740A3524AC637226ECAC5AE31368591D9DD47558479523E/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2Ff13953e9024e8939f8c25d46313f7620.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GROW",
+        "GC=F",
+        "JETS",
+        "WAR"
+      ]
+    },
+    {
+      "uuid": "c21d2fd0-0313-3505-b73d-9935a8e8fe0e",
+      "title": "Southwest Airlines Just Dropped 14% in a Month. Is It Time to Sell?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/southwest-airlines-just-dropped-14-192123046.html",
+      "providerPublishTime": 1788204083,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/d861ff16ac59ed990a105c04f9449f82.jpg",
+            "width": 1024,
+            "height": 525,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DC9D2CAD954A97EB87D37B27B345F2B329796FCD7F0BA3A71DEA4E2B16355C1F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fd861ff16ac59ed990a105c04f9449f82.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "LUV",
+        "CL=F",
+        "NVDA",
+        "JETS",
+        "AAL",
+        "DAL",
+        "UAL"
+      ]
+    },
+    {
+      "uuid": "0b7855d9-3ae4-3fca-928b-ab4900341189",
+      "title": "Why United Airlines Is Doubling Down on Overseas Travel",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/0b7855d9-3ae4-3fca-928b-ab4900341189/why-united-airlines-is.html",
+      "providerPublishTime": 1787674200,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/d0898bac29793c691090fe49b3339b49.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/1AAFC5D237D8B510C343D49FE03EE73CD60685EC2149AF80D004A7C2BC79EB7F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2Fd0898bac29793c691090fe49b3339b49.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "UAL",
+        "CL=F",
+        "DAL",
+        "BRN00.L",
+        "JETS",
+        "AAL"
+      ]
+    },
+    {
+      "uuid": "64fb748c-7b0e-3ca5-bb62-61d956a1e928",
+      "title": "Which Airline Stock Is Dominating in 2026: United, American, or Delta?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/airline-stock-dominating-2026-united-192258728.html",
+      "providerPublishTime": 1787253778,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/5a6d74c06873178dacb3f2b20ad27d02.jpg",
+            "width": 1366,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7087815B3A64477015B2834B5F95F5CE3B6CB37529C7DDAF406AE2EFF367465A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F5a6d74c06873178dacb3f2b20ad27d02.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DAL",
+        "CL=F",
+        "JBLU",
+        "UAL",
+        "AXP",
+        "NVDA",
+        "JETS",
+        "AAL"
+      ]
+    },
+    {
+      "uuid": "2f187b38-fc35-3161-a5aa-52601b9d08a2",
+      "title": "American Airlines Stock Is Down 6% This Year: Is It Time to Switch to Delta or United?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-stock-down-6-181744658.html",
+      "providerPublishTime": 1786990664,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ab3adfd7f150a39eed702c1c784846ad.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A55584BF469C83B1D09518D402241F41AB7BD1D85952CA86CCCC75C4EA4B7DCE/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fab3adfd7f150a39eed702c1c784846ad.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DAL",
+        "JBLU",
+        "NVDA",
+        "UAL",
+        "JETS",
+        "AAL"
+      ]
+    },
+    {
+      "uuid": "ff079eaa-e8de-35f1-8b9e-27964946ecf2",
+      "title": "Should You Invest in the U.S. Global Jets ETF (JETS)?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/invest-u-global-jets-etf-102001970.html",
+      "providerPublishTime": 1786616401,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/1154d43aaeb65735a640003549116295.jpg",
+            "width": 900,
+            "height": 506,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/316B816C661BDC439A083B13FA3ED793B37F69A255D31656B849B3A1D2AB5A2B/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F1154d43aaeb65735a640003549116295.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "JETS"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 258,
+  "timeTakenForQuotes": 417,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

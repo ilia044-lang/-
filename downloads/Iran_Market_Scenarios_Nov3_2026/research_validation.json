@@ -1,0 +1,706 @@
+{
+  "checked_asset_events": 140,
+  "all_passed": true,
+  "checks": [
+    {
+      "symbol": "SPY",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "SPY",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "SPY",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "SPY",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "SPY",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "QQQ",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "QQQ",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "QQQ",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "QQQ",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "QQQ",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "RSP",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "RSP",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "RSP",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "RSP",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "RSP",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "IWM",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "IWM",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "IWM",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "IWM",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "IWM",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "^DJI",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "^DJI",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "^DJI",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "^DJI",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "^DJI",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "^VIX",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "^VIX",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "^VIX",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "^VIX",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "^VIX",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "^TNX",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "^TNX",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "^TNX",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "^TNX",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "^TNX",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "CL=F",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "CL=F",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "CL=F",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "CL=F",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "CL=F",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "BZ=F",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "BZ=F",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "BZ=F",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "BZ=F",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "BZ=F",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "BTC-USD",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "BTC-USD",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "BTC-USD",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "BTC-USD",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "BTC-USD",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "GLD",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "GLD",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "GLD",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "GLD",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "GLD",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "TLT",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "TLT",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "TLT",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "TLT",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "TLT",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "HYG",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "HYG",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "HYG",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "HYG",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "HYG",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLE",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLE",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLE",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLE",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLE",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "ITA",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "ITA",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "ITA",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "ITA",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "ITA",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "JETS",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "JETS",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "JETS",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "JETS",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "JETS",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "SOXX",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "SOXX",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "SOXX",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "SOXX",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "SOXX",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLK",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLK",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLK",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLK",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLK",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLF",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLF",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLF",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLF",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLF",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLI",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLI",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLI",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLI",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLI",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLV",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLV",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLV",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLV",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLV",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLU",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLU",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLU",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLU",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLU",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLP",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLP",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLP",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLP",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLP",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLY",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLY",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLY",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLY",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLY",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLRE",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLRE",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLRE",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLRE",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLRE",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLB",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLB",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLB",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLB",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLB",
+      "event": "2025_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLC",
+      "event": "2020_US",
+      "passed": true
+    },
+    {
+      "symbol": "XLC",
+      "event": "2024_Apr",
+      "passed": true
+    },
+    {
+      "symbol": "XLC",
+      "event": "2024_Oct",
+      "passed": true
+    },
+    {
+      "symbol": "XLC",
+      "event": "2025_Israel",
+      "passed": true
+    },
+    {
+      "symbol": "XLC",
+      "event": "2025_US",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1011 @@
+{
+  "explains": [],
+  "count": 41,
+  "quotes": [
+    {
+      "exchange": "NYM",
+      "shortname": "Crude Oil Dec 26",
+      "quoteType": "FUTURE",
+      "symbol": "CL=F",
+      "index": "quotes",
+      "score": 100299000.0,
+      "typeDisp": "Futures",
+      "exchDisp": "NY Mercantile",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "ASX",
+      "shortname": "CLINUVEL FPO [CUV]",
+      "quoteType": "EQUITY",
+      "symbol": "CUV.AX",
+      "index": "quotes",
+      "score": 20221.0,
+      "typeDisp": "Equity",
+      "longname": "Clinuvel Pharmaceuticals Limited",
+      "exchDisp": "Australian",
+      "sector": "Healthcare",
+      "sectorDisp": "Healthcare",
+      "industry": "Biotechnology",
+      "industryDisp": "Biotechnology",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "American Balanced Fund Class F-",
+      "quoteType": "MUTUALFUND",
+      "symbol": "AMBFX",
+      "index": "quotes",
+      "score": 20143.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds American Balanced F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "Fundamental Investors, Class F-",
+      "quoteType": "MUTUALFUND",
+      "symbol": "FINFX",
+      "index": "quotes",
+      "score": 20108.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds Fundamental Invs F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "American Mutual Fund, Class F-2",
+      "quoteType": "MUTUALFUND",
+      "symbol": "AMRFX",
+      "index": "quotes",
+      "score": 20100.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds American Mutual F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "New World Fund, Inc., Class F-2",
+      "quoteType": "MUTUALFUND",
+      "symbol": "NFFFX",
+      "index": "quotes",
+      "score": 20084.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds New World F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NAS",
+      "shortname": "New Perspective Fund, Class F-2",
+      "quoteType": "MUTUALFUND",
+      "symbol": "ANWFX",
+      "index": "quotes",
+      "score": 20078.0,
+      "typeDisp": "Fund",
+      "longname": "American Funds New Perspective F-2",
+      "exchDisp": "NASDAQ",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "6672f10b-eeec-34c9-94fb-0e25b18d34a0",
+      "title": "Marathon Petroleum's Profit Surges Fivefold as Refining Margins Explode",
+      "publisher": "Oilprice.com",
+      "link": "https://finance.yahoo.com/energy/articles/marathon-petroleums-profit-surges-fivefold-184544400.html",
+      "providerPublishTime": 1793731544,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/oilprice.com/4325e661cd0e6f3395e51a8d1a901746.jpg",
+            "width": 1024,
+            "height": 576,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C5BE47FE5A45310A829F859E6E49355F50E47938606BA35C5EB1455447F3EC95/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Foilprice.com%2F4325e661cd0e6f3395e51a8d1a901746.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "MPC",
+        "CVI",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "fd41b6ed-c98b-33d3-bbc3-ac1fddd6a1e7",
+      "title": "Oil prices ease to nearly four-week low amid peace talks",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/energy/articles/oil-rises-report-us-strike-012715191.html",
+      "providerPublishTime": 1793731207,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/d1a169c2524b7c17199cbdfe73940270.jpg",
+            "width": 800,
+            "height": 450,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F976F04805515D4D532EBC576FB4314506128E20C6ABC4A985452C305F258880/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Fd1a169c2524b7c17199cbdfe73940270.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "cc6ae067-2f99-33ba-af75-b30433c98556",
+      "title": "CVR Energy, Inc. Q3 2026 Earnings Call Summary",
+      "publisher": "Moby",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cvr-energy-inc-q3-2026-182529030.html",
+      "providerPublishTime": 1793730329,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/moby_896/150e7b47ca497577375e8a779e7ffbd0.png",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/08A869E36004A74B8AAD7D06C6CEE7DE06478806D76D892AAA4514177670EA5F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmoby_896%2F150e7b47ca497577375e8a779e7ffbd0.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "NVDA",
+        "CL=F",
+        "CVI"
+      ]
+    },
+    {
+      "uuid": "5775a75a-40d4-3109-96d7-455424dfad4d",
+      "title": "What Diamondback Energy (FANG) Said on Its Q3 Earnings Call",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/energy/articles/diamondback-energy-fang-said-q3-181450317.html",
+      "providerPublishTime": 1793729690,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/marketbeat_955/881fa3e2613e1dac7df349cf747ba5ed.png",
+            "width": 1200,
+            "height": 675,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9813ED9BCB629F8CAFC76C4AFB11249A5FC5AA7CB73E4B59DE6729171A74BA7A/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F881fa3e2613e1dac7df349cf747ba5ed.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "FANG",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "d3423e81-d193-3fc4-89e3-4d4327130e5c",
+      "title": "Sector Update: Energy",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/sector-energy-181444380.html",
+      "providerPublishTime": 1793729684,
+      "type": "STORY",
+      "relatedTickers": [
+        "CL=F",
+        "MPC",
+        "NG=F",
+        "XLE",
+        "^DJI",
+        "MPLX",
+        "CVI"
+      ]
+    },
+    {
+      "uuid": "c92ee9a0-8a55-384c-bbd9-64c17d33331e",
+      "title": "Exchange-Traded Funds Higher, US Equities Mixed After Midday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-181052694.html",
+      "providerPublishTime": 1793729452,
+      "type": "STORY",
+      "relatedTickers": [
+        "QQQ",
+        "XLK",
+        "IVV",
+        "IYW",
+        "XLF",
+        "FAS",
+        "CL=F",
+        "AAPL",
+        "XLE",
+        "IGM",
+        "FAZ"
+      ]
+    },
+    {
+      "uuid": "1d191b05-2267-3423-86c0-96dd680cf34b",
+      "title": "What Just Happened To Devon Energy Stock?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/just-happened-devon-energy-stock-180915371.html",
+      "providerPublishTime": 1793729355,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/trefis_142/7471e5d0aa0be91563f3da4b5da8a2f3.jpg",
+            "width": 1280,
+            "height": 960,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/73205C64FD58D4C154439D6F69CEDEEF9A1EDA56D8113C257BF508630E0812D0/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftrefis_142%2F7471e5d0aa0be91563f3da4b5da8a2f3.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DVN",
+        "CL=F",
+        "^GSPC",
+        "NG=F",
+        "EOG",
+        "OKE",
+        "APA",
+        "EPM",
+        "TPET",
+        "SPGI"
+      ]
+    },
+    {
+      "uuid": "b197c748-837b-3fea-aa64-b355b778f3b0",
+      "title": "Oil Futures Turn Lower as Market Holds Out Hope for Middle East Diplomacy",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/b197c748-837b-3fea-aa64-b355b778f3b0/oil-futures-turn-lower-as.html",
+      "providerPublishTime": 1793728620,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/211b3cb7a5d696bf9f98bc037c851a38.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/95B61E96ED6011307C7934C1C16B399554D726428A26F7299CA7E34A04F80C6C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2F211b3cb7a5d696bf9f98bc037c851a38.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "30bae400-a6d0-3bf5-8c86-22985b83d380",
+      "title": "Saudi Aramco's Profits Rise Despite Its Facilities Taking Repeated Hits. The Refining Business Surged 234%.",
+      "publisher": "International Business Times",
+      "link": "https://finance.yahoo.com/energy/articles/saudi-aramcos-profits-rise-despite-175353376.html",
+      "providerPublishTime": 1793728433,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/international_business_times_990/553b825c968fccabf8cd380b21f7395b.jpg",
+            "width": 2000,
+            "height": 1333,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/DB7584C6C5D0DE7C91DBF7D2A39B123ADC17CA25B2BFC93D65B848169B4DB4C7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Finternational_business_times_990%2F553b825c968fccabf8cd380b21f7395b.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "2222.SR",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "b4c4bbd5-36b6-30ef-b321-bab283ba5181",
+      "title": "The U.S. Has Been Striking Iran as Trump Talks Up a Deal",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/u-striking-iran-trump-talks-174724817.html",
+      "providerPublishTime": 1793728044,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/ccbfc626274fdd0823808c48e1f69678.jpg",
+            "width": 1366,
+            "height": 767,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A3FFF24CC3D63B6D5DA608C0775BAE6337AD4C3EB7AFBEF9B68E8B14324B4512/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2Fccbfc626274fdd0823808c48e1f69678.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "XOM",
+        "CVX",
+        "USO"
+      ]
+    },
+    {
+      "uuid": "6b5a2278-68c3-3914-8fd6-e54e7b1233b4",
+      "title": "European stocks slip as Middle East uncertainty makes for caution",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/europe-stocks-set-fall-us-072424748.html",
+      "providerPublishTime": 1793727146,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/51c08a37f2f18f2e38314ad1db74066d.jpg",
+            "width": 800,
+            "height": 466,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/151134EC68378CC6C407AF6EB879518D679A75A9F83C400E8700A9B4A673185C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F51c08a37f2f18f2e38314ad1db74066d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "^STOXX",
+        "HG=F"
+      ]
+    },
+    {
+      "uuid": "86ac5d95-a81e-3691-923e-138593958990",
+      "title": "The Midterms Could Break the Bull Market",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/86ac5d95-a81e-3691-923e-138593958990/the-midterms-could-break-the.html",
+      "providerPublishTime": 1793727002,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 320,
+            "height": 65,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A61DB0D21C441898D8CB18C6380DF9F52A0B6BB72E0CE53D0ED3B5DFB91EF0F4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "^GSPC",
+        "QMI"
+      ]
+    },
+    {
+      "uuid": "2a0b6b80-f736-3bae-8d89-91de4f93511c",
+      "title": "Energy & Utilities Roundup: Market Talk",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/2a0b6b80-f736-3bae-8d89-91de4f93511c/energy-%26-utilities-roundup%3A.html",
+      "providerPublishTime": 1793726880,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/c009ec97793f025c71e47f597752256d.jpg",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4AF84BC5D943ACC79FA1686731C8C59C71731982D3DABE4213E168B030650916/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2Fc009ec97793f025c71e47f597752256d.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "BP"
+      ]
+    },
+    {
+      "uuid": "dd6732a3-212a-3a3b-97b0-b1abdc234b0d",
+      "title": "Valero to Acquire Houston Refining Site, Plans 165,000 BPD Restart",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/valero-acquire-houston-refining-plans-171900957.html",
+      "providerPublishTime": 1793726340,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/a162db310eadf3a53e7c1325236322af.jpg",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/0374013CE1B1EAE875B5860109CE4E28C4B171FBAD55956025ADA80195C3FF6C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2Fa162db310eadf3a53e7c1325236322af.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "VLO",
+        "LYB",
+        "CL=F",
+        "PBF",
+        "GLPEF",
+        "DINO"
+      ]
+    },
+    {
+      "uuid": "83d6d43b-e827-3bc2-b456-16721669084b",
+      "title": "Diamondback Energy Raises Its Dividend 7.3%. Here\u2019s the Coverage Math",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/diamondback-energy-raises-dividend-7-171753507.html",
+      "providerPublishTime": 1793726273,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/24_7_wall_st__718/1be526b7c40297c7940b759e541efa4e.jpg",
+            "width": 1500,
+            "height": 1000,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/37AB650BB6F7147DD868F347ABCD8BE6C51EEBD9C18DDF70413557540EBA45BD/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F1be526b7c40297c7940b759e541efa4e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "FANG",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "4df9e411-e111-3907-b786-2f8ba080ecd9",
+      "title": "S&P 500, Nasdaq rise as tech stocks gain ahead of midterm results",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-mixed-apple-104958801.html",
+      "providerPublishTime": 1793726272,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/8b6f8587730aa96fabecac226390be21.jpg",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/4A856A56D609ED59F9D5822EC9BC513142EA4F78D8FB46C27981836F2A530892/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F8b6f8587730aa96fabecac226390be21.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "AAPL",
+        "CL=F",
+        "NVDA",
+        "AMD",
+        "^GSPC",
+        "^IXIC"
+      ]
+    },
+    {
+      "uuid": "c3f95a88-89ad-30b5-bd59-85e2a2ff7934",
+      "title": "Benchmark diesel price is down; so is futures market in a big way",
+      "publisher": "FreightWaves",
+      "link": "https://finance.yahoo.com/energy/articles/benchmark-diesel-price-down-futures-171317476.html",
+      "providerPublishTime": 1793725997,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/freightwaves_373/cb74f2dc3966d3f66c0b0b563e191b90.jpg",
+            "width": 1080,
+            "height": 607,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B0031C8C460E9F983CE79572D34652B38FF3DCD94E76D115FCBFC4FCAE518A7F/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Ffreightwaves_373%2Fcb74f2dc3966d3f66c0b0b563e191b90.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "067ba822-b18e-33bc-9526-efd2ddb8580e",
+      "title": "Stocks wobble, oil prices fall as Trump says Israel aid will stop",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-retreat-ahead-us-022420502.html",
+      "providerPublishTime": 1793725583,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/43b299ed48a386219943847a32223bce.jpg",
+            "width": 800,
+            "height": 533,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/88AF7B297177AFA9E20DD2881F5F07F9880072EB6DD4B221A7803C6722D1C47C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F43b299ed48a386219943847a32223bce.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^IXIC",
+        "CL=F",
+        "^DJI",
+        "^GSPC"
+      ]
+    },
+    {
+      "uuid": "399d3247-45c2-37ad-982b-decf820bcd52",
+      "title": "Odds of Red Sweep Are Slim. Here Are the Areas of the Market to Watch.",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/399d3247-45c2-37ad-982b-decf820bcd52/odds-of-red-sweep-are-slim..html",
+      "providerPublishTime": 1793725564,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/Barrons.com/12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 320,
+            "height": 65,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/A61DB0D21C441898D8CB18C6380DF9F52A0B6BB72E0CE53D0ED3B5DFB91EF0F4/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2FBarrons.com%2F12ea0f43d8f8307249a68d1cb2e0587e.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "945fa52d-0974-3f75-9ed6-89473467eb25",
+      "title": "Stocks wobble on concerns over AI and US midterms",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-down-ai-concerns-025549205.html",
+      "providerPublishTime": 1793724852,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/afp.com/7eee7a1146c2d62bc9a7f6702471b35e.jpg",
+            "width": 768,
+            "height": 512,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/C7411407AA03E5DF68D23584589E42119FCD929393F0612D17C0BC23C21A5BAF/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fafp.com%2F7eee7a1146c2d62bc9a7f6702471b35e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^IXIC",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "17677555-7ab4-3953-ab32-17b1cc2bc8ce",
+      "title": "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling",
+      "publisher": "Oilprice.com",
+      "link": "https://finance.yahoo.com/energy/articles/trump-bombs-iran-talks-peace-164343494.html",
+      "providerPublishTime": 1793724223,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/oilprice.com/294f85781c1898d4e30b1fa86513e67c.jpg",
+            "width": 519,
+            "height": 292,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/B8FB7D8A5B1EEB0A2536D5902E3ECEE9868857087EE2BE0FF69FCE715AB9E5C1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Foilprice.com%2F294f85781c1898d4e30b1fa86513e67c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "1b3ed6c3-1f7b-3180-95b5-2212e11cc7f9",
+      "title": "Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/news/oil-looks-doha-washington-signs-164100497.html",
+      "providerPublishTime": 1793724060,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/cnwgroup.com/dd26ba9bad0dcbfa4eebf603abb60791.jpg",
+            "width": 399,
+            "height": 102,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/9481C10F1FBFC26C7955B162D4711594BC633A4F416492E0BC3BFA08B30B3966/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcnwgroup.com%2Fdd26ba9bad0dcbfa4eebf603abb60791.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "MPC",
+        "CVX",
+        "VLO",
+        "LNG",
+        "HAL"
+      ]
+    },
+    {
+      "uuid": "7a8c9e87-a834-3efb-a88e-39b9df4a0f75",
+      "title": "Devon Energy to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-report-q3-earnings-162500109.html",
+      "providerPublishTime": 1793723100,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/zacks.com/2f7d12bc70a6f1d0d4e7800b20752a8a.jpg",
+            "width": 620,
+            "height": 414,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/F2B55B9EE7A01791F83FDDCB297F2A1FBFBF367A9DBCAE107E773955B56752F1/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fzacks.com%2F2f7d12bc70a6f1d0d4e7800b20752a8a.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DVN",
+        "NG=F",
+        "CL=F",
+        "OXY",
+        "EOG",
+        "EPM"
+      ]
+    },
+    {
+      "uuid": "8a60e112-9a70-3e41-b4d1-1e1a5147c1f0",
+      "title": "Oil Edges Lower As U.S. Bombs Iran Before Election Day",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/8a60e112-9a70-3e41-b4d1-1e1a5147c1f0/oil-edges-lower-as-u.s.-bombs.html",
+      "providerPublishTime": 1793723091,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/ibd.com/94227f0d40957922bb27fb7d6050056c.jpg",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/FED3306D270E9A9A341836BE164A70537F74C3B76E1AB286DBE7A037C56C1745/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fibd.com%2F94227f0d40957922bb27fb7d6050056c.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F",
+        "CME",
+        "DINO",
+        "MPC",
+        "OXY",
+        "PSX",
+        "VLO",
+        "XOM"
+      ]
+    },
+    {
+      "uuid": "16d41827-41f5-3215-952e-437af72ac2b4",
+      "title": "Dollar edges higher as Mideast, US midterms eyed",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/news/dollar-drifts-mideast-midterm-risks-035756460.html",
+      "providerPublishTime": 1793722150,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/reuters.com/7412894dc25b8f27cf2ad1974a7571a8.jpg",
+            "width": 800,
+            "height": 534,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/7330CEF71361753CB2900259804531CAC1FD22D95F90BCA086C42199DDEED74C/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F7412894dc25b8f27cf2ad1974a7571a8.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "DX-Y.NYB",
+        "AUD=X",
+        "CL=F",
+        "CNY=X"
+      ]
+    },
+    {
+      "uuid": "8cf2e272-7415-300f-a96a-5af6afffccda",
+      "title": "Ahead of election, oil and gas prices take a breather",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/energy/articles/ahead-election-oil-gas-prices-160700930.html",
+      "providerPublishTime": 1793722020,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/thestreet_881/48dfec900c1a66c2d8c46d668135c2d7.jpg",
+            "width": 3000,
+            "height": 2072,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/26C9DCF112F20DA235DC8A0DD177E5A61A9F610474DEF1B9E0BD952DEE2CEF97/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2F48dfec900c1a66c2d8c46d668135c2d7.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "aa5f01df-bc87-3cb2-85eb-4b30a1b11f66",
+      "title": "High freight costs keep Atlantic Basin crude trade under strain, says RBC",
+      "publisher": "Proactive",
+      "link": "https://finance.yahoo.com/energy/articles/high-freight-costs-keep-atlantic-160000422.html",
+      "providerPublishTime": 1793721600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/proactive_us_504/a520e003d2e63ebb7756792d9049bd3e.jpg",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/CB04CAE382AC7456135A5E62A4E6212243113DFC8396F5A304DFB31F23A61609/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fproactive_us_504%2Fa520e003d2e63ebb7756792d9049bd3e.jpg",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "cd2e0ebc-7abb-3e1b-92e0-38f5f06f9afc",
+      "title": "Precious Metals Fall Back Amid Oil Volatility",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/cd2e0ebc-7abb-3e1b-92e0-38f5f06f9afc/precious-metals-fall-back.html",
+      "providerPublishTime": 1793721600,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png",
+            "width": 1200,
+            "height": 630,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/69E5E705C465BC982984B87DFBA9D9F27CF4846DAB42AA4539F0CC74879826D7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2F7b2c285183be07ca3c4e8242b25a59a8.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "GC=F",
+        "CL=F",
+        "SI=F"
+      ]
+    },
+    {
+      "uuid": "ed2d0d92-a13f-31fe-90f0-31d7f91af1e5",
+      "title": "Clorox's Fiscal 2027 Risk-Reward Profile Balanced, BofA Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/clorox-apos-fiscal-2027-risk-155916301.html",
+      "providerPublishTime": 1793721556,
+      "type": "STORY",
+      "relatedTickers": [
+        "CLX",
+        "CL=F"
+      ]
+    },
+    {
+      "uuid": "ce69ecfa-f7f5-3adb-a6f7-6d9e0e931765",
+      "title": "What\u2019s Moving Markets Today?",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/ce69ecfa-f7f5-3adb-a6f7-6d9e0e931765/what%E2%80%99s-moving-markets-today%3F.html",
+      "providerPublishTime": 1793721212,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://media.zenfs.com/en/wsj.com/7b2c285183be07ca3c4e8242b25a59a8.png",
+            "width": 1200,
+            "height": 630,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/lo/mysterio/api/69E5E705C465BC982984B87DFBA9D9F27CF4846DAB42AA4539F0CC74879826D7/subgraphmysterio/resizefill_w140_h140/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwsj.com%2F7b2c285183be07ca3c4e8242b25a59a8.png",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": [
+        "^GSPC",
+        "CL=F",
+        "^DJI",
+        "AAPL",
+        "BRN00.L"
+      ]
+    }
+  ],
+  "nav": [],
+  "lists": [
+    {
+      "slug": "most-bought-by-activist-hedge-funds",
+      "name": "Most Bought By Activist Hedge Funds",
+      "index": "most-bought-by-activist-hedge-funds",
+      "score": 12.706033,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_bought_by_activist_hedge_funds",
+      "symbolCount": 30,
+      "dailyPercentGain": -0.2462928849852937,
+      "followerCount": 57371,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/110f1012357c7b3e87d14912e7023f819b61278e7f0e90a3825821d2ef3c427c/finance/resizefill_w96_h96/https://s.yimg.com/uc/fin/img/most-bought-activist.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "slug": "most-bought-by-hedge-funds",
+      "name": "Most Bought By Hedge Funds",
+      "index": "most-bought-by-hedge-funds",
+      "score": 8.860949,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_bought_by_hedge_funds",
+      "symbolCount": 30,
+      "dailyPercentGain": 2.1249249375796717,
+      "followerCount": 38919,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/f1b1a50dcfdddcf42a67d2da1bb1c341e6f65992b3d89154b9020ae8a9ffa004/finance/resizefill_w96_h96/https://s.yimg.com/uc/fin/img/mostboughtHedgeFunds.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "slug": "most-watched",
+      "name": "Most Watched by Yahoo Finance Users",
+      "index": "most-watched",
+      "score": 6.048604,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_watched",
+      "symbolCount": 30,
+      "dailyPercentGain": -0.24625409469509177,
+      "followerCount": 27311,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/9f2d41c327a5d20c8062b14f526038441141d5644b2b3a0efee2e12d9be1efe0/finance/resizefill_w96_h96/https://s.yimg.com/uc/finance/social/portfolio/most-watched.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    },
+    {
+      "slug": "the-fight-against-covid19",
+      "name": "The Fight Against COVID19",
+      "index": "the-fight-against-covid19",
+      "score": 5.0230365,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "trea",
+      "pfId": "the_fight_against_covid19",
+      "symbolCount": 13,
+      "dailyPercentGain": 1.258930668988295,
+      "followerCount": 21444,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/3c7c7b592c7aba2beee72abb1e520b85d6241aee639ea2e8033b96962ad2e126/finance/resizefill_w96_h96/https://s.yimg.com/uc/fin/img/iStock-476433472.png",
+      "userId": "X3NJ2A7VDSABUI4URBWME2PZNM"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 219,
+  "timeTakenForQuotes": 426,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

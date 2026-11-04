@@ -1,0 +1,227 @@
+IRAN / MARKET SCENARIO STUDY — NOVEMBER 3, 2026
+
+QUESTION AND SCOPE
+How did traded proxies react around selected prior Israel/US-Iran escalations, how quickly did broad-equity closing prices regain the pre-event baseline, and which economic channels might matter in a renewed or broader strike? This is a conditional scenario framework. It does not verify a new attack decision, predict timing, assign attack probabilities or recommend a personal trade.
+
+DATA
+28 daily traded/index proxies: SPY, QQQ, RSP, IWM, Dow, VIX, US10yr yield, WTI, Brent, dollar index, BTC/USD, GLD, TLT, HYG, XLE, ITA, JETS, SOXX and the remaining major S&P sector ETFs. Yahoo chart API range10y/interval1d, retrieved Nov3, filtered to completed Nov2 dates. Equity dates are NY exchange dates; Bitcoin dates are UTC. See analysis.json for retrieval time and source URLs. Historical CSVs and raw responses are retained in Evidence. The complete 28-asset snapshot and 140-event/asset table accompany the video. Not every instrument or global market is represented.
+
+EVENT SELECTION AND LIMITS
+Predefined illustrative case list: Jan3,2020 US strike on Soleimani in Iraq; Apr19,2024 Israeli strike in Iran; Oct26,2024 Israeli weekend strikes (US sessionOct28); Jun13,2025 Israeli opening strikes; Jun22,2025 US nuclear-facility strikes (US sessionJun23). These dates are established historical context used to define windows, not a fresh independent audit of military primary records. The list is not an exhaustive event database; selection bias is possible. January2020 is outside Iranian territory. June2025 windows overlap and cannot be treated as independent trials. 2026 cached reporting describes existing conflict, so the present video concerns renewed/broader escalation, not the first-ever hostilities.
+
+RETURN AND RECOVERY DEFINITIONS
+US market baseline = close immediately preceding the first affected cash session. Day1,Day5,Day20 = nth observed trading-session close divided by baseline minus1. First regain = first close at/above baseline within61 observations (including event day), reported as elapsed sessions AFTER the event session. Thus zero = same session, not a future rebound forecast. Two-close confirmation = the second of the first consecutive pair at/above baseline. Checks also record whether price fell below baseline again within5 observations of first regain. These are closing-price measurements, not intraday recovery, all-time-high recovery, a causal event effect or a portfolio return. Equity dividends/distributions are excluded; adjusted-close sensitivity fields are retained. None of the displayed SPY/QQQ first-regain dates changed in the adjusted-close check. First5-session closing and intraday lows are supplementary fields; their windows are not a calibrated downside forecast.
+
+Bitcoin uses calendar days and the commonly referenced Middle East event date. First reports can occur on a different UTC/US date, so the daily bars may straddle news. The video only describes the June22 close and June23 rebound; it does not call the daily loss the full attack drawdown. Do not compare a5-calendar-day BTC result as if it were5 US trading sessions. Futures series are front-month/continuous quotes with potential roll discontinuities, not total returns. Historical oil comparisons in the video use Brent, and current WTI is a price level. A revised Oct30 Brent bar differed from an older saved snapshot, so no current Brent daily return is used in narration. Source-vintage changes are not silently merged. Index volatility and Treasury-yield series are levels; their percent changes are not investor returns.
+
+CONFOUNDERS
+January2020's later window includes emerging pandemic risk. October2024's later window includes US election developments. June2025 includes evolving retaliation/ceasefire expectations and earnings/macro news. There is no control group, causal model, statistically valid mean recovery time or calibrated probability. A green day can reflect an outcome being less damaging than feared, but the price observation alone cannot prove that explanation. The video gives possible transmission mechanisms separately from measured returns. HYG price is not a credit spread; GLD and TLT are different exposures; ITA includes civilian aerospace businesses.
+
+VALIDATION
+Independent calculations recomputed all140 day1/day5/day20 results, baseline dates, first regains and two-close dates from saved CSVs. Dates are unique and ordered, data endsNov2, and SMA20/50/200 were independently recalculated. See research_validation.json. Charts use exact source values and common baselines. Signed bars use proportional heights and a sharedzero. Recovery plots use a normalized100 baseline; replay markers show historical observations only. Daily candlesticks are filled solid dimensional bodies with real OHLC and MA50/MA200. Scenario bars are explicitly illustrative and carry no numeric likelihood.
+
+NOVEMBER 4 UPDATE
+Before final export, scene 2 was replaced with a dated November4 headline update: Reuters10:53UTC reports oil falling amid Iran-war uncertainty and US midterm results; AP04:13UTC reports world shares mostly higher. This is headline-level attribution. No independent election, diplomacy or military verification is claimed. Market charts retain the November2 completed-close snapshot and November3 study date. Raw additional metadata: nov4_news_check.json.
+
+CURRENT NEWS ACCESS
+Reuters headline metadata from Nov3 (cutoff18:40UTC) describes oil easing amid peace talks, European stock caution and US technology gains ahead of midterm results. Full current articles and primary EIA/CENTCOM/government statements were blocked by the environment’s network policy. A network allowlist draft was saved but that does not establish applied access. The current news paragraphs stay within the attributed headlines. No verified shipping shutdown, new attack order, precise current Hormuz flow statistic or diplomatic settlement is claimed. The cached Reuters Oct23 full text was retrieved in earlier authorized work and is used only as dated context; it is not portrayed as today’s update and is not redistributed in the public package. Historical event chronology has not been re-verified against primary records in this session. Remaining verification: current official military/diplomatic statements, real-time physical flow/insurance data and the full current reports.
+
+VISUAL AND AUDIO PRODUCTION
+User explicitly requested a different design for this episode. New midnight navy, cyan and amber documentary direction with two generated conceptual image plates, animated public-domain Natural Earth map, coded shipping-route illustration, historical replay lines and filled bars/candles. No images depict an actual strike; no fake military footage, targets or attack routes. Shipping route is illustrative commercial transit. Source map: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson . All dates/numbers are code-typeset. Original Michael preset am_michael at1.08 speed; canonical English captions aligned by Whisper; quiet original music. Cover is exactlyfirst1second while narration starts. Original high-precision Kokoro model is used for the final narration; an optional quantized performance test was not used in final audio. No YouTube/TikTok upload performed.
+
+VIEWER TAKEAWAY
+Distinguish a headline shock, a real supply interruption and an initial closing-price regain. Practice: mark a pre-event baseline and compare first regain with two consecutive closes while checking the source/date of oil-flow reports. Evaluate opening retention and average view duration relative to channel baseline after publication; no engagement guarantee.
+
+SOURCE REGISTER
+
+Reuters | 2026-11-03T18:40:07+00:00
+Oil prices ease to nearly four-week low amid peace talks
+https://finance.yahoo.com/energy/articles/oil-rises-report-us-strike-012715191.html
+
+The Wall Street Journal | 2026-11-03T17:57:00+00:00
+Oil Futures Turn Lower as Market Holds Out Hope for Middle East Diplomacy
+https://finance.yahoo.com/m/b197c748-837b-3fea-aa64-b355b778f3b0/oil-futures-turn-lower-as.html
+
+Reuters | 2026-11-03T17:32:26+00:00
+European stocks slip as Middle East uncertainty makes for caution
+https://finance.yahoo.com/markets/stocks/articles/europe-stocks-set-fall-us-072424748.html
+
+The Wall Street Journal | 2026-11-03T17:28:00+00:00
+Energy & Utilities Roundup: Market Talk
+https://finance.yahoo.com/m/2a0b6b80-f736-3bae-8d89-91de4f93511c/energy-%26-utilities-roundup%3A.html
+
+Reuters | 2026-11-03T17:17:52+00:00
+S&P 500, Nasdaq rise as tech stocks gain ahead of midterm results
+https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-mixed-apple-104958801.html
+
+Reuters | 2026-11-03T17:06:23+00:00
+Stocks wobble, oil prices fall as Trump says Israel aid will stop
+https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-retreat-ahead-us-022420502.html
+
+Reuters | 2026-11-03T16:09:10+00:00
+Dollar edges higher as Mideast, US midterms eyed
+https://finance.yahoo.com/news/dollar-drifts-mideast-midterm-risks-035756460.html
+
+The Wall Street Journal | 2026-11-03T16:00:00+00:00
+Precious Metals Fall Back Amid Oil Volatility
+https://finance.yahoo.com/m/cd2e0ebc-7abb-3e1b-92e0-38f5f06f9afc/precious-metals-fall-back.html
+
+The Wall Street Journal | 2026-11-03T15:53:32+00:00
+What’s Moving Markets Today?
+https://finance.yahoo.com/m/ce69ecfa-f7f5-3adb-a6f7-6d9e0e931765/what%E2%80%99s-moving-markets-today%3F.html
+
+Yahoo Finance | 2026-11-02T17:12:01+00:00
+Gas prices likely to drop below $4 a gallon in the next week if oil prices keep declining, analyst says
+https://finance.yahoo.com/markets/article/gasoline-could-fall-below-4-in-the-next-week-as-oil-prices-drop-says-analyst-171201913.html
+
+Yahoo Finance | 2026-11-02T15:00:44+00:00
+Stocks rebound as oil prices sink, Anthropic releases Q3 financials: AlphaCheck
+https://finance.yahoo.com/markets/article/stocks-rebound-as-oil-prices-ease-anthropic-releases-3rd-quarter-financials-alphacheck-150044554.html
+
+Yahoo Finance | 2026-10-28T20:39:51+00:00
+Stock market today: Dow, S&P 500, Nasdaq rise as Fed holds rates steady, Big Tech earnings loom
+https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html
+
+Yahoo Finance | 2026-10-28T13:49:10+00:00
+Tech rises for third day in a row ahead of Microsoft, Alphabet earnings, Fed decision in focus: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-rises-for-third-day-in-a-row-ahead-of-microsoft-alphabet-earnings-fed-decision-in-focus-alphacheck-134910290.html
+
+Yahoo Finance | 2026-10-27T13:45:31+00:00
+Tech rises for second day in a row as chip stocks gain: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-rises-for-2nd-day-in-a-row-as-chip-stocks-gain-alphacheck-134531476.html
+
+Yahoo Finance | 2026-10-26T14:00:40+00:00
+Tech stocks rise after Anthropic IPO filing: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-rise-after-anthropic-ipo-filing-alphacheck-140040601.html
+
+Yahoo Finance | 2026-10-23T20:42:56+00:00
+Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise
+https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html
+
+Yahoo Finance | 2026-10-23T19:28:00+00:00
+Brent crude tops $116 as traders price escalating Middle East conflict
+https://finance.yahoo.com/markets/article/brent-crude-tops-116-as-traders-price-in-middle-east-escalation-192101547.html
+
+Yahoo Finance | 2026-10-23T16:54:15+00:00
+As oil edges higher, Trump floats letting Iran 'wither,' possibility of protracted war grows
+https://finance.yahoo.com/energy/article/as-oil-edges-higher-trump-floats-letting-iran-wither-possibility-of-protracted-war-grows-165415963.html
+
+Yahoo Finance | 2026-10-23T13:42:24+00:00
+Stocks extend declines, 10-year Treasury holds below 5%: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-extends-decline-10-year-treasury-holds-below-5-alphacheck-134224473.html
+
+Yahoo Finance | 2026-10-22T23:10:58+00:00
+Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet
+https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html
+
+Yahoo Finance | 2026-10-22T20:04:36+00:00
+Oil prices top $113 on worries of Iran-US escalations after midterms
+https://finance.yahoo.com/markets/article/oil-price-gains-on-possible-escalation-of-iran-us-tensions-after-midterms-120738560.html
+
+Yahoo Finance | 2026-10-22T15:39:07+00:00
+Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck
+https://finance.yahoo.com/markets/article/meta-and-chip-stocks-decline-as-ai-trade-comes-under-pressure-alphacheck-140107733.html
+
+Yahoo Finance | 2026-10-20T23:19:49+00:00
+Stock market today: Dow, S&P 500 rise, Nasdaq slips as investors await SpaceX, Netflix earnings
+https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-nasdaq-climb-as-dip-buying-resumes-165236471.html
+
+Yahoo Finance | 2026-10-20T13:43:25+00:00
+Chips lead Nasdaq lower, oil tops 5-month high: AlphaCheck
+https://finance.yahoo.com/markets/article/chips-lead-nasdaq-lower-oil-tops-5-month-high-alphacheck-134325052.html
+
+Yahoo Finance | 2026-10-20T11:13:30+00:00
+Trump announces $8 billion for farmers to offset soaring diesel costs
+https://finance.yahoo.com/markets/article/trump-announces-8-billion-for-farmers-to-offset-soaring-diesel-costs-111330890.html
+
+Yahoo Finance | 2026-10-19T20:48:48+00:00
+Stock market today: Dow slips, S&P 500, Nasdaq rise as tech stocks rebound
+https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html
+
+Yahoo Finance | 2026-10-19T13:50:03+00:00
+Tech rebounds as semiconductor stocks jump: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-rebounds-as-semiconductor-stocks-jump-alphacheck-135003909.html
+
+Yahoo Finance | 2026-10-17T11:59:27+00:00
+Why oil prices could be poised for a 'super spike': Analyst
+https://finance.yahoo.com/energy/article/why-oil-prices-could-be-poised-for-a-super-spike-analyst-115927231.html
+
+Yahoo Finance | 2026-10-16T20:48:28+00:00
+Stock market today: Dow, S&P 500, Nasdaq sink as tech sell-off caps volatile week
+https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html
+
+Yahoo Finance | 2026-10-16T13:58:20+00:00
+Tesla pops, tech heads for losing week: AlphaCheck
+https://finance.yahoo.com/markets/article/tesla-pops-tech-heads-for-losing-week-alphacheck-135820459.html
+
+Yahoo Finance | 2026-10-14T12:52:41+00:00
+Gas has now topped $4 a gallon for a record 158 days: Chart of the Day
+https://finance.yahoo.com/markets/article/gas-has-now-topped-4-a-gallon-for-a-record-158-days-chart-of-the-day-100000942.html
+
+Yahoo Finance | 2026-10-13T13:55:41+00:00
+Bank stocks rise on JPMorgan, Goldman earnings as chip stocks fall: AlphaCheck
+https://finance.yahoo.com/markets/article/bank-stocks-rise-on-jpmorgan-goldman-earnings-as-chip-stocks-fall-alphacheck-135541160.html
+
+Yahoo Finance | 2026-10-12T17:20:53+00:00
+Gas prices on track to break record for most days above $4 a gallon: Chart of the Day
+https://finance.yahoo.com/markets/article/gas-prices-on-track-to-break-record-for-most-days-above-4-a-gallon-chart-of-the-day-172053108.html
+
+Yahoo Finance | 2026-10-12T13:42:02+00:00
+Tech slumps as oil prices rise, focus turns to earnings season kickoff: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-slumps-as-oil-prices-rise-focus-turns-to-earnings-season-kickoff-alphacheck-134202547.html
+
+Yahoo Finance | 2026-10-12T13:40:49+00:00
+Oil gains on Middle East tensions, growing doubts of 'energy ceasefire' between Russia and Ukraine
+https://finance.yahoo.com/markets/article/oil-gains-on-middle-east-tensions-growing-doubts-of-energy-ceasefire-between-russia-and-ukraine-134049071.html
+
+Associated Press | 2026-11-03T15:00:40+00:00
+BC-Gold Futures
+https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-150040657.html
+
+The Wall Street Journal | 2026-11-03T11:57:00+00:00
+Central Banks Accelerated Gold Buying in Third Quarter
+https://finance.yahoo.com/m/0a2cfc3f-09c4-3d4b-ae16-3b7bcb4e5a4c/central-banks-accelerated.html
+
+Associated Press | 2026-10-30T14:30:26+00:00
+BC-Most Active Stocks
+https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143026463.html
+
+Yahoo Finance | 2026-10-09T13:54:17+00:00
+Tech rebounds as AI trade jitters ease: AlphaCheck
+https://finance.yahoo.com/markets/article/tech-rebounds-as-ai-trade-jitters-ease-alphacheck-135417533.html
+
+Yahoo Finance | 2026-10-08T17:00:15+00:00
+Oil falls to $103 as Trump says US will not attack Iran before the midterm elections
+https://finance.yahoo.com/markets/article/oil-falls-to-103-as-trump-says-us-will-not-attack-iran-before-the-midterm-elections-171630147.html
+
+Yahoo Finance | 2026-10-07T12:26:12+00:00
+Oil prices climb above $100 on Strait of Hormuz attacks, Gulf storm threat
+https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html
+
+Yahoo Finance | 2026-09-29T13:50:32+00:00
+Stocks waver as oil prices fall, bond yields stabilize: AlphaCheck
+https://finance.yahoo.com/markets/article/stocks-waver-as-oil-prices-fall-bond-yields-stabilize-alphacheck-135032178.html
+
+The Wall Street Journal | 2026-10-20T09:30:00+00:00
+How to Play the Retreat in Defense Stocks
+https://finance.yahoo.com/m/fa19b347-47f4-3a7d-bea0-9a8b5b786c9c/how-to-play-the-retreat-in.html
+
+Reuters | 2026-11-04T10:53:32+00:00
+Oil falls on Iran war uncertainty, US Democrats' midterm sweep
+https://finance.yahoo.com/news/oil-rises-iran-war-uncertainty-051949081.html
+
+Reuters | 2026-11-04T10:02:12+00:00
+Rupee ends a tad higher as dollar slips after US midterms
+https://finance.yahoo.com/markets/currencies/articles/india-rupees-recovery-may-fresh-023554290.html
+
+The Wall Street Journal | 2026-11-04T09:49:00+00:00
+Democratic Sweep Could Push Brent Above $120 on Iran Risks
+https://finance.yahoo.com/m/bda870ff-fef9-318b-9c97-ddc162adfb61/democratic-sweep-could-push.html
+
+The Wall Street Journal | 2026-11-04T07:40:00+00:00
+Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks
+https://finance.yahoo.com/m/bd5c19a5-5e85-316f-9102-fb5a1ac9122a/oil-prices-rise-as-investors.html
+
+Associated Press | 2026-11-04T04:13:50+00:00
+World shares are mostly higher as Democrats gain majorities in both the US House and Senate
+https://finance.yahoo.com/markets/world-indices/articles/asian-shares-fall-selling-tech-041350179.html

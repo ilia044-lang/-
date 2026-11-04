@@ -1,0 +1,42 @@
+{
+  "explains": [],
+  "count": 2,
+  "quotes": [],
+  "news": [],
+  "nav": [
+    {
+      "navName": "Contact Us",
+      "navUrl": "https://yahoo.uservoice.com/forums/382977"
+    }
+  ],
+  "lists": [
+    {
+      "slug": "most-watched",
+      "name": "Most Watched by Yahoo Finance Users",
+      "index": "most-watched",
+      "score": 14.3015,
+      "type": "ALGO_WATCHLIST",
+      "brandSlug": "yahoo-finance",
+      "pfId": "most_watched",
+      "symbolCount": 30,
+      "dailyPercentGain": -0.37889574431072404,
+      "followerCount": 27311,
+      "iconUrl": "https://edgecast-img.yahoo.net/mysterio/api/9f2d41c327a5d20c8062b14f526038441141d5644b2b3a0efee2e12d9be1efe0/finance/resizefill_w96_h96/https://s.yimg.com/uc/finance/social/portfolio/most-watched.png",
+      "userId": "5SSSFLJVWAMDKUGZM5HLSSBNAY"
+    }
+  ],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 57,
+  "timeTakenForQuotes": 409,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForQuestions": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "timeTakenForSearchLists": 0
+}

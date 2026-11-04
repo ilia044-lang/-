@@ -1,0 +1,715 @@
+1
+00:00:00,040 --> 00:00:03,410
+If the United States and Israel launch another major strike
+
+2
+00:00:03,410 --> 00:00:06,520
+on Iran, does the market have to crash?
+
+3
+00:00:06,520 --> 00:00:09,312
+After the American strikes in June twenty twenty five, stocks
+
+4
+00:00:09,312 --> 00:00:14,298
+actually finished the next trading session higher, while Brent oil
+
+5
+00:00:14,298 --> 00:00:16,020
+fell more than seven percent.
+
+6
+00:00:16,020 --> 00:00:20,392
+The key is what happens to supply, retaliation, and expectations.
+
+7
+00:00:20,582 --> 00:00:24,994
+This is a scenario analysis prepared on November third, twenty
+
+8
+00:00:24,994 --> 00:00:25,622
+twenty six.
+
+9
+00:00:25,622 --> 00:00:29,502
+Market snapshots use completed November second closes.
+
+10
+00:00:29,502 --> 00:00:31,902
+News headlines are dated separately.
+
+11
+00:00:31,902 --> 00:00:34,942
+We are not announcing a new attack or assigning it
+
+12
+00:00:34,942 --> 00:00:36,102
+a probability.
+
+13
+00:00:36,102 --> 00:00:40,248
+We examined twenty eight market proxies and five historical event
+
+14
+00:00:40,248 --> 00:00:40,684
+dates.
+
+15
+00:00:40,873 --> 00:00:44,898
+A November fourth update: Reuters reports oil falling amid Iran
+
+16
+00:00:44,898 --> 00:00:46,669
+war uncertainty and the U.S.
+
+17
+00:00:46,669 --> 00:00:48,233
+midterm results.
+
+18
+00:00:48,233 --> 00:00:51,793
+Associated Press reports world shares mostly higher.
+
+19
+00:00:51,793 --> 00:00:56,560
+These are attributed headlines, not independently verified diplomatic or military
+
+20
+00:00:56,560 --> 00:00:57,433
+announcements.
+
+21
+00:00:57,433 --> 00:01:01,461
+The historical study and market charts remain dated November third,
+
+22
+00:01:01,461 --> 00:01:03,098
+using November second closes.
+
+23
+00:01:03,098 --> 00:01:05,891
+Elections and earnings also move prices.
+
+24
+00:01:06,082 --> 00:01:09,802
+A military headline can create an immediate risk premium.
+
+25
+00:01:09,802 --> 00:01:14,665
+A lasting economic shock needs a transmission mechanism: disrupted barrels,
+
+26
+00:01:14,665 --> 00:01:19,957
+damaged infrastructure, higher freight or insurance costs, or a wider
+
+27
+00:01:19,957 --> 00:01:20,722
+conflict.
+
+28
+00:01:20,722 --> 00:01:24,207
+Markets also react to the difference between what happened and
+
+29
+00:01:24,207 --> 00:01:25,842
+what was already feared.
+
+30
+00:01:25,842 --> 00:01:28,940
+Even a serious event can be followed by relief if
+
+31
+00:01:28,940 --> 00:01:31,600
+the outcome is less disruptive than expected.
+
+32
+00:01:31,790 --> 00:01:35,003
+The Strait of Hormuz links the Persian Gulf with the
+
+33
+00:01:35,003 --> 00:01:35,750
+Gulf of Oman.
+
+34
+00:01:35,750 --> 00:01:39,390
+Oil and liquefied natural gas move through this corridor.
+
+35
+00:01:39,390 --> 00:01:43,790
+The useful questions are whether ships actually transit, what insurers
+
+36
+00:01:43,790 --> 00:01:47,430
+charge, and whether export infrastructure keeps operating.
+
+37
+00:01:47,430 --> 00:01:50,450
+A threat to a route and a verified interruption are
+
+38
+00:01:50,450 --> 00:01:51,390
+different facts.
+
+39
+00:01:51,390 --> 00:01:54,306
+Do not treat an alarming map as proof that supplies
+
+40
+00:01:54,306 --> 00:01:55,267
+have stopped.
+
+41
+00:01:55,457 --> 00:01:58,459
+Our baseline is the last closing price before the first
+
+42
+00:01:58,459 --> 00:02:00,417
+affected American trading session.
+
+43
+00:02:00,417 --> 00:02:03,904
+Recovery means the first daily close back at or above
+
+44
+00:02:03,904 --> 00:02:04,617
+that level.
+
+45
+00:02:04,617 --> 00:02:07,617
+We count trading sessions after the event session.
+
+46
+00:02:07,617 --> 00:02:10,777
+Same session means no initial closing loss.
+
+47
+00:02:10,777 --> 00:02:13,577
+We also check two consecutive closes.
+
+48
+00:02:13,577 --> 00:02:18,020
+These are price returns, excluding dividends, not a guarantee that
+
+49
+00:02:18,020 --> 00:02:19,642
+a portfolio recovered.
+
+50
+00:02:19,832 --> 00:02:24,017
+On January third, twenty twenty, the United States killed Qassem
+
+51
+00:02:24,017 --> 00:02:25,512
+Soleimani in Iraq.
+
+52
+00:02:25,512 --> 00:02:29,545
+This was an escalation with Iran, not a strike inside
+
+53
+00:02:29,545 --> 00:02:29,912
+Iran.
+
+54
+00:02:29,912 --> 00:02:35,822
+SPY fell 0.76% that session and first regained its baseline
+
+55
+00:02:35,822 --> 00:02:39,272
+on January ninth, four trading sessions later.
+
+56
+00:02:39,272 --> 00:02:41,559
+QQQ recovered in three.
+
+57
+00:02:41,748 --> 00:02:47,215
+After the Israeli strike in Iran on April nineteenth, twenty
+
+58
+00:02:47,215 --> 00:02:50,348
+twenty four, SPY closed down zero point eight seven percent.
+
+59
+00:02:50,348 --> 00:02:53,628
+QQQ fell two point zero seven percent.
+
+60
+00:02:53,628 --> 00:02:59,197
+SPY first recovered on the next session, April twenty second;
+
+61
+00:02:59,197 --> 00:03:00,868
+QQQ on April twenty third.
+
+62
+00:03:00,868 --> 00:03:05,099
+Those closing recoveries do not erase intraday volatility or prove
+
+63
+00:03:05,099 --> 00:03:07,600
+that every loss was caused by the strike.
+
+64
+00:03:07,790 --> 00:03:11,670
+Israel's October twenty sixth strikes occurred over a weekend.
+
+65
+00:03:11,670 --> 00:03:14,317
+On Monday, SPY finished zero point three one percent above
+
+66
+00:03:14,317 --> 00:03:19,479
+its prior close, while Brent's front month price series fell
+
+67
+00:03:19,479 --> 00:03:20,790
+about six percent.
+
+68
+00:03:20,790 --> 00:03:24,870
+There was no initial closing loss to recover in SPY.
+
+69
+00:03:24,870 --> 00:03:28,209
+Stocks did fall below that baseline later, so a green
+
+70
+00:03:28,209 --> 00:03:30,517
+first day was not an all clear signal.
+
+71
+00:03:30,707 --> 00:03:34,319
+The opening Israeli strikes in June twenty twenty five produced
+
+72
+00:03:34,319 --> 00:03:35,867
+a different pattern.
+
+73
+00:03:35,867 --> 00:03:39,965
+On June thirteenth, SPY fell one point one two percent,
+
+74
+00:03:39,965 --> 00:03:44,951
+QQQ fell one point two six, and Brent rose about
+
+75
+00:03:44,951 --> 00:03:45,907
+seven percent.
+
+76
+00:03:45,907 --> 00:03:48,725
+The VIX rose more than fifteen percent.
+
+77
+00:03:48,915 --> 00:03:53,371
+SPY first regained its June twelfth closing level on June
+
+78
+00:03:53,371 --> 00:03:57,395
+twenty fourth, six trading sessions after the initial strike session.
+
+79
+00:03:57,395 --> 00:04:02,114
+QQQ briefly regained its baseline on June sixteenth, only one
+
+80
+00:04:02,114 --> 00:04:05,035
+session later, then fell below it again.
+
+81
+00:04:05,035 --> 00:04:10,275
+Its first confirmation with two consecutive closes above baseline arrived
+
+82
+00:04:10,275 --> 00:04:11,355
+on June twenty fifth.
+
+83
+00:04:11,355 --> 00:04:13,433
+The definition changes the answer.
+
+84
+00:04:13,623 --> 00:04:17,605
+The American strikes on Iranian nuclear facilities came during the
+
+85
+00:04:17,605 --> 00:04:18,723
+following weekend.
+
+86
+00:04:18,723 --> 00:04:23,383
+On Monday, June twenty third, SPY gained about one percent,
+
+87
+00:04:23,383 --> 00:04:28,416
+QQQ gained zero point nine one percent, and Brent fell
+
+88
+00:04:28,416 --> 00:04:29,583
+seven point one eight percent.
+
+89
+00:04:29,583 --> 00:04:33,461
+These observations contradict a mechanical rule that every strike must
+
+90
+00:04:33,461 --> 00:04:35,323
+lower stocks and raise oil.
+
+91
+00:04:35,323 --> 00:04:38,850
+They do not prove that future escalation will be harmless.
+
+92
+00:04:39,040 --> 00:04:42,931
+The comparison contains fast recoveries and sessions that began with
+
+93
+00:04:42,931 --> 00:04:44,920
+no closing loss at all.
+
+94
+00:04:44,920 --> 00:04:48,284
+It does not provide a reliable average waiting time for
+
+95
+00:04:48,284 --> 00:04:49,000
+the next war.
+
+96
+00:04:49,000 --> 00:04:52,712
+The two June events overlap, so they are not independent
+
+97
+00:04:52,712 --> 00:04:53,600
+experiments.
+
+98
+00:04:53,600 --> 00:04:59,960
+Earnings, inflation, monetary policy, and later developments also affected prices.
+
+99
+00:04:59,960 --> 00:05:03,780
+Twenty session performance measures what happened afterward, not the isolated
+
+100
+00:05:03,780 --> 00:05:05,433
+effect of an attack.
+
+101
+00:05:05,623 --> 00:05:08,983
+Gold and government bonds do not always move together.
+
+102
+00:05:08,983 --> 00:05:13,393
+On June thirteenth, the gold fund GLD rose about one
+
+103
+00:05:13,393 --> 00:05:18,363
+point three percent, while the long duration Treasury fund TLT
+
+104
+00:05:18,363 --> 00:05:20,263
+fell almost one percent.
+
+105
+00:05:20,263 --> 00:05:24,721
+Higher oil can intensify inflation concerns even when investors want
+
+106
+00:05:24,721 --> 00:05:25,433
+protection.
+
+107
+00:05:25,623 --> 00:05:27,543
+Sector exposure matters.
+
+108
+00:05:27,543 --> 00:05:32,668
+On that June thirteenth session, the energy fund XLE rose
+
+109
+00:05:32,668 --> 00:05:33,543
+about one point seven percent.
+
+110
+00:05:33,543 --> 00:05:38,103
+The airline fund JETS fell about three point five, while
+
+111
+00:05:38,103 --> 00:05:42,423
+semiconductor stocks in SOXX lost about two point six.
+
+112
+00:05:42,423 --> 00:05:47,000
+The aerospace and defense fund ITA rose only zero point
+
+113
+00:05:47,000 --> 00:05:47,183
+four.
+
+114
+00:05:47,183 --> 00:05:51,891
+A compelling geopolitical story is not a guaranteed profitable trade.
+
+115
+00:05:52,082 --> 00:05:56,842
+Bitcoin trades during weekends, while American stock funds do not.
+
+116
+00:05:56,842 --> 00:06:01,039
+Around the June twenty second American strike date, Bitcoin's UTC
+
+117
+00:06:01,039 --> 00:06:04,282
+daily close fell about one point two percent, then rebounded
+
+118
+00:06:04,282 --> 00:06:07,162
+about four point six percent the next day.
+
+119
+00:06:07,162 --> 00:06:10,802
+A daily close can hide a much larger intraday move.
+
+120
+00:06:10,802 --> 00:06:14,124
+Keep calendar days separate from trading sessions, and do not
+
+121
+00:06:14,124 --> 00:06:16,934
+assume Bitcoin is a guaranteed crisis hedge.
+
+122
+00:06:17,123 --> 00:06:19,683
+The November second starting point matters.
+
+123
+00:06:19,683 --> 00:06:24,161
+SPY closed near seven hundred fifty two dollars, QQQ near
+
+124
+00:06:24,161 --> 00:06:28,024
+six hundred eighty one, and the VIX at twenty one
+
+125
+00:06:28,024 --> 00:06:28,683
+point one five.
+
+126
+00:06:28,683 --> 00:06:32,283
+West Texas oil was around ninety six dollars.
+
+127
+00:06:32,283 --> 00:06:34,883
+These are dated closing observations.
+
+128
+00:06:34,883 --> 00:06:40,077
+Valuations, positioning, inflation, and the scale of existing disruption differ
+
+129
+00:06:40,077 --> 00:06:41,850
+from the earlier episodes.
+
+130
+00:06:42,040 --> 00:06:43,760
+Consider three paths.
+
+131
+00:06:43,760 --> 00:06:47,517
+A limited strike with continued exports could produce a brief
+
+132
+00:06:47,517 --> 00:06:49,560
+risk premium followed by relief.
+
+133
+00:06:49,560 --> 00:06:53,800
+A sustained supply interruption could keep energy costs and inflation
+
+134
+00:06:53,800 --> 00:06:55,040
+pressure elevated.
+
+135
+00:06:55,040 --> 00:06:59,838
+A wider regional conflict could damage confidence, earnings, and credit
+
+136
+00:06:59,838 --> 00:07:01,400
+conditions for longer.
+
+137
+00:07:01,400 --> 00:07:05,225
+No probabilities or guaranteed price targets are assigned here.
+
+138
+00:07:05,415 --> 00:07:08,775
+The pressure can travel from oil and freight into airline
+
+139
+00:07:08,775 --> 00:07:12,495
+costs, consumer spending, and company margins.
+
+140
+00:07:12,495 --> 00:07:16,535
+Persistent inflation can limit how quickly central banks ease policy.
+
+141
+00:07:16,535 --> 00:07:20,238
+Higher discount rates can pressure long duration growth stocks.
+
+142
+00:07:20,238 --> 00:07:24,415
+But demand destruction can eventually weaken oil itself.
+
+143
+00:07:24,415 --> 00:07:26,946
+That is why the same asset can react differently at
+
+144
+00:07:26,946 --> 00:07:29,808
+the beginning and later in a prolonged conflict.
+
+145
+00:07:29,998 --> 00:07:35,431
+Track several indicators together: oil prices and verified shipping activity,
+
+146
+00:07:35,431 --> 00:07:40,478
+volatility, the dollar, Treasury yields, credit spreads, and market breadth.
+
+147
+00:07:40,478 --> 00:07:43,758
+A high VIX alone does not tell you the direction
+
+148
+00:07:43,758 --> 00:07:45,158
+of the next session.
+
+149
+00:07:45,158 --> 00:07:48,153
+A high yield bond fund's price is not the same
+
+150
+00:07:48,153 --> 00:07:49,641
+thing as a credit spread.
+
+151
+00:07:49,832 --> 00:07:55,631
+On the November second snapshot, QQQ's two hundred day average
+
+152
+00:07:55,631 --> 00:07:58,319
+was near six hundred eighty dollars, close to its six
+
+153
+00:07:58,319 --> 00:07:59,592
+hundred eighty one dollar close.
+
+154
+00:07:59,592 --> 00:08:03,608
+SPY's fifty day average was near seven hundred sixty seven,
+
+155
+00:08:03,608 --> 00:08:05,152
+above price.
+
+156
+00:08:05,152 --> 00:08:08,832
+A break or reclaim can help organize observation.
+
+157
+00:08:08,832 --> 00:08:11,559
+It cannot tell us whether diplomacy succeeds.
+
+158
+00:08:11,748 --> 00:08:15,839
+If markets reopen after a weekend shock, prices can gap
+
+159
+00:08:15,839 --> 00:08:16,748
+past a stop.
+
+160
+00:08:16,748 --> 00:08:20,806
+Leverage and concentration can turn a temporary drawdown into a
+
+161
+00:08:20,806 --> 00:08:21,748
+permanent loss.
+
+162
+00:08:21,748 --> 00:08:26,387
+The relevant questions are your exposure, time horizon, cash needs,
+
+163
+00:08:26,387 --> 00:08:28,748
+and ability to absorb volatility.
+
+164
+00:08:28,748 --> 00:08:32,435
+History is not permission to buy blindly, and a frightening
+
+165
+00:08:32,435 --> 00:08:36,225
+headline is not a universal instruction to sell everything.
+
+166
+00:08:36,415 --> 00:08:41,028
+Evidence of continued exports, lower insurance stress, and credible de
+
+167
+00:08:41,028 --> 00:08:44,815
+escalation would weaken the prolonged disruption scenario.
+
+168
+00:08:44,815 --> 00:08:49,507
+Confirmed damage to export capacity, sustained shipping interruptions, and wider
+
+169
+00:08:49,507 --> 00:08:51,775
+credit stress would strengthen it.
+
+170
+00:08:51,775 --> 00:08:54,935
+Verify the date and source of each report.
+
+171
+00:08:54,935 --> 00:09:00,933
+Our analysis separates dated observations, attributed reporting, and conditional scenarios.
+
+172
+00:09:01,123 --> 00:09:03,403
+So how quickly does the market recover?
+
+173
+00:09:03,403 --> 00:09:06,563
+In these examples, the first recovery ranged from the same
+
+174
+00:09:06,563 --> 00:09:10,236
+session to several trading sessions, but that says little about
+
+175
+00:09:10,236 --> 00:09:12,603
+a new, sustained supply shock.
+
+176
+00:09:12,603 --> 00:09:15,523
+Watch what changes in the real economy.
+
+177
+00:09:15,523 --> 00:09:19,323
+Subscribe to Market Mind Trading Basics for the next update.
+
+178
+00:09:19,323 --> 00:09:21,603
+I am not a licensed advisor.
+
+179
+00:09:21,603 --> 00:09:25,475
+Education only, not a recommendation to buy or sell.
