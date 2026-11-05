@@ -1,0 +1,1 @@
+source: https://github.com/lemomo-ai/lemo-opuscar @ bebbbe1 (2026-11-01), MIT
