@@ -13,3 +13,4 @@ build/thumb/*.html
 __pycache__/
 *.log
 assets/audio/sfx/*.wav
+assets/audio/vo_en_old_uneven/
