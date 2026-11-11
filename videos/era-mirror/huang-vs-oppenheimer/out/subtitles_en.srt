@@ -1,0 +1,628 @@
+1
+00:00:00,350 --> 00:00:06,960
+Before you judge Jensen Huang, look at what one night in 1943 cost America.
+
+2
+00:00:07,300 --> 00:00:08,048
+That spring,
+
+3
+00:00:08,088 --> 00:00:15,010
+the man building the atomic bomb spent a night with a woman the government suspected of ties to the enemy.
+
+4
+00:00:15,350 --> 00:00:20,610
+Army agents sat outside her apartment until morning, and wrote it all down.
+
+5
+00:00:20,950 --> 00:00:26,861
+Eleven years later, that night was read back to him in a closed room in Washington.
+
+6
+00:00:26,901 --> 00:00:27,435
+He lost.
+
+7
+00:00:27,775 --> 00:00:33,910
+And it took the United States sixty-eight years to admit the process was rigged against him.
+
+8
+00:00:34,250 --> 00:00:38,164
+Now the man who builds the chips behind American A. I.
+
+9
+00:00:38,204 --> 00:00:41,165
+has admitted an affair with a woman U. S.
+
+10
+00:00:41,205 --> 00:00:44,460
+intelligence believes was recruited by China.
+
+11
+00:00:44,800 --> 00:00:49,285
+On November eighteenth, Congress wants him in a closed room too.
+
+12
+00:00:49,625 --> 00:00:52,754
+So what did America actually find the last time?
+
+13
+00:00:52,794 --> 00:00:55,460
+And why did it take the whole thing back?
+
+14
+00:00:56,250 --> 00:00:58,535
+Start with what is confirmed.
+
+15
+00:00:58,875 --> 00:01:05,174
+On Sunday, November eighth, 2026, Jensen Huang emailed Nvidia's employees.
+
+16
+00:01:05,214 --> 00:01:09,285
+Six words mattered. I was unfaithful to my wife.
+
+17
+00:01:09,625 --> 00:01:16,010
+The same day, Nvidia's board opened an independent investigation of its own founder.
+
+18
+00:01:16,350 --> 00:01:21,163
+The woman is Alice Huang. No relation. She is a Chinese citizen,
+
+19
+00:01:21,203 --> 00:01:25,485
+and a former executive at Megaspeed, a Singapore company.
+
+20
+00:01:25,825 --> 00:01:27,896
+According to the New York Times,
+
+21
+00:01:27,936 --> 00:01:32,910
+Megaspeed bought about four point eight billion dollars of Nvidia equipment.
+
+22
+00:01:33,250 --> 00:01:35,835
+Here is what is not confirmed. U. S.
+
+23
+00:01:35,875 --> 00:01:40,210
+intelligence officials believe she was recruited by Beijing.
+
+24
+00:01:40,550 --> 00:01:45,349
+That is an assessment, reported by the Times and by N. B. C. News.
+
+25
+00:01:45,389 --> 00:01:48,135
+Nobody has been charged with anything.
+
+26
+00:01:48,475 --> 00:01:50,621
+China calls the claim baseless.
+
+27
+00:01:50,661 --> 00:01:56,685
+And Nvidia's board says it has no reason to believe that any secrets were compromised.
+
+28
+00:01:57,025 --> 00:02:01,973
+But one sentence is now a problem. In October, before the admission,
+
+29
+00:02:02,013 --> 00:02:08,135
+Huang told Bloomberg the relationship was, quote, completely normal and not unusual.
+
+30
+00:02:08,925 --> 00:02:11,760
+Why does a private affair shake a market?
+
+31
+00:02:12,100 --> 00:02:19,410
+Because one Wall Street analyst says Nvidia would be worth twenty-five to thirty percent less without him.
+
+32
+00:02:19,750 --> 00:02:23,445
+In two days, the stock lost more than ten percent.
+
+33
+00:02:23,485 --> 00:02:26,135
+Almost five hundred billion dollars.
+
+34
+00:02:26,475 --> 00:02:29,165
+In Washington, the question is simpler.
+
+35
+00:02:29,205 --> 00:02:34,485
+Can the man at the center of America's most strategic technology be trusted?
+
+36
+00:02:34,825 --> 00:02:39,706
+America has asked that exact question before. About a different man.
+
+37
+00:02:39,746 --> 00:02:41,660
+And a different technology.
+
+38
+00:02:42,450 --> 00:02:47,924
+Spring, 1943. Robert Oppenheimer is about to leave for Los Alamos,
+
+39
+00:02:47,964 --> 00:02:52,185
+to run the most secret project in American history.
+
+40
+00:02:52,525 --> 00:02:56,695
+Before he goes, he visits Jean Tatlock, in San Francisco.
+
+41
+00:02:56,735 --> 00:03:02,160
+She was his first real love. She was also a member of the Communist Party.
+
+42
+00:03:02,500 --> 00:03:03,764
+He stays the night.
+
+43
+00:03:03,804 --> 00:03:08,706
+He does not know that agents from Army intelligence are waiting outside,
+
+44
+00:03:08,746 --> 00:03:10,285
+watching until morning.
+
+45
+00:03:10,625 --> 00:03:13,135
+Their report goes to the F. B. I.
+
+46
+00:03:13,475 --> 00:03:16,785
+The Bureau taps her phone. It finds nothing.
+
+47
+00:03:17,125 --> 00:03:20,945
+About six months later, Jean Tatlock takes her own life.
+
+48
+00:03:20,985 --> 00:03:24,460
+She was never shown to have passed a single secret.
+
+49
+00:03:24,800 --> 00:03:27,335
+The file stays open anyway.
+
+50
+00:03:28,125 --> 00:03:31,581
+Ten years pass. The bomb works. The war ends.
+
+51
+00:03:31,621 --> 00:03:36,010
+Oppenheimer becomes the most famous scientist in America.
+
+52
+00:03:36,350 --> 00:03:40,483
+And he starts saying things powerful people do not want to hear.
+
+53
+00:03:40,523 --> 00:03:44,460
+He argues against a crash program to build the hydrogen bomb.
+
+54
+00:03:44,800 --> 00:03:46,157
+In November 1953,
+
+55
+00:03:46,197 --> 00:03:51,992
+a former congressional staff director named William Borden writes to J.
+
+56
+00:03:52,032 --> 00:03:53,060
+Edgar Hoover.
+
+57
+00:03:53,400 --> 00:03:59,635
+His conclusion. More probably than not, Oppenheimer is an agent of the Soviet Union.
+
+58
+00:03:59,975 --> 00:04:04,957
+Four days before Christmas, the chairman of the Atomic Energy Commission,
+
+59
+00:04:04,997 --> 00:04:10,391
+Lewis Strauss, calls him in. His clearance is suspended. He can resign quietly,
+
+60
+00:04:10,431 --> 00:04:11,010
+or fight.
+
+61
+00:04:11,350 --> 00:04:16,185
+He fights. Two days later, the charges arrive. Twenty-four of them.
+
+62
+00:04:16,525 --> 00:04:21,703
+And there, in an official government letter, is the night from 1943.
+
+63
+00:04:21,743 --> 00:04:25,310
+Intimately associated with Doctor Jean Tatlock.
+
+64
+00:04:26,100 --> 00:04:29,060
+Now hold that next to 2026.
+
+65
+00:04:29,400 --> 00:04:33,375
+According to reporting by the New York Times and Axios,
+
+66
+00:04:33,415 --> 00:04:41,185
+a classified memo about Jensen Huang's relationship circulated inside the Trump administration last spring.
+
+67
+00:04:41,525 --> 00:04:45,310
+It reportedly drew on surveillance of Alice Huang.
+
+68
+00:04:45,650 --> 00:04:49,324
+And in May, on Air Force One, on the way to Beijing,
+
+69
+00:04:49,364 --> 00:04:55,110
+Secretary of State Marco Rubio is reported to have warned the president directly.
+
+70
+00:04:55,450 --> 00:04:57,707
+Huang joined that trip in Alaska.
+
+71
+00:04:57,747 --> 00:05:02,510
+The president says the warning did not make much of an impact on him.
+
+72
+00:05:02,850 --> 00:05:08,635
+In both stories, the file existed long before anyone said a word in public.
+
+73
+00:05:09,425 --> 00:05:15,787
+April twelfth, 1954. A temporary government building off Constitution Avenue.
+
+74
+00:05:15,827 --> 00:05:20,360
+An office turned into a courtroom. No press. No public.
+
+75
+00:05:20,700 --> 00:05:24,567
+Oppenheimer believes a fair hearing will clear his name.
+
+76
+00:05:24,607 --> 00:05:26,660
+Here is what he does not know.
+
+77
+00:05:27,000 --> 00:05:30,160
+The F. B. I. has bugged his lawyer's office.
+
+78
+00:05:30,500 --> 00:05:35,405
+The prosecution reads at least two hundred seventy-three wiretap reports,
+
+79
+00:05:35,445 --> 00:05:38,860
+including his conversations with his own attorneys.
+
+80
+00:05:39,200 --> 00:05:43,731
+And for the week before the hearing began, the prosecutor, Roger Robb,
+
+81
+00:05:43,771 --> 00:05:48,760
+sat with the three men who would judge him, going through the F. B. I. files.
+
+82
+00:05:49,100 --> 00:05:51,251
+The defense was not in the room.
+
+83
+00:05:51,291 --> 00:05:55,085
+The defense was never allowed to see those files at all.
+
+84
+00:05:55,875 --> 00:06:00,310
+He testifies for twenty-seven hours. And Robb is ready.
+
+85
+00:06:00,650 --> 00:06:03,476
+He has a secret recording from 1943,
+
+86
+00:06:03,516 --> 00:06:09,128
+of Oppenheimer telling a security officer a story about a spy approach.
+
+87
+00:06:09,168 --> 00:06:11,835
+Parts of that story were invented.
+
+88
+00:06:12,175 --> 00:06:15,560
+Robb reads it back, and asks him why he did it.
+
+89
+00:06:15,900 --> 00:06:20,310
+Oppenheimer's answer is five words. Because I was an idiot.
+
+90
+00:06:20,650 --> 00:06:24,510
+Then comes the night. You spent the night with her, didn't you?
+
+91
+00:06:24,850 --> 00:06:26,060
+Yes.
+
+92
+00:06:26,400 --> 00:06:30,085
+That is when you were working on a secret war project?
+
+93
+00:06:30,425 --> 00:06:31,635
+Yes.
+
+94
+00:06:32,425 --> 00:06:34,739
+Two men, seventy-two years apart.
+
+95
+00:06:34,779 --> 00:06:40,160
+Each one gave a version of his private life that did not survive the record.
+
+96
+00:06:40,500 --> 00:06:45,160
+Huang said, completely normal. Weeks later, I was unfaithful.
+
+97
+00:06:45,500 --> 00:06:49,456
+According to Fortune, that gap, not the affair itself,
+
+98
+00:06:49,496 --> 00:06:52,860
+is what the board's investigators may examine.
+
+99
+00:06:53,200 --> 00:06:56,235
+It was the gap that sank Oppenheimer too.
+
+100
+00:06:57,025 --> 00:06:58,723
+Not everyone played along.
+
+101
+00:06:58,763 --> 00:07:03,735
+The physicist Isidor Rabi told the board what he thought of the proceeding.
+
+102
+00:07:04,075 --> 00:07:09,385
+We have an A-bomb, and a whole series of it. And what more do you want, mermaids?
+
+103
+00:07:09,725 --> 00:07:13,395
+But Edward Teller, the champion of the hydrogen bomb,
+
+104
+00:07:13,435 --> 00:07:15,635
+said the sentence that mattered.
+
+105
+00:07:15,975 --> 00:07:21,710
+I would feel personally more secure if public matters would rest in other hands.
+
+106
+00:07:22,500 --> 00:07:26,135
+May twenty-seventh. The board votes two to one.
+
+107
+00:07:26,475 --> 00:07:32,010
+Read the verdict slowly, because it is one of the strangest in American history.
+
+108
+00:07:32,350 --> 00:07:37,140
+It finds no evidence of disloyalty. It records his love of country.
+
+109
+00:07:37,180 --> 00:07:40,960
+And it recommends that his clearance be taken anyway.
+
+110
+00:07:41,300 --> 00:07:45,510
+On June twenty-ninth, the commission confirms it, four to one.
+
+111
+00:07:45,850 --> 00:07:48,046
+Not for leaking. Not for spying.
+
+112
+00:07:48,086 --> 00:07:51,960
+For what it called fundamental defects in his character.
+
+113
+00:07:52,300 --> 00:07:56,229
+His consulting contract was due to expire two days later.
+
+114
+00:07:56,269 --> 00:07:59,710
+They could have let it run out. They ruled anyway.
+
+115
+00:08:00,500 --> 00:08:02,785
+So, was America safer?
+
+116
+00:08:03,125 --> 00:08:08,241
+In 1954, the United States had about three hundred nuclear weapons.
+
+117
+00:08:08,281 --> 00:08:12,935
+In the decades that followed, it built some seventy thousand.
+
+118
+00:08:13,275 --> 00:08:18,335
+Historians argue the hearing silenced the strongest voice for restraint.
+
+119
+00:08:18,675 --> 00:08:21,933
+And the case itself did not hold up. In 1959,
+
+120
+00:08:21,973 --> 00:08:28,090
+a lawyer for the commission reviewed it internally. He wrote that the system failed,
+
+121
+00:08:28,130 --> 00:08:32,635
+and that a substantial injustice was done to a loyal American.
+
+122
+00:08:32,975 --> 00:08:40,142
+In 1963, President Johnson handed Oppenheimer the Fermi Award. He died in 1967.
+
+123
+00:08:40,182 --> 00:08:43,335
+The verdict was still on the books.
+
+124
+00:08:43,675 --> 00:08:50,635
+Then, on December sixteenth, 2022, the Secretary of Energy formally vacated it.
+
+125
+00:08:50,975 --> 00:08:56,185
+The order says the process was flawed, and broke the commission's own rules.
+
+126
+00:08:56,525 --> 00:09:00,688
+And it says why it happened. Less out of concern for secrets.
+
+127
+00:09:00,728 --> 00:09:07,510
+More out of a desire to discredit Doctor Oppenheimer in public debates over nuclear weapons policy.
+
+128
+00:09:07,850 --> 00:09:12,661
+That is the lesson of 1954. The private life was the tool.
+
+129
+00:09:12,701 --> 00:09:14,835
+The policy was the target.
+
+130
+00:09:15,625 --> 00:09:18,560
+Now look at what surrounds Jensen Huang.
+
+131
+00:09:18,900 --> 00:09:22,727
+For years, Washington has been fighting over one question.
+
+132
+00:09:22,767 --> 00:09:26,260
+How many advanced chips should America sell to China?
+
+133
+00:09:26,600 --> 00:09:32,029
+Huang has argued in public for keeping that market open. Last December,
+
+134
+00:09:32,069 --> 00:09:37,035
+the administration allowed Nvidia's H 200 chips to be sold there.
+
+135
+00:09:37,375 --> 00:09:40,860
+Lawmakers in both parties want to restrict them.
+
+136
+00:09:41,200 --> 00:09:43,200
+Within days of his admission,
+
+137
+00:09:43,240 --> 00:09:47,843
+Senator Elizabeth Warren was urging Congress to pass those limits.
+
+138
+00:09:47,883 --> 00:09:50,235
+The policy fight had a new weapon.
+
+139
+00:09:51,025 --> 00:09:55,885
+None of this makes Huang another Oppenheimer. The differences are real.
+
+140
+00:09:56,225 --> 00:10:01,210
+Oppenheimer held a government clearance. Huang runs a private company.
+
+141
+00:10:01,550 --> 00:10:06,028
+In 1954, investigators had watched for more than a decade,
+
+142
+00:10:06,068 --> 00:10:10,235
+and never claimed that a single secret left his hands.
+
+143
+00:10:10,575 --> 00:10:17,360
+In 2026, nobody outside the government knows yet what, if anything, reached Beijing.
+
+144
+00:10:17,700 --> 00:10:21,887
+Jean Tatlock was never shown to be a spy. About Alice Huang,
+
+145
+00:10:21,927 --> 00:10:26,185
+there is an intelligence assessment that no court has tested.
+
+146
+00:10:26,525 --> 00:10:29,756
+If secrets were passed, that is a security case.
+
+147
+00:10:29,796 --> 00:10:32,210
+And it should be made with evidence.
+
+148
+00:10:33,000 --> 00:10:39,610
+But 1954 leaves a test for the closed room on November eighteenth. Three questions.
+
+149
+00:10:39,950 --> 00:10:44,470
+One. Is there evidence that something was actually compromised,
+
+150
+00:10:44,510 --> 00:10:46,135
+or only a relationship?
+
+151
+00:10:46,475 --> 00:10:49,535
+Two. Does the accused get to see the file?
+
+152
+00:10:49,875 --> 00:10:53,160
+Three. Who wins the policy fight if he falls?
+
+153
+00:10:53,500 --> 00:10:56,610
+America skipped all three with Oppenheimer.
+
+154
+00:10:56,950 --> 00:11:00,416
+It took sixty-eight years, forty-three senators,
+
+155
+00:11:00,456 --> 00:11:05,310
+and every living director of Los Alamos to get the answer on paper.
+
+156
+00:11:05,650 --> 00:11:10,835
+The board that judged him wrote that he was loyal. Watch what the next board writes.
+
+157
+00:11:11,175 --> 00:11:13,935
+The next mirror is on your screen now.
+

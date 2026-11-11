@@ -25,7 +25,7 @@ def s01(sc):
         {"t": l(3), "p": [1.5, 2.3, 12], "l": [-2.6, 1.5, 5.2]},
         {"t": end(3) + 0.3, "p": [-7.2, 1.75, 8.4], "l": [0, 5.3, -11.8]},
     ]
-    ex = fade_out(sc, sc.words("One night.", 0.0, 0.2, 96, 130, 1300, 150, cls="serif n") + sc.label("1943", 100, 300, 150, "serif a"), e(1) + 0.2)
+    ex = fade_out(sc, sc.label("One night.", 96, 130, 150, "serif n", 1300) + sc.label("1943", 100, 300, 150, "serif a"), e(1) + 0.2)
     ex += sc.block(sc.label("ARMY INTELLIGENCE AGENTS · OUTSIDE UNTIL MORNING", 96, 0, 32, "mono n", 1500), l(3) + 0.3, 0, 960)
     sc.three(0, end(3), "street", cam, opts=f'{{fn:function(t){{return {{dawn:Math.max(0,(t-{l(3) + 1.5:.2f})/{(end(3) - l(3)):.2f})*0.55}};}}}}', extra=ex)
     sc.recon(0.6, end(3))

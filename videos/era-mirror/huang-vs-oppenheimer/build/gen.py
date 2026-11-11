@@ -25,7 +25,7 @@ def wav_dur(p):
 timeline, t = [], LEAD
 missing = 0
 for sc in script["scenes"]:
-    L, E, t0 = [], [], t
+    L, E, t0 = [], [], (t if timeline else 0.0)
     for i, line in enumerate(sc["lines"], 1):
         p = ROOT / f"assets/audio/vo_en/{sc['id']}_{i:02d}.wav"
         if p.exists():
@@ -283,7 +283,7 @@ def main():
         (HF / "compositions" / f"{sid}.html").write_text(sc.build(), encoding="utf-8")
         hosts.append((sid, TL[sid]["start"], TL[sid]["dur"]))
         print(f"{sid} {TL[sid]['start']:7.2f} +{TL[sid]['dur']:6.2f}  shots={sc.z}")
-    off = hosts[0][1] - LEAD if ONLY else 0
+    off = hosts[0][1] if ONLY else 0
     total = (hosts[-1][1] + hosts[-1][2] - off) if ONLY else TOTAL
     host_html = "\n      ".join(
         f'<div id="{sid}" data-composition-id="{sid}" data-composition-src="compositions/{sid}.html" data-start="{r2(st - off)}" data-duration="{r2(du)}" data-track-index="{k + 1}" data-track-kind="graphics" data-width="1920" data-height="1080" style="z-index:{k + 1}"></div>'

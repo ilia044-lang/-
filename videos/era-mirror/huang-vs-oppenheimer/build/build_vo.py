@@ -18,7 +18,7 @@ def read(p, tempo=1.0):
         a = array.array("h"); a.frombytes(w.readframes(w.getnframes()))
     return a
 scenes = [s for s in T["scenes"] if not only or s["id"] in only]
-off = scenes[0]["start"] - 0.35 if only else 0
+off = scenes[0]["start"] if only else 0
 total = scenes[-1]["start"] + scenes[-1]["dur"] - off
 buf = array.array("h", bytes(2 * int(total * SR) + 2))
 report = []
