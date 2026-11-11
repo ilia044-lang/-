@@ -1,0 +1,432 @@
+{
+ "opp_portrait": {
+  "file": "opp_portrait.jpg",
+  "title": "File:Oppenheimer (cropped).jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "date": "1944",
+  "credit": "https://catalog.archives.gov/id/558579",
+  "source": "https://commons.wikimedia.org/wiki/File:Oppenheimer_(cropped).jpg",
+  "size": "1698x2471"
+ },
+ "opp_congress53": {
+  "file": "opp_congress53.jpg",
+  "title": "File:J. Robert Oppenheimer Testifies to Congress.jpg",
+  "license": "Public domain",
+  "artist": "Harris &amp; Ewing",
+  "date": "1953",
+  "credit": "eBay item 204800842857 – View/save archived versions on archive.org and megalodon.jp",
+  "source": "https://commons.wikimedia.org/wiki/File:J._Robert_Oppenheimer_Testifies_to_Congress.jpg",
+  "size": "1213x1503"
+ },
+ "opp_oakridge46": {
+  "file": "opp_oakridge46.jpg",
+  "title": "File:J. Robert Oppenheimer at the Guest Lodge, Oak Ridge, in 1946 4.jpg",
+  "license": "Public domain",
+  "artist": "Ed Westcott (U.S. Government photographer)",
+  "date": "1946-02",
+  "credit": "DOE Digital Archive Image 2017659",
+  "source": "https://commons.wikimedia.org/wiki/File:J._Robert_Oppenheimer_at_the_Guest_Lodge,_Oak_Ridge,_in_1946_4.jpg",
+  "size": "1280x1598"
+ },
+ "opp_badge": {
+  "file": "opp_badge.jpg",
+  "title": "File:Oppenheimer-j r ID badge.jpg",
+  "license": "Public domain",
+  "artist": "Laboratoire national de Los Alamos",
+  "date": "Années 40",
+  "credit": "Laboratoire national de Los Alamos, https://about.lanl.gov/history-innovation/badges/",
+  "source": "https://commons.wikimedia.org/wiki/File:Oppenheimer-j_r_ID_badge.jpg",
+  "size": "536x734"
+ },
+ "trinity_fireball": {
+  "file": "trinity_fireball.jpg",
+  "title": "File:Trinity Test Fireball 16ms.jpg",
+  "license": "Public domain",
+  "artist": "Berlyn Brixner / Los Alamos National Laboratory",
+  "date": "1945-07-16",
+  "credit": "http://www.lanl.gov/orgs/pa/photos/images/PA-98-0520.jpeg",
+  "source": "https://commons.wikimedia.org/wiki/File:Trinity_Test_Fireball_16ms.jpg",
+  "size": "1483x1000"
+ },
+ "trinity_cloud": {
+  "file": "trinity_cloud.jpg",
+  "title": "File:Trinity Test Mushroom Cloud 12s.jpg",
+  "license": "Public domain",
+  "artist": "Federal government of the United States",
+  "date": "1945-07-16",
+  "credit": "This image is available from the National Nuclear Security Administration Nevada Site Office Photo Library under number 174819. This tag does not indicate the c",
+  "source": "https://commons.wikimedia.org/wiki/File:Trinity_Test_Mushroom_Cloud_12s.jpg",
+  "size": "800x991"
+ },
+ "opp_groves_trinity": {
+  "file": "opp_groves_trinity.jpg",
+  "title": "File:Trinity Test - Oppenheimer and Groves at Ground Zero 002.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Army Corps of Engineers",
+  "date": "1945-09",
+  "credit": "https://www.lanl.gov/history/gallery.php?story_id=46&amp;subject=directors&amp;director=Oppenheimer&amp;page_num=&amp;row_num=0&amp;photo_id=124",
+  "source": "https://commons.wikimedia.org/wiki/File:Trinity_Test_-_Oppenheimer_and_Groves_at_Ground_Zero_002.jpg",
+  "size": "2622x3386"
+ },
+ "teller58": {
+  "file": "teller58.jpg",
+  "title": "File:Edward Teller (1958)-LLNL-restored.jpg",
+  "license": "Public domain",
+  "artist": "Edward_Teller_(1958)-LLNL.jpg: UnknownUnknown derivative work: PawełMM (talk)",
+  "date": "2010-06-10 06:48",
+  "credit": "Edward_Teller_(1958)-LLNL.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Edward_Teller_(1958)-LLNL-restored.jpg",
+  "size": "1339x1944"
+ },
+ "strauss_ike54": {
+  "file": "strauss_ike54.jpg",
+  "title": "File:Eisenhower and Strauss.jpg",
+  "license": "Public domain",
+  "artist": "NARA photograph",
+  "date": "1954-03-30",
+  "credit": "https://www.eisenhower.archives.gov/dl/Atoms_For_Peace/Atoms_For_Peace.html, https://www.eisenhower.archives.gov/research/digital_documents/Atoms_For_Peace/New%",
+  "source": "https://commons.wikimedia.org/wiki/File:Eisenhower_and_Strauss.jpg",
+  "size": "1401x1108"
+ },
+ "fermi63_b": {
+  "file": "fermi63_b.jpg",
+  "title": "File:HD.3C.022 (10579507263).jpg",
+  "license": "Public domain",
+  "artist": "ENERGY.GOV",
+  "date": "1963-12-02",
+  "credit": "HD.3C.022",
+  "source": "https://commons.wikimedia.org/wiki/File:HD.3C.022_(10579507263).jpg",
+  "size": "3200x2516"
+ },
+ "fermi63_a": {
+  "file": "fermi63_a.jpg",
+  "title": "File:HD.4G.012 (10405626084).jpg",
+  "license": "Public domain",
+  "artist": "ENERGY.GOV",
+  "date": "1963-12-02",
+  "credit": "HD.4G.012",
+  "source": "https://commons.wikimedia.org/wiki/File:HD.4G.012_(10405626084).jpg",
+  "size": "3200x2588"
+ },
+ "fermi63_c": {
+  "file": "fermi63_c.jpg",
+  "title": "File:HD.4G.029 (10537627874).jpg",
+  "license": "Public domain",
+  "artist": "ENERGY.GOV",
+  "date": "1963-12-02",
+  "credit": "HD.4G.029",
+  "source": "https://commons.wikimedia.org/wiki/File:HD.4G.029_(10537627874).jpg",
+  "size": "2667x2038"
+ },
+ "rabi": {
+  "file": "rabi.jpg",
+  "title": "File:II Rabi.jpg",
+  "license": "Public domain",
+  "artist": "Nobel Foundation",
+  "date": "1944",
+  "credit": "http://nobelprize.org/nobel_prizes/physics/laureates/1944/rabi-bio.html",
+  "source": "https://commons.wikimedia.org/wiki/File:II_Rabi.jpg",
+  "size": "992x1488"
+ },
+ "aec_doc_p7": {
+  "file": "aec_doc_p7.jpg",
+  "title": "File:In the Matter of J. Robert Oppenheimer- Texts of Principal Documents and Letters of Personnel Security Board General Manager Commissioners - DPLA - f07d432fd3893d33111aad735c2caab9 (page 7).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Atomic Energy Commission",
+  "date": "",
+  "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Matter_of_J._Robert_Oppenheimer-_Texts_of_Principal_Documents_and_Letters_of_Personnel_Security_Board_General_Manager_Commissioners_-_DPLA_-_f07d432fd3893d33111aad735c2caab9_(page_7).jpg",
+  "size": "3851x5720"
+ },
+ "huang_stanford_a": {
+  "file": "huang_stanford_a.jpg",
+  "title": "File:Jensen huang stanford 2026-04-30 008.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Anderseidesvik",
+  "date": "2026-04-30",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_008.jpg",
+  "size": "3888x5184"
+ },
+ "nichols": {
+  "file": "nichols.jpg",
+  "title": "File:Kenneth D. Nichols.jpeg",
+  "license": "Public domain",
+  "artist": "US Army",
+  "date": "circa 1950date QS:P,+1950-00-00T00:00:00",
+  "credit": "Defense's Nuclear Agency, p. 51",
+  "source": "https://commons.wikimedia.org/wiki/File:Kenneth_D._Nichols.jpeg",
+  "size": "436x545"
+ },
+ "strauss_oath53": {
+  "file": "strauss_oath53.jpg",
+  "title": "File:Lewis L Strauss takes oath of office as AEC chairman 1953.jpg",
+  "license": "Public domain",
+  "artist": "National Park Service",
+  "date": "1953-07-02",
+  "credit": "scan of page 141 of Richard Pfau biography of Strauss No Sacrifice Too Great (University Press of Virginia, 1984)",
+  "source": "https://commons.wikimedia.org/wiki/File:Lewis_L_Strauss_takes_oath_of_office_as_AEC_chairman_1953.jpg",
+  "size": "987x671"
+ },
+ "strauss_portrait": {
+  "file": "strauss_portrait.jpg",
+  "title": "File:Lewis Lichtenstein Strauss pers0164.jpg",
+  "license": "Public domain",
+  "artist": "Credit: National Oceanic and Atmospheric Administration/Department of Commerce [1]",
+  "date": "",
+  "credit": "http://www.photolib.noaa.gov/people/pers0164.htm (archived link at Internet Archive)",
+  "source": "https://commons.wikimedia.org/wiki/File:Lewis_Lichtenstein_Strauss_pers0164.jpg",
+  "size": "1064x1393"
+ },
+ "strauss_memo_p1": {
+  "file": "strauss_memo_p1.gif",
+  "title": "File:Oppenheimer admits lying during investigation - DPLA - 37e3e99e4adcdd469f6fc4f4fe3b1fdf (page 1).gif",
+  "license": "Public domain",
+  "artist": "Strauss, Lewis Lichtenstein, 1896-1974",
+  "date": "16 April 1954",
+  "credit": "File URL Catalog record",
+  "source": "https://commons.wikimedia.org/wiki/File:Oppenheimer_admits_lying_during_investigation_-_DPLA_-_37e3e99e4adcdd469f6fc4f4fe3b1fdf_(page_1).gif",
+  "size": "582x756"
+ },
+ "trinity_video": {
+  "file": null,
+  "title": "File:Trinity test.ogv",
+  "license": "Public domain",
+  "artist": "U.S. Department of Energy",
+  "date": "1945",
+  "credit": "http://www.nv.doe.gov/library/films/film.aspx?ID=91 (archive) http://www.nv.doe.gov/library/films/media/mpg/0800001.mpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Trinity_test.ogv",
+  "size": "321x240"
+ },
+ "airforceone": {
+  "file": "airforceone.jpg",
+  "title": "File:Air Force One over Mt. Rushmore.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Air Force File Photo.",
+  "date": "2001-02-10",
+  "credit": "https://web.archive.org/web/20070315005902/http://www.af.mil/news/airman/0104/trans21b.html, http://www.af.mil/shared/media/photodb/photos/021126-O-9999G-024.jp",
+  "source": "https://commons.wikimedia.org/wiki/File:Air_Force_One_over_Mt._Rushmore.jpg",
+  "size": "1900x1528"
+ },
+ "opp_einstein": {
+  "file": "opp_einstein.jpg",
+  "title": "File:Einstein oppenheimer.jpg",
+  "license": "Public domain",
+  "artist": "Image courtesy of US Govt. Defense Threat Reduction Agency",
+  "date": "circa 1950date QS:P,+1950-00-00T00:00:00",
+  "credit": "http://www.dtra.mil/press_resources/photo_library/CS/CS-1.cfm [dead link]",
+  "source": "https://commons.wikimedia.org/wiki/File:Einstein_oppenheimer.jpg",
+  "size": "995x753"
+ },
+ "smyth": {
+  "file": "smyth.jpg",
+  "title": "File:Henry DeWolf Smyth.jpg",
+  "license": "Public domain",
+  "artist": "Oren Jack Turner",
+  "date": "before 1968date QS:P,+1968-00-00T00:00:0",
+  "credit": "Oren Jack Turner, courtesy of AIP Emilio Segrè Visual Archives, NBLA ID: 313780",
+  "source": "https://commons.wikimedia.org/wiki/File:Henry_DeWolf_Smyth.jpg",
+  "size": "2431x3411"
+ },
+ "aec_doc_p1": {
+  "file": "aec_doc_p1.jpg",
+  "title": "File:In the Matter of J. Robert Oppenheimer- Texts of Principal Documents and Letters of Personnel Security Board General Manager Commissioners - DPLA - f07d432fd3893d33111aad735c2caab9 (page 1).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Atomic Energy Commission",
+  "date": "",
+  "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Matter_of_J._Robert_Oppenheimer-_Texts_of_Principal_Documents_and_Letters_of_Personnel_Security_Board_General_Manager_Commissioners_-_DPLA_-_f07d432fd3893d33111aad735c2caab9_(page_1).jpg",
+  "size": "3782x5710"
+ },
+ "aec_doc_p19": {
+  "file": "aec_doc_p19.jpg",
+  "title": "File:In the Matter of J. Robert Oppenheimer- Texts of Principal Documents and Letters of Personnel Security Board General Manager Commissioners - DPLA - f07d432fd3893d33111aad735c2caab9 (page 19).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Atomic Energy Commission",
+  "date": "",
+  "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Matter_of_J._Robert_Oppenheimer-_Texts_of_Principal_Documents_and_Letters_of_Personnel_Security_Board_General_Manager_Commissioners_-_DPLA_-_f07d432fd3893d33111aad735c2caab9_(page_19).jpg",
+  "size": "3875x5710"
+ },
+ "aec_doc_p20": {
+  "file": "aec_doc_p20.jpg",
+  "title": "File:In the Matter of J. Robert Oppenheimer- Texts of Principal Documents and Letters of Personnel Security Board General Manager Commissioners - DPLA - f07d432fd3893d33111aad735c2caab9 (page 20).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Atomic Energy Commission",
+  "date": "",
+  "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Matter_of_J._Robert_Oppenheimer-_Texts_of_Principal_Documents_and_Letters_of_Personnel_Security_Board_General_Manager_Commissioners_-_DPLA_-_f07d432fd3893d33111aad735c2caab9_(page_20).jpg",
+  "size": "3844x5730"
+ },
+ "aec_doc_p40": {
+  "file": "aec_doc_p40.jpg",
+  "title": "File:In the Matter of J. Robert Oppenheimer- Texts of Principal Documents and Letters of Personnel Security Board General Manager Commissioners - DPLA - f07d432fd3893d33111aad735c2caab9 (page 40).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Atomic Energy Commission",
+  "date": "",
+  "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Matter_of_J._Robert_Oppenheimer-_Texts_of_Principal_Documents_and_Letters_of_Personnel_Security_Board_General_Manager_Commissioners_-_DPLA_-_f07d432fd3893d33111aad735c2caab9_(page_40).jpg",
+  "size": "3830x5710"
+ },
+ "aec_doc_p52": {
+  "file": "aec_doc_p52.jpg",
+  "title": "File:In the Matter of J. Robert Oppenheimer- Texts of Principal Documents and Letters of Personnel Security Board General Manager Commissioners - DPLA - f07d432fd3893d33111aad735c2caab9 (page 52).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Atomic Energy Commission",
+  "date": "",
+  "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Matter_of_J._Robert_Oppenheimer-_Texts_of_Principal_Documents_and_Letters_of_Personnel_Security_Board_General_Manager_Commissioners_-_DPLA_-_f07d432fd3893d33111aad735c2caab9_(page_52).jpg",
+  "size": "3868x5720"
+ },
+ "ivymike": {
+  "file": "ivymike.jpg",
+  "title": "File:IvyMike2.jpg",
+  "license": "Public domain",
+  "artist": "Photo courtesy of National Nuclear Security Administration / Nevada Site Office",
+  "date": "1952-11-01 07:14",
+  "credit": "This image is available from the National Nuclear Security Administration Nevada Site Office Photo Library under number XX-11. This tag does not indicate the co",
+  "source": "https://commons.wikimedia.org/wiki/File:IvyMike2.jpg",
+  "size": "1470x1098"
+ },
+ "ivymike_video": {
+  "file": null,
+  "title": "File:Ivy Mike test.ogv",
+  "license": "Public domain",
+  "artist": "United States Department of Energy",
+  "date": "1952-11-01",
+  "credit": "http://www.nv.doe.gov/library/films/film.aspx?ID=81 http://www.nv.doe.gov/library/films/media/mpg/0800012.mpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Ivy_Mike_test.ogv",
+  "size": "1280x720"
+ },
+ "huang_computex": {
+  "file": "huang_computex.jpg",
+  "title": "File:Jensen Huang at Computex Taipei 20160531c.jpg",
+  "license": "CC BY 2.0",
+  "artist": "NVIDIA Taiwan",
+  "date": "2016-05-31",
+  "credit": "https://www.flickr.com/photos/nvidia-taiwan/27275077372",
+  "source": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg",
+  "size": "1280x854"
+ },
+ "huang_stanford_c": {
+  "file": "huang_stanford_c.jpg",
+  "title": "File:Jensen huang stanford 2026-04-30 024.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Anderseidesvik",
+  "date": "2026-04-30",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_024.jpg",
+  "size": "5184x3888"
+ },
+ "huang_stanford_b": {
+  "file": "huang_stanford_b.jpg",
+  "title": "File:Jensen huang stanford 2026-04-30 029.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Anderseidesvik",
+  "date": "2026-04-30",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_029.jpg",
+  "size": "4419x3314"
+ },
+ "ccp_committee": {
+  "file": "ccp_committee.jpg",
+  "title": "File:Joey Siu and Frances Hui with members of the House Select Committee on the Chinese Communist Party (2024).jpg",
+  "license": "Public domain",
+  "artist": "Adam Jackman (The Select Committee on the CCP)",
+  "date": "2024-05-23 15:55:12",
+  "credit": "5.23.24 Hong Kong Roundtable - Dropbox",
+  "source": "https://commons.wikimedia.org/wiki/File:Joey_Siu_and_Frances_Hui_with_members_of_the_House_Select_Committee_on_the_Chinese_Communist_Party_(2024).jpg",
+  "size": "1620x1080"
+ },
+ "nvidia_hq": {
+  "file": "nvidia_hq.jpg",
+  "title": "File:NVIDIA Headquarters.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "date": "2018-08-04 10:22:12",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+  "size": "4662x2852"
+ },
+ "nvidia_sign": {
+  "file": "nvidia_sign.jpg",
+  "title": "File:Nvidia sign.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Will Buckner",
+  "date": "2020-10-31 16:23:48",
+  "credit": "https://www.flickr.com/photos/willbuckner/50591924966/in/photolist-2k5CQGo",
+  "source": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+  "size": "3711x3020"
+ },
+ "rubio": {
+  "file": "rubio.jpg",
+  "title": "File:Official portrait of Secretary Marco Rubio, January 2025.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Department of State",
+  "date": "2025-01-23 08:56:09",
+  "credit": "https://www.flickr.com/photos/statephotos/54295399868/",
+  "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Secretary_Marco_Rubio,_January_2025.jpg",
+  "size": "2182x3000"
+ },
+ "gray_oath": {
+  "file": "gray_oath.jpg",
+  "title": "File:Photograph of Gordon Gray taking the oath of office as Director of the Psychological Strategy Board in the Oval... - NARA - 200329.jpg",
+  "license": "Public domain",
+  "artist": "Abbie Rowe",
+  "date": "18 July 1951date QS:P571,+1951-07-18T00:",
+  "credit": "U.S. National Archives and Records Administration",
+  "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_Gordon_Gray_taking_the_oath_of_office_as_Director_of_the_Psychological_Strategy_Board_in_the_Oval..._-_NARA_-_200329.jpg",
+  "size": "3000x2361"
+ },
+ "granholm": {
+  "file": "granholm.jpg",
+  "title": "File:Secretary Jennifer Granholm (cropped).jpg",
+  "license": "Public domain",
+  "artist": "U.S Department of Energy",
+  "date": "2021-02-16 10:37",
+  "credit": "https://www.energy.gov/contributors/jennifer-m-granholm",
+  "source": "https://commons.wikimedia.org/wiki/File:Secretary_Jennifer_Granholm_(cropped).jpg",
+  "size": "2325x2985"
+ },
+ "capitol": {
+  "file": "capitol.jpg",
+  "title": "File:US Capitol west side.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Martin Falbisoner",
+  "date": "2013-09-05 15:28:36",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+  "size": "3865x2000"
+ },
+ "hoover": {
+  "file": "hoover.jpg",
+  "title": "File:Hoover-JEdgar-LOC.jpg",
+  "license": "Public domain",
+  "artist": "Marion S. Trikosko",
+  "date": "1961-09-28",
+  "credit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.03262.This tag does not indicate",
+  "source": "https://commons.wikimedia.org/wiki/File:Hoover-JEdgar-LOC.jpg",
+  "size": "2406x3036"
+ },
+ "doe_order-1": {
+  "file": "doe_order-1.png",
+  "title": "Secretarial Order vacating the 1954 AEC decision, Dec. 16, 2022",
+  "license": "Public domain (U.S. Government work)",
+  "artist": "U.S. Department of Energy",
+  "date": "2022-12-16",
+  "credit": "energy.gov",
+  "source": "https://www.energy.gov/sites/default/files/2022-12/S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf",
+  "size": ""
+ },
+ "doe_order-2": {
+  "file": "doe_order-2.png",
+  "title": "Secretarial Order vacating the 1954 AEC decision, Dec. 16, 2022",
+  "license": "Public domain (U.S. Government work)",
+  "artist": "U.S. Department of Energy",
+  "date": "2022-12-16",
+  "credit": "energy.gov",
+  "source": "https://www.energy.gov/sites/default/files/2022-12/S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf",
+  "size": ""
+ }
+}

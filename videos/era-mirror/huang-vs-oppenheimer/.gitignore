@@ -1,0 +1,15 @@
+node_modules/
+.hyperframes/
+hf_s1/lib/
+hf_s2/lib/
+hf_s1/assets/img
+hf_s2/assets/img
+hf*/assets/audio/
+out/*.mp4
+out/*.m4a
+research/*.pdf
+research/pbs.txt
+build/thumb/*.html
+__pycache__/
+*.log
+assets/audio/sfx/*.wav

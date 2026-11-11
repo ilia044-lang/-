@@ -1,0 +1,26 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; background: #05070c; }
+    #t3d-cv { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  </style>
+  <div id="root" data-composition-id="t3d" data-width="1920" data-height="1080">
+    <canvas id="t3d-cv" class="clip" data-start="0" data-duration="6" width="1920" height="1080"></canvas>
+  </div>
+  <script src="lib/em3d.js"></script>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const draw = EM3D.street(document.getElementById("t3d-cv"));
+      const cam = [
+        { t: 0, p: [14, 9, 26], l: [0, 4, -10] },
+        { t: 3, p: [3, 2.2, 13], l: [-3, 1.4, 5] },
+        { t: 6, p: [-1.5, 1.7, 9.5], l: [2, 5.6, -12] },
+      ];
+      const st = { t: 0 };
+      const r = () => draw(st.t, { cam });
+      tl.to(st, { t: 6, duration: 6, ease: "none", onUpdate: r }, 0);
+      r();
+      window.__timelines["t3d"] = tl;
+    })();
+  </script>
+</template>

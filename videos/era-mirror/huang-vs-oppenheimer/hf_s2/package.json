@@ -1,0 +1,18 @@
+{
+  "name": "hf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.9.34 preview",
+    "check": "npx --yes hyperframes@0.9.34 check",
+    "render": "npx --yes hyperframes@0.9.34 render",
+    "publish": "npx --yes hyperframes@0.9.34 publish"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

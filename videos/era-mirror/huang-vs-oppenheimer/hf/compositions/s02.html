@@ -1,0 +1,118 @@
+<template>
+  <style>
+#root { position:absolute; inset:0; background:#0a0b0e; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:#f3efe6; }
+.shot { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }
+.in { position:absolute; left:0; top:0; width:1920px; height:1080px; }
+.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, #0a0b0e 78%); }
+.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }
+.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }
+.pcard { position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }
+.pcard img { display:block; width:100%; height:100%; object-fit:cover; }
+.cv { position:absolute; left:0; top:0; width:1920px; height:1080px; }
+.tx { position:absolute; line-height:1.12; }
+.tx .w { display:inline-block; white-space:pre; }
+.serif { font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }
+.mono { font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.a { color:#e6a94e; } .c { color:#56c8f5; } .n { color:#f3efe6; } .r { color:#ff4b3a; } .dim { color:rgba(243,239,230,.62); }
+.hud { position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }
+.src { position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }
+.src b { color:#f3efe6; font-weight:700; }
+.cred { position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }
+.recon { position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:#f3efe6; background:rgba(10,11,14,.6); }
+.flood { position:absolute; left:0; top:0; width:1920px; height:1080px; }
+.paper { position:absolute; background:#ece3cf; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }
+.paper .ph { font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }
+.paper .pl { margin-bottom:14px; }
+.paper .hl { background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }
+.row { position:absolute; left:160px; width:1600px; height:108px; }
+.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }
+.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }
+.row .l { left:360px; color:#e6a94e; } .row .rr { left:1010px; color:#56c8f5; }
+.rule { position:absolute; height:2px; background:rgba(243,239,230,.28); }
+.bar { position:absolute; }
+.sil { position:absolute; }
+</style>
+  <div id="root" data-composition-id="s02" data-width="1920" data-height="1080">
+    <div id="s02-o1" class="clip" data-start="0.500" data-duration="55.970" data-track-index="2" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:502"><div id="s02-o1-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">November 2026 · Santa Clara</div></div></div>
+    <div id="s02-s3" class="clip shot" data-start="0.000" data-duration="3.360" data-track-index="3" style="z-index:3"><div class="in" id="s02-s3-in"><div class="fill"></div><div id="s02-t2" class="tx serif n" style="left:160px;top:440px;width:1600px;font-size:130px;text-align:center;line-height:1.12"><span class="w" id="s02-t2-0">What </span><span class="w" id="s02-t2-1">is </span><span class="w c" id="s02-t2-2">confirmed</span></div></div></div>
+    <div id="s02-s7" class="clip shot" data-start="3.060" data-duration="8.600" data-track-index="4" style="z-index:4"><div class="in" id="s02-s7-in"><div class="fill"></div><div class="paper" id="s02-d4" style="left:180px;top:250px;width:900px;font-size:34px"><div class="ph">NVIDIA · A MESSAGE TO OUR COMPANY · NOV. 8, 2026</div><div class="pl" id="s02-d4-l0">From: Jensen Huang, founder and CEO</div><div class="pl" id="s02-d4-l1">To: all employees</div><div class="pl" id="s02-d4-l2">“<span class="hl" id="s02-d4-l2-h1">I was unfaithful to my wife.</span>”</div></div><div id="s02-b5" style="position:absolute;left:1160px;top:380px"><div class="tx serif n" style="left:0px;top:0px;width:700px;font-size:110px;text-align:left">SIX WORDS</div></div><div id="s02-b6" style="position:absolute;left:1166px;top:320px"><div class="tx mono c" style="left:0px;top:0px;width:700px;font-size:32px;text-align:left">SUNDAY · NOV. 8, 2026</div></div></div></div>
+    <div id="s02-o8" class="clip" data-start="3.860" data-duration="7.500" data-track-index="5" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:505"><div id="s02-o8-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Nvidia newsroom, “A Message to Our Company”</div></div></div>
+    <div id="s02-s12" class="clip shot" data-start="11.360" data-duration="5.160" data-track-index="6" style="z-index:6"><div class="in" id="s02-s12-in"><img class="pbg" id="s02-p11-bg" src="assets/img/nvidia_hq_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s02-p11" style="left:120px;top:232px;width:820px;height:576px"><img src="assets/img/nvidia_hq_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:120px;top:834px;width:820px;font-size:30px">NVIDIA HEADQUARTERS<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Santa Clara, California</div></div><div class="cred" data-layout-ignore>Coolcaesar · CC BY-SA 4.0</div><div id="s02-t9" class="tx serif n" style="left:1010px;top:300px;width:770px;font-size:70px;text-align:left;line-height:1.12"><span class="w" id="s02-t9-0">The </span><span class="w" id="s02-t9-1">board </span><span class="w" id="s02-t9-2">investigates </span><span class="w" id="s02-t9-3">its </span><span class="w" id="s02-t9-4">own </span><span class="w" id="s02-t9-5">founder.</span></div><div id="s02-b10" style="position:absolute;left:1010px;top:240px"><div class="tx mono c" style="left:0px;top:0px;width:770px;font-size:28px;text-align:left">INDEPENDENT INVESTIGATION · ANNOUNCED THE SAME DAY</div></div></div></div>
+    <div id="s02-o13" class="clip" data-start="11.860" data-duration="4.360" data-track-index="7" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:507"><div id="s02-o13-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Statement from Nvidia Board of Directors, Nov. 8, 2026</div></div></div>
+    <div id="s02-s21" class="clip shot" data-start="16.220" data-duration="12.740" data-track-index="8" style="z-index:8"><div class="in" id="s02-s21-in"><div class="fill"></div><svg class="sil" style="left:190px;top:240px" width="403" height="560" viewBox="0 0 72 100"><rect x="1" y="1" width="70" height="98" fill="rgba(243,239,230,.05)" stroke="#56c8f5" stroke-width="0.6"/><circle cx="36" cy="36" r="15" fill="rgba(243,239,230,.2)"/><path d="M8 99 C8 70 22 58 36 58 C50 58 64 70 64 99 Z" fill="rgba(243,239,230,.2)"/></svg><div class="tx mono dim" style="left:190px;top:818px;width:420px;font-size:28px;text-align:left">NO PHOTO SHOWN</div><div id="s02-t14" class="tx serif n" style="left:720px;top:230px;width:1000px;font-size:120px;text-align:left;line-height:1.12"><span class="w" id="s02-t14-0">Alice </span><span class="w" id="s02-t14-1">Huang</span></div><div id="s02-b15" style="position:absolute;left:726px;top:410px"><div class="tx mono c" style="left:0px;top:0px;width:1050px;font-size:34px;text-align:left">NO RELATION TO JENSEN HUANG</div></div><div id="s02-b16" style="position:absolute;left:726px;top:472px"><div class="tx mono c" style="left:0px;top:0px;width:1050px;font-size:34px;text-align:left">CHINESE CITIZEN</div></div><div id="s02-b17" style="position:absolute;left:726px;top:534px"><div class="tx mono c" style="left:0px;top:0px;width:1050px;font-size:34px;text-align:left">FORMER EXECUTIVE, MEGASPEED · SINGAPORE</div></div><div id="s02-b19" style="position:absolute;left:720px;top:610px"><div id="s02-n18" class="tx serif n" style="left:0px;top:0px;width:1050px;font-size:150px;text-align:left;font-variant-numeric:tabular-nums">$0 billion</div></div><div id="s02-b20" style="position:absolute;left:726px;top:800px"><div class="tx mono dim" style="left:0px;top:0px;width:1050px;font-size:28px;text-align:left">NVIDIA EQUIPMENT BOUGHT BY MEGASPEED · AS REPORTED BY THE NEW YORK TIMES</div></div></div></div>
+    <div id="s02-o22" class="clip" data-start="17.220" data-duration="11.440" data-track-index="9" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:509"><div id="s02-o22-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Al Jazeera, Nov. 9 · CNBC, Nov. 9 · New York Times</div></div></div>
+    <div id="s02-s29" class="clip shot" data-start="28.660" data-duration="19.040" data-track-index="10" style="z-index:10"><div class="in" id="s02-s29-in"><div class="fill"></div><div id="s02-t23" class="tx serif n" style="left:160px;top:150px;width:1600px;font-size:110px;text-align:left;line-height:1.12"><span class="w r" id="s02-t23-0">Not </span><span class="w" id="s02-t23-1">confirmed</span></div><div class="row" id="s02-r24" style="top:330px"><div class="k">THE CLAIM</div><div class="l" style="color:#f3efe6">Recruited by Beijing</div><div class="rr" style="color:#f3efe6">An intelligence assessment</div></div><div class="row" id="s02-r25" style="top:446px"><div class="k">REPORTED BY</div><div class="l" style="color:#f3efe6">New York Times</div><div class="rr" style="color:#f3efe6">NBC News</div></div><div class="row" id="s02-r26" style="top:562px"><div class="k">CRIMINAL CHARGES</div><div class="l" style="color:#f3efe6">Against him: none</div><div class="rr" style="color:#f3efe6">Against her: none</div></div><div class="row" id="s02-r27" style="top:678px"><div class="k">BEIJING</div><div class="l" style="color:#f3efe6">“Baseless”</div><div class="rr" style="color:#f3efe6"></div></div><div class="row" id="s02-r28" style="top:794px"><div class="k">NVIDIA BOARD</div><div class="l" style="color:#f3efe6">“No reason to believe”</div><div class="rr" style="color:#f3efe6">secrets were compromised</div></div></div></div>
+    <div id="s02-o30" class="clip" data-start="30.660" data-duration="16.740" data-track-index="11" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:511"><div id="s02-o30-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · NBC News · Al Jazeera · Nvidia board statement</div></div></div>
+    <div id="s02-s34" class="clip shot" data-start="47.400" data-duration="9.470" data-track-index="12" style="z-index:12"><div class="in" id="s02-s34-in"><img class="pbg" id="s02-p33-bg" src="assets/img/huang_stanford_b_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s02-p33" style="left:120px;top:212px;width:820px;height:615px"><img src="assets/img/huang_stanford_b_g.jpg" alt="" style="object-position:50% 25%"></div><div class="tx mono c" style="left:120px;top:854px;width:820px;font-size:30px">JENSEN HUANG<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Stanford University, April 30, 2026</div></div><div class="cred" data-layout-ignore>Anderseidesvik · CC BY-SA 4.0</div><div id="s02-t31" class="tx serif n" style="left:1010px;top:250px;width:770px;font-size:64px;text-align:left;line-height:1.12"><span class="w" id="s02-t31-0">“…completely </span><span class="w c" id="s02-t31-1">normal </span><span class="w" id="s02-t31-2">and </span><span class="w" id="s02-t31-3">not </span><span class="w" id="s02-t31-4">unusual.”</span></div><div id="s02-b32" style="position:absolute;left:1010px;top:800px"><div class="tx mono c" style="left:0px;top:0px;width:770px;font-size:28px;text-align:left">JENSEN HUANG TO BLOOMBERG NEWS · OCTOBER 2026</div></div></div></div>
+    <div id="s02-o35" class="clip" data-start="48.000" data-duration="8.870" data-track-index="13" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:513"><div id="s02-o35-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Quoted by Fortune, Nov. 9, 2026</div></div></div>
+    <div id="s02-fi" class="flood" style="background:#56c8f5;z-index:900" data-layout-ignore></div><div id="s02-fo" class="flood" style="background:#56c8f5;z-index:901" data-layout-ignore></div>
+  </div>
+  <script src="lib/em3d.js"></script>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#s02-o1-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.500);
+      tl.to("#s02-o1-in",{opacity:0,duration:0.18,ease:"power2.in"},56.280);
+      tl.fromTo("#s02-t2-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},0.150);
+      tl.fromTo("#s02-t2-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},0.660);
+      tl.fromTo("#s02-t2-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},1.170);
+      tl.fromTo("#s02-s3-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.000);
+      tl.fromTo("#s02-d4-l0",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},3.660);
+      tl.fromTo("#s02-d4-l1",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},4.060);
+      tl.fromTo("#s02-d4-l2-h1",{backgroundSize:"0% 78%"},{backgroundSize:"100% 78%",duration:0.55,ease:"power2.out"},8.460);
+      tl.fromTo("#s02-d4-l2",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},7.660);
+      tl.fromTo("#s02-d4",{rotationY:7,rotationX:3,scale:0.96,transformPerspective:1600},{rotationY:1,rotationX:0,scale:1.03,duration:8.600,ease:"sine.inOut"},3.060);
+      tl.fromTo("#s02-b5",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},6.660);
+      tl.fromTo("#s02-b6",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},3.460);
+      tl.fromTo("#s02-s7-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},3.060);
+      tl.fromTo("#s02-o8-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},3.860);
+      tl.to("#s02-o8-in",{opacity:0,duration:0.18,ease:"power2.in"},11.170);
+      tl.fromTo("#s02-t9-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.360);
+      tl.fromTo("#s02-t9-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.953);
+      tl.fromTo("#s02-t9-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},13.547);
+      tl.fromTo("#s02-t9-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},14.140);
+      tl.fromTo("#s02-t9-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},14.733);
+      tl.fromTo("#s02-t9-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},15.327);
+      tl.fromTo("#s02-b10",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},11.860);
+      tl.fromTo("#s02-s12-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},11.360);
+      tl.fromTo("#s02-p11-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:5.160,ease:"none"},11.360);
+      tl.fromTo("#s02-p11",{rotationY:5,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:-3,rotationX:-1,scale:1.045,duration:5.160,ease:"sine.inOut"},11.360);
+      tl.fromTo("#s02-o13-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},11.860);
+      tl.to("#s02-o13-in",{opacity:0,duration:0.18,ease:"power2.in"},16.030);
+      tl.fromTo("#s02-t14-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},16.720);
+      tl.fromTo("#s02-t14-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},17.020);
+      tl.fromTo("#s02-b15",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},17.920);
+      tl.fromTo("#s02-b16",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},19.220);
+      tl.fromTo("#s02-b17",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},20.820);
+      (function(){var el=document.getElementById("s02-n18"),o={v:0};var f=function(){var v=o.v;el.textContent="$"+Number(v.toFixed(1)).toLocaleString("en-US",{minimumFractionDigits:1,maximumFractionDigits:1})+" billion";};tl.fromTo(o,{v:0},{v:4.8,duration:1.5,ease:"power3.out",onUpdate:f},25.040);f();})();
+      tl.fromTo("#s02-b19",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},24.840);
+      tl.fromTo("#s02-b20",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},26.240);
+      tl.fromTo("#s02-s21-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},16.220);
+      tl.fromTo("#s02-o22-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},17.220);
+      tl.to("#s02-o22-in",{opacity:0,duration:0.18,ease:"power2.in"},28.470);
+      tl.fromTo("#s02-t23-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.860);
+      tl.fromTo("#s02-t23-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},29.260);
+      tl.fromTo("#s02-r24",{opacity:0,x:-30},{opacity:1,x:0,duration:0.5,ease:"expo.out"},30.860);
+      tl.fromTo("#s02-r25",{opacity:0,x:-30},{opacity:1,x:0,duration:0.5,ease:"expo.out"},34.880);
+      tl.fromTo("#s02-r26",{opacity:0,x:-30},{opacity:1,x:0,duration:0.5,ease:"expo.out"},37.680);
+      tl.fromTo("#s02-r27",{opacity:0,x:-30},{opacity:1,x:0,duration:0.5,ease:"expo.out"},41.640);
+      tl.fromTo("#s02-r28",{opacity:0,x:-30},{opacity:1,x:0,duration:0.5,ease:"expo.out"},43.940);
+      tl.fromTo("#s02-s29-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},28.660);
+      tl.fromTo("#s02-o30-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},30.660);
+      tl.to("#s02-o30-in",{opacity:0,duration:0.18,ease:"power2.in"},47.210);
+      tl.fromTo("#s02-t31-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.400);
+      tl.fromTo("#s02-t31-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.944);
+      tl.fromTo("#s02-t31-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.488);
+      tl.fromTo("#s02-t31-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},55.032);
+      tl.fromTo("#s02-t31-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},55.576);
+      tl.fromTo("#s02-b32",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},56.320);
+      tl.fromTo("#s02-s34-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},47.400);
+      tl.fromTo("#s02-p33-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:9.770,ease:"none"},47.400);
+      tl.fromTo("#s02-p33",{rotationY:5,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:-4,rotationX:-1,scale:1.045,duration:9.770,ease:"sine.inOut"},47.400);
+      tl.fromTo("#s02-o35-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},48.000);
+      tl.fromTo("#s02-fi",{scaleX:1,transformOrigin:"100% 50%"},{scaleX:0,duration:0.5,ease:"expo.out"},0);
+      tl.fromTo("#s02-fo",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:0.3,ease:"power3.in"},56.570);
+      window.__timelines["s02"] = tl;
+    })();
+  </script>
+</template>
