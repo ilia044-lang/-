@@ -1,46 +1,43 @@
 <template>
   <style>
-#root { position:absolute; inset:0; background:#0a0b0e; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:#f3efe6; }
+#root { position:absolute; inset:0; background:#000000; overflow:hidden; font-family:'Inter',sans-serif; color:#f5f5f7; }
 .shot { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }
 .in { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, #0a0b0e 78%); }
-.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }
-.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }
-.pcard { position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }
+.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% -10%, #1d1d1f 0%, #0a0a0b 45%, #000000 80%); }
+.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; opacity:.55; }
+.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,.25) 0%, rgba(0,0,0,.92) 100%); }
+.pcard { position:absolute; border-radius:28px; overflow:hidden; box-shadow:0 40px 100px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.14); background:#111; }
 .pcard img { display:block; width:100%; height:100%; object-fit:cover; }
-.cv { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.tx { position:absolute; line-height:1.12; }
+.tx { position:absolute; line-height:1.06; }
 .tx .w { display:inline-block; white-space:pre; }
-.serif { font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }
-.mono { font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
-.a { color:#e6a94e; } .c { color:#56c8f5; } .n { color:#f3efe6; } .r { color:#ff4b3a; } .dim { color:rgba(243,239,230,.62); }
-.hud { position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }
-.src { position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }
-.src b { color:#f3efe6; font-weight:700; }
-.cred { position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }
-.recon { position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:#f3efe6; background:rgba(10,11,14,.6); }
+.serif { font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.035em; }
+.mono { font-family:'Inter',sans-serif; font-weight:600; letter-spacing:.02em; line-height:1.2; }
+.a { color:#f0c36a; } .c { color:#2997ff; } .n { color:#f5f5f7; } .r { color:#ff453a; } .dim { color:#86868b; }
+.hud { position:absolute; left:96px; top:60px; font-size:28px; font-weight:600; letter-spacing:.01em; padding:12px 26px; border-radius:999px; background:rgba(255,255,255,.1); box-shadow:inset 0 0 0 1px rgba(255,255,255,.16); }
+.src { position:absolute; left:96px; top:984px; font-size:28px; font-weight:500; color:#86868b; }
+.src b { color:#d2d2d7; font-weight:600; }
+.cred { position:absolute; right:96px; top:70px; font-size:17px; color:rgba(245,245,247,.5); text-align:right; }
 .flood { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.paper { position:absolute; background:#ece3cf; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }
-.paper .ph { font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }
+.paper { position:absolute; background:#1c1c1e; color:#f5f5f7; border-radius:32px; box-shadow:0 50px 110px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.12); padding:60px 68px; font-family:'Inter',sans-serif; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:-.01em; }
+.paper .ph { font-size:28px; font-weight:600; color:#86868b; padding-bottom:18px; margin-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14); letter-spacing:0; }
 .paper .pl { margin-bottom:14px; }
-.paper .hl { background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }
+.paper .hl { background-image:linear-gradient(rgba(255,69,58,.5),rgba(255,69,58,.5)); background-repeat:no-repeat; background-position:0 92%; background-size:0% 14%; font-weight:700; }
 .row { position:absolute; left:160px; width:1600px; height:108px; }
-.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }
-.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }
-.row .l { left:360px; color:#e6a94e; } .row .rr { left:1010px; color:#56c8f5; }
-.rule { position:absolute; height:2px; background:rgba(243,239,230,.28); }
+.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; color:#86868b; font-weight:600; padding-top:10px; }
+.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.03em; font-size:44px; line-height:1.1; }
+.row .l { left:360px; color:#f0c36a; } .row .rr { left:1010px; color:#2997ff; }
+.rule { position:absolute; height:1px; background:rgba(255,255,255,.18); }
 .bar { position:absolute; }
 .sil { position:absolute; }
 </style>
   <div id="root" data-composition-id="s08" data-width="1920" data-height="1080">
     <div id="s08-o1" class="clip" data-start="0.500" data-duration="35.650" data-track-index="2" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:502"><div id="s08-o1-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud a">April 1954 · The witness chair</div></div></div>
-    <div id="s08-s8" class="clip shot" data-start="0.000" data-duration="20.325" data-track-index="3" style="z-index:3"><div class="in" id="s08-s8-in"><canvas class="cv" id="s08-c7" width="1440" height="810"></canvas><div class="shade" style="opacity:.75"></div><div id="s08-f5" style="position:absolute;left:0;top:0"><div id="s08-b3" style="position:absolute;left:96px;top:560px"><div id="s08-n2" class="tx serif n" style="left:0px;top:0px;width:700px;font-size:300px;text-align:left;font-variant-numeric:tabular-nums">0</div></div><div id="s08-b4" style="position:absolute;left:520px;top:760px"><div class="tx mono a" style="left:0px;top:0px;width:900px;font-size:40px;text-align:left">HOURS OF TESTIMONY</div></div></div><div id="s08-b6" style="position:absolute;left:96px;top:800px"><div class="tx serif n" style="left:0px;top:0px;width:1700px;font-size:84px;text-align:left">A SECRET RECORDING · 1943</div></div></div></div>
-    <div id="s08-o9" class="clip" data-start="0.600" data-duration="19.425" data-track-index="4" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:504"><div id="s08-o9-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="recon">3D RECONSTRUCTION</div></div></div>
-    <div id="s08-s11" class="clip shot" data-start="20.025" data-duration="5.050" data-track-index="5" style="z-index:5"><div class="in" id="s08-s11-in"><div class="fill"></div><div class="tx mono a" style="left:160px;top:250px;width:1600px;font-size:40px;text-align:center">Q. WHY DID YOU DO THAT, DOCTOR?</div><div id="s08-t10" class="tx serif n" style="left:100px;top:380px;width:1720px;font-size:170px;text-align:center;line-height:1.12"><span class="w" id="s08-t10-0">“Because </span><span class="w" id="s08-t10-1">I </span><span class="w" id="s08-t10-2">was </span><span class="w" id="s08-t10-3">an </span><span class="w" id="s08-t10-4">idiot.”</span></div></div></div>
-    <div id="s08-o12" class="clip" data-start="20.525" data-duration="4.250" data-track-index="6" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:506"><div id="s08-o12-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Hearing transcript, 1954, as quoted by PBS American Experience</div></div></div>
-    <div id="s08-s21" class="clip shot" data-start="24.775" data-duration="11.775" data-track-index="7" style="z-index:7"><div class="in" id="s08-s21-in"><div class="fill"></div><div class="rule" style="left:160px;top:210px;width:1600px"></div><div class="tx mono a" style="left:160px;top:150px;width:1600px;font-size:30px;text-align:left">TRANSCRIPT · IN THE MATTER OF J. ROBERT OPPENHEIMER · 1954</div><div id="s08-b13" style="position:absolute;left:160px;top:256px"><div class="tx mono a" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">Q.</div></div><div id="s08-t14" class="tx serif n" style="left:290px;top:250px;width:1450px;font-size:64px;text-align:left;line-height:1.12"><span class="w" id="s08-t14-0">You </span><span class="w" id="s08-t14-1">spent </span><span class="w" id="s08-t14-2">the </span><span class="w" id="s08-t14-3">night </span><span class="w" id="s08-t14-4">with </span><span class="w" id="s08-t14-5">her, </span><span class="w" id="s08-t14-6">didn’t </span><span class="w" id="s08-t14-7">you?</span></div><div id="s08-b15" style="position:absolute;left:160px;top:366px"><div class="tx mono r" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">A.</div></div><div id="s08-t16" class="tx serif n" style="left:290px;top:360px;width:1450px;font-size:110px;text-align:left;line-height:1.12"><span class="w" id="s08-t16-0">Yes.</span></div><div id="s08-b17" style="position:absolute;left:160px;top:516px"><div class="tx mono a" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">Q.</div></div><div id="s08-t18" class="tx serif n" style="left:290px;top:510px;width:1450px;font-size:64px;text-align:left;line-height:1.12"><span class="w" id="s08-t18-0">That </span><span class="w" id="s08-t18-1">is </span><span class="w" id="s08-t18-2">when </span><span class="w" id="s08-t18-3">you </span><span class="w" id="s08-t18-4">were </span><span class="w" id="s08-t18-5">working </span><span class="w" id="s08-t18-6">on </span><span class="w" id="s08-t18-7">a </span><span class="w" id="s08-t18-8">secret </span><span class="w" id="s08-t18-9">war </span><span class="w" id="s08-t18-10">project?</span></div><div id="s08-b19" style="position:absolute;left:160px;top:706px"><div class="tx mono r" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">A.</div></div><div id="s08-t20" class="tx serif n" style="left:290px;top:700px;width:1450px;font-size:110px;text-align:left;line-height:1.12"><span class="w" id="s08-t20-0">Yes.</span></div></div></div>
-    <div id="s08-o22" class="clip" data-start="25.275" data-duration="10.875" data-track-index="8" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:508"><div id="s08-o22-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Hearing transcript, 1954, as quoted by PBS American Experience</div></div></div>
-    <div id="s08-fi" class="flood" style="background:#e6a94e;z-index:900" data-layout-ignore></div><div id="s08-fo" class="flood" style="background:#f3efe6;z-index:901" data-layout-ignore></div>
+    <div id="s08-s9" class="clip shot" data-start="0.000" data-duration="20.325" data-track-index="3" style="z-index:3"><div class="in" id="s08-s9-in"><img class="pbg" id="s08-p8-bg" src="assets/img/opp_einstein_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s08-p8" style="left:120px;top:154px;width:900px;height:681px"><img src="assets/img/opp_einstein_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:120px;top:862px;width:900px;font-size:32px;font-weight:600">Oppenheimer with Albert Einstein<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Princeton, c. 1950</div></div><div class="cred" data-layout-ignore>Image courtesy of US Govt. Defense Threat Reduction Agency · Public domain</div><div id="s08-f5" style="position:absolute;left:0;top:0"><div id="s08-b3" style="position:absolute;left:1000px;top:220px"><div id="s08-n2" class="tx serif n" style="left:0px;top:0px;width:800px;font-size:330px;text-align:left;font-variant-numeric:tabular-nums">0</div></div><div id="s08-b4" style="position:absolute;left:1014px;top:590px"><div class="tx mono a" style="left:0px;top:0px;width:780px;font-size:44px;text-align:left">hours of testimony</div></div></div><div id="s08-t6" class="tx serif n" style="left:1010px;top:300px;width:780px;font-size:96px;text-align:left;line-height:1.12"><span class="w" id="s08-t6-0">A </span><span class="w a" id="s08-t6-1">secret </span><span class="w" id="s08-t6-2">recording </span><span class="w" id="s08-t6-3">from </span><span class="w" id="s08-t6-4">1943.</span></div><div id="s08-b7" style="position:absolute;left:1014px;top:640px"><div class="tx mono dim" style="left:0px;top:0px;width:760px;font-size:40px;text-align:left">Parts of the story he told were invented.</div></div></div></div>
+    <div id="s08-s11" class="clip shot" data-start="20.025" data-duration="5.050" data-track-index="4" style="z-index:4"><div class="in" id="s08-s11-in"><div class="fill"></div><div class="tx mono a" style="left:160px;top:240px;width:1600px;font-size:44px;text-align:center">Q. Why did you do that, Doctor?</div><div id="s08-t10" class="tx serif n" style="left:100px;top:370px;width:1720px;font-size:170px;text-align:center;line-height:1.12"><span class="w" id="s08-t10-0">“Because </span><span class="w" id="s08-t10-1">I </span><span class="w" id="s08-t10-2">was </span><span class="w" id="s08-t10-3">an </span><span class="w" id="s08-t10-4">idiot.”</span></div></div></div>
+    <div id="s08-o12" class="clip" data-start="20.525" data-duration="4.250" data-track-index="5" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:505"><div id="s08-o12-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Hearing transcript, 1954, as quoted by PBS American Experience</div></div></div>
+    <div id="s08-s21" class="clip shot" data-start="24.775" data-duration="11.775" data-track-index="6" style="z-index:6"><div class="in" id="s08-s21-in"><div class="fill"></div><div class="rule" style="left:160px;top:214px;width:1600px"></div><div class="tx mono dim" style="left:160px;top:150px;width:1600px;font-size:32px;text-align:left">Transcript · In the Matter of J. Robert Oppenheimer · 1954</div><div id="s08-b13" style="position:absolute;left:160px;top:256px"><div class="tx serif a" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">Q.</div></div><div id="s08-t14" class="tx serif n" style="left:290px;top:250px;width:1450px;font-size:70px;text-align:left;line-height:1.12"><span class="w" id="s08-t14-0">You </span><span class="w" id="s08-t14-1">spent </span><span class="w" id="s08-t14-2">the </span><span class="w" id="s08-t14-3">night </span><span class="w" id="s08-t14-4">with </span><span class="w" id="s08-t14-5">her, </span><span class="w" id="s08-t14-6">didn’t </span><span class="w" id="s08-t14-7">you?</span></div><div id="s08-b15" style="position:absolute;left:160px;top:376px"><div class="tx serif r" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">A.</div></div><div id="s08-t16" class="tx serif n" style="left:290px;top:370px;width:1450px;font-size:120px;text-align:left;line-height:1.12"><span class="w" id="s08-t16-0">Yes.</span></div><div id="s08-b17" style="position:absolute;left:160px;top:536px"><div class="tx serif a" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">Q.</div></div><div id="s08-t18" class="tx serif n" style="left:290px;top:530px;width:1450px;font-size:70px;text-align:left;line-height:1.12"><span class="w" id="s08-t18-0">That </span><span class="w" id="s08-t18-1">is </span><span class="w" id="s08-t18-2">when </span><span class="w" id="s08-t18-3">you </span><span class="w" id="s08-t18-4">were </span><span class="w" id="s08-t18-5">working </span><span class="w" id="s08-t18-6">on </span><span class="w" id="s08-t18-7">a </span><span class="w" id="s08-t18-8">secret </span><span class="w" id="s08-t18-9">war </span><span class="w" id="s08-t18-10">project?</span></div><div id="s08-b19" style="position:absolute;left:160px;top:736px"><div class="tx serif r" style="left:0px;top:0px;width:120px;font-size:60px;text-align:left">A.</div></div><div id="s08-t20" class="tx serif n" style="left:290px;top:730px;width:1450px;font-size:120px;text-align:left;line-height:1.12"><span class="w" id="s08-t20-0">Yes.</span></div></div></div>
+    <div id="s08-o22" class="clip" data-start="25.275" data-duration="10.875" data-track-index="7" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:507"><div id="s08-o22-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Hearing transcript, 1954, as quoted by PBS American Experience</div></div></div>
+    <div id="s08-fi" class="flood" style="background:#000;z-index:900" data-layout-ignore></div><div id="s08-fo" class="flood" style="background:#000;z-index:901" data-layout-ignore></div>
   </div>
   <script src="lib/em3d.js"></script>
   <script>
@@ -48,32 +45,37 @@
       const tl = gsap.timeline({ paused: true });
       tl.fromTo("#s08-o1-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.500);
       tl.to("#s08-o1-in",{opacity:0,duration:0.18,ease:"power2.in"},35.960);
-      (function(){var el=document.getElementById("s08-n2"),o={v:0};var f=function(){var v=o.v;el.textContent=""+Number(v.toFixed(0)).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0})+"";};tl.fromTo(o,{v:0},{v:27,duration:1.4,ease:"power3.out",onUpdate:f},0.500);f();})();
-      tl.fromTo("#s08-b3",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},0.300);
-      tl.fromTo("#s08-b4",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},1.600);
-      tl.fromTo("#s08-f5",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},4.675);
-      tl.fromTo("#s08-b6",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},5.575);
-      tl.fromTo("#s08-s8-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.000);
-      (function(){var dr=EM3D.room(document.getElementById("s08-c7")),st={t:0},o=Object.assign({cam:[{"t": 0, "p": [3.4, 3.2, 6.4], "l": [0, 2.0, -5.5]}, {"t": 12.014999999999986, "p": [0.9, 2.7, 3.6], "l": [0, 2.0, -6]}, {"t": 20.424999999999976, "p": [-0.5, 2.55, 2.5], "l": [0, 2.0, -6.3]}]},{dim:0.5});var f=function(){dr(st.t,o.fn?Object.assign({},o,o.fn(st.t)):o);};tl.fromTo(st,{t:0},{t:20.325,duration:20.325,ease:"none",onUpdate:f},0.000);st.t=0;f();})();
-      tl.fromTo("#s08-o9-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.600);
-      tl.to("#s08-o9-in",{opacity:0,duration:0.18,ease:"power2.in"},19.835);
-      tl.fromTo("#s08-t10-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.625);
-      tl.fromTo("#s08-t10-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.995);
-      tl.fromTo("#s08-t10-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.365);
-      tl.fromTo("#s08-t10-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.735);
-      tl.fromTo("#s08-t10-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.105);
+      (function(){var el=document.getElementById("s08-n2"),o={v:0};var f=function(){var v=o.v;el.textContent=""+Number(v.toFixed(0)).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0})+"";};tl.fromTo(o,{v:0},{v:27,duration:1.4,ease:"power3.out",onUpdate:f},0.600);f();})();
+      tl.fromTo("#s08-b3",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},0.400);
+      tl.fromTo("#s08-b4",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},1.800);
+      tl.fromTo("#s08-f5",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},4.575);
+      tl.fromTo("#s08-t6-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},5.575);
+      tl.fromTo("#s08-t6-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},6.015);
+      tl.fromTo("#s08-t6-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},6.455);
+      tl.fromTo("#s08-t6-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},6.895);
+      tl.fromTo("#s08-t6-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},7.335);
+      tl.fromTo("#s08-b7",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},12.775);
+      tl.fromTo("#s08-s9-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.000);
+      tl.fromTo("#s08-p8-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:20.325,ease:"none"},0.000);
+      tl.fromTo("#s08-p8",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},0.000);
+      tl.fromTo("#s08-p8 img",{scale:1.0},{scale:1.09,duration:20.325,ease:"none"},0.000);
+      tl.fromTo("#s08-t10-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.025);
+      tl.fromTo("#s08-t10-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.315);
+      tl.fromTo("#s08-t10-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.605);
+      tl.fromTo("#s08-t10-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.895);
+      tl.fromTo("#s08-t10-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.185);
       tl.fromTo("#s08-s11-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.025);
       tl.fromTo("#s08-o12-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},20.525);
       tl.to("#s08-o12-in",{opacity:0,duration:0.18,ease:"power2.in"},24.585);
-      tl.fromTo("#s08-b13",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},25.975);
-      tl.fromTo("#s08-t14-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.025);
-      tl.fromTo("#s08-t14-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.356);
-      tl.fromTo("#s08-t14-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.687);
-      tl.fromTo("#s08-t14-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.019);
-      tl.fromTo("#s08-t14-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.350);
-      tl.fromTo("#s08-t14-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.681);
-      tl.fromTo("#s08-t14-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.012);
-      tl.fromTo("#s08-t14-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.344);
+      tl.fromTo("#s08-b13",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},26.175);
+      tl.fromTo("#s08-t14-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.225);
+      tl.fromTo("#s08-t14-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.531);
+      tl.fromTo("#s08-t14-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.837);
+      tl.fromTo("#s08-t14-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.144);
+      tl.fromTo("#s08-t14-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.450);
+      tl.fromTo("#s08-t14-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.756);
+      tl.fromTo("#s08-t14-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.062);
+      tl.fromTo("#s08-t14-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.369);
       tl.fromTo("#s08-b15",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},28.975);
       tl.fromTo("#s08-t16-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},29.025);
       tl.fromTo("#s08-b17",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},30.525);
@@ -93,8 +95,8 @@
       tl.fromTo("#s08-s21-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},24.775);
       tl.fromTo("#s08-o22-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},25.275);
       tl.to("#s08-o22-in",{opacity:0,duration:0.18,ease:"power2.in"},35.960);
-      tl.fromTo("#s08-fi",{scaleX:1,transformOrigin:"100% 50%"},{scaleX:0,duration:0.5,ease:"expo.out"},0);
-      tl.fromTo("#s08-fo",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:0.3,ease:"power3.in"},36.250);
+      tl.fromTo("#s08-fi",{opacity:1},{opacity:0,duration:0.45,ease:"power2.out"},0);
+      tl.fromTo("#s08-fo",{opacity:0},{opacity:1,duration:0.3,ease:"power2.in"},36.250);
       window.__timelines["s08"] = tl;
     })();
   </script>

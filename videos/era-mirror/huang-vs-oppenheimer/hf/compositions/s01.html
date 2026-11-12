@@ -1,136 +1,158 @@
 <template>
   <style>
-#root { position:absolute; inset:0; background:#0a0b0e; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:#f3efe6; }
+#root { position:absolute; inset:0; background:#000000; overflow:hidden; font-family:'Inter',sans-serif; color:#f5f5f7; }
 .shot { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }
 .in { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, #0a0b0e 78%); }
-.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }
-.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }
-.pcard { position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }
+.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% -10%, #1d1d1f 0%, #0a0a0b 45%, #000000 80%); }
+.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; opacity:.55; }
+.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,.25) 0%, rgba(0,0,0,.92) 100%); }
+.pcard { position:absolute; border-radius:28px; overflow:hidden; box-shadow:0 40px 100px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.14); background:#111; }
 .pcard img { display:block; width:100%; height:100%; object-fit:cover; }
-.cv { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.tx { position:absolute; line-height:1.12; }
+.tx { position:absolute; line-height:1.06; }
 .tx .w { display:inline-block; white-space:pre; }
-.serif { font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }
-.mono { font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
-.a { color:#e6a94e; } .c { color:#56c8f5; } .n { color:#f3efe6; } .r { color:#ff4b3a; } .dim { color:rgba(243,239,230,.62); }
-.hud { position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }
-.src { position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }
-.src b { color:#f3efe6; font-weight:700; }
-.cred { position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }
-.recon { position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:#f3efe6; background:rgba(10,11,14,.6); }
+.serif { font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.035em; }
+.mono { font-family:'Inter',sans-serif; font-weight:600; letter-spacing:.02em; line-height:1.2; }
+.a { color:#f0c36a; } .c { color:#2997ff; } .n { color:#f5f5f7; } .r { color:#ff453a; } .dim { color:#86868b; }
+.hud { position:absolute; left:96px; top:60px; font-size:28px; font-weight:600; letter-spacing:.01em; padding:12px 26px; border-radius:999px; background:rgba(255,255,255,.1); box-shadow:inset 0 0 0 1px rgba(255,255,255,.16); }
+.src { position:absolute; left:96px; top:984px; font-size:28px; font-weight:500; color:#86868b; }
+.src b { color:#d2d2d7; font-weight:600; }
+.cred { position:absolute; right:96px; top:70px; font-size:17px; color:rgba(245,245,247,.5); text-align:right; }
 .flood { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.paper { position:absolute; background:#ece3cf; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }
-.paper .ph { font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }
+.paper { position:absolute; background:#1c1c1e; color:#f5f5f7; border-radius:32px; box-shadow:0 50px 110px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.12); padding:60px 68px; font-family:'Inter',sans-serif; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:-.01em; }
+.paper .ph { font-size:28px; font-weight:600; color:#86868b; padding-bottom:18px; margin-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14); letter-spacing:0; }
 .paper .pl { margin-bottom:14px; }
-.paper .hl { background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }
+.paper .hl { background-image:linear-gradient(rgba(255,69,58,.5),rgba(255,69,58,.5)); background-repeat:no-repeat; background-position:0 92%; background-size:0% 14%; font-weight:700; }
 .row { position:absolute; left:160px; width:1600px; height:108px; }
-.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }
-.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }
-.row .l { left:360px; color:#e6a94e; } .row .rr { left:1010px; color:#56c8f5; }
-.rule { position:absolute; height:2px; background:rgba(243,239,230,.28); }
+.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; color:#86868b; font-weight:600; padding-top:10px; }
+.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.03em; font-size:44px; line-height:1.1; }
+.row .l { left:360px; color:#f0c36a; } .row .rr { left:1010px; color:#2997ff; }
+.rule { position:absolute; height:1px; background:rgba(255,255,255,.18); }
 .bar { position:absolute; }
 .sil { position:absolute; }
 </style>
   <div id="root" data-composition-id="s01" data-width="1920" data-height="1080">
-    <div id="s01-s4" class="clip shot" data-start="0.000" data-duration="21.250" data-track-index="2" style="z-index:2"><div class="in" id="s01-s4-in"><canvas class="cv" id="s01-c3" width="1440" height="810"></canvas><div class="shade" style="opacity:.75"></div><div id="s01-f1" style="position:absolute;left:0;top:0"><div class="tx serif n" style="left:96px;top:130px;width:1300px;font-size:150px;text-align:left">One night.</div><div class="tx serif a" style="left:100px;top:300px;width:1200px;font-size:150px;text-align:left">1943</div></div><div id="s01-b2" style="position:absolute;left:0px;top:960px"><div class="tx mono n" style="left:96px;top:0px;width:1500px;font-size:32px;text-align:left">ARMY INTELLIGENCE AGENTS · OUTSIDE UNTIL MORNING</div></div></div></div>
-    <div id="s01-o5" class="clip" data-start="0.600" data-duration="20.350" data-track-index="3" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:503"><div id="s01-o5-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="recon">3D RECONSTRUCTION</div></div></div>
-    <div id="s01-o6" class="clip" data-start="7.300" data-duration="13.650" data-track-index="4" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:504"><div id="s01-o6-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud a">Spring 1943 · San Francisco</div></div></div>
-    <div id="s01-s10" class="clip shot" data-start="20.950" data-duration="7.125" data-track-index="5" style="z-index:5"><div class="in" id="s01-s10-in"><img class="pbg" id="s01-p9-bg" src="assets/img/opp_congress53_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p9" style="left:1067px;top:120px;width:646px;height:800px"><img src="assets/img/opp_congress53_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:1067px;top:946px;width:700px;font-size:30px">J. ROBERT OPPENHEIMER<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Photographed in Washington, 1953</div></div><div class="cred" data-layout-ignore>Harris &amp;amp; Ewing · Public domain</div><div id="s01-t7" class="tx serif n" style="left:150px;top:330px;width:760px;font-size:62px;text-align:left;line-height:1.12"><span class="w" id="s01-t7-0">Read </span><span class="w" id="s01-t7-1">back </span><span class="w" id="s01-t7-2">to </span><span class="w" id="s01-t7-3">him </span><span class="w" id="s01-t7-4">in </span><span class="w" id="s01-t7-5">a </span><span class="w" id="s01-t7-6">closed </span><span class="w" id="s01-t7-7">room.</span></div><div id="s01-b8" style="position:absolute;left:150px;top:560px"><div class="tx serif r" style="left:0px;top:0px;width:800px;font-size:170px;text-align:left">HE LOST.</div></div></div></div>
-    <div id="s01-o11" class="clip" data-start="20.950" data-duration="6.825" data-track-index="6" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:506"><div id="s01-o11-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud a">April 1954 · Washington, D.C.</div></div></div>
-    <div id="s01-s16" class="clip shot" data-start="27.775" data-duration="6.775" data-track-index="7" style="z-index:7"><div class="in" id="s01-s16-in"><img class="pbg" id="s01-p15-bg" src="assets/img/doe_order-1_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p15" style="left:1081px;top:120px;width:618px;height:800px"><img src="assets/img/doe_order-1_g.jpg" alt="" style="object-position:50% 30%"></div><div id="s01-n12" class="tx serif n" style="left:150px;top:250px;width:900px;font-size:400px;text-align:left;font-variant-numeric:tabular-nums">0</div><div id="s01-b13" style="position:absolute;left:160px;top:690px"><div class="tx mono a" style="left:0px;top:0px;width:800px;font-size:90px;text-align:left">YEARS</div></div><div id="s01-t14" class="tx serif dim" style="left:160px;top:810px;width:900px;font-size:44px;text-align:left;line-height:1.12"><span class="w" id="s01-t14-0">to </span><span class="w" id="s01-t14-1">admit </span><span class="w" id="s01-t14-2">the </span><span class="w" id="s01-t14-3">process </span><span class="w" id="s01-t14-4">was </span><span class="w" id="s01-t14-5">rigged </span><span class="w" id="s01-t14-6">against </span><span class="w" id="s01-t14-7">him.</span></div></div></div>
-    <div id="s01-o17" class="clip" data-start="28.275" data-duration="5.975" data-track-index="8" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:508"><div id="s01-o17-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · U.S. Secretary of Energy, order of Dec. 16, 2022</div></div></div>
-    <div id="s01-s22" class="clip shot" data-start="34.250" data-duration="10.850" data-track-index="9" style="z-index:9"><div class="in" id="s01-s22-in"><img class="pbg" id="s01-p21-bg" src="assets/img/huang_stanford_a_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p21" style="left:230px;top:120px;width:600px;height:800px"><img src="assets/img/huang_stanford_a_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:230px;top:946px;width:700px;font-size:30px">JENSEN HUANG<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Founder and CEO, Nvidia · photo: April 2026</div></div><div class="cred" data-layout-ignore>Anderseidesvik · CC BY-SA 4.0</div><div id="s01-t18" class="tx serif n" style="left:1010px;top:300px;width:780px;font-size:78px;text-align:left;line-height:1.12"><span class="w" id="s01-t18-0">“I </span><span class="w" id="s01-t18-1">was </span><span class="w" id="s01-t18-2">unfaithful </span><span class="w" id="s01-t18-3">to </span><span class="w" id="s01-t18-4">my </span><span class="w" id="s01-t18-5">wife.”</span></div><div id="s01-b19" style="position:absolute;left:1010px;top:590px"><div class="tx mono c" style="left:0px;top:0px;width:800px;font-size:24px;text-align:left">JENSEN HUANG · MEMO TO NVIDIA STAFF · NOV. 8, 2026</div></div><div id="s01-b20" style="position:absolute;left:1010px;top:690px"><div class="tx mono n" style="left:0px;top:0px;width:760px;font-size:27px;text-align:left">U.S. INTELLIGENCE BELIEVES THE WOMAN WAS RECRUITED BY CHINA. NO ONE HAS BEEN CHARGED.</div></div></div></div>
-    <div id="s01-o23" class="clip" data-start="34.250" data-duration="10.550" data-track-index="10" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:510"><div id="s01-o23-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">November 2026</div></div></div>
-    <div id="s01-o24" class="clip" data-start="39.250" data-duration="5.550" data-track-index="11" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:511"><div id="s01-o24-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Nvidia newsroom · New York Times · NBC News</div></div></div>
-    <div id="s01-s28" class="clip shot" data-start="44.800" data-duration="5.125" data-track-index="12" style="z-index:12"><div class="in" id="s01-s28-in"><canvas class="cv" id="s01-c27" width="1440" height="810"></canvas><div class="shade" style="opacity:.75"></div><div id="s01-b25" style="position:absolute;left:110px;top:380px"><div class="tx serif n" style="left:0px;top:0px;width:1000px;font-size:190px;text-align:left">NOV 18</div></div><div id="s01-b26" style="position:absolute;left:120px;top:610px"><div class="tx mono c" style="left:0px;top:0px;width:1200px;font-size:30px;text-align:left">CLOSED-DOOR BRIEFING REQUESTED · U.S. HOUSE</div></div></div></div>
-    <div id="s01-o29" class="clip" data-start="45.100" data-duration="4.525" data-track-index="13" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:513"><div id="s01-o29-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="recon">3D RECONSTRUCTION</div></div></div>
-    <div id="s01-s37" class="clip shot" data-start="49.625" data-duration="6.625" data-track-index="14" style="z-index:14"><div class="in" id="s01-s37-in"><div class="fill"></div><div class="pcard" id="s01-p34" style="left:150px;top:200px;width:720px;height:620px"><img src="assets/img/opp_portrait_g.jpg" alt="" style="object-position:50% 22%"></div><div class="pcard" id="s01-p35" style="left:1050px;top:200px;width:720px;height:620px"><img src="assets/img/huang_stanford_a_g.jpg" alt="" style="object-position:50% 22%"></div><div id="s01-m36" class="bar" style="left:958px;top:150px;width:4px;height:720px;background:#f3efe6"></div><div id="s01-t30" class="tx serif n" style="left:160px;top:60px;width:1600px;font-size:58px;text-align:center;line-height:1.12"><span class="w" id="s01-t30-0">What </span><span class="w" id="s01-t30-1">did </span><span class="w" id="s01-t30-2">America </span><span class="w" id="s01-t30-3">find </span><span class="w" id="s01-t30-4">the </span><span class="w" id="s01-t30-5">last </span><span class="w" id="s01-t30-6">time?</span></div><div id="s01-t31" class="tx serif n" style="left:160px;top:880px;width:1600px;font-size:58px;text-align:center;line-height:1.12"><span class="w" id="s01-t31-0">And </span><span class="w" id="s01-t31-1">why </span><span class="w" id="s01-t31-2">did </span><span class="w" id="s01-t31-3">it </span><span class="w" id="s01-t31-4">take </span><span class="w" id="s01-t31-5">it </span><span class="w" id="s01-t31-6">all </span><span class="w" id="s01-t31-7">back?</span></div><div id="s01-b32" style="position:absolute;left:150px;top:838px"><div class="tx mono a" style="left:0px;top:0px;width:300px;font-size:40px;text-align:left">1954</div></div><div id="s01-b33" style="position:absolute;left:1470px;top:838px"><div class="tx mono c" style="left:0px;top:0px;width:300px;font-size:40px;text-align:right">2026</div></div></div></div>
-    <div id="s01-fi" class="flood" style="background:#e6a94e;z-index:900;opacity:0" data-layout-ignore></div><div id="s01-fo" class="flood" style="background:#56c8f5;z-index:901" data-layout-ignore></div>
+    <div id="s01-s3" class="clip shot" data-start="0.000" data-duration="7.600" data-track-index="2" style="z-index:2"><div class="in" id="s01-s3-in"><img class="pbg" id="s01-p2-bg" src="assets/img/opp_portrait_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p2" style="left:319px;top:130px;width:502px;height:730px"><img src="assets/img/opp_portrait_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:319px;top:886px;width:700px;font-size:32px;font-weight:600">J. Robert Oppenheimer<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Photographed c. 1944</div></div><div class="cred" data-layout-ignore>Unknown author · Public domain</div><div id="s01-f1" style="position:absolute;left:0;top:0"><div class="tx serif n" style="left:1010px;top:300px;width:800px;font-size:150px;text-align:left">One night.</div><div class="tx serif a" style="left:1010px;top:470px;width:800px;font-size:150px;text-align:left">1943</div></div></div></div>
+    <div id="s01-s6" class="clip shot" data-start="7.300" data-duration="8.350" data-track-index="3" style="z-index:3"><div class="in" id="s01-s6-in"><img class="pbg" id="s01-p5-bg" src="assets/img/sf_montgomery_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p5" style="left:334px;top:130px;width:472px;height:730px"><img src="assets/img/sf_montgomery_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:334px;top:886px;width:700px;font-size:32px;font-weight:600">Montgomery Street, San Francisco<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Archive photograph, c. 1930s–40s</div></div><div class="cred" data-layout-ignore>Zan · Public domain</div><div id="s01-t4" class="tx serif n" style="left:1010px;top:300px;width:780px;font-size:82px;text-align:left;line-height:1.12"><span class="w" id="s01-t4-0">A </span><span class="w" id="s01-t4-1">night </span><span class="w" id="s01-t4-2">with </span><span class="w" id="s01-t4-3">a </span><span class="w" id="s01-t4-4">woman </span><span class="w" id="s01-t4-5">the </span><span class="w" id="s01-t4-6">government </span><span class="w" id="s01-t4-7">suspected.</span></div></div></div>
+    <div id="s01-o7" class="clip" data-start="7.300" data-duration="13.650" data-track-index="4" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:504"><div id="s01-o7-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud a">Spring 1943 · San Francisco</div></div></div>
+    <div id="s01-s11" class="clip shot" data-start="15.350" data-duration="5.900" data-track-index="5" style="z-index:5"><div class="in" id="s01-s11-in"><img class="pbg" id="s01-p10-bg" src="assets/img/silence_poster_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p10" style="left:900px;top:232px;width:900px;height:526px"><img src="assets/img/silence_poster_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:900px;top:784px;width:900px;font-size:32px;font-weight:600">Atomic Energy Commission security poster<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">U.S. Army Corps of Engineers, 1947</div></div><div class="cred" data-layout-ignore>United States Army Corps of Engineers · Public domain</div><div id="s01-t8" class="tx serif n" style="left:150px;top:300px;width:780px;font-size:96px;text-align:left;line-height:1.12"><span class="w" id="s01-t8-0">Army </span><span class="w" id="s01-t8-1">agents. </span><span class="w a" id="s01-t8-2">Outside </span><span class="w" id="s01-t8-3">until </span><span class="w" id="s01-t8-4">morning.</span></div><div id="s01-b9" style="position:absolute;left:154px;top:640px"><div class="tx mono dim" style="left:0px;top:0px;width:780px;font-size:40px;text-align:left">They wrote it all down.</div></div></div></div>
+    <div id="s01-s15" class="clip shot" data-start="20.950" data-duration="7.125" data-track-index="6" style="z-index:6"><div class="in" id="s01-s15-in"><img class="pbg" id="s01-p14-bg" src="assets/img/opp_congress53_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p14" style="left:1055px;top:130px;width:589px;height:730px"><img src="assets/img/opp_congress53_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:1055px;top:886px;width:700px;font-size:32px;font-weight:600">J. Robert Oppenheimer<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Washington, 1953</div></div><div class="cred" data-layout-ignore>Harris &amp;amp; Ewing · Public domain</div><div id="s01-t12" class="tx serif n" style="left:150px;top:300px;width:760px;font-size:76px;text-align:left;line-height:1.12"><span class="w" id="s01-t12-0">Read </span><span class="w" id="s01-t12-1">back </span><span class="w" id="s01-t12-2">to </span><span class="w" id="s01-t12-3">him </span><span class="w" id="s01-t12-4">in </span><span class="w" id="s01-t12-5">a </span><span class="w" id="s01-t12-6">closed </span><span class="w" id="s01-t12-7">room.</span></div><div id="s01-b13" style="position:absolute;left:146px;top:580px"><div class="tx serif r" style="left:0px;top:0px;width:800px;font-size:170px;text-align:left">He lost.</div></div></div></div>
+    <div id="s01-o16" class="clip" data-start="20.950" data-duration="6.825" data-track-index="7" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:507"><div id="s01-o16-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud a">April 1954 · Washington, D.C.</div></div></div>
+    <div id="s01-s21" class="clip shot" data-start="27.775" data-duration="6.775" data-track-index="8" style="z-index:8"><div class="in" id="s01-s21-in"><img class="pbg" id="s01-p20-bg" src="assets/img/doe_order-1_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p20" style="left:1068px;top:130px;width:564px;height:730px"><img src="assets/img/doe_order-1_g.jpg" alt="" style="object-position:50% 0%"></div><div id="s01-n17" class="tx serif n" style="left:150px;top:230px;width:900px;font-size:400px;text-align:left;font-variant-numeric:tabular-nums">0</div><div id="s01-b18" style="position:absolute;left:160px;top:650px"><div class="tx serif a" style="left:0px;top:0px;width:800px;font-size:100px;text-align:left">years</div></div><div id="s01-t19" class="tx mono dim" style="left:164px;top:800px;width:800px;font-size:44px;text-align:left;line-height:1.12"><span class="w" id="s01-t19-0">to </span><span class="w" id="s01-t19-1">admit </span><span class="w" id="s01-t19-2">the </span><span class="w" id="s01-t19-3">process </span><span class="w" id="s01-t19-4">was </span><span class="w" id="s01-t19-5">rigged </span><span class="w" id="s01-t19-6">against </span><span class="w" id="s01-t19-7">him.</span></div></div></div>
+    <div id="s01-o22" class="clip" data-start="28.275" data-duration="5.975" data-track-index="9" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:509"><div id="s01-o22-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · U.S. Secretary of Energy, order of Dec. 16, 2022</div></div></div>
+    <div id="s01-s27" class="clip shot" data-start="34.250" data-duration="10.850" data-track-index="10" style="z-index:10"><div class="in" id="s01-s27-in"><img class="pbg" id="s01-p26-bg" src="assets/img/huang_stanford_a_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p26" style="left:296px;top:130px;width:548px;height:730px"><img src="assets/img/huang_stanford_a_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:296px;top:886px;width:700px;font-size:32px;font-weight:600">Jensen Huang<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Founder and CEO, Nvidia · photo: April 2026</div></div><div class="cred" data-layout-ignore>Anderseidesvik · CC BY-SA 4.0</div><div id="s01-t23" class="tx serif n" style="left:1010px;top:280px;width:780px;font-size:84px;text-align:left;line-height:1.12"><span class="w" id="s01-t23-0">“I </span><span class="w" id="s01-t23-1">was </span><span class="w" id="s01-t23-2">unfaithful </span><span class="w" id="s01-t23-3">to </span><span class="w" id="s01-t23-4">my </span><span class="w" id="s01-t23-5">wife.”</span></div><div id="s01-b24" style="position:absolute;left:1014px;top:580px"><div class="tx mono c" style="left:0px;top:0px;width:780px;font-size:30px;text-align:left">Jensen Huang · memo to Nvidia staff · Nov. 8, 2026</div></div><div id="s01-b25" style="position:absolute;left:1014px;top:680px"><div class="tx mono dim" style="left:0px;top:0px;width:760px;font-size:34px;text-align:left">U.S. intelligence believes the woman was recruited by China. No one has been charged.</div></div></div></div>
+    <div id="s01-o28" class="clip" data-start="34.250" data-duration="10.550" data-track-index="11" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:511"><div id="s01-o28-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">November 2026</div></div></div>
+    <div id="s01-o29" class="clip" data-start="39.250" data-duration="5.550" data-track-index="12" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:512"><div id="s01-o29-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Nvidia newsroom · New York Times · NBC News</div></div></div>
+    <div id="s01-s33" class="clip shot" data-start="44.800" data-duration="5.125" data-track-index="13" style="z-index:13"><div class="in" id="s01-s33-in"><img class="pbg" id="s01-p32-bg" src="assets/img/capitol_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s01-p32" style="left:120px;top:232px;width:900px;height:526px"><img src="assets/img/capitol_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:120px;top:784px;width:900px;font-size:32px;font-weight:600">U.S. Capitol<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Washington, D.C.</div></div><div class="cred" data-layout-ignore>Martin Falbisoner · CC BY-SA 3.0</div><div id="s01-b30" style="position:absolute;left:1006px;top:300px"><div class="tx serif n" style="left:0px;top:0px;width:800px;font-size:210px;text-align:left">Nov 18</div></div><div id="s01-b31" style="position:absolute;left:1014px;top:560px"><div class="tx mono c" style="left:0px;top:0px;width:760px;font-size:36px;text-align:left">Closed-door briefing requested by the U.S. House</div></div></div></div>
+    <div id="s01-s41" class="clip shot" data-start="49.625" data-duration="6.625" data-track-index="14" style="z-index:14"><div class="in" id="s01-s41-in"><div class="fill"></div><div class="pcard" id="s01-p38" style="left:150px;top:200px;width:720px;height:620px"><img src="assets/img/opp_portrait_g.jpg" alt="" style="object-position:50% 22%"></div><div class="pcard" id="s01-p39" style="left:1050px;top:200px;width:720px;height:620px"><img src="assets/img/huang_stanford_a_g.jpg" alt="" style="object-position:50% 22%"></div><div id="s01-m40" class="bar" style="left:959px;top:200px;width:2px;height:620px;background:rgba(255,255,255,.35)"></div><div id="s01-t34" class="tx serif n" style="left:160px;top:60px;width:1600px;font-size:68px;text-align:center;line-height:1.12"><span class="w" id="s01-t34-0">What </span><span class="w" id="s01-t34-1">did </span><span class="w" id="s01-t34-2">America </span><span class="w" id="s01-t34-3">find </span><span class="w" id="s01-t34-4">the </span><span class="w" id="s01-t34-5">last </span><span class="w" id="s01-t34-6">time?</span></div><div id="s01-t35" class="tx serif n" style="left:160px;top:880px;width:1600px;font-size:68px;text-align:center;line-height:1.12"><span class="w" id="s01-t35-0">And </span><span class="w" id="s01-t35-1">why </span><span class="w" id="s01-t35-2">did </span><span class="w" id="s01-t35-3">it </span><span class="w" id="s01-t35-4">take </span><span class="w" id="s01-t35-5">it </span><span class="w" id="s01-t35-6">all </span><span class="w" id="s01-t35-7">back?</span></div><div id="s01-b36" style="position:absolute;left:150px;top:834px"><div class="tx mono a" style="left:0px;top:0px;width:300px;font-size:40px;text-align:left">1954</div></div><div id="s01-b37" style="position:absolute;left:1470px;top:834px"><div class="tx mono c" style="left:0px;top:0px;width:300px;font-size:40px;text-align:right">2026</div></div></div></div>
+    <div id="s01-fi" class="flood" style="background:#000;z-index:900;opacity:0" data-layout-ignore></div><div id="s01-fo" class="flood" style="background:#000;z-index:901" data-layout-ignore></div>
   </div>
   <script src="lib/em3d.js"></script>
   <script>
     (function () {
       const tl = gsap.timeline({ paused: true });
-      tl.fromTo("#s01-f1",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},7.200);
-      tl.fromTo("#s01-b2",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},15.650);
-      (function(){var dr=EM3D.street(document.getElementById("s01-c3")),st={t:0},o=Object.assign({cam:[{"t": 0, "p": [17, 10.5, 29], "l": [0, 4, -10]}, {"t": 7.3, "p": [6, 4.2, 17], "l": [0, 5.2, -11.8]}, {"t": 15.350000000000001, "p": [1.5, 2.3, 12], "l": [-2.6, 1.5, 5.2]}, {"t": 21.250000000000004, "p": [-7.2, 1.75, 8.4], "l": [0, 5.3, -11.8]}]},{fn:function(t){return {dawn:Math.max(0,(t-16.85)/5.60)*0.55};}});var f=function(){dr(st.t,o.fn?Object.assign({},o,o.fn(st.t)):o);};tl.fromTo(st,{t:0},{t:21.250,duration:21.250,ease:"none",onUpdate:f},0.000);st.t=0;f();})();
-      tl.fromTo("#s01-o5-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.600);
-      tl.to("#s01-o5-in",{opacity:0,duration:0.18,ease:"power2.in"},20.760);
-      tl.fromTo("#s01-o6-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},7.300);
-      tl.to("#s01-o6-in",{opacity:0,duration:0.18,ease:"power2.in"},20.760);
-      tl.fromTo("#s01-t7-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.150);
-      tl.fromTo("#s01-t7-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.400);
-      tl.fromTo("#s01-t7-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.650);
-      tl.fromTo("#s01-t7-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.900);
-      tl.fromTo("#s01-t7-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.150);
-      tl.fromTo("#s01-t7-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.400);
-      tl.fromTo("#s01-t7-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.650);
-      tl.fromTo("#s01-t7-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.900);
-      tl.fromTo("#s01-b8",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},26.725);
-      tl.fromTo("#s01-s10-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.950);
-      tl.fromTo("#s01-p9-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:7.125,ease:"none"},20.950);
-      tl.fromTo("#s01-p9",{rotationY:-5,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:4,rotationX:-1,scale:1.045,duration:7.125,ease:"sine.inOut"},20.950);
-      tl.fromTo("#s01-o11-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},20.950);
-      tl.to("#s01-o11-in",{opacity:0,duration:0.18,ease:"power2.in"},27.585);
-      (function(){var el=document.getElementById("s01-n12"),o={v:0};var f=function(){var v=o.v;el.textContent=""+Number(v.toFixed(0)).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0})+"";};tl.fromTo(o,{v:0},{v:68,duration:1.6,ease:"power3.out",onUpdate:f},29.075);f();})();
-      tl.fromTo("#s01-b13",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},30.475);
-      tl.fromTo("#s01-t14-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},30.775);
-      tl.fromTo("#s01-t14-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.172);
-      tl.fromTo("#s01-t14-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.569);
-      tl.fromTo("#s01-t14-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.966);
-      tl.fromTo("#s01-t14-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},32.363);
-      tl.fromTo("#s01-t14-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},32.759);
-      tl.fromTo("#s01-t14-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},33.156);
-      tl.fromTo("#s01-t14-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},33.553);
-      tl.fromTo("#s01-s16-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},27.775);
-      tl.fromTo("#s01-p15-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:6.775,ease:"none"},27.775);
-      tl.fromTo("#s01-p15",{rotationY:-9,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:-3,rotationX:-1,scale:1.045,duration:6.775,ease:"sine.inOut"},27.775);
-      tl.fromTo("#s01-o17-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},28.275);
-      tl.to("#s01-o17-in",{opacity:0,duration:0.18,ease:"power2.in"},34.060);
-      tl.fromTo("#s01-t18-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.650);
-      tl.fromTo("#s01-t18-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.917);
-      tl.fromTo("#s01-t18-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.183);
-      tl.fromTo("#s01-t18-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.450);
-      tl.fromTo("#s01-t18-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.717);
-      tl.fromTo("#s01-t18-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.983);
-      tl.fromTo("#s01-b19",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},39.450);
-      tl.fromTo("#s01-b20",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},40.650);
-      tl.fromTo("#s01-s22-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},34.250);
-      tl.fromTo("#s01-p21-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:10.850,ease:"none"},34.250);
-      tl.fromTo("#s01-p21",{rotationY:5,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:-4,rotationX:-1,scale:1.045,duration:10.850,ease:"sine.inOut"},34.250);
-      tl.fromTo("#s01-o23-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},34.250);
-      tl.to("#s01-o23-in",{opacity:0,duration:0.18,ease:"power2.in"},44.610);
-      tl.fromTo("#s01-o24-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},39.250);
-      tl.to("#s01-o24-in",{opacity:0,duration:0.18,ease:"power2.in"},44.610);
-      tl.fromTo("#s01-b25",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},45.150);
-      tl.fromTo("#s01-b26",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},46.100);
-      tl.fromTo("#s01-s28-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},44.800);
-      (function(){var dr=EM3D.door(document.getElementById("s01-c27")),st={t:0},o=Object.assign({cam:[{"t": 0, "p": [0, 2.6, 17], "l": [0, 2.5, 0]}, {"t": 5.225000000000003, "p": [0.8, 2.2, 8.2], "l": [0, 2.4, 0]}]},{});var f=function(){dr(st.t,o.fn?Object.assign({},o,o.fn(st.t)):o);};tl.fromTo(st,{t:0},{t:5.125,duration:5.125,ease:"none",onUpdate:f},44.800);st.t=0;f();})();
-      tl.fromTo("#s01-o29-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},45.100);
-      tl.to("#s01-o29-in",{opacity:0,duration:0.18,ease:"power2.in"},49.435);
-      tl.fromTo("#s01-t30-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},49.825);
-      tl.fromTo("#s01-t30-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},50.139);
-      tl.fromTo("#s01-t30-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},50.454);
-      tl.fromTo("#s01-t30-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},50.768);
-      tl.fromTo("#s01-t30-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},51.082);
-      tl.fromTo("#s01-t30-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},51.396);
-      tl.fromTo("#s01-t30-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},51.711);
-      tl.fromTo("#s01-t31-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},52.625);
-      tl.fromTo("#s01-t31-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},52.959);
-      tl.fromTo("#s01-t31-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.294);
-      tl.fromTo("#s01-t31-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.628);
-      tl.fromTo("#s01-t31-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.962);
-      tl.fromTo("#s01-t31-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.297);
-      tl.fromTo("#s01-t31-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.631);
-      tl.fromTo("#s01-t31-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.966);
-      tl.fromTo("#s01-b32",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},50.125);
-      tl.fromTo("#s01-b33",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},50.525);
-      tl.fromTo("#s01-p34",{rotationY:6,rotationX:1,scale:0.96,transformPerspective:1600},{rotationY:2,rotationX:0,scale:1.02,duration:6.925,ease:"sine.inOut"},49.625);
-      tl.fromTo("#s01-p35",{rotationY:-6,rotationX:1,scale:0.96,transformPerspective:1600},{rotationY:-2,rotationX:0,scale:1.02,duration:6.925,ease:"sine.inOut"},49.625);
-      tl.fromTo("#s01-m36",{scaleY:0},{scaleY:1,duration:0.7,ease:"expo.out"},49.775);
-      tl.fromTo("#s01-s37-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},49.625);
-      tl.fromTo("#s01-fo",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:0.3,ease:"power3.in"},55.950);
+      tl.fromTo("#s01-f1",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},7.050);
+      tl.fromTo("#s01-p2-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:7.600,ease:"none"},0.000);
+      tl.fromTo("#s01-p2",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},0.000);
+      tl.fromTo("#s01-p2 img",{scale:1.0},{scale:1.09,duration:7.600,ease:"none"},0.000);
+      tl.fromTo("#s01-t4-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},9.900);
+      tl.fromTo("#s01-t4-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},10.544);
+      tl.fromTo("#s01-t4-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.188);
+      tl.fromTo("#s01-t4-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.831);
+      tl.fromTo("#s01-t4-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.475);
+      tl.fromTo("#s01-t4-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},13.119);
+      tl.fromTo("#s01-t4-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},13.763);
+      tl.fromTo("#s01-t4-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},14.406);
+      tl.fromTo("#s01-s6-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},7.300);
+      tl.fromTo("#s01-p5-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:8.350,ease:"none"},7.300);
+      tl.fromTo("#s01-p5",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},7.300);
+      tl.fromTo("#s01-p5 img",{scale:1.0},{scale:1.09,duration:8.350,ease:"none"},7.300);
+      tl.fromTo("#s01-o7-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},7.300);
+      tl.to("#s01-o7-in",{opacity:0,duration:0.18,ease:"power2.in"},20.760);
+      tl.fromTo("#s01-t8-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},15.550);
+      tl.fromTo("#s01-t8-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},15.990);
+      tl.fromTo("#s01-t8-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},16.430);
+      tl.fromTo("#s01-t8-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},16.870);
+      tl.fromTo("#s01-t8-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},17.310);
+      tl.fromTo("#s01-b9",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},18.750);
+      tl.fromTo("#s01-s11-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},15.350);
+      tl.fromTo("#s01-p10-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:5.900,ease:"none"},15.350);
+      tl.fromTo("#s01-p10",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},15.350);
+      tl.fromTo("#s01-p10 img",{scale:1.0},{scale:1.09,duration:5.900,ease:"none"},15.350);
+      tl.fromTo("#s01-t12-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.150);
+      tl.fromTo("#s01-t12-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.425);
+      tl.fromTo("#s01-t12-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.700);
+      tl.fromTo("#s01-t12-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.975);
+      tl.fromTo("#s01-t12-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.250);
+      tl.fromTo("#s01-t12-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.525);
+      tl.fromTo("#s01-t12-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.800);
+      tl.fromTo("#s01-t12-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.075);
+      tl.fromTo("#s01-b13",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},26.675);
+      tl.fromTo("#s01-s15-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.950);
+      tl.fromTo("#s01-p14-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:7.125,ease:"none"},20.950);
+      tl.fromTo("#s01-p14",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},20.950);
+      tl.fromTo("#s01-p14 img",{scale:1.0},{scale:1.09,duration:7.125,ease:"none"},20.950);
+      tl.fromTo("#s01-o16-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},20.950);
+      tl.to("#s01-o16-in",{opacity:0,duration:0.18,ease:"power2.in"},27.585);
+      (function(){var el=document.getElementById("s01-n17"),o={v:0};var f=function(){var v=o.v;el.textContent=""+Number(v.toFixed(0)).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0})+"";};tl.fromTo(o,{v:0},{v:68,duration:1.6,ease:"power3.out",onUpdate:f},29.075);f();})();
+      tl.fromTo("#s01-b18",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},30.475);
+      tl.fromTo("#s01-t19-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},30.775);
+      tl.fromTo("#s01-t19-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.172);
+      tl.fromTo("#s01-t19-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.569);
+      tl.fromTo("#s01-t19-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.966);
+      tl.fromTo("#s01-t19-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},32.363);
+      tl.fromTo("#s01-t19-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},32.759);
+      tl.fromTo("#s01-t19-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},33.156);
+      tl.fromTo("#s01-t19-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},33.553);
+      tl.fromTo("#s01-s21-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},27.775);
+      tl.fromTo("#s01-p20-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:6.775,ease:"none"},27.775);
+      tl.fromTo("#s01-p20",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},27.775);
+      tl.fromTo("#s01-p20 img",{scale:1.0},{scale:1.09,duration:6.775,ease:"none"},27.775);
+      tl.fromTo("#s01-o22-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},28.275);
+      tl.to("#s01-o22-in",{opacity:0,duration:0.18,ease:"power2.in"},34.060);
+      tl.fromTo("#s01-t23-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.650);
+      tl.fromTo("#s01-t23-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.917);
+      tl.fromTo("#s01-t23-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.183);
+      tl.fromTo("#s01-t23-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.450);
+      tl.fromTo("#s01-t23-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.717);
+      tl.fromTo("#s01-t23-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.983);
+      tl.fromTo("#s01-b24",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},39.450);
+      tl.fromTo("#s01-b25",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},40.850);
+      tl.fromTo("#s01-s27-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},34.250);
+      tl.fromTo("#s01-p26-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:10.850,ease:"none"},34.250);
+      tl.fromTo("#s01-p26",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},34.250);
+      tl.fromTo("#s01-p26 img",{scale:1.0},{scale:1.09,duration:10.850,ease:"none"},34.250);
+      tl.fromTo("#s01-o28-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},34.250);
+      tl.to("#s01-o28-in",{opacity:0,duration:0.18,ease:"power2.in"},44.610);
+      tl.fromTo("#s01-o29-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},39.250);
+      tl.to("#s01-o29-in",{opacity:0,duration:0.18,ease:"power2.in"},44.610);
+      tl.fromTo("#s01-b30",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},45.100);
+      tl.fromTo("#s01-b31",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},46.100);
+      tl.fromTo("#s01-s33-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},44.800);
+      tl.fromTo("#s01-p32-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:5.125,ease:"none"},44.800);
+      tl.fromTo("#s01-p32",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},44.800);
+      tl.fromTo("#s01-p32 img",{scale:1.0},{scale:1.09,duration:5.125,ease:"none"},44.800);
+      tl.fromTo("#s01-t34-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},49.825);
+      tl.fromTo("#s01-t34-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},50.168);
+      tl.fromTo("#s01-t34-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},50.511);
+      tl.fromTo("#s01-t34-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},50.854);
+      tl.fromTo("#s01-t34-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},51.196);
+      tl.fromTo("#s01-t34-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},51.539);
+      tl.fromTo("#s01-t34-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},51.882);
+      tl.fromTo("#s01-t35-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},52.825);
+      tl.fromTo("#s01-t35-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.134);
+      tl.fromTo("#s01-t35-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.444);
+      tl.fromTo("#s01-t35-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},53.753);
+      tl.fromTo("#s01-t35-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.062);
+      tl.fromTo("#s01-t35-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.372);
+      tl.fromTo("#s01-t35-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.681);
+      tl.fromTo("#s01-t35-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},54.991);
+      tl.fromTo("#s01-b36",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},50.125);
+      tl.fromTo("#s01-b37",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},50.525);
+      tl.fromTo("#s01-p38",{scale:0.96,y:24},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},49.625);
+      tl.fromTo("#s01-p39",{scale:0.96,y:24},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},49.775);
+      tl.fromTo("#s01-m40",{scaleY:0},{scaleY:1,duration:0.7,ease:"expo.out"},49.775);
+      tl.fromTo("#s01-s41-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},49.625);
+      tl.fromTo("#s01-fo",{opacity:0},{opacity:1,duration:0.3,ease:"power2.in"},55.950);
       window.__timelines["s01"] = tl;
     })();
   </script>

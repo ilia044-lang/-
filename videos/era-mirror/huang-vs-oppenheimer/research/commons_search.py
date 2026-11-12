@@ -11,7 +11,7 @@ def api(params):
 import time
 for q in sys.argv[1:]:
     time.sleep(4)
-    r=api({'action':'query','format':'json','generator':'search','gsrsearch':q+' filetype:bitmap|video','gsrnamespace':6,'gsrlimit':8,'prop':'imageinfo','iiprop':'url|size|extmetadata|mime','iiextmetadatafilter':'LicenseShortName|Artist|DateTimeOriginal|Credit'})
+    r=api({'action':'query','format':'json','generator':'search','gsrsearch':q+' filetype:bitmap|video','gsrnamespace':6,'gsrlimit':6,'prop':'imageinfo','iiprop':'url|size|extmetadata|mime','iiextmetadatafilter':'LicenseShortName|Artist|DateTimeOriginal|Credit'})
     print('\n###',q)
     for p in sorted(r.get('query',{}).get('pages',{}).values(), key=lambda p:p.get('index',0)):
         ii=p['imageinfo'][0]; m=ii.get('extmetadata',{})

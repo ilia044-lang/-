@@ -1,54 +1,54 @@
 <template>
   <style>
-#root { position:absolute; inset:0; background:#0a0b0e; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:#f3efe6; }
+#root { position:absolute; inset:0; background:#000000; overflow:hidden; font-family:'Inter',sans-serif; color:#f5f5f7; }
 .shot { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }
 .in { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, #0a0b0e 78%); }
-.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }
-.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }
-.pcard { position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }
+.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% -10%, #1d1d1f 0%, #0a0a0b 45%, #000000 80%); }
+.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; opacity:.55; }
+.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,.25) 0%, rgba(0,0,0,.92) 100%); }
+.pcard { position:absolute; border-radius:28px; overflow:hidden; box-shadow:0 40px 100px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.14); background:#111; }
 .pcard img { display:block; width:100%; height:100%; object-fit:cover; }
-.cv { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.tx { position:absolute; line-height:1.12; }
+.tx { position:absolute; line-height:1.06; }
 .tx .w { display:inline-block; white-space:pre; }
-.serif { font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }
-.mono { font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
-.a { color:#e6a94e; } .c { color:#56c8f5; } .n { color:#f3efe6; } .r { color:#ff4b3a; } .dim { color:rgba(243,239,230,.62); }
-.hud { position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }
-.src { position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }
-.src b { color:#f3efe6; font-weight:700; }
-.cred { position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }
-.recon { position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:#f3efe6; background:rgba(10,11,14,.6); }
+.serif { font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.035em; }
+.mono { font-family:'Inter',sans-serif; font-weight:600; letter-spacing:.02em; line-height:1.2; }
+.a { color:#f0c36a; } .c { color:#2997ff; } .n { color:#f5f5f7; } .r { color:#ff453a; } .dim { color:#86868b; }
+.hud { position:absolute; left:96px; top:60px; font-size:28px; font-weight:600; letter-spacing:.01em; padding:12px 26px; border-radius:999px; background:rgba(255,255,255,.1); box-shadow:inset 0 0 0 1px rgba(255,255,255,.16); }
+.src { position:absolute; left:96px; top:984px; font-size:28px; font-weight:500; color:#86868b; }
+.src b { color:#d2d2d7; font-weight:600; }
+.cred { position:absolute; right:96px; top:70px; font-size:17px; color:rgba(245,245,247,.5); text-align:right; }
 .flood { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.paper { position:absolute; background:#ece3cf; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }
-.paper .ph { font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }
+.paper { position:absolute; background:#1c1c1e; color:#f5f5f7; border-radius:32px; box-shadow:0 50px 110px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.12); padding:60px 68px; font-family:'Inter',sans-serif; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:-.01em; }
+.paper .ph { font-size:28px; font-weight:600; color:#86868b; padding-bottom:18px; margin-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14); letter-spacing:0; }
 .paper .pl { margin-bottom:14px; }
-.paper .hl { background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }
+.paper .hl { background-image:linear-gradient(rgba(255,69,58,.5),rgba(255,69,58,.5)); background-repeat:no-repeat; background-position:0 92%; background-size:0% 14%; font-weight:700; }
 .row { position:absolute; left:160px; width:1600px; height:108px; }
-.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }
-.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }
-.row .l { left:360px; color:#e6a94e; } .row .rr { left:1010px; color:#56c8f5; }
-.rule { position:absolute; height:2px; background:rgba(243,239,230,.28); }
+.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; color:#86868b; font-weight:600; padding-top:10px; }
+.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.03em; font-size:44px; line-height:1.1; }
+.row .l { left:360px; color:#f0c36a; } .row .rr { left:1010px; color:#2997ff; }
+.rule { position:absolute; height:1px; background:rgba(255,255,255,.18); }
 .bar { position:absolute; }
 .sil { position:absolute; }
 </style>
   <div id="root" data-composition-id="s03" data-width="1920" data-height="1080">
-    <div id="s03-o1" class="clip" data-start="0.500" data-duration="25.400" data-track-index="2" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:502"><div id="s03-o1-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">Wall Street · November 2026</div></div></div>
-    <div id="s03-s3" class="clip shot" data-start="0.000" data-duration="3.475" data-track-index="3" style="z-index:3"><div class="in" id="s03-s3-in"><div class="fill"></div><div id="s03-t2" class="tx serif n" style="left:160px;top:440px;width:1600px;font-size:96px;text-align:center;line-height:1.12"><span class="w" id="s03-t2-0">Why </span><span class="w" id="s03-t2-1">does </span><span class="w" id="s03-t2-2">a </span><span class="w" id="s03-t2-3">private </span><span class="w" id="s03-t2-4">affair </span><span class="w" id="s03-t2-5">shake </span><span class="w" id="s03-t2-6">a </span><span class="w" id="s03-t2-7">market?</span></div></div></div>
-    <div id="s03-s8" class="clip shot" data-start="3.175" data-duration="7.950" data-track-index="4" style="z-index:4"><div class="in" id="s03-s8-in"><div class="fill"></div><div id="s03-t4" class="tx serif n" style="left:160px;top:200px;width:1600px;font-size:104px;text-align:center;line-height:1.12"><span class="w" id="s03-t4-0">“Jensen </span><span class="w" id="s03-t4-1">is </span><span class="w" id="s03-t4-2">not </span><span class="w" id="s03-t4-3">replaceable.”</span></div><div id="s03-b5" style="position:absolute;left:160px;top:350px"><div class="tx mono c" style="left:0px;top:0px;width:1600px;font-size:30px;text-align:center">DAN IVES, WEDBUSH · NOV. 10, 2026</div></div><div id="s03-b6" style="position:absolute;left:160px;top:480px"><div class="tx serif r" style="left:0px;top:0px;width:1600px;font-size:190px;text-align:center">−25% to −30%</div></div><div id="s03-b7" style="position:absolute;left:160px;top:730px"><div class="tx mono n" style="left:0px;top:0px;width:1600px;font-size:32px;text-align:center">HIS ESTIMATE OF NVIDIA’S VALUE WITHOUT HUANG</div></div></div></div>
+    <div id="s03-o1" class="clip" data-start="0.500" data-duration="36.200" data-track-index="2" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:502"><div id="s03-o1-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">Wall Street · November 2026</div></div></div>
+    <div id="s03-s3" class="clip shot" data-start="0.000" data-duration="3.475" data-track-index="3" style="z-index:3"><div class="in" id="s03-s3-in"><div class="fill"></div><div id="s03-t2" class="tx serif n" style="left:160px;top:440px;width:1600px;font-size:104px;text-align:center;line-height:1.12"><span class="w" id="s03-t2-0">Why </span><span class="w" id="s03-t2-1">does </span><span class="w" id="s03-t2-2">a </span><span class="w" id="s03-t2-3">private </span><span class="w" id="s03-t2-4">affair </span><span class="w" id="s03-t2-5">shake </span><span class="w" id="s03-t2-6">a </span><span class="w" id="s03-t2-7">market?</span></div></div></div>
+    <div id="s03-s8" class="clip shot" data-start="3.175" data-duration="7.950" data-track-index="4" style="z-index:4"><div class="in" id="s03-s8-in"><div class="fill"></div><div id="s03-t4" class="tx serif n" style="left:160px;top:190px;width:1600px;font-size:110px;text-align:center;line-height:1.12"><span class="w" id="s03-t4-0">“Jensen </span><span class="w" id="s03-t4-1">is </span><span class="w" id="s03-t4-2">not </span><span class="w" id="s03-t4-3">replaceable.”</span></div><div id="s03-b5" style="position:absolute;left:160px;top:340px"><div class="tx mono c" style="left:0px;top:0px;width:1600px;font-size:34px;text-align:center">Dan Ives, Wedbush · Nov. 10, 2026</div></div><div id="s03-b6" style="position:absolute;left:160px;top:470px"><div class="tx serif r" style="left:0px;top:0px;width:1600px;font-size:200px;text-align:center">−25% to −30%</div></div><div id="s03-b7" style="position:absolute;left:160px;top:720px"><div class="tx mono dim" style="left:0px;top:0px;width:1600px;font-size:36px;text-align:center">His estimate of Nvidia’s value without Huang</div></div></div></div>
     <div id="s03-o9" class="clip" data-start="3.775" data-duration="7.050" data-track-index="5" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:505"><div id="s03-o9-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Yahoo Finance live coverage, Nov. 10, 2026</div></div></div>
-    <div id="s03-s15" class="clip shot" data-start="10.825" data-duration="7.025" data-track-index="6" style="z-index:6"><div class="in" id="s03-s15-in"><div class="fill"></div><div class="rule" style="left:160px;top:298px;width:720px"></div><div class="bar" id="s03-g10" style="left:220px;top:300px;width:240px;height:258px;background:#ff4b3a"></div><div class="tx mono n" style="left:190px;top:240px;width:300px;font-size:30px;text-align:center">MON · NOV. 9</div><div class="tx serif r" style="left:190px;top:568px;width:300px;font-size:64px;text-align:center">−4.3%</div><div class="bar" id="s03-g11" style="left:550px;top:300px;width:240px;height:328px;background:#ff4b3a"></div><div class="tx mono n" style="left:520px;top:240px;width:300px;font-size:30px;text-align:center">TUE · NOV. 10</div><div class="tx serif r" style="left:520px;top:638px;width:300px;font-size:64px;text-align:center">−5.47%</div><div id="s03-b13" style="position:absolute;left:960px;top:330px"><div id="s03-n12" class="tx serif n" style="left:0px;top:0px;width:900px;font-size:170px;text-align:left;font-variant-numeric:tabular-nums">≈ $0B</div></div><div id="s03-b14" style="position:absolute;left:966px;top:560px"><div class="tx mono c" style="left:0px;top:0px;width:900px;font-size:32px;text-align:left">IN MARKET VALUE · TWO TRADING DAYS</div></div></div></div>
+    <div id="s03-s15" class="clip shot" data-start="10.825" data-duration="7.025" data-track-index="6" style="z-index:6"><div class="in" id="s03-s15-in"><div class="fill"></div><div id="s03-k10" style="position:absolute;left:160px;top:300px;width:400px;height:300px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif r" style="left:34px;top:30px;width:340px;font-size:110px">−4.3%</div><div class="tx mono dim" style="left:36px;top:204px;width:340px;font-size:30px">Monday, Nov. 9</div></div><div id="s03-k11" style="position:absolute;left:610px;top:300px;width:400px;height:300px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif r" style="left:34px;top:30px;width:340px;font-size:64px">−5.47%</div><div class="tx mono dim" style="left:36px;top:204px;width:340px;font-size:30px">Tuesday, Nov. 10</div></div><div id="s03-b13" style="position:absolute;left:1060px;top:300px"><div id="s03-n12" class="tx serif n" style="left:0px;top:0px;width:800px;font-size:170px;text-align:left;font-variant-numeric:tabular-nums">≈ $0B</div></div><div id="s03-b14" style="position:absolute;left:1068px;top:520px"><div class="tx mono dim" style="left:0px;top:0px;width:800px;font-size:36px;text-align:left">in market value, two trading days</div></div></div></div>
     <div id="s03-o16" class="clip" data-start="11.325" data-duration="6.225" data-track-index="7" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:507"><div id="s03-o16-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · CNBC, Nov. 11 · NBC News, Nov. 10, 2026</div></div></div>
-    <div id="s03-s19" class="clip shot" data-start="17.550" data-duration="8.650" data-track-index="8" style="z-index:8"><div class="in" id="s03-s19-in"><img class="pbg" id="s03-p18-bg" src="assets/img/capitol_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s03-p18" style="left:120px;top:232px;width:820px;height:576px"><img src="assets/img/capitol_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:120px;top:834px;width:820px;font-size:30px">U.S. CAPITOL<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Washington, D.C.</div></div><div class="cred" data-layout-ignore>Martin Falbisoner · CC BY-SA 3.0</div><div id="s03-t17" class="tx serif n" style="left:1010px;top:330px;width:770px;font-size:96px;text-align:left;line-height:1.12"><span class="w" id="s03-t17-0">Can </span><span class="w" id="s03-t17-1">he </span><span class="w" id="s03-t17-2">be </span><span class="w" id="s03-t17-3">trusted?</span></div></div></div>
-    <div id="s03-s23" class="clip shot" data-start="25.900" data-duration="7.625" data-track-index="9" style="z-index:9"><div class="in" id="s03-s23-in"><div class="fill"></div><div id="s03-t20" class="tx serif n" style="left:160px;top:380px;width:1600px;font-size:104px;text-align:center;line-height:1.12"><span class="w" id="s03-t20-0">America </span><span class="w" id="s03-t20-1">has </span><span class="w" id="s03-t20-2">asked </span><span class="w" id="s03-t20-3">this </span><span class="w" id="s03-t20-4">before.</span></div><div id="s03-b21" style="position:absolute;left:160px;top:620px"><div class="tx mono a" style="left:0px;top:0px;width:780px;font-size:36px;text-align:right">A DIFFERENT MAN</div></div><div id="s03-b22" style="position:absolute;left:990px;top:620px"><div class="tx mono a" style="left:0px;top:0px;width:780px;font-size:36px;text-align:left">A DIFFERENT TECHNOLOGY</div></div></div></div>
-    <div id="s03-fi" class="flood" style="background:#56c8f5;z-index:900" data-layout-ignore></div><div id="s03-fo" class="flood" style="background:#e6a94e;z-index:901" data-layout-ignore></div>
+    <div id="s03-s20" class="clip shot" data-start="17.550" data-duration="11.100" data-track-index="8" style="z-index:8"><div class="in" id="s03-s20-in"><div class="fill"></div><div id="s03-k17" style="position:absolute;left:160px;top:300px;width:560px;height:340px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif r" style="left:34px;top:30px;width:500px;font-size:110px">≈ −7%</div><div class="tx mono dim" style="left:36px;top:244px;width:500px;font-size:30px">After hours, Nov. 11, after the second report</div></div><div id="s03-k18" style="position:absolute;left:770px;top:300px;width:560px;height:340px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif n" style="left:34px;top:30px;width:500px;font-size:64px">The board</div><div class="tx mono dim" style="left:36px;top:244px;width:500px;font-size:30px">Reported to be meeting on his future</div></div><div id="s03-b19" style="position:absolute;left:164px;top:700px"><div class="tx mono dim" style="left:0px;top:0px;width:1200px;font-size:36px;text-align:left">Reported. No decision announced.</div></div></div></div>
+    <div id="s03-o21" class="clip" data-start="18.150" data-duration="10.200" data-track-index="9" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:509"><div id="s03-o21-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · Axios, Nov. 11 · Wall Street Journal, as reported by ABC News</div></div></div>
+    <div id="s03-s24" class="clip shot" data-start="28.350" data-duration="8.650" data-track-index="10" style="z-index:10"><div class="in" id="s03-s24-in"><img class="pbg" id="s03-p23-bg" src="assets/img/whitehouse_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s03-p23" style="left:120px;top:194px;width:900px;height:602px"><img src="assets/img/whitehouse_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:120px;top:822px;width:900px;font-size:32px;font-weight:600">The White House<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Washington, D.C.</div></div><div class="cred" data-layout-ignore>Nishkid64 · Public domain</div><div id="s03-t22" class="tx serif n" style="left:1010px;top:330px;width:770px;font-size:110px;text-align:left;line-height:1.12"><span class="w" id="s03-t22-0">Can </span><span class="w" id="s03-t22-1">he </span><span class="w" id="s03-t22-2">be </span><span class="w" id="s03-t22-3">trusted?</span></div></div></div>
+    <div id="s03-s28" class="clip shot" data-start="36.700" data-duration="7.625" data-track-index="11" style="z-index:11"><div class="in" id="s03-s28-in"><div class="fill"></div><div id="s03-t25" class="tx serif n" style="left:160px;top:360px;width:1600px;font-size:116px;text-align:center;line-height:1.12"><span class="w" id="s03-t25-0">America </span><span class="w" id="s03-t25-1">has </span><span class="w" id="s03-t25-2">asked </span><span class="w" id="s03-t25-3">this </span><span class="w" id="s03-t25-4">before.</span></div><div id="s03-b26" style="position:absolute;left:160px;top:620px"><div class="tx mono a" style="left:0px;top:0px;width:780px;font-size:40px;text-align:right">A different man.</div></div><div id="s03-b27" style="position:absolute;left:990px;top:620px"><div class="tx mono a" style="left:0px;top:0px;width:780px;font-size:40px;text-align:left">A different technology.</div></div></div></div>
+    <div id="s03-fi" class="flood" style="background:#000;z-index:900" data-layout-ignore></div><div id="s03-fo" class="flood" style="background:#000;z-index:901" data-layout-ignore></div>
   </div>
   <script src="lib/em3d.js"></script>
   <script>
     (function () {
       const tl = gsap.timeline({ paused: true });
       tl.fromTo("#s03-o1-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.500);
-      tl.to("#s03-o1-in",{opacity:0,duration:0.18,ease:"power2.in"},25.710);
+      tl.to("#s03-o1-in",{opacity:0,duration:0.18,ease:"power2.in"},36.510);
       tl.fromTo("#s03-t2-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},0.150);
       tl.fromTo("#s03-t2-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},0.348);
       tl.fromTo("#s03-t2-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},0.547);
@@ -59,40 +59,47 @@
       tl.fromTo("#s03-t2-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},1.539);
       tl.fromTo("#s03-s3-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.000);
       tl.fromTo("#s03-t4-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},3.575);
-      tl.fromTo("#s03-t4-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},3.975);
-      tl.fromTo("#s03-t4-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.375);
-      tl.fromTo("#s03-t4-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.775);
-      tl.fromTo("#s03-b5",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},5.275);
-      tl.fromTo("#s03-b6",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},6.775);
-      tl.fromTo("#s03-b7",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},7.575);
+      tl.fromTo("#s03-t4-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.025);
+      tl.fromTo("#s03-t4-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.475);
+      tl.fromTo("#s03-t4-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.925);
+      tl.fromTo("#s03-b5",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},5.475);
+      tl.fromTo("#s03-b6",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},7.375);
+      tl.fromTo("#s03-b7",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},8.375);
       tl.fromTo("#s03-s8-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},3.175);
       tl.fromTo("#s03-o9-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},3.775);
       tl.to("#s03-o9-in",{opacity:0,duration:0.18,ease:"power2.in"},10.635);
-      tl.fromTo("#s03-g10",{scaleY:0,transformOrigin:"50% 0%"},{scaleY:1,duration:0.7,ease:"power3.out"},11.425);
-      tl.fromTo("#s03-g11",{scaleY:0,transformOrigin:"50% 0%"},{scaleY:1,duration:0.7,ease:"power3.out"},12.125);
-      (function(){var el=document.getElementById("s03-n12"),o={v:0};var f=function(){var v=o.v;el.textContent="\u2248 $"+Number(v.toFixed(0)).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0})+"B";};tl.fromTo(o,{v:0},{v:500,duration:1.5,ease:"power3.out",onUpdate:f},14.225);f();})();
-      tl.fromTo("#s03-b13",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},14.025);
-      tl.fromTo("#s03-b14",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},15.425);
+      tl.fromTo("#s03-k10",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},11.425);
+      tl.fromTo("#s03-k11",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},12.325);
+      (function(){var el=document.getElementById("s03-n12"),o={v:0};var f=function(){var v=o.v;el.textContent="\u2248 $"+Number(v.toFixed(0)).toLocaleString("en-US",{minimumFractionDigits:0,maximumFractionDigits:0})+"B";};tl.fromTo(o,{v:0},{v:500,duration:1.5,ease:"power3.out",onUpdate:f},14.825);f();})();
+      tl.fromTo("#s03-b13",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},14.625);
+      tl.fromTo("#s03-b14",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},16.025);
       tl.fromTo("#s03-s15-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},10.825);
       tl.fromTo("#s03-o16-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},11.325);
       tl.to("#s03-o16-in",{opacity:0,duration:0.18,ease:"power2.in"},17.360);
-      tl.fromTo("#s03-t17-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},21.150);
-      tl.fromTo("#s03-t17-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.263);
-      tl.fromTo("#s03-t17-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.375);
-      tl.fromTo("#s03-t17-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.488);
-      tl.fromTo("#s03-s19-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},17.550);
-      tl.fromTo("#s03-p18-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:8.650,ease:"none"},17.550);
-      tl.fromTo("#s03-p18",{rotationY:-5,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:4,rotationX:-1,scale:1.045,duration:8.650,ease:"sine.inOut"},17.550);
-      tl.fromTo("#s03-t20-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.000);
-      tl.fromTo("#s03-t20-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.380);
-      tl.fromTo("#s03-t20-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.760);
-      tl.fromTo("#s03-t20-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.140);
-      tl.fromTo("#s03-t20-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.520);
-      tl.fromTo("#s03-b21",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},29.100);
-      tl.fromTo("#s03-b22",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},30.300);
-      tl.fromTo("#s03-s23-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},25.900);
-      tl.fromTo("#s03-fi",{scaleX:1,transformOrigin:"100% 50%"},{scaleX:0,duration:0.5,ease:"expo.out"},0);
-      tl.fromTo("#s03-fo",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:0.3,ease:"power3.in"},33.225);
+      tl.fromTo("#s03-k17",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},19.150);
+      tl.fromTo("#s03-k18",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},23.550);
+      tl.fromTo("#s03-b19",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},25.550);
+      tl.fromTo("#s03-s20-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},17.550);
+      tl.fromTo("#s03-o21-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},18.150);
+      tl.to("#s03-o21-in",{opacity:0,duration:0.18,ease:"power2.in"},28.160);
+      tl.fromTo("#s03-t22-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},32.150);
+      tl.fromTo("#s03-t22-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},33.213);
+      tl.fromTo("#s03-t22-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},34.275);
+      tl.fromTo("#s03-t22-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},35.338);
+      tl.fromTo("#s03-s24-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},28.350);
+      tl.fromTo("#s03-p23-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:8.650,ease:"none"},28.350);
+      tl.fromTo("#s03-p23",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},28.350);
+      tl.fromTo("#s03-p23 img",{scale:1.0},{scale:1.09,duration:8.650,ease:"none"},28.350);
+      tl.fromTo("#s03-t25-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},36.800);
+      tl.fromTo("#s03-t25-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.220);
+      tl.fromTo("#s03-t25-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.640);
+      tl.fromTo("#s03-t25-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.060);
+      tl.fromTo("#s03-t25-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.480);
+      tl.fromTo("#s03-b26",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},40.300);
+      tl.fromTo("#s03-b27",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},41.700);
+      tl.fromTo("#s03-s28-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},36.700);
+      tl.fromTo("#s03-fi",{opacity:1},{opacity:0,duration:0.45,ease:"power2.out"},0);
+      tl.fromTo("#s03-fo",{opacity:0},{opacity:1,duration:0.3,ease:"power2.in"},44.025);
       window.__timelines["s03"] = tl;
     })();
   </script>

@@ -428,5 +428,145 @@
   "credit": "energy.gov",
   "source": "https://www.energy.gov/sites/default/files/2022-12/S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf",
   "size": ""
+ },
+ "datacenter": {
+  "file": "datacenter",
+  "title": "File:Datacenter Server Racks (22370909788).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Carl Lender from Sunrise, USA",
+  "date": "2015-11-04 11:52",
+  "credit": "Real Estate",
+  "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+  "size": "6000x4000"
+ },
+ "warren": {
+  "file": "warren",
+  "title": "File:Elizabeth Warren, official portrait, 114th Congress.jpg",
+  "license": "Public domain",
+  "artist": "United States Senate",
+  "date": "2016-04-28",
+  "credit": "http://www.warren.senate.gov/?p=biography / https://www.warren.senate.gov/imo/media/image/Official_Portrait.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Warren,_official_portrait,_114th_Congress.jpg",
+  "size": "1908x2385"
+ },
+ "great_hall": {
+  "file": "great_hall",
+  "title": "File:Great Hall of the People Beijing China.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Philip Nalangan",
+  "date": "2006-01-05",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People_Beijing_China.jpg",
+  "size": "2848x2134"
+ },
+ "hearing_room": {
+  "file": "hearing_room",
+  "title": "File:Homeland Security Hearing Room Chandelier (52388746744).jpg",
+  "license": "Public domain",
+  "artist": "USCapitol from Washington, D.C., United States of America",
+  "date": "2022-06-08 11:30",
+  "credit": "Homeland Security Hearing Room Chandelier",
+  "source": "https://commons.wikimedia.org/wiki/File:Homeland_Security_Hearing_Room_Chandelier_(52388746744).jpg",
+  "size": "2000x1333"
+ },
+ "la_gate": {
+  "file": "la_gate",
+  "title": "File:Los Alamos Main Gate (2).jpg",
+  "license": "Public domain",
+  "artist": "United States Army",
+  "date": "circa 1943date QS:P,+1943-00-00T00:00:00",
+  "credit": "Atomic Archive.",
+  "source": "https://commons.wikimedia.org/wiki/File:Los_Alamos_Main_Gate_(2).jpg",
+  "size": "540x410"
+ },
+ "h100": {
+  "file": "h100",
+  "title": "File:NVIDIA H100 (极客湾Geekerwan) 024.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "date": "2023-06-14",
+  "credit": "YouTube: 这是史上最快GPU！我们测了四张H100！价值120万元！ – View/save archived versions on archive.org Archive link: https://web.archive.org/web/20240405133205/https://www.youtube",
+  "source": "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_024.png",
+  "size": "3840x2160"
+ },
+ "nyse": {
+  "file": "nyse",
+  "title": "File:NY stock exchange traders floor LC-U9-10548-6.jpg",
+  "license": "Public domain",
+  "artist": "Thomas J. O'Halloran",
+  "date": "1963-09-26",
+  "credit": "This image is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsca.03199.This tag does not indicat",
+  "source": "https://commons.wikimedia.org/wiki/File:NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+  "size": "4537x3004"
+ },
+ "whitehouse": {
+  "file": "whitehouse",
+  "title": "File:North Façade White House.JPG",
+  "license": "Public domain",
+  "artist": "Nishkid64",
+  "date": "12:29 P.M., 6 July 2007",
+  "credit": "Own work",
+  "source": "https://commons.wikimedia.org/wiki/File:North_Fa%C3%A7ade_White_House.JPG",
+  "size": "2592x1735"
+ },
+ "trump": {
+  "file": "trump",
+  "title": "File:Official Presidential Portrait of President Donald J. Trump (2025).jpg",
+  "license": "Public domain",
+  "artist": "Daniel Torok",
+  "date": "2025-06-02",
+  "credit": "White HouseFacebook",
+  "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+  "size": "1638x2048"
+ },
+ "opp_neumann": {
+  "file": "opp_neumann",
+  "title": "File:Oppenheimer & Neumann.jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "date": "2010-08-23 09:00:08",
+  "credit": "http://ds-wordpress.haverford.edu/bitbybit/bit-by-bit-contents/chapter-five/5-2-john-von-neumann-and-the-report-on-the-edvac/",
+  "source": "https://commons.wikimedia.org/wiki/File:Oppenheimer_%26_Neumann.jpg",
+  "size": "2429x1441"
+ },
+ "robb": {
+  "file": "robb",
+  "title": "File:Roger Robb.jpg",
+  "license": "Public domain",
+  "artist": "Don Stivers, under commission of the United States Court of Appeals for the District of Columbia Circuit",
+  "date": "2011-10-07 15:33:54",
+  "credit": "http://dcchs.org/usca/RogerRobb.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Roger_Robb.jpg",
+  "size": "1433x1814"
+ },
+ "silence_poster": {
+  "file": "silence_poster",
+  "title": "File:Silence means security.jpg",
+  "license": "Public domain",
+  "artist": "United States Army Corps of Engineers",
+  "date": "1947",
+  "credit": "Manhattan District History, Book IV - X-10 Pile Project - Book 6 - Operations - Appendix",
+  "source": "https://commons.wikimedia.org/wiki/File:Silence_means_security.jpg",
+  "size": "1166x607"
+ },
+ "wafer": {
+  "file": "wafer",
+  "title": "File:Wafer with Pentium chips.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Naotake Murayama from Los Altos, CA, USA",
+  "date": "2006-05-12 10:46",
+  "credit": "Silicon Wafer",
+  "source": "https://commons.wikimedia.org/wiki/File:Wafer_with_Pentium_chips.jpg",
+  "size": "1200x1600"
+ },
+ "sf_montgomery": {
+  "file": "sf_montgomery",
+  "title": "File:Zan 431 - Montgomery Street, San Francisco, California.jpg",
+  "license": "Public domain",
+  "artist": "Zan",
+  "date": "circa 1930s-1940s",
+  "credit": "Scan of postcard from Calisphere",
+  "source": "https://commons.wikimedia.org/wiki/File:Zan_431_-_Montgomery_Street,_San_Francisco,_California.jpg",
+  "size": "4965x7673"
  }
 }

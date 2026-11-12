@@ -22,18 +22,18 @@ This video puts the two cases side by side, using the original 1953 charge lette
 
 0:00 One night in 1943
 0:56 What is confirmed about Jensen Huang
-2:08 Why one man moves a market
-2:42 Oppenheimer and Jean Tatlock
-3:28 The 24 charges
-4:26 The file came first
-5:09 A hearing rigged before it began
-5:55 “Because I was an idiot”
-6:57 Rabi and Teller
-7:22 Loyal, and removed anyway
-8:00 2022: the government takes it back
-9:15 The chip fight around Huang
-9:51 How the two cases differ
-10:33 Three questions for November 18
+2:25 Why one man moves a market
+3:10 Oppenheimer and Jean Tatlock
+3:55 The 24 charges
+4:53 The file came first
+5:37 A hearing rigged before it began
+6:23 “Because I was an idiot”
+7:24 Rabi and Teller
+7:50 Loyal, and removed anyway
+8:28 2022: the government takes it back
+9:43 The chip fight around Huang
+10:18 How the two cases differ
+11:14 Three questions for November 18
 
 What is confirmed and what is not (as of November 11, 2026):
 - Confirmed: Huang's memo to staff of Nov. 8, 2026, and the Nvidia board's independent investigation.

@@ -11,7 +11,8 @@ IMG = HF / "assets" / "img"
 ONLY = sys.argv[1:]  # optional scene ids to build (style tests)
 LINE_GAP, SCENE_GAP, LEAD, TAIL = 0.30, 0.75, 0.35, 9.0
 SR = 24000
-AMBER, CYAN, RED, INK, GROUND, PAPER = "#e6a94e", "#56c8f5", "#ff4b3a", "#f3efe6", "#0a0b0e", "#ece3cf"
+AMBER, CYAN, RED, INK, GROUND, PAPER = "#f0c36a", "#2997ff", "#ff453a", "#f5f5f7", "#000000", "#1c1c1e"
+GREY = "#86868b"
 ERA = {"a": AMBER, "c": CYAN, "n": INK}
 
 script = json.load(open(ROOT / "script/script.json", encoding="utf-8"))
@@ -52,35 +53,33 @@ def imsize(slug):
     return _imgsize[slug]
 
 CSS = f"""
-#root {{ position:absolute; inset:0; background:{GROUND}; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:{INK}; }}
+#root {{ position:absolute; inset:0; background:{GROUND}; overflow:hidden; font-family:'Inter',sans-serif; color:{INK}; }}
 .shot {{ position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }}
 .in {{ position:absolute; left:0; top:0; width:1920px; height:1080px; }}
-.fill {{ position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, {GROUND} 78%); }}
-.pbg {{ position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }}
-.shade {{ position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }}
-.pcard {{ position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }}
+.fill {{ position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% -10%, #1d1d1f 0%, #0a0a0b 45%, {GROUND} 80%); }}
+.pbg {{ position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; opacity:.55; }}
+.shade {{ position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,.25) 0%, rgba(0,0,0,.92) 100%); }}
+.pcard {{ position:absolute; border-radius:28px; overflow:hidden; box-shadow:0 40px 100px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.14); background:#111; }}
 .pcard img {{ display:block; width:100%; height:100%; object-fit:cover; }}
-.cv {{ position:absolute; left:0; top:0; width:1920px; height:1080px; }}
-.tx {{ position:absolute; line-height:1.12; }}
+.tx {{ position:absolute; line-height:1.06; }}
 .tx .w {{ display:inline-block; white-space:pre; }}
-.serif {{ font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }}
-.mono {{ font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }}
-.a {{ color:{AMBER}; }} .c {{ color:{CYAN}; }} .n {{ color:{INK}; }} .r {{ color:{RED}; }} .dim {{ color:rgba(243,239,230,.62); }}
-.hud {{ position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }}
-.src {{ position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }}
-.src b {{ color:{INK}; font-weight:700; }}
-.cred {{ position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }}
-.recon {{ position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:{INK}; background:rgba(10,11,14,.6); }}
+.serif {{ font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.035em; }}
+.mono {{ font-family:'Inter',sans-serif; font-weight:600; letter-spacing:.02em; line-height:1.2; }}
+.a {{ color:{AMBER}; }} .c {{ color:{CYAN}; }} .n {{ color:{INK}; }} .r {{ color:{RED}; }} .dim {{ color:{GREY}; }}
+.hud {{ position:absolute; left:96px; top:60px; font-size:28px; font-weight:600; letter-spacing:.01em; padding:12px 26px; border-radius:999px; background:rgba(255,255,255,.1); box-shadow:inset 0 0 0 1px rgba(255,255,255,.16); }}
+.src {{ position:absolute; left:96px; top:984px; font-size:28px; font-weight:500; color:{GREY}; }}
+.src b {{ color:#d2d2d7; font-weight:600; }}
+.cred {{ position:absolute; right:96px; top:70px; font-size:17px; color:rgba(245,245,247,.5); text-align:right; }}
 .flood {{ position:absolute; left:0; top:0; width:1920px; height:1080px; }}
-.paper {{ position:absolute; background:{PAPER}; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }}
-.paper .ph {{ font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }}
+.paper {{ position:absolute; background:{PAPER}; color:{INK}; border-radius:32px; box-shadow:0 50px 110px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.12); padding:60px 68px; font-family:'Inter',sans-serif; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:-.01em; }}
+.paper .ph {{ font-size:28px; font-weight:600; color:{GREY}; padding-bottom:18px; margin-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14); letter-spacing:0; }}
 .paper .pl {{ margin-bottom:14px; }}
-.paper .hl {{ background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }}
+.paper .hl {{ background-image:linear-gradient(rgba(255,69,58,.5),rgba(255,69,58,.5)); background-repeat:no-repeat; background-position:0 92%; background-size:0% 14%; font-weight:700; }}
 .row {{ position:absolute; left:160px; width:1600px; height:108px; }}
-.row .k {{ position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }}
-.row .l, .row .rr {{ position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }}
+.row .k {{ position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; color:{GREY}; font-weight:600; padding-top:10px; }}
+.row .l, .row .rr {{ position:absolute; top:0; width:610px; font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.03em; font-size:44px; line-height:1.1; }}
 .row .l {{ left:360px; color:{AMBER}; }} .row .rr {{ left:1010px; color:{CYAN}; }}
-.rule {{ position:absolute; height:2px; background:rgba(243,239,230,.28); }}
+.rule {{ position:absolute; height:1px; background:rgba(255,255,255,.18); }}
 .bar {{ position:absolute; }}
 .sil {{ position:absolute; }}
 """
@@ -126,7 +125,7 @@ class Scene:
     def src(self, t0, t1, text):
         self.over(t0, t1, f'<div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · {esc(text)}</div>')
     def recon(self, t0, t1):
-        self.over(t0, t1, '<div class="recon">3D RECONSTRUCTION</div>')
+        return
 
     def words(self, text, t0, t1, x, y, w, size, cls="serif n", align="left", stagger=None, lh=1.12, hold_to=None, hi=None, hicls="a"):
         """Text block whose words arrive between t0 and t1 (spoken pace). Returns html; tweens are queued."""
@@ -161,20 +160,20 @@ class Scene:
         if not size:
             print("  ! missing image", slug)
             return self.clip(t0, t1, f'<div class="fill"></div>{extra}')
-        bw = boxw or (1500 if side == "center" else 820)
-        bh = boxh or (800 if side == "center" else 800)
+        bw = boxw or (1500 if side == "center" else 900)
+        bh = boxh or (800 if side == "center" else 730)
         ar = size[0] / size[1]
         w, h = (bw, bw / ar) if bw / ar <= bh else (bh * ar, bh)
         if h < bh * 0.72 and side != "center":  # very wide image in a tall slot: crop to fill a bit
             h = bh * 0.72; w = min(bw, h * ar)
         x = {"center": (1920 - w) / 2, "left": 120 + (bw - w) / 2, "right": 1920 - 120 - bw + (bw - w) / 2}[side]
-        y = (1080 - h) / 2 - 20
+        y = (1080 - h) / 2 - 45
         cid = self.uid("p")
         d = t1 - t0 + 0.3
         lab = ""
         if name:
             lx = x if side != "center" else x
-            lab = f'<div class="tx mono {era}" style="left:{lx:.0f}px;top:{y + h + 26:.0f}px;width:{max(w, 700):.0f}px;font-size:30px">{esc(name)}' + (f'<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">{esc(sub)}</div>' if sub else "") + "</div>"
+            lab = f'<div class="tx mono {era}" style="left:{lx:.0f}px;top:{y + h + 26:.0f}px;width:{max(w, 700):.0f}px;font-size:32px;font-weight:600">{esc(name)}' + (f'<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">{esc(sub)}</div>' if sub else "") + "</div>"
         cr = ""
         if credit and slug in credits:
             c = credits[slug]
@@ -184,7 +183,8 @@ class Scene:
                  f'<div class="pcard" id="{cid}" style="left:{x:.0f}px;top:{y:.0f}px;width:{w:.0f}px;height:{h:.0f}px"><img src="assets/img/{slug}_g.jpg" alt="" style="object-position:{focus}"></div>{lab}{cr}{extra}')
         sid = self.clip(t0, t1, inner)
         self.js.append(f'tl.fromTo("#{cid}-bg",{{x:-36,scale:1.04}},{{x:36,scale:1.1,duration:{r2(d)},ease:"none"}},{r2(t0)});')
-        self.js.append(f'tl.fromTo("#{cid}",{{rotationY:{tilt[0]},rotationX:1.5,scale:0.985,transformPerspective:1500}},{{rotationY:{tilt[1]},rotationX:-1,scale:1.045,duration:{r2(d)},ease:"sine.inOut"}},{r2(t0)});')
+        self.js.append(f'tl.fromTo("#{cid}",{{scale:0.965,y:14}},{{scale:1.0,y:0,duration:0.9,ease:"expo.out"}},{r2(t0)});')
+        self.js.append(f'tl.fromTo("#{cid} img",{{scale:1.0}},{{scale:1.09,duration:{r2(d)},ease:"none"}},{r2(t0)});')
         return sid
 
     def three(self, t0, t1, kind, cam, opts="{}", extra="", hold=0.3):
@@ -215,7 +215,7 @@ class Scene:
                     else:
                         body += f'<span class="hl" id="{lid}-h{j}">{esc(part)}</span>'
                         if th is not None:
-                            self.js.append(f'tl.fromTo("#{lid}-h{j}",{{backgroundSize:"0% 78%"}},{{backgroundSize:"100% 78%",duration:0.55,ease:"power2.out"}},{r2(th + (j // 2) * 1.3)});')
+                            self.js.append(f'tl.fromTo("#{lid}-h{j}",{{backgroundSize:"0% 14%"}},{{backgroundSize:"100% 14%",duration:0.55,ease:"power2.out"}},{r2(th + (j // 2) * 1.3)});')
             else:
                 body = esc(text)
             out.append(f'<div class="pl" id="{lid}">{body}</div>')
@@ -223,25 +223,24 @@ class Scene:
         return f'<div class="paper" id="{pid}" style="left:{x}px;top:{y}px;width:{w}px;font-size:{size}px">{"".join(out)}</div>', pid
 
     def tilt(self, el_id, t0, t1, rot=(-3, 4), sc=(0.97, 1.03), rx=(3, 0)):
-        self.js.append(f'tl.fromTo("#{el_id}",{{rotationY:{rot[0]},rotationX:{rx[0]},scale:{sc[0]},transformPerspective:1600}},{{rotationY:{rot[1]},rotationX:{rx[1]},scale:{sc[1]},duration:{r2(t1 - t0)},ease:"sine.inOut"}},{r2(t0)});')
+        self.js.append(f'tl.fromTo("#{el_id}",{{scale:0.96,y:24}},{{scale:1.0,y:0,duration:0.9,ease:"expo.out"}},{r2(t0)});')
 
     def silhouette(self, x, y, h, era):
         """A generic figure outline. Used where no freely licensed photo exists; never a likeness."""
-        col = ERA[era]
         w = h * 0.72
         return (f'<svg class="sil" style="left:{x}px;top:{y}px" width="{w:.0f}" height="{h:.0f}" viewBox="0 0 72 100">'
-                f'<rect x="1" y="1" width="70" height="98" fill="rgba(243,239,230,.05)" stroke="{col}" stroke-width="0.6"/>'
-                f'<circle cx="36" cy="36" r="15" fill="rgba(243,239,230,.2)"/><path d="M8 99 C8 70 22 58 36 58 C50 58 64 70 64 99 Z" fill="rgba(243,239,230,.2)"/></svg>')
+                f'<rect x="0.5" y="0.5" width="71" height="99" rx="6" fill="#1c1c1e" stroke="rgba(255,255,255,.16)" stroke-width="0.4"/>'
+                f'<circle cx="36" cy="38" r="14" fill="#3a3a3c"/><path d="M10 99 C10 72 23 60 36 60 C49 60 62 72 62 99 Z" fill="#3a3a3c"/></svg>')
 
     def build(self):
-        flood_in = f'<div id="{self.id}-fi" class="flood" style="background:{ERA[self.era]};z-index:900" data-layout-ignore></div>'
-        flood_out = f'<div id="{self.id}-fo" class="flood" style="background:{ERA[self.nxt]};z-index:901" data-layout-ignore></div>' if self.nxt else ""
+        flood_in = f'<div id="{self.id}-fi" class="flood" style="background:#000;z-index:900" data-layout-ignore></div>'
+        flood_out = f'<div id="{self.id}-fo" class="flood" style="background:#000;z-index:901" data-layout-ignore></div>' if self.nxt else ""
         first = self.id == "s01"
         if first:
-            flood_in = f'<div id="{self.id}-fi" class="flood" style="background:{ERA[self.era]};z-index:900;opacity:0" data-layout-ignore></div>'
-        js = [] if first else [f'tl.fromTo("#{self.id}-fi",{{scaleX:1,transformOrigin:"100% 50%"}},{{scaleX:0,duration:0.5,ease:"expo.out"}},0);']
+            flood_in = f'<div id="{self.id}-fi" class="flood" style="background:#000;z-index:900;opacity:0" data-layout-ignore></div>'
+        js = [] if first else [f'tl.fromTo("#{self.id}-fi",{{opacity:1}},{{opacity:0,duration:0.45,ease:"power2.out"}},0);']
         if self.nxt:
-            js.append(f'tl.fromTo("#{self.id}-fo",{{scaleX:0,transformOrigin:"0% 50%"}},{{scaleX:1,duration:0.3,ease:"power3.in"}},{r2(self.dur - 0.3)});')
+            js.append(f'tl.fromTo("#{self.id}-fo",{{opacity:0}},{{opacity:1,duration:0.3,ease:"power2.in"}},{r2(self.dur - 0.3)});')
         else:
             js.append(f'tl.set("#{self.id}-fi",{{opacity:0}},{r2(self.dur)});')
         body = "\n    ".join(self.h)

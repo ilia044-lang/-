@@ -6,7 +6,7 @@ from PIL import Image, ImageOps, ImageFilter, ImageEnhance
 ROOT = Path(__file__).resolve().parent.parent
 SRC, OUT = ROOT / "assets/images", ROOT / "hf/assets/img"
 OUT.mkdir(parents=True, exist_ok=True)
-MODERN = ("huang", "nvidia", "granholm", "rubio", "airforceone", "ccp", "capitol", "doe_")
+MODERN = ("huang", "nvidia", "granholm", "rubio", "airforceone", "ccp", "capitol", "doe_", "h100", "wafer", "datacenter", "great_hall", "trump", "warren", "whitehouse", "hearing_room")
 DOCS = ("aec_doc", "strauss_memo", "doe_")
 for p in sorted(SRC.iterdir()):
     if p.suffix.lower() not in (".jpg", ".png", ".gif"): continue

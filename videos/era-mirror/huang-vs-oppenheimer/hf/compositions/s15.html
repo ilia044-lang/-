@@ -1,64 +1,61 @@
 <template>
   <style>
-#root { position:absolute; inset:0; background:#0a0b0e; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:#f3efe6; }
+#root { position:absolute; inset:0; background:#000000; overflow:hidden; font-family:'Inter',sans-serif; color:#f5f5f7; }
 .shot { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }
 .in { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, #0a0b0e 78%); }
-.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }
-.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }
-.pcard { position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }
+.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% -10%, #1d1d1f 0%, #0a0a0b 45%, #000000 80%); }
+.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; opacity:.55; }
+.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,.25) 0%, rgba(0,0,0,.92) 100%); }
+.pcard { position:absolute; border-radius:28px; overflow:hidden; box-shadow:0 40px 100px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.14); background:#111; }
 .pcard img { display:block; width:100%; height:100%; object-fit:cover; }
-.cv { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.tx { position:absolute; line-height:1.12; }
+.tx { position:absolute; line-height:1.06; }
 .tx .w { display:inline-block; white-space:pre; }
-.serif { font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }
-.mono { font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
-.a { color:#e6a94e; } .c { color:#56c8f5; } .n { color:#f3efe6; } .r { color:#ff4b3a; } .dim { color:rgba(243,239,230,.62); }
-.hud { position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }
-.src { position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }
-.src b { color:#f3efe6; font-weight:700; }
-.cred { position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }
-.recon { position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:#f3efe6; background:rgba(10,11,14,.6); }
+.serif { font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.035em; }
+.mono { font-family:'Inter',sans-serif; font-weight:600; letter-spacing:.02em; line-height:1.2; }
+.a { color:#f0c36a; } .c { color:#2997ff; } .n { color:#f5f5f7; } .r { color:#ff453a; } .dim { color:#86868b; }
+.hud { position:absolute; left:96px; top:60px; font-size:28px; font-weight:600; letter-spacing:.01em; padding:12px 26px; border-radius:999px; background:rgba(255,255,255,.1); box-shadow:inset 0 0 0 1px rgba(255,255,255,.16); }
+.src { position:absolute; left:96px; top:984px; font-size:28px; font-weight:500; color:#86868b; }
+.src b { color:#d2d2d7; font-weight:600; }
+.cred { position:absolute; right:96px; top:70px; font-size:17px; color:rgba(245,245,247,.5); text-align:right; }
 .flood { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.paper { position:absolute; background:#ece3cf; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }
-.paper .ph { font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }
+.paper { position:absolute; background:#1c1c1e; color:#f5f5f7; border-radius:32px; box-shadow:0 50px 110px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.12); padding:60px 68px; font-family:'Inter',sans-serif; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:-.01em; }
+.paper .ph { font-size:28px; font-weight:600; color:#86868b; padding-bottom:18px; margin-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14); letter-spacing:0; }
 .paper .pl { margin-bottom:14px; }
-.paper .hl { background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }
+.paper .hl { background-image:linear-gradient(rgba(255,69,58,.5),rgba(255,69,58,.5)); background-repeat:no-repeat; background-position:0 92%; background-size:0% 14%; font-weight:700; }
 .row { position:absolute; left:160px; width:1600px; height:108px; }
-.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }
-.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }
-.row .l { left:360px; color:#e6a94e; } .row .rr { left:1010px; color:#56c8f5; }
-.rule { position:absolute; height:2px; background:rgba(243,239,230,.28); }
+.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; color:#86868b; font-weight:600; padding-top:10px; }
+.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.03em; font-size:44px; line-height:1.1; }
+.row .l { left:360px; color:#f0c36a; } .row .rr { left:1010px; color:#2997ff; }
+.rule { position:absolute; height:1px; background:rgba(255,255,255,.18); }
 .bar { position:absolute; }
 .sil { position:absolute; }
 </style>
   <div id="root" data-composition-id="s15" data-width="1920" data-height="1080">
-    <div id="s15-s10" class="clip shot" data-start="0.000" data-duration="20.800" data-track-index="2" style="z-index:2"><div class="in" id="s15-s10-in"><canvas class="cv" id="s15-c9" width="1440" height="810"></canvas><div class="shade" style="opacity:.75"></div><div id="s15-f2" style="position:absolute;left:0;top:0"><div id="s15-b1" style="position:absolute;left:96px;top:150px"><div class="tx serif n" style="left:0px;top:0px;width:900px;font-size:170px;text-align:left">NOV 18</div></div></div><div id="s15-b3" style="position:absolute;left:96px;top:190px"><div class="tx serif c" style="left:0px;top:0px;width:120px;font-size:120px;text-align:left">1</div></div><div id="s15-t4" class="tx serif n" style="left:230px;top:205px;width:1000px;font-size:60px;text-align:left;line-height:1.12"><span class="w" id="s15-t4-0">Was </span><span class="w" id="s15-t4-1">anything </span><span class="w" id="s15-t4-2">actually </span><span class="w" id="s15-t4-3">compromised </span><span class="w" id="s15-t4-4">— </span><span class="w" id="s15-t4-5">or </span><span class="w" id="s15-t4-6">is </span><span class="w" id="s15-t4-7">there </span><span class="w" id="s15-t4-8">only </span><span class="w" id="s15-t4-9">a </span><span class="w" id="s15-t4-10">relationship?</span></div><div id="s15-b5" style="position:absolute;left:96px;top:440px"><div class="tx serif c" style="left:0px;top:0px;width:120px;font-size:120px;text-align:left">2</div></div><div id="s15-t6" class="tx serif n" style="left:230px;top:455px;width:1000px;font-size:60px;text-align:left;line-height:1.12"><span class="w" id="s15-t6-0">Does </span><span class="w" id="s15-t6-1">the </span><span class="w" id="s15-t6-2">accused </span><span class="w" id="s15-t6-3">get </span><span class="w" id="s15-t6-4">to </span><span class="w" id="s15-t6-5">see </span><span class="w" id="s15-t6-6">the </span><span class="w" id="s15-t6-7">file?</span></div><div id="s15-b7" style="position:absolute;left:96px;top:690px"><div class="tx serif c" style="left:0px;top:0px;width:120px;font-size:120px;text-align:left">3</div></div><div id="s15-t8" class="tx serif n" style="left:230px;top:705px;width:1000px;font-size:60px;text-align:left;line-height:1.12"><span class="w" id="s15-t8-0">Who </span><span class="w" id="s15-t8-1">wins </span><span class="w" id="s15-t8-2">the </span><span class="w" id="s15-t8-3">policy </span><span class="w" id="s15-t8-4">fight </span><span class="w" id="s15-t8-5">if </span><span class="w" id="s15-t8-6">he </span><span class="w" id="s15-t8-7">falls?</span></div></div></div>
-    <div id="s15-o11" class="clip" data-start="0.600" data-duration="19.900" data-track-index="3" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:503"><div id="s15-o11-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="recon">3D RECONSTRUCTION</div></div></div>
-    <div id="s15-o12" class="clip" data-start="0.600" data-duration="19.900" data-track-index="4" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:504"><div id="s15-o12-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">November 18, 2026 · U.S. Congress</div></div></div>
-    <div id="s15-s17" class="clip shot" data-start="20.500" data-duration="12.450" data-track-index="5" style="z-index:5"><div class="in" id="s15-s17-in"><div class="fill"></div><div id="s15-t13" class="tx serif n" style="left:160px;top:130px;width:1600px;font-size:100px;text-align:center;line-height:1.12"><span class="w" id="s15-t13-0">America </span><span class="w r" id="s15-t13-1">skipped </span><span class="w" id="s15-t13-2">all </span><span class="w" id="s15-t13-3">three.</span></div><div id="s15-b14" style="position:absolute;left:190px;top:380px"><div class="tx serif a" style="left:0px;top:0px;width:500px;font-size:190px;text-align:center">68</div><div class="tx mono n" style="left:0px;top:250px;width:500px;font-size:30px;text-align:center">YEARS</div></div><div id="s15-b15" style="position:absolute;left:710px;top:380px"><div class="tx serif a" style="left:0px;top:0px;width:500px;font-size:190px;text-align:center">43</div><div class="tx mono n" style="left:0px;top:250px;width:500px;font-size:30px;text-align:center">SENATORS</div></div><div id="s15-b16" style="position:absolute;left:1230px;top:380px"><div class="tx serif a" style="left:0px;top:0px;width:500px;font-size:190px;text-align:center">ALL</div><div class="tx mono n" style="left:0px;top:250px;width:500px;font-size:30px;text-align:center">LIVING LOS ALAMOS DIRECTORS</div></div></div></div>
-    <div id="s15-o18" class="clip" data-start="24.450" data-duration="8.200" data-track-index="6" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:506"><div id="s15-o18-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · U.S. Secretary of Energy, order of Dec. 16, 2022</div></div></div>
-    <div id="s15-s26" class="clip shot" data-start="32.650" data-duration="18.075" data-track-index="7" style="z-index:7"><div class="in" id="s15-s26-in"><div class="fill"></div><div id="s15-f22" style="position:absolute;left:0;top:0"><div class="paper" id="s15-d19" style="left:150px;top:250px;width:760px;font-size:36px"><div class="ph">BOARD FINDINGS · 1954</div><div class="pl" id="s15-d19-l0">“no evidence of disloyalty”</div><div class="pl" id="s15-d19-l1">Clearance: not reinstated.</div></div><div class="paper" id="s15-d20" style="left:1010px;top:250px;width:760px;font-size:36px"><div class="ph">BOARD FINDINGS · 2026</div><div class="pl" id="s15-d20-l0">—</div><div class="pl" id="s15-d20-l1">Not yet written.</div></div><div id="s15-t21" class="tx serif n" style="left:160px;top:760px;width:1600px;font-size:76px;text-align:center;line-height:1.12"><span class="w" id="s15-t21-0">Watch </span><span class="w" id="s15-t21-1">what </span><span class="w" id="s15-t21-2">the </span><span class="w c" id="s15-t21-3">next </span><span class="w" id="s15-t21-4">board </span><span class="w" id="s15-t21-5">writes.</span></div></div><div id="s15-b23" style="position:absolute;left:150px;top:300px"><div class="tx serif n" style="left:0px;top:0px;width:800px;font-size:96px;text-align:left">ERA MIRROR</div></div><div id="s15-b24" style="position:absolute;left:154px;top:430px"><div class="tx mono a" style="left:0px;top:0px;width:800px;font-size:32px;text-align:left">THE PAST, HELD UP TO THE PRESENT</div></div><div id="s15-b25" style="position:absolute;left:154px;top:560px"><div class="tx mono c" style="left:0px;top:0px;width:800px;font-size:44px;text-align:left">NEXT MIRROR →</div></div></div></div>
-    <div id="s15-fi" class="flood" style="background:#56c8f5;z-index:900" data-layout-ignore></div>
+    <div id="s15-s10" class="clip shot" data-start="0.000" data-duration="20.800" data-track-index="2" style="z-index:2"><div class="in" id="s15-s10-in"><img class="pbg" id="s15-p9-bg" src="assets/img/capitol_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s15-p9" style="left:120px;top:232px;width:900px;height:526px"><img src="assets/img/capitol_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono c" style="left:120px;top:784px;width:900px;font-size:32px;font-weight:600">U.S. Capitol<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Washington, D.C.</div></div><div class="cred" data-layout-ignore>Martin Falbisoner · CC BY-SA 3.0</div><div id="s15-f2" style="position:absolute;left:0;top:0"><div id="s15-b1" style="position:absolute;left:1000px;top:300px"><div class="tx serif n" style="left:0px;top:0px;width:900px;font-size:200px;text-align:left">Nov 18</div></div></div><div id="s15-b3" style="position:absolute;left:1000px;top:200px"><div class="tx serif c" style="left:0px;top:0px;width:100px;font-size:110px;text-align:left">1</div></div><div id="s15-t4" class="tx serif n" style="left:1110px;top:212px;width:700px;font-size:50px;text-align:left;line-height:1.12"><span class="w" id="s15-t4-0">Was </span><span class="w" id="s15-t4-1">anything </span><span class="w" id="s15-t4-2">actually </span><span class="w" id="s15-t4-3">compromised, </span><span class="w" id="s15-t4-4">or </span><span class="w" id="s15-t4-5">is </span><span class="w" id="s15-t4-6">there </span><span class="w" id="s15-t4-7">only </span><span class="w" id="s15-t4-8">a </span><span class="w" id="s15-t4-9">relationship?</span></div><div id="s15-b5" style="position:absolute;left:1000px;top:430px"><div class="tx serif c" style="left:0px;top:0px;width:100px;font-size:110px;text-align:left">2</div></div><div id="s15-t6" class="tx serif n" style="left:1110px;top:442px;width:700px;font-size:50px;text-align:left;line-height:1.12"><span class="w" id="s15-t6-0">Does </span><span class="w" id="s15-t6-1">the </span><span class="w" id="s15-t6-2">accused </span><span class="w" id="s15-t6-3">get </span><span class="w" id="s15-t6-4">to </span><span class="w" id="s15-t6-5">see </span><span class="w" id="s15-t6-6">the </span><span class="w" id="s15-t6-7">file?</span></div><div id="s15-b7" style="position:absolute;left:1000px;top:660px"><div class="tx serif c" style="left:0px;top:0px;width:100px;font-size:110px;text-align:left">3</div></div><div id="s15-t8" class="tx serif n" style="left:1110px;top:672px;width:700px;font-size:50px;text-align:left;line-height:1.12"><span class="w" id="s15-t8-0">Who </span><span class="w" id="s15-t8-1">wins </span><span class="w" id="s15-t8-2">the </span><span class="w" id="s15-t8-3">policy </span><span class="w" id="s15-t8-4">fight </span><span class="w" id="s15-t8-5">if </span><span class="w" id="s15-t8-6">he </span><span class="w" id="s15-t8-7">falls?</span></div></div></div>
+    <div id="s15-o11" class="clip" data-start="0.600" data-duration="19.900" data-track-index="3" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:503"><div id="s15-o11-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud c">November 18, 2026 · U.S. Congress</div></div></div>
+    <div id="s15-s14" class="clip shot" data-start="20.500" data-duration="5.825" data-track-index="4" style="z-index:4"><div class="in" id="s15-s14-in"><div class="fill"></div><div id="s15-t12" class="tx serif dim" style="left:160px;top:300px;width:1600px;font-size:84px;text-align:center;line-height:1.12"><span class="w" id="s15-t12-0">And </span><span class="w" id="s15-t12-1">if </span><span class="w" id="s15-t12-2">the </span><span class="w" id="s15-t12-3">board </span><span class="w" id="s15-t12-4">removes </span><span class="w" id="s15-t12-5">him </span><span class="w" id="s15-t12-6">first:</span></div><div id="s15-t13" class="tx serif n" style="left:160px;top:440px;width:1600px;font-size:110px;text-align:center;line-height:1.12"><span class="w c" id="s15-t13-0">which </span><span class="w" id="s15-t13-1">of </span><span class="w" id="s15-t13-2">the </span><span class="w" id="s15-t13-3">two </span><span class="w" id="s15-t13-4">stories </span><span class="w" id="s15-t13-5">was </span><span class="w" id="s15-t13-6">it </span><span class="w" id="s15-t13-7">for?</span></div></div></div>
+    <div id="s15-s19" class="clip shot" data-start="26.025" data-duration="12.450" data-track-index="5" style="z-index:5"><div class="in" id="s15-s19-in"><div class="fill"></div><div id="s15-t15" class="tx serif n" style="left:160px;top:110px;width:1600px;font-size:110px;text-align:center;line-height:1.12"><span class="w" id="s15-t15-0">America </span><span class="w r" id="s15-t15-1">skipped </span><span class="w" id="s15-t15-2">all </span><span class="w" id="s15-t15-3">three.</span></div><div id="s15-k16" style="position:absolute;left:250px;top:380px;width:440px;height:330px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif a" style="left:34px;top:30px;width:380px;font-size:110px">68</div><div class="tx mono dim" style="left:36px;top:234px;width:380px;font-size:30px">years</div></div><div id="s15-k17" style="position:absolute;left:740px;top:380px;width:440px;height:330px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif a" style="left:34px;top:30px;width:380px;font-size:110px">43</div><div class="tx mono dim" style="left:36px;top:234px;width:380px;font-size:30px">senators</div></div><div id="s15-k18" style="position:absolute;left:1230px;top:380px;width:440px;height:330px;border-radius:32px;background:#1c1c1e;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)"><div class="tx serif a" style="left:34px;top:30px;width:380px;font-size:110px">All</div><div class="tx mono dim" style="left:36px;top:234px;width:380px;font-size:30px">living Los Alamos directors</div></div></div></div>
+    <div id="s15-o20" class="clip" data-start="29.975" data-duration="8.200" data-track-index="6" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:506"><div id="s15-o20-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · U.S. Secretary of Energy, order of Dec. 16, 2022</div></div></div>
+    <div id="s15-s28" class="clip shot" data-start="38.175" data-duration="18.075" data-track-index="7" style="z-index:7"><div class="in" id="s15-s28-in"><div class="fill"></div><div id="s15-f24" style="position:absolute;left:0;top:0"><div class="paper" id="s15-d21" style="left:150px;top:260px;width:760px;font-size:42px"><div class="ph">Board findings · 1954</div><div class="pl" id="s15-d21-l0">“no evidence of disloyalty”</div><div class="pl" id="s15-d21-l1">Clearance: not reinstated.</div></div><div class="paper" id="s15-d22" style="left:1010px;top:260px;width:760px;font-size:42px"><div class="ph">Board findings · 2026</div><div class="pl" id="s15-d22-l0">—</div><div class="pl" id="s15-d22-l1">Not yet written.</div></div><div id="s15-t23" class="tx serif n" style="left:160px;top:740px;width:1600px;font-size:88px;text-align:center;line-height:1.12"><span class="w" id="s15-t23-0">Watch </span><span class="w" id="s15-t23-1">what </span><span class="w" id="s15-t23-2">the </span><span class="w c" id="s15-t23-3">next </span><span class="w" id="s15-t23-4">board </span><span class="w" id="s15-t23-5">writes.</span></div></div><div id="s15-b25" style="position:absolute;left:150px;top:300px"><div class="tx serif n" style="left:0px;top:0px;width:800px;font-size:120px;text-align:left">Era Mirror</div></div><div id="s15-b26" style="position:absolute;left:156px;top:450px"><div class="tx mono dim" style="left:0px;top:0px;width:800px;font-size:38px;text-align:left">The past, held up to the present</div></div><div id="s15-b27" style="position:absolute;left:156px;top:570px"><div class="tx mono c" style="left:0px;top:0px;width:800px;font-size:48px;text-align:left">Next mirror →</div></div></div></div>
+    <div id="s15-fi" class="flood" style="background:#000;z-index:900" data-layout-ignore></div>
   </div>
   <script src="lib/em3d.js"></script>
   <script>
     (function () {
       const tl = gsap.timeline({ paused: true });
-      tl.fromTo("#s15-b1",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},3.200);
+      tl.fromTo("#s15-b1",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},3.600);
       tl.fromTo("#s15-f2",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},6.750);
       tl.fromTo("#s15-b3",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},6.950);
       tl.fromTo("#s15-t4-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},7.350);
-      tl.fromTo("#s15-t4-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},7.880);
-      tl.fromTo("#s15-t4-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},8.409);
-      tl.fromTo("#s15-t4-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},8.939);
-      tl.fromTo("#s15-t4-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},9.468);
-      tl.fromTo("#s15-t4-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},9.998);
-      tl.fromTo("#s15-t4-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},10.527);
-      tl.fromTo("#s15-t4-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.057);
-      tl.fromTo("#s15-t4-8",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.586);
-      tl.fromTo("#s15-t4-9",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.116);
-      tl.fromTo("#s15-t4-10",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.645);
+      tl.fromTo("#s15-t4-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},7.933);
+      tl.fromTo("#s15-t4-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},8.515);
+      tl.fromTo("#s15-t4-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},9.098);
+      tl.fromTo("#s15-t4-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},9.680);
+      tl.fromTo("#s15-t4-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},10.263);
+      tl.fromTo("#s15-t4-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},10.845);
+      tl.fromTo("#s15-t4-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.428);
+      tl.fromTo("#s15-t4-8",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.010);
+      tl.fromTo("#s15-t4-9",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.593);
       tl.fromTo("#s15-b5",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},13.475);
       tl.fromTo("#s15-t6-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},13.875);
       tl.fromTo("#s15-t6-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},14.213);
@@ -78,40 +75,56 @@
       tl.fromTo("#s15-t8-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},19.469);
       tl.fromTo("#s15-t8-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},19.834);
       tl.fromTo("#s15-s10-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.000);
-      (function(){var dr=EM3D.door(document.getElementById("s15-c9")),st={t:0},o=Object.assign({cam:[{"t": 0, "p": [-3.6, 2.6, 18], "l": [-3.4, 2.5, 0]}, {"t": 20.9, "p": [-4.6, 2.3, 10.5], "l": [-3.1, 2.4, 0]}]},{});var f=function(){dr(st.t,o.fn?Object.assign({},o,o.fn(st.t)):o);};tl.fromTo(st,{t:0},{t:20.800,duration:20.800,ease:"none",onUpdate:f},0.000);st.t=0;f();})();
+      tl.fromTo("#s15-p9-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:20.800,ease:"none"},0.000);
+      tl.fromTo("#s15-p9",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},0.000);
+      tl.fromTo("#s15-p9 img",{scale:1.0},{scale:1.09,duration:20.800,ease:"none"},0.000);
       tl.fromTo("#s15-o11-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.600);
       tl.to("#s15-o11-in",{opacity:0,duration:0.18,ease:"power2.in"},20.310);
-      tl.fromTo("#s15-o12-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.600);
-      tl.to("#s15-o12-in",{opacity:0,duration:0.18,ease:"power2.in"},20.310);
-      tl.fromTo("#s15-t13-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},20.500);
-      tl.fromTo("#s15-t13-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},21.288);
-      tl.fromTo("#s15-t13-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.075);
-      tl.fromTo("#s15-t13-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.862);
-      tl.fromTo("#s15-b14",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},24.550);
-      tl.fromTo("#s15-b15",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},26.350);
-      tl.fromTo("#s15-b16",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},27.550);
-      tl.fromTo("#s15-s17-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.500);
-      tl.fromTo("#s15-o18-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},24.450);
-      tl.to("#s15-o18-in",{opacity:0,duration:0.18,ease:"power2.in"},32.460);
-      tl.fromTo("#s15-d19-l0",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},34.450);
-      tl.fromTo("#s15-d19-l1",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},35.250);
-      tl.fromTo("#s15-d20-l0",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},36.450);
-      tl.fromTo("#s15-d20-l1",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},37.050);
-      tl.fromTo("#s15-d19",{rotationY:6,rotationX:3,scale:0.96,transformPerspective:1600},{rotationY:2,rotationX:0,scale:1.0,duration:18.075,ease:"sine.inOut"},32.650);
-      tl.fromTo("#s15-d20",{rotationY:-6,rotationX:3,scale:0.96,transformPerspective:1600},{rotationY:-2,rotationX:0,scale:1.0,duration:18.075,ease:"sine.inOut"},32.650);
-      tl.fromTo("#s15-t21-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},36.050);
-      tl.fromTo("#s15-t21-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},36.354);
-      tl.fromTo("#s15-t21-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},36.658);
-      tl.fromTo("#s15-t21-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},36.963);
-      tl.fromTo("#s15-t21-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.267);
-      tl.fromTo("#s15-t21-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},37.571);
-      tl.fromTo("#s15-f22",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},39.075);
-      tl.fromTo("#s15-b23",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},39.275);
-      tl.fromTo("#s15-b24",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},39.675);
-      tl.fromTo("#s15-b25",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},40.075);
-      tl.fromTo("#s15-s26-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},32.650);
-      tl.fromTo("#s15-fi",{scaleX:1,transformOrigin:"100% 50%"},{scaleX:0,duration:0.5,ease:"expo.out"},0);
-      tl.set("#s15-fi",{opacity:0},50.725);
+      tl.fromTo("#s15-t12-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},20.500);
+      tl.fromTo("#s15-t12-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},20.871);
+      tl.fromTo("#s15-t12-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},21.243);
+      tl.fromTo("#s15-t12-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},21.614);
+      tl.fromTo("#s15-t12-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},21.986);
+      tl.fromTo("#s15-t12-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.357);
+      tl.fromTo("#s15-t12-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},22.729);
+      tl.fromTo("#s15-t13-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.300);
+      tl.fromTo("#s15-t13-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.603);
+      tl.fromTo("#s15-t13-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},23.906);
+      tl.fromTo("#s15-t13-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.209);
+      tl.fromTo("#s15-t13-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.513);
+      tl.fromTo("#s15-t13-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},24.816);
+      tl.fromTo("#s15-t13-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},25.119);
+      tl.fromTo("#s15-t13-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},25.422);
+      tl.fromTo("#s15-s14-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.500);
+      tl.fromTo("#s15-t15-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.025);
+      tl.fromTo("#s15-t15-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},26.812);
+      tl.fromTo("#s15-t15-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},27.600);
+      tl.fromTo("#s15-t15-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.387);
+      tl.fromTo("#s15-k16",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},30.075);
+      tl.fromTo("#s15-k17",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},32.275);
+      tl.fromTo("#s15-k18",{opacity:0,y:40,scale:0.96},{opacity:1,y:0,scale:1,duration:0.7,ease:"expo.out"},33.675);
+      tl.fromTo("#s15-s19-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},26.025);
+      tl.fromTo("#s15-o20-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},29.975);
+      tl.to("#s15-o20-in",{opacity:0,duration:0.18,ease:"power2.in"},37.985);
+      tl.fromTo("#s15-d21-l0",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},40.175);
+      tl.fromTo("#s15-d21-l1",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},41.175);
+      tl.fromTo("#s15-d22-l0",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},42.575);
+      tl.fromTo("#s15-d22-l1",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},43.175);
+      tl.fromTo("#s15-d21",{scale:0.96,y:24},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},38.175);
+      tl.fromTo("#s15-d22",{scale:0.96,y:24},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},38.325);
+      tl.fromTo("#s15-t23-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},41.975);
+      tl.fromTo("#s15-t23-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.213);
+      tl.fromTo("#s15-t23-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.450);
+      tl.fromTo("#s15-t23-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.688);
+      tl.fromTo("#s15-t23-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.925);
+      tl.fromTo("#s15-t23-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},43.163);
+      tl.fromTo("#s15-f24",{opacity:1},{opacity:0,duration:0.3,ease:"power2.in"},44.600);
+      tl.fromTo("#s15-b25",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},44.800);
+      tl.fromTo("#s15-b26",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},45.200);
+      tl.fromTo("#s15-b27",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},45.600);
+      tl.fromTo("#s15-s28-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},38.175);
+      tl.fromTo("#s15-fi",{opacity:1},{opacity:0,duration:0.45,ease:"power2.out"},0);
+      tl.set("#s15-fi",{opacity:0},56.250);
       window.__timelines["s15"] = tl;
     })();
   </script>

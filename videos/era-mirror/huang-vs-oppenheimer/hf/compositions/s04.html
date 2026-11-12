@@ -1,49 +1,47 @@
 <template>
   <style>
-#root { position:absolute; inset:0; background:#0a0b0e; overflow:hidden; font-family:'IBM Plex Mono',monospace; color:#f3efe6; }
+#root { position:absolute; inset:0; background:#000000; overflow:hidden; font-family:'Inter',sans-serif; color:#f5f5f7; }
 .shot { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:hidden; }
 .in { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 28% 18%, #20232b 0%, #111318 38%, #0a0b0e 78%); }
-.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; }
-.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(10,11,14,0) 30%, rgba(10,11,14,.82) 100%); }
-.pcard { position:absolute; box-shadow:0 40px 90px rgba(0,0,0,.65), 0 0 0 10px #efe8d8, 0 0 0 11px rgba(0,0,0,.4); background:#111; }
+.fill { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% -10%, #1d1d1f 0%, #0a0a0b 45%, #000000 80%); }
+.pbg { position:absolute; left:-120px; top:-70px; width:2160px; height:1220px; object-fit:cover; opacity:.55; }
+.shade { position:absolute; left:0; top:0; width:1920px; height:1080px; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,.25) 0%, rgba(0,0,0,.92) 100%); }
+.pcard { position:absolute; border-radius:28px; overflow:hidden; box-shadow:0 40px 100px rgba(0,0,0,.7), 0 0 0 1px rgba(255,255,255,.14); background:#111; }
 .pcard img { display:block; width:100%; height:100%; object-fit:cover; }
-.cv { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.tx { position:absolute; line-height:1.12; }
+.tx { position:absolute; line-height:1.06; }
 .tx .w { display:inline-block; white-space:pre; }
-.serif { font-family:'Playfair Display',serif; font-weight:700; letter-spacing:-.01em; }
-.mono { font-family:'IBM Plex Mono',monospace; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
-.a { color:#e6a94e; } .c { color:#56c8f5; } .n { color:#f3efe6; } .r { color:#ff4b3a; } .dim { color:rgba(243,239,230,.62); }
-.hud { position:absolute; left:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; padding:10px 18px 9px; border-left:6px solid currentColor; background:rgba(10,11,14,.72); }
-.src { position:absolute; left:96px; top:980px; font-size:28px; letter-spacing:.06em; color:rgba(243,239,230,.78); padding:8px 14px; background:rgba(10,11,14,.72); }
-.src b { color:#f3efe6; font-weight:700; }
-.cred { position:absolute; right:96px; top:70px; font-size:17px; letter-spacing:.04em; color:rgba(243,239,230,.6); padding:6px 10px; background:rgba(10,11,14,.6); text-align:right; }
-.recon { position:absolute; right:96px; top:64px; font-size:28px; font-weight:700; letter-spacing:.16em; padding:9px 16px 8px; border:2px solid rgba(243,239,230,.7); color:#f3efe6; background:rgba(10,11,14,.6); }
+.serif { font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.035em; }
+.mono { font-family:'Inter',sans-serif; font-weight:600; letter-spacing:.02em; line-height:1.2; }
+.a { color:#f0c36a; } .c { color:#2997ff; } .n { color:#f5f5f7; } .r { color:#ff453a; } .dim { color:#86868b; }
+.hud { position:absolute; left:96px; top:60px; font-size:28px; font-weight:600; letter-spacing:.01em; padding:12px 26px; border-radius:999px; background:rgba(255,255,255,.1); box-shadow:inset 0 0 0 1px rgba(255,255,255,.16); }
+.src { position:absolute; left:96px; top:984px; font-size:28px; font-weight:500; color:#86868b; }
+.src b { color:#d2d2d7; font-weight:600; }
+.cred { position:absolute; right:96px; top:70px; font-size:17px; color:rgba(245,245,247,.5); text-align:right; }
 .flood { position:absolute; left:0; top:0; width:1920px; height:1080px; }
-.paper { position:absolute; background:#ece3cf; color:#1c1a16; box-shadow:0 50px 110px rgba(0,0,0,.7); padding:64px 72px; font-family:'IBM Plex Mono',monospace; font-weight:400; font-size:30px; line-height:1.5; }
-.paper .ph { font-size:28px; letter-spacing:.12em; text-transform:uppercase; color:#5a5346; border-bottom:2px solid #5a5346; padding-bottom:14px; margin-bottom:26px; font-weight:700; }
+.paper { position:absolute; background:#1c1c1e; color:#f5f5f7; border-radius:32px; box-shadow:0 50px 110px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.12); padding:60px 68px; font-family:'Inter',sans-serif; font-weight:500; font-size:30px; line-height:1.4; letter-spacing:-.01em; }
+.paper .ph { font-size:28px; font-weight:600; color:#86868b; padding-bottom:18px; margin-bottom:26px; border-bottom:1px solid rgba(255,255,255,.14); letter-spacing:0; }
 .paper .pl { margin-bottom:14px; }
-.paper .hl { background-image:linear-gradient(rgba(255,75,58,.42),rgba(255,75,58,.42)); background-repeat:no-repeat; background-position:0 60%; background-size:0% 78%; font-weight:700; }
+.paper .hl { background-image:linear-gradient(rgba(255,69,58,.5),rgba(255,69,58,.5)); background-repeat:no-repeat; background-position:0 92%; background-size:0% 14%; font-weight:700; }
 .row { position:absolute; left:160px; width:1600px; height:108px; }
-.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; letter-spacing:.1em; color:rgba(243,239,230,.6); text-transform:uppercase; font-weight:700; padding-top:8px; }
-.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.14; }
-.row .l { left:360px; color:#e6a94e; } .row .rr { left:1010px; color:#56c8f5; }
-.rule { position:absolute; height:2px; background:rgba(243,239,230,.28); }
+.row .k { position:absolute; left:0; top:0; width:330px; font-size:28px; line-height:1.25; color:#86868b; font-weight:600; padding-top:10px; }
+.row .l, .row .rr { position:absolute; top:0; width:610px; font-family:'Inter',sans-serif; font-weight:700; letter-spacing:-.03em; font-size:44px; line-height:1.1; }
+.row .l { left:360px; color:#f0c36a; } .row .rr { left:1010px; color:#2997ff; }
+.rule { position:absolute; height:1px; background:rgba(255,255,255,.18); }
 .bar { position:absolute; }
 .sil { position:absolute; }
 </style>
   <div id="root" data-composition-id="s04" data-width="1920" data-height="1080">
     <div id="s04-o1" class="clip" data-start="0.500" data-duration="44.775" data-track-index="2" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:502"><div id="s04-o1-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="hud a">Spring 1943 · San Francisco</div></div></div>
-    <div id="s04-s4" class="clip shot" data-start="0.000" data-duration="10.375" data-track-index="3" style="z-index:3"><div class="in" id="s04-s4-in"><img class="pbg" id="s04-p3-bg" src="assets/img/opp_portrait_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s04-p3" style="left:255px;top:120px;width:550px;height:800px"><img src="assets/img/opp_portrait_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:255px;top:946px;width:700px;font-size:30px">J. ROBERT OPPENHEIMER<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Photographed c. 1944</div></div><div class="cred" data-layout-ignore>Unknown author · Public domain</div><div id="s04-t2" class="tx serif n" style="left:1010px;top:300px;width:770px;font-size:70px;text-align:left;line-height:1.12"><span class="w" id="s04-t2-0">The </span><span class="w" id="s04-t2-1">most </span><span class="w a" id="s04-t2-2">secret </span><span class="w" id="s04-t2-3">project </span><span class="w" id="s04-t2-4">in </span><span class="w" id="s04-t2-5">American </span><span class="w" id="s04-t2-6">history.</span></div></div></div>
-    <div id="s04-s8" class="clip shot" data-start="10.075" data-duration="10.275" data-track-index="4" style="z-index:4"><div class="in" id="s04-s8-in"><div class="fill"></div><svg class="sil" style="left:190px;top:240px" width="403" height="560" viewBox="0 0 72 100"><rect x="1" y="1" width="70" height="98" fill="rgba(243,239,230,.05)" stroke="#e6a94e" stroke-width="0.6"/><circle cx="36" cy="36" r="15" fill="rgba(243,239,230,.2)"/><path d="M8 99 C8 70 22 58 36 58 C50 58 64 70 64 99 Z" fill="rgba(243,239,230,.2)"/></svg><div class="tx mono dim" style="left:190px;top:818px;width:420px;font-size:28px;text-align:left">NO PHOTO SHOWN</div><div id="s04-t5" class="tx serif n" style="left:720px;top:250px;width:1000px;font-size:120px;text-align:left;line-height:1.12"><span class="w" id="s04-t5-0">Jean </span><span class="w" id="s04-t5-1">Tatlock</span></div><div id="s04-b6" style="position:absolute;left:726px;top:440px"><div class="tx mono a" style="left:0px;top:0px;width:1000px;font-size:36px;text-align:left">HIS FIRST REAL LOVE</div></div><div id="s04-b7" style="position:absolute;left:726px;top:510px"><div class="tx mono a" style="left:0px;top:0px;width:1000px;font-size:36px;text-align:left">MEMBER, COMMUNIST PARTY</div></div></div></div>
+    <div id="s04-s4" class="clip shot" data-start="0.000" data-duration="10.375" data-track-index="3" style="z-index:3"><div class="in" id="s04-s4-in"><img class="pbg" id="s04-p3-bg" src="assets/img/la_gate_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s04-p3" style="left:900px;top:153px;width:900px;height:683px"><img src="assets/img/la_gate_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:900px;top:863px;width:900px;font-size:32px;font-weight:600">Los Alamos Project, main gate<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">U.S. Army photograph, c. 1943</div></div><div class="cred" data-layout-ignore>United States Army · Public domain</div><div id="s04-t2" class="tx serif n" style="left:150px;top:300px;width:770px;font-size:84px;text-align:left;line-height:1.12"><span class="w" id="s04-t2-0">The </span><span class="w" id="s04-t2-1">most </span><span class="w a" id="s04-t2-2">secret </span><span class="w" id="s04-t2-3">project </span><span class="w" id="s04-t2-4">in </span><span class="w" id="s04-t2-5">American </span><span class="w" id="s04-t2-6">history.</span></div></div></div>
+    <div id="s04-s8" class="clip shot" data-start="10.075" data-duration="10.275" data-track-index="4" style="z-index:4"><div class="in" id="s04-s8-in"><div class="fill"></div><svg class="sil" style="left:190px;top:240px" width="403" height="560" viewBox="0 0 72 100"><rect x="0.5" y="0.5" width="71" height="99" rx="6" fill="#1c1c1e" stroke="rgba(255,255,255,.16)" stroke-width="0.4"/><circle cx="36" cy="38" r="14" fill="#3a3a3c"/><path d="M10 99 C10 72 23 60 36 60 C49 60 62 72 62 99 Z" fill="#3a3a3c"/></svg><div class="tx mono dim" style="left:190px;top:822px;width:420px;font-size:30px;text-align:left">No photo shown</div><div id="s04-t5" class="tx serif n" style="left:720px;top:240px;width:1000px;font-size:130px;text-align:left;line-height:1.12"><span class="w" id="s04-t5-0">Jean </span><span class="w" id="s04-t5-1">Tatlock</span></div><div id="s04-b6" style="position:absolute;left:726px;top:440px"><div class="tx mono a" style="left:0px;top:0px;width:1000px;font-size:40px;text-align:left">His first real love</div></div><div id="s04-b7" style="position:absolute;left:726px;top:510px"><div class="tx mono a" style="left:0px;top:0px;width:1000px;font-size:40px;text-align:left">Member, Communist Party</div></div></div></div>
     <div id="s04-o9" class="clip" data-start="11.075" data-duration="8.975" data-track-index="5" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:505"><div id="s04-o9-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · PBS American Experience · AEC letter of charges, 1953</div></div></div>
-    <div id="s04-s14" class="clip shot" data-start="20.050" data-duration="11.275" data-track-index="6" style="z-index:6"><div class="in" id="s04-s14-in"><canvas class="cv" id="s04-c13" width="1440" height="810"></canvas><div class="shade" style="opacity:.75"></div><div id="s04-b10" style="position:absolute;left:96px;top:890px"><div class="tx mono n" style="left:0px;top:0px;width:1200px;font-size:34px;text-align:left">AGENTS, ARMY INTELLIGENCE</div></div><div id="s04-b11" style="position:absolute;left:96px;top:940px"><div class="tx mono a" style="left:0px;top:0px;width:1200px;font-size:34px;text-align:left">WATCHING UNTIL MORNING</div></div><div id="s04-b12" style="position:absolute;left:96px;top:380px"><div class="tx serif n" style="left:0px;top:0px;width:1300px;font-size:120px;text-align:left">REPORT → F.B.I.</div></div></div></div>
-    <div id="s04-o15" class="clip" data-start="20.350" data-duration="10.675" data-track-index="7" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:507"><div id="s04-o15-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="recon">3D RECONSTRUCTION</div></div></div>
-    <div id="s04-s18" class="clip shot" data-start="31.025" data-duration="3.950" data-track-index="8" style="z-index:8"><div class="in" id="s04-s18-in"><div class="fill"></div><div id="s04-t16" class="tx serif dim" style="left:160px;top:300px;width:1600px;font-size:90px;text-align:center;line-height:1.12"><span class="w" id="s04-t16-0">Phone </span><span class="w" id="s04-t16-1">tap:</span></div><div id="s04-b17" style="position:absolute;left:160px;top:430px"><div class="tx serif n" style="left:0px;top:0px;width:1600px;font-size:170px;text-align:center">NOTHING FOUND</div></div></div></div>
-    <div id="s04-o19" class="clip" data-start="31.425" data-duration="10.925" data-track-index="9" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:509"><div id="s04-o19-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · PBS American Experience, “The Trials of J. Robert Oppenheimer”</div></div></div>
-    <div id="s04-s21" class="clip shot" data-start="34.675" data-duration="7.975" data-track-index="10" style="z-index:10"><div class="in" id="s04-s21-in"><div class="fill"></div><svg class="sil" style="left:190px;top:240px" width="403" height="560" viewBox="0 0 72 100"><rect x="1" y="1" width="70" height="98" fill="rgba(243,239,230,.05)" stroke="#e6a94e" stroke-width="0.6"/><circle cx="36" cy="36" r="15" fill="rgba(243,239,230,.2)"/><path d="M8 99 C8 70 22 58 36 58 C50 58 64 70 64 99 Z" fill="rgba(243,239,230,.2)"/></svg><div class="tx mono dim" style="left:190px;top:818px;width:700px;font-size:28px;text-align:left">JEAN TATLOCK · DIED JANUARY 1944</div><div id="s04-t20" class="tx serif n" style="left:720px;top:300px;width:1040px;font-size:84px;text-align:left;line-height:1.12"><span class="w a" id="s04-t20-0">Never </span><span class="w" id="s04-t20-1">shown </span><span class="w" id="s04-t20-2">to </span><span class="w" id="s04-t20-3">have </span><span class="w" id="s04-t20-4">passed </span><span class="w" id="s04-t20-5">a </span><span class="w" id="s04-t20-6">single </span><span class="w" id="s04-t20-7">secret.</span></div></div></div>
-    <div id="s04-s23" class="clip shot" data-start="42.350" data-duration="3.325" data-track-index="11" style="z-index:11"><div class="in" id="s04-s23-in"><div class="fill"></div><div id="s04-t22" class="tx serif n" style="left:160px;top:400px;width:1600px;font-size:130px;text-align:center;line-height:1.12"><span class="w" id="s04-t22-0">The </span><span class="w" id="s04-t22-1">file </span><span class="w" id="s04-t22-2">stays </span><span class="w" id="s04-t22-3">open.</span></div></div></div>
-    <div id="s04-fi" class="flood" style="background:#e6a94e;z-index:900" data-layout-ignore></div><div id="s04-fo" class="flood" style="background:#e6a94e;z-index:901" data-layout-ignore></div>
+    <div id="s04-s13" class="clip shot" data-start="20.050" data-duration="8.425" data-track-index="6" style="z-index:6"><div class="in" id="s04-s13-in"><img class="pbg" id="s04-p12-bg" src="assets/img/sf_montgomery_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s04-p12" style="left:334px;top:130px;width:472px;height:730px"><img src="assets/img/sf_montgomery_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:334px;top:886px;width:700px;font-size:32px;font-weight:600">Montgomery Street, San Francisco<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Archive photograph, c. 1930s–40s</div></div><div class="cred" data-layout-ignore>Zan · Public domain</div><div id="s04-t10" class="tx serif n" style="left:1010px;top:280px;width:780px;font-size:100px;text-align:left;line-height:1.12"><span class="w" id="s04-t10-0">He </span><span class="w" id="s04-t10-1">stays </span><span class="w" id="s04-t10-2">the </span><span class="w" id="s04-t10-3">night.</span></div><div id="s04-b11" style="position:absolute;left:1014px;top:540px"><div class="tx mono a" style="left:0px;top:0px;width:760px;font-size:40px;text-align:left">Army intelligence waits outside until morning.</div></div></div></div>
+    <div id="s04-s16" class="clip shot" data-start="28.175" data-duration="3.150" data-track-index="7" style="z-index:7"><div class="in" id="s04-s16-in"><img class="pbg" id="s04-p15-bg" src="assets/img/hoover_bg.jpg" alt=""><div class="shade"></div><div class="pcard" id="s04-p15" style="left:1061px;top:130px;width:578px;height:730px"><img src="assets/img/hoover_g.jpg" alt="" style="object-position:50% 30%"></div><div class="tx mono a" style="left:1061px;top:886px;width:700px;font-size:32px;font-weight:600">J. Edgar Hoover<div class="dim" style="font-size:28px;margin-top:6px;letter-spacing:.04em;font-weight:400;text-transform:none">Director of the F.B.I.</div></div><div class="cred" data-layout-ignore>Marion S. Trikosko · Public domain</div><div id="s04-t14" class="tx serif n" style="left:150px;top:320px;width:780px;font-size:100px;text-align:left;line-height:1.12"><span class="w" id="s04-t14-0">The </span><span class="w" id="s04-t14-1">report </span><span class="w" id="s04-t14-2">goes </span><span class="w" id="s04-t14-3">to </span><span class="w" id="s04-t14-4">the </span><span class="w" id="s04-t14-5">F.B.I.</span></div></div></div>
+    <div id="s04-s19" class="clip shot" data-start="31.025" data-duration="3.950" data-track-index="8" style="z-index:8"><div class="in" id="s04-s19-in"><div class="fill"></div><div id="s04-t17" class="tx serif dim" style="left:160px;top:290px;width:1600px;font-size:90px;text-align:center;line-height:1.12"><span class="w" id="s04-t17-0">Phone </span><span class="w" id="s04-t17-1">tap:</span></div><div id="s04-b18" style="position:absolute;left:160px;top:420px"><div class="tx serif n" style="left:0px;top:0px;width:1600px;font-size:190px;text-align:center">Nothing found.</div></div></div></div>
+    <div id="s04-o20" class="clip" data-start="31.425" data-duration="10.925" data-track-index="9" style="position:absolute;left:0;top:0;width:1920px;height:1080px;z-index:509"><div id="s04-o20-in" style="position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="src" data-layout-allow-caption-zone><b>SOURCE</b> · PBS American Experience, “The Trials of J. Robert Oppenheimer”</div></div></div>
+    <div id="s04-s22" class="clip shot" data-start="34.675" data-duration="7.975" data-track-index="10" style="z-index:10"><div class="in" id="s04-s22-in"><div class="fill"></div><svg class="sil" style="left:190px;top:240px" width="403" height="560" viewBox="0 0 72 100"><rect x="0.5" y="0.5" width="71" height="99" rx="6" fill="#1c1c1e" stroke="rgba(255,255,255,.16)" stroke-width="0.4"/><circle cx="36" cy="38" r="14" fill="#3a3a3c"/><path d="M10 99 C10 72 23 60 36 60 C49 60 62 72 62 99 Z" fill="#3a3a3c"/></svg><div class="tx mono dim" style="left:190px;top:822px;width:700px;font-size:30px;text-align:left">Jean Tatlock · died January 1944</div><div id="s04-t21" class="tx serif n" style="left:720px;top:300px;width:1040px;font-size:96px;text-align:left;line-height:1.12"><span class="w a" id="s04-t21-0">Never </span><span class="w" id="s04-t21-1">shown </span><span class="w" id="s04-t21-2">to </span><span class="w" id="s04-t21-3">have </span><span class="w" id="s04-t21-4">passed </span><span class="w" id="s04-t21-5">a </span><span class="w" id="s04-t21-6">single </span><span class="w" id="s04-t21-7">secret.</span></div></div></div>
+    <div id="s04-s24" class="clip shot" data-start="42.350" data-duration="3.325" data-track-index="11" style="z-index:11"><div class="in" id="s04-s24-in"><div class="fill"></div><div id="s04-t23" class="tx serif n" style="left:160px;top:400px;width:1600px;font-size:150px;text-align:center;line-height:1.12"><span class="w" id="s04-t23-0">The </span><span class="w" id="s04-t23-1">file </span><span class="w" id="s04-t23-2">stays </span><span class="w" id="s04-t23-3">open.</span></div></div></div>
+    <div id="s04-fi" class="flood" style="background:#000;z-index:900" data-layout-ignore></div><div id="s04-fo" class="flood" style="background:#000;z-index:901" data-layout-ignore></div>
   </div>
   <script src="lib/em3d.js"></script>
   <script>
@@ -51,52 +49,65 @@
       const tl = gsap.timeline({ paused: true });
       tl.fromTo("#s04-o1-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},0.500);
       tl.to("#s04-o1-in",{opacity:0,duration:0.18,ease:"power2.in"},45.085);
-      tl.fromTo("#s04-t2-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},3.800);
-      tl.fromTo("#s04-t2-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.654);
-      tl.fromTo("#s04-t2-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},5.507);
-      tl.fromTo("#s04-t2-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},6.361);
-      tl.fromTo("#s04-t2-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},7.214);
-      tl.fromTo("#s04-t2-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},8.068);
-      tl.fromTo("#s04-t2-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},8.921);
+      tl.fromTo("#s04-t2-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},4.400);
+      tl.fromTo("#s04-t2-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},5.168);
+      tl.fromTo("#s04-t2-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},5.936);
+      tl.fromTo("#s04-t2-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},6.704);
+      tl.fromTo("#s04-t2-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},7.471);
+      tl.fromTo("#s04-t2-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},8.239);
+      tl.fromTo("#s04-t2-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},9.007);
       tl.fromTo("#s04-s4-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.000);
       tl.fromTo("#s04-p3-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:10.375,ease:"none"},0.000);
-      tl.fromTo("#s04-p3",{rotationY:6,rotationX:1.5,scale:0.985,transformPerspective:1500},{rotationY:-3,rotationX:-1,scale:1.045,duration:10.375,ease:"sine.inOut"},0.000);
-      tl.fromTo("#s04-t5-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.675);
-      tl.fromTo("#s04-t5-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.025);
-      tl.fromTo("#s04-b6",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},13.675);
-      tl.fromTo("#s04-b7",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},15.675);
+      tl.fromTo("#s04-p3",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},0.000);
+      tl.fromTo("#s04-p3 img",{scale:1.0},{scale:1.09,duration:10.375,ease:"none"},0.000);
+      tl.fromTo("#s04-t5-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},11.875);
+      tl.fromTo("#s04-t5-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},12.275);
+      tl.fromTo("#s04-b6",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},14.275);
+      tl.fromTo("#s04-b7",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},16.475);
       tl.fromTo("#s04-s8-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},10.075);
       tl.fromTo("#s04-o9-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},11.075);
       tl.to("#s04-o9-in",{opacity:0,duration:0.18,ease:"power2.in"},19.860);
-      tl.fromTo("#s04-b10",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},24.250);
-      tl.fromTo("#s04-b11",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},25.650);
-      tl.fromTo("#s04-b12",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},28.375);
-      tl.fromTo("#s04-s14-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.050);
-      (function(){var dr=EM3D.street(document.getElementById("s04-c13")),st={t:0},o=Object.assign({cam:[{"t": 0, "p": [-9.5, 1.7, 9.5], "l": [0, 5.3, -11.8]}, {"t": 6.036249999999997, "p": [-0.5, 2.4, 13.5], "l": [-3, 1.4, 5]}, {"t": 11.374999999999995, "p": [6, 5.5, 18], "l": [-1, 3, -6]}]},{fn:function(t){return {dawn:Math.max(0,Math.min(1,(t-3.29)/6.58)),windowOff:6.80};}});var f=function(){dr(st.t,o.fn?Object.assign({},o,o.fn(st.t)):o);};tl.fromTo(st,{t:0},{t:11.275,duration:11.275,ease:"none",onUpdate:f},20.050);st.t=0;f();})();
-      tl.fromTo("#s04-o15-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},20.350);
-      tl.to("#s04-o15-in",{opacity:0,duration:0.18,ease:"power2.in"},30.835);
-      tl.fromTo("#s04-t16-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.525);
-      tl.fromTo("#s04-t16-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.775);
-      tl.fromTo("#s04-b17",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},32.925);
-      tl.fromTo("#s04-s18-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},31.025);
-      tl.fromTo("#s04-o19-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},31.425);
-      tl.to("#s04-o19-in",{opacity:0,duration:0.18,ease:"power2.in"},42.160);
-      tl.fromTo("#s04-t20-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.075);
-      tl.fromTo("#s04-t20-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.572);
-      tl.fromTo("#s04-t20-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},39.069);
-      tl.fromTo("#s04-t20-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},39.566);
-      tl.fromTo("#s04-t20-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},40.062);
-      tl.fromTo("#s04-t20-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},40.559);
-      tl.fromTo("#s04-t20-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},41.056);
-      tl.fromTo("#s04-t20-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},41.553);
-      tl.fromTo("#s04-s21-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},34.675);
-      tl.fromTo("#s04-t22-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.350);
-      tl.fromTo("#s04-t22-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.994);
-      tl.fromTo("#s04-t22-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},43.637);
-      tl.fromTo("#s04-t22-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},44.281);
-      tl.fromTo("#s04-s23-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},42.350);
-      tl.fromTo("#s04-fi",{scaleX:1,transformOrigin:"100% 50%"},{scaleX:0,duration:0.5,ease:"expo.out"},0);
-      tl.fromTo("#s04-fo",{scaleX:0,transformOrigin:"0% 50%"},{scaleX:1,duration:0.3,ease:"power3.in"},45.375);
+      tl.fromTo("#s04-t10-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},20.250);
+      tl.fromTo("#s04-t10-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},20.600);
+      tl.fromTo("#s04-t10-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},20.950);
+      tl.fromTo("#s04-t10-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},21.300);
+      tl.fromTo("#s04-b11",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},24.450);
+      tl.fromTo("#s04-s13-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},20.050);
+      tl.fromTo("#s04-p12-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:8.425,ease:"none"},20.050);
+      tl.fromTo("#s04-p12",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},20.050);
+      tl.fromTo("#s04-p12 img",{scale:1.0},{scale:1.09,duration:8.425,ease:"none"},20.050);
+      tl.fromTo("#s04-t14-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.175);
+      tl.fromTo("#s04-t14-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},28.600);
+      tl.fromTo("#s04-t14-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},29.025);
+      tl.fromTo("#s04-t14-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},29.450);
+      tl.fromTo("#s04-t14-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},29.875);
+      tl.fromTo("#s04-t14-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},30.300);
+      tl.fromTo("#s04-s16-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},28.175);
+      tl.fromTo("#s04-p15-bg",{x:-36,scale:1.04},{x:36,scale:1.1,duration:3.150,ease:"none"},28.175);
+      tl.fromTo("#s04-p15",{scale:0.965,y:14},{scale:1.0,y:0,duration:0.9,ease:"expo.out"},28.175);
+      tl.fromTo("#s04-p15 img",{scale:1.0},{scale:1.09,duration:3.150,ease:"none"},28.175);
+      tl.fromTo("#s04-t17-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.525);
+      tl.fromTo("#s04-t17-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},31.775);
+      tl.fromTo("#s04-b18",{opacity:0,y:26},{opacity:1,y:0,duration:0.5,ease:"expo.out"},33.225);
+      tl.fromTo("#s04-s19-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},31.025);
+      tl.fromTo("#s04-o20-in",{opacity:0},{opacity:1,duration:0.25,ease:"power2.out"},31.425);
+      tl.to("#s04-o20-in",{opacity:0,duration:0.18,ease:"power2.in"},42.160);
+      tl.fromTo("#s04-t21-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.475);
+      tl.fromTo("#s04-t21-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},38.922);
+      tl.fromTo("#s04-t21-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},39.369);
+      tl.fromTo("#s04-t21-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},39.816);
+      tl.fromTo("#s04-t21-4",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},40.262);
+      tl.fromTo("#s04-t21-5",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},40.709);
+      tl.fromTo("#s04-t21-6",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},41.156);
+      tl.fromTo("#s04-t21-7",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},41.603);
+      tl.fromTo("#s04-s22-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},34.675);
+      tl.fromTo("#s04-t23-0",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.350);
+      tl.fromTo("#s04-t23-1",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},42.994);
+      tl.fromTo("#s04-t23-2",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},43.637);
+      tl.fromTo("#s04-t23-3",{opacity:0,filter:"blur(8px)"},{opacity:1,filter:"blur(0px)",duration:0.2,ease:"power2.out"},44.281);
+      tl.fromTo("#s04-s24-in",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},42.350);
+      tl.fromTo("#s04-fi",{opacity:1},{opacity:0,duration:0.45,ease:"power2.out"},0);
+      tl.fromTo("#s04-fo",{opacity:0},{opacity:1,duration:0.3,ease:"power2.in"},45.375);
       window.__timelines["s04"] = tl;
     })();
   </script>
