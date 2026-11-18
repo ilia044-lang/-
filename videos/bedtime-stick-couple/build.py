@@ -17,11 +17,11 @@ SFX_DIR = os.environ.get('SFX_DIR', os.path.join(HERE, 'sfx'))
 OUT = os.path.abspath(sys.argv[1])
 WORK = os.path.join(os.path.dirname(OUT), 'build_tmp'); os.makedirs(WORK, exist_ok=True)
 
-CAST = {'dad': ('am_michael', 1.0, 0), 'mom': ('af_heart', 1.0, 0), 'kid': ('af_sky', 0.92, 4)}
+CAST = {'dad': ('am_michael', 1.1, 0), 'mom': ('af_heart', 1.1, 0), 'kid': ('af_sky', 1.0, 4)}
 SCENE_B_GAIN = 0.75          # scene B is whispered
-KICK_T = 26.6                # script time of the kick (bonk)
-DOOR_OPEN_T = [4.6, 10.1, 14.6]
-MUSIC_STOP_AFTER_LINE = 6    # music dies after "what happens when we die?"
+KICK_T = 23.1                # script time of the kick (bonk)
+DOOR_OPEN_T = [1.6, 7.2, 12.0]
+MUSIC_STOP_AFTER_LINE = 5    # music dies after "what happens when we die?"
 
 html = open(os.path.join(HERE, 'scene.html')).read()
 LINES = [dict(who=w, t0=float(a), t1=float(b), text=t) for w, a, b, t in

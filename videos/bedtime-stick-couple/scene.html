@@ -20,25 +20,33 @@ const SW = 7; // stroke width at scale 1
 // Lines drive subtitles + mouth flaps. Times are placeholders until the
 // real voice-over exists; then they get replaced by measured durations.
 const LINES = [
-  {who:'mom', t0:0.4,  t1:2.0,  text:"They're asleep. We survived another day."},
-  {who:'dad', t0:2.3,  t1:4.4,  text:"Movie. Snacks. Pretending we still have a life."},
-  {who:'kid', t0:5.1,  t1:6.6,  text:"Mom... I'm thirsty."},
-  {who:'mom', t0:6.9,  t1:9.2,  text:"There's water by your bed, baby. Like every night. For four years."},
-  {who:'kid', t0:10.6, t1:11.9, text:"Dad... I need to pee."},
-  {who:'dad', t0:12.2, t1:13.7, text:"You just went. Twice. Your bladder is a liar."},
-  {who:'kid', t0:15.2, t1:17.3, text:"Mom... what happens when we die?"},
-  {who:'dad', t0:18.5, t1:19.8, text:"Honestly? Sounds like a nap."},
-  {who:'dad', t0:21.5, t1:22.8, text:"So. Still up for that movie?"},
-  {who:'mom', t0:23.2, t1:26.0, text:"Don't move. If this kid wakes up, we find out what happens when we die."},
+  {who:'mom', t0:0.15, t1:1.6,  text:"We survived another day."},
+  {who:'kid', t0:2.1,  t1:3.6,  text:"Mom... I'm thirsty."},
+  {who:'mom', t0:3.9,  t1:6.4,  text:"There's water by your bed, baby. Like every night. For four years."},
+  {who:'kid', t0:7.6,  t1:8.9,  text:"Dad... I need to pee."},
+  {who:'dad', t0:9.2,  t1:11.0, text:"You just went. Twice. Your bladder is a liar."},
+  {who:'kid', t0:12.6, t1:14.7, text:"Mom... what happens when we die?"},
+  {who:'dad', t0:15.8, t1:17.1, text:"Honestly? Sounds like a nap."},
+  {who:'dad', t0:18.4, t1:19.7, text:"So. Still up for that movie?"},
+  {who:'mom', t0:20.0, t1:22.8, text:"Don't move. If this kid wakes up, we find out what happens when we die."},
+  {who:'kid', t0:23.8, t1:25.1, text:"Mom... I'm thirsty."},
 ];
-const DURATION = 28.5;
-const CUT = 20.8; // scene B starts
+const DURATION = 25.9;
+const CUT = 17.8; // scene B starts
+const KICK = 23.1;
+const FINGERS = [9.2, 11.1];   // dad holds up two fingers
+const REMOTE = [0, 1.6];       // dad holds the remote
 const CAPTIONS = [
-  {t0:0,   text:['Us at 9:00 PM:','the kids are asleep']},
+  {t0:0,   text:['Us at 9:00 PM:','the kids are "asleep"']},
   {t0:CUT, text:['Us at 11:47 PM:','the movie never started']},
 ];
 const DOOR = [ // [time, openness]
-  [0,0],[4.6,0],[4.85,1],[9.5,1],[9.75,0],[10.1,0],[10.35,1],[13.9,1],[14.15,0],[14.6,0],[15.0,1],[CUT,1],[CUT,0]
+  [0,0],[1.6,0],[1.85,1],[6.7,1],[6.95,0],[7.2,0],[7.45,1],[11.3,1],[11.55,0],[12.0,0],[12.4,1],[CUT,1],[CUT,0]
+];
+// camera punch-ins: [time, scale, centerX, centerY] — snap like the poses
+const CAM = [
+  [0,1,540,960],[14.8,1.55,700,980],[15.6,1.9,640,940],[17.2,1,540,960],[CUT,1,540,960],
+  [20.0,1.6,740,980],[KICK,1,540,960],[24.0,1.45,700,1000]
 ];
 
 // ---------- pose keyframes (partial states, merged in order) ----------
@@ -56,59 +64,51 @@ const BASE = {
 };
 const KF = {
   dad: [
-    {t:0,    lean:-4, aL:[-60,-40], aR:[40,30], mouth:'smile', eyes:'half'},
-    {t:0.6,  turn:0.6, look:1},
-    {t:2.3,  turn:0.2, look:0.3, aR:[150,20], aL:[-25,10], mouth:'grin', brows:'up', eyes:'open'},   // "Movie."
-    {t:3.0,  aR:[120,40], tilt:-6},                                                                   // "Snacks."
-    {t:3.7,  aR:[100,70], aL:[-100,-70], tilt:6, eyes:'closed'},                                     // "Total silence." arms wide
-    {t:4.6,  turn:-0.8, look:-1, eyes:'wide', brows:'up', mouth:'flat', aR:[40,20], aL:[-40,-20], tilt:0, lean:0},
-    {t:9.8,  turn:0.3, look:0.5, eyes:'open', brows:'neutral', mouth:'smile', aR:[110,10]},           // reaches remote
-    {t:10.35,turn:-0.8, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
-    {t:12.2, turn:-0.8, aL:[-170,10], brows:'angry', eyes:'half', mouth:'flat'},                     // two fingers up
-    {t:13.9, aL:[-30,10], turn:0, look:0, eyes:'half', brows:'sad'},
-    {t:14.2, lean:-6, tilt:-10, eyes:'closed', mouth:'frown'},                                        // head back
-    {t:15.0, lean:0, tilt:0, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'flat'},
-    {t:17.4, turn:0.9, look:1, eyes:'wide', brows:'up', mouth:'flat'},                               // look at each other
-    {t:18.3, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'smile', tilt:-8, aL:[-60,-60]},  // dreamy: "sounds like a nap"
-    {t:19.9, eyes:'closed', mouth:'smile', tilt:-12},
-    // ---- scene B ----
+    {t:0,    lean:-4, turn:0.5, look:1, aR:[110,10], aL:[-60,-40], mouth:'smile', eyes:'half'},
+    {t:1.6,  lean:0, turn:-0.8, look:-1, eyes:'wide', brows:'up', mouth:'flat', aR:[40,20], aL:[-40,-20]},
+    {t:3.9,  eyes:'half', brows:'sad'},
+    {t:7.2,  turn:-0.8, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:9.2,  aL:[-170,10], brows:'angry', eyes:'half', mouth:'flat'},
+    {t:11.2, aL:[-30,10], turn:0, look:0, eyes:'half', brows:'sad'},
+    {t:11.5, lean:-6, tilt:-10, eyes:'closed', mouth:'frown'},
+    {t:12.0, lean:0, tilt:0, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'flat'},
+    {t:14.8, turn:0.9, look:1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:15.6, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'smile', tilt:-8, aL:[-60,-60]},
+    {t:17.2, eyes:'closed', mouth:'smile', tilt:-12},
     {t:CUT,  turn:0, look:0, lean:8, tilt:0, aL:[-10,0], aR:[10,0], eyes:'tired', brows:'sad', mouth:'flat'},
-    {t:21.5, look:1},
-    {t:23.2, look:1, eyes:'wide', brows:'up'},
-    {t:26.7, eyes:'closed', brows:'angry', mouth:'grit', tilt:-8},   // foot to the face
+    {t:18.4, look:1},
+    {t:20.0, look:1, eyes:'wide', brows:'up'},
+    {t:KICK, eyes:'closed', brows:'angry', mouth:'grit', tilt:-8},
+    {t:24.0, eyes:'wide', brows:'up', mouth:'flat'},
   ],
   mom: [
-    {t:0,    aL:[-160,0], aR:[160,0], eyes:'closed', mouth:'grin', brows:'up'},   // victory arms
-    {t:0.9,  aL:[-150,20], aR:[150,-20]},
-    {t:1.5,  aL:[-160,0], aR:[160,0]},
-    {t:2.2,  aL:[-25,10], aR:[25,-10], eyes:'open', turn:-0.6, look:-1, mouth:'smile', brows:'neutral'},
-    {t:4.6,  turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
-    {t:6.9,  mouth:'smile', brows:'angry', eyes:'open', aL:[-95,-5], tilt:-5},     // forced-calm smile, points
-    {t:8.0,  aL:[-100,10], tilt:5},
-    {t:9.6,  aL:[-25,10], tilt:0, turn:0, look:0, brows:'neutral', mouth:'flat', eyes:'half'},
-    {t:10.35,turn:-0.9, look:-1, eyes:'wide', brows:'up'},
-    {t:13.9, turn:-0.2, look:0, eyes:'half', brows:'sad', mouth:'frown', aR:[60,90]},  // facepalm-ish
-    {t:15.0, turn:-0.9, look:-1, eyes:'half', brows:'neutral', mouth:'flat', aR:[25,-10]},
-    {t:17.4, turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
-    {t:18.7, turn:-0.9, look:-1, eyes:'open', brows:'angry', mouth:'grit', tilt:-6},                 // glares at dad
-    // ---- scene B ----
+    {t:0,    aL:[-160,0], aR:[160,0], eyes:'closed', mouth:'grin', brows:'up'},
+    {t:1.6,  aL:[-25,10], aR:[25,-10], turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:3.9,  mouth:'smile', brows:'angry', eyes:'open', aL:[-95,-5], tilt:-5},
+    {t:5.2,  aL:[-100,10], tilt:5},
+    {t:6.6,  aL:[-25,10], tilt:0, turn:0, look:0, brows:'neutral', mouth:'flat', eyes:'half'},
+    {t:7.2,  turn:-0.9, look:-1, eyes:'wide', brows:'up'},
+    {t:11.2, turn:-0.2, look:0, eyes:'half', brows:'sad', mouth:'frown', aR:[60,90]},
+    {t:12.0, turn:-0.9, look:-1, eyes:'half', brows:'neutral', mouth:'flat', aR:[25,-10]},
+    {t:14.8, turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:16.0, eyes:'open', brows:'angry', mouth:'grit', tilt:-6},
     {t:CUT,  turn:0, look:0, tilt:0, aL:[-10,0], aR:[10,0], eyes:'tired', brows:'sad', mouth:'flat'},
-    {t:23.2, look:-1, brows:'angry', mouth:'grit', eyes:'open'},
-    {t:26.1, look:0, eyes:'tired'},
+    {t:20.0, look:-1, brows:'angry', mouth:'grit', eyes:'open'},
+    {t:22.9, look:0, eyes:'tired'},
+    {t:24.0, look:1, eyes:'wide', brows:'up', mouth:'flat'},
   ],
   kid: [
     {t:0,    vis:0},
-    {t:4.8,  vis:1, brows:'sad', mouth:'frown', eyes:'open', aL:[-15,40], aR:[15,-40], lL:[-8,0], lR:[8,0]},
-    {t:9.4,  vis:0},
-    {t:10.4, vis:1, brows:'worried', mouth:'flat', lL:[12,-5], lR:[-12,5], aL:[-20,60], aR:[20,-60]}, // legs crossed
-    {t:13.8, vis:0},
-    {t:14.9, vis:1, brows:'neutral', mouth:'smile', lL:[-8,0], lR:[8,0], aL:[-15,40], aR:[15,-40], tilt:6},
-    {t:16.6, eyes:'open', look:0.5},
-    {t:19.9, eyes:'wide', mouth:'o', brows:'up', look:1},
-    // ---- scene B: asleep across the couch ----
+    {t:1.75, vis:1, brows:'sad', mouth:'frown', eyes:'open', aL:[-15,40], aR:[15,-40], lL:[-8,0], lR:[8,0]},
+    {t:6.6,  vis:0},
+    {t:7.3,  vis:1, brows:'worried', mouth:'flat', lL:[12,-5], lR:[-12,5], aL:[-20,60], aR:[20,-60]},
+    {t:11.2, vis:0},
+    {t:12.1, vis:1, brows:'neutral', mouth:'smile', lL:[-8,0], lR:[8,0], aL:[-15,40], aR:[15,-40], tilt:6},
+    {t:14.0, look:0.5},
+    {t:17.2, eyes:'wide', mouth:'o', brows:'up', look:1},
     {t:CUT,  vis:1, x:690, y:1120, s:0.85, rot:125, tilt:0, look:0, eyes:'closed', brows:'neutral', mouth:'o', teddy:0,
              aL:[-100,-20], aR:[120,30], lL:[-5,40], lR:[25,35]},
-    {t:26.6, lL:[-32,0]},   // kick
+    {t:KICK, lL:[-32,0]},
   ],
 };
 
@@ -296,11 +296,11 @@ function character(name,t){
   const hand=(A)=>`<circle cx="${A.end[0]}" cy="${A.end[1]}" r="15" fill="${SKIN}" stroke="${INK}" stroke-width="${sw*0.8}"/>`;
   let arms=A1.svg+A2.svg+hand(A1)+hand(A2);
   // dad: two fingers up when holding left arm high (12.2-13.9)
-  if(name==='dad' && t>=12.2 && t<13.9){
+  if(name==='dad' && t>=FINGERS[0] && t<FINGERS[1]){
     const e=A1.end; arms+=`<line x1="${e[0]-6}" y1="${e[1]-8}" x2="${e[0]-12}" y2="${e[1]-42}" stroke="${INK}" stroke-width="${sw*0.9}" stroke-linecap="round"/><line x1="${e[0]+6}" y1="${e[1]-8}" x2="${e[0]+12}" y2="${e[1]-42}" stroke="${INK}" stroke-width="${sw*0.9}" stroke-linecap="round"/>`;
   }
   // dad remote (scene A, when right arm is forward)
-  if(name==='dad' && t>=9.8 && t<10.35){
+  if(name==='dad' && t>=REMOTE[0] && t<REMOTE[1]){
     const e=A2.end; arms+=`<rect x="${e[0]-10}" y="${e[1]-40}" width="22" height="58" rx="6" fill="#333" stroke="${INK}" stroke-width="3"/>`;
   }
   let extra='';
@@ -422,6 +422,13 @@ function subtitle(t){
     return `<text class="sub" x="540" y="${y0+i*70}" font-size="60" text-anchor="middle" stroke="#111" stroke-width="10" stroke-linejoin="round" paint-order="stroke" fill="#fff">${esc}</text>`;
   }).join('');
 }
+function camAt(t){
+  let i=-1; for(let k=0;k<CAM.length;k++) if(CAM[k][0]<=t) i=k;
+  if(i<0) return [1,540,960];
+  const cur=CAM[i], prev=CAM[Math.max(0,i-1)], dt=t-cur[0];
+  if(dt>=0.12 || cur[0]===CUT) return cur.slice(1);
+  const u=ease(dt/0.12); return [1,2,3].map(j=>lerp(prev[j],cur[j],u));
+}
 function render(t){
   const tq = Math.floor(t*12)/12; // animate "on twos" for the cut-out feel
   let bg=background(tq);
@@ -435,6 +442,12 @@ function render(t){
     svg=bg.replace('<!--KID-->','')+couchBack()+couchFront()+character('dad',tq)+character('mom',tq)+kid;
   }
   svg+=`<rect width="1080" height="1920" fill="url(#lamp)" pointer-events="none"/>`;
+  // camera: snap zoom + shake on the kick
+  let [cs,cx,cy]=camAt(tq);
+  cx=Math.min(1080-540/cs,Math.max(540/cs,cx)); cy=Math.min(1920-960/cs,Math.max(960/cs,cy));
+  let sx=0, sy=0;
+  if(t>=KICK && t<KICK+0.3){ const k=Math.floor(t*24); sx=(hash(k)-0.5)*28; sy=(hash(k+9)-0.5)*28; }
+  svg=`<g transform="translate(${540+sx},${960+sy}) scale(${cs}) translate(${-cx},${-cy})">${svg}</g>`;
   svg+=caption(tq)+subtitle(t);
   document.getElementById('stage').innerHTML=svg;
 }

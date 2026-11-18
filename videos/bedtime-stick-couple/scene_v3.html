@@ -1,0 +1,444 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#000;}
+  svg{display:block;}
+  .cap{font-family:'Inter';font-weight:800;}
+  .sub{font-family:'Inter';font-weight:800;}
+</style></head>
+<body>
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+// ===================================================================
+//  "Bedtime" — original stick-figure couple. Cut-out / pose-to-pose.
+// ===================================================================
+const INK = '#1E1E1E';
+const SKIN = '#F2C7A5';
+const SW = 7; // stroke width at scale 1
+
+// ---------- timeline (seconds) ----------
+// Lines drive subtitles + mouth flaps. Times are placeholders until the
+// real voice-over exists; then they get replaced by measured durations.
+const LINES = [
+  {who:'mom', t0:0.4,  t1:2.0,  text:"They're asleep. We survived another day."},
+  {who:'dad', t0:2.3,  t1:4.4,  text:"Movie. Snacks. Pretending we still have a life."},
+  {who:'kid', t0:5.1,  t1:6.6,  text:"Mom... I'm thirsty."},
+  {who:'mom', t0:6.9,  t1:9.2,  text:"There's water by your bed, baby. Like every night. For four years."},
+  {who:'kid', t0:10.6, t1:11.9, text:"Dad... I need to pee."},
+  {who:'dad', t0:12.2, t1:13.7, text:"You just went. Twice. Your bladder is a liar."},
+  {who:'kid', t0:15.2, t1:17.3, text:"Mom... what happens when we die?"},
+  {who:'dad', t0:18.5, t1:19.8, text:"Honestly? Sounds like a nap."},
+  {who:'dad', t0:21.5, t1:22.8, text:"So. Still up for that movie?"},
+  {who:'mom', t0:23.2, t1:26.0, text:"Don't move. If this kid wakes up, we find out what happens when we die."},
+];
+const DURATION = 28.5;
+const CUT = 20.8; // scene B starts
+const CAPTIONS = [
+  {t0:0,   text:['Us at 9:00 PM:','the kids are asleep']},
+  {t0:CUT, text:['Us at 11:47 PM:','the movie never started']},
+];
+const DOOR = [ // [time, openness]
+  [0,0],[4.6,0],[4.85,1],[9.5,1],[9.75,0],[10.1,0],[10.35,1],[13.9,1],[14.15,0],[14.6,0],[15.0,1],[CUT,1],[CUT,0]
+];
+
+// ---------- pose keyframes (partial states, merged in order) ----------
+// angles: 0 = pointing down, +90 = screen right, -90 = screen left, 180 = up
+const BASE = {
+  dad: {x:560, y:1255, s:1, rot:0, lean:0, tilt:0, turn:0, look:0,
+        aL:[-25,10], aR:[25,-10], lL:[-62,62], lR:[62,-62],
+        brows:'neutral', eyes:'open', mouth:'smile', vis:1, bob:0},
+  mom: {x:840, y:1255, s:1, rot:0, lean:0, tilt:0, turn:0, look:0,
+        aL:[-25,10], aR:[25,-10], lL:[-55,55], lR:[55,-55],
+        brows:'neutral', eyes:'open', mouth:'smile', vis:1, bob:0},
+  kid: {x:180, y:1300, s:0.8, rot:0, lean:0, tilt:0, turn:0, look:0,
+        aL:[-15,40], aR:[15,-40], lL:[-8,0], lR:[8,0],
+        brows:'sad', eyes:'open', mouth:'frown', vis:0, bob:0, teddy:1},
+};
+const KF = {
+  dad: [
+    {t:0,    lean:-4, aL:[-60,-40], aR:[40,30], mouth:'smile', eyes:'half'},
+    {t:0.6,  turn:0.6, look:1},
+    {t:2.3,  turn:0.2, look:0.3, aR:[150,20], aL:[-25,10], mouth:'grin', brows:'up', eyes:'open'},   // "Movie."
+    {t:3.0,  aR:[120,40], tilt:-6},                                                                   // "Snacks."
+    {t:3.7,  aR:[100,70], aL:[-100,-70], tilt:6, eyes:'closed'},                                     // "Total silence." arms wide
+    {t:4.6,  turn:-0.8, look:-1, eyes:'wide', brows:'up', mouth:'flat', aR:[40,20], aL:[-40,-20], tilt:0, lean:0},
+    {t:9.8,  turn:0.3, look:0.5, eyes:'open', brows:'neutral', mouth:'smile', aR:[110,10]},           // reaches remote
+    {t:10.35,turn:-0.8, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:12.2, turn:-0.8, aL:[-170,10], brows:'angry', eyes:'half', mouth:'flat'},                     // two fingers up
+    {t:13.9, aL:[-30,10], turn:0, look:0, eyes:'half', brows:'sad'},
+    {t:14.2, lean:-6, tilt:-10, eyes:'closed', mouth:'frown'},                                        // head back
+    {t:15.0, lean:0, tilt:0, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'flat'},
+    {t:17.4, turn:0.9, look:1, eyes:'wide', brows:'up', mouth:'flat'},                               // look at each other
+    {t:18.3, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'smile', tilt:-8, aL:[-60,-60]},  // dreamy: "sounds like a nap"
+    {t:19.9, eyes:'closed', mouth:'smile', tilt:-12},
+    // ---- scene B ----
+    {t:CUT,  turn:0, look:0, lean:8, tilt:0, aL:[-10,0], aR:[10,0], eyes:'tired', brows:'sad', mouth:'flat'},
+    {t:21.5, look:1},
+    {t:23.2, look:1, eyes:'wide', brows:'up'},
+    {t:26.7, eyes:'closed', brows:'angry', mouth:'grit', tilt:-8},   // foot to the face
+  ],
+  mom: [
+    {t:0,    aL:[-160,0], aR:[160,0], eyes:'closed', mouth:'grin', brows:'up'},   // victory arms
+    {t:0.9,  aL:[-150,20], aR:[150,-20]},
+    {t:1.5,  aL:[-160,0], aR:[160,0]},
+    {t:2.2,  aL:[-25,10], aR:[25,-10], eyes:'open', turn:-0.6, look:-1, mouth:'smile', brows:'neutral'},
+    {t:4.6,  turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:6.9,  mouth:'smile', brows:'angry', eyes:'open', aL:[-95,-5], tilt:-5},     // forced-calm smile, points
+    {t:8.0,  aL:[-100,10], tilt:5},
+    {t:9.6,  aL:[-25,10], tilt:0, turn:0, look:0, brows:'neutral', mouth:'flat', eyes:'half'},
+    {t:10.35,turn:-0.9, look:-1, eyes:'wide', brows:'up'},
+    {t:13.9, turn:-0.2, look:0, eyes:'half', brows:'sad', mouth:'frown', aR:[60,90]},  // facepalm-ish
+    {t:15.0, turn:-0.9, look:-1, eyes:'half', brows:'neutral', mouth:'flat', aR:[25,-10]},
+    {t:17.4, turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:18.7, turn:-0.9, look:-1, eyes:'open', brows:'angry', mouth:'grit', tilt:-6},                 // glares at dad
+    // ---- scene B ----
+    {t:CUT,  turn:0, look:0, tilt:0, aL:[-10,0], aR:[10,0], eyes:'tired', brows:'sad', mouth:'flat'},
+    {t:23.2, look:-1, brows:'angry', mouth:'grit', eyes:'open'},
+    {t:26.1, look:0, eyes:'tired'},
+  ],
+  kid: [
+    {t:0,    vis:0},
+    {t:4.8,  vis:1, brows:'sad', mouth:'frown', eyes:'open', aL:[-15,40], aR:[15,-40], lL:[-8,0], lR:[8,0]},
+    {t:9.4,  vis:0},
+    {t:10.4, vis:1, brows:'worried', mouth:'flat', lL:[12,-5], lR:[-12,5], aL:[-20,60], aR:[20,-60]}, // legs crossed
+    {t:13.8, vis:0},
+    {t:14.9, vis:1, brows:'neutral', mouth:'smile', lL:[-8,0], lR:[8,0], aL:[-15,40], aR:[15,-40], tilt:6},
+    {t:16.6, eyes:'open', look:0.5},
+    {t:19.9, eyes:'wide', mouth:'o', brows:'up', look:1},
+    // ---- scene B: asleep across the couch ----
+    {t:CUT,  vis:1, x:690, y:1120, s:0.85, rot:125, tilt:0, look:0, eyes:'closed', brows:'neutral', mouth:'o', teddy:0,
+             aL:[-100,-20], aR:[120,30], lL:[-5,40], lR:[25,35]},
+    {t:26.6, lL:[-32,0]},   // kick
+  ],
+};
+
+// ---------- helpers ----------
+const rad = d => d*Math.PI/180;
+const dir = a => [Math.sin(rad(a)), Math.cos(rad(a))];
+const lerp = (a,b,u) => a+(b-a)*u;
+function ease(u){ return 1-Math.pow(1-u,3); }
+
+function buildStates(name){
+  const out=[]; let cur=JSON.parse(JSON.stringify(BASE[name]));
+  for(const k of KF[name]){
+    const prev=JSON.parse(JSON.stringify(cur));
+    for(const key in k){ if(key!=='t') cur[key]=k[key]; }
+    out.push({t:k.t, prev, state:JSON.parse(JSON.stringify(cur)), snap: k.t===CUT});
+  }
+  return out;
+}
+const STATES = {dad:buildStates('dad'), mom:buildStates('mom'), kid:buildStates('kid')};
+const TWEEN = 0.12;
+function stateAt(name,t){
+  const arr=STATES[name]; let idx=-1;
+  for(let i=0;i<arr.length;i++){ if(arr[i].t<=t) idx=i; }
+  if(idx<0) return BASE[name];
+  const e=arr[idx]; const dt=t-e.t;
+  if(dt>=TWEEN || e.snap) return e.state;
+  const u=ease(dt/TWEEN); const s={};
+  for(const key in e.state){
+    const a=e.prev[key], b=e.state[key];
+    if(typeof b==='number') s[key]=lerp(a,b,u);
+    else if(Array.isArray(b)) s[key]=b.map((v,i)=>lerp(a[i],v,u));
+    else s[key]=b; // discrete fields switch instantly
+  }
+  return s;
+}
+function talking(name,t){
+  for(const l of LINES){ if(l.who===name && t>=l.t0 && t<l.t1) return l; }
+  return null;
+}
+function hash(n){ const x=Math.sin(n*127.1)*43758.5453; return x-Math.floor(x); }
+
+// ---------- character drawing (local coords: hip at 0,0, up = -y) ----------
+const DIMS = {
+  dad:{torso:230, head:108, uArm:120, fArm:115, thigh:120, shin:185, shirt:'#3E6FB0'},
+  mom:{torso:220, head:104, uArm:115, fArm:110, thigh:115, shin:185, shirt:'#F07C6C'},
+  kid:{torso:150, head:118, uArm:95, fArm:85, thigh:105, shin:125, shirt:'#F6C945'},
+};
+function limb(p0,a1,len1,a2rel,len2,sw){
+  const d1=dir(a1), p1=[p0[0]+d1[0]*len1, p0[1]+d1[1]*len1];
+  const d2=dir(a1+a2rel), p2=[p1[0]+d2[0]*len2, p1[1]+d2[1]*len2];
+  return {svg:`<polyline points="${p0} ${p1} ${p2}" fill="none" stroke="${INK}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round"/>`, end:p2, dirEnd:d2};
+}
+function face(name,st,t,R,sw){
+  const dx=st.turn*R*0.32, lk=st.look*R*0.09;
+  const ex=R*0.32, ey=-R*0.06;
+  let g='';
+  // blink
+  let eyes=st.eyes;
+  const per= name==='dad'?3.7:(name==='mom'?4.3:3.1);
+  const off= name==='dad'?0.7:(name==='mom'?1.9:0.3);
+  if((eyes==='open'||eyes==='wide') && ((t+off)%per)<0.11) eyes='closed';
+  for(const side of [-1,1]){
+    const cx=dx+side*ex, cy=ey;
+    if(eyes==='open'){
+      g+=`<ellipse cx="${cx+lk}" cy="${cy}" rx="${R*0.1}" ry="${R*0.16}" fill="${INK}"/>`;
+      g+=`<circle cx="${cx+lk+R*0.03}" cy="${cy-R*0.06}" r="${R*0.03}" fill="#fff"/>`;
+    } else if(eyes==='wide'){
+      g+=`<circle cx="${cx}" cy="${cy}" r="${R*0.2}" fill="#fff" stroke="${INK}" stroke-width="${sw*0.7}"/>`;
+      g+=`<circle cx="${cx+lk*1.6}" cy="${cy}" r="${R*0.08}" fill="${INK}"/>`;
+    } else if(eyes==='closed'){
+      g+=`<path d="M${cx-R*0.12},${cy} Q${cx},${cy+R*0.1} ${cx+R*0.12},${cy}" fill="none" stroke="${INK}" stroke-width="${sw*0.8}" stroke-linecap="round"/>`;
+    } else if(eyes==='half' || eyes==='tired'){
+      g+=`<path d="M${cx-R*0.12},${cy} A${R*0.12},${R*0.12} 0 0 0 ${cx+R*0.12},${cy} Z" fill="${INK}"/>`;
+      g+=`<line x1="${cx-R*0.15}" y1="${cy}" x2="${cx+R*0.15}" y2="${cy}" stroke="${INK}" stroke-width="${sw*0.8}" stroke-linecap="round"/>`;
+      if(eyes==='tired'){
+        g+=`<path d="M${cx-R*0.13},${cy+R*0.17} Q${cx},${cy+R*0.25} ${cx+R*0.13},${cy+R*0.17}" fill="none" stroke="#9C6B8E" stroke-width="${sw*0.6}" stroke-linecap="round"/>`;
+      }
+    }
+    // brows
+    const by=cy-R*0.3, bw=R*0.14;
+    let y1=by,y2=by; // inner = toward center
+    if(st.brows==='up'){ y1=by-R*0.08; y2=by-R*0.08; }
+    if(st.brows==='angry'){ y1=by+R*0.06; y2=by-R*0.06; }
+    if(st.brows==='sad'||st.brows==='worried'){ y1=by-R*0.07; y2=by+R*0.04; }
+    const xi=cx-side*bw, xo=cx+side*bw;
+    g+=`<line x1="${xi}" y1="${y1}" x2="${xo}" y2="${y2}" stroke="${INK}" stroke-width="${sw*0.9}" stroke-linecap="round"/>`;
+  }
+  // mouth
+  const mx=dx, my=R*0.42, mw=R*0.22;
+  let m=st.mouth;
+  const line=talking(name,t);
+  if(line){
+    const k=Math.floor(t/0.09); const r=hash(k+ (name==='dad'?11:name==='mom'?37:71));
+    m = r<0.35?'talkA':(r<0.7?'talkB':'talkC');
+  }
+  const stroke=`stroke="${INK}" stroke-width="${sw*0.85}" stroke-linecap="round" stroke-linejoin="round"`;
+  if(m==='smile') g+=`<path d="M${mx-mw},${my-R*0.05} Q${mx},${my+R*0.14} ${mx+mw},${my-R*0.05}" fill="none" ${stroke}/>`;
+  else if(m==='flat') g+=`<line x1="${mx-mw*0.7}" y1="${my}" x2="${mx+mw*0.7}" y2="${my}" ${stroke}/>`;
+  else if(m==='frown') g+=`<path d="M${mx-mw*0.8},${my+R*0.06} Q${mx},${my-R*0.08} ${mx+mw*0.8},${my+R*0.06}" fill="none" ${stroke}/>`;
+  else if(m==='o') g+=`<ellipse cx="${mx}" cy="${my}" rx="${R*0.06}" ry="${R*0.08}" fill="${INK}"/>`;
+  else if(m==='grin') g+=`<path d="M${mx-mw*1.2},${my-R*0.08} Q${mx},${my-R*0.02} ${mx+mw*1.2},${my-R*0.08} Q${mx},${my+R*0.3} ${mx-mw*1.2},${my-R*0.08} Z" fill="#fff" ${stroke}/>`;
+  else if(m==='grit'){
+    g+=`<rect x="${mx-mw}" y="${my-R*0.07}" width="${mw*2}" height="${R*0.14}" rx="${R*0.04}" fill="#fff" ${stroke}/>`;
+    g+=`<line x1="${mx-mw}" y1="${my}" x2="${mx+mw}" y2="${my}" stroke="${INK}" stroke-width="${sw*0.5}"/>`;
+  }
+  else if(m==='talkA') g+=`<path d="M${mx-mw},${my-R*0.06} Q${mx},${my-R*0.02} ${mx+mw},${my-R*0.06} Q${mx},${my+R*0.26} ${mx-mw},${my-R*0.06} Z" fill="#5A1E1E" ${stroke}/>`;
+  else if(m==='talkB') g+=`<ellipse cx="${mx}" cy="${my+R*0.02}" rx="${mw*0.55}" ry="${R*0.11}" fill="#5A1E1E" ${stroke}/>`;
+  else if(m==='talkC') g+=`<path d="M${mx-mw*0.8},${my-R*0.02} Q${mx},${my+R*0.1} ${mx+mw*0.8},${my-R*0.02}" fill="none" ${stroke}/>`;
+  return g;
+}
+function hair(name,st,R,sw,front){
+  const dx=st.turn*R*0.25;
+  if(name==='dad' && front){
+    // spiky black tuft
+    let p=`M${-R*0.78+dx},${-R*0.6} `;
+    const spikes=[[-0.62,-1.12],[-0.4,-0.9],[-0.18,-1.22],[0.05,-0.95],[0.3,-1.2],[0.5,-0.9],[0.72,-1.05]];
+    for(const [sx,sy] of spikes) p+=`L${sx*R+dx},${sy*R} `;
+    p+=`L${R*0.82+dx},${-R*0.55} Q${dx},${-R*0.82} ${-R*0.78+dx},${-R*0.6} Z`;
+    return `<path d="${p}" fill="#2A2420" stroke="${INK}" stroke-width="${sw*0.8}" stroke-linejoin="round"/>`;
+  }
+  if(name==='mom'){
+    if(!front){ // ponytail behind head (side)
+      return `<path d="M${R*0.55},${-R*0.55} Q${R*1.5},${-R*0.7} ${R*1.35},${R*0.35} Q${R*1.25},${R*0.85} ${R*0.95},${R*0.6} Q${R*1.15},${R*0.1} ${R*0.6},${-R*0.15} Z" fill="#8A4B2A" stroke="${INK}" stroke-width="${sw*0.8}" stroke-linejoin="round"/>`
+        + `<circle cx="${R*0.78}" cy="${-R*0.5}" r="${R*0.13}" fill="#F6C945" stroke="${INK}" stroke-width="${sw*0.6}"/>`;
+    }
+    return `<path d="M${-R*0.98},${-R*0.05} Q${-R*1.02},${-R*1.05} ${dx},${-R*1.03} Q${R*1.02},${-R*1.05} ${R*0.98},${-R*0.1} Q${R*0.6},${-R*0.75} ${dx+R*0.05},${-R*0.6} Q${-R*0.35},${-R*0.85} ${-R*0.98},${-R*0.05} Z" fill="#8A4B2A" stroke="${INK}" stroke-width="${sw*0.8}" stroke-linejoin="round"/>`;
+  }
+  if(name==='kid' && front){
+    let p=`M${-R*0.85},${-R*0.45} `;
+    const spikes=[[-0.95,-0.85],[-0.6,-0.85],[-0.55,-1.2],[-0.2,-0.95],[0.05,-1.3],[0.25,-0.97],[0.6,-1.15],[0.62,-0.85],[0.98,-0.8]];
+    for(const [sx,sy] of spikes) p+=`L${sx*R+dx},${sy*R} `;
+    p+=`L${R*0.88},${-R*0.4} Q${dx},${-R*0.72} ${-R*0.85},${-R*0.45} Z`;
+    return `<path d="${p}" fill="#E0703A" stroke="${INK}" stroke-width="${sw*0.8}" stroke-linejoin="round"/>`;
+  }
+  return '';
+}
+function teddy(px,py,sw){
+  return `<g transform="translate(${px},${py})">
+    <circle cx="-34" cy="-46" r="16" fill="#B07A4A" stroke="${INK}" stroke-width="${sw*0.8}"/>
+    <circle cx="34" cy="-46" r="16" fill="#B07A4A" stroke="${INK}" stroke-width="${sw*0.8}"/>
+    <ellipse cx="0" cy="30" rx="38" ry="44" fill="#B07A4A" stroke="${INK}" stroke-width="${sw*0.8}"/>
+    <circle cx="0" cy="-22" r="40" fill="#B07A4A" stroke="${INK}" stroke-width="${sw*0.8}"/>
+    <ellipse cx="0" cy="-10" rx="16" ry="12" fill="#E8C9A0"/>
+    <circle cx="-13" cy="-30" r="5" fill="${INK}"/><circle cx="13" cy="-30" r="5" fill="${INK}"/>
+    <circle cx="0" cy="-14" r="5" fill="${INK}"/></g>`;
+}
+function character(name,t){
+  const st=stateAt(name,t);
+  if(!st.vis) return '';
+  const D=DIMS[name], sw=SW/st.s*(name==='kid'?0.9:1);
+  const talk=talking(name,t);
+  const bob = talk ? (hash(Math.floor(t/0.17)+5)>0.5? -4:0) : 0;
+  let g='';
+  // legs
+  const hipL=[-D.torso*0.14,0], hipR=[D.torso*0.14,0];
+  const L1=limb(hipL,st.lL[0],D.thigh,st.lL[1],D.shin,sw);
+  const L2=limb(hipR,st.lR[0],D.thigh,st.lR[1],D.shin,sw);
+  const foot=(L,side)=>`<ellipse cx="${L.end[0]+side*14}" cy="${L.end[1]}" rx="22" ry="10" transform="rotate(${-Math.atan2(L.dirEnd[0],L.dirEnd[1])*180/Math.PI} ${L.end[0]} ${L.end[1]})" fill="${INK}"/>`;
+  g+=L1.svg+L2.svg+foot(L1,-1)+foot(L2,1);
+  // torso (leaned)
+  const ld=dir(180+st.lean); // up, rotated by lean
+  const neck=[ld[0]*D.torso, ld[1]*D.torso+bob];
+  const tw = name==='mom'?[52,120]:(name==='dad'?[62,82]:[50,62]);
+  const ext = name==='mom'?40:18; // dress/hoodie hangs below hip
+  const nx=neck[0], ny=neck[1];
+  g+=`<path d="M${nx-tw[0]},${ny+10} Q${nx},${ny-12} ${nx+tw[0]},${ny+10} L${tw[1]},${ext} Q0,${ext+14} ${-tw[1]},${ext} Z" fill="${D.shirt}" stroke="${INK}" stroke-width="${sw}" stroke-linejoin="round"/>`;
+  if(name==='dad') g+=`<path d="M${-36},${-20} L36,-20 L44,${ext-4} L-44,${ext-4} Z" fill="none" stroke="${INK}" stroke-width="${sw*0.5}" opacity="0.6"/>`;
+  if(name==='kid') for(const [sx,sy] of [[-25,-60],[22,-95],[10,-20],[-30,-120]]) g+=`<text x="${sx}" y="${sy}" font-size="26" fill="#fff" stroke="${INK}" stroke-width="1.5" text-anchor="middle">★</text>`;
+  // head
+  const R=D.head;
+  const hc=[nx+ld[0]*R*0.95, ny+ld[1]*R*0.95];
+  let head=`<g transform="translate(${hc[0]},${hc[1]}) rotate(${st.tilt})">`;
+  head+=hair(name,st,R,sw,false);
+  head+=`<circle cx="0" cy="0" r="${R}" fill="${SKIN}" stroke="${INK}" stroke-width="${sw}"/>`;
+  head+=`<ellipse cx="${st.turn*R*0.3-R*0.55}" cy="${R*0.25}" rx="${R*0.12}" ry="${R*0.07}" fill="#F4A08C" opacity="0.6"/>`;
+  head+=`<ellipse cx="${st.turn*R*0.3+R*0.55}" cy="${R*0.25}" rx="${R*0.12}" ry="${R*0.07}" fill="#F4A08C" opacity="0.6"/>`;
+  head+=face(name,st,t,R,sw);
+  head+=hair(name,st,R,sw,true);
+  head+='</g>';
+  // arms
+  const sh=[nx,ny+28];
+  const shL=[sh[0]-tw[0]*0.75,sh[1]], shR=[sh[0]+tw[0]*0.75,sh[1]];
+  const A1=limb(shL,st.aL[0],D.uArm,st.aL[1],D.fArm,sw);
+  const A2=limb(shR,st.aR[0],D.uArm,st.aR[1],D.fArm,sw);
+  const hand=(A)=>`<circle cx="${A.end[0]}" cy="${A.end[1]}" r="15" fill="${SKIN}" stroke="${INK}" stroke-width="${sw*0.8}"/>`;
+  let arms=A1.svg+A2.svg+hand(A1)+hand(A2);
+  // dad: two fingers up when holding left arm high (12.2-13.9)
+  if(name==='dad' && t>=12.2 && t<13.9){
+    const e=A1.end; arms+=`<line x1="${e[0]-6}" y1="${e[1]-8}" x2="${e[0]-12}" y2="${e[1]-42}" stroke="${INK}" stroke-width="${sw*0.9}" stroke-linecap="round"/><line x1="${e[0]+6}" y1="${e[1]-8}" x2="${e[0]+12}" y2="${e[1]-42}" stroke="${INK}" stroke-width="${sw*0.9}" stroke-linecap="round"/>`;
+  }
+  // dad remote (scene A, when right arm is forward)
+  if(name==='dad' && t>=9.8 && t<10.35){
+    const e=A2.end; arms+=`<rect x="${e[0]-10}" y="${e[1]-40}" width="22" height="58" rx="6" fill="#333" stroke="${INK}" stroke-width="3"/>`;
+  }
+  let extra='';
+  if(name==='kid' && st.teddy) extra=teddy(0,-D.torso*0.45,sw);
+  g+=head+(name==='kid'&&st.teddy?extra:'')+arms;
+  if(name==='kid' && !st.teddy){
+    // zzz
+    const k=(t*0.8)%1;
+    for(let i=0;i<3;i++){
+      const u=(k+i/3)%1;
+      g+=`<text x="${-30-u*20}" y="${-D.torso-R*1.6-u*120}" font-family="Inter" font-weight="800" font-size="${40+u*30}" fill="#fff" stroke="${INK}" stroke-width="3" opacity="${1-u}" transform="rotate(-96 ${-30-u*20} ${-D.torso-R*1.6-u*120})">z</text>`;
+    }
+  }
+  return `<g transform="translate(${st.x},${st.y}) rotate(${st.rot}) scale(${st.s})">${g}</g>`;
+}
+
+// ---------- background ----------
+function doorOpen(t){
+  for(let i=DOOR.length-1;i>=0;i--){
+    if(t>=DOOR[i][0]){
+      const a=DOOR[i], b=DOOR[i+1];
+      if(!b) return a[1];
+      const u=(t-a[0])/(b[0]-a[0]);
+      return lerp(a[1],b[1],Math.min(1,Math.max(0,u)));
+    }
+  }
+  return 0;
+}
+function clock(cx,cy,h,m){
+  const ha=(h%12+m/60)*30, ma=m*6;
+  const hd=[Math.sin(rad(ha)),-Math.cos(rad(ha))], md=[Math.sin(rad(ma)),-Math.cos(rad(ma))];
+  let g=`<circle cx="${cx}" cy="${cy}" r="62" fill="#fff" stroke="${INK}" stroke-width="7"/>`;
+  for(let i=0;i<12;i++){ const a=rad(i*30); g+=`<line x1="${cx+Math.sin(a)*48}" y1="${cy-Math.cos(a)*48}" x2="${cx+Math.sin(a)*54}" y2="${cy-Math.cos(a)*54}" stroke="${INK}" stroke-width="4"/>`; }
+  g+=`<line x1="${cx}" y1="${cy}" x2="${cx+hd[0]*30}" y2="${cy+hd[1]*30}" stroke="${INK}" stroke-width="7" stroke-linecap="round"/>`;
+  g+=`<line x1="${cx}" y1="${cy}" x2="${cx+md[0]*45}" y2="${cy+md[1]*45}" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>`;
+  g+=`<circle cx="${cx}" cy="${cy}" r="6" fill="${INK}"/>`;
+  return g;
+}
+function background(t){
+  const B=t>=CUT;
+  let g='';
+  g+=`<defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D2A55"/><stop offset="1" stop-color="#3D5694"/></linearGradient>
+    <radialGradient id="lamp" cx="0.82" cy="0.55" r="0.6"><stop offset="0" stop-color="#FFD58A" stop-opacity="0.35"/><stop offset="1" stop-color="#FFD58A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="hall" cx="0.5" cy="0.4" r="0.7"><stop offset="0" stop-color="#6B5A86"/><stop offset="1" stop-color="#2E2440"/></radialGradient>
+  </defs>`;
+  // wall
+  g+=`<rect width="1080" height="1920" fill="#F4E3C3"/>`;
+  g+=`<rect y="0" width="1080" height="70" fill="#EAD6B0"/>`;
+  // window (night)
+  g+=`<rect x="390" y="200" width="620" height="640" fill="url(#sky)"/>`;
+  const stars=[[440,630],[520,700],[610,610],[700,690],[950,640],[470,760],[800,610],[560,780]];
+  for(const [sx,sy] of stars){ const tw=0.6+0.4*Math.sin(t*3+sx); g+=`<circle cx="${sx}" cy="${sy}" r="${4*tw+1}" fill="#FFF7D6"/>`; }
+  const moonY = B?600:700;
+  g+=`<circle cx="900" cy="${moonY}" r="52" fill="#FFF1B8"/><circle cx="922" cy="${moonY-14}" r="46" fill="url(#sky)"/>`;
+  g+=`<rect x="390" y="200" width="620" height="640" fill="none" stroke="#FFFFFF" stroke-width="26"/>`;
+  g+=`<line x1="700" y1="200" x2="700" y2="840" stroke="#FFFFFF" stroke-width="18"/>`;
+  g+=`<line x1="390" y1="560" x2="1010" y2="560" stroke="#FFFFFF" stroke-width="18"/>`;
+  g+=`<rect x="390" y="200" width="620" height="640" fill="none" stroke="${INK}" stroke-width="4" opacity="0.25"/>`;
+  g+=`<rect x="370" y="840" width="660" height="26" rx="6" fill="#FFFFFF" stroke="${INK}" stroke-width="4" opacity="0.9"/>`;
+  // curtains
+  g+=`<path d="M330,150 L420,150 Q440,520 400,910 L330,910 Z" fill="#E8B04B" stroke="${INK}" stroke-width="5"/>`;
+  g+=`<path d="M1080,150 L990,150 Q975,520 1010,910 L1080,910 Z" fill="#E8B04B" stroke="${INK}" stroke-width="5"/>`;
+  g+=`<rect x="300" y="138" width="780" height="18" rx="9" fill="#8A5A3A"/>`;
+  // door (left)
+  const o=doorOpen(t);
+  g+=`<rect x="40" y="800" width="270" height="680" fill="url(#hall)"/>`;
+  g+=`<!--KID-->`;
+  const w=270*(1-0.82*o);
+  g+=`<path d="M40,800 L${40+w},${800+o*30} L${40+w},${1480-o*30} L40,1480 Z" fill="#C98A55" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`;
+  if(o<0.6) g+=`<circle cx="${40+w-34*(1-o)}" cy="1150" r="12" fill="#F6C945" stroke="${INK}" stroke-width="4"/>`;
+  g+=`<path d="M28,1480 L28,788 L322,788 L322,1480" fill="none" stroke="#FFFFFF" stroke-width="22"/>`;
+  g+=`<path d="M28,1480 L28,788 L322,788 L322,1480" fill="none" stroke="${INK}" stroke-width="4" opacity="0.3"/>`;
+  // clock
+  g+=B?clock(175,680,11,47):clock(175,680,9,0);
+  // floor
+  g+=`<rect x="0" y="1480" width="1080" height="440" fill="#D9A066"/>`;
+  for(let i=0;i<6;i++){ const y=1480+i*80; g+=`<line x1="0" y1="${y}" x2="1080" y2="${y}" stroke="#B98048" stroke-width="4"/>`; }
+  for(let i=0;i<10;i++){ const x=(i*233+ (i%2)*110)%1080; const y=1480+(i%5)*80; g+=`<line x1="${x}" y1="${y}" x2="${x}" y2="${y+80}" stroke="#B98048" stroke-width="4"/>`; }
+  g+=`<rect x="0" y="1466" width="1080" height="20" fill="#FFFFFF" stroke="${INK}" stroke-width="3" opacity="0.9"/>`;
+  // rug
+  g+=`<ellipse cx="700" cy="1640" rx="380" ry="95" fill="#7FB38A" stroke="${INK}" stroke-width="5"/>`;
+  g+=`<ellipse cx="700" cy="1640" rx="320" ry="68" fill="none" stroke="#FFF4DA" stroke-width="6" stroke-dasharray="18 14"/>`;
+  return g;
+}
+function couchBack(){
+  return `<rect x="345" y="1010" width="700" height="270" rx="40" fill="#4FA3A5" stroke="${INK}" stroke-width="7"/>
+  <line x1="695" y1="1030" x2="695" y2="1260" stroke="${INK}" stroke-width="4" opacity="0.35"/>`;
+}
+function couchFront(){
+  return `<rect x="380" y="1240" width="630" height="110" rx="26" fill="#5DB5B7" stroke="${INK}" stroke-width="7"/>
+  <line x1="695" y1="1248" x2="695" y2="1345" stroke="${INK}" stroke-width="4" opacity="0.35"/>
+  <rect x="330" y="1150" width="90" height="250" rx="34" fill="#4FA3A5" stroke="${INK}" stroke-width="7"/>
+  <rect x="970" y="1150" width="90" height="250" rx="34" fill="#4FA3A5" stroke="${INK}" stroke-width="7"/>
+  <rect x="380" y="1340" width="630" height="70" rx="16" fill="#3F8E90" stroke="${INK}" stroke-width="7"/>
+  <rect x="380" y="1405" width="26" height="45" rx="6" fill="#5A3B26"/><rect x="985" y="1405" width="26" height="45" rx="6" fill="#5A3B26"/>`;
+}
+function caption(t){
+  let c=CAPTIONS[0]; for(const x of CAPTIONS) if(t>=x.t0) c=x;
+  const lines=c.text, lh=92, h=lines.length*lh+56;
+  let g=`<rect x="36" y="300" width="1008" height="${h}" rx="26" fill="#FFFFFF"/>`;
+  lines.forEach((l,i)=>{ g+=`<text class="cap" x="540" y="${300+28+lh*0.78+i*lh}" font-size="80" text-anchor="middle" fill="#111">${l}</text>`; });
+  return g;
+}
+function subtitle(t){
+  const l=LINES.find(l=>t>=l.t0-0.05 && t<l.t1+0.35);
+  if(!l) return '';
+  const name={mom:'MOM',dad:'DAD',kid:'KID'}[l.who];
+  const col={mom:'#F07C6C',dad:'#6FA3E8',kid:'#F6C945'}[l.who];
+  const txt=l.text.replace(/&/g,'&amp;').replace(/'/g,'&#39;');
+  // wrap to max ~26 chars per line
+  const words=(name+': '+l.text).split(' '); const rows=[]; let r='';
+  for(const w of words){ if((r+' '+w).trim().length>26 && r){ rows.push(r); r=w; } else r=(r+' '+w).trim(); }
+  rows.push(r);
+  const y0=1790-(rows.length-1)*70;
+  return rows.map((row,i)=>{
+    let esc=row.replace(/&/g,'&amp;').replace(/'/g,'&#39;');
+    if(i===0) esc=esc.replace(name+':',`<tspan fill="${col}">${name}:</tspan>`);
+    return `<text class="sub" x="540" y="${y0+i*70}" font-size="60" text-anchor="middle" stroke="#111" stroke-width="10" stroke-linejoin="round" paint-order="stroke" fill="#fff">${esc}</text>`;
+  }).join('');
+}
+function render(t){
+  const tq = Math.floor(t*12)/12; // animate "on twos" for the cut-out feel
+  let bg=background(tq);
+  const B=tq>=CUT;
+  const kid=character('kid',tq);
+  let svg;
+  if(!B){
+    bg=bg.replace('<!--KID-->', kid);
+    svg=bg+couchBack()+couchFront()+character('dad',tq)+character('mom',tq);
+  } else {
+    svg=bg.replace('<!--KID-->','')+couchBack()+couchFront()+character('dad',tq)+character('mom',tq)+kid;
+  }
+  svg+=`<rect width="1080" height="1920" fill="url(#lamp)" pointer-events="none"/>`;
+  svg+=caption(tq)+subtitle(t);
+  document.getElementById('stage').innerHTML=svg;
+}
+window.render=render; window.DURATION=DURATION;
+render(0);
+</script>
+</body></html>
