@@ -1,0 +1,56 @@
+[
+ {
+  "who": "mom",
+  "text": "They're finally asleep.",
+  "dur": 1.344,
+  "file": "lines/line_0.wav"
+ },
+ {
+  "who": "dad",
+  "text": "Movie. Snacks. Total silence.",
+  "dur": 2.304,
+  "file": "lines/line_1.wav"
+ },
+ {
+  "who": "kid",
+  "text": "Mom... I'm thirsty.",
+  "dur": 1.631,
+  "file": "lines/line_2.wav"
+ },
+ {
+  "who": "mom",
+  "text": "Your water is right by your bed, sweetie.",
+  "dur": 2.155,
+  "file": "lines/line_3.wav"
+ },
+ {
+  "who": "kid",
+  "text": "Dad... I need to pee.",
+  "dur": 1.647,
+  "file": "lines/line_4.wav"
+ },
+ {
+  "who": "dad",
+  "text": "You just went. Twice.",
+  "dur": 1.6,
+  "file": "lines/line_5.wav"
+ },
+ {
+  "who": "kid",
+  "text": "Mom... what happens when we die?",
+  "dur": 2.047,
+  "file": "lines/line_6.wav"
+ },
+ {
+  "who": "dad",
+  "text": "So... movie?",
+  "dur": 1.109,
+  "file": "lines/line_7.wav"
+ },
+ {
+  "who": "mom",
+  "text": "Don't. Move.",
+  "dur": 0.939,
+  "file": "lines/line_8.wav"
+ }
+]

@@ -1,0 +1,10 @@
+Sounds from Soundza — https://soundza.com
+=========================================
+Licensed under the Soundza Standard License: https://soundza.com/license
+Free for commercial and personal use. No attribution required (a link back is appreciated).
+Do not redistribute the files on their own or in a sample pack, resell them, or train AI on them.
+
+Sounds:
+- soundza-old-wooden-door-creak.wav — "Old Wooden Door Creak" — https://soundza.com/sound/old-wooden-door-creak  (id cmvr3ncdv2reeaukne5b1zf1u)
+- soundza-deep-bonk-hit.wav — "Deep Bonk Hit" — https://soundza.com/sound/deep-bonk-hit  (id cmvcluul9w5a8vzblnogn39xp)
+- soundza-pizzicato-comedy-2.wav — "Pizzicato Comedy 2" — https://soundza.com/sound/pizzicato-comedy-2 [AI-generated]  (id wztwavy5k7y08d7qbqhokswd)
