@@ -20,21 +20,22 @@ const SW = 7; // stroke width at scale 1
 // Lines drive subtitles + mouth flaps. Times are placeholders until the
 // real voice-over exists; then they get replaced by measured durations.
 const LINES = [
-  {who:'mom', t0:0.4,  t1:2.0,  text:"They're finally asleep."},
-  {who:'dad', t0:2.3,  t1:4.4,  text:"Movie. Snacks. Total silence."},
+  {who:'mom', t0:0.4,  t1:2.0,  text:"They're asleep. We survived another day."},
+  {who:'dad', t0:2.3,  t1:4.4,  text:"Movie. Snacks. Pretending we still have a life."},
   {who:'kid', t0:5.1,  t1:6.6,  text:"Mom... I'm thirsty."},
-  {who:'mom', t0:6.9,  t1:9.2,  text:"Your water is right by your bed, sweetie."},
+  {who:'mom', t0:6.9,  t1:9.2,  text:"There's water by your bed, baby. Like every night. For four years."},
   {who:'kid', t0:10.6, t1:11.9, text:"Dad... I need to pee."},
-  {who:'dad', t0:12.2, t1:13.7, text:"You just went. Twice."},
+  {who:'dad', t0:12.2, t1:13.7, text:"You just went. Twice. Your bladder is a liar."},
   {who:'kid', t0:15.2, t1:17.3, text:"Mom... what happens when we die?"},
-  {who:'dad', t0:20.3, t1:21.6, text:"Still up for that movie?"},
-  {who:'mom', t0:22.0, t1:23.2, text:"Don't. Move."},
+  {who:'dad', t0:18.5, t1:19.8, text:"Honestly? Sounds like a nap."},
+  {who:'dad', t0:21.5, t1:22.8, text:"So. Still up for that movie?"},
+  {who:'mom', t0:23.2, t1:26.0, text:"Don't move. If this kid wakes up, we find out what happens when we die."},
 ];
-const DURATION = 25.5;
-const CUT = 19.6; // scene B starts
+const DURATION = 28.5;
+const CUT = 20.8; // scene B starts
 const CAPTIONS = [
   {t0:0,   text:['Us at 9:00 PM:','the kids are asleep']},
-  {t0:CUT, text:['Us at 11:47 PM:']},
+  {t0:CUT, text:['Us at 11:47 PM:','the movie never started']},
 ];
 const DOOR = [ // [time, openness]
   [0,0],[4.6,0],[4.85,1],[9.5,1],[9.75,0],[10.1,0],[10.35,1],[13.9,1],[14.15,0],[14.6,0],[15.0,1],[CUT,1],[CUT,0]
@@ -67,15 +68,14 @@ const KF = {
     {t:13.9, aL:[-30,10], turn:0, look:0, eyes:'half', brows:'sad'},
     {t:14.2, lean:-6, tilt:-10, eyes:'closed', mouth:'frown'},                                        // head back
     {t:15.0, lean:0, tilt:0, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'flat'},
-    {t:17.6, turn:0.9, look:1, eyes:'wide', brows:'up', mouth:'flat'},                               // look at each other
-    {t:18.6, brows:'angry'},
-    {t:18.8, brows:'up'},
-    {t:19.0, brows:'angry'},
+    {t:17.4, turn:0.9, look:1, eyes:'wide', brows:'up', mouth:'flat'},                               // look at each other
+    {t:18.3, turn:-0.8, look:-1, eyes:'half', brows:'neutral', mouth:'smile', tilt:-8, aL:[-60,-60]},  // dreamy: "sounds like a nap"
+    {t:19.9, eyes:'closed', mouth:'smile', tilt:-12},
     // ---- scene B ----
     {t:CUT,  turn:0, look:0, lean:8, tilt:0, aL:[-10,0], aR:[10,0], eyes:'tired', brows:'sad', mouth:'flat'},
-    {t:20.3, look:1},
-    {t:22.0, look:1},
-    {t:23.9, eyes:'closed', brows:'angry', mouth:'grit', tilt:-8},   // foot to the face
+    {t:21.5, look:1},
+    {t:23.2, look:1, eyes:'wide', brows:'up'},
+    {t:26.7, eyes:'closed', brows:'angry', mouth:'grit', tilt:-8},   // foot to the face
   ],
   mom: [
     {t:0,    aL:[-160,0], aR:[160,0], eyes:'closed', mouth:'grin', brows:'up'},   // victory arms
@@ -89,11 +89,12 @@ const KF = {
     {t:10.35,turn:-0.9, look:-1, eyes:'wide', brows:'up'},
     {t:13.9, turn:-0.2, look:0, eyes:'half', brows:'sad', mouth:'frown', aR:[60,90]},  // facepalm-ish
     {t:15.0, turn:-0.9, look:-1, eyes:'half', brows:'neutral', mouth:'flat', aR:[25,-10]},
-    {t:17.6, turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:17.4, turn:-0.9, look:-1, eyes:'wide', brows:'up', mouth:'flat'},
+    {t:18.7, turn:-0.9, look:-1, eyes:'open', brows:'angry', mouth:'grit', tilt:-6},                 // glares at dad
     // ---- scene B ----
     {t:CUT,  turn:0, look:0, tilt:0, aL:[-10,0], aR:[10,0], eyes:'tired', brows:'sad', mouth:'flat'},
-    {t:22.0, look:-1, brows:'angry', mouth:'grit'},
-    {t:23.2, look:0},
+    {t:23.2, look:-1, brows:'angry', mouth:'grit', eyes:'open'},
+    {t:26.1, look:0, eyes:'tired'},
   ],
   kid: [
     {t:0,    vis:0},
@@ -103,16 +104,17 @@ const KF = {
     {t:13.8, vis:0},
     {t:14.9, vis:1, brows:'neutral', mouth:'smile', lL:[-8,0], lR:[8,0], aL:[-15,40], aR:[15,-40], tilt:6},
     {t:16.6, eyes:'open', look:0.5},
+    {t:19.9, eyes:'wide', mouth:'o', brows:'up', look:1},
     // ---- scene B: asleep across the couch ----
     {t:CUT,  vis:1, x:690, y:1120, s:0.85, rot:125, tilt:0, look:0, eyes:'closed', brows:'neutral', mouth:'o', teddy:0,
              aL:[-100,-20], aR:[120,30], lL:[-5,40], lR:[25,35]},
-    {t:23.8, lL:[-32,0]},   // kick
+    {t:26.6, lL:[-32,0]},   // kick
   ],
 };
 
-const WARP_NEW=[0, 0.4, 1.744, 2.044, 4.348, 5.248, 6.879, 7.179, 9.334, 10.834, 12.481, 12.781, 14.381, 15.881, 17.928, 20.228, 20.928, 22.507, 22.907, 23.846, 26.146], WARP_OLD=[0, 0.4, 2.0, 2.3, 4.4, 5.1, 6.6, 6.9, 9.2, 10.6, 11.9, 12.2, 13.7, 15.2, 17.3, 19.6, 20.3, 21.6, 22.0, 23.2, 25.5];
+const WARP_NEW=[0.0, 0.4, 2.491, 2.791, 5.884, 6.584, 8.215, 8.515, 12.376, 13.776, 15.423, 15.723, 18.838, 20.338, 22.385, 23.585, 25.612, 26.612, 27.312, 29.082, 29.482, 33.216, 35.716], WARP_OLD=[0.0, 0.4, 2.0, 2.3, 4.4, 5.1, 6.6, 6.9, 9.2, 10.6, 11.9, 12.2, 13.7, 15.2, 17.3, 18.5, 19.8, 20.8, 21.5, 22.8, 23.2, 26.0, 28.5];
 function toOld(t){ for(let i=1;i<WARP_NEW.length;i++){ if(t<=WARP_NEW[i]){ const u=(t-WARP_NEW[i-1])/(WARP_NEW[i]-WARP_NEW[i-1]); return WARP_OLD[i-1]+u*(WARP_OLD[i]-WARP_OLD[i-1]); } } return WARP_OLD[WARP_OLD.length-1]; }
-const NEW_DURATION=26.146;
+const NEW_DURATION=35.716;
 // ---------- helpers ----------
 const rad = d => d*Math.PI/180;
 const dir = a => [Math.sin(rad(a)), Math.cos(rad(a))];

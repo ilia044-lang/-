@@ -1,7 +1,7 @@
 # Bedtime — סרטון דמויות-מקל (זוג + ילד)
 
 סרטון 26 שניות, אנכי 1080×1920, אנגלית. דמויות מקוריות (לא DAFOR).
-**תוצר סופי:** `bedtime_v2.mp4`
+**תוצר סופי:** `bedtime_v3.mp4` (הומור שחור, 36 שנ'). `bedtime_v2.mp4` = הגרסה העדינה.
 
 ## מה כל קובץ
 | קובץ | מה |
@@ -13,7 +13,13 @@
 | `render.js` / `stills.js` | רינדור וידאו / פריימים בודדים לבדיקה (Playwright + ffmpeg) |
 | `sfx/` | אפקטים מ-Soundza (חינם, רישיון ב-SOUNDZA-LICENSE.txt). המוזיקה (32MB) לא נשמרה — להוריד מחדש לפי ה-id |
 
-## איך מרנדרים מחדש
+## בנייה בפקודה אחת (מומלץ)
+```bash
+KOKORO_DIR=/path/to/kokoro SFX_DIR=/path/to/sfx python3 build.py out.mp4
+```
+קורא את התסריט מ-`scene.html`, מקליט, בודק כל משפט בזיהוי דיבור (מסמן `??` אם לא ברור), מתזמן, מרנדר ומערבב.
+
+## איך מרנדרים מחדש (ידני, ישן)
 ```bash
 node render.js $PWD/scene_voiced.html $PWD/video_only.mp4 24
 python3 mix_audio.py
